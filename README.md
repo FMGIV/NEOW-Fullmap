@@ -1,2 +1,2 @@
 # NEOW-Fullmap
-for deepwiki
+for deepwiki, since it only sees the master branch of the NEOW git.
