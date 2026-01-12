@@ -1,0 +1,264 @@
+4117 ={
+    name="Stanislav" 
+	dynasty=25554150
+	father=4119
+	religion="catholic"
+	culture="slovak"
+	diplomacy=0
+	martial=3
+	stewardship=4
+	intrigue=4
+	learning=3
+	trait="skilled_tactician"
+	trait="greedy"
+	trait="honest"
+	trait="cruel"
+	trait="arbitrary"
+	2524.7.3={
+		birth=yes
+	}
+	2542.2.10={
+		add_spouse=3785
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+4118 ={
+    name="Jozef" 
+	dynasty=25554058
+	religion="catholic"
+	culture="slovak"
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait="brilliant_strategist"
+	trait="greedy"
+	trait="honest"
+	trait="cruel"
+	trait="just"		
+	2523.1.14={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+4119 ={
+    name="Ján"
+	father=4123
+	dynasty=25554150
+	religion="catholic"
+	culture="slovak"
+	trait="grey_eminence"
+	trait="giant"
+	trait="trusting"
+	trait="ambitious"
+	trait="hedonist"
+	2497.11.2={
+		birth=yes
+	}
+	2553.2.2={
+		effect={
+			add_lover=4027
+		}
+	}
+	2554.7.12={
+		death={
+			death_reason=death_drank_poison
+			killer=4120
+		}
+	}
+}
+
+4120 ={
+    name="Branislav"
+	father=4123
+	dynasty=25554150
+	religion="catholic"
+	culture="slovak"
+	trait="fortune_builder"
+	trait="craven"
+	trait="wroth"
+	trait="diligent"
+	2503.9.24={
+		birth=yes
+		add_claim=k_slovakia
+	}
+	2551.3.29={
+		add_spouse=4027
+	}
+	2554.7.9={
+		effect = {
+			opinion = {
+				modifier = opinion_unfaithful_wife
+				who = 4027
+				years = 10
+			}
+		}
+	}
+	2554.7.11={
+		effect = {
+			reverse_opinion = {
+				modifier = opinion_killed_lover
+				who = 4027
+				months = 60
+			}
+			reverse_opinion = {
+				modifier = opinion_killed_father
+				who = 4117
+				years = 100
+			}
+			reverse_opinion = {
+				modifier = grievously_offended
+				who = 4117
+				years = 10
+			}
+			reverse_opinion = {
+				modifier = opinion_killed_father
+				who = 4121
+				years = 100
+			}
+			add_trait="tribal_kinslayer"
+		}
+	}	
+	2590.1.1={
+		death=yes
+	}
+}
+4121 = {
+    name="Vítek"
+	father=4119
+	mother=4027
+	dynasty=25554150
+	religion="catholic"
+	culture="slovak"
+	trait=bastard
+	2554.7.9={
+		birth=yes
+		effect={
+			add_weak_claim=k_slovakia
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+4122 ={
+    name="Stanislav" 
+	dynasty=25554150
+	father=4123
+	religion="catholic"
+	culture="slovak"
+	trait="scholarly_theologian"
+	trait="just"
+	trait="blinded"
+	trait="charitable"
+	trait="zealous"
+	2492.5.23={
+		birth=yes
+	}
+	2537.1.18={
+		give_nickname=nick_the_good
+		death=yes
+	}
+}
+4123 ={
+    name="Drahomír" 
+	dynasty=25554150
+	father=4124
+	religion="catholic"
+	culture="slovak"
+	trait="skilled_tactician"
+	trait="ambitious"
+	trait="arbitrary"
+	trait="erudite"
+	trait="has_tuberculosis"
+	2461.10.28={
+		birth=yes
+	}
+	2521.4.13={
+		give_nickname=nick_the_noble
+		death={
+			death_reason=death_trait
+		}
+	}
+}
+4124 ={
+    name="Vítek" 
+	dynasty=25554150
+	religion="catholic"
+	culture="slovak"
+	trait="martial_cleric"
+	trait="zealous"
+	trait="envious"
+	trait="honest"
+	trait="weak"
+	2434.5.29={
+		birth=yes
+	}
+	2468.1.31={
+		death=yes
+	}
+}
+4125 ={
+    name="Petra"
+	father=4119
+	dynasty=25554150
+	female=yes
+	religion="catholic"
+	culture="slovak"
+	trait="charismatic_negotiator"
+	trait="giant"
+	trait="chaste"
+	trait="honest"
+	2526.3.31={
+		birth=yes
+		add_claim=k_slovakia
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+4126 ={
+    name="Klára"
+	father=4119
+	dynasty=25554150
+	female=yes
+	religion="catholic"
+	culture="slovak"
+	trait="intricate_webweaver"
+	trait="proud"
+	trait="temperate"
+	2528.11.3={
+		birth=yes
+		add_claim=k_slovakia
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+4127 ={
+    name="Matej"
+	dynasty=36502421 #Cervenák
+	religion="catholic"
+	culture="slovak"
+	trait="grey_eminence"
+	trait="content"
+	trait="temperate"
+	trait="sympathy_pagans"
+	trait="erudite"
+	trait="patient"
+	disallow_random_traits = yes
+	2534.12.13={
+		birth=yes		
+	}
+	2690.1.1={
+		death=yes
+	}
+}

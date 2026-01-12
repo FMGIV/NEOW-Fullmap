@@ -1,0 +1,21 @@
+# 29 - Devon
+
+# County Title
+title = c_devon
+
+# Settlements
+max_settlements = 5
+b_lydford = castle
+b_crediton = temple
+b_exeter = city
+
+#b_axminster = castle
+#b_totnes = castle
+#b_tavistock = castle
+#b_buckfast = castle
+#b_dartmouth = castle
+
+# Misc
+culture = westlander
+religion = summer_queen
+# History

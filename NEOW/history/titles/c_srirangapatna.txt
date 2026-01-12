@@ -1,0 +1,4 @@
+2525.9.12 = {
+	holder = 2826 #Krishnaraja Wodeyar
+	liege = e_karnataka
+}

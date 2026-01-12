@@ -1,0 +1,6 @@
+
+2548.4.3=
+{
+	law = succ_oligarchic_elective
+	holder = 3817
+}

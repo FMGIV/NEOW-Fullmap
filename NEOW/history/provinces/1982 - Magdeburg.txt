@@ -1,0 +1,15 @@
+# 1982 - Magdeburg
+
+# County Title
+title = c_magdeburg
+
+# Settlements
+max_settlements = 4
+b_magdeburg = castle
+b_mansfeld = temple
+
+# Misc
+culture = low_german
+religion = vagarna
+
+# History

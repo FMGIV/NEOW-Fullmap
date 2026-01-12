@@ -1,0 +1,21 @@
+# 907 - Mandesh
+
+# County Title
+title = c_mandesh
+
+# Settlements
+max_settlements = 3
+b_chaghcharan = tribal
+b_adraskan = temple
+
+#b_baluci = castle
+#b_saghar = castle
+#b_kwajaha = castle
+#b_gozareh = castle
+#b_taywara = castle
+
+# Misc
+culture = hazar
+religion = shiite
+
+# History

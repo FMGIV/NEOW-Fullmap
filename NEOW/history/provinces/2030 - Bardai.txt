@@ -1,0 +1,20 @@
+# 2030 - Bardai
+
+# County Title
+title = c_bardai
+
+# Settlements
+max_settlements = 4
+
+b_bardai_afr = tribal
+#b_aouzou = city
+#b_omou = temple
+
+#b_omchi = city
+#b_wath = temple
+#b_bouro = castle
+#b_shinigi = castle
+
+# Misc
+culture = tedaga
+religion = sufi

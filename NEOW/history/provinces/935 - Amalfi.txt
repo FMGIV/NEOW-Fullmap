@@ -1,0 +1,24 @@
+# 935 - Amalfi
+# Now Sorrento
+
+# County Title
+title = c_amalfi
+
+# Settlements
+max_settlements = 4
+
+b_sorrento=castle
+b_castellammare=city
+b_ravello=temple
+
+#b_tramonti = city
+#b_positano = castle
+#b_amalfi = city
+#b_capri = castle
+#b_minori = castle
+
+# Misc
+culture = neapolitan
+religion = catholic
+
+# History

@@ -1,0 +1,23 @@
+# 1348 - Kalach
+
+# County Title
+title = c_kalach
+
+# Settlements
+max_settlements = 4
+
+b_kalach = tribal
+
+#b_solonka
+#b_petropavlovka2
+#b_nekhaevskaya
+#b_kazanskaya
+#b_uspenka2
+#b_shakin
+
+# Misc
+culture = cossack
+religion = zarist
+
+# History
+

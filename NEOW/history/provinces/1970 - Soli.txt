@@ -1,0 +1,15 @@
+# 1970 - Usora
+
+# County Title
+title = c_soli
+
+# Settlements
+max_settlements = 4
+b_banja_luka = tribal
+
+# Misc
+culture = bosnian
+religion = orthodox
+terrain = mountain
+
+# History

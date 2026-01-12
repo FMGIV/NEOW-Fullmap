@@ -1,0 +1,12 @@
+# 1874 - Saur
+
+# County Title
+title = c_saur
+
+# Settlements
+max_settlements = 2
+b_saur = tribal
+
+# Misc
+culture = alagol
+religion = ironist

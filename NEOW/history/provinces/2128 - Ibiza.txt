@@ -1,0 +1,22 @@
+# 2128 - Ibiza
+
+# County Title
+title = c_ibiza
+
+# Settlements
+max_settlements = 3
+b_ibiza= city
+b_siesta = temple
+#b_cubells
+#b_sant_antoni
+#b_talamanca
+#b_sant_josep
+#b_sant_francesc
+
+# Misc
+culture = israeli
+religion = mikraist
+
+# History
+
+2532.10.13 = { trade_post = b_bettman }

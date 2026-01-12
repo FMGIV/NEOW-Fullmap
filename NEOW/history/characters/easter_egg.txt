@@ -1,0 +1,227 @@
+
+1612 = {
+	name="Nainsob" 
+	dynasty=36502039
+	religion="sunni"
+	culture="bosnian" 
+	health=8
+	trait="seducer"
+	trait="inbred"
+	trait="dwarf"
+	2538.8.10={
+		birth=yes
+	}
+	2539.7.17={
+		employer=10009
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+1613 = {
+	name="Ido" 
+	dynasty=21158040
+	religion="jewish"
+	culture="israeli" 
+	trait="quick"
+	trait="shrewd"
+	trait="diligent"
+	trait="gluttonous"
+	2533.9.19={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = israeli
+		}
+	}
+	2551.10.15={
+		employer=3011
+	}
+	2552.4.6={
+		effect={add_friend=1196}
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+
+
+1614 = {
+	name="Victor"
+	dynasty=0 
+	religion="stalinist"
+	culture="pietrovan" 
+	diplomacy=1
+	martial = 15
+	stewardship=1
+	intrigue=1
+	learning = 15
+	trait="scholar"
+	trait="lunatic"
+	trait="drunkard"
+	trait="kind"
+	trait="zealous"
+	trait="paranoid"
+	2532.7.18={
+		birth=yes
+	}
+	2539.7.17={
+		employer=3868
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+1615 = {
+	name="Benjamin"
+	dynasty=390011340 
+	diplomacy=8
+	stewardship=8
+	religion="anglican"
+	secret_religion="calvinist"
+	culture="northlander" 
+	trait="trickster"
+	trait="eccentric"
+	trait="kind"
+	trait="slothful"
+	trait="ambitious"
+	trait="sympathy_esoteric"
+	trait="gamer" #True gamer
+	2534.10.14={
+		birth=yes
+	}
+	2554.10.14={
+		effect = {
+			add_artifact = storm_drum
+			add_artifact = firearm_european
+		}	
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+1616 = {
+	name="Arti"
+	religion="hellenic_pagan"
+	dynasty=526
+	culture="arberian" 
+	trait="just"
+	trait="patient"
+	trait="shy"
+	trait="erudite"
+	trait="cynical"
+	trait="sympathy_christendom"
+	trait="sympathy_zoroastrianism"
+	trait="fortune_builder"
+	2535.3.2={
+		birth=yes
+	}
+	2554.5.14={
+		effect={add_lover=212427}
+	}
+	2554.6.14={
+		effect={add_friend=1617}
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+212427 = {
+	name="Olivia"
+	religion="hellenic_pagan"
+	culture="westlander" 
+	trait="just"
+	trait="kind"
+	trait="shy"
+	trait="honest"
+	trait="cynical"
+	trait="charismatic_negotiator"
+	female=yes
+	2537.9.5={
+		birth=yes
+	}
+	2554.2.11={
+		employer=1616
+	}
+	2554.5.14={
+		effect={add_lover=1616}
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+1617 = {
+	name="Armin"
+	religion="catholic"
+	culture="persian" 
+	trait="wroth"
+	trait="proud"
+	trait="just"
+	trait="cynical"
+	trait="charismatic_negotiator"
+	2537.11.21={
+		birth=yes
+	}
+	2553.7.1={
+		employer=1616
+	}
+	2554.6.14={
+		effect={add_friend=1616}
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+1618 = {
+	name="Freya"
+	religion="lutheran"
+	dynasty=3980131
+	diplomacy=10
+	learning=15
+	martial=10
+	female=yes
+	culture="swedish" 
+	trait="fair"
+	trait="kind"
+	trait="lunatic"
+	trait="erudite"
+	trait="mastermind_theologian"
+	2520.1.11={
+		birth=yes
+	}
+	2550.5.24={
+		add_spouse=1538
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+26961001={ #Prof Lando reference
+	name="Felipe"
+	dynasty=2113174
+	religion="katoliko"
+	culture="tagalog"
+	diplomacy=5
+	martial=3
+	stewardship=6
+	intrigue=4
+	learning=6
+	trait="mastermind_theologian"
+	trait="scholar"
+	trait="lustful"
+	trait="gregarious"
+	trait="genius"
+	disallow_random_traits = yes
+	2535.2.14={
+		birth=yes
+	}
+	2550.1.1={
+		employer = 4826
+	}
+	2550.1.1={
+		give_nickname = "nick_professor"
+	}
+	2666.1.1={
+	death=yes
+	}
+}

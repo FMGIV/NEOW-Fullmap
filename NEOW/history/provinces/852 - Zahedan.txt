@@ -1,0 +1,22 @@
+# 852 - Zahedan
+
+# County Title
+title = c_zahedan
+
+# Settlements
+max_settlements = 4
+b_zahedan = tribal
+#b_lucho = temple
+#b_mirjaveh = city
+
+#b_ladiz = city
+#b_jash = castle
+#b_nazil = castle
+#b_ashuru = castle
+#b_dumak = castle
+
+# Misc
+culture = brahui
+religion = deobandi
+
+# History

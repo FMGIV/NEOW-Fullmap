@@ -1,0 +1,21 @@
+# 200 - Soria
+
+# County Title
+title = c_soria
+
+# Settlements
+max_settlements = 3
+b_soria = castle
+b_almazan = city
+b_gormaz = temple
+
+#b_castromoro = castle
+#b_medinacelli = castle
+#b_calatanazor = castle
+#b_ucero = castle
+#b_medinaceli = castle
+
+culture = castilian
+religion = sevillian
+
+# History

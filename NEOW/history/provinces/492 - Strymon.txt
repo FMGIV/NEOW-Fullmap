@@ -1,0 +1,24 @@
+# 492 - Strymon
+
+# County Title
+title = c_strymon
+
+# Settlements
+max_settlements = 3
+
+b_strumica = castle
+b_berovo = temple
+
+#b_djevdjelija = castle
+#b_trikves = castle
+#b_kocane = castle
+#b_kratovo = castle
+
+# Misc
+culture = macedonian
+religion = hellenic_pagan
+
+# History
+
+
+

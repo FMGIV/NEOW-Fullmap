@@ -1,0 +1,16 @@
+# 1725 - Suf
+
+# County Title
+title = c_suf
+
+# Settlements
+max_settlements = 2
+
+b_suf = tribal
+b_dar_abd_el_aziz = temple
+
+# Misc
+culture = barbariyya
+religion = muwahidunna
+
+# History

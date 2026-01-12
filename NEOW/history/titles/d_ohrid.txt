@@ -1,0 +1,5 @@
+2545.4.25 = {
+	holder=10003
+	set_tribute_suzerain = { who = e_yugoslavia type = permanent }
+}
+

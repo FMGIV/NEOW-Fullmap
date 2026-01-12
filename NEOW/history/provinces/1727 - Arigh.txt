@@ -1,0 +1,16 @@
+# 1727 - Arigh
+
+# County Title
+title = c_arigh
+
+# Settlements
+max_settlements = 2
+
+b_arigh = tribal
+#b_ajlu
+
+# Misc
+culture = barbariyya
+religion = muwahidunna
+
+# History

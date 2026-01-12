@@ -1,0 +1,26 @@
+# 1319 - Bikrampur
+
+# County Title
+title = c_bikrampur
+
+# Settlements
+max_settlements = 7
+b_bikrampur = castle
+b_sutrapur = city
+b_dhakeshwari_jatiya_mandir = temple
+b_loricol = castle
+b_shakhari_bazar = castle
+#b_hajiganj = castle
+
+# Misc
+culture = bengali
+religion = dahatatta
+
+# History
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 4
+	build_wonder_upgrade = upgrade_cow_district_palace
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+	build_wonder_upgrade = upgrade_cow_district_garden
+}

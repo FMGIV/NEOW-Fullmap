@@ -1,0 +1,4 @@
+2520.8.25 = {
+		holder = 4957
+		liege = d_juneau
+}

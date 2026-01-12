@@ -1,0 +1,14 @@
+# 504 - Soli
+
+# County Title
+title = c_rama
+
+# Settlements
+max_settlements = 3
+b_sabac = tribal
+
+# Misc
+culture = serbian
+religion = orthodox
+terrain = mountain
+

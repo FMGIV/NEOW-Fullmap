@@ -1,0 +1,20 @@
+# 1588 - Neumark
+
+# County Title
+title = c_neumark
+
+# Settlements
+max_settlements = 4
+b_santok = castle
+
+b_driesen = city
+b_bernstein = temple
+#b_dramburg
+#b_tempelburg
+#b_schivelbein
+#b_drawa
+
+# Misc
+culture = greater_polish
+religion = lutheran
+# History

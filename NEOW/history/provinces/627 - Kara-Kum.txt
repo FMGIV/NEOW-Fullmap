@@ -1,0 +1,14 @@
+# 627 - Kara-Kum
+
+# County Title
+title = c_kara-kum
+
+# Settlements
+max_settlements = 2
+b_farava = castle
+
+# Misc
+culture = turkmen
+religion = ovlatii
+
+# History

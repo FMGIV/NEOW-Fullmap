@@ -1,0 +1,21 @@
+# 917 - Araouane
+
+# County Title
+title = c_araouane
+
+# Settlements
+max_settlements = 2
+b_araouane = tribal
+
+#b_tessalit = city
+#b_aguelhok = temple
+#b_abalessa_2 = castle
+#b_tinzaouten = castle
+#b_guezzam_2 = castle
+#b_tazrouk = castle
+
+# Misc
+culture = tuareg
+religion = muwahidunna
+
+# History

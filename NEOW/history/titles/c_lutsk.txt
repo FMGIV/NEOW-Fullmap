@@ -1,0 +1,5 @@
+
+2545.3.2={
+	holder = 4002
+	liege = d_cherven_cities
+}

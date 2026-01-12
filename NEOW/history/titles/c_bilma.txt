@@ -1,0 +1,5 @@
+
+2553.5.5={
+	holder = 1076
+	historical_nomad = yes
+}

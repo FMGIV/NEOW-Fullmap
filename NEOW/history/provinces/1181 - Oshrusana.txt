@@ -1,0 +1,15 @@
+# 1181 - Oshrusana
+
+# County Title
+title = c_oshrusana
+
+# Settlements
+max_settlements = 4
+b_banjikat = castle
+b_zaamin = city
+b_oshrusana = temple
+
+# Misc
+culture = uzbek
+religion = ovlatii
+terrain = steppe

@@ -1,0 +1,24 @@
+# County Title
+title = c_shigatse
+
+# Settlements
+max_settlements = 4
+
+b_shigatse = castle
+b_gongon_lhakhang = temple #(Temple built by Songtsen Gampo and freqented by Padmasambhava, Namkhai Nyingpo, and King Trisong Detsen)
+b_samzhubze = city
+#b_yungdrungling = temple #(Important Bon Monastery)
+#b_namling = 
+#b_shalu = temple
+#b_tashilhunpo = temple
+
+# Misc
+culture = u_tsang
+religion = gelugpa
+
+# History
+
+1040.1.1 = {
+	b_shalu = temple
+}# Shalu Monastery founded by Chetsun Sherab Jungnay
+

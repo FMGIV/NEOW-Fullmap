@@ -1,0 +1,21 @@
+# 449 - Österreich
+
+# County Title
+title = c_osterreich
+
+# Settlements
+max_settlements = 7
+b_klosterneuburg = castle
+b_wien = city
+b_korneuburg = temple
+
+b_wagram = castle
+
+# Misc
+culture = austrian
+religion = catholic
+
+# History
+1942.7.25 = {
+	b_klosterneuburg = ca_flaktower
+}

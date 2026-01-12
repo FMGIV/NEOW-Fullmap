@@ -1,0 +1,21 @@
+# 852 - Orvieto
+
+# County Title
+title = c_orvieto
+
+# Settlements
+max_settlements = 4
+b_orvieto = castle
+b_viterbo = city
+b_alviano = temple
+#b_amelia = city
+#b_montecastrilli = castle
+#b_cascia= castle
+#b_otricoli = castle
+#b_baschi = castle
+
+# Misc
+culture = lazian
+religion = catholic
+
+# History

@@ -1,0 +1,4 @@
+2543.12.23 = {
+		holder = 10762
+		liege = d_khorat
+	}

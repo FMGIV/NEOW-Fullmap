@@ -1,0 +1,22 @@
+# 231 - Saluzzo
+
+# County Title
+title = c_saluzzo
+
+# Settlements
+max_settlements = 4
+b_caraglio = castle
+b_cuneo = city
+b_pinerolo = temple 
+
+#b_savigliano = castle
+#b_busca = castle
+#b_paesana = castle
+#b_verzuolo = castle
+#b_saluzzo = castle
+
+# Misc
+culture = piemontese
+religion = catholic
+
+# History

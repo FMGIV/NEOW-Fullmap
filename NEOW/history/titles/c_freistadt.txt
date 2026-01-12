@@ -1,0 +1,5 @@
+
+2551.3.13={
+	holder = 2051
+        liege=d_osterreich
+}

@@ -1,0 +1,20 @@
+# 52 - Northumberland
+
+# County Title
+title = c_northumberland
+
+# Settlements
+max_settlements = 6
+b_gateshead = castle
+b_newcastle = city
+b_hexham = temple
+b_morpeth = castle
+#b_jarrow = castle
+#b_alnwick = castle
+#b_mitford = castle
+
+# Misc
+culture = northlander
+religion = anglican
+
+# History

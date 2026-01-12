@@ -1,0 +1,4 @@
+2554.7.6={
+	holder=1285 
+	liege=c_york
+}

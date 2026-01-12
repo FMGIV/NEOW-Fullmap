@@ -1,0 +1,4 @@
+2522.6.14={
+	liege=k_portugal
+	holder=238
+}

@@ -1,0 +1,18 @@
+# 1782 - Kharga
+
+# County Title
+title = c_kharga
+
+# Settlements
+max_settlements = 2
+b_elkharga = castle
+
+#b_baris
+#b_ismant
+
+# Misc
+culture = saidi
+religion = sunni
+
+# History
+

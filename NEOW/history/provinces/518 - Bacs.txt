@@ -1,0 +1,20 @@
+# 518 - Bacs
+
+# County Title
+title = c_bacs
+
+# Settlements
+max_settlements = 4
+b_novi_sad = castle
+
+b_subotica = temple
+b_apatin = city
+#b_bacsalmas = castle
+#b_pancsova = city
+#b_pardany = castle
+
+# Misc
+culture = bunjevci
+religion = catholic
+
+# History

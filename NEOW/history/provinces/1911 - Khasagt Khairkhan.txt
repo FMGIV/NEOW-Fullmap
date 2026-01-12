@@ -1,0 +1,14 @@
+# 1911 - Khasagt Khairkhan
+
+# County Title
+title = c_khasagt_khairkhan
+
+# Settlements
+max_settlements = 2
+b_khasagt_khairkhan = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

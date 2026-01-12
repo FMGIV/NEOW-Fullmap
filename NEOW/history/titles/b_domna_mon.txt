@@ -1,0 +1,4 @@
+2550.1.1={
+	holder=4035
+liege = d_chita
+}

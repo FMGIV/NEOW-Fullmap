@@ -1,0 +1,5 @@
+
+2554.3.13 ={
+	holder=9293
+	liege=e_vladivostok
+}

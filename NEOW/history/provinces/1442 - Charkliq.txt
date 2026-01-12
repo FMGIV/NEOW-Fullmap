@@ -1,0 +1,18 @@
+# County Title
+title = c_charkliq
+
+# Settlements
+max_settlements = 5
+
+b_charkliq = castle
+b_miran = city
+b_kargan = temple
+#b_ruoqiang =
+#b_lop =
+#b_merdek =
+#b_yuni =
+
+
+# Misc
+culture = uyghur
+religion = ovlatii

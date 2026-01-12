@@ -1,0 +1,20 @@
+# 1769 - Bokoro
+
+# County Title
+title = c_bokoro
+
+# Settlements
+max_settlements = 4
+
+b_bokoro = castle
+b_moudo = city
+b_yao = temple
+
+#b_dogo_3 = city
+#b_rim_2 = temple
+#b_garada = castle
+#b_moyto = castle
+
+# Misc
+culture = baggara
+religion = sufi

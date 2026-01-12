@@ -1,0 +1,15 @@
+# 1853 - Magnitaya
+
+# County Title
+title = c_magnitaya
+
+# Settlements
+max_settlements = 4
+b_magnitaya = tribal
+
+# Misc
+culture = alagol
+religion = ironist
+terrain = steppe
+
+# History

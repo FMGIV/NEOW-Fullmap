@@ -1,0 +1,191 @@
+1493 = {
+	name="Khanpasha"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1494
+	mother = 1495
+	2512.8.12={
+		birth=yes
+	}
+	2545.10.14 = {
+		add_spouse = 1501
+	}
+	2560.1.1={
+		death=yes
+	}
+}
+1494 = {
+	name="Zelimkhan"
+	dynasty=25540015
+	father = 1505
+	religion="sunni"
+	culture="chechen"
+	2489.12.3={
+		birth=yes
+	}
+	2510.5.12 = {
+		add_spouse = 1495
+	}
+	2551.7.14={
+		death=yes
+	}
+}
+1495 = {
+	name="Lyalya"
+	dynasty=25540014
+	religion="sunni"
+	culture="chechen"
+	female = yes
+	2494.8.13={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1496 = {
+	name="Movlid"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1494
+	mother = 1495
+	2515.10.10={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1497 = {
+	name="Elmira"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1494
+	mother = 1495
+	female = yes
+	2520.10.31={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1498 = {
+	name="Malkhazni"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	female = yes
+	father = 1494
+	mother = 1495
+	2520.4.14={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1499 = {
+	name="Tamerlan"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1494
+	mother = 1495
+	2525.6.29={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1500 = {
+	name="Sukhayla"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1494
+	mother = 1495
+	female = yes
+	2530.7.20={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1501 = {
+	name="Seda"
+	dynasty=25540016
+	religion="sunni"
+	culture="chechen"
+	female = yes
+	2529.7.20={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1502 = {
+	name="Irbaykhan"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1493
+	mother = 1501
+	2546.2.28={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1503 = {
+	name="Akhmed"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1493
+	mother = 1501
+	2548.4.14={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1504 = {
+	name="Natalya"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	father = 1493
+	mother = 1501
+	female = yes
+	2550.1.12={
+		birth=yes
+	}
+	2560.7.14={
+		death=yes
+	}
+}
+1505 = {
+	name="Timur"
+	dynasty=25540015
+	religion="sunni"
+	culture="chechen"
+	trait="brilliant_strategist"
+	trait="poet"
+	trait="peasant_noble"
+	trait="just"
+	2459.2.25={
+		birth=yes
+	}
+	2510.1.12={
+		death=yes
+	}
+}

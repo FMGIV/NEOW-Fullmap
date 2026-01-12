@@ -1,0 +1,19 @@
+# 1548 - Khaylam
+
+# County Title
+title = c_khaylam
+
+# Settlements
+max_settlements = 5
+
+b_khaylam = castle
+b_akhsikath = city
+b_wankath = temple
+#b_kasan = city
+#b_miyanrudhan = castle
+#b_ardalankath = city
+#b_najm = castle
+
+# Misc
+culture = kirghiz
+religion = orthodox

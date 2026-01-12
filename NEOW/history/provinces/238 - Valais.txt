@@ -1,0 +1,22 @@
+# 238 - Valais
+
+# County Title
+title = c_valais
+
+# Settlements
+max_settlements = 3
+b_sitten = castle
+b_greyerz = temple
+b_martigny = city
+
+#b_brig = castle
+#b_monthey = temple
+#b_siders = castle
+#b_aigle = city
+
+# Misc
+culture = romansch
+religion = calvinist
+
+# History
+

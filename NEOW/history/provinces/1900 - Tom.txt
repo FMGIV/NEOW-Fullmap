@@ -1,0 +1,10 @@
+# 1900 - Tom
+
+# County Title
+title = c_tom
+
+# Settlements
+max_settlements = 4
+b_tom = tribal
+culture = east_sibiran
+religion = folklorist

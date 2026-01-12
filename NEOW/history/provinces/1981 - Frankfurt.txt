@@ -1,0 +1,17 @@
+# 1981 - Frankfurt
+
+# County Title
+title = c_frankfurt
+
+# Settlements
+max_settlements = 4
+b_frankfurt = castle
+b_katzenelnbogen = city
+b_wiesbaden = temple
+
+# Misc
+culture = hessian
+religion = concordianist
+terrain = tells
+
+# History

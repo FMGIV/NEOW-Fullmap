@@ -1,0 +1,6 @@
+
+2548.1.14=
+{
+	holder = 4279
+	liege = k_daylam
+}

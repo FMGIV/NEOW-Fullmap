@@ -1,0 +1,20 @@
+# 164 - Niebla
+
+# County Title
+title = c_niebla
+
+# Settlements
+max_settlements = 4
+b_niebla = castle
+b_almonte = city
+b_palos = temple
+#b_nerva = castle
+#b_aracenaniebla = castle
+#b_rocianadelcondado = castle
+#b_trigueros = castle
+
+#Misc
+culture = andalusian
+religion = sevillian
+
+

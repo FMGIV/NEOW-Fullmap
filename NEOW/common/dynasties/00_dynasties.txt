@@ -1,0 +1,1321 @@
+101 =
+{
+	name="Valois"
+	culture="french"
+	religion="catholic"
+	used_for_random=no
+}
+102 =
+{
+	name="von Belgien"
+	culture="belgian"
+	used_for_random=no
+}
+103 =
+{
+	name="Ardenne-Luxembourg"
+	culture="luxembourgish"
+	religion="catholic"
+	used_for_random=no
+}
+104 =
+{
+	name="Namur"
+	culture="luxembourgish"
+	religion="catholic"
+	used_for_random=no
+}
+105 =
+{
+	name="Hohenstaufen"
+	culture="luxembourgish"
+	religion="catholic"
+	used_for_random=no
+}
+106 =
+{
+	name="Luxembourg-Namur"
+	culture="luxembourgish"
+	religion="catholic"
+	used_for_random=no
+}
+107 =
+{
+	name="Luxembourg-Limburg"
+	culture="luxembourgish"
+	religion="catholic"
+	used_for_random=no
+}
+2039000 = { name="Galyáx" culture=tlingit }
+2039001 = { name="Xunaa" culture=tlingit }
+2039002 = { name="S'awdáan" culture=tlingit }
+2039003 = { name="T'akjikaan" culture=tlingit }
+2039004 = { name="Laaxaayík" culture=tlingit }
+2039005 = { name="T'aaku" culture=tlingit }
+2039006 = { name="Xutsnoowú" culture=tlingit }
+2039007 = { name="Hinyaa" culture=tlingit }
+2039008 = { name="Gunaaxoo" culture=tlingit }
+2039009 = { name="Deisleen" culture=tlingit }
+2039010 = { name="Shee T'iká" culture=tlingit }
+2039011 = { name="Shtax'héen" culture=tlingit }
+2039012 = { name="Jilkáat" culture=tlingit }
+2039013 = { name="Áa Tlein" culture=tlingit }
+2039014 = { name="Kéex'" culture=tlingit }
+2039015 = { name="Taant'a" culture=tlingit }
+2039016 = { name="Jilkoot" culture=tlingit }
+2039017 = { name="Áak'w" culture=tlingit }
+2039018 = { name="Kooyu" culture=tlingit }
+2039019 = { name="Saanyaa" culture=tlingit }
+2039020 = { name="Thlunaut" culture=tlingit }
+2039021 = { name="Anotklosh" culture=tlingit }
+2039022 = { name="Kaagwaantaan" culture=tlingit }
+2039023 = { name="Kasakan" culture=tlingit }
+2039024 = { name="Ganaxteidee" culture=tlingit }
+2039025 = { name="Lkweidí" culture=tlingit }
+2039026 = { name="Yanyeidí" culture=tlingit }
+2039027 = { name="Dagisdinaa" culture=tlingit }
+2039028 = { name="Teikweidí" culture=tlingit }
+2039029 = { name="Jishkweidí" culture=tlingit }
+2039030 = { name="Dakl'aweidí" culture=tlingit }
+2039031 = { name="Shangukeidí" culture=tlingit }
+2039032 = { name="Wooshkeetaan" culture=tlingit }
+2039033 = { name="Chookaneidí" culture=tlingit }
+2039034 = { name="Kadakwtádi" culture=tlingit }
+2039035 = { name="Tsaateeneidí" culture=tlingit }
+2039036 = { name="S'eet'kweidí" culture=tlingit }
+2039037 = { name="Kookhittaan" culture=tlingit }
+2039038 = { name="Tsaagweidí" culture=tlingit }
+2039039 = { name="Neestídi" culture=tlingit }
+2039040 = { name="Was'ineidí" culture=tlingit }
+2039041 = { name="Naasteidí" culture=tlingit }
+2039042 = { name="Kayaashkeiditaan" culture=tlingit }
+2039043 = { name="Naanyaataayí" culture=tlingit }
+2039044 = { name="Sik'naxtádi" culture=tlingit }
+2039045 = { name="Xook'eidí" culture=tlingit }
+2039046 = { name="Kaax'oosthittaan" culture=tlingit }
+2039047 = { name="Neixtádi" culture=tlingit }
+2039048 = { name="Táakwaaneidí" culture=tlingit }
+2039049 = { name="L'uknaxádi" culture=tlingit }
+2039050 = { name="T'éex'adi" culture=tlingit }
+2039051 = { name="Ishkeetaan" culture=tlingit }
+2039052 = { name="X'at'kataayí" culture=tlingit }
+2039053 = { name="Koosk'eidí" culture=tlingit }
+2039054 = { name="X'alchaneidí" culture=tlingit }
+2039055 = { name="Kiksádi" culture=tlingit }
+2039056 = { name="Teeyineidí" culture=tlingit }
+2039057 = { name="Deisheetaan" culture=tlingit }
+2039058 = { name="Aanx'aakíttaan" culture=tlingit }
+2039059 = { name="L'eeneidi" culture=tlingit }
+2039060 = { name="T'akdeintaan" culture=tlingit }
+2039061 = { name="L'ukwaaxádi" culture=tlingit }
+2039062 = { name="Noowshakataayí" culture=tlingit }
+2039063 = { name="Kwáashk'ikwáan" culture=tlingit }
+2039064 = { name="Weix'hineidí" culture=tlingit }
+2039065 = { name="Yéeskaneidí" culture=tlingit }
+2039066 = { name="L'ookwhineidí" culture=tlingit }
+2039067 = { name="Kuyeidí" culture=tlingit }
+2039068 = { name="Téel'híttaan" culture=tlingit }
+2039069 = { name="Sakwteeneidí" culture=tlingit }
+2039070 = { name="Kijookw'híttaan" culture=tlingit }
+2039071 = { name="Taneidí" culture=tlingit }
+2039072 = { name="Kayaatádi" culture=tlingit }
+2039073 = { name="Tukwyeidí" culture=tlingit }
+2039074 = { name="Kaasx'agweidí" culture=tlingit }
+2039075 = { name="Taalkweidí" culture=tlingit }
+2039076 = { name="Kuyéik'ádi" culture=tlingit }
+
+
+1200081 = { name="Ket" culture=haida }
+1200082 = { name="Tlhingus" culture=haida }
+1200083 = { name="Kil" culture=haida }
+1200084 = { name="Koagoagit" culture=haida }
+1200085 = { name="Koga" culture=haida }
+1200086 = { name="Kogalskun" culture=haida }
+1200087 = { name="Kungga" culture=haida }
+1200088 = { name="Kunhalas" culture=haida }
+1200089 = { name="Kunkia" culture=haida }
+1200090 = { name="Kuulana" culture=haida }
+1200091 = { name="Lanadagunga" culture=haida }
+1200092 = { name="Lanagahlkehoda" culture=haida }
+1200093 = { name="Lanahawa" culture=haida }
+1200094 = { name="Lanahilduns" culture=haida }
+1200095 = { name="Lanaslnagai" culture=haida }
+1200096 = { name="Lanaungsuls" culture=haida }
+1200097 = { name="Nagus" culture=haida }
+1200098 = { name="Sahldungkun" culture=haida }
+1200099 = { name="Sakaedigialas" culture=haida }
+1200100 = { name="Sindaskun" culture=haida }
+1200101 = { name="Sindatahls" culture=haida }
+1200102 = { name="Singa" culture=haida }
+1200103 = { name="Skae" culture=haida }
+1200104 = { name="Skaito" culture=haida }
+1200105 = { name="Skaos" culture=haida }
+1200106 = { name="Skena" culture=haida }
+1200107 = { name="Skudus" culture=haida }
+1200108 = { name="Stlindagwai" culture=haida }
+1200109 = { name="Stunhlai" culture=haida }
+1200110 = { name="Ta" culture=haida }
+1200111 = { name="Kadusgo" culture=haida }
+1200112 = { name="Te" culture=haida }
+1200113 = { name="Tohlka" culture=haida }
+1200114 = { name="Widja" culture=haida }
+1200115 = { name="Kungielung" culture=haida }
+1200116 = { name="Dahua" culture=haida }
+1200117 = { name="Yatza" culture=haida }
+1200118 = { name="Youahnoe" culture=haida }
+1200119 = { name="Sulustins" culture=haida }
+
+
+2139000 = { name="Galyáx" culture=daxunhyuu }
+2139001 = { name="Xunaa" culture=daxunhyuu }
+2139002 = { name="S'awdáan" culture=daxunhyuu }
+2139003 = { name="T'akjikaan" culture=daxunhyuu }
+2139004 = { name="Laaxaayík" culture=daxunhyuu }
+2139005 = { name="T'aaku" culture=daxunhyuu }
+2139006 = { name="Xutsnoowú" culture=daxunhyuu }
+2139007 = { name="Hinyaa" culture=daxunhyuu }
+2139008 = { name="Gunaaxoo" culture=daxunhyuu }
+2139009 = { name="Deisleen" culture=daxunhyuu }
+2139010 = { name="Shee T'iká" culture=daxunhyuu }
+2139011 = { name="Shtax'héen" culture=daxunhyuu }
+2139012 = { name="Jilkáat" culture=daxunhyuu }
+2139013 = { name="Áa Tlein" culture=daxunhyuu }
+2139014 = { name="Kéex'" culture=daxunhyuu }
+2139015 = { name="Taant'a" culture=daxunhyuu }
+2139016 = { name="Jilkoot" culture=daxunhyuu }
+2139017 = { name="Áak'w" culture=daxunhyuu }
+2139018 = { name="Kooyu" culture=daxunhyuu }
+2139019 = { name="Saanyaa" culture=daxunhyuu }
+2139020 = { name="Thlunaut" culture=daxunhyuu }
+2139021 = { name="Anotklosh" culture=daxunhyuu }
+2139022 = { name="Kaagwaantaan" culture=daxunhyuu }
+2139023 = { name="Kasakan" culture=daxunhyuu }
+2139024 = { name="Ganaxteidee" culture=daxunhyuu }
+2139025 = { name="Lkweidí" culture=daxunhyuu }
+2139026 = { name="Yanyeidí" culture=daxunhyuu }
+2139027 = { name="Dagisdinaa" culture=daxunhyuu }
+2139028 = { name="Teikweidí" culture=daxunhyuu }
+2139029 = { name="Jishkweidí" culture=daxunhyuu }
+2139030 = { name="Dakl'aweidí" culture=daxunhyuu }
+2139031 = { name="Shangukeidí" culture=daxunhyuu }
+2139032 = { name="Wooshkeetaan" culture=daxunhyuu }
+2139033 = { name="Chookaneidí" culture=daxunhyuu }
+2139034 = { name="Kadakwtádi" culture=daxunhyuu }
+2139035 = { name="Tsaateeneidí" culture=daxunhyuu }
+2139036 = { name="S'eet'kweidí" culture=daxunhyuu }
+2139037 = { name="Kookhittaan" culture=daxunhyuu }
+2139038 = { name="Tsaagweidí" culture=daxunhyuu }
+2139039 = { name="Neestídi" culture=daxunhyuu }
+2139040 = { name="Was'ineidí" culture=daxunhyuu }
+2139041 = { name="Naasteidí" culture=daxunhyuu }
+2139042 = { name="Kayaashkeiditaan" culture=daxunhyuu }
+2139043 = { name="Naanyaataayí" culture=daxunhyuu }
+2139044 = { name="Sik'naxtádi" culture=daxunhyuu }
+2139045 = { name="Xook'eidí" culture=daxunhyuu }
+2139046 = { name="Kaax'oosthittaan" culture=daxunhyuu }
+2139047 = { name="Neixtádi" culture=daxunhyuu }
+2139048 = { name="Táakwaaneidí" culture=daxunhyuu }
+2139049 = { name="L'uknaxádi" culture=daxunhyuu }
+2139050 = { name="T'éex'adi" culture=daxunhyuu }
+2139051 = { name="Ishkeetaan" culture=daxunhyuu }
+2139052 = { name="X'at'kataayí" culture=daxunhyuu }
+2139053 = { name="Koosk'eidí" culture=daxunhyuu }
+2139054 = { name="X'alchaneidí" culture=daxunhyuu }
+2139055 = { name="Kiksádi" culture=daxunhyuu }
+2139056 = { name="Teeyineidí" culture=daxunhyuu }
+2139057 = { name="Deisheetaan" culture=daxunhyuu }
+2139058 = { name="Aanx'aakíttaan" culture=daxunhyuu }
+2139059 = { name="L'eeneidi" culture=daxunhyuu }
+2139060 = { name="T'akdeintaan" culture=daxunhyuu }
+2139061 = { name="L'ukwaaxádi" culture=daxunhyuu }
+2139062 = { name="Noowshakataayí" culture=daxunhyuu }
+2139063 = { name="Kwáashk'ikwáan" culture=daxunhyuu }
+2139064 = { name="Weix'hineidí" culture=daxunhyuu }
+2139065 = { name="Yéeskaneidí" culture=daxunhyuu }
+2139066 = { name="L'ookwhineidí" culture=daxunhyuu }
+2139067 = { name="Kuyeidí" culture=daxunhyuu }
+2139068 = { name="Téel'híttaan" culture=daxunhyuu }
+2139069 = { name="Sakwteeneidí" culture=daxunhyuu }
+2139070 = { name="Kijookw'híttaan" culture=daxunhyuu }
+2139071 = { name="Taneidí" culture=daxunhyuu }
+2139072 = { name="Kayaatádi" culture=daxunhyuu }
+2139073 = { name="Tukwyeidí" culture=daxunhyuu }
+2139074 = { name="Kaasx'agweidí" culture=daxunhyuu }
+2139075 = { name="Taalkweidí" culture=daxunhyuu }
+2139076 = { name="Kuyéik'ádi" culture=daxunhyuu }
+
+
+2239000 = { name="Galyáx" culture=tsimshian }
+2239001 = { name="Xunaa" culture=tsimshian }
+2239002 = { name="S'awdáan" culture=tsimshian }
+2239003 = { name="T'akjikaan" culture=tsimshian }
+2239004 = { name="Laaxaayík" culture=tsimshian }
+2239005 = { name="T'aaku" culture=tsimshian }
+2239006 = { name="Xutsnoowú" culture=tsimshian }
+2239007 = { name="Hinyaa" culture=tsimshian }
+2239008 = { name="Gunaaxoo" culture=tsimshian }
+2239009 = { name="Deisleen" culture=tsimshian }
+2239010 = { name="Shee T'iká" culture=tsimshian }
+2239011 = { name="Shtax'héen" culture=tsimshian }
+2239012 = { name="Jilkáat" culture=tsimshian }
+2239013 = { name="Áa Tlein" culture=tsimshian }
+2239014 = { name="Kéex'" culture=tsimshian }
+2239015 = { name="Taant'a" culture=tsimshian }
+2239016 = { name="Jilkoot" culture=tsimshian }
+2239017 = { name="Áak'w" culture=tsimshian }
+2239018 = { name="Kooyu" culture=tsimshian }
+2239019 = { name="Saanyaa" culture=tsimshian }
+2239020 = { name="Thlunaut" culture=tsimshian }
+2239021 = { name="Anotklosh" culture=tsimshian }
+2239022 = { name="Kaagwaantaan" culture=tsimshian }
+2239023 = { name="Kasakan" culture=tsimshian }
+2239024 = { name="Ganaxteidee" culture=tsimshian }
+2239025 = { name="Lkweidí" culture=tsimshian }
+2239026 = { name="Yanyeidí" culture=tsimshian }
+2239027 = { name="Dagisdinaa" culture=tsimshian }
+2239028 = { name="Teikweidí" culture=tsimshian }
+2239029 = { name="Jishkweidí" culture=tsimshian }
+2239030 = { name="Dakl'aweidí" culture=tsimshian }
+2239031 = { name="Shangukeidí" culture=tsimshian }
+2239032 = { name="Wooshkeetaan" culture=tsimshian }
+2239033 = { name="Chookaneidí" culture=tsimshian }
+2239034 = { name="Kadakwtádi" culture=tsimshian }
+2239035 = { name="Tsaateeneidí" culture=tsimshian }
+2239036 = { name="S'eet'kweidí" culture=tsimshian }
+2239037 = { name="Kookhittaan" culture=tsimshian }
+2239038 = { name="Tsaagweidí" culture=tsimshian }
+2239039 = { name="Neestídi" culture=tsimshian }
+2239040 = { name="Was'ineidí" culture=tsimshian }
+2239041 = { name="Naasteidí" culture=tsimshian }
+2239042 = { name="Kayaashkeiditaan" culture=tsimshian }
+2239043 = { name="Naanyaataayí" culture=tsimshian }
+2239044 = { name="Sik'naxtádi" culture=tsimshian }
+2239045 = { name="Xook'eidí" culture=tsimshian }
+2239046 = { name="Kaax'oosthittaan" culture=tsimshian }
+2239047 = { name="Neixtádi" culture=tsimshian }
+2239048 = { name="Táakwaaneidí" culture=tsimshian }
+2239049 = { name="L'uknaxádi" culture=tsimshian }
+2239050 = { name="T'éex'adi" culture=tsimshian }
+2239051 = { name="Ishkeetaan" culture=tsimshian }
+2239052 = { name="X'at'kataayí" culture=tsimshian }
+2239053 = { name="Koosk'eidí" culture=tsimshian }
+2239054 = { name="X'alchaneidí" culture=tsimshian }
+2239055 = { name="Kiksádi" culture=tsimshian }
+2239056 = { name="Teeyineidí" culture=tsimshian }
+2239057 = { name="Deisheetaan" culture=tsimshian }
+2239058 = { name="Aanx'aakíttaan" culture=tsimshian }
+2239059 = { name="L'eeneidi" culture=tsimshian }
+2239060 = { name="T'akdeintaan" culture=tsimshian }
+2239061 = { name="L'ukwaaxádi" culture=tsimshian }
+2239062 = { name="Noowshakataayí" culture=tsimshian }
+2239063 = { name="Kwáashk'ikwáan" culture=tsimshian }
+2239064 = { name="Weix'hineidí" culture=tsimshian }
+2239065 = { name="Yéeskaneidí" culture=tsimshian }
+2239066 = { name="L'ookwhineidí" culture=tsimshian }
+2239067 = { name="Kuyeidí" culture=tsimshian }
+2239068 = { name="Téel'híttaan" culture=tsimshian }
+2239069 = { name="Sakwteeneidí" culture=tsimshian }
+2239070 = { name="Kijookw'híttaan" culture=tsimshian }
+2239071 = { name="Taneidí" culture=tsimshian }
+2239072 = { name="Kayaatádi" culture=tsimshian }
+2239073 = { name="Tukwyeidí" culture=tsimshian }
+2239074 = { name="Kaasx'agweidí" culture=tsimshian }
+2239075 = { name="Taalkweidí" culture=tsimshian }
+2239076 = { name="Kuyéik'ádi" culture=tsimshian }
+
+
+
+108 =
+{
+	name="Valois-Burgundy"
+	culture="french"
+	religion="catholic"
+	used_for_random=no
+}
+109 =
+{
+	name="Wittlesbach"
+	culture="bavarian"
+	religion="catholic"
+	used_for_random=no
+}
+110 =
+{
+	name="Nassau-Weilburg"
+	culture="luxembourgish"
+	religion="lutheran"
+	used_for_random=no
+}
+111 =
+{
+	name="Nassau-Weilburg"
+	culture="luxembourgish"
+	religion="catholic"
+	used_for_random=no
+}
+112 =
+{
+	name="Belgium"
+	culture="belgian"
+	religion="catholic"
+	used_for_random=no
+}
+113 =
+{
+	name="Belgium-Nassau-Weilburg"
+	culture="belgian"
+	religion="catholic"
+	used_for_random=no
+}
+114 =
+{
+	name="Orange-Nassau"
+	culture="dutch"
+	religion="calvinist"
+	used_for_random=no
+}
+115 =
+{
+	name="Hohenzollern"
+	culture="prussian"
+	religion="calvinist"
+	used_for_random=no
+}
+743 = {
+	name="Capet"
+	culture="french"
+	religion="catholic"
+	used_for_random=no
+}
+9306 = {
+	name="Bosonid"
+	culture="french"
+	religion="catholic"
+	used_for_random=no
+}
+
+3821102 = { name="Bonaparte" culture=french religion = jacobinist used_for_random=no } #For title history
+3821103 = { name="d'Orleans" culture=french religion = catholic used_for_random=no } #For title history
+3821104 = { name="Robespierre" culture=french religion = jacobinist used_for_random=no } #For title history
+3821105 = { name="Billaude-Varanne" culture=french religion = jacobinist used_for_random=no } #For title history
+3821106 = { name="de Douai-Cambacérès" culture=french religion = jacobinist used_for_random=no } #For title history
+3821107 = { name="Dantes" culture=french religion = jacobinist used_for_random=no } #For title history
+3821108 = { name="Barras" culture=french religion = jacobinist used_for_random=no } #For title history
+3821109 = { name="d'Orleans" culture=french religion = jacobinist used_for_random=no } #For title history
+3821110 = { name="Chanson" culture=french religion = novelist used_for_random=no } #For title history
+3821111 = { name="Carolingién" culture=french religion = novelist used_for_random=no } #For title history
+3821112 = { name="Capétien" culture=french religion = novelist used_for_random=no } #For title history
+3821113 = { name="Valois" culture=french religion = novelist used_for_random=no } #For title history
+3821114 = { name="Valois-Bourbon" culture=french religion = novelist used_for_random=no } #For title history
+3821115 = { name="Bourbon" culture=french religion = novelist used_for_random=no } #For title history
+3821116 = { name="Bonaparte" culture=french religion = novelist used_for_random=no } #For title history
+3821117 = { name="Bernadotte" culture=french religion = novelist used_for_random=no } #For title history
+3821118 = { name="Emreis" culture=roman religion = novelist used_for_random=no } #For title history
+3821119 = { name="Militaris" culture=roman religion = novelist used_for_random=no } #For title history
+3821120 = { name="Frank" culture=eastlander religion = novelist used_for_random=no } #For title history
+3821121 = { name="Archenland" culture=eastlander religion = novelist used_for_random=no } #For title history
+3821122 = { name="Aep Dahy" culture=roman religion = novelist used_for_random=no } #For title history
+3821123 = { name="Geiwydd" culture=roman religion = novelist used_for_random=no } #For title history
+3821124 = { name="Troyden" culture=roman religion = novelist used_for_random=no } #For title history
+3821125 = { name="Thyssen" culture=roman religion = novelist used_for_random=no } #For title history
+3821126 = { name="von Mordor" culture=austrian religion = novelist used_for_random=no } #For title history
+3821127 = { name="Calormene" culture=eastlander religion = novelist used_for_random=no } #For title history
+3821128 = { name="den Hithaeglir" culture=swiss religion = novelist used_for_random=no } #For title history
+3821129 = { name="Banu Hashim" culture=bedouin_arabic religion = sunni used_for_random=no } #For title history
+3821130 = { name="ar-Rašidun" culture=bedouin_arabic religion = sunni used_for_random=no } #For title history
+3821131 = { name="Banu Abbas" culture=bedouin_arabic religion = sunni used_for_random=no } #For title history
+3821132 = { name="al-Qahirah" culture=bedouin_arabic religion = sunni used_for_random=no } #For title history
+3821133 = { name="Osmanlilar" culture=turkish religion = sunni used_for_random=no } #For title history
+3821134 = { name="ibn Al-Khattab" culture=bedouin_arabic religion = sunni used_for_random=no } #For title history
+3821135 = { name="ibn Affan" culture=bedouin_arabic religion = sunni used_for_random=no } #For title history
+3821136 = { name="ibn Abi Talib" culture=bedouin_arabic religion = sunni used_for_random=no } #For title history
+3821137 = { name="Gurkaniyan" culture=uzbek religion = sunni used_for_random=no } #For title history
+3821138 = { name="Jinnah" culture=sindhi religion = sunni used_for_random=no } #For title history
+3821139 = { name="Mathrafal" culture=old_welsh religion = catholic used_for_random=no } #For title history
+3821140 = { name="Rothschild" culture=ashkenazi
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			emblem = 0
+			color = 3
+			color = 3
+			color = 3
+		}
+	}
+	used_for_random=no
+}
+3821141 = { name="Jagiellon" culture=polish religion = catholic used_for_random=no } #For title history
+3821142 = { name="Jagiellonka" culture=polish religion = catholic used_for_random=no } #For title history
+3821143 = { name="Báthory" culture=hungarian religion = catholic used_for_random=no } #For title history
+3821144 = { name="Vasa" culture=swedish religion = catholic used_for_random=no } #For title history
+3821145 = { name="Wisniowiecki" culture=polish religion = catholic used_for_random=no } #For title history
+3821146 = { name="Sobieski" culture=polish religion = catholic used_for_random=no } #For title history
+3821147 = { name="Wettin" culture=saxon religion = catholic used_for_random=no } #For title history
+3821148 = { name="Leszczynski" culture=polish religion = catholic used_for_random=no } #For title history
+3821149 = { name="Poniatowski" culture=polish religion = catholic used_for_random=no } #For title history
+3821150 = { name="Estridsen" culture=danish religion = catholic used_for_random=no } #For title history
+3821151 = { name="Pfalz-Neumarkt" culture=bavarian religion = catholic used_for_random=no } #For title history
+3821152 = { name="Oldenburg" culture=bavarian religion = catholic used_for_random=no } #For title history
+3821153 = { name="Angevin" culture=old_norman religion = catholic used_for_random=no } #For title history
+3821154 = { name="Sciri" culture=gothic religion = catholic used_for_random=no } #For title history
+3821155 = { name="Amali" culture=gothic religion = catholic used_for_random=no } #For title history
+3821156 = { name="Gausi" culture=lombard religion = catholic used_for_random=no } #For title history
+3821157 = { name="Savoia" culture=piemontese religion = catholic used_for_random=no } #For title history
+3821158 = { name="d'Albret" culture=piemontese religion = calvinist used_for_random=no } #For title history
+3821159 = { name="Mannerheim" culture=finnish religion = lutheran used_for_random=no } #For title history
+3821160 = { name="Kekkonen" culture=finnish religion = lutheran used_for_random=no } #For title history
+3821161 = { name="Vasa" culture=swedish religion = lutheran used_for_random=no } #For title history
+3821162 = { name="Palatinate-Zweibrücken" culture=swedish religion = lutheran used_for_random=no } #For title history
+3821163 = { name="Hesse-Kassel" culture=swedish religion = lutheran used_for_random=no } #For title history
+3821164 = { name="Habsburg-Lorraine-España" culture=castilian religion = catholic used_for_random=no } #For title history
+3821165 = { name="Habsburg-Lorraine-Bourgogne" culture=burgundian religion = catholic used_for_random=no } #For title history
+
+400=
+{
+	name="Ó Murchadha"
+	culture="high_irish"
+}
+401=
+{
+	name="Ó Ceallaigh"
+	culture="high_irish"
+}
+402=
+{
+	name="Ó Súilleabháin"
+	culture="high_irish"
+}
+403=
+{
+	name="Breathnach"
+	culture="high_irish"
+}
+404=
+{
+	name="MacGabhann"
+	culture="high_irish"
+}
+405=
+{
+	name="Ó Briain"
+	culture="high_irish"
+}
+406=
+{
+	name="Ó Broin"
+	culture="high_irish"
+}
+407=
+{
+	name="Ó Maoilriain"
+	culture="high_irish"
+}
+408=
+{
+	name="Ó Conchobhair"
+	culture="high_irish"
+}
+409=
+{
+	name="Ó Néill"
+	culture="high_irish"
+}
+410=
+{
+	name="Ó Dubhghaill"
+	culture="high_irish"
+}
+411=
+{
+	name="Mac Carthaigh"
+	culture="high_irish"
+}
+412=
+{
+	name="Ó Gallchobhair"
+	culture="high_irish"
+}
+413=
+{
+	name="Ó Dochartaigh"
+	culture="high_irish"
+}
+414=
+{
+	name="Ó Cinnéide"
+	culture="high_irish"
+}
+415=
+{
+	name="Ó Loinsigh"
+	culture="high_irish"
+}
+416=
+{
+	name="Ó Muireadhaigh"
+	culture="high_irish"
+}
+417=
+{
+	name="Ó Cuinn"
+	culture="high_irish"
+}
+418=
+{
+	name="Ó Mordha"
+	culture="high_irish"
+}
+419=
+{
+	name="MacLochlainn"
+	culture="high_irish"
+}
+420=
+{
+	name="Ó Cearbhaill"
+	culture="high_irish"
+}
+421=
+{
+	name="Ó Dálaigh"
+	culture="high_irish"
+}
+422=
+{
+	name="Ó Conaill"
+	culture="high_irish"
+}
+423=
+{
+	name="MacLiam"
+	culture="high_irish"
+}
+424=
+{
+	name="Ó Duinn"
+	culture="high_irish"
+}
+425=
+{
+	name="Ó Braonáin"
+	culture="high_irish"
+}
+426=
+{
+	name="de Búrca"
+	culture="high_irish"
+}
+427=
+{
+	name="Ó Coileáin"
+	culture="high_irish"
+}
+428=
+{
+	name="Ó Cléirigh"
+	culture="high_irish"
+}
+429=
+{
+	name="Ó hAodha"
+	culture="high_irish"
+}
+430=
+{
+	name="Ó Floinn"
+	culture="high_irish"
+}
+431=
+{
+	name="Ó Ceallacháin"
+	culture="high_irish"
+}
+432=
+{
+	name="Ó Domhnaill"
+	culture="high_irish"
+}
+433=
+{
+	name="Ó Mathúna"
+	culture="high_irish"
+}
+434=
+{
+	name="Ó Séaghdha"
+	culture="high_irish"
+}
+435=
+{
+	name="MacSuibhne"
+	culture="high_irish"
+}
+526= #Albanian vassal under Macedonia
+{
+	name="Zajas"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 303
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+    }
+	culture="yoonaanee"
+}
+
+1101000 = { name="Walsh" culture=jamaican }
+1101001 = { name="Wells" culture=jamaican }
+1101002 = { name="Legrow" culture=jamaican }
+1101003 = { name="Mullins" culture=jamaican }
+1101004 = { name="Coates" culture=jamaican }
+1101005 = { name="Ryan" culture=jamaican }
+1101006 = { name="Whalen" culture=jamaican }
+1101007 = { name="Shea" culture=jamaican }
+1101008 = { name="Holden" culture=jamaican }
+1101009 = { name="Sturge" culture=jamaican }
+1101010 = { name="Woolridge" culture=jamaican }
+1101011 = { name="Quinlan" culture=jamaican }
+1101012 = { name="Winsor" culture=jamaican }
+1101013 = { name="Hill" culture=jamaican }
+1101014 = { name="Loveless" culture=jamaican }
+1101015 = { name="Crewe" culture=jamaican }
+1101016 = { name="Pilgrim" culture=jamaican }
+1101017 = { name="Langdon" culture=jamaican }
+1101018 = { name="Hopkins" culture=jamaican }
+1101019 = { name="Starkes" culture=jamaican }
+1101020 = { name="Norman" culture=jamaican }
+1101021 = { name="Street" culture=jamaican }
+1101022 = { name="Coles" culture=jamaican }
+1101023 = { name="May" culture=jamaican }
+1101024 = { name="Peddle" culture=jamaican }
+1101025 = { name="Sutton" culture=jamaican }
+1101026 = { name="Ward" culture=jamaican }
+1101027 = { name="Pearcey" culture=jamaican }
+1101028 = { name="Mullett" culture=jamaican }
+1101029 = { name="Azan" culture=jamaican }
+1101030 = { name="Banks" culture=jamaican }
+1101031 = { name="Smith" culture=jamaican }
+1101032 = { name="Beckford" culture=jamaican }
+1101033 = { name="Davis" culture=jamaican }
+1101034 = { name="Campbell" culture=jamaican }
+1101035 = { name="Johnson" culture=jamaican }
+1101036 = { name="Baxter" culture=jamaican }
+1101037 = { name="Anderson" culture=jamaican }
+1101038 = { name="Clarke" culture=jamaican }
+1101039 = { name="Dillon" culture=jamaican }
+1101040 = { name="Hann" culture=jamaican }
+1101041 = { name="Bailey" culture=jamaican }
+1101042 = { name="Thompson" culture=jamaican }
+1101043 = { name="Allen" culture=jamaican }
+1101044 = { name="Williams" culture=jamaican }
+1101045 = { name="Brown" culture=jamaican }
+
+1201000 = { name="Aizpurua" culture=baleazale }
+1201001 = { name="Alberdi" culture=baleazale }
+1201002 = { name="Altuna" culture=baleazale }
+1201003 = { name="Alvarez" culture=baleazale }
+1201004 = { name="Andueza" culture=baleazale }
+1201005 = { name="Angulo" culture=baleazale }
+1201006 = { name="Aramburu" culture=baleazale }
+1201007 = { name="Arana" culture=baleazale }
+1201008 = { name="Armendariz" culture=baleazale }
+1201009 = { name="Armentia" culture=baleazale }
+1201010 = { name="Arregui" culture=baleazale }
+1201011 = { name="Arrieta" culture=baleazale }
+1201012 = { name="Artola" culture=baleazale }
+1201013 = { name="Azcona" culture=baleazale }
+1201014 = { name="Castillo" culture=baleazale }
+1201015 = { name="Castro" culture=baleazale }
+1201016 = { name="Olaizola" culture=baleazale }
+1201017 = { name="Diaz" culture=baleazale }
+1201018 = { name="Dominguez" culture=baleazale }
+1201019 = { name="Nafarro" 
+	culture=baleazale 
+	coat_of_arms = {
+		religion=vagarna
+		template = 0
+		layer = {
+			texture = 13 #neow_dynastiesoldworld_2.tga
+			texture_internal = 204
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random=no
+}
+1201020 = { name="Esparza" culture=baleazale }
+1201021 = { name="Etxebarria" culture=baleazale }
+1201022 = { name="Fernandez" culture=baleazale }
+1201023 = { name="Garmendia" culture=baleazale }
+1201024 = { name="Gil" culture=baleazale }
+1201025 = { name="Gomez" culture=baleazale }
+1201026 = { name="Gonzalez" culture=baleazale }
+1201027 = { name="Goñi" culture=baleazale }
+1201028 = { name="Gutierrez" culture=baleazale }
+1201029 = { name="Hernandez" culture=baleazale }
+1201030 = { name="Herrero" culture=baleazale }
+1201031 = { name="Huarte" culture=baleazale }
+1201032 = { name="Ibañez" culture=baleazale }
+1201033 = { name="Iglesias" culture=baleazale }
+1201034 = { name="Iriarte" culture=baleazale }
+1201035 = { name="Iribarren" culture=baleazale }
+1201036 = { name="Irigoyen" culture=baleazale }
+1201037 = { name="Izaguirre" culture=baleazale }
+1201038 = { name="Jauregui" culture=baleazale }
+1201039 = { name="Jimenez" culture=baleazale }
+1201040 = { name="Larrañaga" culture=baleazale }
+1201041 = { name="Lasa" culture=baleazale }
+1201042 = { name="Lizarraga" culture=baleazale }
+1201043 = { name="Lopez" culture=baleazale }
+1201044 = { name="Madariaga" culture=baleazale }
+1201045 = { name="Marquinez" culture=baleazale }
+
+2140000 = { 
+    name = "Adamos" 
+	culture = "grekter"
+}
+2140001 = { 
+    name = "Aetos" 
+	culture = "grekter"
+}
+2140002 = { 
+    name = "Agathangelou" 
+	culture = "grekter"
+}
+2140003 = { 
+    name = "Alexopoulos" 
+	culture = "grekter"
+}
+2140004 = { 
+    name = "Andino" 
+	culture = "grekter"
+}
+2140005 = { 
+    name = "Andrianides" 
+	culture = "grekter"
+}
+2140006 = { 
+    name = "Angelopoulos" 
+	culture = "grekter"
+}
+2140007 = { 
+    name = "Angelos" 
+	culture = "grekter"
+}
+2140008 = { 
+    name = "Ariti" 
+	culture = "grekter"
+}
+2140009 = { 
+    name = "Artino" 
+	culture = "grekter"
+}
+2140010 = { 
+    name = "Athanasiou" 
+	culture = "grekter"
+}
+2140011 = { 
+    name = "Bakirtzis" 
+	culture = "grekter"
+}
+2140012 = { 
+    name = "Calimeris" 
+	culture = "grekter"
+}
+2140013 = { 
+    name = "Chloros" 
+	culture = "grekter"
+}
+2140014 = { 
+    name = "Christodoulopoulos" 
+	culture = "grekter"
+}
+2140015 = { 
+    name = "Christoforou" 
+	culture = "grekter"
+}
+2140016 = { 
+    name = "Chronis" 
+	culture = "grekter"
+}
+2140017 = { 
+    name = "Christoyannopoulos" 
+	culture = "grekter"
+}
+2140018 = { 
+    name = "Cirillo" 
+	culture = "grekter"
+}
+2140019 = { 
+    name = "Danielopoulos" 
+	culture = "grekter"
+}
+2140020 = { 
+    name = "Diakos" 
+	culture = "grekter"
+}
+2140021 = { 
+    name = "Diamandis" 
+	culture = "grekter"
+}
+2140022 = { 
+    name = "Doukas" 
+	culture = "grekter"
+}
+2140023 = { 
+    name = "Drakos" 
+	culture = "grekter"
+}
+2140024 = { 
+    name = "Economos" 
+	culture = "grekter"
+}
+2140025 = { 
+    name = "Filo" 
+	culture = "grekter"
+}
+2140026 = { 
+    name = "Franopoulos" 
+	culture = "grekter"
+}
+2140027 = { 
+    name = "Galanis" 
+	culture = "grekter"
+}
+2140028 = { 
+    name = "Gataki" 
+	culture = "grekter"
+}
+2140029 = { 
+    name = "Ganas" 
+	culture = "grekter"
+}
+2140030 = { 
+    name = "German" 
+	culture = "grekter"
+}
+2140031 = { 
+    name = "Giorgaina" 
+	culture = "grekter"
+}
+2140032 = { 
+    name = "Hasapis" 
+	culture = "grekter"
+}
+2140033 = { 
+    name = "Hatzi" 
+	culture = "grekter"
+}
+2140034 = { 
+    name = "Hatzis" 
+	culture = "grekter"
+}
+2140035 = { 
+    name = "Iordanou" 
+	culture = "grekter"
+}
+2140036 = { 
+    name = "Iraklidis" 
+	culture = "grekter"
+}
+2140037 = { 
+    name = "Karras" 
+	culture = "grekter"
+}
+2140038 = { 
+    name = "Kalogeropoulos" 
+	culture = "grekter"
+}
+2140039 = { 
+    name = "katopodis" 
+	culture = "grekter"
+}
+2140040 = { 
+    name = "Katsaros" 
+	culture = "grekter"
+}
+2140041 = { 
+    name = "Kazan" 
+	culture = "grekter"
+}
+2140042 = { 
+    name = "Kokkinos" 
+	culture = "grekter"
+}
+2140043 = { 
+    name = "Kalogeras" 
+	culture = "grekter"
+}
+2140044 = { 
+    name = "Karagiannis" 
+	culture = "grekter"
+}
+2140045 = { 
+    name = "Kouris" 
+	culture = "grekter"
+}
+2140046 = { 
+    name = "Kyriaku" 
+	culture = "grekter"
+}
+2140047 = { 
+    name = "Laskaris" 
+	culture = "grekter"
+}
+2140048 = { 
+    name = "Leos" 
+	culture = "grekter"
+}
+2140049 = { 
+    name = "Levidis" 
+	culture = "grekter"
+}
+2140050 = { 
+    name = "Loukanis" 
+	culture = "grekter"
+}
+2140051 = { 
+    name = "Lykaios" 
+	culture = "grekter"
+}
+2140052 = { 
+    name = "Mandraapilias" 
+	culture = "grekter"
+}
+2140053 = { 
+    name = "Manikas" 
+	culture = "grekter"
+}
+2140054 = { 
+    name = "Markopoulos" 
+	culture = "grekter"
+}
+2140055 = { 
+    name = "Masalis" 
+	culture = "grekter"
+}
+2140056 = { 
+    name = "Matsouka" 
+	culture = "grekter"
+}
+2140057 = { 
+    name = "Matthiou" 
+	culture = "grekter"
+}
+2140058 = { 
+    name = "Metaxas" 
+	culture = "grekter"
+}
+2140059 = { 
+    name = "Moralis" 
+	culture = "grekter"
+}
+2140060 = { 
+    name = "Nephus" 
+	culture = "grekter"
+}
+2140061 = { 
+    name = "Nikolaou" 
+	culture = "grekter"
+}
+2140062 = { 
+    name = "Nomikos" 
+	culture = "grekter"
+}
+2140063 = { 
+    name = "Onasis" 
+	culture = "grekter"
+}
+2140064 = { 
+    name = "Othonos" 
+	culture = "grekter"
+}
+2140065 = { 
+    name = "Pachis" 
+	culture = "grekter"
+}
+2140066 = { 
+    name = "Panagos" 
+	culture = "grekter"
+}
+2140067 = { 
+    name = "Pantazis" 
+	culture = "grekter"
+}
+2140068 = { 
+    name = "Lázonides" 
+	culture = "grekter"
+}
+2140069 = { 
+    name = "Kadmides" 
+	culture = "grekter"
+}
+2140070 = { 
+    name = "Mákides" 
+	culture = "grekter"
+}
+2140071 = { 
+    name = "Thánides" 
+	culture = "grekter"
+}
+2140072 = { 
+    name = "Hektórides" 
+	culture = "grekter"
+}
+2140073 = { 
+    name = "Gennádides" 
+	culture = "grekter"
+}
+2140074 = { 
+    name = "Romanides" 
+	culture = "grekter"
+}
+2140075 = { 
+    name = "Innokentides" 
+	culture = "grekter"
+}
+#Agirre 
+2140076 = {
+	name = "Aizpurua"
+	culture = "akitaniera"
+}
+2140077 = {
+	name = "Alberdi"
+	culture = "akitaniera"
+}
+2140078 = {
+	name = "Altuna"
+	culture = "akitaniera"
+}
+2140079 = {
+	name = "Andueza"
+	culture = "akitaniera"
+}
+2140080 = {
+	name = "Aramburu"
+	culture = "akitaniera"
+}
+2140081= {
+	name = "Arana"
+	culture = "akitaniera"
+}
+2140082 = {
+	name = "Armendariz"
+	culture = "akitaniera"
+}
+2140083 = {
+	name = "Armentia"
+	culture = "akitaniera"
+}
+2140084 = {
+	name = "Artola"
+	culture = "akitaniera"
+}
+2140085 = {
+	name = "Ayala"
+	culture = "akitaniera"
+}
+2140086 = {
+	name = "Azcona"
+	culture = "akitaniera"
+}
+2140087 = {
+	name = "Bertran"
+	culture = "akitaniera"
+}
+2140088 = {
+	name = "Blanko"
+	culture = "akitaniera"
+}
+2140089 = {
+	name = "Bone"
+	culture = "akitaniera"
+}
+2140090 = {
+	name = "Buaje"
+	culture = "akitaniera"
+}
+2140091 = {
+	name = "Denis"
+	culture = "akitaniera"
+}
+2140092 = {
+	name = "Dibua"
+	culture = "akitaniera"
+}
+2140093 = {
+	name = "Dipon"
+	culture = "akitaniera"
+}
+2140094 = {
+	name = "Diuran"
+	culture = "akitaniera"
+}
+2140095 = {
+	name = "Elizalde"
+	culture = "akitaniera"
+}
+2140096 = {
+	name = "Esparza"
+	culture = "akitaniera"
+}
+2140097 = {
+	name = "Etxebarria?"
+	culture = "akitaniera"
+}
+2140098 = {
+	name = "For"
+	culture = "akitaniera"
+}
+2140099 = {
+	name = "Furnie"
+	culture = "akitaniera"
+}
+2140100 = {
+	name = "Garmendia"
+	culture = "akitaniera"
+}
+2140101 = {
+	name = "Garnie"
+	culture = "akitaniera"
+}
+2140102 = {
+	name = "Gartzia"
+	culture = "akitaniera"
+}
+2140103 = {
+	name = "Iriarte"
+	culture = "akitaniera"
+}
+2140104 = {
+	name = "Iribarren"
+	culture = "akitaniera"
+}
+2140105 = {
+	name = "Irigoyen"
+	culture = "akitaniera"
+}
+2140106 = {
+	name = "Izagirre"
+	culture = "akitaniera"
+}
+2140107 = {
+	name = "Jauregi"
+	culture = "akitaniera"
+}
+2140108 = {
+	name = "Jirar"
+	culture = "akitaniera"
+}
+2140109 = {
+	name = "Kintana"
+	culture = "akitaniera"
+}
+2140110 = {
+	name = "Lafer"
+	culture = "akitaniera"
+}
+2140111 = {
+	name = "Lamber"
+	culture = "akitaniera"
+}
+2140112 = {
+	name = "Larrainag"
+	culture = "akitaniera"
+}
+2140113 = {
+	name = "Lasa"
+	culture = "akitaniera"
+}
+2140114 = {
+	name = "Lerua"
+	culture = "akitaniera"
+}
+2140115 = {
+	name = "Lizarraga"
+	culture = "akitaniera"
+}
+2140116 = {
+	name = "Logan"
+	culture = "akitaniera"
+}
+2140117 = {
+	name = "Marin"
+	culture = "akitaniera"
+}
+2140118 = {
+	name = "Markinez"
+	culture = "akitaniera"
+}
+2140119 = {
+	name = "Marsie"
+	culture = "akitaniera"
+}
+2140120 = {
+	name = "Mason"
+	culture = "akitaniera"
+}
+2140121 = {
+	name = "Miler"
+	culture = "akitaniera"
+}
+2140122 = {
+	name = "Mogo"
+	culture = "akitaniera"
+}
+2140123 = {
+	name = "Morel"
+	culture = "akitaniera"
+}
+2140124 = {
+	name = "Morin"
+	culture = "akitaniera"
+}
+2140125 = {
+	name = "Olaizola"
+	culture = "akitaniera"
+}
+2140126 = {
+	name = "Orozko"
+	culture = "akitaniera"
+}
+2140127 = {
+	name = "Ru"
+	culture = "akitaniera"
+}
+2140128 = {
+	name = "Ruso"
+	culture = "akitaniera"
+}
+2140129 = {
+	name = "Salazar"
+	culture = "akitaniera"
+}
+2140130 = {
+	name = "Santxez"
+	culture = "akitaniera"
+}
+2140131 = {
+	name = "Ugarte"
+	culture = "akitaniera"
+}
+2140132 = {
+	name = "Uriarte"
+	culture = "akitaniera"
+}
+2140133 = {
+	name = "Xabalie"
+	culture = "akitaniera"
+}
+2140134 = {
+	name = "Zabal"
+	culture = "akitaniera"
+}

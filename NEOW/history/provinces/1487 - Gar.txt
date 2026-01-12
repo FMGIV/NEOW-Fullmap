@@ -1,0 +1,20 @@
+# County Title
+title = c_gar
+
+# Settlements
+max_settlements = 4
+
+b_kunsa = castle
+b_gar = city
+b_senggezangbo = temple
+#b_rabang = 
+#b_kupa = 
+#b_chakgang = 
+#b_langchu = 
+
+# Misc
+culture = u_tsang
+religion = gelugpa
+
+# History
+

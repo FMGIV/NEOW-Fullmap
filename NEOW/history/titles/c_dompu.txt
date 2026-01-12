@@ -1,0 +1,4 @@
+2533.12.3 = {
+	holder = 5035
+	liege = d_bima
+}

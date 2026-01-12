@@ -1,0 +1,4 @@
+2552.1.29={
+	holder = 1082
+	liege = e_transnistria
+}

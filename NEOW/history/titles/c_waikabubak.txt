@@ -1,0 +1,4 @@
+2531.11.22={
+	holder = 4410
+	liege = d_sumba
+}

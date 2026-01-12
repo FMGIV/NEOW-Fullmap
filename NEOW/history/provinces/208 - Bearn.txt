@@ -1,0 +1,23 @@
+# 208 - Bearn
+
+# County Title
+title = c_bearn
+
+# Settlements
+max_settlements = 4
+b_tarbes = castle
+b_lourdes = temple
+b_pau = city
+
+#b_morlaas = castle
+#b_montaner = castle
+#b_oloron = city
+#b_orthez = city
+#b_lescar = temple
+
+#Misc
+religion = sevillian
+culture = basque
+terrain = hills
+
+# History

@@ -1,0 +1,14 @@
+# 1918 - Delgerkhangai
+
+# County Title
+title = c_delgerkhangai
+
+# Settlements
+max_settlements = 2
+b_delgerkhangai = tribal
+
+# Misc
+culture = mongol
+religion = maoist
+
+# History

@@ -1,0 +1,15 @@
+# 931 - Möre
+
+# County Title
+title = c_sevede
+
+# Settlements
+max_settlements = 3
+
+b_kronsborg = tribal
+
+# Misc
+culture = gothic
+religion = vagarna
+
+# History

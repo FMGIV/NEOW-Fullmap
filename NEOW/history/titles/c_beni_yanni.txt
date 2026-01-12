@@ -1,0 +1,5 @@
+
+2536.6.1={
+	holder = 3032
+	liege = k_morocco
+}

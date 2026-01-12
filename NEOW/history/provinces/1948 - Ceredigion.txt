@@ -1,0 +1,22 @@
+# 1936 - Ceredigion
+
+# County Title
+title = c_ceredigion
+
+# Settlements
+max_settlements = 4
+b_cardigan = castle
+b_aberystwyth = temple
+
+#b_llanbadarn = castle
+#b_aberaeron = city
+#b_llanddewi_brefi = temple
+#b_tregaron = city
+#b_lampeter = castle
+
+# Misc
+culture = old_welsh
+religion = thelemic_reformed
+terrain = hills
+
+# History

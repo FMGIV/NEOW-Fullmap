@@ -1,0 +1,23 @@
+# 193 - Alcantara
+
+# County Title
+title = c_alcantara
+
+# Settlements
+max_settlements = 4
+
+b_moraleja = castle
+b_coria = city
+b_alcantara = temple
+#b_brozas = castle
+#b_lamata = castle
+#b_racharachel = castle
+#b_lasnavasdelmadrono = city
+#b_ceclavin = castle
+
+# Misc
+culture = extrameduran
+religion = sevillian
+
+# History
+

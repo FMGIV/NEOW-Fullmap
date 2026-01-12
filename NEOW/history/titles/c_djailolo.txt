@@ -1,0 +1,4 @@
+2539.8.12 = {
+	holder = 8905
+	liege = k_ternate
+}

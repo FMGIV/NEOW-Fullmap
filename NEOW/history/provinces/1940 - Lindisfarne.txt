@@ -1,0 +1,21 @@
+# 1930 - Lindisfarne
+
+# County Title
+title = c_lindisfarne
+
+# Settlements
+max_settlements = 3
+b_lindisfarne = castle
+b_yeavering = temple
+b_tweedmouth = castle
+
+#b_norham = city
+#b_lowick = castle
+#b_etal = castle
+#b_cornhill = castle
+
+# Misc
+culture = northlander
+religion = anglican
+
+# History

@@ -1,0 +1,3948 @@
+e_transnistria = {
+	color={ 110 82 196 }
+	color2={ 255 255 255 }
+	
+	capital = 541 # Peresechen
+	
+	culture = moldavian	
+	purple_born_heirs = yes
+	has_top_de_jure_capital = yes
+	
+	greek="Neistería"
+	livanezoi="Neistería"
+	aigyptoi="Neistería"
+	cappadocian = "Neistería"
+	makedonas="Neistería"
+	aigionoi="Neistería"
+	rodiaki="Neistería"
+	macedonian="Hyperdnestrovie"
+	pontian="Neistería"
+	yoonaanee="Neistería"
+	griko="Neistería"
+	cypriote="Neistería"
+	atlantian="Neistería"
+	grekter="Neistería"
+	arvanitika="Neistería"
+	tsakonian="Neistería"
+	hungarian="Nisztria"
+	szekely="Nisztria"
+	csangok="Nisztria"
+	ruten="Nisztria"
+	moldavian = "Nistrenia"
+	adessite = "Nistrenia"
+	sazzac = "Nistrenia"
+	transylvanian="Nistrenia"
+	wallachian="Nistrenia"
+	ukrainer="Nistrov'ya"
+	klynian="Nistrov'ya"
+	cossack="Nistrov'ya"
+	
+	allow = {
+		doesnt_holds_special_empire = yes
+	}
+	k_yellow_ukraine = {
+		color = { 255 200 0 } 
+		color2 = { 255 255 255 }
+		capital = 579 # Mordva
+		
+		culture = klynian 
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_yellow_ukraine = {
+						is_titular = yes
+					}
+				}
+				k_yellow_ukraine = {
+					is_titular = no
+				}
+			}
+		}
+	}
+	
+	k_abkhazia= {
+		color={ 0 153 62 }
+		color2={ 255 255 255 }
+		capital = 600
+		
+		culture = abkhazian
+				
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_abkhazia = {
+						is_titular = yes
+					}
+				}
+				k_abkhazia = {
+					is_titular = no
+				}
+			}
+		}
+	}
+	k_belarus = {
+		color={ 214 194 194 }
+		color2={ 200 0 0 }
+		
+		capital = 550 # Minsk
+		
+		culture = bielaruskaja
+		moldavian = "Slavonea"
+		adessite = "Slavonea"
+		sazzac = "Slavonea"
+		lithuanian = "Gudija"
+		bielaruskaja = "Bielarus"
+		muscovite = "Belorussia"
+		pietrovan = "Belorussia"
+		pomoran = "Belorussia"
+		volgar = "Belorussia"
+		sibiran = "Belorussia"
+		east_sibiran = "Belorussia"
+		ukrainer = "Bilorus"
+		crimean = "Belorussia"
+		kaliningrader = "Belorussia"
+		lytsvin = Bieltarusija
+		tutejszy = "Bialorus"		
+		kashubian = "Biôlorus"
+		
+		catholic = 4000 # Crusade target weight
+		novelist_reformed = 700
+		hussite = 800
+		lutheran = 500 # Crusade target weight
+		
+		d_polotsk = {
+			color = { 204 163 163 }
+			color2={ 255 255 255 }
+			
+			capital = 419 # Polotsk
+				
+			
+			c_polotsk = {
+				color={ 229 183 183 }
+				color2={ 255 255 255 }
+				
+				swedish = "Pallteskja"
+				danish = "Pallteskja"
+				norwegian = "Pallteskja"
+			
+				b_polotsk = {
+					swedish = "Pallteskja"
+					danish = "Pallteskja"
+					norwegian = "Pallteskja"
+				}
+				b_haradok = {
+				}
+				b_rassony = {
+				}
+				b_obol = {
+				}
+				b_douza = {
+				}
+				b_sirotino = {
+				}
+				b_leskovichi = {
+				}
+			}
+		
+			c_vitebsk = {
+				color={ 178 142 142 }
+				color2={ 255 255 255 }
+				
+				b_vitebsk = {
+				}
+				b_sianno = {
+				}
+				b_beshankovichy = {
+				}
+				b_liozna = {
+				}
+				b_boguchevsk = {
+				}
+				b_ruba = {
+				}
+				b_bilieva = {
+				}
+			}
+		}
+		d_mstislavl = {
+		    color={ 229 172 181 }
+		    color2={ 255 255 255 }
+			
+		    capital = 551 # Mstislavl
+			
+			c_mstislavl = {
+				color={ 204 153 161 }
+				color2={ 255 255 255 }
+					
+				b_mstitslavl = {
+				}
+				b_krychaw = {
+				}
+				b_propoysk = {
+				}
+				b_rahacou = {
+				}
+				b_chachersk = {
+				}
+				b_horki = {
+				}
+				b_drybin = {
+				}
+			}
+			c_lyubech = {
+				color={ 255 191 201 }
+				color2={ 255 255 255 }
+		
+				b_lyubech = {
+				}
+				b_dobrouch = {
+				}
+				b_cierachouka = {
+				}
+				b_dobryanka = {
+				}
+				b_lysyye = {
+				}
+				b_skytok = {
+				}
+				b_perepys = {
+				}
+			}
+		}
+		d_beresty = {
+			color={ 229 206 216 }
+			color2={ 255 255 255 }
+			
+			capital = 549 # Beresty
+			
+			c_beresty = {
+				color={ 255 229 240 }
+				color2={ 255 255 255 }
+				
+				polish = "Brzesc"
+	
+				b_beresty = {
+				}
+				b_bielsk = {
+				}
+				b_kobryn = {
+				} 
+				b_kamyanyets = {
+				}
+				b_mielnik = {
+				}
+				b_koden = {
+				}
+				b_wlodawa = {
+				}
+				b_parwa = {			#fictional
+				}
+			}	
+			c_grodno = {
+				color={ 204 183 192 }
+				color2={ 255 255 255 }
+			
+				b_grodno = {}
+				b_skidzyel = {}
+				b_grandichi = {}
+				b_sapochkin = {}
+				b_gozha = {}
+				b_parechcha = {}
+				b_shchuchyn1 = {}
+			}
+			c_novogrodek = {
+				color={ 178 160 168 }
+				color2={ 255 255 255 }
+				
+				b_novogrodek = {
+				}
+				b_slonim = {
+				}
+				b_lida = {
+				}
+				b_karelichy = {
+				}
+				b_shchuchyn = {
+				}
+				b_iwie = {
+				}
+				b_dziatlava = {
+				}
+			}
+			c_volkovysk = {
+				color={ 153 137 144 }
+				color2={ 255 255 255 }
+				
+				b_volkovysk = {
+				}
+				b_klotsk = {
+				}
+				b_ouslonim = {
+				}
+				b_studzieniki = {
+				}
+				b_ruzhany = {
+				}
+				b_zyrovichy = {
+				}
+				b_lyakhavichy = {
+				}
+			}
+			
+		}
+		d_minsk = {
+			color={ 204 136 159 }
+			color2={ 255 255 255 }
+			
+			capital = 550 # Minsk
+
+			moldavian = "Menscia"
+			adessite = "Menscia"
+			sazzac = "Menscia"
+			
+			c_lepiel = {
+				color={ 229 153 179 }
+				color2={ 255 255 255 }
+
+				b_lukoml = {
+				}
+				b_dokshytsy = {
+				}
+				b_lepiel = {
+				}
+				b_novalukoml = {
+				}
+				b_ushachy = {
+				}
+				b_hlybokaye = {
+				}
+				b_sharkawshchyna = {
+				}
+			}
+			c_orsha = {
+				color={ 178 119 139 }
+				color2={ 255 255 255 }
+				
+				b_orsha = {
+				}
+				b_talachyn = {
+				}
+				b_dubrowna = {
+				}
+				b_baran_orsha = {
+				}
+				b_shklow = {
+				} 
+				b_krugale = {
+				}
+				b_zheleznyaki = {
+				}
+			}
+			c_minsk = {
+				color={ 255 170 198 }
+				color2={ 255 255 255 }
+
+				moldavian = "Menscia"
+				adessite = "Menscia"
+				sazzac = "Menscia"
+				
+				b_minsk = {
+				}
+				b_zaslawye = {
+				}
+				b_lahoysk = {
+				}
+				b_barysaw = {
+				}
+				b_koidanova = {
+				}
+				b_maryina_horka = {
+				}
+				b_nyasvizh = {
+				}
+			}
+			c_drutsk = {
+				color={ 153 102 119 }
+				color2={ 255 255 255 }
+				
+				b_drutsk = {
+				}
+				b_bialocerkev = {
+				}
+				b_rahachow = {
+				}
+				b_mogilev = {
+				}
+				b_zhlobin = {
+				}
+				b_babruysk = {
+				}
+				b_dashkovka = {
+				}
+			}
+		}	
+		d_turov = {
+			color={ 229 166 153 }
+			color2={ 255 255 255 }
+			
+			capital = 552 # Turov
+			
+			
+			c_turov = {
+				color={ 255 184 170 }
+				color2={ 255 255 255 }
+				
+				b_turov = {
+				}
+				b_davyd-haradok = {
+				}
+				b_stolin = {
+				}
+				b_alsany = {
+				}
+				b_stachava = {
+				}
+				b_fiadory = {
+				}
+				b_sarny = {
+				}
+			}			
+			c_pinsk = {
+				color={ 204 147 136 }
+				color2={ 255 255 255 }
+				
+				b_pinsk = {
+				}
+				b_ivanava = {
+				}
+				b_luninets = {
+				}
+				b_drahichyn = {
+				}
+				b_biaroza = {
+				}
+				b_hantsavichy = {
+				}
+				b_motal = {
+				}
+			}
+			c_slutsk = {
+				color={ 178 129 119 }
+				color2={ 255 255 255 }
+				
+				b_slutsk = {
+				}
+				b_gomel = {
+				}
+				b_mazyr = {
+				}
+				b_rechytsa = {
+				}
+				b_zhytkavichy = {
+				}
+				b_loyew = {
+				}
+				b_kazlovichy = {
+				}
+			}
+		}
+	}
+	k_hungary = {
+		color={ 70 140 80 }
+		color2={ 255 255 255 }
+		
+		capital	= 522 # not Esztergom
+
+		culture = hungarian
+		
+		catholic = 3000 # Crusade target weight
+		novelist_reformed = 1000
+		cadaverist = 800
+		hussite = 4000
+		sevillian = 400
+		lutheran = 600 # Crusade target weight
+		calvinist = 5000 #Crusade target weight
+		fraticelli = 400 # Crusade target weight
+		jugoslavist = 1000
+		orleanist = 700
+		
+		ashkenazi = "Hungariya"
+		israeli = "Hungariya"
+		sephardi = "Hungariya"
+		russim = "Hungariya"
+		greek="Ouggaría"
+		livanezoi="Ouggaría"
+		aigyptoi="Ouggaría"
+		makedonas="Ouggaría"
+		aigionoi="Ouggaría"
+		rodiaki="Ouggaría"
+		macedonian="Ouggaría"
+		pontian="Ouggaría"
+		yoonaanee="Ouggaría"
+		griko="Ouggaría"
+		cypriote="Ouggaría"
+		atlantian="Ouggaría"
+		grekter="Ouggaría"
+		tsakonian="Ouggaría"
+		arvanitika="Ouggaría"
+		hungarian="Magyarország"
+		ruten="Ohorscsena"
+		tot="Vegrö"
+		nemet="Ungán"
+		austrian = "Ungarn"
+		danube_swabian = "Scwowia"		
+		swiss = "Onghéria"
+		patoues = "Ongrié"
+		romansch = "Ungaria"
+		dutch = "Hongarije"
+		arpitan = "Hongrie"
+		scottish = "An Ungair"
+		wallachian = "Ungaria"
+		transylvanian = "Ungaria"
+		adessite = "Ungaria"
+		moldavian = "Ungaria"
+		sazzac = "Ungaria"
+		oglallan = "Hungairi"
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_hungary = {
+						is_titular = yes
+					}
+				}
+				k_hungary = {
+					is_titular = no
+				}
+			}
+			OR = {
+				has_artifact = crown_hungary
+				prestige = 1500
+			}
+		}
+		
+		d_sopron = {
+			color={ 40 170 80 }
+			capital = 450 # Venice
+			culture = hungarian
+			
+			dignity = 200 # Never want the Republic of Venice to change primary title
+			
+			allow = {
+				is_republic = yes
+				
+			}
+		}
+		d_pecs = {
+			color={ 30 105 52 }
+			color2={ 255 255 255 }
+			
+			capital = 452 # Pecs
+			
+			slovenian=Balaton
+			bosnian = "Balaton"
+			czech = "Balaton"
+			
+			c_sopron = {
+				color={ 30 105 52 }
+				color2={ 255 255 255 }
+				
+				austrian = Ödenburg
+				danube_swabian = "Ödenburg"
+				
+				b_sopron = {
+				}
+				b_gyor = {
+				}
+				b_csorna = {
+				}
+				b_borsmonostor = {
+				}
+				b_csepreg = {
+				}
+				b_kapuvar = {
+				}
+				b_kismarton = {
+				}
+				b_nagymarton = {
+				}
+			}
+			c_pecs={
+				color={ 30 105 52 }
+				color2={ 255 255 255 }
+
+				croatian = Pecuh
+				serbian = Pec
+				bosnian = Pec
+				austrian = Fünfkirchen
+				slovenian = Pecuh
+				slovak = Pätkostolie
+				danube_swabian = Fünfkirchen
+				
+				b_pecs = {
+				}
+				b_kalocsa = {
+				}
+				b_mohacs = {
+				}
+				b_sasd = {
+				}
+				b_pecsvarad = {
+				}
+				b_siklos = {
+				}
+				b_szentlorinc = {
+				}
+				b_darda = {
+				}
+			}
+			c_szekezfehervar = {
+				color={ 30 105 52 }
+				color2={ 255 255 255 }
+				
+				austrian = Stuhlweissenburg
+				slovak = "Stolicný Belehrad"
+				danube_swabian = "Stuhlweissenburg"
+				
+				b_szekezfehervar = {
+				}
+				b_csurgo = {
+				}
+				b_kaposvar = {
+				}
+				b_szigetvar = {
+				}
+				b_barcs = {
+				}
+				b_marcali = {
+				}
+				b_nagyatad = {
+				}
+				b_lengyeltoti = {
+				}
+			}
+			c_vas = {
+				color={ 30 105 52 }
+				color2={ 255 255 255 }
+
+				austrian = Eisenburg
+				slovak = Vaš
+				croatian = Zelezna
+				bosnian = "Zelezna"
+				slovenian = Zelezna
+				danube_swabian = "Eisenburg"
+				
+				b_szombathely = {
+				}
+				b_szentgotthard = {
+				}
+				b_vasvar = {
+				}
+				b_sarvar = {
+				}
+				b_celldomolk = {
+				}
+				b_kormend = {
+				}
+				b_koszeg = {
+				}
+				b_nemetujvar = {
+				}
+			}
+		}
+		d_pest = {
+			color={ 60 140 70 }
+			color2={ 255 255 255 }
+			
+			capital = 522 # Pest
+			
+			hungarian = "Budapest"
+
+		    
+			c_heves = {
+				color={ 60 170 70 }
+				color2={ 255 255 255 }
+				
+				b_heves = {
+				}
+				b_eger = {
+				}
+				b_gyongyos = {
+				}
+				b_miskolc = {
+				}
+				b_petervasara = {
+				}
+				b_hatvan = {
+				}
+				b_tiszafured = {
+				}
+				b_mezokovesd = {
+				}
+			}
+			c_pest = {
+				color={ 60 140 70 }
+				color2={ 255 255 255 }
+				
+				hungarian = "Budapest"
+				holy_site = budaism
+				holy_site = hussite
+				holy_site = osvicenism
+				
+				b_pest = {
+				hungarian = "Budapest"
+				}
+				b_vac = {
+				}
+				b_kecskemet = {
+				}
+				b_kiskunhalas = {
+				}
+				b_szentendre = {
+				}
+				b_cegled = {
+				}
+				b_abrahamtelke = {
+				}
+				b_kiskoros = {
+				}
+			}
+			c_fejer = {
+				color={ 60 140 70 }
+				color2={ 255 255 255 }
+				
+				austrian = Weissenburg
+				croatian = Bila
+				bosnian = "Bila"
+				slovak = Bila
+				danube_swabian = "Weissenburg"
+				
+				b_sarbogard = {
+				}
+				b_adony = {
+				}
+				b_mor = {
+				}
+				b_val = {
+				}
+				b_szekszard = {
+				}
+				b_dombovar = {
+				}
+				b_tamasi = {
+				}
+				b_bonyhad = {
+				}
+			}
+			c_esztergom_real = { # Actually Esztergom, the other is Komárom/Komárno
+				color={ 60 140 70 }
+				color2={ 255 255 255 }
+
+				slovak = "Ostrihom"
+				austrian = "Gran"
+				danube_swabian = "Gran"
+
+				b_esztergom_real = {
+					slovak = "Ostrihom"
+					austrian = "Gran"
+					danube_swabian = "Gran"
+				}
+				b_tatabanya_real = {
+					austrian = "Totiserkolonie"
+					danube_swabian = "Totiserkolonie"
+				}
+				b_visegrad_HU = {
+					austrian = "Plintenburg"
+					danube_swabian = "Plintenburg"
+					slovak = "Vyšehrad"
+				}
+				b_budakeszi = {
+					austrian = "Wudigess"
+					danube_swabian = "Wudigess"
+				}
+				b_erd = {
+					austrian = "Hanselbeck"
+					danube_swabian = "Hanselbeck"
+				}
+				b_szigetszentmiklos = {
+					austrian = "Nigglau"
+					danube_swabian = "Nigglau"
+				}
+				b_pilisvorosvar = {
+					austrian = "Werischwar"
+					danube_swabian = "Werischwar"
+				}
+			}
+		}
+		d_tiszantul = {
+			color={ 80 170 70 }
+			color2={ 255 255 255 }
+			
+			capital = 2224 # Debrecea
+
+		    
+			c_debrecea = {
+				color={ 80 170 70 }
+				color2={ 255 255 255 }
+				
+				holy_site = calvinist
+				
+				b_debrecen_2  = {}
+				b_bslmszujvaros = {}
+				b_hajunadas = {}
+				b_hajduboszormeny = {}
+				b_ebes = {}
+				b_hortobagy = {}
+				b_nadudvar = {}
+
+			}
+			c_bekes = {
+				color={ 80 170 70 }
+				color2={ 255 255 255 }
+				
+				b_bekescsaba = {}
+				b_gyula = {}
+				b_orosh = {}
+				b_sarkad = {}
+				b_kondoros = {}
+				b_veszto = {}
+				b_szarvas = {}
+			}
+			c_csanad = {
+				color={ 60 140 70 }
+				color2={ 255 255 255 }
+				austrian = Tschanad 
+				slovak = Canad
+				wallachian = "Cenad"
+				transylvanian = "Cenad"
+				danube_swabian = "Tschanad"
+				
+				b_csanad = {
+				}
+				b_szeged = {
+				}
+				b_mako = {
+				}
+				b_battonya = {
+				}
+				b_csongrad = {
+				}
+				b_mindszent = {
+				}
+				b_szentes = {
+				}
+				b_hodmezovasarhely = {
+				}
+			}
+		}
+	}
+	k_romaraj = {
+		color={ 255 63 0 }
+		color2={ 255 255 255 }
+
+		short_name = yes
+		
+		capital = 519
+		hussite = 2000
+		lutheran = 500 # Crusade target weight
+		jugoslavist = 800
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_romaraj = {
+						is_titular = yes
+					}
+				}
+				k_romaraj = {
+					is_titular = no
+				}
+			}
+		}
+
+		culture = romani
+		title = ROMANIRAJ
+	}
+	k_circassia = {
+		color={ 36 105 10 }
+		color2={ 255 255 255 }
+		
+		circassian = "Adigey"
+		capital = 2531 # Circassia
+		
+		d_circassia = {
+			color={ 54 153 15 }
+			color2={ 255 255 255 }
+			
+			circassian = "Adigey"
+			
+			capital = 2531 # Circassia
+		
+			c_circassia = {
+				color={ 63 178 17 }
+				color2={ 255 255 255 }
+				
+				b_arkhyz = {
+				}
+				b_solenoye = {
+				}
+				b_psebai = {
+				}
+				b_psemen = {
+				}
+				b_rozhkao = {
+				}
+				b_nikitino = {
+				}
+				b_urup = {
+				}
+				b_dausuz = {
+				}
+			}
+			c_kasogs = {
+				color={ 45 127 12 }
+				color2={ 255 255 255 }
+				
+				b_myequape = {
+				}
+				b_samiran = {
+				}
+				b_zikh = {
+				}
+				b_bakhtarakhtar = {
+				}
+				b_koshkhab = {
+				}
+				b_ustdzeghuta = {
+				}
+				b_sarytyuz = {
+				}
+				b_eltarkan = {
+				}
+			}
+			c_cherkessk = {
+				color={ 36 102 10 }
+				color2={ 255 255 255 }
+				
+				b_cherkessk = {}
+				b_ust_dzheguta = {}
+				b_kumysh = {}
+				b_karachayevsk = {}
+				b_teberda = {}
+				b_khabez = {}
+				b_adyge_khabl = {}
+			}
+		}
+	}
+	k_balkaria = {
+		color={ 44 127 83 }
+		color2={ 255 255 255 }
+		balkar = "Malqaria"
+		
+		capital = 2530 # Balkaria
+		
+		d_balkaria = {
+			color={ 38 153 91 }
+			capital = 2530 # Balkarias
+			balkar = "Malqaria"
+			
+			c_balkaria = {
+				color={ 44 178 107 }
+				color2={ 255 255 255 }
+				balkar = "Malqaria"
+				
+				b_nalchik = {
+				}
+				b_chegem = {
+				}
+				b_baksan = {
+				}
+				b_anzorey = {
+				}
+				b_bylym = {
+				}
+				b_tyrnyauz = {
+				}
+				b_eltyubyu = {
+				}
+			}
+			c_alania = {
+				color={ 31 127 76 }
+				color2={ 255 255 255 }
+				
+				holy_site = osvicenism
+			
+				b_vovnushki = {
+				}
+				b_uchkeken = {
+				}
+				b_zaur = {
+				}
+				b_tskhinval = {
+				}
+				b_tkhabayerdy = {
+				}
+				b_zadalesk = {
+				}
+				b_tamarasheni = {
+				}
+			}	
+		}
+	}
+	k_kalmykia = {
+		color={ 255 197 25 }
+		color2={ 255 255 255 }
+		
+		capital = 604 # Kuma
+		
+		kalmyk = "Khal'mg"
+		
+		d_caspian_steppe = {
+			color={ 204 158 20 }
+			color2={ 255 255 255 }
+
+			capital = 604 # Kuma
+			
+			kalmyk = "Khal'mg"
+
+			short_name = yes
+
+			c_kuma = {
+				color={ 229 177 22 }
+				color2={ 255 255 255 }
+				
+				holy_site = vajrayana
+							
+				b_kizlyar = {
+				}
+				b_kuliyurt = {
+				}
+				b_tereklimekteb = {
+				}
+				b_kizilyurt = {
+				}
+				b_gums = {
+				}
+				b_dylym = {
+				}
+				b_babayurt = {
+				}
+				b_arslanbek = {
+				}
+			}
+			c_yustin = {
+				color={ 178 138 17 }
+				color2={ 255 255 255 }
+				
+				b_tsagan_aman = {}
+				b_yusta = {}
+				b_tatal = {}
+				b_chompot = {}
+				b_barun = {}
+				b_dzhangar = {}
+				b_bolshoy_tsaryn = {}
+			}
+			c_terek = {
+				color={ 153 118 15 }
+				color2={ 255 255 255 }
+
+				b_terek = {}
+				b_stepnoye = {}
+				b_majar = {}
+				b_termita = {}
+				b_kurskaya = {}
+				b_chanta = {}
+				b_gornyy_2 = {}
+			}
+			c_kalaus = {
+				color={ 255 206 61 }
+				color2={ 255 255 255 }
+
+				b_kalaus = {}
+				b_yankul = {}
+				b_bazovyy = {}
+				b_rozliv = {}
+				b_demino = {}
+				b_armavir = {}
+				b_kugulta = {}
+			}
+		}
+	}
+	k_chechnya = {
+		color={ 127 51 84 }
+		color2={ 255 255 255 }
+		
+		chechen = "Noxçiyçö"
+		capital = 1809 # Durdzukia
+		
+		d_chechnya = {
+			color={ 178 89 127 }
+			color2={ 255 255 255 }
+			
+			capital = 1809 # Durdzukia
+			chechen = "Noxçiyçö"
+
+			c_chechnya = {
+				color={ 204 102 146 }
+				color2={ 255 255 255 }
+				chechen = "Chechan"
+
+				b_akhmat  = {}
+				b_grozny = {}
+				b_beslan = {}
+				b_alagir = {}
+				b_mizur = {}
+				b_dargavs = {}
+				b_ardon = {}
+			}
+			c_upper_chechnya = {
+				color={ 154 76 109 }
+				color2={ 255 255 255 }
+
+				b_armkhi  = {}
+				b_dariali = {}
+				b_galachozh = {}
+				b_shatoy = {}
+				b_shundi = {}
+				b_alkun = {}
+				b_muzhichi = {}
+				b_galashki = {}
+			}
+		}
+	}
+	k_ingushetia = {
+		color={ 0 147 250 }
+		color2={ 255 255 255 }
+		
+		ingush = "Ghalghaaiche"
+		
+		capital = 2663 # Ingushetia
+	
+		d_ingushetia = {
+			color={ 63 178 255 }
+			color2={ 255 255 255 }
+			
+			ingush = "Ghalghaaiche"
+			
+			capital = 2663 # Ingushetia
+			
+			c_mozdok = {
+				color={ 96 191 255 }
+				color2={ 255 255 255 }
+
+				b_mozdok  = {}
+				b_vinogradnoye = {}
+				b_bratskoye = {}
+				b_znamenskoye = {}
+				b_russkoye = {}
+				b_kiziyar = {}
+				b_vezhariy = {}
+				b_arik = {}
+			}
+			c_ingushetia = {
+				color={ 20 161 255 }
+				color2={ 255 255 255 }
+				
+				ingush = "Ghalghaaiche"
+				
+				b_nazran = {}
+				b_barsuki = {}
+				b_sunzha = {}
+				b_surkhakhi = {}
+				b_magas = {}
+				b_chermen = {}
+				b_verkhnie_achaluki = {}
+			}
+		}
+	}
+	k_alania = { #Dagestan
+		color={ 0 84 84 }
+		color2={ 255 255 255 }
+		
+		capital = 674 # Derbent
+		
+		alan = "Dagistan"
+		avar = "Dagistan"
+		kumyk = "Dagistan"
+		
+		culture = alan
+		
+		sunni = 200 # Crusade target weight
+		wahhabi = 200 # Crusade target weight
+		ovlatii = 200 # Crusade target weight
+		marblists = 200 # Marblist Crusade target weight
+		nousthreskeia_reformed = 700
+		jugoslavist = 200
+		
+		d_derbent = {
+			color={ 0 102 85 }
+			color2={ 255 255 255 }
+			
+			capital = 674 # Derbent
+
+			armenian = "Aghbania"
+			georgian = "Aghbania"
+			alan = "Aghbania"
+			greek = "Albania"
+			livanezoi="Albania"
+			aigyptoi="Albania"
+			cappadocian = "Albania"
+			makedonas = "Albania"
+			tsakonian = "Albania"
+			
+			
+			c_derbent = {
+				color={ 0 51 42 }
+				color2={ 255 255 255 }
+				
+				b_narinkala = {
+				}
+				b_derbent = {
+				}
+				b_juma = {
+				}
+				b_chikkulkan = {
+				}
+				b_kuli = {
+				}
+				b_tayus = {
+				}
+				b_humraj = {
+				}
+				b_datuna = {
+				}
+			}
+			c_semender = {
+				color={ 0 127 106 }
+				color2={ 255 255 255 }
+				
+				b_kumukh = {
+				}
+				b_semender = {
+				}
+				b_khattibaku = {
+				}
+				b_khannalkala = {
+				}
+				b_urtseki = {
+				}
+				b_burgaikala = {
+				}
+				b_tarki = {
+				}
+			}
+			c_makhachkala = {
+				color={ 0 25 21 }
+				color2={ 255 255 255 }
+			
+				b_kaspiysk_DAG = {}
+				b_sulak_DAG = {}
+				b_kizilyurt_DAG = {}
+				b_izberbash_DAG = {}
+				b_buynaksk_DAG = {}
+				b_gamiyakh_DAG = {}
+				b_shamkhal_DAG = {}
+			}
+			c_balanjar = {
+				color={ 0 153 127 }
+				color2={ 255 255 255 }
+
+				b_balanjar = {}
+				b_shali = {}
+				b_argun = {}
+				b_vedeno = {}
+				b_shatoy_2 = {}
+				b_karata_2 = {}
+				b_kiri = {}
+			}
+			c_akhty = {
+				color={ 0 178 148 }
+				color2={ 255 255 255 }
+
+				b_akhty = {}
+				b_rutul = {}
+				b_usukhchay = {}
+				b_tpig = {}
+				b_zukhul = {}
+				b_ashar = {}
+				b_shinaz = {}
+				b_usug = {}
+			}
+			c_khunzakh = {
+				color={ 0 204 170 }
+				color2={ 255 255 255 }
+
+				b_khunzakh = {}
+				b_bakdab = {}
+				b_karata = {}
+				b_botlkh = {}
+				b_agvali = {}
+				b_tindi = {}
+				b_mokok = {}
+				b_chayry = {}
+			}
+		}
+	}
+	k_ossetia = {	
+		color={ 229 191 114 }
+		color2={ 255 255 255 }
+		
+		alan = "Iriston"
+		
+		capital = 2156
+		
+		d_ossetia= {
+		color={ 229 172 57 }
+		color2={ 255 255 255 }
+
+		capital = 2156
+		alan = "Iriston"
+		culture = alan
+
+			c_n_ossetia = {
+				color={ 255 191 63 }
+				color2={ 255 255 255 }
+				
+				alan = "Cægat Iriston"
+
+				b_vladikavkaz  = {}
+				b_digora = {}
+				b_baksan_os = {}
+				b_maysky = {}
+				b_nar = {}
+				b_terek_os = {}
+				b_chikola = {}
+			}
+			c_s_ossetia = {
+				color={ 204 153 51 }
+				color2={ 255 255 255 }
+				
+				alan = "Xussar Iriston"
+
+				
+				b_tskhinvali = {}
+				b_nuli = {}
+				b_java = {}
+				b_leti = {} 
+				b_beloti = {}
+				b_armazi = {}
+				b_teregvani = {}
+			}
+		}
+	}
+	
+	k_crimea= {
+		color={ 123 4 50 }
+		color2={ 255 255 255 }
+		capital = 560 #Cherson
+		
+		
+		
+		culture = gottonsk
+		tatarian = "Qirim"
+		crimean_tatar = "Qirim"
+		kumyk = "Qyirym"
+		gothic = "Nygötalan"
+		gottonsk = "Gothyïa"
+		transylvanian="Crimiæ"
+		wallachian="Crimiæ"
+		adessite="Crimiæ"
+		moldavian="Crimiæ"
+		sazzac="Crimiæ"
+		ukrainer="Tavryia"
+		klynian="Tavryia"
+		cossack="Tavryia"
+		bielaruskaja="Krym"
+		lytsvin="Krym"
+		muscovite="Krym"
+		volgar="Krym"
+		greek="Krimaía"
+		livanezoi="Krimaía"
+		aigyptoi="Krimaía"
+		makedonas="Krimaía"
+		aigionoi="Krimaía"
+		rodiaki="Krimaía"
+		macedonian="Krimaía"
+		pontian="Krimaía"
+		yoonaanee="Krimaía"
+		griko="Krimaía"
+		cypriote="Krimaía"
+		atlantian="Krimaía"
+		grekter="Krimaía"
+		arvanitika="Krimaía"
+		tsakonian="Krimaía"
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_crimea = {
+						is_titular = yes
+					}
+				}
+				k_crimea = {
+					is_titular = no
+				}
+			}
+		}
+		
+	}
+	
+	k_hellas_minor= {
+		color={ 248 196 0 }
+		color2={ 255 255 255 }
+		capital = 563 #lower don	
+		
+		culture = pontian
+	
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_hellas_minor = {
+						is_titular = yes
+					}
+				}
+				k_hellas_minor = {
+					is_titular = no
+				}
+			}
+		}
+		
+	}
+	
+	k_povolzhye = {
+		color={ 229 44 11 }
+		color2={ 255 255 255 }
+		capital = 595 # Stalingrad
+		
+		d_itil = {
+			color={ 178 26 0 }
+			color2={ 255 255 255 }
+			
+			capital = 2219 # Astrakhan
+
+			c_astrakhan = {
+				color={ 204 30 0 }
+				color2={ 255 255 255 }
+				
+				b_astrakhan = {
+				}
+				b_volodarskiy = {
+				}
+				b_makovo = {
+				}
+				b_karalat = {
+				} 
+				b_kirovskiy = {
+				}
+				b_utery = {
+				}
+				b_dashin = {
+				}
+			}
+			c_saray = {
+				color={ 153 22 0 }
+				color2={ 255 255 255 }
+			
+				b_akhtuba = {
+				}
+				b_saray = {
+				}
+				b_tsaganaman = {
+				}
+				b_uspenka = {
+				}
+				b_pokrovka = {
+				}
+				b_dzhelga = {
+				}
+				b_bataevka = {
+				}
+				b_chernyyar = {
+				}
+			}
+			c_itil = {
+				color={ 229 34 0 }
+				color2={ 255 255 255 }
+				
+				b_itil = {
+				}
+				b_khaganbaligh = {
+				}
+				b_kamyzyak = {
+				}
+				b_kharabali = {
+				}
+				b_xacitarxan = {
+				} 
+				b_alga = {
+				}
+				b_tumak = {
+				}
+			}
+		}
+		d_povolzhye = {
+			color={ 204 61 61 }
+			color2={ 255 255 255 }
+			
+			capital = 617
+			
+			c_uzens = {
+				color={ 229 68 68 }
+				color2={ 255 255 255 }
+			
+				b_kaztal = {
+				}
+				b_krykuru = {
+				}
+				b_kyzylasker = {
+				}
+				b_akkus = {
+				}
+				b_kosoba = {
+				}
+				b_ushkuduk = {
+				}
+				b_aytbay = {
+				}
+			}
+			c_saqsin = {
+				color={ 178 53 53 }
+				color2={ 255 255 255 }
+
+				b_saqsin = {}
+				b_bundin = {}
+				b_tsarev = {}
+				b_maksima = {}
+				b_el_ton = {}
+				b_katrichev = {}
+				b_zhyra = {}
+			}
+			c_uvek = {
+				color={ 255 76 76 }
+				color2={ 255 255 255 }
+
+				b_engels = {}
+				b_marks = {}
+				b_lipovka = {}
+				b_burnyy = {}
+				b_shumeyka = {}
+				b_smelovka = {}
+				b_titorenko = {}
+			}
+			c_yeruslan = {
+				color={ 153 45 45 }
+				color2={ 255 255 255 }
+
+				b_yeruslan = {}
+				b_taygara = {}
+				b_imash = {}
+				b_orda = {}
+				b_tungysh = {}
+				b_mereke = {}
+				b_borsi = {}
+			}
+		}
+		d_mordvins = {
+			color = { 178 14 0 }
+			color2={ 255 255 255 }
+	
+			capital = 595 # Stalingrad
+	
+			c_stalingrad = {
+				color={ 204 17 0 }
+				color2={ 255 255 255 }
+				holy_site = stalinist
+				holy_site = ironist
+				holy_site = leninist
+				holy_site = trotskyite
+				holy_site = sisukkuus
+               	
+				b_volgograd = {
+				}
+				b_illovlya = {
+				}
+				b_ryumino = {
+				}
+				b_loq = {
+				}
+				b_illevka = {
+				}
+				b_donskoy = {
+				}
+				b_tary = {
+				}
+				b_ozerki = {
+				}
+			}
+			c_vorona = {
+				color={ 153 12 0 }
+				color2={ 255 255 255 }
+			
+				b_borisoglebsk = {}
+				b_povorino = {}
+				b_uvarovo = {}
+				b_novonikolaevskiy = {}
+				b_novoanninskiy = {}
+				b_uryupinsk = {}
+				b_novokhopyorsk = {}
+			}
+			c_manych = {
+				color={ 229 19 0 }
+				color2={ 255 255 255 }
+			
+				b_malye_derbety = {
+				}
+				b_makhmudmekteb = {
+				}
+				b_nartkala = {
+				}
+				b_malgobekbalka = {
+				}
+				b_kunay = {
+				}
+				b_karabulak1 = {
+				}
+				b_makhach = {
+				}
+			}
+			c_kalach = {
+				color={ 128 12 0 }
+				color2={ 255 255 255 }
+			
+				b_kalach = {}
+				b_solonka = {}
+				b_petropavlovka2 = {}
+				b_nekhaevskaya = {}
+				b_kazanskaya = {}
+				b_uspenka2 = {}
+				b_shakin = {}
+			}
+			c_khopyor = {
+				color={ 255 21 0 }
+				color2={ 255 255 255 }
+			
+				b_khopyorsk = {
+				}
+				b_borisoglebsk1 = {
+				}
+				b_tambov2 = {
+				} 
+				b_uryupin = {
+				}
+				b_balashov = {
+				}
+				b_kirsanov = {
+				}
+				b_ustmedveditskaya = {
+				}
+			}
+			c_burtasy = {
+				color={ 102 8 0 }
+				color2={ 255 255 255 }
+			
+				b_saratov = {
+				}
+				b_mechetnaya = {
+				}
+				b_pokrovsk = {
+				}
+				b_atkarsk = {
+				}
+				b_balakova = {
+				}
+				b_sosnovyostrov = {
+				}
+				b_golykaramysh = {
+				}
+				b_rtishchevo = {
+				}
+			}
+		}
+	}
+	k_donkuban = {
+		color={ 128 76 128 }
+		color2={ 255 255 20 }
+
+		capital = 597 # Azov
+		
+		moldavian = "Sazzacea"
+		adessite = "Sazzacea"
+		sazzac = "Sazzacea"
+		transylvanian="Sazzacea"
+		wallachian="Sazzacea"
+		
+		culture = cossack
+		
+		nousthreskeia_reformed = 600
+		stalinist = 700 # Crusade target weight
+		leninist = 400 # Crusade target weight
+		trotskyite = 400 # Crusade target weight
+		
+		d_alania = {
+			color={ 160 71 178 }
+			color2={ 255 255 255 }
+			
+			capital = 606 # Stavropol
+		
+			c_volgodonsk = {
+				color={ 183 81 204 }
+				color2={ 255 255 255 }
+				
+				b_volgodonsk = {}
+				b_potapov = {}
+				b_zimovniki = {}
+				b_gashun = {}
+				b_dubovskoe = {}
+				b_krasnoarmeiskii = {}
+				b_orlovskii = {}
+			}
+			c_sarpa = {
+				color={ 137 61 153 }
+				color2={ 255 255 255 }
+			
+				b_elst = {
+				}
+				b_bachanta = {
+				}
+				b_ikburul = {
+				}
+				b_karatchaplak = {
+				}
+				b_yashkul = {
+				} 
+				b_ketchenery = {
+				}
+				b_yashalta = {
+				}
+				b_ysaganaman = {
+				}
+			}
+			c_yegorlyk = {
+				color={ 206 91 229 }
+				color2={ 255 255 255 }
+				holy_site = ironist
+			
+				b_piatigorie = {
+				}
+				b_madjar = {
+				}
+				b_stauropolis = {
+				}
+				b_beshpagir = {
+				}
+				b_erkenshakhar = {
+				}
+				b_kuguty = {
+				}
+				b_kiankiz = {
+				}
+				b_yamki = {
+				}
+			}
+		}
+		d_azov = {
+			color={ 165 91 159 }
+			color2={ 255 255 255 }
+			
+			capital = 597 # Azov
+			
+			moldavian = "Krasnonia"
+			adessite = "Krasnonia"
+			sazzac = "Krasnonia"
+			transylvanian="Krasnonia"
+			wallachian="Krasnonia"
+			greek="Azóf"
+			livanezoi="Azóf"
+			aigyptoi="Azóf"
+			makedonas="Azóf"
+			aigionoi="Azóf"
+			rodiaki="Azóf"
+			macedonian="Azóf"
+			pontian="Azóf"
+			yoonaanee="Azóf"
+			griko="Azóf"
+			cypriote="Azóf"
+			atlantian="Azóf"
+			grekter="Azóf"
+			arvanitika="Azóf"
+			tsakonian="Azóf"
+			
+		
+			c_tana = {
+				color={ 178 89 163 }
+				color2={ 255 255 255 }
+			
+				b_tana = {
+				}
+				b_rostovnadonu = {
+				}
+				b_monastyrsky = {
+				}
+				b_bataysk = {
+				}
+				b_gundorovka = {
+				}
+				b_cherkassk = {
+				}
+				b_ustaksayaskaya = {
+				}
+				b_sulin = {
+				}
+			}
+
+			c_tmutarakan = {
+				color={ 127 63 116 }
+				color2={ 255 255 20 }
+				
+				moldavian = "Krasnonia"
+				adessite = "Krasnonia"
+				sazzac = "Krasnonia"
+				transylvanian="Krasnonia"
+				wallachian="Krasnonia"
+				
+				b_tmutarakan = {
+				}
+				b_mapa = {
+				}
+				b_taman = {
+				} 
+				b_tumnev = {
+				}
+				b_jevlisia = {
+				}
+				b_sujukqale = {
+				}
+				b_bata = {
+				}
+				b_tsemes = {
+				}
+			}
+			c_azov = {
+				color={ 204 102 187 }
+				color2={ 255 255 255 }
+			
+				b_azov = {
+				}
+				b_azaq = {
+				}
+				b_sadki = {
+				}
+				b_eysk = {
+				}
+				b_kagalnik = {
+				}
+				b_akhtarsk = {
+				}
+				b_kugey = {
+				}
+				b_katon = {
+				}
+			}
+			c_kuban = {
+				color={ 102 51 93 }
+				color2={ 255 255 255 }
+			
+				b_khumar = {
+				}
+				b_kuban = {
+				}
+				b_psekups = {
+				}
+				b_khutor = {
+				} 
+				b_podkumok = {
+				}
+				b_coparia = {
+				}
+				b_kirpili = {
+				}
+				b_beshtau = {
+				}
+			}
+		}
+		d_sarkel = {
+			color={ 133 76 153 }
+			color2={ 255 255 255 }
+			
+			capital = 594 # Sarkel
+			
+			moldavian = "Donea"
+			adessite = "Donea"
+			sazzac = "Donea"
+			transylvanian="Donea"
+			wallachian="Donea"
+		
+			c_desht-i-kipchak = {
+				color={ 111 63 127 }
+				color2={ 255 255 255 }
+			
+				b_bakhmut = {
+				}
+				b_sviatohirsk = {
+				}
+				b_krasne = {
+				}
+				b_dobropillia = {
+				}
+				b_druzhkivka = {
+				}
+				b_kramatorsk = {
+				}
+				b_lyman = {
+				}
+				b_mospyne = {
+				}
+			}
+			c_sugrov = {
+				color={ 156 89 178 }
+				color2={ 255 255 255 }
+			
+				b_sugrov = {
+				}
+				b_yauchy = {
+				}
+				b_khursa = {
+				}
+				b_khazar = {
+				}
+				b_khratayak = {
+				}
+				b_oboyan = {
+				}
+				b_tim = {
+				}
+				b_fatezh = {
+				}
+			}
+			c_donetsk = {
+				color={ 89 51 102 }
+				color2={ 255 255 255 }
+			
+				b_donetsk = {}
+				b_avdiivka = {}	
+				b_vasylivka = {}	
+				b_vuhledar = {}	
+				b_donskoye2 = {}
+				b_pavlopil = {}	
+				b_pokrovsk2 = {}
+			}
+			c_sarkel = {
+				color={ 156 89 178 }
+				color2={ 255 255 255 }
+			
+				b_kazarki = {
+				}
+				b_sarkel = {
+				}
+				b_belayavezha = {
+				}
+				b_semikarakorsk = {
+				}
+				b_ustdonetskiy = {
+				}
+				b_kotelnikovo = {
+				}
+				b_tsimlyanskoye = {
+				}
+				b_nizhchir = {
+				}
+			}
+			
+		}
+	}
+	k_ukraine = {
+		color={ 12 88 18 }
+		color2={ 255 255 166 }
+		
+		capital = 547 # Kiev
+		
+		ashkenazi = "Ukraina"
+		israeli = "Ukraina"
+		sephardi = "Ukraina"
+		russim = "Ukraina"
+		adessite = "Ucraina"
+		sazzac = "Ucraina"
+		moldavian = "Ucraina"
+		wallachian = "Ucraina"
+		transylvanian = "Ucraina"
+		ukrainer = "Ukrayina"
+		greek="Oukranía"
+		livanezoi="Oukranía"
+		aigyptoi="Oukranía"
+		makedonas="Oukranía"
+		aigionoi="Oukranía"
+		rodiaki="Oukranía"
+		macedonian="Oukranía"
+		pontian="Oukranía"
+		yoonaanee="Oukranía"
+		griko="Oukranía"
+		cypriote="Oukranía"
+		atlantian="Oukranía"
+		grekter="Oukranía"
+		arvanitika="Oukranía"
+		tsakonian="Oukranía"
+		hungarian="Ukrajna"
+		ruten="Ukrájina"
+		
+		novelist_reformed = 700
+		marblists = 500 # Marblist Crusade target weight
+		nousthreskeia_reformed = 1500
+		hussite = 200
+		trotskyite = 600
+		jugoslavist = 800
+		
+		d_chernigov = {
+			color={ 12 128 18 }
+			color2={ 255 255 255 }
+			
+			capital = 554 # Chernigov
+			
+			mordvin = "Severia"
+			meshchera = "Severia"
+			moldavian = "Cernea"
+			adessite = "Cernea"
+			sazzac = "Cernea"
+			
+			c_chernigov = {
+				color={ 12 128 18 }
+				color2={ 255 255 255 }
+		
+				b_chernigov = {
+				}
+				b_snov = {
+				}
+				b_korop = {
+				}
+				b_sosnytsia = {
+				}
+				b_mena = {
+				}
+				b_horodina = {
+				}
+				b_ripky = {
+				}
+			}
+			c_starodub = {
+				color={ 12 128 18 }
+				color2={ 255 255 255 }
+				
+				b_starodub = {
+				}
+				b_vyshenky = {
+				}
+				b_obolonnya = {
+				}
+				b_ponornytsya = {
+				}
+				b_zelena_polyana = {
+				}
+				b_avdiika = {
+				}
+				b_desnianske = {
+				}
+			}
+			c_novgorod_seversky = {
+				color = { 12 128 18 }
+				color2 = { 255 255 255 }
+	
+				b_novgorodseversky = {
+				}
+				b_glukhov = {
+				}
+				b_batouryn = {
+				}
+				b_konotop = {
+				}
+				b_bakhmatch = {
+				}
+				b_altynivka = {
+				}
+				b_atyshua = {
+				}
+			}
+		}
+		d_kharkiv = {
+			color={ 42 138 18 }
+			color2={ 255 255 255 }
+			
+			capital = 565 # Kharkiv
+			
+			c_sharukan = {
+				color={ 168 122 83 }
+				color2={ 255 255 255 }
+				
+				b_kharka = {
+				}
+				b_sumy = {
+				}
+				b_challykala = {
+				}
+				b_khorysdan = {
+				}
+				b_izyum = {
+				}
+				b_balakliia = {
+				}
+				b_kupyansk = {
+				}
+				b_lyubotin = {
+				}
+			}
+			c_priluk = {
+				color={ 12 88 48}
+				color2={ 255 255 255 }
+				
+				b_priluk = {
+				}
+				b_romny = {
+				}
+				b_bobrovytsia = {
+				}
+				b_varva = {
+				}
+				b_nizhyn = {
+				}
+				b_nosivka = {
+				}
+				b_ichina = {
+				}
+			}
+			c_rylsk = {
+				color={ 145 170 45 }
+				color2={ 255 255 255 }
+				
+				b_rylsk = {
+				}
+				b_vyr = {
+				}
+				b_krupets = {
+				}
+				b_kapystichi = {
+				}
+				b_ivanovskoye = {
+				}
+				b_korenovo = {
+				}
+				b_glushkvo = {
+				}
+			}
+		}
+		d_kiev = {
+			color={ 12 88 18 }
+			color2={ 255 255 255 }
+			
+			dignity = 10 # Counted as having 10 more counties than it does
+			capital = 547 # Kiev
+			
+			swedish = Könugård
+			norwegian = Kønugård
+			danish = Kønugård
+			moldavian = "Kiev"
+			adessite = "Kiev"
+			sazzac = "Kiev"
+			transylvanian="Kiev"
+			wallachian="Kiev"
+			greek="Kíevo"
+			livanezoi="Kíevo"
+			aigyptoi="Kíevo"
+			makedonas="Kíevo"
+			aigionoi="Kíevo"
+			rodiaki="Kíevo"
+			macedonian="Kíevo"
+			pontian="Kíevo"
+			yoonaanee="Kíevo"
+			griko="Kíevo"
+			cypriote="Kíevo"
+			atlantian="Kíevo"
+			grekter="Kíevo"
+			arvanitika="Kíevo"
+			tsakonian="Kíevo"
+	
+			c_kiev = {
+				color={ 12 88 18 }
+				color2={ 255 255 255 }
+				
+				swedish = Könugård
+				norwegian = Kønugård
+				danish = Kønugård
+				ukrainer = "Kyiv"
+				moldavian = "Kiev"
+				adessite = "Kiev"
+				sazzac = "Kiev"
+				transylvanian="Kiev"
+				wallachian="Kiev"
+				greek="Kíevo"
+				livanezoi="Kíevo"
+				aigyptoi="Kíevo"
+				makedonas="Kíevo"
+				aigionoi="Kíevo"
+				rodiaki="Kíevo"
+				macedonian="Kíevo"
+				pontian="Kíevo"
+				yoonaanee="Kíevo"
+				griko="Kíevo"
+				cypriote="Kíevo"
+				atlantian="Kíevo"
+				grekter="Kíevo"
+				arvanitika="Kíevo"
+				tsakonian="Kíevo"
+
+				holy_site = zarist
+				holy_site = orthodox
+				holy_site = karaite
+				holy_site = easternprotestant			
+				
+				b_kiev = {
+					swedish = Könugård
+					norwegian = Kønugård
+					danish = Kønugård
+					ukrainer = "Kyiv"
+					greek="Kíevo"
+					livanezoi="Kíevo"
+					aigyptoi="Kíevo"
+					makedonas="Kíevo"
+					aigionoi="Kíevo"
+					rodiaki="Kíevo"
+					macedonian="Kíevo"
+					pontian="Kíevo"
+					yoonaanee="Kíevo"
+					griko="Kíevo"
+					cypriote="Kíevo"
+					atlantian="Kíevo"
+					grekter="Kíevo"
+					arvanitika="Kíevo"
+					tsakonian="Kíevo"
+				}
+				b_zhytomyr = {
+				}
+				b_vyshhorod = {
+				}
+				b_vasykliv = {
+				}
+				b_yuriev = {
+				}
+				b_kaniv = {
+				}
+				b_fastiv = {
+				}
+			}
+			c_korosten = {
+				color={ 12 88 18 }
+				color2={ 255 255 255 }
+
+				holy_site = cosmist
+		   
+				b_korosten = {
+				}
+				b_olevsk = {
+				}
+				b_ovruch = {
+				}
+				b_malyn = {
+				}
+				b_chernobyl = {
+				}
+				b_narodytchi = {
+				}
+				b_louhyny = {
+				}
+			}
+			c_vozviahel = {
+				color={ 12 88 18 }
+				color2={ 255 255 255 }
+				
+				b_vozvyahel = {
+				}
+				b_korets = {
+				}
+				b_horodnytsia = {
+				}
+				b_berdytchiv = {
+				}
+				b_baranivka = {
+				}
+				b_yemilchyne = {
+				}
+				b_hrud = {
+				}
+		    }
+		}
+		
+		d_podolia = {
+		    color={ 12 108 18 }
+			color2={ 255 255 255 }
+			
+			capital = 1647 #vinnysia
+			
+			c_medjybij = {
+				color={ 12 108 18 }
+				color2={ 255 255 255 }
+				
+				b_medjybij = {
+				}
+				b_hubyn = {
+				}
+				b_khmilnyk = {
+				}
+				b_letychiv = {
+				}
+				b_berdychiv = {
+				}
+				b_liubar = {
+				}
+				b_chudniv = {
+				}
+			}
+			c_uman = {
+				color={ 12 108 18 }
+				color2={ 255 255 255 }
+				
+				b_kolodyste = {}
+				b_stari_babany = {}
+				b_palanka = {}
+				b_ryzhavka = {}
+				b_ostrivets = {}
+				b_zatyshok = {}
+				b_cherpovody = {}
+			}
+			c_ushytsia = {
+				color={ 12 108 18 }
+				color2={ 255 255 255 }
+				
+				polish = "Uszyca"
+				
+				b_ushytsia = {
+				}
+				b_kamianets = {
+				}
+				b_litnivtsi = {
+				}
+				b_dunaivtsi = {
+				}
+				b_murovani = {
+				}
+				b_velykyi_zhvanchyk = {
+				}
+				b_ushiyin = {
+				}
+			}
+			c_vinnytsia = {
+				color={ 12 108 18 }
+				color2={ 255 255 255 }
+
+				holy_site = hasidic
+				
+				b_vinnytsia = {
+				}
+				b_ladyzhyn = {
+				}
+				b_illintsi = {
+				}
+				b_rov = {
+				}
+				b_haisyn = {
+				}
+				b_bershad = {
+				}
+				b_pervomaisk = {
+				}
+			}
+		}
+		d_pereyaslavl = {
+			color={ 12 88 48 }
+			color2={ 255 255 255 }
+			
+			capital = 555 # Pereyaslavl
+			
+			moldavian = "Leoberesia"
+			adessite = "Leoberesia"
+			sazzac = "Leoberesia"
+			transylvanian="Leoberesia"
+			wallachian="Leoberesia"
+		
+			c_pereyaslavl = {
+				color={ 12 88 48 }
+				color2={ 255 255 255 }
+				
+				b_pereyaslavl = {
+				}
+				b_boryspil = {
+				}
+				b_kozelets = {
+				}
+				b_baryshivka = {
+				}
+				b_yahotyn = {
+				}
+				b_velyka_dymerka = {
+				}
+				b_berezan = {
+				}
+			}
+			c_voin = {
+				color={ 12 88 48 }
+				color2={ 255 255 255 }
+				
+				b_voin = {
+				}
+				b_zolotonosha = {
+				}
+				b_drabiv = {
+				}
+				b_chornobai = {
+				}
+				b_irkliiv = {
+				}
+				b_bohodukhivka = {
+				}
+				b_pishchane = {
+				}
+			}
+			c_hradyzk = {
+				color={ 12 88 48 }
+				color2={ 255 255 255 }
+				
+				b_hradyzk = {
+				}
+				b_poltava = {
+				}
+				b_khorol = {
+				}
+				b_lubny = {
+				}
+				b_kremenchuk = {
+				}
+				b_myrhorod = {
+				}
+				b_kobeliaky = {
+				}
+			}
+		}		
+		
+		d_crimea = {
+			color={ 22 88 28 }
+			color2={ 255 255 255 }
+			
+			kumyk = Qurim
+			
+			capital = 560 # Cherson
+			
+			greek="Krimaía"
+			livanezoi="Krimaía"
+			aigyptoi="Krimaía"
+			makedonas="Krimaía"
+			aigionoi="Krimaía"
+			rodiaki="Krimaía"
+			macedonian="Krimaía"
+			pontian="Krimaía"
+			yoonaanee="Krimaía"
+			griko="Krimaía"
+			cypriote="Krimaía"
+			atlantian="Krimaía"
+			grekter="Krimaía"
+			arvanitika="Krimaía"
+			tsakonian="Krimaía"
+		
+			c_crimea = {
+				color={ 22 88 28 }
+				color2={ 255 255 255 }
+                
+				moldavian = "Yevpatoria"
+				adessite = "Yevpatoria"
+				sazzac = "Yevpatoria"
+				transylvanian="Yevpatoria"
+				wallachian="Yevpatoria"
+				kumyk = "Aqmescit"
+				crimean = "Yevpatoria"
+				ukrainer = "Yevpatoria"
+				
+				holy_site = karaite
+				holy_site = jadidist
+
+				b_neapol = {
+				}
+				b_aqmescit = {
+				}
+				b_dzhankoy = {
+				}
+				b_saq = {
+				}
+				b_perekop = {
+				}
+				b_qarasuvbazar = {
+				}
+				b_kezlev = {
+				}
+				b_qurman = {
+				}
+			}
+			c_dzhankoi = {
+				color={ 22 88 28 }
+				color2={ 255 255 255 }
+
+				b_dzhankoi = {
+				}
+				b_krasnogvardeyskoye = {
+				}
+				b_krymka = {
+				}
+				b_perepilkyne = {
+				}
+				b_voinka = {
+				}
+				b_vyshnivka = {
+				}
+				b_pervomaiske = {
+				}
+				b_sadove = {
+				}
+			}
+			c_krasnohvardiiske = {
+				color={ 22 88 28 }
+				color2={ 255 255 255 }
+
+				b_krasnohvardiiske = {}
+				b_yantarne = {}
+				b_kalinine = {}
+				b_roshchyne = {}
+				b_poltavka = {}
+				b_kremnivka = {}
+				b_krymka1 = {}
+			}
+			c_theodosia = {
+				color={ 22 88 28 }
+				color2={ 255 255 20 }
+				
+				crimean = "Feodosia"
+				ukrainer = "Feodosiia"
+				kumyk = "Kefe"
+				
+				b_theodosia = {
+					crimean = "Feodosia"
+					ukrainer = "Feodosiia"
+					kumyk = "Kefe"
+				}
+				b_soldaia = {
+				}
+				b_kimmerikon = {
+				}
+				b_caffa = {
+				}
+				b_caulita = {
+				}
+				b_olyva = {
+				}
+				b_lusta = {
+				}
+				b_funan = {
+				}
+			}
+			c_korchev = {
+				color={ 22 88 28 }
+				color2={ 255 255 20 }
+				
+				crimean = "Kerch"
+				ukrainer = "Kerch"
+				kumyk = "Keriç"
+				
+				b_bosphoros = {
+				}
+				b_panticapea = {
+				}
+				b_cherco = {
+				}
+				b_nymphaion = {
+				}
+				b_chystopillia = {
+				}
+				b_vosporo = {
+				}
+				b_baherove = {
+				}
+				b_zavitne = {
+				}
+			}
+			c_cherson = {
+				color={ 22 88 28 }
+				color2={ 255 255 20 }
+                
+				moldavian = "Sebastopol"
+				adessite = "Sebastopol"
+				sazzac = "Sebastopol"
+				transylvanian="Sebastopol"
+				wallachian="Sebastopol"
+				kumyk = "Aqyar"
+				ukrainer = "Yalta"
+				cossack = "Yalta"
+				crimean = "Kherson"
+				greek="Sevastoúpoli"
+				livanezoi="Sevastoúpoli"
+				aigyptoi="Sevastoúpoli"
+				makedonas="Sevastoúpoli"
+				aigionoi="Sevastoúpoli"
+				rodiaki="Sevastoúpoli"
+				macedonian="Sevastoúpoli"
+				pontian="Sevastoúpoli"
+				yoonaanee="Sevastoúpoli"
+				griko="Sevastoúpoli"
+				cypriote="Sevastoúpoli"
+				atlantian="Sevastoúpoli"
+				grekter="Sevastoúpoli"
+				arvanitika="Sevastoúpoli"
+				tsakonian="Sevastoúpoli"
+				
+				b_kherson = {
+					moldavian = "Sebastopol"
+					adessite = "Sebastopol"
+					sazzac = "Sebastopol"
+					transylvanian="Sebastopol"
+					wallachian="Sebastopol"
+					kumyk = "Aqyar"
+					ukrainer = "Yalta"
+					cossack = "Yalta"
+					crimean = "Kherson"
+					greek = "Sevastoúpoli"
+					livanezoi="Sevastoúpoli"
+					aigyptoi="Sevastoúpoli"
+					cappadocian = "Sevastoúpoli"
+					makedonas = "Sevastoúpoli"
+					aigionoi = "Sevastoúpoli"
+					rodiaki = "Sevastoúpoli"
+					macedonian = "Sevastoúpoli"
+					pontian = "Sevastoúpoli"
+					yoonaanee = "Sevastoúpoli"
+					griko = "Sevastoúpoli"
+					cypriote = "Sevastoúpoli"
+					atlantian = "Sevastoúpoli"
+					grekter = "Sevastoúpoli"
+					arvanitika = "Sevastoúpoli"
+					tsakonian = "Sevastoúpoli"
+				}
+				b_doros = {
+				}
+				b_bakhchisaray = {
+				}
+				b_kerkinitis = {
+				}
+				b_cembalo = {
+				}
+				b_charax = {
+				}
+				b_sevastoupolis = {
+				}
+				b_kalamita = {
+				}
+			}
+		}
+
+		d_mykolaiv = {
+			color={ 42 88 38 }
+			color2={ 255 255 255 }
+			
+			capital = 2096 # Dnipro
+			
+			moldavian = "Dniperia"
+			adessite = "Dniperia"
+			sazzac = "Dniperia"
+			transylvanian="Dniperia"
+			wallachian="Dniperia"
+						
+			c_oleshye = { # Tag inverted with c_lower_dniepr
+				color={ 42 88 38 }
+				color2={ 255 255 255 }
+			
+				b_mykolaiv = {
+				}
+				b_dnieprkherson = {
+				}
+				b_kryvyi_rih = {
+				}
+				b_inhulets = {
+				}
+				b_zabich = {
+				}
+				b_bereznehovate = {
+				}
+				b_snihirevka = {
+				}
+			}
+			c_dnipro = { 
+				color={ 42 88 38 }
+				color2={ 255 255 255 }
+			
+				b_dnipro = {
+				}
+				b_novokadsk = {
+				}
+				b_stari_kodaky = {
+				}
+				b_marhanets = {
+				}
+				b_nikopol = {
+				}
+				b_kamenskoye = {
+				}
+				b_pokrov = {
+				}
+			}
+			c_novoukrainka = { 
+				color={ 42 88 38 }
+				color2={ 255 255 255 }
+			
+				b_novoukrainka = {}
+				b_zvirika = {}
+				b_voronivka = {}
+				b_zlynka = {}
+				b_pomichna = {}
+				b_rivne1 = {}
+				b_ivanivtsi = {}
+			}
+			c_korsun = {
+				color={ 42 88 38 }
+				color2={ 255 255 255 }
+				
+				holy_site = trotskyite
+	
+				b_korsun = {
+				}
+				b_cherkassy = {
+				}
+				b_smila = {
+				}
+				b_chyhyryn = {
+				}
+				b_oleksandriia = {
+				}
+				b_kirovohrad = {
+				}
+				b_znamianka = {
+				}
+			}
+		}
+		d_zaporizhia = {
+			color={ 32 118 38 }
+			color2={ 255 255 255 }	
+		
+			capital = 557 
+		
+			moldavian = "Saporicia"
+			adessite = "Saporicia"
+			sazzac = "Saporicia"
+			transylvanian="Saporicia"
+			wallachian="Saporicia"
+			greek="Zaporízia"
+			livanezoi="Zaporízia"
+			aigyptoi="Zaporízia"
+			makedonas="Zaporízia"
+			aigionoi="Zaporízia"
+			rodiaki="Zaporízia"
+			macedonian="Zaporízia"
+			pontian="Zaporízia"
+			yoonaanee="Zaporízia"
+			griko="Zaporízia"
+			cypriote="Zaporízia"
+			atlantian="Zaporízia"
+			grekter="Zaporízia"
+			arvanitika="Zaporízia"
+			tsakonian="Zaporízia"
+
+			c_lukomorie = {
+				color={ 32 118 38 }
+				color2={ 255 255 255 }
+			    ukrainer = Molochnyi
+				cossack = Molochnyi
+				b_zaporzhye = {
+				}
+				b_kushunum = {
+				}
+				b_huliaipole = {
+				}
+				b_kalmius = {
+				}
+				b_kalchik = {
+				}
+				b_onkhiv = {
+				}
+				b_polohy = {
+				}
+				b_chernihivka = {
+				}
+			}
+			c_lower_don = {
+				color={ 32 118 38 }
+				color2={ 255 255 255 }
+			    ukrainer = Berdiansk
+				cossack = Berdiansk
+				b_taganrog = {
+				}
+				b_matveevkurgan = {
+				}
+				b_mariupol = {
+				}
+				b_latonovo = {
+				}
+				b_vesely = {
+				}
+				b_marfinka = {
+				}
+				b_ryasnoye = {
+				}
+				b_novoazovsk = {
+				}
+			}
+			c_nyzhni_sirohozy = {
+				color={ 32 118 38 }
+				color2={ 255 255 255 }
+				
+				b_nyzhni_sirohozy = {}
+				b_stephne = {}
+				b_dontsove = {}
+				b_verby = {}
+				b_ivanivka1 = {}
+				b_hoholivka = {}
+				b_podove = {}
+			}
+			c_lower_dniepr = { # Tag inverted with c_oleshye
+				color={ 32 118 38 }
+				color2={ 255 255 255 }
+			
+				b_oleshye = {
+				}
+				b_kairy = {
+				}
+				b_kyzylyar = {
+				}
+				b_shagingirei = {
+				}
+				b_kuturogly = {
+				}
+				b_tokmak = {
+				}
+				b_pryazovske = {
+				}
+				b_bilozerka = {
+				}
+			}
+            c_chortitza = {
+				color={ 32 118 38 }
+				color2={ 255 255 255 }
+			    ukrainer = Zaporizhia
+				b_ltava = {
+				}
+				b_chortitza = {
+				}
+				b_baszmacka = {
+				}
+				b_alexandrowsk = {
+				}
+				b_rasumowka = {
+				}
+				b_vosnesjensk = {
+				}
+				b_khorolya = {
+				}
+			}
+		}		
+	}
+	k_romania = {
+		color={ 220 132 40 }
+		color2={ 255 255 255 }
+		
+		culture = wallachian
+		
+		capital = 515 # Tirgoviste
+		
+		novelist_reformed = 4500
+		marblists = 800 # Marblist Crusade target weight
+		nousthreskeia_reformed = 500
+		hussite = 500
+		calvinist = 2000 #Crusade target weight
+		jugoslavist = 1000
+		
+		greek="Roumanía"
+		livanezoi="Roumanía"
+		aigyptoi="Roumanía"
+		makedonas="Roumanía"
+		aigionoi="Roumanía"
+		rodiaki="Roumanía"
+		macedonian="Roumanía"
+		pontian="Roumanía"
+		yoonaanee="Roumanía"
+		griko="Roumanía"
+		cypriote="Roumanía"
+		atlantian="Roumanía"
+		grekter="Roumanía"
+		arvanitika="Roumanía"
+		tsakonian="Roumanía"
+		hungarian="Románia"
+		szekely="Románia"
+		csangok="Románia"
+		wallachian="România"
+		transylvanian="România"
+		moldavian="România"
+		adessite="România"
+		sazzac="România"
+		turkish = "Romanya"
+		elbistanli = "Romanya"
+		rumeli = "Romanya"
+		egeli = "Romanya"
+		kapadokyali = "Romanya"
+		karadenizci = "Romanya"
+		turk = "Romanya"
+		
+		d_transylvania = {
+			color={ 200 132 65 }
+			color2={ 255 255 255 }
+			
+			capital = 519 # Feher
+			hungarian="Erdély"
+			szekely="Erdély"
+			csangok="Erdély"
+			wallachian="Ardeal"
+			transylvanian="Ardeal"
+			moldavian="Ardeal"
+			adessite="Ardeal"
+			sazzac="Ardeal"
+			c_szekelyfold = {
+				color={ 200 132 65 }
+				color2={ 255 255 255 }
+				
+				holy_site = novelist
+				holy_site = novelist_reformed
+
+				austrian = Szeklerland
+				wallachian="Secuimea"
+				transylvanian="Secuimea"
+				moldavian="Secuimea"
+				adessite="Secuimea"
+				sazzac="Secuimea"
+				slovak = Sikulsko
+				
+				b_csik = {
+				}
+				b_aranyos = {
+				}
+				b_haromszek = {
+				}
+				b_maros = {
+				}
+				b_kezdi = {
+				}
+				b_szekelyudvarhely = {
+				}
+				b_sepsiszentgyorgy = {
+				}
+				b_marosvasarhely = {
+				}
+			}
+			c_sibiu = {
+				color={ 200 152 65 }
+				color2={ 255 255 255 }
+				
+				b_sibiu = {}
+				b_avrig = {}
+				b_agnita = {}
+				b_biertan = {}
+				b_ocna_sibiului = {}
+				b_bazna = {}
+				b_viscri = {}
+			}
+			c_mures = {
+				color={ 200 112 75 }
+				color2={ 255 255 255 }
+				
+				b_targu_mures = {}
+				b_reghin = {}
+				b_sovata = {}
+				b_salard = {}
+				b_ludus = {}
+				b_deda = {}
+				b_ungheni1 = {}
+			}
+			c_bihar = {
+				color={ 200 132 65 }
+				color2={ 255 255 255 }
+				
+				wallachian = Bihor
+
+				holy_site = easternprotestant
+				
+				b_bihar = {
+				}
+				b_nagyvarad = {
+				}
+				b_crasna = {
+				}
+				b_biharkeresztes = {
+				}
+				b_nagybajom = {
+				}
+				b_szalard = {
+				}
+				b_zolonta = {
+				}
+				b_elesd = {
+				}
+			}
+			c_feher = {
+				color={ 200 132 65 }
+				color2={ 255 255 255 }
+
+				wallachian = "Alba de Jos"
+				austrian = "Unterweissenburg"
+				
+				b_feher = {
+				}
+				b_arad = {
+				}
+				b_gyulafehervar = {
+					wallachian = "Balgrad"
+				}
+				b_elek = {
+				}
+				b_abrudbanya = {
+				}
+				b_nagyenyed = {
+				}
+				b_vizakna = {
+				}
+				b_tovis = {
+				}
+			}
+		}
+		d_wallachia = {		#Muntenia
+			color={ 230 122 40 }
+			color2={ 255 255 255 }
+			
+			capital = 515 # Tirgoviste
+			
+			greek="Vlachía"
+			livanezoi="Vlachía"
+			aigyptoi="Vlachía"
+			makedonas="Vlachía"
+			aigionoi="Vlachía"
+			rodiaki="Vlachía"
+			macedonian="Vlachía"
+			pontian="Vlachía"
+			yoonaanee="Vlachía"
+			griko="Vlachía"
+			cypriote="Vlachía"
+			atlantian="Vlachía"
+			grekter="Vlachía"
+			arvanitika="Vlachía"
+			tsakonian="Vlachía"
+			hungarian="Havasföld"
+			szekely="Havasföld"
+			csangok="Havasföld"
+			
+			c_tirgoviste = {
+				color={ 230 122 40 }
+				color2={ 255 255 255 }
+				
+			
+				b_bucuresti = {}
+				b_targoviste = {
+				}
+				b_ploiesti = {}
+				b_tabla_butii = {
+				}
+				b_snagov = {
+				}
+				b_bucov = {
+				}
+				b_valeni = {
+				}
+			}
+			c_buzau = {
+				color={ 230 122 40 }
+				color2={ 255 255 255 }
+				
+				b_buzau = {}
+				b_braila = {}
+				b_campina = {}
+				b_sinaia = {}
+				b_valenii_de_munte = {}
+				b_ramnicu_sarat = {}
+				b_ianca = {}
+			}
+			c_turnu = {
+				color={ 230 122 40 }
+				color2={ 255 255 255 }
+			
+				b_turnu = {
+				}
+				b_giurgiu = {
+				}
+				b_comana = {
+				}
+				b_zimnicea = {
+				}
+				b_bucuresti1 = {
+				}
+				b_rosiorriidevede = {
+				}
+				b_glavacioc = {
+				}
+			}
+			c_campulung = {
+				color={ 230 122 40 }
+				color2={ 255 255 255 }
+				
+				b_campulung = {
+				}
+				b_arges = {
+				}
+				b_pitesti = {
+				}
+				b_bran = {
+				}
+				b_bovora = {
+				}
+				b_cozla = {
+				}
+				b_mioveni = {
+				}
+			}
+			c_calarasi = {
+				color={ 230 122 40 }
+				color2={ 255 255 255 }
+				
+				b_calarasi = {
+				}
+				b_coconi = {
+				}
+				b_cornatei = {
+				}
+				b_floci = {
+				}
+				b_oltenita = {
+				}
+				b_slobozia = {
+				}
+				b_fetesti = {
+				}
+			}			
+		}
+		
+		d_oltenia = {
+			color={ 220 112 50 }
+			color2={ 255 255 255 }
+			
+			capital = 1643 # Craiova
+			
+			c_craiova = {
+				color={ 220 112 50 }
+				color2={ 255 255 255 }
+				
+				b_craiova = {
+				}
+				b_corabia = {
+				}
+				b_caracal = {
+				}
+				b_calafat = {
+				}
+				b_slatina1 = {
+				}
+				b_resita = {
+				}
+				b_hotarani = {
+				}
+			}
+			c_temes = {
+				color={ 220 112 50 }
+				color2={ 255 255 255 }
+
+				serbian = Tamis
+				hungarian = Temes
+				austrian = Temesch
+					
+				b_temesvar = {
+				}
+				b_lugos = {
+				}
+				b_buzias = {
+				}
+				b_versecz = {
+				}
+				b_detta = {
+				}
+				b_kevevara = {
+				}
+				b_karansebes = {
+				}
+			}
+			c_targu_jiu = {
+				color={ 220 112 50 }
+				color2={ 255 255 255 }
+				
+				b_targu_jiu = {
+				}
+				b_bistrita = {
+				}
+				b_baia_de_arama = {
+				}
+				b_polovragi = {
+				}
+				b_visina = {
+				}
+				b_tismana = {
+				}
+				b_vulcan = {
+				}
+			}
+			c_severin = {
+				color={ 220 112 50 }
+				color2={ 255 255 255 }
+			
+				b_severin = {
+				}
+				b_mehadia = {
+				}
+				b_orsova = {
+				}
+				b_drobeta = {
+				}
+				b_caransebes = {
+				}
+				b_gradet = {
+				}
+				b_vodita = {
+				}
+			}
+		}
+	}	
+	
+	k_moldova = {
+		color={ 220 210 0 }
+		color2={ 255 255 255 }
+		
+		culture = wallachian
+		
+		capital = 512 # Chisinau
+		
+		novelist_reformed = 600
+		marblists = 1000 # Marblist Crusade target weight
+		nousthreskeia_reformed = 500
+		jugoslavist = 700
+		
+		greek="Moldavía"
+		livanezoi="Moldavía"
+		aigyptoi="Moldavía"
+		makedonas="Moldavía"
+		aigionoi="Moldavía"
+		rodiaki="Moldavía"
+		macedonian="Moldavía"
+		pontian="Moldavía"
+		yoonaanee="Moldavía"
+		griko="Moldavía"
+		cypriote="Moldavía"
+		atlantian="Moldavía"
+		grekter="Moldavía"
+		arvanitika="Moldavía"
+		tsakonian="Moldavía"
+		hungarian="Moldávia"
+		szekely="Moldávia"
+		csangok="Csángóföld"
+		
+		d_nistrenia = {
+			color={ 220 210 0 }
+			color2={ 255 255 255 }
+			
+			capital = 2149 #Tirspol
+			ukrainer = "Prydinstrovia"
+			cossack = "Prydinstrovia"
+			c_tiraspol = {
+				color={ 220 210 0 }
+				color2={ 255 255 255 }
+
+				b_tiraspol = { 
+				}
+				b_slobozia_2 = { 
+				}
+                b_grigoriopol = {
+				}
+				b_dubasari = { 
+				}
+				b_crasnoe = { 
+				}
+				b_sibca = { 
+				}
+				b_ciobruciu = { 
+				}
+			}	
+			c_ribnita = {
+				color={ 220 210 0 }
+				color2={ 255 255 255 }
+			
+			    b_ribnita = {
+				}
+				b_camenca = { 
+				}
+				b_plopi = {
+				}
+				b_rashkov = {
+				}
+				b_hristovaia = {
+				}
+				b_ocnita = {
+				}
+				b_cobasna = {
+				}	
+			}
+        }
+		d_moldau = {
+			color={ 200 210 0 }
+			color2={ 255 255 255 }
+			
+			capital = 1638 # Iasi
+			
+			
+			c_bacau = {
+				color={ 200 210 0 }
+				color2={ 255 255 255 }
+				
+				b_bacau = {
+				}
+				b_targu_neamnt = {
+				}
+				b_neamnt = {
+				}
+				b_targu_trotus = {
+				}
+				b_bodesti = {
+				}
+				b_tazlau = {
+				}
+				b_bistrita_bacau = {
+				}
+			}
+			c_iasi = {
+				color={ 200 210 0 }
+				color2={ 255 255 255 }
+				
+				b_iasi = {
+				}
+				b_harlau = {
+				}
+				b_radauti = {
+				}
+				b_suceava = {
+				}
+				b_dorohoi = {
+				}
+				b_varzaresti = {
+				}
+				b_ungheni = {
+				}
+			}
+            c_torki = {				
+				color={ 210 210 30 }
+				color2={ 255 255 255 }
+				moldavian = Cernauti
+				wallachian = Cernauti
+				transylvanian="Cernauti"
+				adessite = Cernauti
+				sazzac = Cernauti
+			
+				b_cernauti = { 
+				}
+				b_hotin = {
+				}
+				b_bogdana = { 
+				}
+				b_baia = { 
+				}
+				b_moldovita = { 
+				}
+				b_siret = { 
+				}
+				b_putna = {
+				} 
+			}
+			c_galaz = {
+				color={ 200 210 0 }
+				color2={ 255 255 255 }
+
+				holy_site = easternprotestant
+				
+				b_galaz = {
+				}
+				b_falciu = {
+				}
+				b_husi = {
+				}
+				b_oancea = {
+				}
+				b_beresti = {
+				}
+				b_targu_bujor = {
+				}
+				b_murgeni = {
+				}
+			}
+			c_birlad = {
+				color={ 200 210 0 }
+				color2={ 255 255 255 }
+
+				b_barlad = {
+				}
+				b_tecuci = {
+				}
+				b_focsani = {
+				}
+				b_adjud = {
+				}
+				b_craciuna = {
+				}
+				b_targu_putnei = {
+				}
+				b_marasesti = {
+				}
+			}
+		}
+		d_adessida = {
+			color={ 210 210 10 }
+			color2={ 255 255 255 }
+			
+			capital = 1646 # Odessa
+			
+			c_odessa = {
+				color={ 210 210 10 }
+				color2={ 255 255 255 }
+				
+				adessite="Adessa"
+				moldavian="Adessa"
+				sazzac="Adessa"
+				transylvanian="Adessa"
+				wallachian = "Adessa"
+				greek="Odissós"
+				livanezoi="Odissós"
+				aigyptoi="Odissós"
+				makedonas="Odissós"
+				aigionoi="Odissós"
+				rodiaki="Odissós"
+				macedonian="Odissós"
+				pontian="Odissós"
+				yoonaanee="Odissós"
+				griko="Odissós"
+				cypriote="Odissós"
+				atlantian="Odissós"
+				grekter="Odissós"
+				arvanitika="Odissós"
+				tsakonian="Odissós"
+				
+				b_odessa = {
+				}
+				b_holovkivka = {
+				}
+				b_berezivka = {
+				}
+				b_petroverovka = {
+				}
+				b_rozdilna = {
+				}
+				b_illichivsk = {
+				}
+				b_yuzhne = {
+				}
+			}
+			c_bratslav = {
+				color={ 210 210 10 }
+				color2={ 255 255 255 }
+				
+				b_bratslav = {
+				}
+				b_nemyriv = {
+				}
+				b_yampil = {
+				}
+				b_sharhorod = {
+				}
+				b_zhmerynka = {
+				}
+				b_tomashpil = {
+				}
+				b_kryzhopil = {
+				}
+			}
+			c_olvia = {
+				color={ 210 210 10 }
+				color2={ 255 255 255 }
+				
+				b_olvia = {
+				}
+				b_ochakiv = {
+				}
+				b_veselynove = {
+				}
+				b_voznesensk = {
+				}
+				b_kobleve = {
+				}
+				b_stavky = {
+				}
+				b_rybakivka = {
+				}
+			}
+		}
+		d_bessarabia = {
+			color={ 210 210 30 }
+			color2={ 255 255 255 }
+			
+			moldavian = "Basarabia"
+			adessite = "Basarabia"
+			sazzac = "Basarabia"
+			wallachian = "Basarabia"
+			transylvanian="Basarabia"
+			
+			capital = 512 # belgorod
+			
+			c_chilia = {
+				color={ 210 210 30 }
+				color2={ 255 255 255 }
+				moldavian = "Cetatea Alba"
+				adessite = "Cetatea Alba"
+				sazzac = "Cetatea Alba"
+				wallachian = "Cetatea Alba"
+				transylvanian="Cetatea Alba"
+				b_cetatea_alba = {
+				}
+				b_belgorod = { 
+				}
+                b_chilia = {
+				}
+				b_reni_ro = { 
+				}
+				b_cahul = { 
+				}
+				b_lisky = {
+				}
+				b_palada = { 
+				}
+			}	
+			c_belgorod = { 
+				color={ 210 210 30 }
+				color2={ 255 255 255 }
+				holy_site = orthodox
+			
+			    b_chisinau = {
+				}
+				b_tighina = { 
+				}
+				b_capriana = {
+				pentarchy = orthodox
+				}
+				b_oblucita = {
+				}
+				b_tigheci = {
+				}
+				b_causeni = {
+				}
+				b_cedaesti = {
+				}
+				
+			}
+            c_peresechen = {
+				color={ 210 210 30 }
+				color2={ 255 255 255 }
+				
+				holy_site = karaite
+			    b_balti = {
+				}
+				b_soroca = {
+				}
+				b_orhei = {			
+				}
+				b_butuceni = {
+				}
+				b_tuzara = {
+				}
+				b_falesti = {
+				}
+				b_rautu = {
+				}
+			}	
+            c_gagauzia = {
+				color={ 230 230 30 }
+				color2={ 255 255 255 }
+				
+			    b_comrat = {}
+				b_chirsova = {}
+				b_avdarma = {}
+				b_kongaz = {}
+				b_tomal = {}
+				b_cazaclia = {}
+				b_sadic = {}
+				b_joltai = {}
+			}			
+		}	
+	}
+	k_galichia = {
+		color={ 0 91 187 }
+		color2={ 255 255 255 }
+		
+		culture = wallachian
+		
+		capital = 536 
+		ukrainer="Halych"
+		wallachian="Halicia"
+		transylvanian="Halicia"
+		adessite="Halicia"
+		moldavian="Halicia"
+		sazzac="Halicia"
+		klynian="Halych"
+		cossack="Halych"
+		rusyn="Halychyna"
+		hungarian="Halics"
+		ruten="Halics"
+		novelist_reformed = 500
+		nousthreskeia_reformed = 600
+		jugoslavist = 700
+		
+		d_cherven_cities = {
+			color={ 0 91 187 }
+			color2={ 255 255 255 }
+			
+			capital = 1632 # Belz
+			
+			c_belz = {
+				color={ 0 91 187 }
+				color2={ 255 255 255 }
+				polish = "Belz"
+				b_belz = {
+				}
+				b_horodlo = {
+				}
+				b_lopatyn = {
+				}
+				b_sokal = {
+				}
+				b_grabowiec = {
+				}
+				b_mycow = {
+				}
+				b_tchernogrov = {
+				}
+			}
+			c_lutsk = {
+				color={ 0 91 187 }
+				color2={ 255 255 255 }
+				
+				polish = "Luck"
+				
+				b_lutsk = {
+				}
+				b_dubno = {
+				}
+				b_jytomyr = {
+				}
+				b_peresopnytsia = {
+				}
+				b_shumsk = {
+				}
+				b_rivne = {
+				}
+				b_pochaiv = {
+				}
+			}			
+			c_vladimir_volynsky = {
+				color={ 0 91 187 }
+				color2={ 255 255 255 }
+				
+				polish = "Wlodzimierz Wolynski"
+	
+				b_vladimirvolynsky = {
+					polish = "Wlodzimierz Wolynski"
+				}
+				b_luboml = {
+				}
+				b_kovel = {
+				}
+				b_lukiv = {
+				}
+				b_lityn = {
+				}
+				b_mochalky = {
+				}
+				b_okhotnyky = {
+				}
+			}			
+		}
+		d_ungvar = { #Rusya
+			color={ 20 91 187 }
+			color2={ 255 255 255 }
+			
+			capital = 538 # Abauj
+			
+			croatian = Chrobatia
+			slovak = Východ	
+			ukrainer = Zakarpattia 
+			romani = "Luník Ts'erha"
+			hungarian = Kárpátalja 	
+			
+			c_marmaros = {
+				color={ 20 91 187 }
+				color2={ 255 255 255 }
+				wallachian = Maramures 
+				slovak = Marmaroš 				
+				austrian = Maramuresch
+
+				holy_site = hasidic
+				
+				b_maramarossziget = {
+				}
+				b_nagybanya = {
+				}
+				b_nagykaroly = {
+				}
+				b_huszt = {
+				}
+				b_aknasugatag = {
+				}
+				b_tecso = {
+				}
+				b_raho = {
+				}
+				b_felsoviso = {
+				}
+			}
+			c_bereg = {
+				color={ 20 91 187 }
+				color2={ 255 255 255 }
+
+				austrian = Berg
+				slovak = Berehovo	
+				ukrainer = Uzhorod	
+				
+				b_beregszasz = {
+				}
+				b_perecseny = {
+				}
+				b_munkacs = {
+				}
+				b_ungvar = {
+				}
+				b_ilosva = {
+				}
+				b_szolyva = {
+				}
+				b_szobranc = {
+				}
+				b_kapos = {
+				}
+			}
+			c_abauj = { # Košice
+				color={ 20 91 187 }
+				color2={ 255 255 255 }
+
+				austrian = Kaschau
+				german = Kaschau
+				hungarian = Kassa
+				ukrainer = Koshitsyi
+				rusyn = Koshitsyi
+				polish = Koszyce
+				gorale = Koszyce
+				romani = Luník
+				
+				b_kassa = { # Košice
+					austrian = Kaschau
+					german = Kaschau
+					hungarian = Kassa
+					ukrainer = Koshitsyi
+					rusyn = Koshitsyi
+					polish = Koszyce
+					gorale = Koszyce
+					romani = Luník
+				
+				}
+				b_satoraljaujhely = { # Michalovce
+					austrian = Grossmichel
+					german = Grossmichel
+					hungarian = Nagymihály
+					ukrainer = Mykhaylivtsi
+					rusyn = Mykhaylivtsi
+					romani = Mihala
+				}
+				b_abauj = { # Trebišov
+					austrian = Trebischau
+					german = Trebischau
+					hungarian = Toketerebes
+				}
+				b_szikszo = { # Krompachy
+					austrian = Krompach
+					german = Krompach
+					hungarian = Korompa
+				}
+				b_turna = { # Kysak
+					hungarian = Sároskoszeg
+				}
+				b_szepsi = { # Moldava
+					austrian = Moldau
+					german = Moldau
+					hungarian = Szepsi
+				}
+				b_sarospatak = { # Královský Chlmec
+					hungarian = Királyhelmec
+				}
+				b_tokaj = { # Secovce
+					hungarian = Gálszécs
+					ukrainer = Sechivtsi
+					rusyn = Sechivtsi
+				}
+			}
+		}
+		d_galich = {
+			color={ 10 111 187 }
+			color2={ 255 255 255 }
+			
+			capital = 536 # Galich
+			
+			ukrainer="Halych"
+			wallachian="Halicia"
+			transylvanian="Halicia"
+			adessite="Halicia"
+			moldavian="Halicia"
+			sazzac="Halicia"
+			klynian="Halych"
+			cossack="Halych"
+			hungarian="Halics"
+			ruten="Halics"
+			c_galich = {
+				color={ 10 111 187 }
+				color2={ 255 255 255 }
+				
+				ukrainer="Halych"
+				wallachian="Halicia"
+				transylvanian="Halicia"
+				adessite="Halicia"
+				moldavian="Halicia"
+				sazzac="Halicia"
+				klynian="Halych"
+				cossack="Halych"
+				polish = "Stanislawow"
+				
+				b_galich = {
+				}
+				b_bykovna = {
+				}
+				b_kolomyia = {
+				}
+				b_vasyliv = {
+				}
+				b_rohatin = {
+				}
+				b_tysmenytsia = {
+				}
+				b_tovmach = {
+				}
+			}
+			c_terebovl = {
+				color={ 10 111 187 }
+				color2={ 255 255 255 }
+				
+				polish = "Trembowla"
+	
+				b_terebovl = {
+				}
+				b_mykulyn = {
+				}
+				b_onut = {
+				}
+				b_kuchelemyn = {
+				}
+				b_bakota = {
+				}
+				b_moklekov = {
+				}
+				b_dolyna = {
+				}
+			}
+			c_zvenyhorod = {
+				color={ 10 111 187 }
+				color2={ 255 255 255 }
+				
+				polish = "Lwow"
+				
+				b_zvenyhorod = {
+				}
+				b_lvov = {
+				}
+				b_butsk = {
+				}
+				b_sambir = {
+				}
+				b_udech = {
+				}
+				b_horodok = {
+				}
+				b_rogozhyn = {
+				}
+			}
+			c_zaslav = {
+				color={ 10 111 187 }
+				color2={ 255 255 255 }
+				
+				polish = "Zaslaw"
+				
+				b_zaslav = {
+				}
+				b_kremyanets = {
+				}
+				b_plisnesk = {
+				}
+				b_buzhesk = {
+				}
+				b_ostroh = {
+				}
+				b_chepetivka = {
+				}
+				b_slavuta = {
+				}
+			}
+		}
+	}
+}
+e_western_transnistria = {
+	color={ 180 82 196 }
+	color2={ 255 255 255 }
+	
+	culture = wallachian
+		
+	capital = 515 # Tirgoviste
+	
+	purple_born_heirs = yes
+	
+	greek="Dytikí Neistería"
+	livanezoi="Dytikí Neistería"
+	aigyptoi="Dytikí Neistería"
+	makedonas="Dytikí Neistería"
+	aigionoi="Dytikí Neistería"
+	rodiaki="Dytikí Neistería"
+	macedonian="Dytikí Hyperdnestrovie"
+	pontian="Dytikí Neistería"
+	yoonaanee="Dytikí Neistería"
+	griko="Dytikí Neistería"
+	cypriote="Dytikí Neistería"
+	atlantian="Dytikí Neistería"
+	grekter="Dytikí Neistería"
+	arvanitika="Dytikí Neistería"
+	tsakonian="Dytikí Neistería"
+	allow = {
+		has_landed_title = c_tirgoviste
+		conditional_tooltip = {
+			trigger = {
+				e_western_transnistria = {
+					is_titular = yes
+				}
+			}
+			e_western_transnistria = {
+				is_titular = no
+			}
+		}
+		e_transnistria = {
+			has_holder = yes
+		}
+	}
+}

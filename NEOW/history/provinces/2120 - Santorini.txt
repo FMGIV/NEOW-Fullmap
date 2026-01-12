@@ -1,0 +1,17 @@
+# 2120 - Santorini
+
+# County Title
+title = c_santorini
+
+# Settlements
+max_settlements = 2
+b_santorini = city
+
+# Misc
+culture = aigionoi
+religion = hellenic_pagan
+terrain = mountain
+
+# History
+
+

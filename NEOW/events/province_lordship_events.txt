@@ -1,0 +1,10 @@
+###################################
+#
+# Province Lordship Events
+#
+# Id 77000 - 77999 is reserved
+#
+###################################
+#
+# Designed by Johan Andersson
+# Written by Sara Wendel-Örtqvist

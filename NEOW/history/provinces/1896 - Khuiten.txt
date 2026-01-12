@@ -1,0 +1,12 @@
+# 1896 - Khuiten
+
+# County Title
+title = c_khuiten
+
+# Settlements
+max_settlements = 2
+b_khuiten = tribal
+
+# Misc
+culture = altai
+religion = akjang

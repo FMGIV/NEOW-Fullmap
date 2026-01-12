@@ -1,0 +1,3334 @@
+#Japanese Emperors baby, I hate myself
+8301 = {
+	name="Line of Jimmu" # Representing pre-1.1.71 Emperors, from Jimmu to Suinin (1-12)
+	occluded=yes
+	dynasty=4022694
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1.1.1 = {
+		birth=yes
+		create_bloodline = {
+			type = japanese_imperial_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
+	71.1.1 = {
+		death=yes
+	}
+}
+8302 = {
+	name="Otarashihiko" # Emperor Keiko
+	occluded=yes
+	dynasty=4022694
+	father=8301
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	13.1.1 = {
+		birth=yes
+	}
+	131.1.1 = {
+		name="Keiko"
+		death=yes
+	}
+}
+8303 = {
+	name="Wakatarashihiko" # Emperor Seimu
+	dynasty=4022694
+	father=8302
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	84.1.1 = {
+		birth=yes
+	}
+	192.1.1 = {
+		name="Seimu"
+		death=yes
+	}
+}
+26761000 = {
+	name="Yamato Takeru" # Yamato Takeru
+	dynasty=4022694
+	father=8302
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	disallow_random_traits=yes
+	72.1.1 = {
+		birth=yes
+	}
+	114.1.1 = {
+		death=yes
+	}
+}
+8304 = {
+	name="Tarashinakatsuhiko" # Emperor Chuhai
+	dynasty=4022694
+	father=26761000
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	149.1.1 = {
+		birth=yes
+	}
+	201.1.1 = {
+		name="Chuhai"
+		death=yes
+	}
+}
+26761001 = {
+	name="Okinagatarashi" # Empress Jingu
+	dynasty=4022694
+	occluded=yes
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	disallow_random_traits=yes
+	169.1.1 = {
+		birth=yes
+	}
+	198.1.1 = {
+		add_spouse=8304
+	}
+	270.1.1 = {
+		name="Jingu"
+		death=yes
+	}
+}
+8305 = {
+	name="Homutawake" # Emperor Ojin
+	dynasty=4022694
+	father=8304
+	mother=26761001
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="brilliant_strategist"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	201.1.1 = {
+		birth=yes
+	}
+	313.1.1 = {
+		name="Ojin"
+		death=yes
+	}
+}
+8306 = {
+	name="Ohosazaki" # Emperor Nintoku
+	dynasty=4022694
+	father=8305
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	290.1.1 = {
+		birth=yes
+	}
+	400.1.1 = {
+		name="Nintoku"
+		death=yes
+	}
+}
+8307 = {
+	name="Oenoizahowake" # Emperor Richu
+	dynasty=4022694
+	father=8306
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	336.1.1 = {
+		birth=yes
+	}
+	406.1.1 = {
+		name="Richu"
+		death=yes
+	}
+}
+8308 = {
+	name="Mizuhawake" # Emperor Hanzei
+	dynasty=4022694
+	father=8306
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	336.1.1 = {
+		birth=yes
+	}
+	411.1.1 = {
+		name="Hanzei"
+		death=yes
+	}
+}
+8309 = {
+	name="Oasatsuma Wakugo no Sukune" # Emperor Ingyo
+	dynasty=4022694
+	father=8306
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	376.1.1 = {
+		birth=yes
+	}
+	453.1.1 = {
+		name="Ingyo"
+		death=yes
+	}
+}
+8310 = {
+	name="Anaho" # Emperor Anko
+	dynasty=4022694
+	father=8309
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	401.1.1 = {
+		birth=yes
+	}
+	456.1.1 = {
+		name="Anko"
+		death=yes
+	}
+}
+8311 = {
+	name="Ohatuse no Wakatakeru" # Emperor Yuryaku
+	dynasty=4022694
+	father=8309
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	418.1.1 = {
+		birth=yes
+	}
+	480.1.1 = {
+		name="Yuryaku"
+		death=yes
+	}
+}
+8312 = {
+	name="Shiraka" # Emperor Seinei
+	dynasty=4022694
+	father=8311
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	444.1.1 = {
+		birth=yes
+	}
+	485.1.1 = {
+		name="Seinei"
+		death=yes
+	}
+}
+26761002 = {
+	name="Ichinobe no Oshiwa" # Ichinobe no Oshiwa
+	dynasty=4022694
+	father=8307
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	disallow_random_traits=yes
+	406.1.1 = {
+		birth=yes
+	}
+	456.1.1 = {
+		death=yes
+	}
+}
+8313 = {
+	name="Woke" # Emperor Kenzo
+	dynasty=4022694
+	father=26761002
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	450.1.1 = {
+		birth=yes
+	}
+	488.1.1 = {
+		name="Kenzo"
+		death=yes
+	}
+}
+8314 = {
+	name="Oke" # Emperor Ninken
+	dynasty=4022694
+	father=26761002
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	449.1.1 = {
+		birth=yes
+	}
+	498.1.1 = {
+		name="Ninken"
+		death=yes
+	}
+}
+26760214 = {
+	name="Ohatsuse no Wakasazaki" # Emperor Buretsu
+	dynasty=4022694
+	father=8313
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	489.1.1 = {
+		birth=yes
+	}
+	507.1.1 = {
+		name="Buretsu"
+		death=yes
+	}
+}
+26761003 = {
+	name="Line of Koshi" # Emperor Buretsu died without heirs, leading to a distant relative, Emperor Keitai, a 5th-generation grandson of Emperor Ojin, to take the throne
+	dynasty=4022694
+	father=8305
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	disallow_random_traits=yes
+	312.1.1 = {
+		birth=yes
+	}
+	451.1.1 = {
+		death=yes
+	}
+}
+8315 = {
+	name="Ohodo" # Emperor Keitai
+	dynasty=4022694
+	father=26761003
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	450.1.1 = {
+		birth=yes
+	}
+	531.1.1 = {
+		name="Keitai"
+		death=yes
+	}
+}
+8316 = {
+	name="Magari" # Emperor Ankan
+	dynasty=4022694
+	father=8315
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	466.1.1 = {
+		birth=yes
+	}
+	535.1.1 = {
+		name="Ankan"
+		death=yes
+	}
+}
+8317 = {
+	name="Hinokuma-no-takata" # Emperor Senka
+	dynasty=4022694
+	father=8315
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	467.1.1 = {
+		birth=yes
+	}
+	539.1.1 = {
+		name="Senka"
+		death=yes
+	}
+}
+8318 = {
+	name="Amekunioshiharakihironiwa" # Emperor Kinmei
+	dynasty=4022694
+	father=8315
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	509.1.1 = {
+		birth=yes
+	}
+	571.1.1 = {
+		name="Kinmei"
+		death=yes
+	}
+}
+8319 = {
+	name="Nunakura no Futotamashiki" # Emperor Bidatsu
+	dynasty=4022694
+	father=8318
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	538.1.1 = {
+		birth=yes
+	}
+	585.1.1 = {
+		name="Bidatsu"
+		death=yes
+	}
+}
+8320 = {
+	name="Tachibana no Toyohi" # Emperor Yomei
+	dynasty=4022694
+	father=8318
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	540.1.1 = {
+		birth=yes
+	}
+	587.1.1 = {
+		name="Yomei"
+		death=yes
+	}
+}
+8321 = {
+	name="Hatsusebe" # Emperor Sushun
+	dynasty=4022694
+	father=8318
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	553.1.1 = {
+		birth=yes
+	}
+	592.1.1 = {
+		name="Sushun"
+		death=yes
+	}
+}
+8322 = {
+	name="Nukatabe" # Empress Suiko
+	dynasty=4022694
+	father=8318
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	554.1.1 = {
+		birth=yes
+	}
+	629.1.1 = {
+		name="Suiko"
+		death=yes
+	}
+}
+26761004 = {
+	name="Oshisako-no-hikohito-no-Oe"
+	dynasty=4022694
+	father=8319
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	556.1.1 = {
+		birth=yes
+	}
+	594.1.1 = {
+		death=yes
+	}
+}
+8323 = {
+	name="Tamura" # Emperor Jomei
+	dynasty=4022694
+	father=26761004
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	593.1.1 = {
+		birth=yes
+	}
+	620.1.1 = {
+		add_spouse=8324
+	}
+	642.1.1 = {
+		name="Jomei"
+		death=yes
+	}
+}
+26761005 = {
+	name="Chinu" #Father of Empress Kogyoku/Saimei
+	dynasty=4022694
+	father=26761004
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	580.1.1 = {
+		birth=yes
+	}
+	626.1.1 = {
+		death=yes
+	}
+}
+8324 = {
+	name="Takara" # Empress Kogyoku/Saimei
+	dynasty=4022694
+	father=26761005
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	594.1.1 = {
+		birth=yes
+	}
+	620.1.1 = {
+		add_spouse=8323
+	}
+	645.1.1 = {
+		name="Kogyoku"
+	}
+	661.1.1 = {
+		name="Saimei"
+		death=yes
+	}
+}
+8325 = {
+	name="Karu" # Emperor Kotoku
+	dynasty=4022694
+	father=26761005
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	594.1.1 = {
+		birth=yes
+	}
+	655.1.1 = {
+		name="Kotoku"
+		death=yes
+	}
+}
+8326 = {
+	name="Kazuraki" # Emperor Tenji
+	dynasty=4022694
+	father=8323
+	mother=8324
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	626.1.1 = {
+		birth=yes
+	}
+	672.1.1 = {
+		name="Tenji"
+		death=yes
+	}
+}
+8327 = {
+	name="Otomo" # Emperor Kobun
+	dynasty=4022694
+	father=8326
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	648.1.1 = {
+		birth=yes
+	}
+	672.9.1 = {
+		name="Kobun"
+		death=yes
+	}
+}
+8328 = {
+	name="Oama" # Emperor Tenmu
+	dynasty=4022694
+	father=8323
+	mother=8324
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	631.1.1 = {
+		birth=yes
+	}
+	686.1.1 = {
+		name="Tenmu"
+		death=yes
+	}
+}
+8329 = {
+	name="Unonosarara" # Empress Jito
+	dynasty=4022694
+	father=8326
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	645.1.1 = {
+		birth=yes
+	}
+	697.1.1 = {
+		name="Jito"
+		death=yes
+	}
+}
+26761006 = {
+	name="Kusakabe" #Prince Kusakabe
+	dynasty=4022694
+	father=8328
+	mother=8329
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	662.1.1 = {
+		birth=yes
+	}
+	689.1.1 = {
+		death=yes
+	}
+}
+8330 = {
+	name="Karu" # Emperor Monmu
+	dynasty=4022694
+	father=26761006
+	mother=8331
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	681.1.1 = {
+		birth=yes
+	}
+	707.1.1 = {
+		name="Monmu"
+		death=yes
+	}
+}
+8331 = {
+	name="Karu" # Empress Genmei
+	dynasty=4022694
+	father=8326
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	660.1.1 = {
+		birth=yes
+	}
+	715.1.1 = {
+		name="Genmei"
+		death=yes
+	}
+}
+8332 = {
+	name="Hidaka" # Empress Gensho
+	dynasty=4022694
+	father=26761006
+	mother=8331
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	680.1.1 = {
+		birth=yes
+	}
+	724.1.1 = {
+		name="Gensho"
+		death=yes
+	}
+}
+8333 = {
+	name="Obito" # Emperor Shomu
+	dynasty=4022694
+	father=8330
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	701.1.1 = {
+		birth=yes
+	}
+	749.1.1 = {
+		name="Shomu"
+		death=yes
+	}
+}
+8334 = {
+	name="Abe" # Empress Koken/Shotoku
+	dynasty=4022694
+	father=8330
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	701.1.1 = {
+		birth=yes
+	}
+	758.1.1 = {
+		name="Koken"
+	}
+	770.1.1 = {
+		name="Shotoku"
+		death=yes
+	}
+}
+26761007 = {
+	name="Toneri" #Prince Toneri
+	dynasty=4022694
+	father=8328
+	mother=8329
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	676.1.1 = {
+		birth=yes
+	}
+	735.1.1 = {
+		death=yes
+	}
+}
+8335 = {
+	name="Oi" # Emperor Junnin
+	dynasty=4022694
+	father=26761007
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	701.1.1 = {
+		birth=yes
+	}
+	764.1.1 = {
+		name="Junnin"
+		death=yes
+	}
+}
+26761008 = {
+	name="Shiki" #Prince Shiki
+	dynasty=4022694
+	father=8326
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	668.1.1 = {
+		birth=yes
+	}
+	716.1.1 = {
+		death=yes
+	}
+}
+8336 = {
+	name="Shirakabe" # Emperor Konin
+	dynasty=4022694
+	father=26761008
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	709.1.1 = {
+		birth=yes
+	}
+	781.1.1 = {
+		name="Konin"
+		death=yes
+	}
+}
+8337 = {
+	name="Yamabe" # Emperor Kanmu
+	dynasty=4022694
+	father=8336
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	737.1.1 = {
+		birth=yes
+	}
+	806.1.1 = {
+		name="Kanmu"
+		death=yes
+	}
+}
+8338 = {
+	name="Ate" # Emperor Heizei
+	dynasty=4022694
+	father=8337
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	774.1.1 = {
+		birth=yes
+	}
+	809.1.1 = {
+		name="Heizei"
+		death=yes
+	}
+}
+8339 = {
+	name="Kamino" # Emperor Saga
+	dynasty=4022694
+	father=8337
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	784.1.1 = {
+		birth=yes
+	}
+	823.1.1 = {
+		name="Saga"
+		death=yes
+	}
+}
+8340 = {
+	name="Otomo" # Emperor Junna
+	dynasty=4022694
+	father=8337
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	786.1.1 = {
+		birth=yes
+	}
+	833.1.1 = {
+		name="Junna"
+		death=yes
+	}
+}
+8341 = {
+	name="Masara" # Emperor Ninmyo
+	dynasty=4022694
+	father=8339
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	808.1.1 = {
+		birth=yes
+	}
+	850.1.1 = {
+		name="Ninmyo"
+		death=yes
+	}
+}
+8342 = {
+	name="Michiyasu" # Emperor Montoku
+	dynasty=4022694
+	father=8341
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	827.1.1 = {
+		birth=yes
+	}
+	858.1.1 = {
+		name="Montoku"
+		death=yes
+	}
+}
+8343 = {
+	name="Korehito" # Emperor Seiwa
+	dynasty=4022694
+	father=8342
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	850.1.1 = {
+		birth=yes
+	}
+	876.1.1 = {
+		name="Seiwa"
+		death=yes
+	}
+}
+8344 = {
+	name="Sadaakira" # Emperor Yozei
+	dynasty=4022694
+	father=8343
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	869.1.1 = {
+		birth=yes
+	}
+	884.1.1 = {
+		name="Yozei"
+		death=yes
+	}
+}
+8345 = {
+	name="Tokiyasu" # Emperor Koko
+	dynasty=4022694
+	father=8341
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	830.1.1 = {
+		birth=yes
+	}
+	887.1.1 = {
+		name="Koko"
+		death=yes
+	}
+}
+8346 = {
+	name="Sadami" # Emperor Uda
+	dynasty=4022694
+	father=8345
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	867.1.1 = {
+		birth=yes
+	}
+	897.1.1 = {
+		name="Uda"
+		death=yes
+	}
+}
+8347 = {
+	name="Atsuhito" # Emperor Daigo
+	dynasty=4022694
+	father=8346
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	885.1.1 = {
+		birth=yes
+	}
+	930.1.1 = {
+		name="Daigo"
+		death=yes
+	}
+}
+8348 = {
+	name="Yutaakira" # Emperor Suzaku
+	dynasty=4022694
+	father=8347
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	921.1.1 = {
+		birth=yes
+	}
+	946.1.1 = {
+		name="Suzaku"
+		death=yes
+	}
+}
+8349 = {
+	name="Nariakira" # Emperor Murakami
+	dynasty=4022694
+	father=8347
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	924.1.1 = {
+		birth=yes
+	}
+	967.1.1 = {
+		name="Murakami"
+		death=yes
+	}
+}
+8350 = {
+	name="Norihira" # Emperor Reizei
+	dynasty=4022694
+	father=8349
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	950.1.1 = {
+		birth=yes
+	}
+	969.1.1 = {
+		name="Reizei"
+		death=yes
+	}
+}
+8351 = {
+	name="Morihira" # Emperor En'yu
+	dynasty=4022694
+	father=8349
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	959.1.1 = {
+		birth=yes
+	}
+	984.1.1 = {
+		name="En'yu"
+		death=yes
+	}
+}
+8352 = {
+	name="Morohada" # Emperor Kazan
+	dynasty=4022694
+	father=8350
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	968.1.1 = {
+		birth=yes
+	}
+	986.1.1 = {
+		name="Kazan"
+		death=yes
+	}
+}
+8353 = {
+	name="Kanehito" # Emperor Ichijo
+	dynasty=4022694
+	father=8351
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	980.1.1 = {
+		birth=yes
+	}
+	1011.1.1 = {
+		name="Ichijo"
+		death=yes
+	}
+}
+8354 = {
+	name="Okisada" # Emperor Sanjo
+	dynasty=4022694
+	father=8350
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	975.1.1 = {
+		birth=yes
+	}
+	1017.1.1 = {
+		name="Sanjo"
+		death=yes
+	}
+}
+8355 = {
+	name="Atsuhira" # Emperor Go-Ichijo
+	dynasty=4022694
+	father=8353
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1008.1.1 = {
+		birth=yes
+	}
+	1036.1.1 = {
+		name="Go-Ichijo"
+		death=yes
+	}
+}
+8356 = {
+	name="Atsunaga" # Emperor Go-Suzaku
+	dynasty=4022694
+	father=8353
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1009.1.1 = {
+		birth=yes
+	}
+	1045.1.1 = {
+		name="Go-Suzaku"
+		death=yes
+	}
+}
+8357 = {
+	name="Chikahito" # Emperor Go-Reizei
+	dynasty=4022694
+	father=8356
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1025.1.1 = {
+		birth=yes
+	}
+	1068.1.1 = {
+		name="Go-Reizei"
+		death=yes
+	}
+}
+8358 = {
+	name="Takahito" # Emperor Go-Sanjo
+	dynasty=4022694
+	father=8356
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1034.1.1 = {
+		birth=yes
+	}
+	1073.1.1 = {
+		name="Go-Sanjo"
+		death=yes
+	}
+}
+8359 = {
+	name="Sadahito" # Emperor Shirakawa
+	dynasty=4022694
+	father=8358
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1053.1.1 = {
+		birth=yes
+	}
+	1087.1.1 = {
+		name="Shirakawa"
+		death=yes
+	}
+}
+8360 = {
+	name="Taruhito" # Emperor Horikawa
+	dynasty=4022694
+	father=8359
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1079.1.1 = {
+		birth=yes
+	}
+	1107.1.1 = {
+		name="Horikawa"
+		death=yes
+	}
+}
+8361 = {
+	name="Munehito" # Emperor Toba
+	dynasty=4022694
+	father=8360
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1096.1.1 = {
+		birth=yes
+	}
+	1123.1.1 = {
+		name="Toba"
+		death=yes
+	}
+}
+8362 = {
+	name="Akihito" # Emperor Sutoku
+	dynasty=4022694
+	father=8361
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1119.1.1 = {
+		birth=yes
+	}
+	1142.1.1 = {
+		name="Sutoku"
+		death=yes
+	}
+}
+8363 = {
+	name="Narihito" # Emperor Konoe
+	dynasty=4022694
+	father=8361
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1121.1.1 = {
+		birth=yes
+	}
+	1155.1.1 = {
+		name="Konoe"
+		death=yes
+	}
+}
+8364 = {
+	name="Masahito" # Emperor Go-Shirakawa
+	dynasty=4022694
+	father=8361
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1120.1.1 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		name="Go-Shirakawa"
+		death=yes
+	}
+}
+8365 = {
+	name="Morihito" # Emperor Nijo
+	dynasty=4022694
+	father=8364
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1143.1.1 = {
+		birth=yes
+	}
+	1165.1.1 = {
+		name="Nijo"
+		death=yes
+	}
+}
+8366 = {
+	name="Yorihito" # Emperor Rokujo
+	dynasty=4022694
+	father=8365
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1164.1.1 = {
+		birth=yes
+	}
+	1168.1.1 = {
+		name="Rokujo"
+		death=yes
+	}
+}
+8367 = {
+	name="Norihito" # Emperor Takakura
+	dynasty=4022694
+	father=8364
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1157.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		name="Takakura"
+		death=yes
+	}
+}
+8368 = {
+	name="Tokihito" # Emperor Antoku
+	dynasty=4022694
+	father=8367
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1178.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		name="Antoku"
+		death=yes
+	}
+}
+8369 = {
+	name="Takahura" # Emperor Go-Toba
+	dynasty=4022694
+	father=8367
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1180.1.1 = {
+		birth=yes
+	}
+	1198.1.1 = {
+		name="Go-Toba"
+		death=yes
+	}
+}
+8370 = {
+	name="Tamehito" # Emperor Tsuchimikado
+	dynasty=4022694
+	father=8369
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1196.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		name="Tsuchimikado"
+		death=yes
+	}
+}
+8371 = {
+	name="Morinari" # Emperor Juntoku
+	dynasty=4022694
+	father=8369
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1197.1.1 = {
+		birth=yes
+	}
+	1221.1.1 = {
+		name="Juntoku"
+		death=yes
+	}
+}
+8372 = {
+	name="Kanenari" # Emperor Chukyo
+	dynasty=4022694
+	father=8371
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1218.1.1 = {
+		birth=yes
+	}
+	1221.1.2 = {
+		name="Chukyo"
+		death=yes
+	}
+}
+26761009 = {
+	name="Morisada" #Prince Morisada
+	dynasty=4022694
+	father=8367
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	1179.1.1 = {
+		birth=yes
+	}
+	1223.1.1 = {
+		death=yes
+	}
+}
+8373 = {
+	name="Yutahito" #Emperor Go-Horikawa
+	dynasty=4022694
+	father=26761009
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1212.1.1 = {
+		birth=yes
+	}
+	1232.1.1 = {
+		name="Go-Horikawa"
+		death=yes
+	}
+}
+8374 = {
+	name="Mitsuhito" #Emperor Shijo
+	dynasty=4022694
+	father=8373
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1231.1.1 = {
+		birth=yes
+	}
+	1242.1.1 = {
+		name="Shijo"
+		death=yes
+	}
+}
+8375 = {
+	name="Kunihito" #Emperor Go-Saga
+	dynasty=4022694
+	father=8370
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1209.1.1 = {
+		birth=yes
+	}
+	1246.1.1 = {
+		name="Go-Saga"
+		death=yes
+	}
+}
+8376 = {
+	name="Hisahito" #Emperor Go-Fukakusa
+	dynasty=4022694
+	father=8375
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1243.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		name="Go-Fukakusa"
+		death=yes
+	}
+}
+8377 = {
+	name="Tsunehito" #Emperor Kameyama
+	dynasty=4022694
+	father=8375
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1245.1.1 = {
+		birth=yes
+	}
+	1274.1.1 = {
+		name="Kameyama"
+		death=yes
+	}
+}
+8378 = {
+	name="Yohito" #Emperor Go-Uda
+	dynasty=4022694
+	father=8377
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1267.1.1 = {
+		birth=yes
+	}
+	1287.1.1 = {
+		name="Go-Uda"
+		death=yes
+	}
+}
+8379 = {
+	name="Hirohito" #Emperor Fushimi
+	dynasty=4022694
+	father=8376
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1259.1.1 = {
+		birth=yes
+	}
+	1298.1.1 = {
+		name="Fushimi"
+		death=yes
+	}
+}
+8380 = {
+	name="Tanehito" #Emperor Go-Fushimi
+	dynasty=4022694
+	father=8379
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1284.1.1 = {
+		birth=yes
+	}
+	1301.1.1 = {
+		name="Go-Fushimi"
+		death=yes
+	}
+}
+8381 = {
+	name="Kuniharo" #Emperor Go-Nijo
+	dynasty=4022694
+	father=8378
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1285.1.1 = {
+		birth=yes
+	}
+	1308.1.1 = {
+		name="Go-Nijo"
+		death=yes
+	}
+}
+8382 = {
+	name="Tomihito" #Emperor Hanazono
+	dynasty=4022694
+	father=8379
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1284.1.1 = {
+		birth=yes
+	}
+	1318.1.1 = {
+		name="Hanazono"
+		death=yes
+	}
+}
+8383 = {
+	name="Takaharu" #Emperor Go-Daigo
+	dynasty=4022694
+	father=8378
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1286.1.1 = {
+		birth=yes
+	}
+	1339.1.1 = {
+		name="Go-Daigo"
+		death=yes
+	}
+}
+8384 = {
+	name="Noriyoshi" #Emperor Go-Murakami
+	dynasty=4022694
+	father=8383
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1328.1.1 = {
+		birth=yes
+	}
+	1368.1.1 = {
+		name="Go-Murakami"
+		death=yes
+	}
+}
+8385 = {
+	name="Noriyoshi" #Emperor Chokei
+	dynasty=4022694
+	father=8384
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1343.1.1 = {
+		birth=yes
+	}
+	1383.1.1 = {
+		name="Chokei"
+		death=yes
+	}
+}
+8386 = {
+	name="Hironari" #Emperor Go-Kameyama
+	dynasty=4022694
+	father=8384
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1347.1.1 = {
+		birth=yes
+	}
+	1392.1.1 = {
+		name="Go-Kameyama"
+		death=yes
+	}
+}
+26761010 = {
+	name="Line of the Northern Court" #Line of descent from Emperor Go-Fushimi. The last Emperor of the Southern Court, Emperor Go-Kameyama, abdicated (here, died) in their favour
+	dynasty=4022694
+	father=8380
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	disallow_random_traits=yes
+	1300.1.1 = {
+		birth=yes
+	}
+	1420.1.1 = {
+		death=yes
+	}
+}
+8387 = {
+	name="Motohito" #Emperor Go-Komatsu
+	dynasty=4022694
+	father=26761010
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1377.1.1 = {
+		birth=yes
+	}
+	1412.1.1 = {
+		name="Go-Komatsu"
+		death=yes
+	}
+}
+8388 = {
+	name="Mihito" #Emperor Shoko
+	dynasty=4022694
+	father=8387
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1401.1.1 = {
+		birth=yes
+	}
+	1428.1.1 = {
+		name="Shoko"
+		death=yes
+	}
+}
+8389 = {
+	name="Hikohito" #Emperor Go-Hanazono
+	dynasty=4022694
+	father=26761010
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1419.1.1 = {
+		birth=yes
+	}
+	1464.1.1 = {
+		name="Go-Hanazono"
+		death=yes
+	}
+}
+8390 = {
+	name="Fusahito" #Emperor Go-Tsuchimikado
+	dynasty=4022694
+	father=8389
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1442.1.1 = {
+		birth=yes
+	}
+	1500.1.1 = {
+		name="Go-Tsuchimikado"
+		death=yes
+	}
+}
+8391 = {
+	name="Katsuhito" #Emperor Go-Kashiwabara
+	dynasty=4022694
+	father=8390
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1462.1.1 = {
+		birth=yes
+	}
+	1526.1.1 = {
+		name="Go-Kashiwabara"
+		death=yes
+	}
+}
+8392 = {
+	name="Tomohito" #Emperor Go-Nara
+	dynasty=4022694
+	father=8391
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1495.1.1 = {
+		birth=yes
+	}
+	1557.1.1 = {
+		name="Go-Nara"
+		death=yes
+	}
+}
+8393 = {
+	name="Michihito" #Emperor Ogimachi
+	dynasty=4022694
+	father=8392
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1517.1.1 = {
+		birth=yes
+	}
+	1586.1.1 = {
+		name="Ogimachi"
+		death=yes
+	}
+}
+26761011 = {
+	name="Masahito" #Prince Masahito
+	dynasty=4022694
+	father=8393
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	1552.1.1 = {
+		birth=yes
+	}
+	1586.1.1 = {
+		death=yes
+	}
+}
+8394 = {
+	name="Kazuhito" #Emperor Go-Yozei
+	dynasty=4022694
+	father=26761011
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1572.1.1 = {
+		birth=yes
+	}
+	1611.1.1 = {
+		name="Go-Yozei"
+		death=yes
+	}
+}
+8395 = {
+	name="Kokohito" #Emperor Go-Mizunoo
+	dynasty=4022694
+	father=8394
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1596.1.1 = {
+		birth=yes
+	}
+	1629.1.1 = {
+		name="Go-Mizunoo"
+		death=yes
+	}
+}
+8396 = {
+	name="Okiko" #Empress Meisho
+	dynasty=4022694
+	father=8395
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1624.1.1 = {
+		birth=yes
+	}
+	1643.1.1 = {
+		name="Meisho"
+		death=yes
+	}
+}
+8397 = {
+	name="Tsuguhito" #Emperor Go-Komyo
+	dynasty=4022694
+	father=8395
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1626.1.1 = {
+		birth=yes
+	}
+	1654.1.1 = {
+		name="Go-Komyo"
+		death=yes
+	}
+}
+8398 = {
+	name="Nagahito" #Emperor Go-Sai
+	dynasty=4022694
+	father=8395
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1627.1.1 = {
+		birth=yes
+	}
+	1663.1.1 = {
+		name="Go-Sai"
+		death=yes
+	}
+}
+8399 = {
+	name="Satohito" #Emperor Reigen
+	dynasty=4022694
+	father=8395
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1628.1.1 = {
+		birth=yes
+	}
+	1687.1.1 = {
+		name="Reigen"
+		death=yes
+	}
+}
+8400 = {
+	name="Asahito" #Emperor Higashiyama
+	dynasty=4022694
+	father=8399
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1675.1.1 = {
+		birth=yes
+	}
+	1709.1.1 = {
+		name="Higashiyama"
+		death=yes
+	}
+}
+8401 = {
+	name="Yasuhito" #Emperor Nakamikado
+	dynasty=4022694
+	father=8400
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1702.1.1 = {
+		birth=yes
+	}
+	1735.1.1 = {
+		name="Nakamikado"
+		death=yes
+	}
+}
+8402 = {
+	name="Teruhito" #Emperor Sakuramachi
+	dynasty=4022694
+	father=8401
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1720.1.1 = {
+		birth=yes
+	}
+	1747.1.1 = {
+		name="Sakuramachi"
+		death=yes
+	}
+}
+8403 = {
+	name="Toohito" #Emperor Momozono
+	dynasty=4022694
+	father=8402
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1741.1.1 = {
+		birth=yes
+	}
+	1762.1.1 = {
+		name="Momozono"
+		death=yes
+	}
+}
+8404 = {
+	name="Toshiko" #Empress Go-Sakuramachi
+	dynasty=4022694
+	father=8402
+	female=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1740.1.1 = {
+		birth=yes
+	}
+	1771.1.1 = {
+		name="Go-Sakuramachi"
+		death=yes
+	}
+}
+8405 = {
+	name="Hidehito" #Emperor Go-Momozono
+	dynasty=4022694
+	father=8403
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1758.1.1 = {
+		birth=yes
+	}
+	1779.1.1 = {
+		name="Go-Momozono"
+		death=yes
+	}
+}
+26761012 = {
+	name="Naohito" #Naohito shinno
+	dynasty=4022694
+	father=8400
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	1704.1.1 = {
+		birth=yes
+	}
+	1753.1.1 = {
+		death=yes
+	}
+}
+26761013 = {
+	name="Sukehito" #Sukehito shinno
+	dynasty=4022694
+	father=26761012
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	disallow_random_traits=yes
+	1733.1.1 = {
+		birth=yes
+	}
+	1794.1.1 = {
+		death=yes
+	}
+}
+8406 = {
+	name="Morohito" #Emperor Kokaku
+	dynasty=4022694
+	father=26761013
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1771.1.1 = {
+		birth=yes
+	}
+	1817.1.1 = {
+		name="Kokaku"
+		death=yes
+	}
+}
+8407 = {
+	name="Ayahito" #Emperor Ninko
+	dynasty=4022694
+	father=8406
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1800.1.1 = {
+		birth=yes
+	}
+	1846.1.1 = {
+		name="Ninko"
+		death=yes
+	}
+}
+8408 = {
+	name="Osahito" #Emperor Komei
+	dynasty=4022694
+	father=8407
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1831.1.1 = {
+		birth=yes
+	}
+	1867.1.1 = {
+		name="Komei"
+		death=yes
+	}
+}
+8409 = {
+	name="Mutsuhito" #Emperor Meiji
+	dynasty=4022694
+	father=8408
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1852.1.1 = {
+		birth=yes
+	}
+	1912.1.1 = {
+		name="Meiji"
+		death=yes
+	}
+}
+8410 = {
+	name="Yoshihito" #Emperor Taisho
+	dynasty=4022694
+	father=8409
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1879.1.1 = {
+		birth=yes
+	}
+	1926.1.1 = {
+		name="Taisho"
+		death=yes
+	}
+}
+8411 = {
+	name="Hirohito" #Emperor Showa
+	dynasty=4022694
+	father=8410
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1901.1.1 = {
+		birth=yes
+	}
+	1989.1.1 = {
+		name="Showa"
+		death=yes
+	}
+}
+8412 = {
+	name="Akihito" #Emperor Heisei
+	dynasty=4022694
+	father=8410
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1933.1.1 = {
+		birth=yes
+	}
+	2000.1.1 = {
+		name="Heisei"
+		death=yes
+	}
+}
+26761014 = {
+	name="Line of Yamato" #The era of the Event was a mysterious time, the Emperors of the time lost to myth. The Age of Lost Emperor coincided with the loss of the tradition of posthumous names.
+	dynasty=4022694
+	father=8412
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	1999.12.31 = {
+		birth=yes
+	}
+	2100.1.1 = {
+		death=yes
+	}
+}
+8413 = {
+	name="Moriyoshi" #Semi-legendary, first recorded Emperor after the Event. Was said to be a skilled hunter.
+	dynasty=4022694
+	father=26761014
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="hunter"
+	trait="falconer"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2074.1.1 = {
+		birth=yes
+	}
+	2156.1.1 = {
+		death=yes
+	}
+}
+8414 = {
+	name="Naruhiko" #Semi-legendary, second recorded Emperor after the Event. A scholar and poet.
+	dynasty=4022694
+	father=8413
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="erudite"
+	trait="poet"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2103.1.1 = {
+		birth=yes
+	}
+	2169.1.1 = {
+		death=yes
+	}
+}
+8415 = {
+	name="Yasuhito" #Semi-legendary, third recorded Emperor after the Event. A warrior of great skill.
+	dynasty=4022694
+	father=8414
+	occluded=yes
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	trait="duelist"
+	trait="strategist"
+	trait="robust"
+	trait="brilliant_strategist"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2126.1.1 = {
+		birth=yes
+	}
+	2187.6.13 = {
+		death=yes
+	}
+}
+8416 = {
+	name="Kuniie" #First historical post-Event Emperor. Ruled truly over only Kanto, Chubu and Tohoku, the rest of Japan offering only formal support.
+	dynasty=4022694
+	father=8415
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="charismatic_negotiator"
+	trait="poet"
+	trait="kind"
+	trait="gregarious"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2160.5.14 = {
+		birth=yes
+	}
+	2213.10.18 = {
+		death=yes
+	}
+}
+8417 = {
+	name="Masashi" #Emperor Masashi extended the power of Japan further west, bringing Kyoto, Osaka, Hiroshima and the region around Fukuoka back under Imperial control. Beginning of the Ascendance of the Asakura clan.
+	dynasty=4022694
+	father=8416
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="skilled_tactician"
+	trait="ambitious"
+	trait="brave"
+	trait="gregarious"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2191.6.13 = {
+		birth=yes
+	}
+	2241.3.8 = {
+		death=yes
+	}
+}
+8418 = {
+	name="Nobuteru" #Emperor Nobuteru was Emperor Masashi's younger brother, that ascended to the throne in place of his son. Distrustful and cruel, he was driven out from his seat of authority by his nephew and the Asakura clan.
+	dynasty=4022694
+	father=8416
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="skilled_tactician"
+	trait="paranoid"
+	trait="cruel"
+	trait="wroth"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2193.8.12 = {
+		birth=yes
+	}
+	2245.6.24 = {
+		death=yes
+	}
+}
+8419 = {
+	name="Ninzaburo" #Emperor Ninzaburo retook the Chrysantemum Throne with the help of the Asakura clan, in exchange marrying an Asakura as her princess and affording many of them a place in the court. This is today recognized as the informal beginning of the Asakura Shogunate.
+	dynasty=4022694
+	father=8417
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="thrifty_clerk"
+	trait="trusting"
+	trait="brave"
+	trait="content"
+	trait="poet"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2218.6.1 = {
+		birth=yes
+	}
+	2253.8.14 = {
+		death=yes
+	}
+}
+8420 = {
+	name="Ryuji" #Emperor Ryuji was the first son of Emperor Ninzaburo to take the throne. Sickly for most of his life, he passed away at 21. Under his reign, the Asakura Shogunate was formalized.
+	dynasty=4022694
+	father=8419
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="misguided_warrior"
+	trait="feeble"
+	trait="groomed"
+	trait="weak"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2239.8.15 = {
+		birth=yes
+	}
+	2260.4.19 = {
+		death=yes
+	}
+}
+8421 = {
+	name="Hiroyuki" #Emperor Hiroyuki ascended to the Chrysantemum Throne following his half-brother's death. His lack of control over the court made him a poor administrator that relied heavily on the Shogun, pushing more and more power in the hands of the Asakura Clan.
+	dynasty=4022694
+	father=8419
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="underhanded_rogue"
+	trait="stubborn"
+	trait="shy"
+	trait="deceitful"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2240.6.20 = {
+		birth=yes
+	}
+	2281.3.2 = {
+		death=yes
+	}
+}
+8422 = {
+	name="Takayuki" #Emperor Takayuki was a weak Emperor, more interested in otherworldly matters. Under his rule, the Asakura Clan started to grow complacent in its control over the country.
+	dynasty=4022694
+	father=8421
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="mastermind_theologian"
+	trait="mystic"
+	trait="kind"
+	trait="poet"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2262.1.24 = {
+		birth=yes
+	}
+	2297.8.23 = {
+		death=yes
+	}
+}
+8423 = {
+	name="Yoshiyuki" #Emperor Yoshiyuki, unlike his father, showed great interest in the Empire he supposedly reigned. Angry at the control of the Asakura, he managed to contact several powerful Clans, such as the Sato, Mori and Ikeda, convincing them to offer him help in overthrowing the Asakura Clan. In his intention, the three Clans would then be too busy fighting each other to overpower him, but by the end of his reign it was already clear the Sato Clan was in a prime position to reform the Shogunate.
+	dynasty=4022694
+	father=8422
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="charismatic_negotiator"
+	trait="chaste"
+	trait="brave"
+	trait="ambitious"
+	trait="diligent"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2289.5.11 = {
+		birth=yes
+	}
+	2350.6.13 = {
+		death=yes
+	}
+}
+26761015 = {
+	name="Sojiro" #Prince Sojiro.
+	dynasty=4022694
+	father=8421
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="legendary"
+	disallow_random_traits=yes
+	2264.12.30 = {
+		birth=yes
+	}
+	2326.2.2 = {
+		death=yes
+	}
+}
+8424 = {
+	name="Matsutaro" #Emperor Matsutaro ascended to the throne after his cousin, Emperor Yoshiyuki, died without heir. Unprepared for the role, he left the authority over Japan in the hands of the Sato, allowing the formation of the new Shogunate.
+	dynasty=4022694
+	father=26761015
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="amateurish_plotter"
+	trait="honest"
+	trait="gregarious"
+	trait="falconer"
+	trait="diligent"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2286.4.17 = {
+		birth=yes
+	}
+	2367.9.6 = {
+		death=yes
+	}
+}
+8425 = {
+	name="Kentaro" #Emperor Kentaro succeeded his father at an advanced age, and only lived two years before passing away.
+	dynasty=4022694
+	father=8424
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="thrifty_clerk"
+	trait="content"
+	trait="kind"
+	trait="honest"
+	trait="craven"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2308.9.2 = {
+		birth=yes
+	}
+	2369.7.26 = {
+		death=yes
+	}
+}
+8426 = {
+	name="Tetsutaro" #Emperor Tetsutaro ascended to power at the beginning of the Wars of the Five Shoguns. The Sato, Hasegawa, Mori, Nagai and briefly the Umemura Clan of southern Hokkaido all fought for the Shogunate. He died a few years after his ascension to the Chrysantemum Throne.
+	dynasty=4022694
+	father=8425
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="flamboyant_schemer"
+	trait="content"
+	trait="trusting"
+	trait="honest"
+	trait="shy"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2334.6.16 = {
+		birth=yes
+	}
+	2374.5.14 = {
+		death=yes
+	}
+}
+8427 = {
+	name="Ryutaro" #Emperor Ryutaro succeeded his father at a relatively young age and ruled for twenty-five years. A puppet of the Shogunate in all but name, during his rule the Sato Clan won the Battle of Nagoya, defeating the last few opponents to their control over the Bakufu. From that point onward, the Sato Clan ruled uncontested over Japan as Shoguns, the Emperors growing complacent.
+	dynasty=4022694
+	father=8426
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="martial_cleric"
+	trait="content"
+	trait="poet"
+	trait="slothful"
+	trait="zealous"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2353.9.13 = {
+		birth=yes
+	}
+	2399.8.12 = {
+		death=yes
+	}
+}
+8428 = {
+	name="Nakataro" #Emperor Nakataro ruled in a relatively peaceful time in Japan, following the settling down of the conflict that saw the Sato Shogunate victorious. His personal interest were mostly concentrated on the divine.
+	dynasty=4022694
+	father=8427
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="mastermind_theologian"
+	trait="mystic"
+	trait="poet"
+	trait="hunter"
+	trait="zealous"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2379.8.8 = {
+		birth=yes
+	}
+	2408.6.11 = {
+		death=yes
+	}
+}
+8429 = {
+	name="Fuutaro" #Emperor Fuutaro was the first of three child Emperors, all sons of Emperor Nakataro.
+	dynasty=4022694
+	father=8428
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="dull"
+	trait="playful"
+	trait="affectionate"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2399.3.16 = {
+		birth=yes
+	}
+	2415.2.20 = {
+		death=yes
+	}
+}
+8430 = {
+	name="Shigeru" #Emperor Shigeru was the second of three child Emperors, all sons of Emperor Nakataro.
+	dynasty=4022694
+	father=8428
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="feeble"
+	trait="brooding"
+	trait="fussy"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2400.6.13 = {
+		birth=yes
+	}
+	2416.3.12 = {
+		death=yes
+	}
+}
+8431 = {
+	name="Junichiro" #Emperor Junichiro was the third of three child Emperors, all sons of Emperor Nakataro. He was the first to reach adult age. Under his rule, the Sato Shogunate reached the apex of its power, extending from northern Ryukyu to southern Hokkaido.
+	dynasty=4022694
+	father=8428
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="martial_cleric"
+	trait="gregarious"
+	trait="gluttonous"
+	trait="content"
+	trait="charitable"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2402.9.10 = {
+		birth=yes
+	}
+	2456.1.4 = {
+		death=yes
+	}
+}
+8432 = {
+	name="Eiichiro" #Emperor Eiichiro succeded his father. He is remembered as one of the most pious Emperors in Japanese history.
+	dynasty=4022694
+	father=8431
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="mastermind_theologian"
+	trait="erudite"
+	trait="shy"
+	trait="poet"
+	trait="zealous"
+	trait="temperate"
+	trait="diligent"
+	trait="charitable"
+	trait="chaste"
+	trait="humble"
+	trait="kind"
+	trait="patient"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2419.4.20 = {
+		birth=yes
+	}
+	2470.8.24 = {
+		death=yes
+	}
+}
+8433 = {
+	name="Riichiro" #Emperor Riichiro was a man with little interest for politics. His time as a ruler was spent hunting, writing poetry and peering in the divine.
+	dynasty=4022694
+	father=8432
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="scholarly_theologian"
+	trait="mystic"
+	trait="poet"
+	trait="hunter"
+	trait="zealous"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2446.3.13 = {
+		birth=yes
+	}
+	2488.2.10 = {
+		death=yes
+	}
+}
+8434 = {
+	name="Kenshiro" #Emperor Kenshiro was a robust warrior with skills in both combat and poetry. Rumors of his interest in removing the Shogun abounded, but his untimely death when he fell from a horse ended those rumors. By the end of his reign, the Sato Shogunate had lost terrain considerably, the Shogunate reduced to only control eastern Honshu directly.
+	dynasty=4022694
+	father=8433
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="skilled_tactician"
+	trait="ambitious"
+	trait="poet"
+	trait="hunter"
+	trait="brave"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2469.7.4 = {
+		birth=yes
+	}
+	2497.3.13 = {
+		death=yes
+	}
+}
+8435 = {
+	name="Seiichiro" #Emperor Seiichiro lacked most of his father's skills, and his rule, while long, was not particularly eventful. The Sato Shogunate lost even more terrain, Chubu and Northern Tohoku both stopping paying tribute. The push from Vladivostok grew.
+	dynasty=4022694
+	father=8434
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=20
+	religion="shinto"
+	culture="kanto"
+	trait="misguided_warrior"
+	trait="content"
+	trait="kind"
+	trait="honest"
+	trait="gregarious"
+	trait="japanese_emperor_trait"
+	disallow_random_traits=yes
+	2486.9.10 = {
+		birth=yes
+	}
+	2520.6.7 = {
+		death=yes
+	}
+}

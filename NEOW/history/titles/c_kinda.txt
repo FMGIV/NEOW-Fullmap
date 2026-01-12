@@ -1,0 +1,5 @@
+
+2546.6.5={
+	holder = 4140
+	liege = d_ostergotland
+}

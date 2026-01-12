@@ -1,0 +1,59 @@
+# 796 - Cairo
+
+# County Title
+title = c_cairo
+
+# Settlements
+max_settlements = 7
+b_fustat = castle
+b_helwan = castle
+b_heliopolis = temple
+b_memphis = temple
+b_maadi = city
+
+#b_cairo = castle
+#b_tekkekyahudiyya = castle
+#b_merimdabenisalama = castle
+
+# Misc
+culture = misri
+religion = sunni
+terrain = tells
+
+# History
+769.1.1 = { name = "b_fustat" }
+969.1.1 = {
+	b_cairo = castle
+	capital = b_cairo
+	b_fustat = city
+}
+
+1066.1.1 = { 
+	b_cairo = ca_keep_1
+	b_cairo = ca_training_grounds_1
+	b_cairo = ca_wall_1
+	b_cairo = ca_wall_2
+	b_cairo = ca_militia_barracks_1
+	b_fustat = ct_wall_1
+	b_fustat = ct_barracks_1
+	b_memphis = tp_monastery_1
+	b_memphis = tp_monastery_2
+	b_memphis = tp_wall_1
+	b_memphis = tp_barracks_1
+	b_heliopolis = tp_wall_1
+	b_heliopolis = tp_barracks_1
+	b_helwan = ca_keep_1
+	b_helwan = ca_training_grounds_1
+	#b_helwan = ca_stable_1
+	b_helwan = ca_wall_1
+	b_helwan = ca_wall_2
+	b_helwan = ca_militia_barracks_1
+}
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 6
+	build_wonder_upgrade = upgrade_cow_district_mosque
+	build_wonder_upgrade = upgrade_cow_district_harbor
+	build_wonder_upgrade = upgrade_cow_district_statue_ruler
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+}

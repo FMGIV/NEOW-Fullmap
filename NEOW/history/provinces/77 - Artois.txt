@@ -1,0 +1,24 @@
+# 77 - Artois
+
+# County Title
+title = c_artois
+
+# Settlements
+max_settlements = 5
+b_lens = castle
+b_arras = city
+b_bassee = temple
+
+#b_bethune = city
+#b_rosebeke = city
+#b_bouvines = castle
+#b_beaumetz = castle
+#b_bapaume = castle
+
+# Misc
+culture = belgian
+religion = novelist
+
+
+
+

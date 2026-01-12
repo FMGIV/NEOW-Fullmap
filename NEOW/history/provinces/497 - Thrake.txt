@@ -1,0 +1,28 @@
+# 497 - Thrake
+
+# County Title
+title = c_thrake
+
+# Settlements
+max_settlements = 5
+b_sestos = city
+b_verissa = city
+b_chariopolis = temple
+b_phinopolis = city
+
+#b_syrallum = castle
+#b_salmydessus = castle
+#b_deleus = castle
+#b_aulaeitichus = castle
+
+
+#Extra Settlements
+
+
+	
+# Misc
+culture = turkish
+religion = koranist
+
+# History
+2532.10.13 = { trade_post = b_krasnobay }

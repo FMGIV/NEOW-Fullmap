@@ -1,0 +1,23 @@
+# 2483 - Saloum
+
+# County Title
+title = c_saloum
+
+# Settlements
+max_settlements = 7
+
+b_saloum = city
+b_niodior = city
+b_dinoar = temple
+
+b_palmarin = city
+b_djiffer = temple
+#b_bassoule = castle
+#b_fort_fadiout = castle
+
+
+# Misc
+culture = nigerian
+religion = islamity
+
+2532.10.13 = { trade_post = b_kumuyi }

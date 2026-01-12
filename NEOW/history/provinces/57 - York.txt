@@ -1,0 +1,19 @@
+# County Title
+title = c_york
+
+# Settlements
+max_settlements = 6
+b_york = castle
+b_middlesbrough = city
+b_richmond = castle
+b_scarborough = temple
+
+#b_st_peters = temple
+#b_whitby = temple
+#b_thirsk = castle
+
+# Misc
+culture = northlander
+religion = thelemic_reformed
+
+# History

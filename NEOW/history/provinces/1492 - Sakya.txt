@@ -1,0 +1,23 @@
+# County Title
+title = c_sakya
+
+# Settlements
+max_settlements = 5
+
+b_sakya = castle
+b_geding = city
+#b_pelsakya = temple
+#b_dinggye = 
+#b_zhentang =  
+#b_gamba = 
+#b_lungrong = 
+
+# Misc
+culture = u_tsang
+religion = gelugpa
+
+# History
+
+1073.1.1 = {
+	b_pelsakya = temple
+}# Sakya Monastery founded by Khön Könchok Gyalpo

@@ -1,0 +1,14 @@
+# 1973 - Onogost
+
+# County Title
+title = c_onogost
+
+# Settlements
+max_settlements = 3
+b_novi_pazar = tribal
+
+# Misc
+culture = montenegrin
+religion = orthodox
+
+# History

@@ -1,0 +1,19 @@
+# 469 - Veglia
+
+# County Title
+title = c_veglia
+
+# Settlements
+max_settlements = 5
+b_fiume = city
+b_kraljevica = castle
+b_bakar = temple
+b_crikvenica = city
+#b_cres = castle
+#b_vrbovsko = castle
+
+# Misc
+culture = croatian
+religion = catholic
+
+# History

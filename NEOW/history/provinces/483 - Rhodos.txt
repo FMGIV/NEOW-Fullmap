@@ -1,0 +1,43 @@
+# 483 - Rhodos
+
+# County Title
+title = c_rhodos
+
+# Settlements
+max_settlements = 3
+
+b_rhodos = castle
+b_lindos = city
+b_fanes = temple
+
+#b_karpathos = castle
+#b_pefkos = castle
+#b_ialysos = castle
+#b_haraki = castle
+#b_koskinou = castle
+
+# Misc
+culture = rodiaki
+religion = hellenic_pagan
+terrain = mountain
+
+# History
+2210.1.1 = { 
+	b_rhodos = ca_shipyard_1
+	b_rhodos = ca_wall_1
+	b_rhodos = ca_wall_q_1
+	b_rhodos = ca_keep_1
+}
+2211.1.1 = {
+	b_rhodos = ca_shipyard_2
+	b_rhodos = ca_wall_2
+	b_rhodos = ca_wall_q_2
+	b_rhodos = ca_keep_2
+}
+2212.1.1 = {
+	b_rhodos = ca_shipyard_3
+	b_rhodos = ca_wall_3
+	b_rhodos = ca_wall_q_3
+	b_rhodos = ca_keep_3
+}
+2532.10.13 = { trade_post = b_yannakakis }

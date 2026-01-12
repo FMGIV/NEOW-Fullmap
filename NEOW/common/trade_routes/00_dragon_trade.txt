@@ -1,0 +1,147 @@
+dragon_trade = {
+	wealth = 100			# Total base wealth of trade route
+	trade_post_display_trigger = {
+		OR = {
+		    province_id = 1319
+			province_id = 1482 
+			province_id = 1481
+			province_id = 1151
+			province_id = 1154
+			province_id = 1163
+			province_id = 1359
+			province_id = 1365
+			province_id = 1362
+			province_id = 1180
+			province_id = 1185
+			province_id = 906
+			province_id = 663
+			province_id = 646
+			province_id = 693
+			province_id = 730
+			province_id = 728
+			province_id = 774
+			province_id = 775
+			province_id = 764
+			province_id = 666
+			province_id = 1013
+			province_id = 678
+			province_id = 739
+			province_id = 741
+			province_id = 496
+			province_id = 1288
+			province_id = 1338
+			province_id = 1129
+			province_id = 1221
+			province_id = 1115
+			province_id = 1195
+			province_id = 1114
+			province_id = 2034
+			province_id = 1127
+			province_id = 1297
+			province_id = 641
+			province_id = 870
+			province_id = 1531
+			province_id = 649
+			province_id = 868
+			province_id = 1369
+			province_id = 874
+			province_id = 858
+			province_id = 719
+			province_id = 789
+			province_id = 802
+			province_id = 2165
+			province_id = 4085
+			province_id = 3701
+			province_id = 3695
+			province_id = 3740
+			province_id = 3722
+			province_id = 3717
+			province_id = 3728
+		}
+	}
+    modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		local_movement_speed = 0.4
+		disease_defence = -0.05
+		culture_flex = -0.2
+		religion_flex = -0.2
+		local_build_cost_modifier = -0.1
+		local_build_time_modifier = -0.1
+		tech_growth_modifier = 0.2
+		icon = 109
+	}
+    start = {
+        3701
+		#802
+		#775
+		#764
+		#496
+	}
+	path = {
+		3701 3908 3695 3740 3907 3728 3903 3722 3904 3717 3901 3899 4085
+	}
+	path = {	
+		4085 4084 4083 4082 4081 4080 4079 2165 2622 1318 2621 1319 1324 2615 1246 1321 2502 1482 2501 1481 1244 1381 1151
+	}
+	path = {
+	    1151 1243 2618 1152 1154 1251 1163 1284 1356 1359
+	}
+    path = {
+        1359 1357 1355 1300 1288 1149 1289 1133
+    }
+	path = {
+	    1359 1365 2641 1367 1193 1362 1190 1161 1180
+	}
+    path = {
+        1180 1341 1340 1338 1337 1339 1138 1303
+    }
+	path = {
+	    1180 1342 1185 1189 1377 907 905 2193 2197 2196 906 2195 636
+    }		
+    path = {
+        636 638 646 647 656 689
+    }
+	path = {
+	    636 2681 2646 659 663 715 664 666
+	}
+	path = {
+	    666 665 1537 667 671 672 1013 
+	}
+	path = {
+	    1013 681 703 704 678 705 738 739 1929 1928 740 741 496 
+	}
+    path = {
+	    1151 1325 1240 1236 1411 1410 1129 1409 1407 1221
+	}
+   path = {
+        1221 1207 1253 1211 1210 1143 1146 1213 1125
+    }
+	path = {
+	    1221 1406 1404 1115 1195 1402 1401 1114 1400 2034
+	}
+	path = {
+	    2034 1399 1127
+	}
+	path = {
+	    1127 1398 1136 1297
+	}
+	path = {
+	    1297 1396 1392 1393 641 4831 870 1394 653 1531 1395 649 655 2498 689 690 4953 693
+	}
+	path = {
+	    693 4946 4947 712 713 729 730
+	}
+	path = {
+	    730 732 733 764
+	}
+	path = {
+	    730 731 2525 728 4856 725 773 769 2510 4854 774 775 
+	}
+	path = {
+	    1297 1397 1412 1391 868 1390 866 1389 1369 1388 1387 1386 874 858 859 1532 1385 1384 716 719 718 1536 4829 1383 1382 785 4868 788 2016 789 939 802
+	}
+}

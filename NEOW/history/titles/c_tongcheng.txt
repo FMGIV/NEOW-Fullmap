@@ -1,0 +1,4 @@
+2544.8.23={
+	holder = 10054
+	liege = d_dangyang
+}

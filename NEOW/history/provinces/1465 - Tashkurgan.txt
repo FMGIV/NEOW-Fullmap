@@ -1,0 +1,17 @@
+# County Title
+title = c_tashkurgan
+
+# Settlements
+max_settlements = 3
+
+b_tashkurgan = tribal
+#b_jianggala = city
+#b_hangdi = 
+#b_kaladong = {
+#b_zankan = {
+#b_qiate = {
+# b_bulongke = {
+
+# Misc
+culture = sarikoli
+religion = ismaili

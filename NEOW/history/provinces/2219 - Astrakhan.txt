@@ -1,0 +1,23 @@
+# 2219 - Astrakhan
+
+# County Title
+title = c_astrakhan
+
+# Settlements
+max_settlements = 5
+b_astrakhan = castle
+b_kirovskiy = temple
+b_volodarskiy = castle
+b_makovo = city 
+b_karalat = city
+
+#b_utery = castle
+
+#b_dashin = castle
+
+# Misc
+culture = cossack
+religion = stalinist
+
+# History
+

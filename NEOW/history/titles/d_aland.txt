@@ -1,0 +1,4 @@
+2541.6.9={
+	holder=4143
+	law=succ_patrician_elective
+}

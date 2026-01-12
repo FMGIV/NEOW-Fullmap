@@ -1,0 +1,4 @@
+2542.8.10={
+	holder=4606
+	liege = e_nan_hong
+}

@@ -1,0 +1,14 @@
+# 1817 - Syktyvkar 
+
+# County title 
+title = c_syktyvkar
+
+# Settlements
+max_settlements = 4
+b_syktyvkar = tribal
+
+# Misc
+culture = komi
+religion = oldbeliever
+
+# History

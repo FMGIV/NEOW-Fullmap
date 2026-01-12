@@ -1,0 +1,5 @@
+
+2538.10.7={
+	holder = 3033
+	liege = d_oriental
+}

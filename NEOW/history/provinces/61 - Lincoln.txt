@@ -1,0 +1,22 @@
+# 61 - Lincoln
+
+# County Title
+title = c_lincoln
+
+# Settlements
+max_settlements = 5
+b_lincoln = castle
+b_gainsborough = temple
+b_bardney = city
+
+#b_boston = castle
+#b_grantham = castle
+#b_stamford = castle
+#b_spalding = castle
+#b_skegness_lincoln = castle
+
+# Misc
+culture = eastlander
+religion = thelemic_reformed
+
+# History

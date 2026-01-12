@@ -1,0 +1,6 @@
+
+2549.8.9=
+{
+	holder = 3474
+	liege = d_qusntina
+}

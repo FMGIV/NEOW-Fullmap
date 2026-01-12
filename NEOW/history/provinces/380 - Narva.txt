@@ -1,0 +1,22 @@
+# 380 - Narva
+
+# County Title
+title = c_narva
+
+# Settlements
+max_settlements = 4
+b_narva = castle
+#b_rakvere = city
+#b_kohtla = temple
+
+#b_jarve = castle
+#b_johvi = castle
+#b_kivioli = castle
+#b_tapa = city
+#b_sillamae = castle
+
+# Misc
+culture = ugricbaltic
+religion = lutheran
+
+# History

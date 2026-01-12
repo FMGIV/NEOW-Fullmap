@@ -1,0 +1,25 @@
+# 381 - Nyland
+
+# County Title
+title = c_nyland
+
+# Settlements
+max_settlements = 4
+
+b_porvoo = tribal
+b_loviisa = temple
+
+#b_espoo = city
+
+#b_hamina = castle
+#b_svartholm = castle
+#b_hanko = castle
+#b_kotka = city
+
+
+# Misc
+culture = finnish
+religion = sisukkuus
+
+# History
+1158.1.1 = { name = "Nyland" }

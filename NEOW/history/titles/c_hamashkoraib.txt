@@ -1,0 +1,6 @@
+
+2552.2.16 = {
+	holder=1999
+	liege=k_eritrea
+}
+

@@ -1,0 +1,21 @@
+# 330 - Siena
+
+# County Title
+title = c_siena
+
+# Settlements
+max_settlements = 5
+b_siena = city
+b_montalcino = temple
+b_pienza = castle
+b_montepulciano = castle
+#b_sangimignano = castle
+#b_colledievaldelsa = Castle
+#b_monteriggioni = castle
+
+# Misc
+culture = tuscanian
+religion = catholic
+
+# History
+1328.1.11 = { capital = b_siena }

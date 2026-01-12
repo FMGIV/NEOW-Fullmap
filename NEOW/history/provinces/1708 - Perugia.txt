@@ -1,0 +1,21 @@
+# 1708 - Perugia
+
+# County title
+title = c_perugia
+
+# Settlements
+max_settlements = 4
+b_fratta = castle
+b_perugia = city
+b_assisi = temple
+
+#b_foligno = castle
+#b_gubbio = castle
+#b_deruta = castle
+#b_marsciano = castle
+
+# Misc
+culture = lazian
+religion = catholic
+
+# History

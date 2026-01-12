@@ -1,0 +1,14 @@
+# 1831 - Koshma
+
+# County Title
+title = c_koshma
+
+# Settlements
+max_settlements = 3
+b_koshma = tribal
+
+# Misc
+culture = pomoran
+religion = folklorist
+
+# History

@@ -1,0 +1,17 @@
+# 1775 - Tudgha
+
+# County Title
+title = c_tudgha
+
+# Settlements
+max_settlements = 2
+
+b_tudgha = tribal
+
+#b_alnif
+
+# Misc
+culture = moroccan
+religion = malikite
+
+# History

@@ -1,0 +1,17 @@
+# 394 - Trans-portage
+
+# County Title
+title = c_trans-portage
+
+# Settlements
+max_settlements = 3
+b_shenkursk = tribal
+
+# Misc
+culture = pomoran
+religion = folklorist
+
+# History
+1150.1.1 = {
+	religion = folklorist
+}

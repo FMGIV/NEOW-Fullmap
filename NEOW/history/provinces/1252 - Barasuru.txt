@@ -1,0 +1,17 @@
+# 1252 - Barasuru
+
+# County Title
+title = c_barasuru
+
+# Settlements
+max_settlements = 3
+b_barasuru = tribal
+b_dantewada = temple
+#b_barsoor = temple
+
+# Misc
+culture = gondi
+religion = koyapunem
+terrain = jungle
+
+# History

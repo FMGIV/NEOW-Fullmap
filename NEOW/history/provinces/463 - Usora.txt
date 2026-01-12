@@ -1,0 +1,15 @@
+# 463 - Donji Kraji
+
+# County Title
+title = c_usora
+
+# Settlements
+max_settlements = 3
+b_bihac = tribal
+b_drvar = temple
+# Misc
+culture = bosnian
+religion = sunni
+terrain = mountain
+
+# History

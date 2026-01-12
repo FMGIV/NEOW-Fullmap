@@ -1,0 +1,17 @@
+2500.8.14={
+	holder=1331 #Yusuf the Landed
+}
+2551.3.30=
+{
+	holder=1321
+	liege = k_hijaz
+}
+2554.5.2=
+{
+	holder=1441
+}
+2554.8.1=
+{
+	holder=1979
+	liege = k_hijaz
+}

@@ -1,0 +1,15 @@
+# 1762 - Tagant
+
+# County Title
+title = c_tagant
+
+# Settlements
+max_settlements = 2
+b_tagant = tribal
+#b_tichitt = city
+
+# Misc
+culture = tuareg
+religion = muwahidunna
+
+# History

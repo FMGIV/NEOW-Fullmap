@@ -1,0 +1,24 @@
+# 39 - Ross
+
+# County Title
+title = c_ross
+
+# Settlements
+max_settlements = 4
+b_applecross = tribal
+b_rosemarkie = temple
+
+#b_dingwall = city
+#b_fortrose = castle
+#b_fearn = castle
+#b_applecross = castle
+#b_cromarty = castle
+#b_avoch = castle
+
+# Misc
+culture = scottish
+religion = calvinist
+terrain = hills
+
+# History
+

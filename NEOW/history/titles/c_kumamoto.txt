@@ -1,0 +1,5 @@
+2554.3.20={
+	holder = 5072
+	liege = d_kagoshima
+	law = succ_primogeniture
+}

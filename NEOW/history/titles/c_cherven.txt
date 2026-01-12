@@ -1,0 +1,5 @@
+
+2540.2.16={
+    holder=2832 #Conrad von Hoetzendorf
+	liege=d_cherven_cities
+}

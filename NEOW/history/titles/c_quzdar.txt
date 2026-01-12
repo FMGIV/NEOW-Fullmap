@@ -1,0 +1,4 @@
+2550.12.3 = {
+	holder = 1306
+	liege = k_sindh
+}

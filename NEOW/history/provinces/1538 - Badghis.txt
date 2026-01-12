@@ -1,0 +1,18 @@
+# 1538 - Badghis
+
+# County Title
+title = c_badghis
+
+# Settlements
+max_settlements = 3
+b_buzgan = tribal
+#b_zurabad = city
+
+#b_kusuya = temple
+#b_pushang = castle
+#b_malin = castle
+#b_jabal_al_adda = castle
+#b_kuhsim = city
+
+culture = hazar
+religion = shiite

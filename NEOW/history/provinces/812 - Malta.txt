@@ -1,0 +1,22 @@
+# 812 - Malta
+
+# County Title
+title = c_malta
+
+# Settlements
+max_settlements = 5
+b_valletta = castle
+b_mdina = castle
+b_sliema = city
+#b_sanpawl = temple
+
+#b_gozo = castle
+#b_birzebbuga = castle
+#b_marsascala = castle
+#b_mgarr = castle
+#b_sangjilan = castle
+
+# Misc
+culture = maltese
+religion = catholic
+terrain = hills

@@ -1,0 +1,20 @@
+# 2020 - South Doggerland
+
+# County Title
+title = c_south_doggerland
+
+# Settlements
+max_settlements = 4
+b_fljot = castle
+b_melar = temple
+b_buland = city
+
+
+# Misc
+culture = doggerlander
+religion = brethren
+
+# History
+2350.11.25 = {
+	b_melar = tp_bone_temple
+}

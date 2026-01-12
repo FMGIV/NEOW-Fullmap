@@ -1,0 +1,458 @@
+1592 ={ 	
+    name="Jaan" 
+	dynasty=25551304 #he's a bastard of the Royal line
+	religion="brethren"
+	culture="frisian"
+	father=1597
+	mother=1605
+	diplomacy=0
+	martial=7
+	stewardship=4
+	intrigue=8
+	learning=0
+	trait="midas_touched"
+	trait="ambitious"
+	trait="gregarious"
+	trait="bastard"
+	trait="erudite"
+	trait="cynical"
+	trait="impaler"
+	trait="wroth"		
+	2518.1.12={
+		birth=yes
+		add_claim = k_belgium
+		add_claim = k_holland
+		add_claim = k_luxemburg
+	}
+	2540.3.15={
+		give_nickname = nick_saltspite
+		create_bloodline = {
+			type = zolt
+			
+		}			
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1593 ={ 	
+    name="Hendrik" 
+	dynasty=25554044 # Belgium-Orange-Nassau-Weilburg
+	religion="novelist"
+	culture="dutch"
+	diplomacy=0
+	martial=3
+	stewardship=4
+	intrigue=8
+	learning=0
+	trait="midas_touched"
+	trait="erudite"
+	trait="cynical"
+	trait="patient"
+	trait="chaste"		
+	father=1597
+	mother=1604
+	2522.6.14={
+		birth=yes
+		add_claim = k_luxemburg
+		add_claim = k_belgium
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1594 ={ 	
+    name="Ludwig" 
+	dynasty=25554045
+	religion="novelist"
+	culture="low_german"
+	father=1603
+	diplomacy=0
+	martial=3
+	stewardship=4
+	intrigue=8
+	learning=0
+	trait="brilliant_strategist"
+	trait="gregarious"
+	trait="ambitious"
+	trait="envious"
+	trait="patient"			
+	2521.6.22={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1595 ={ 	
+    name="Bjinte" 
+	dynasty=1954002 
+	religion="novelist"
+	culture="frisian"
+	diplomacy=6
+	martial=1
+	stewardship=1
+	intrigue=4
+	learning=3
+	trait="scholarly_theologian"
+	trait="chaste"
+	trait="shy"
+	trait="just"
+	trait="humble"	
+	2520.1.4={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1596 ={ 	
+    name="Guillem" 
+	dynasty=25554044 # Belgium-Orange-Nassau-Weilburg
+	religion="novelist"
+	culture="belgian"
+	diplomacy=8
+	martial=0
+	stewardship=3
+	intrigue=0
+	learning=4
+	trait="grey_eminence"
+	trait="deceitful"
+	trait="wroth"
+	trait="chaste"
+	trait="charitable"	
+	father=1597
+	mother=1604
+	2521.1.5={
+		birth=yes
+		add_claim = k_holland
+		add_claim = k_luxemburg
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1597 ={ # Emperor Leopold III of Benelux, second and last Novelist Emperor of a unified Benelux. He sold Gelre to a distant relative, leading to the birth of the Calvinist Counts of Gelre. His death in 2554 marked the beginning of a still ongoing struggle of succession between his sons. He also had a bastard child, who became a renown Pirate.
+    name="Leopold" 
+	dynasty=25554044 # Belgium-Orange-Nassau-Weilburg
+	religion="novelist"
+	culture="dutch"
+	diplomacy=0
+	martial=8
+	stewardship=8
+	intrigue=8
+	learning=8
+	trait="mastermind_theologian"
+	trait="kind"
+	trait="diligent"
+	trait="chaste"
+	trait="shy"
+	father=588
+	2499.1.7={
+		birth=yes
+	}
+	2511.3.19={
+		effect = {
+			add_lover = 1605
+		}
+	}
+	2519.3.19={
+		add_spouse = 1604
+	}
+	2554.1.1={
+		death=yes
+	}
+}
+
+1598 ={
+    name="Neville" #Count of Flevoland, a Low Church Anglican with Reformed sympathies
+	dynasty=411111369 
+	religion="anglican"
+	secret_religion="calvinist"
+	culture="angler"
+	trait="skilled_tactician"
+	trait="kind"
+	trait="diligent"
+	trait="brave"
+	trait="just"
+	trait="patient"
+	trait="low_anglican"
+	disallow_random_traits=yes
+	2503.8.7={
+		birth=yes
+	}
+	2660.1.1={
+		death=yes
+	}
+}
+
+1599 ={
+    name="Joseph" #Son of Neville, a studious man raised with his father's beliefs
+	dynasty=411111369 
+	religion="anglican"
+	secret_religion="calvinist"
+	culture="angler"
+	father=1598
+	trait="scholarly_theologian"
+	trait="erudite"
+	trait="diligent"
+	trait="patient"
+	trait="kind"
+	trait="gregarious"
+	trait="low_anglican"
+	disallow_random_traits=yes
+	2532.3.17={
+		birth=yes
+	}
+	2660.1.1={
+		death=yes
+	}
+}
+
+
+1600 ={ 	
+    name="Jeannes" 
+	dynasty=14551301 #de Varenberg, in ancient times known as Van Damme
+	religion="novelist"
+	culture="belgian"
+	father=1606
+	trait="skilled_tactician"
+	trait="strong"
+	trait="proud"
+	trait="groomed"
+	trait="gregarious"
+	disallow_random_traits = yes
+	2525.10.18={
+		birth=yes		
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1601 ={ 	
+    name="Gerrit" 
+	religion="novelist"
+	culture="dutch"
+	trait="mastermind_theologian"
+	trait="erudite"
+	trait="humble"
+	trait="kind"
+	trait="gregarious"
+	disallow_random_traits = yes
+	2520.10.1={
+		birth=yes		
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1602 ={ 	
+    name="Lambaer" 
+	religion="novelist"
+	culture="limburgish"
+	trait="scholarly_theologian"
+	trait="erudite"
+	trait="shy"
+	trait="kind"
+	trait="patient"
+	disallow_random_traits = yes
+	2518.5.4={
+		birth=yes		
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1603 ={ 	
+    name="Xavier" 
+	dynasty=25554045
+	religion="novelist"
+	culture="french"
+	trait="midas_touched"
+	trait="gregarious"
+	trait="ambitious"
+	trait="envious"
+	trait="patient"			
+	2489.6.22={
+		birth=yes
+	}
+	2553.1.1={
+		death=yes
+	}
+}
+
+1604 ={
+    name="Martine" #Leopold's wife
+	dynasty=14551301 #de Varenberg, in ancient times known as Van Damme
+	female=yes
+	religion="novelist"
+	culture="belgian"
+	father=1606
+	trait="thrifty_clerk"
+	trait="kind"
+	trait="diligent"
+	trait="chaste"
+	trait="cynical"
+	2501.1.7={
+		birth=yes
+	}
+	2519.3.19={
+		add_spouse = 1597
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+1605 ={
+    name="Fenna" #Leopold's first love
+	female=yes
+	religion="brethren"
+	culture="frisian"
+	trait="charismatic_negotiator"
+	trait="ambitious"
+	trait="diligent"
+	trait="fair"
+	trait="lustful"
+	trait="gregarious"
+	2496.1.7={
+		birth=yes
+	}
+	2511.3.19={
+		effect = {
+			add_lover = 1597
+		}
+	}
+	2559.1.1={
+		death=yes
+	}
+}
+1606 ={
+    name="Eugène"
+	dynasty=14551301 #de Varenberg, in ancient times known as Van Damme
+	religion="novelist"
+	culture="belgian"
+	father=1607
+	2496.1.7={
+		birth=yes
+	}
+	2553.12.29={
+		death=yes
+	}
+}
+1607 ={
+    name="Claude"
+	dynasty=14551301 #de Varenberg, in ancient times known as Van Damme
+	religion="novelist"
+	culture="belgian"
+	2416.1.7={
+		birth=yes
+	}
+	2499.1.1={
+		death=yes
+	}
+}
+1608 ={# Count Pierre of Metz.
+    name="Pierre" 
+	dynasty=25554044 
+	religion="catholic"
+	culture="lorraine"
+	father=590
+	diplomacy=10
+	martial=10
+	stewardship=10
+	intrigue=10
+	learning=10
+	trait="mastermind_theologian"
+	trait="erudite"
+	trait="zealous"
+	trait="honest"
+	trait="content"
+	trait="gregarious"
+	2511.7.31={
+		birth=yes
+	}
+	2666.1.1={
+		death = yes
+	}
+}
+1609 ={# Son of the Count of Metz
+    name="Paul" 
+	dynasty=25554044 
+	religion="catholic"
+	culture="lorraine"
+	father=1608
+	diplomacy=10
+	martial=10
+	stewardship=10
+	intrigue=10
+	learning=10
+	trait="scholarly_theologian"
+	trait="gregarious"
+	trait="falconer"
+	trait="stubborn"
+	trait="shrewd"
+	trait="lustful"
+	2533.6.17={
+		birth=yes
+	}
+	2666.1.1={
+		death = yes
+	}
+}
+1610 ={# Count Hugo of Gelre.
+    name="Hugo" 
+	dynasty=25554044 
+	religion="calvinist"
+	culture="dutch"
+	father=593
+	diplomacy=8
+	martial=5
+	stewardship=10
+	intrigue=7
+	learning=7
+	trait="midas_touched"
+	trait="deceitful"
+	trait="greedy"
+	trait="ambitious"
+	trait="erudite"
+	trait="gregarious"
+	2511.8.17={
+		birth=yes
+	}
+	2666.1.1={
+		death = yes
+	}
+}
+1611 ={# Son of the Count of Gelre.
+    name="Jaan" 
+	dynasty=25554044 
+	religion="calvinist"
+	culture="dutch"
+	father=1610
+	diplomacy=5
+	martial=7
+	stewardship=10
+	intrigue=8
+	learning=7
+	trait="fortune_builder"
+	trait="honest"
+	trait="temperate"
+	trait="ambitious"
+	trait="kind"
+	trait="gregarious"
+	2532.11.25={
+		birth=yes
+	}
+	2666.1.1={
+		death = yes
+	}
+}

@@ -1,0 +1,23 @@
+# 507 - Nikopolis
+
+# County Title
+title = c_nikopolis
+
+# Settlements
+max_settlements = 5
+
+b_vidin = castle
+b_vraca = city
+b_montana = temple
+
+#b_dunavci = castle
+#b_lovech = castle
+#b_pordim = castle
+#b_dolnidabknik = castle
+#b_knezha = castle
+
+# Misc
+culture = bulgarian
+religion = orthodox
+
+# History

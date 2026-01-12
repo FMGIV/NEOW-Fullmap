@@ -1,0 +1,28 @@
+# 1151 - Laksmanavati
+
+# County Title
+title = c_laksmanavati
+
+# Settlements
+max_settlements = 7
+b_laksmanavati = castle
+b_gaur = castle
+b_malda = city
+b_puthia = temple
+b_pankak = city
+b_banan = castle
+#b_shukla = city
+
+# Misc
+culture = bengali
+religion = dahatatta
+terrain = jungle
+
+# History
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 4
+	build_wonder_upgrade = upgrade_cow_district_mosque
+	build_wonder_upgrade = upgrade_cow_district_amphitheatre
+	build_wonder_upgrade = upgrade_cow_district_statue_ruler
+}

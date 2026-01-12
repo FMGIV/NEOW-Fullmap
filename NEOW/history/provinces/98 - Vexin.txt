@@ -1,0 +1,21 @@
+# 98 - Vexin
+
+# County Title
+title = c_vexin
+
+# Settlements
+max_settlements = 4
+
+b_gournay = castle
+b_pontoise = city
+b_mantes = temple
+
+#b_abbayedemortemer = castle
+#b_harcourt = castle
+#b_ivry = castle
+#b_andely = temple
+
+culture = norman
+religion = novelist
+
+# History

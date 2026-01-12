@@ -1,0 +1,27 @@
+# 1679 - Serpukhov
+
+# County Title
+title = c_serpukhov
+
+# Settlements
+max_settlements = 3
+
+b_serpukhov = tribal	#XIVth
+
+#b_dugna		#1689
+#b_bogucharovo
+#b_novogurovsky
+#b_zaokskiy
+#b_nenashevo
+#b_kolyupanovo
+
+#Misc
+culture = muscovite
+religion = zarist
+terrain = plains
+
+# History
+1200.1.1 = {
+	b_serpukhov = castle
+	b_dugna = city
+}

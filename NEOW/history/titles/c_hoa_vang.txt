@@ -1,0 +1,4 @@
+2540.4.25 = {
+	holder=10095
+	liege = e_vietnam
+}

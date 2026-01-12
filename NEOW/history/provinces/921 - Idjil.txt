@@ -1,0 +1,17 @@
+# 921 - Idjil
+
+# County Title
+title = c_idjil
+
+# Settlements
+max_settlements = 2
+b_bir_um_grein = tribal
+
+#b_zouerat = city #Zouérat
+#b_tazadit = temple
+#b_rouessa = castle
+#b_fderick = castle #Fdérick
+
+# Misc
+culture = tuareg
+religion = muwahidunna

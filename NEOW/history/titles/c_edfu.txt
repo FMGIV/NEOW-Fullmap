@@ -1,0 +1,6 @@
+
+2548.4.8=
+{
+	holder = 1622
+	liege = k_egypt
+}

@@ -1,0 +1,22 @@
+2300.1.5 = {
+	holder=1350 #Abdul-Qadir the first Uniter
+}
+2355.3.11 = {
+	holder=1351 #Idris
+}
+2356.7.11 = {
+	holder=1352 #Salih
+}
+2370.3.1 = {
+	holder=1353 #Muzaffar
+}
+2392.4.2 = {
+	holder=1327 #Ramadan the Great
+}
+2425.1.1={
+	holder = 0 # Title became obsolete after Ramadan united the former lands of Saudi Arabia 
+}
+2554.3.30=
+{
+	holder=255
+}

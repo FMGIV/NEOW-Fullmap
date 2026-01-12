@@ -1,0 +1,16 @@
+# 1877 - Buqtirma
+
+# County Title
+title = c_buqtirma
+
+# Settlements
+max_settlements = 2
+b_buqtirma = tribal
+
+# Misc
+culture = klynian 
+religion = folklorist
+
+terrain = steppe
+
+# History

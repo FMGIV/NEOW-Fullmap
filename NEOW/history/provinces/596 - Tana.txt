@@ -1,0 +1,27 @@
+# 596 - Tana
+
+# County Title
+title = c_tana
+
+# Settlements
+max_settlements = 4
+
+b_tana = tribal
+
+#b_rostovnadonu = city
+#b_monastyrsky = temple
+
+#b_bataysk = castle
+#b_gundorovka = castle
+#b_cherkassk = castle
+#b_sulin = castle
+#b_ustaksayaskaya = castle
+
+culture = sazzac
+religion = zarist
+
+# History
+
+#1187.1.1 = { b_bataysk = castle }
+
+2532.10.13 = { trade_post = b_poklonskiy }

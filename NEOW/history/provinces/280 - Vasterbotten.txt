@@ -1,0 +1,25 @@
+# 280 - Västerbotten
+
+# County Title
+title = c_vasterbotten
+
+# Settlements
+max_settlements = 3
+
+b_umea = tribal	#1314
+
+b_bygdea = temple	#Church built 1169
+#b_skelleftea = city
+
+#b_lovanger
+#b_kalix
+#b_pitea
+#b_lulea
+#b_tornea
+
+# Misc
+culture = swedish 
+religion = vagarna
+
+#History
+2532.10.13 = { trade_post = b_andersson }

@@ -1,0 +1,23 @@
+# 78 - Brugge
+
+# County Title
+title = c_brugge
+
+# Settlements
+max_settlements = 7
+b_oostende = castle
+b_brugge = city
+b_damme = temple
+b_sluys = city
+
+#b_eeklo = castle
+#b_nieuwpoort = city
+#b_aardenburg = castle
+#b_torhout = castle
+
+# Misc
+culture = flemish
+religion = concordianist
+terrain = tells
+
+# History

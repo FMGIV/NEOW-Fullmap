@@ -1,0 +1,19 @@
+# 167 - Malaga
+
+# County Title
+title = c_malaga
+
+# Settlements
+max_settlements = 5
+b_malaga = castle
+b_tamisa = temple
+b_velezmalaga = city
+b_coin = castle
+
+#b_suel = city
+#b_cartajima = castle
+#b_torremolinos = castle
+#b_benalmadena = castle
+
+culture = andalusian
+religion = sevillian

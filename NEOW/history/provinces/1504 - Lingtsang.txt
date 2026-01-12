@@ -1,0 +1,18 @@
+# County Title
+title = c_lingtsang
+
+# Settlements
+max_settlements = 4
+
+b_denkok = tribal
+b_serxu = temple
+#b_gemeng = {
+#b_derong = {
+#b_arizha = {
+#b_maga = {
+#b_wenbo = {
+
+# Misc
+culture = amdo 
+religion = karmapa
+

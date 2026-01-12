@@ -1,0 +1,21 @@
+# 1592 - Tukums
+
+# County Title
+title = c_tukums
+
+# Settlements
+max_settlements = 3
+b_tukums = tribal
+#b_dundaga = city
+#b_kandava = temple
+
+#b_sabile = castle
+#b_talsi = castle
+#b_kayeva = castle
+#b_bulla = city
+
+# Misc
+culture = lativian
+religion = lutheran
+
+# History

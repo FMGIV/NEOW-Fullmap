@@ -1,0 +1,19 @@
+# County Title
+title = c_yoredale
+
+# Settlements
+max_settlements = 4
+b_yoredale = castle
+b_skipton = city
+b_ilkley = temple
+b_bainbridge = castle
+
+#b_settle = castle
+#b_bainbridge = castle
+#b_middleham = castle
+
+# Misc
+culture = northlander
+religion = anglican
+
+# History

@@ -1,0 +1,56 @@
+2180.1.1={
+	holder=4203 #Meir Avivi
+}
+2203.1.1={
+	holder=4204 #Uziel Avivi
+}
+2221.1.1={
+	holder=4205 #Gilboa Avivi
+}
+2254.1.1={
+	holder=4207 # Shabtai Greenberg
+}
+2256.1.1={
+	holder=4206 # Yosef Avivi
+	liege = k_israel
+}
+2270.1.1={
+	holder=4208 # Ehud Avivi
+}
+2301.1.1={
+	holder=4211 # Tzachi Avivi
+}
+2304.1.1={
+	holder=4212 # Naftali Dizzengoff
+}
+2312.1.1={
+	holder=4213 # Motti Dizzengoff
+}
+2325.1.1={
+	holder=4216 # Menashe Chuldai
+}
+2350.1.1={
+	holder=4217 # Simcha Chuldai
+}
+2371.1.1={
+	holder=4218 # Oriel Chuldai
+}
+2397.1.1={
+	holder=4219 # Malachi Chuldai
+}
+2430.1.1={
+	holder=4222 # Eldad Dizengoff
+}
+2456.1.1={
+	holder=4223 # Tzvi Dizengoff
+}
+2470.1.1={
+	holder=4224 # Erez Dizengoff
+}
+2500.1.1={
+	holder=4228 # Nachman Chuldai
+}
+2528.8.2={
+	holder=3029 # Chayim Chuldai
+	liege = k_sharon
+}

@@ -1,0 +1,56 @@
+2200.1.1=
+{
+	holder=1542 #Johan I	
+}
+2225.1.1=
+{
+	holder=1567 #Duke Christian	I
+}
+2264.1.1=
+{
+	holder=1568 #Duke Soren	I
+}
+2303.1.1=
+{
+	holder=1569 #Duke Soren	II
+}
+2315.1.1=
+{
+	holder=1570 #Duke David
+}
+2335.1.1=
+{
+	holder=1571 #Duke Adam I
+}
+2370.1.1=
+{
+	holder=1572 #Duke Adam II
+}
+2380.1.1=
+{
+	holder=1573 #Duke Rolf
+}
+2409.1.1=
+{
+	holder=1574 #Duke Albert
+}
+2440.1.1=
+{
+	holder=1575 #Duke Erik
+}
+2485.1.1=
+{
+	holder=1576 #Duke Emil
+}
+2498.1.1=
+{
+	holder=1577 #Duke Karl
+}
+2550.1.1=
+{
+	holder=1541 #Duke Johan, lost title
+}
+2550.3.6=
+{
+	holder=1064  #Duke Ingel, Frisian revolter
+}

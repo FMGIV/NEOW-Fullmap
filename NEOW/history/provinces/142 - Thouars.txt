@@ -1,0 +1,19 @@
+# 142 - Thouars
+
+# County Title
+title = c_thouars
+
+# Settlements
+max_settlements = 5
+b_olonne = castle
+b_montguyon = city
+b_mauleon = temple
+b_chatelaillon = castle
+
+#b_bressuire = castle
+#b_thouars = city
+#b_lucon = temple
+#b_fontenay = castle
+
+culture = poitevin
+religion = orleanist

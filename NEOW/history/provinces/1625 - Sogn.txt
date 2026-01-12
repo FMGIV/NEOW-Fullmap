@@ -1,0 +1,12 @@
+# 1625 - Sogn
+
+# County title
+title = c_sogn
+
+max_settlements = 3
+
+b_leikanger = castle
+
+# Misc
+culture = vestsk
+religion = nobelian

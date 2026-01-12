@@ -1,0 +1,4 @@
+2554.12.30={
+	holder=4867
+	liege = k_katoliko
+}

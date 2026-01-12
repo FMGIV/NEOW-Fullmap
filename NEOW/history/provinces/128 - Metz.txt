@@ -1,0 +1,22 @@
+# 128 - Metz
+
+# County Title
+title = c_metz
+
+# Settlements
+max_settlements = 5
+b_thionville = castle
+b_saintjulien = temple
+b_metz = city
+
+#b_saint_avold = temple
+#b_marslatour = castle
+#b_bouzonville = city
+#b_joudreville = castle
+#b_audunleroman = castle
+
+# Misc
+culture = lorraine
+religion = catholic
+
+# History

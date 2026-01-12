@@ -1,0 +1,22 @@
+# 1591 - Aurillac
+
+# County Title
+title = c_aurillac
+
+# Settlements
+max_settlements = 4
+
+b_aurillac = castle
+b_saint-flour = temple
+b_carlat = city
+
+#b_murat
+#b_la_tour_2
+#b_issoire
+#b_mauriac
+
+#Misc
+religion = girondist
+culture = toccitan
+
+# History

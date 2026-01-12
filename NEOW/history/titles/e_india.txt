@@ -1,0 +1,4 @@
+1960.9.8={
+	holder = 0
+	#active = no
+}

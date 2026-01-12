@@ -1,0 +1,18 @@
+# County Title
+title = c_luntai
+
+# Settlements
+max_settlements = 4
+
+b_luntai = castle
+#b_fukang = castle
+#b_danhuan =
+#b_wutanzili =
+#b_qiemi =
+#b_manas_2 =
+b_changji = city
+
+# Misc
+culture = oirat
+religion = ironist
+

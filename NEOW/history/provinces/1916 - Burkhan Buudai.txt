@@ -1,0 +1,14 @@
+# 1916 - Burkhan Buudai
+
+# County Title
+title = c_burkhan_buudai 
+
+# Settlements
+max_settlements = 2
+b_burkhan_buudai = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

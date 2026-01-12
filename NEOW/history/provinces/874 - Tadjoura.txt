@@ -1,0 +1,24 @@
+# 874 - Tadjoura
+
+# County Title
+title = c_tadjoura
+
+# Settlements
+max_settlements = 5
+
+b_tadjoura = city
+
+b_berenice = city
+b_obock = temple
+b_galafi = castle 
+#b_dikhil = castle
+#b_holhol = castle
+#b_randa = castle
+
+# Misc
+culture = afari
+religion = sunni
+
+# History
+
+2532.10.13 = { trade_post = b_assefa }

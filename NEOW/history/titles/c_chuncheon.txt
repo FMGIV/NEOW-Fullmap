@@ -1,0 +1,4 @@
+2532.2.2={
+	holder=8630
+	liege=k_samsung
+}

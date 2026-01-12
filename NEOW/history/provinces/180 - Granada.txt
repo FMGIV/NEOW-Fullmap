@@ -1,0 +1,17 @@
+# 180 - Granada
+
+# County Title
+title = c_granada
+
+# Settlements
+max_settlements = 6
+b_granada = castle
+b_elvira = city
+b_moclin = castle
+b_iznajar = temple
+
+#b_guadix = castle
+#b_baza = castle
+
+culture = andalusian
+religion = sevillian

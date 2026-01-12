@@ -1,0 +1,15 @@
+# 1824 - Yezhuga
+
+# County Title
+title = c_yezhuga
+
+# Settlements
+max_settlements = 2
+b_yezhuga = tribal
+
+# Misc
+culture = pomoran
+religion = folklorist
+terrain = arctic
+
+# History

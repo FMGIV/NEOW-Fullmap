@@ -1,0 +1,23 @@
+# 342 - Agrigento
+
+# County Title
+title = c_agrigento
+
+# Settlements
+max_settlements = 4
+b_agricento = castle
+b_caltabellotta = city
+b_butera = temple
+
+#b_sanbiagioplatani = castle 
+#b_gela = castle
+#b_licata = castle
+#b_raffadali = castle
+#b_montallegro = castle
+
+# Misc
+culture = sicilian
+religion = catholic
+terrain = hills
+
+# History

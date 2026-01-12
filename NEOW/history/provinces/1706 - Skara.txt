@@ -1,0 +1,13 @@
+# 297 - Västergötland
+
+# County Title
+title = c_skara
+
+# Settlements
+max_settlements = 4
+
+b_skara = tribal	#Swedens oldest Diocese
+
+# Misc
+culture = gothic
+religion = lutheran

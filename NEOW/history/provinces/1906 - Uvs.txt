@@ -1,0 +1,14 @@
+# 1906 - Uvs
+
+# County Title
+title = c_uvs
+
+# Settlements
+max_settlements = 2
+b_uvs = tribal
+
+# Misc
+culture = mongol
+religion = vajrayana
+
+# History

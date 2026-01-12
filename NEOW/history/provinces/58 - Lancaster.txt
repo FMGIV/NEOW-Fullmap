@@ -1,0 +1,21 @@
+# 58 - Lancaster
+
+# County Title
+title = c_lancaster
+
+# Settlements
+max_settlements = 6
+b_lancaster = castle
+b_salford = city
+b_preston = temple
+b_sawley = city
+
+#b_furness = castle
+#b_gisburn = castle
+#b_clitheroe = castle
+
+# Misc
+culture = scouse
+religion = thelemic_reformed
+
+# History

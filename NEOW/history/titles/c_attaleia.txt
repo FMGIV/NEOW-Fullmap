@@ -1,0 +1,4 @@
+2552.1.10={
+	holder=2223
+	liege = k_anatolia
+}

@@ -1,0 +1,25 @@
+# 871 - Busaso
+
+# County Title
+title = c_busaso
+
+# Settlements
+max_settlements = 3
+
+b_busaso = castle
+
+b_karin_som = city
+#b_ufeyn = temple
+#b_garoowe_2 = castle
+#b_qardho = castle
+#b_dahan = city
+#b_samaysa_dheer = castle
+
+# Misc
+culture = somali
+religion = brethren
+#History#
+2553.6.2 = {#Buddhists from Sri-Lanka arrive among pirates and change their ways
+	b_ufeyn = temple
+	religion = theravada
+}

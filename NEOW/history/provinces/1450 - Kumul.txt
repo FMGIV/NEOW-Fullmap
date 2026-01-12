@@ -1,0 +1,18 @@
+# County Title
+title = c_kumul
+
+# Settlements
+max_settlements = 5
+
+b_kumul = castle
+b_yiwu = temple
+b_dahe = city
+#b_piqan = temple
+#b_yanghai =
+#b_toyuq =
+#b_nanhu_tarim =
+
+# Misc
+culture = hui
+religion = qingzhen
+

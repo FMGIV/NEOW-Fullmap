@@ -1,0 +1,12 @@
+# 1805 - Balanjar
+
+# County title 
+title = c_balanjar 
+
+# Settlements 
+max_settlements = 4
+b_balanjar = tribal
+
+# Misc
+culture = dargin
+religion = sunni

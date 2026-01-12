@@ -1,0 +1,175 @@
+1139.7.26={
+	holder=3593 # Afonso I de Borgonha
+	law = succ_primogeniture
+}
+1185.12.6={
+	holder=3594 # Sancho I de Borgonha
+}
+1212.3.26={
+	holder=3595 # Afonso II de Borgonha
+}
+1223.3.25={
+	holder=3596 # Sancho II de Borgonha
+}
+1248.1.3={
+	holder=3597 # Afonso III de Borgonha
+}
+1279.4.18={
+	holder=3598 # Dinis Afonses de Borgonha
+}
+1325.1.7={
+	holder=3599 # Afonso IV de Borgonha
+}
+1357.5.29={
+	holder=3600 # Peter I de Borgonha
+}
+1367.1.18={
+	holder=3601 # Ferdinand I de Borgonha
+}
+1383.10.22={
+	holder =3602 # Joao I d'Aviz
+}
+1433.8.14={
+	holder = 3603 # Duarte d'Aviz
+}
+1438.9.9={
+	holder = 3604 # Afonso V d'Aviz
+}
+1481.8.28={
+	holder = 3605 # Joao II d'Aviz
+}
+1495.10.25={
+	holder = 3607 # Manuel I d'Aviz
+}
+1521.12.13={
+	holder = 3608 # Joao III d'Aviz
+}
+1557.6.11={
+	holder = 3610 # Sebastiao I d'Aviz
+}
+1578.8.4={
+	holder = 3611 # Henrique I d'Aviz
+}
+1580.7.24={
+	holder = 3613 # Antonio I d'Aviz
+}
+1581.4.17={
+	holder = 880 # Felipe I Habsburg
+}
+1598.9.13={
+	holder = 881 # Felipe II Habsburg
+}
+1621.3.31={
+	holder = 882 # Felipe III Habsburg
+}
+1640.12.1={
+	holder = 3614 # Joao IV de Bragança
+}
+1656.11.6={
+	holder = 3615 # Afonso VI de Bragança
+}
+1683.9.12={
+	holder = 3616 # Peter II de Bragança
+}
+1706.12.9={
+	holder = 3617 # Joao V de Bragança
+}
+1750.7.31={
+	holder = 3618 # Jose I de Bragança
+}
+1777.2.24={
+	holder = 3619 # Maria I de Bragança
+}
+1816.3.20={
+	holder = 3620 # Joao VI de Bragança
+}
+1826.3.26={
+	holder = 3621 # Peter IV de Bragança
+}
+1826.5.28={
+	holder = 3622 # Maria II de Bragança
+}
+1828.2.26={
+	holder = 3623 # Miguel I de Bragança
+}
+1834.5.26={
+	holder = 3622 # Maria II de Bragança (yes, again)
+}
+1853.11.15={
+	holder = 3624 # Peter V de Bragança
+}
+1861.11.11={
+	holder = 3625 # Louis I de Bragança
+}
+1889.10.19={
+	holder = 3626 # Charles I de Bragança
+}
+1908.2.1={
+	holder = 3627 # Manuel II de Bragança, last historical king
+}
+1910.10.5={
+	holder = 0
+}
+2200.1.5={
+	holder = 3628 # Calixto I Avril
+}
+2209.4.3={
+	holder = 3629 # Thedore I Avril
+}
+2241.3.30={
+	holder = 3631 # Edward II Avril
+}
+2251.2.16={
+	holder = 3632 # Edward III Avril
+}
+2254.7.7={
+	holder = 3633 # Sancho III Avril
+}
+2281.2.18={
+	holder = 3634 # John VII Avril
+}
+2288.10.9={
+	holder = 3635 # Ferdinand II Avril
+}
+2290.5.24={
+	holder = 3636 # Carlinhos I Avril
+}
+2297.8.17={
+	holder = 3637 # Alexander I Avril
+}
+2328.6.14={
+	holder = 3638 # Peter VI Avril
+}
+2350.10.19={
+	holder = 3639 # Anita I Avril
+}
+2376.2.28={
+	holder = 3640 # Horace I Avril
+}
+2378.6.14={
+	holder = 3641 # Philip IV Avril
+}
+2399.11.5={
+	holder = 3642 # Horace II Avril
+}
+2427.4.4={
+	holder = 3643 # Dorothea I Avril
+}
+2459.10.7={
+	holder = 3644 # Sebastian II Avril
+}
+2464.11.9={
+	holder = 3645 # Ambrose I Avril
+}
+2478.1.20={
+	holder = 3646 # Sebastian III Avril
+}
+2491.6.5={
+	holder = 3647 # Sebastian IV Avril
+}
+2544.11.6={
+	holder = 3648 # Henrique II Avril
+}
+2548.1.2={
+	holder = 3649 # Vincent I Avril
+}

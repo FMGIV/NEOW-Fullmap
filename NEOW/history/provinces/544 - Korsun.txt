@@ -1,0 +1,28 @@
+# 544 - Korsun
+
+# County Title
+title = c_korsun
+
+# Settlements
+max_settlements = 4
+
+b_korsun = castle	#1032
+
+b_cherkassy = city	#1286
+
+#b_smila		#1542
+#b_chyhyryn		#1592
+#b_oleksandriia	#1746
+#b_kirovohrad	#1754
+#b_znamianka	#1869
+
+# Misc
+culture = ukrainer
+religion = orthodox
+
+#History
+1032.1.1 = {
+	b_korsun = tb_hillfort_1
+}
+
+

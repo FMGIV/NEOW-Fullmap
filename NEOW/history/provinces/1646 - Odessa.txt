@@ -1,0 +1,20 @@
+# 1646 - Odessa
+
+# County Title
+title = c_odessa
+
+# Settlements
+max_settlements = 6
+
+b_odessa = castle	#1794
+
+b_holovkivka = castle	#1792
+b_berezivka = temple	#1802
+b_petroverovka = castle
+b_rozdilna = city	#1863
+b_illichivsk = city
+#b_yuzhne		#modern
+
+# Misc
+culture = adessite
+religion = orthodox

@@ -1,0 +1,23 @@
+# 1640 - Chilia
+
+# County Title
+title = c_chilia
+
+# Settlements
+max_settlements = 3
+
+b_cetatea_alba = castle
+b_belgorod = city	
+b_chilia = temple
+
+#b_reni_ro = castle
+#b_cahul = castle
+#b_lisky = castle
+#b_palada = castle
+
+
+
+
+# Misc
+religion = easternprotestant
+culture = adessite

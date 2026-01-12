@@ -1,0 +1,4 @@
+2549.3.8={
+	holder=8637
+	liege=k_hyundai
+}

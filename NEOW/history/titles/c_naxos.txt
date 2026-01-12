@@ -1,0 +1,4 @@
+2519.3.8={
+	holder=2225
+	liege = k_cyprus_league
+}

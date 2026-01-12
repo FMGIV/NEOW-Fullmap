@@ -1,0 +1,4 @@
+2524.7.6={
+	holder=240 # Paco de Lucia
+	liege=k_andalusia
+}

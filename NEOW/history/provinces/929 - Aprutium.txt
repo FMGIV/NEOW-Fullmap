@@ -1,0 +1,23 @@
+# 929 - Aprutium
+
+# County Title
+title = c_aprutium
+
+# Settlements
+max_settlements = 4
+
+b_aquila = castle
+b_teramo = city
+b_paganica = temple
+
+#b_avezzano = castle
+#b_crecchio =city
+#b_atri = castle
+#b_aprutium_penne = castle
+
+
+# Misc
+culture = pugliese
+religion = catholic
+
+# History

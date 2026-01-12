@@ -1,0 +1,15 @@
+# 1979 - Minden
+
+# County Title
+title = c_minden
+
+# Settlements
+max_settlements = 3
+b_minden = castle
+b_hockeleve = temple
+
+# Misc
+culture = low_german
+religion = vagarna
+
+# History

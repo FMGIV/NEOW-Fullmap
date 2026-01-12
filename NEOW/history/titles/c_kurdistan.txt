@@ -1,0 +1,12 @@
+2490.12.12={
+	liege=k_kurdistan
+	holder=295
+}
+2499.3.11={
+	liege=k_kurdistan
+	holder=296
+}
+2540.5.17={
+	liege = k_kurdistan
+	holder=297
+}

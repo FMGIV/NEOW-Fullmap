@@ -1,0 +1,14 @@
+# 1795 - Talas 
+
+# County Title
+title = c_talas
+
+# Settlements
+max_settlements = 4
+b_taraz = castle
+b_shelji = city
+b_merke = temple
+
+# Misc
+religion = orthodox
+culture = koryo_saram

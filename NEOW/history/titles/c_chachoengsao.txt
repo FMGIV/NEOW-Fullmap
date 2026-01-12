@@ -1,0 +1,4 @@
+2550.6.9 = {
+		holder = 10768
+		liege = d_prachin
+	}

@@ -1,0 +1,19 @@
+# 179 - Almansa
+
+# County Title
+title = c_almansa
+
+# Settlements
+max_settlements = 4
+b_hellin = castle
+b_albacete = city
+b_almansa = temple
+#b_alcaladeljucar = castle
+#b_villarrobledo = city
+#b_pozocanada = castle
+#b_tobarra = castle
+#b_caudete = castle
+
+culture = andalusian
+religion = sevillian
+terrain = hills

@@ -1,0 +1,16 @@
+# 1237 - Rajrappa
+
+# County Title
+title = c_rajrappa
+
+# Settlements
+max_settlements = 4
+b_rajrappa = tribal # Jain Holy Site
+b_kenduli = temple
+
+# Misc
+culture = kurukh
+religion = sarna_pagan
+terrain = jungle
+
+# History

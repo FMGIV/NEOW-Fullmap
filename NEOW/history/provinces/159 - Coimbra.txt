@@ -1,0 +1,22 @@
+# 159 - Coimbra
+
+# County Title
+title = c_coimbra
+
+# Settlements
+max_settlements = 4
+b_coimbra = castle
+b_pedondo = city
+b_viseu = temple
+#b_aveiro = city
+#b_cantanhede = castle
+#b_condeixa = castle
+#b_montereal = castle
+#b_penela = city
+
+# Misc
+culture = portuguese
+religion = catholic
+terrain = tells
+
+# History

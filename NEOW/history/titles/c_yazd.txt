@@ -1,0 +1,4 @@
+2550.12.12={
+	holder=1311
+	liege = d_mafaza
+}

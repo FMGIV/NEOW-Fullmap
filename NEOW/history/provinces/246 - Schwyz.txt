@@ -1,0 +1,21 @@
+# 246 - Schwyz
+
+# County Title
+title = c_schwyz
+
+# Settlements
+max_settlements = 4
+
+b_altdorf = castle
+b_schwyz = city
+b_disentis = temple
+
+#b_schanis = temple
+#b_kussnacht = city
+
+# Misc
+culture = romansch
+religion = calvinist
+
+
+

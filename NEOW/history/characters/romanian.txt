@@ -1,0 +1,610 @@
+3775 ={
+    name="Stefan" 
+	dynasty=25554008
+	father=3781
+	religion="orthodox"
+	culture="wallachian"
+	diplomacy=9
+	martial=4
+	stewardship=7
+	intrigue=2
+	learning=1
+	trait="martial_cleric"
+	trait="history_26664027"
+	trait="lustful"
+	trait="cruel"
+	trait="diligent"
+	trait="just"		
+	2523.5.8={
+		birth=yes
+	}
+	2545.1.7={
+		add_spouse=3787
+	}
+	2545.2.1={
+		effect = { add_rival = 397 }
+		add_claim = k_ukraine
+		add_claim = k_moldova
+		add_claim = k_galichia
+		add_claim = e_transnistria
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3776 = {
+    name="Martin" 
+	dynasty=25554065
+	religion="orthodox"
+	culture="transylvanian"
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=3
+	learning=8
+	trait="flamboyant_schemer"
+	trait="cynical"
+	trait="greedy"
+	trait="humble"
+	trait="gregarious"		
+	2512.7.23={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3777 = {
+    name="Ghedeon" 
+	dynasty=25554066
+	religion="orthodox"
+	culture="moldavian"
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=3
+	learning=8
+	trait="tough_soldier"
+	trait="deceitful"
+	trait="slothful"
+	trait="greedy"
+	trait="proud"
+	trait="orthodox_andrian"
+	2525.4.22={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3778 = {
+    name="Vlad" 
+	dynasty=25553000 #Bramsto
+	religion="novelist"
+	culture="transylvanian"
+	diplomacy=10
+	martial=8
+	stewardship=2
+	intrigue=10
+	learning=5
+	trait="intricate_webweaver"
+	trait="impaler"
+	trait="brave"
+	trait="strong"
+	trait="proud"
+	trait="novelist_ingsoc"
+	father=3779
+	2530.7.20={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3779 = {
+    name="Vlad" 
+	dynasty=25553000 #Bramsto
+	religion="novelist"
+	culture="transylvanian"
+	trait="novelist_ingsoc"
+	father=3780
+	2478.7.20={
+		birth=yes
+	}
+	2538.6.19={
+		death=yes
+	}
+}
+
+3780 = {
+    name="Vlad"
+	dynasty=25553000 #Bramsto
+	religion="novelist"
+	culture="french"
+	trait = "adventurer"
+	trait = "impaler"
+	trait = "novelist_ingsoc"
+	trait = "cruel"
+	trait = "brave"
+	trait = "ambitious"
+	trait = "arbitrary"
+	2432.5.23={
+		birth=yes
+		create_bloodline = {
+			type = bramsto_bloodline
+			
+		}
+	}
+	2498.4.21={
+		death=yes
+	}
+}
+
+3781 = {
+	name="Petru"
+	father=3784
+	dynasty=25554008
+	religion="orthodox"
+	secret_religion="catholic"
+	culture="wallachian"
+	diplomacy=7
+	martial=5
+	stewardship=1
+	intrigue=4
+	learning=2
+	trait="charismatic_negotiator"
+	trait="deceitful"
+	trait="humble"
+	trait="chaste"
+	trait="gluttonous"
+	2491.7.1={
+		birth=yes
+	}
+	2540.6.18={
+		give_nickname=nick_the_confessor
+		death=yes
+	}
+}
+3782 = {
+	name="Latcu"
+	father=3784
+	dynasty=25554008
+	religion="orthodox"
+	secret_religion="catholic"
+	culture="wallachian"
+	diplomacy=2
+	martial=9
+	stewardship=5
+	intrigue=1
+	learning=6
+	trait="thrifty_clerk"
+	trait="strong"
+	trait="wroth"
+	trait="honest"
+	trait="stubborn"
+	2487.4.17={
+		birth=yes
+	}
+	2510.5.29={
+		add_spouse=3144
+	}
+	2521.10.22={
+		death={
+			death_reason = death_accident_bear
+		}
+	}
+}
+3783 = {
+	name="Paul"
+	dynasty=25554008
+	father=3782
+	mother=3144
+	religion="orthodox"
+	culture="wallachian"
+	diplomacy=3
+	martial=2
+	stewardship=7
+	intrigue=2
+	learning=4
+	trait="fortune_builder"
+	trait="content"
+	trait="lustful"
+	trait="zealous"
+	2521.12.3={
+		birth=yes
+		add_claim=k_romania
+		add_claim=d_wallachia
+		add_claim=c_tirgoviste
+		add_claim=c_craiova
+		add_claim=c_campulung
+	}
+	2552.1.16={
+		effect={
+			add_lover = 2681
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3784 = {
+	name="Ioan"
+	dynasty=25554008
+	father=3796
+	religion="catholic"
+	culture="wallachian"
+	diplomacy=3
+	martial=5
+	stewardship=4
+	intrigue=2
+	learning=7
+	trait="skilled_tactician"
+	trait="just"
+	trait="strong"
+	trait="cynical"
+	trait="proud"
+	2451.3.12={
+		birth=yes
+	}
+	2518.9.7={
+		death=yes
+	}
+}
+3785 = {
+	name="Narcisa"
+	dynasty=25554008
+	father=3782
+	mother=3144
+	female=yes
+	religion="catholic"
+	culture="wallachian"
+	diplomacy=5
+	martial=3
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait="naive_appeaser"
+	trait="slow"
+	trait="strong"
+	trait="temperate"
+	trait="gregarious"
+	trait="honest"
+	2519.1.30={
+		birth=yes
+		add_claim=k_romania
+		add_claim=d_wallachia
+	}
+	2542.2.10={
+		add_spouse=4117
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3786 = {
+	name="Felix"
+	father=3783
+	mother=2681
+	dynasty=25554008
+	religion="orthodox"
+	culture="wallachian"
+	diplomacy=2
+	martial=0
+	stewardship=2
+	intrigue=1
+	learning=0
+	trait="fair"
+	trait="bastard"
+	2553.8.17={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3787 ={
+    name="Ileana" 
+	dynasty=0
+	religion="orthodox"
+	female=yes
+	culture="wallachian"
+	diplomacy=2
+	martial=2
+	stewardship=0
+	intrigue=6
+	learning=3
+	trait="elusive_shadow"
+	trait="greedy"
+	trait="craven"
+	trait="cruel"	
+	2525.1.7={
+		birth=yes
+	}
+	2545.1.7={
+		add_spouse=3775
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3788 ={
+    name="Ramona" 
+	father=3775
+	mother=3787
+	dynasty=25554008
+	religion="orthodox"
+	female=yes
+	culture="wallachian"
+	diplomacy=4
+	martial=2
+	stewardship=1
+	intrigue=2
+	learning=1
+	trait="dwarf"
+	2550.2.19={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3789 = {
+	name="Flaviu"
+	father=3784
+	dynasty=25554008
+	religion="orthodox"
+	culture="wallachian"
+	diplomacy=0
+	martial=6
+	stewardship=0
+	intrigue=5
+	learning=2
+	trait="brilliant_strategist"
+	trait="possessed"
+	trait="gamer"
+	trait="rough_terrain_leader"
+	trait="charitable"
+	trait="shy"
+	trait="brave"
+	2499.11.3={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3790 = {
+	name="Iacob"
+	dynasty=25559411
+	religion="easternprotestant"
+	culture="transylvanian"
+	diplomacy=8
+	martial=7
+	stewardship=9
+	intrigue=4
+	learning=8
+	trait="content"
+	trait="diligent"
+	trait="erudite"
+	trait="brave"
+	2525.11.14={
+		birth=yes
+	}
+	2548.1.30={
+		add_spouse=3791
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3791 = {
+	name="Daniela"
+	female=yes
+	religion="easternprotestant"
+	culture="transylvanian"
+	trait="content"
+	trait="diligent"
+	trait="erudite"
+	trait="brave"
+	2527.9.3={
+		birth=yes
+	}
+	2548.1.30={
+		add_spouse=3790
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3792 = {
+	name="Barbat"
+	father=3790
+	mother=3791
+	dynasty=25559411
+	religion="easternprotestant"
+	culture="transylvanian"
+	2549.5.12={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3793 ={ 	
+    name="Victor"
+	father=3794
+	dynasty=25554055
+	religion="orthodox"
+	secret_religion="catholic"
+	culture="wallachian"
+	diplomacy=6
+	martial=2
+	stewardship=2
+	intrigue=7
+	learning=5
+	trait="intricate_webweaver"
+	trait="paranoid"
+	trait="patient"
+	trait="greedy"
+	2518.8.14={
+		birth=yes
+		add_claim=c_bihar
+	}
+	2538.6.19={
+		effect={
+			opinion = {
+				modifier = opinion_killed_father
+				who = 3778
+				years = 100
+			}
+			opinion = {
+				modifier = grievously_offended
+				who = 3778
+				years = 10
+			}
+			add_rival = 3778
+		}
+	}
+	2542.9.24={
+		effect = {
+			add_friend=2677
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3794={
+	name="Traian"
+	dynasty=25554055
+	religion="orthodox"
+	secret_religion="catholic"
+	culture="wallachian"
+	trait="thrifty_clerk"
+	trait="proud"
+	trait="kind"
+	2501.6.23={
+		birth=yes
+	}
+	2538.6.19={
+		death={
+			death_reason=death_execution_impaling
+			killer=3778
+		}
+	}
+}
+3795={
+	name="Smaranda"
+	father=3794
+	dynasty=25554055
+	religion="orthodox"
+	secret_religion="catholic"
+	culture="wallachian"
+	female=yes
+	trait="charismatic_negotiator"
+	trait="honest"
+	trait="stubborn"
+	2524.10.3={
+		birth=yes
+		add_claim=c_bihar
+	}
+	2538.6.19={
+		effect={
+			opinion = {
+				modifier = opinion_killed_father
+				who = 3778
+				years = 100
+			}
+			opinion = {
+				modifier = grievously_offended
+				who = 3778
+				years = 10
+			}
+			add_rival = 3778
+		}
+	}
+	2547.1.17={
+		add_spouse=2048
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3796 = {
+	name="Alexandru"
+	dynasty=25554008
+	father=3797
+	religion="orthodox"
+	culture="wallachian"
+	diplomacy=3
+	martial=5
+	stewardship=4
+	intrigue=2
+	learning=7
+	trait="brilliant_strategist"
+	trait="orthodox_andrian"
+	trait="wroth"
+	trait="strong"
+	trait="brave"
+	trait="ambitious"
+	trait="twin"
+	2430.9.2={
+		birth=yes
+	}
+	2475.1.3={
+		death=yes
+	}
+}
+3797 = {
+	name="Grigore"
+	dynasty=25554008
+	religion="orthodox"
+	culture="wallachian"
+	diplomacy=3
+	martial=5
+	stewardship=4
+	intrigue=2
+	learning=7
+	trait="brilliant_strategist"
+	trait="orthodox_andrian"
+	trait="wroth"
+	trait="strong"
+	trait="brave"
+	trait="ambitious"
+	2390.11.3={
+		birth=yes
+	}
+    2443.2.1={
+		death=yes
+	}
+}
+
+3798 = {
+	name="Emanuel"
+	dynasty=10009429
+	religion="easternprotestant"
+	culture="wallachian"
+	trait="charismatic_negotiator"
+	trait="brave"
+	trait="paranoid"
+	trait="stubborn"
+	trait="ambitious"
+	trait="chaste"
+	2420.2.2={
+		birth=yes
+	}
+	2463.7.13={
+		death={
+			death_reason=death_execution_impaling
+			killer=3780
+		}
+	}
+}

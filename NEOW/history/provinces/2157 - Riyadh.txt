@@ -1,0 +1,27 @@
+# 2157 - Riyadh
+
+# County Title
+title = c_riyadh
+
+# Settlements
+max_settlements = 5
+b_riyadh = castle
+b_banban = city
+b_dhurma = temple
+b_dirab = castle
+
+#b_ad_diriyah = castle
+#b_al_munsiyah = castle
+#b_as_sulay = castle
+#b_al_iskan = castle
+
+# Misc
+culture = bedouin_arabic
+religion = wahhabi
+terrain = tells
+
+# History
+1980.1.1 = {
+	build_wonder = wonder_riyadh_palaces
+	set_wonder_stage = 3
+}

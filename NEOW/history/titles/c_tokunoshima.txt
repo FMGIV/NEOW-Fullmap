@@ -1,0 +1,4 @@
+2528.9.20={
+	holder = 8190
+	law = succ_primogeniture
+}

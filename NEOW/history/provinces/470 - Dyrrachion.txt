@@ -1,0 +1,21 @@
+# 470 - Dyrrachion
+
+# County Title
+title = c_dyrrachion
+
+# Settlements
+max_settlements = 5
+b_tirana = castle
+b_elbasan = city
+b_kavaje = temple
+
+b_bilisht = castle
+#b_geziq = castle
+#b_beat = castle
+#b_petrela = castle
+
+# Misc
+culture = arberian
+religion = alevi
+
+# History

@@ -1,0 +1,137 @@
+3403 = { #Durin I, the first known Emperor of the Dwarves. Descended from the Gods above.
+	name="Durin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	trait="legendary"
+	trait="brilliant_strategist"
+	trait="dwarf"
+	trait="robust"
+	trait="holy_warrior"
+	trait="administrator"
+	trait="patient"
+	trait="ambitious"
+	trait="brave"
+	trait="just"
+	disallow_random_traits=yes
+	1.1.1 = {
+		birth=yes		
+	}
+	900.1.1 = {
+		death=yes
+	}
+}
+
+3404 = { #Durin II, the second known Emperor of the Dwarves. 
+	name="Durin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	father=3403
+	trait="legendary"
+	trait="dwarf"
+	400.1.1 = {
+		birth=yes		
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+
+3405 = { #Durin III, the third known Emperor of the Dwarves. 
+	name="Durin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	father=3404
+	trait="legendary"
+	trait="dwarf"
+	800.1.1 = {
+		birth=yes		
+	}
+	1500.1.1 = {
+		death=yes
+	}
+}
+
+3406 = { #Durin IV, the fourth known Emperor of the Dwarves. 
+	name="Durin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	father=3405
+	trait="legendary"
+	trait="dwarf"
+	1200.1.1 = {
+		birth=yes		
+	}
+	1690.1.1 = {
+		death=yes
+	}
+}
+
+3407 = { #Durin V, the fifth known Emperor of the Dwarves. 
+	name="Durin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	father=3406
+	trait="legendary"
+	trait="dwarf"
+	1500.1.1 = {
+		birth=yes		
+	}
+	1731.1.1 = {
+		death=yes
+	}
+}
+
+3408 = { #Durin VI, the sixth known Emperor of the Dwarves. 
+	name="Durin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	father=3407
+	trait="legendary"
+	trait="dwarf"
+	1700.1.1 = {
+		birth=yes		
+	}
+	1980.1.1 = {
+		death=yes
+	}
+}
+
+3409 = { #Náin, the seventh known Emperor of the Dwarves. 
+	name="Náin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	father=3408
+	trait="legendary"
+	trait="dwarf"
+	1800.1.1 = {
+		birth=yes		
+	}
+	1981.1.1 = {
+		death=yes
+	}
+}
+
+3410 = { #Thráin, the eigth and last known Emperor of the Dwarves. No definitive history exists for those after him. 
+	name="Thráin"
+	dynasty=3821128 # den Hithaeglir
+	religion="novelist"
+	culture="swiss"
+	father=3409
+	trait="legendary"
+	trait="dwarf"
+	1900.1.1 = {
+		birth=yes		
+	}
+	2190.1.1 = {
+		death=yes
+	}
+}
+
+#ID 2194 and beyond continue in the germanic.txt file

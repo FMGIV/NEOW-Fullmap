@@ -1,0 +1,22 @@
+# 505 - Belgrade
+
+# County Title
+title = c_belgrade
+
+# Settlements
+max_settlements = 5
+b_belgrade = castle
+b_zemun2 = city
+b_smederevo = temple
+
+b_obrenovac = castle
+#b_pozarevac = castle
+
+#b_branicevo = city
+#b_lipovic = castle
+#b_rudnik = castle
+
+# Misc
+culture = serbian
+religion = jugoslavist
+

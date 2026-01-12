@@ -1,0 +1,72 @@
+trans_siberian_trade_route = {
+wealth = 50			# Total base wealth of silk route
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 2113
+			province_id = 2086
+			province_id = 1462
+			province_id = 1873
+			province_id = 1861
+			province_id = 1878
+			province_id = 1848
+			province_id = 616
+			province_id = 595
+			province_id = 560
+			province_id = 1858
+			province_id = 886
+			province_id = 611
+			province_id = 584
+			province_id = 575 
+			province_id = 1676
+			province_id = 547
+			province_id = 1646
+		}
+	}
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		local_movement_speed = 0.4
+		disease_defence = -0.05
+		culture_flex = -0.2
+		religion_flex = -0.2
+		local_build_cost_modifier = -0.1
+		local_build_time_modifier = -0.1
+		tech_growth_modifier = 0.2
+		icon = 125
+	}
+
+	start = {				# Start provinces of trade route
+		#560 
+		#1646
+		2113
+	}
+	path = {	
+		2113 2112 3014 3015 3013 3011 2091 1460 1921 3019 2086 1903 1462 1901 1900 1463 1873 1329 1877 1861
+	}
+	path = {	
+		1861 1435 1878 
+	}
+	path = {	
+		1878 1868 1431 1186 1181 903
+	}
+	path = {	
+		1878 1430 1273 1869 1870 895 1848 2678 1849 616
+	}
+	path = {	
+		616 608 1814 595 594 596 563 557 558 559 560
+	}
+	path = {	
+		1861 1306 1864 893 891 1858 889 886 1719 1717 1716 611
+	}
+    path = {
+	    611 610
+	}
+	path = {	
+		611 614 590 584 582 1680 575 1677 587 1682 1666 1676 567 1675 555 547 1647 544 2572 1641 1646
+	}
+	
+}

@@ -1,0 +1,4 @@
+2520.6.19={
+	holder=3055
+	liege = e_padania
+}

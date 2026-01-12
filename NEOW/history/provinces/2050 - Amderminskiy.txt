@@ -1,0 +1,15 @@
+#
+
+# County Title
+title = c_amderminskiy
+
+# Settlements
+max_settlements = 2
+b_amderma = tribal
+b_chornaya = temple
+
+# Misc
+culture = samoyed
+religion = starist_pagan
+
+# History

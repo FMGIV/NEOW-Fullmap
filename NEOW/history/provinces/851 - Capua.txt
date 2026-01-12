@@ -1,0 +1,23 @@
+# 115 - Capua
+# Really it's Caserta now
+
+# County Title
+title = c_capua
+
+# Settlements
+max_settlements = 5
+b_caserta = castle
+b_acerra = city
+b_montecassino = temple 
+b_gaeta = city
+
+#b_teano = castle
+#b_aquino = temple
+#b_capua = castle
+#b_calvi = castle
+
+# Misc
+culture = neapolitan
+religion = catholic
+
+# History

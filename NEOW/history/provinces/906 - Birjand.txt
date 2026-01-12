@@ -1,0 +1,19 @@
+# 906 - Birjand
+
+# County Title
+title = c_birjand
+
+# Settlements
+max_settlements = 5
+b_bojd = tribal
+b_dastgerd = temple
+#b_shkrab = castle
+#b_khusf = city
+#b_feriz = 
+#b_khaj = 
+#b_bahlgerd =
+#b_khosfi =
+culture = persian
+religion = bahai
+
+# History

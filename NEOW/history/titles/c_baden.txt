@@ -1,0 +1,6 @@
+
+2543.8.21=
+{
+	holder = 2174
+	liege=k_alsace
+}

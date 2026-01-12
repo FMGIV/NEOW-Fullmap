@@ -1,0 +1,14 @@
+# 1909 - Khökh Serkh
+
+# County Title
+title = c_khokh_serkh
+
+# Settlements
+max_settlements = 2
+b_khokh_serkh = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

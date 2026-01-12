@@ -1,0 +1,20 @@
+# County Title
+title = c_raigad
+
+# Settlements
+max_settlements = 5
+
+b_alibag = castle
+b_pachad = city
+b_koturde = temple
+#b_padavi = temple
+#b_kumbhe = temple
+#b_karnavadi = temple
+#b_mandangad = temple
+
+# Misc
+
+culture = mumbaikar
+religion = sarvodaya
+
+2532.10.13 = { trade_post = b_angelapula }

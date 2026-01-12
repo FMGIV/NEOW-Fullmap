@@ -1,0 +1,24 @@
+1611.10.30={
+	holder = 4160 # Gustavus Adolphus
+}
+1626.12.18={
+	holder = 4161 # Christina
+}
+1654.6.6={
+	holder = 4162 # Charles Gustav
+}
+1660.2.13={
+	holder = 4163 # Charles
+}
+1697.4.5={
+	holder = 4164 # Charles Rex
+}
+1718.11.30={
+	holder = 4165 # Ulrika Eleonora
+}
+1720.3.24={
+	holder = 4166 # Frederick
+}
+1751.4.5={
+	holder = 0
+}

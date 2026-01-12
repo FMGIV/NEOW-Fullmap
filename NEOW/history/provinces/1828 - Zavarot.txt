@@ -1,0 +1,14 @@
+# 1828 - Zavarot
+
+# County Title
+title = c_zavarot
+
+# Settlements
+max_settlements = 2
+b_zavarot = tribal
+
+# Misc
+culture = samoyed
+religion = starist_pagan
+
+# History

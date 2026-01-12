@@ -1,0 +1,21 @@
+# 1710 - Ivrea
+
+# County title
+title = c_ivrea
+
+# Settlements
+max_settlements = 4
+b_ivrea = castle
+b_novara = city
+b_cossato = temple
+
+#b_biella = city
+#b_castellengo = castle
+#b_bard = castle
+#b_pont_saint_martin = castle
+
+# Misc
+culture = piemontese
+religion = catholic
+
+# History

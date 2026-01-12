@@ -1,0 +1,14 @@
+# 1863 - Vagay
+
+# County Title
+title = c_vagay 
+
+# Settlements
+max_settlements = 2
+b_vagay = tribal
+
+# Misc
+culture = wolgadeutsche
+religion = cosmist
+
+# History

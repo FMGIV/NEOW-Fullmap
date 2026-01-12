@@ -1,0 +1,14 @@
+# 
+
+# County Title
+title = c_knyazhpogostskiy
+
+# Settlements
+max_settlements = 2
+b_knyazhpogostskiy = tribal
+
+# Misc
+culture = komi
+religion = oldbeliever
+
+# History

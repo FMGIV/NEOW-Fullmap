@@ -1,0 +1,15 @@
+# 1837 - Severnaya
+
+# County Title
+title = c_severnaya
+
+# Settlements
+max_settlements = 2
+b_severnaya = tribal
+b_pokcha = temple
+# Misc
+culture = volgar
+religion = oldbeliever
+terrain = arctic
+
+# History

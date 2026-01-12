@@ -1,0 +1,20 @@
+# County Title
+title = c_gyantse
+
+# Settlements
+max_settlements = 5
+
+b_gyantse = castle
+b_palcho = temple
+b_bainang = city
+#b_kangmar = {
+#b_rinbung = {
+#b_yatung = {
+#b_karmai = {
+
+# Misc
+culture = u_tsang
+religion = gelugpa
+
+# History
+

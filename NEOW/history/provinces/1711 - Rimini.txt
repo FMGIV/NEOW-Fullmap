@@ -1,0 +1,16 @@
+# 1711 - Rimini
+
+# County title
+title = c_rimini
+
+# Settlements 
+max_settlements = 4
+b_rimini = castle
+b_pesaro = city
+b_fano = temple
+
+# Misc
+culture = sanmarinese
+religion = catholic
+
+# History

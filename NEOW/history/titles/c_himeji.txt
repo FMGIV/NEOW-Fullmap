@@ -1,0 +1,11 @@
+2525.11.14={
+	holder = 8151
+	law = succ_primogeniture
+}
+2528.7.14={
+	holder = 8147
+}
+2548.4.19={
+	holder = 8148
+	liege = k_kinki
+}

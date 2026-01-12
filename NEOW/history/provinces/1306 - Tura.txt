@@ -1,0 +1,21 @@
+# County Title
+title = c_tura
+
+# Settlements
+max_settlements = 2
+
+b_tura = tribal
+
+#b_almaty = city
+
+#b_bestobe
+#b_seletyteniz
+#b_teke
+#b_kishkenekol
+
+# Misc
+culture = sibiran
+religion = cosmist
+
+# History
+

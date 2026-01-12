@@ -1,0 +1,15 @@
+# 1694 - Pitten
+
+# County title
+title = c_pitten
+
+# Settlements
+max_settlements = 3
+b_pitten = castle
+b_fischau = temple
+
+# Misc
+culture = austrian
+religion = catholic
+
+# History

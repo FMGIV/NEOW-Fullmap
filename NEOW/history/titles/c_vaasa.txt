@@ -1,0 +1,4 @@
+2540.6.5={
+	holder = 1075
+	liege = d_ostrobothnia
+}

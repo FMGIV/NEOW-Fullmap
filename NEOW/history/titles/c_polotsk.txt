@@ -1,0 +1,5 @@
+
+2548.8.19={
+	holder = 3800
+	liege = d_pskov
+}

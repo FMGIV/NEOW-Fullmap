@@ -1,0 +1,6 @@
+
+2554.7.12=
+{
+	holder = 1998
+	liege = d_gojjam
+}

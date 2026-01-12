@@ -1,0 +1,22 @@
+# 38 - Teviotdale
+
+# County Title
+title = c_teviotdale
+
+# Settlements
+max_settlements = 4
+b_roxburgh = castle
+b_melrose = temple
+
+#b_jedburgh = castle
+#b_peebles = castle
+#b_kelso = castle
+#b_selkirk = castle
+#b_maxwell = castle
+#b_ednam = castle
+
+# Misc
+culture = oglallan
+religion = thelemic_reformed
+
+# History

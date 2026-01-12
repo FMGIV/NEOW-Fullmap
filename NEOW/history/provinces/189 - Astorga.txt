@@ -1,0 +1,20 @@
+# 189 - Astorga
+
+# County Title
+title = c_astorga
+
+# Settlements
+max_settlements = 5
+b_ponferrada = castle
+b_villablino = city
+b_astorga = temple
+#b_bembibre = castle
+#b_cacabelos = castle
+#b_camponaraya = castle
+#b_fabero = city
+#b_toreno = castle
+
+# Misc
+culture = asturian
+religion = sevillian
+

@@ -1,0 +1,16 @@
+# 1714 - Noli
+
+# County title
+title = c_noli
+
+# Settlements
+max_settlements = 4
+b_savona = castle
+b_sanremo = city
+b_noli = temple
+
+# Misc
+culture = piemontese
+religion = catholic
+
+# History

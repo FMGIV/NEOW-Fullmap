@@ -1,0 +1,37 @@
+# 541 - Peresechen	#Renamed to Soroca
+
+# County Title
+title = c_peresechen
+
+# Settlements
+max_settlements = 7
+b_soroca = tribal
+b_balti = tribal
+
+b_tuzara = castle
+b_falesti = temple
+#b_rautu = temple
+
+# Misc
+culture = moldavian
+religion = orthodox
+
+# History
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 6
+	build_wonder_upgrade = upgrade_cow_district_cathedral
+	build_wonder_upgrade = upgrade_cow_district_library
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+	build_wonder_upgrade = upgrade_cow_district_palace
+	build_wonder_upgrade = upgrade_cow_district_university
+}
+2158.10.6 = {
+	b_soroca = city
+	b_balti = city
+}
+2282.7.15 = {
+	b_soroca = castle
+	b_butuceni = temple
+	b_orhei = city
+}

@@ -1,0 +1,14 @@
+# 1164 - Chauragarh
+
+# County Title
+title = c_chauragarh
+
+# Settlements
+max_settlements = 2
+b_chauragarh = tribal
+#b_bohani = city
+#b_barman = temple
+
+# Misc
+culture = munda
+religion = sarna_pagan

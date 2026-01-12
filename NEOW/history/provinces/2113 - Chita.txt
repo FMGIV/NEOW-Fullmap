@@ -1,0 +1,23 @@
+# 2113 - Chita
+
+# County Title
+title = c_chita
+max_settlements = 5
+b_chita_mon = city
+b_atamanovka_mon = castle
+b_novokruch_mon = temple
+b_domna_mon = city
+b_smolenka_mon = city
+#b_zasopka_mon
+#b_makkaveevo_mon
+culture = novorusskiy
+religion = nousthreskeia
+
+
+# History
+
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 2
+	build_wonder_upgrade = upgrade_cow_district_fortress
+}

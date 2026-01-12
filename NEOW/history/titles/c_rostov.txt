@@ -1,0 +1,6 @@
+
+2548.8.5=
+{
+	holder = 1072
+	liege = d_vladimir
+}

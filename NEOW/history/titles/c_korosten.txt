@@ -1,0 +1,4 @@
+2554.4.12={
+	holder = 3267
+	liege = d_minsk
+}

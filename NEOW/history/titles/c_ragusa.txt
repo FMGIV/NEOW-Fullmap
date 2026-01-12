@@ -1,0 +1,5 @@
+
+2534.2.1={
+	holder=10001
+	liege=e_yugoslavia
+}

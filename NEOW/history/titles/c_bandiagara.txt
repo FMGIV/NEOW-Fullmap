@@ -1,0 +1,4 @@
+2545.12.2={
+	holder=3277
+	liege=d_timbuktu
+}

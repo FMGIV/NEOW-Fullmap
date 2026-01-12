@@ -1,0 +1,42 @@
+# 2504 - Rethymnon
+
+# County Title
+title = c_rethymnon
+
+# Settlements
+max_settlements = 3
+
+b_rethimno = castle
+b_gerani = city
+
+#b_spili = temple
+#b_lappa = castle
+#b_piakias = castle
+#b_syvritos = castle
+#b_akoumia = castle
+#b_sfakaki = castle
+
+# Misc
+culture = aigionoi
+religion = hellenic_pagan
+terrain = mountain
+
+# History
+2210.1.1 = { 
+	b_rethimno = ca_shipyard_1
+	b_rethimno = ca_wall_1
+	b_rethimno = ca_wall_q_1
+	b_rethimno = ca_keep_1
+}
+2211.1.1 = {
+	b_rethimno = ca_shipyard_2
+	b_rethimno = ca_wall_2
+	b_rethimno = ca_wall_q_2
+	b_rethimno = ca_keep_2
+}
+2212.1.1 = {
+	b_rethimno = ca_shipyard_3
+	b_rethimno = ca_wall_3
+	b_rethimno = ca_wall_q_3
+	b_rethimno = ca_keep_3
+}

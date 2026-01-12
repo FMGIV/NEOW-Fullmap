@@ -1,0 +1,42 @@
+# 496 - Constantinople #Former Byzantion
+
+# County Title
+title = c_byzantion
+
+# Settlements
+max_settlements = 7
+b_constantinople = castle
+b_pera = city
+b_hagiasophia = temple
+b_kosmidion = castle
+b_sisli = city
+b_glyka_nera = castle
+b_bakirkoy = city
+
+#b_kucukcekmece = castle
+
+# Misc
+culture = turkish
+religion = sunni
+terrain = tells
+
+# History
+
+
+
+537.1.1 = {
+	b_constantinople = ca_wall_1
+	b_constantinople = ca_wall_2
+	b_constantinople = ca_wall_3
+	b_constantinople = ca_wall_4
+	b_constantinople = ca_wall_5
+}
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 5
+	build_wonder_upgrade = upgrade_cow_district_mosque
+	build_wonder_upgrade = upgrade_cow_district_cathedral
+	build_wonder_upgrade = upgrade_cow_district_palace
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+}
+

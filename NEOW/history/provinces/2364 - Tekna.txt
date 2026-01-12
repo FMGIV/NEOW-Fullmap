@@ -1,0 +1,17 @@
+# 2364 - Tekna
+
+# County Title
+title = c_tekna
+
+# Settlements
+max_settlements = 3
+b_tekna = tribal
+
+#b_al_ujun = city
+#b_al_dchira = temple
+#b_dora_2 = castle
+#b_asmara1 = castle
+
+# Misc
+culture = hassaniya
+religion = muwahidunna

@@ -1,0 +1,15 @@
+# 1857 - Miass
+
+# County Title
+title = c_miass
+
+# Settlements
+max_settlements = 4
+b_miass = tribal
+
+# Misc
+culture = muscovite
+religion = zarist
+terrain = steppe
+
+# History

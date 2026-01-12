@@ -1,0 +1,32 @@
+# 833 - Atlas Mnt
+
+# County Title
+title = c_atlas_mnt
+
+# Settlements
+max_settlements = 3
+
+b_askedal = tribal
+#b_bordj = temple
+
+b_djelfa = city
+#b_elyourh = castle
+#b_selmana = castle
+#b_ainrich = castle
+#b_hassibenmadjeb = castle
+#b_ainzmila = castle
+
+# Misc
+culture = algerian
+religion = thawri
+
+# History
+2300.1.1 = { 
+	b_askedal =tb_defensive_fortifications_1
+	b_askedal =tb_defensive_fortifications_2
+	b_askedal =tb_defensive_fortifications_3
+	b_askedal =tb_defensive_fortifications_4
+	b_askedal =tb_hillfort_1
+	b_askedal =tb_hillfort_2
+	b_askedal =tb_hillfort_3
+}

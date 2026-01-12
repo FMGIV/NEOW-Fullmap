@@ -1,0 +1,33 @@
+870.1.1 = {
+holder = 3393 # Ardeeb	
+}
+945.1.1 = {
+holder = 3394 # Illsombreh	
+}
+980.1.1 = {
+holder = 3395 # John	
+}
+1000.1.1 = {
+holder = 3396 # Tisroc	
+}
+1030.1.1 = {
+holder = 3397 # Rabadash	
+}
+1100.1.1 = {
+holder = 3398 # Stephen	
+}
+1200.1.1 = {
+holder = 3399 # Matilda	
+}
+1250.1.1 = {
+holder = 3400 # Henry	
+}
+1300.1.1 = {
+holder = 3401 # Harold	
+}
+1350.1.1 = {
+holder = 3402 # Richard	
+}
+1400.1.1 = {
+holder = 0 #Kingdom destroyed	
+}

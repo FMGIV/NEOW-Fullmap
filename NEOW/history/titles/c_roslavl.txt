@@ -1,0 +1,5 @@
+
+2547.6.16={
+	holder = 3815
+	liege = d_chernigov
+}

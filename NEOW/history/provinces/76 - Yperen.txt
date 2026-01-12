@@ -1,0 +1,22 @@
+# 76 - Yperen
+
+# County Title
+title = c_yperen
+
+# Settlements
+max_settlements = 5
+b_cassel = castle
+b_dunkerque = city
+b_lille = temple
+b_roeselare = castle
+
+#b_diksmuide = castle
+#b_menen = castle
+#b_ypres = city
+#b_poperinge = city
+
+# Misc
+culture = belgian
+religion = novelist
+
+# History

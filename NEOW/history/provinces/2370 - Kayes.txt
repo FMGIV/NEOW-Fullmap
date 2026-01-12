@@ -1,0 +1,20 @@
+# 2370 - Kayes
+
+# County Title
+title = c_kayes
+
+# Settlements
+max_settlements = 4
+
+b_kayes = tribal
+b_bangassi = temple
+#b_sirimoulou = city
+
+#b_somankidi = city
+#b_kontela = temple
+#b_gakoura = castle
+#b_mouline = castle
+
+# Misc
+culture = soninke
+religion = wahhabi

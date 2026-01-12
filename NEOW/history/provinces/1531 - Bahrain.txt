@@ -1,0 +1,23 @@
+# 1531 - Bahrain
+
+# County Title
+title = c_bahrain
+
+# Settlements
+max_settlements = 4
+b_jaffair = castle
+b_manama = city
+b_muharraq = castle
+
+b_riffa = castle
+#b_sadad = castle
+#b_saar = castle
+#b_hamala = castle
+#b_zallaq = castle
+
+# Misc
+culture = amriqi
+religion = shiite
+terrain = tells
+
+# History

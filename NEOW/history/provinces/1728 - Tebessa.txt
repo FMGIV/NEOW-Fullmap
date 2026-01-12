@@ -1,0 +1,31 @@
+# 1728 - Tebessa
+
+# County Title
+title = c_tebessa
+
+# Settlements
+max_settlements = 3
+
+b_tebessa = tribal
+#b_baghaya = city
+
+#b_tala
+#b_maydara
+#b_maskiyana
+#b_kasserine
+#b_khenchela
+
+# Misc
+culture = tacawit
+religion = thawri
+
+# History
+2300.1.1 = { 
+	b_tebessa =tb_defensive_fortifications_1
+	b_tebessa =tb_defensive_fortifications_2
+	b_tebessa =tb_defensive_fortifications_3
+	b_tebessa =tb_defensive_fortifications_4
+	b_tebessa =tb_hillfort_1
+	b_tebessa =tb_hillfort_2
+	b_tebessa =tb_hillfort_3
+}

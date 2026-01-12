@@ -1,0 +1,24 @@
+# 893 - Sibir
+
+# County Title
+title = c_sibir
+
+# Settlements
+max_settlements = 3 # 
+b_sibir = tribal
+
+#b_surgut = temple
+#b_iberbolgar = city
+
+#b_belyyyar = castle
+#b_baduk = castle
+#b_kaik = castle
+#b_langepas = castle
+#b_pokachi = castle
+#b_vysokiy = castle
+
+# Misc
+culture = tatarian
+religion = jadidist
+
+# History

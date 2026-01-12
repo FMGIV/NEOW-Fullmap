@@ -1,0 +1,20 @@
+# 2211 - Bandar Beyla
+
+# County Title
+title = c_bandar_beyla
+
+# Settlements
+max_settlements = 3
+b_bandar_beyla = castle
+b_baba_raqiis = city
+#b_yake = temple
+
+#b_dangorayo = city
+#b_budunbuto = city
+#b_xidda = castle
+#b_rako_raaxo = castle
+#b_xiriiro = castle
+
+# Misc
+culture = somali
+religion = brethren

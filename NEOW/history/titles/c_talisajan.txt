@@ -1,0 +1,4 @@
+2549.6.4={
+	holder=4859
+	liege=k_zamboanga
+}

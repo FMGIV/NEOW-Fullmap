@@ -1,0 +1,4 @@
+2539.6.7={
+	holder=8606
+	liege=e_juche
+}

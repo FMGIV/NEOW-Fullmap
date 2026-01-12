@@ -1,0 +1,4 @@
+2544.1.1={
+	holder=4101 #Amadu
+	liege=d_tambacounda
+}

@@ -1,0 +1,21 @@
+# 244 - Bern
+
+# County Title
+title = c_bern
+
+# Settlements
+max_settlements = 4
+b_unterseen = castle
+b_bern = city
+b_thun = temple
+b_luzern = castle
+
+#b_biel = castle
+#b_sursee = castle
+
+# Misc
+culture = swiss
+religion = calvinist
+terrain = mountain
+
+# History

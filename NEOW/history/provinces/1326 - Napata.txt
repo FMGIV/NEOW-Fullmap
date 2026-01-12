@@ -1,0 +1,23 @@
+# 1326 - Napata
+
+# County Title
+title = c_napata
+
+# Settlements
+max_settlements = 5
+
+b_karima = castle
+b_marawi = city
+b_ghazali = temple
+#b_kanisah = castle
+#b_korti = city
+#b_keheilli = temple
+#b_al_dabbah = castle
+
+
+
+# Misc
+culture = sudanese
+religion = wahhabi
+
+# History

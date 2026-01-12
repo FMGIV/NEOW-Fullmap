@@ -1,0 +1,7 @@
+
+2536.4.19=
+{
+	holder = 204
+	historical_nomad = yes
+}
+

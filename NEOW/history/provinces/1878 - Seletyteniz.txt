@@ -1,0 +1,12 @@
+# 1878 - Seletyteniz
+
+# County Title
+title = c_seletyteniz
+
+# Settlements
+max_settlements = 6
+b_seletyteniz = tribal
+
+# Misc
+culture = alagol
+religion = ironist

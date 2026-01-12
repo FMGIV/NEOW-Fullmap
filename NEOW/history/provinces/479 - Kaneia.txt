@@ -1,0 +1,43 @@
+# 479 - Kaneia
+
+# County Title
+title = c_kaneia
+
+# Settlements
+max_settlements = 3
+
+b_kandia = castle
+b_stavros = city
+
+#b_matala = temple
+#b_kastellikissamos = castle
+#b_paleohora = castle
+#b_nikiforosfokas = castle
+#b_akrotin = castle
+#b_arkadi = castle
+
+# Misc
+culture = aigionoi
+religion = hellenic_pagan
+terrain = mountain
+
+# History
+2210.1.1 = { 
+	b_kandia = ca_shipyard_1
+	b_kandia = ca_wall_1
+	b_kandia = ca_wall_q_1
+	b_kandia = ca_keep_1
+}
+2211.1.1 = {
+	b_kandia = ca_shipyard_2
+	b_kandia = ca_wall_2
+	b_kandia = ca_wall_q_2
+	b_kandia = ca_keep_2
+}
+2212.1.1 = {
+	b_kandia = ca_shipyard_3
+	b_kandia = ca_wall_3
+	b_kandia = ca_wall_q_3
+	b_kandia = ca_keep_3
+}
+

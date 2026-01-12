@@ -1,0 +1,22 @@
+# 345 - Lecce
+
+# County Title
+title = c_lecce
+
+# Settlements
+max_settlements = 6
+b_lecce = castle
+b_brindisi = city
+b_otranto = temple
+b_castro = city
+
+#b_ligento = castle
+#b_andrano = castle
+#b_oria = city
+
+# Misc
+culture = griko
+religion = orthodox
+terrain = hills
+
+# History

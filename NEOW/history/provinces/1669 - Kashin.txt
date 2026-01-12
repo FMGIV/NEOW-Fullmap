@@ -1,0 +1,27 @@
+# 1669 - Kashin
+
+# County Title
+title = c_kashin
+
+# Settlements
+max_settlements = 4
+
+b_kashin = tribal	#1238
+
+#b_kaliazin	#1434
+#b_kimry	#1546
+#b_likhoslavl
+#b_kesova_gora
+#b_goritsy
+#b_ustinovo
+
+
+#Misc
+culture = pietrovan
+religion = zarist
+
+# History
+1200.1.1 = {
+	b_kashin = castle
+	b_kimry = city
+}

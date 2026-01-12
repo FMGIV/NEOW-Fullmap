@@ -1,0 +1,26 @@
+# 560 - Cherson
+
+# County Title
+title = c_cherson
+
+# Settlements
+max_settlements = 5
+
+b_kherson = city
+b_bakhchisaray = castle
+b_doros = temple
+
+#b_kerkinitis = city
+#b_cembalo = castle
+#b_charax = castle
+#b_sevastoupolis = castle
+#b_kalamita = castle
+
+# Misc
+culture = crimean
+religion = orthodox
+
+
+#History
+
+2532.10.13 = { trade_post = b_akhmetov }

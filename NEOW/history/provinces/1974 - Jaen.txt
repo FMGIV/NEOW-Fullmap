@@ -1,0 +1,15 @@
+# 1974 - Jaen
+
+# County Title
+title = c_jaen
+
+# Settlements
+max_settlements = 4
+b_jaen = castle
+b_andujar = temple
+b_quesada = city
+
+culture = andalusian
+religion = sevillian
+
+# History

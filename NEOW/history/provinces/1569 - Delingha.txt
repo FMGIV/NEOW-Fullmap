@@ -1,0 +1,19 @@
+# County Title
+title = c_delingha
+
+# Settlements
+max_settlements = 2
+
+b_delingha = castle
+#b_xuji = city
+#b_haixi = temple
+#b_hedong = city
+#b_hexi1 = castle
+#b_keluke = {
+#b_gahai = {
+
+# Misc
+culture = lan_yin
+religion = mahayana
+
+

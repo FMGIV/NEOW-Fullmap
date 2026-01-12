@@ -1,0 +1,20 @@
+# County Title
+title = c_xainza
+
+# Settlements
+max_settlements = 2
+
+b_xainza = tribal
+#b_baingoin = 
+#b_siling = {
+#b_maryo = {
+#b_zhago = {
+#b_pukpa = {
+#b_jakhyung = {
+
+# Misc
+culture = kham
+religion = gelugpa
+
+# History
+

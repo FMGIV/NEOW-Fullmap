@@ -1,0 +1,12 @@
+# 1799 - Qayaliq
+
+# County title
+title = c_qayaliq
+
+# Settlements
+max_settlements = 3
+b_qayaliq = castle
+
+# Misc
+culture = alagol
+religion = ironist

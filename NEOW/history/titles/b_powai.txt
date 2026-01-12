@@ -1,0 +1,7 @@
+2494.5.26={
+	holder=2852 #Valerios, distant relative of Laskandar
+	liege = k_mumbai
+}
+2503.1.1={
+	holder=0
+}

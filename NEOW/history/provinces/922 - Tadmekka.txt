@@ -1,0 +1,17 @@
+# 922 - Tadmekka
+
+# County Title
+title = c_tadmekka
+
+# Settlements
+max_settlements = 2
+b_tadmekka = tribal
+
+#b_essako = castle
+#b_kidal = castle
+
+# Misc
+culture = tuareg
+religion = muwahidunna
+
+# History

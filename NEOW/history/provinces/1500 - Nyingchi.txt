@@ -1,0 +1,19 @@
+# County Title
+title = c_nyingchi
+
+# Settlements
+max_settlements = 5
+
+b_nyingchi = castle
+b_drakchi = city
+b_lamaling = temple
+#b_buchasergyi_lakang = { #temple
+#b_beba = {
+#b_gongbogyamda = {
+#b_pagsum = {
+
+# Misc
+culture = sinoshan
+religion = xinjiao
+
+# History

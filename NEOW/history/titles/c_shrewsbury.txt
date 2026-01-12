@@ -1,0 +1,8 @@
+2520.10.2={
+	holder = 747 # Count George Joestar
+	liege = d_hereford
+}
+2550.7.17={
+	holder = 674 # Count Jonathan Joestar
+	liege = d_hereford
+}

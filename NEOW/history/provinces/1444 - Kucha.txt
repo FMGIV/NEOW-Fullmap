@@ -1,0 +1,17 @@
+# County Title
+title = c_kucha
+
+# Settlements
+max_settlements = 5
+
+b_kucha = castle
+#b_xayar =
+#b_bay =
+#b_toqsu =
+b_kizil = temple
+#b_subashi = castle
+#b_kumtura = temple
+
+# Misc
+culture = uyghur
+religion = ovlatii

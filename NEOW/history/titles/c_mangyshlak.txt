@@ -1,0 +1,7 @@
+
+2554.4.18=
+{
+	holder = 1175	
+	historical_nomad = yes
+}
+

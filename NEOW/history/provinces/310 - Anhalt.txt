@@ -1,0 +1,20 @@
+# 310 - Anhalt
+
+# County Title
+title = c_anhalt
+
+# Settlements
+max_settlements = 5
+b_zerbst = castle
+b_dessau = temple
+b_lindau_zeist = city
+#b_walter-nienburg = 
+#b_dornburg_zeist = 
+#b_coswig = 
+#b_wittenberg_zeist
+
+# Misc
+culture = brandenburger
+religion = lutheran
+
+# History

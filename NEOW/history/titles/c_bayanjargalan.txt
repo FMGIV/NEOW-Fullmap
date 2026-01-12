@@ -1,0 +1,5 @@
+2542.12.6={
+	holder=4715
+	historical_nomad = yes
+	liege=d_kara_khorum
+}

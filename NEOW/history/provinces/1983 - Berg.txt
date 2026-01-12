@@ -1,0 +1,16 @@
+# 1983 - Berg
+
+# County Title
+title = c_berg
+
+# Settlements
+max_settlements = 4
+b_werth = castle
+b_berg = temple
+b_dusseldorf = city
+
+# Misc
+culture = turkisch
+religion = concordianist
+
+# History

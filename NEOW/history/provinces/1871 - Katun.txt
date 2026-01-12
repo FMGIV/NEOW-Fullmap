@@ -1,0 +1,14 @@
+# 1871 - Katun 
+
+# County Title
+title = c_katun
+
+# Settlements
+max_settlements = 4
+b_katun = tribal
+
+# Misc
+culture = altai 
+religion = akjang
+
+terrain = steppe

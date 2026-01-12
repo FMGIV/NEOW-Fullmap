@@ -1,0 +1,16 @@
+# 1691 - Pettau 
+
+# County title
+title = c_pettau
+
+# Max settlements 
+max_settlements = 4
+b_maribor = castle
+b_ptuj = city
+b_ljutomer = temple
+
+# Misc
+culture = slovenian
+religion = catholic
+
+# History

@@ -1,0 +1,24 @@
+# 249 - Ravensburg
+
+# County Title
+title = c_ravensburg
+
+# Settlements
+max_settlements = 5
+b_tubingen = tribal
+#b_heiligenberg = city
+b_konstanz = temple
+
+#b_uberlingen = castle
+#b_hohenberg = castle
+#b_friedrichshafen = castle
+#b_wangen = castle
+#b_lindau = castle
+
+# Misc
+culture = aleman
+religion = gnostic
+
+# History
+
+

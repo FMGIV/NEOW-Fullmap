@@ -1,0 +1,31 @@
+2300.4.12={
+	holder = 2965 # King Harold Colbrugha
+	liege = k_ireland
+}
+2320.4.13={
+	holder =2983 # Gabriel Colbrugha
+}
+2362.7.12={
+	holder =2984 # Niall Colbrugha
+}
+2390.10.4={
+	holder =2985 # Quentin Colbrugha
+}
+2406.11.3={
+	holder =2986 # Braedy Colbrugha
+}
+2451.2.23={
+	holder =2987 # Tadgh Colbrugha
+}
+2492.3.12={
+	holder =2988 # Jack Colbrugha
+}
+2504.6.13={
+	holder =2989 # Odhran Colbrugha
+}
+2512.8.29={
+	holder =2990 # Bran Colbrugha
+}
+2538.5.19={
+	holder = 2935 # Michael Colbrugha
+}

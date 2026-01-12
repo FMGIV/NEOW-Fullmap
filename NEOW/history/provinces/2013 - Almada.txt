@@ -1,0 +1,21 @@
+# 2013 - Almada
+
+# County Title
+title = c_almada
+
+# Settlements
+max_settlements = 5
+b_alcochete = castle
+b_almada = temple
+b_setubalreal = city
+#b_palmela = city
+#b_moita = castle
+#b_sesimbra = temple
+#b_pegoes = castle
+#b_montijo = city
+
+# Misc
+culture = atlantic_gael
+religion = catholic
+
+# History

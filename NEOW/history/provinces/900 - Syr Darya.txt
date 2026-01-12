@@ -1,0 +1,21 @@
+# 900 - Syr Darya
+
+# County Title
+title = c_syr_darya
+
+# Settlements
+max_settlements = 4
+b_kyzylorda = tribal
+b_syganak = temple # Tengri Holy Site
+
+#b_kazaly = city
+
+#b_terenuzyak = castle
+#b_dzhanadzhol = castle
+#b_akmechet = castle
+#b_zhalagash = castle
+#b_sarytogay = city
+
+# Misc
+culture = soitoskan
+religion = ironist

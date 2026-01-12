@@ -1,0 +1,851 @@
+e_caucasia = {
+	color={ 235 225 20 }
+	color2={ 255 255 20 }
+	
+	capital = 679 # Kartli
+	
+	culture = georgian
+	has_top_de_jure_capital = yes
+	allow = {
+		doesnt_holds_special_empire = yes
+	}
+	k_armenia = {
+		color={ 242 168 0 }
+		color2={ 255 255 255 }
+		
+		capital = 672 #	Yerevan
+		
+		culture = armenian
+		
+		armenian = "Hayastan"
+		hemshin = "Hayastan"
+		armyan = "Hayastan"
+		turkish = "Ermenistan"
+		elbistanli = "Ermenistan"
+		rumeli = "Ermenistan"
+		egeli = "Ermenistan"
+		kapadokyali = "Ermenistan"
+		karadenizci = "Ermenistan"
+		turk = "Ermenistan"
+		
+		orthodox = 300 # Crusade target weight
+		sunni = 300 # Crusade target weight
+		ibadi = 200 # Crusade target weight
+		wahhabi = 400 # Crusade target weight
+		mesopotamian = 700 # Crusade target weight
+		zoroastrian_group = 300 # Crusade target weight
+		jugoslavist = 500
+		ovlatii = 100 # Crusade target weight
+		marblists = 600 # Marblist Crusade target weight
+		fraticelli = 150 # Crusade target weight
+		
+		# Creation/usurpation trigger
+		d_west_armenia = {
+			color={ 229 191 0 }
+			color2={ 255 255 255 }
+			
+			capital = 681 # Yerevan
+			
+			c_ani = {
+				color={ 255 212 0 }
+				color2={ 255 255 255 }
+				
+				turkish = "Kars"
+				elbistanli = "Kars"
+				rumeli = "Kars"
+				egeli = "Kars"
+				kapadokyali = "Kars"
+				karadenizci = "Kars"
+				turk = "Kars"
+				
+				b_midjnaberd = {
+				}
+				b_ani = {
+				}
+				b_surpasdvadzadzin = {
+				}
+				b_karutsberd = {
+				}
+				b_karuts = {
+				}
+				b_artashat = {
+				}
+				b_oshakan  = {
+				}
+				b_zvartnots = {
+				}
+			}
+			c_tao = {
+				color={ 204 170 0 }
+				color2={ 255 255 255 }
+				
+				turkish = "Ahiska"
+				elbistanli = "Ahiska"
+				rumeli = "Ahiska"
+				egeli = "Ahiska"
+				kapadokyali = "Ahiska"
+				karadenizci = "Ahiska"
+				turk = "Ahiska"
+				
+				b_panaskerti = {}
+				b_khakhuli = {}
+				b_akhaltsikhe = {}
+				b_oshki = {}
+				b_tortomi = {}
+				b_mamrovani = {}
+				b_bana = {}
+			}
+		}
+		d_van = {
+			color={ 204 142 0 }
+			color2={ 255 255 255 }
+			
+			capital = 682 # Vaspurakan/Van
+			
+			c_vaspurakan = {
+				color={ 229 160 0 }
+				color2={ 255 255 255 }
+				
+				holy_site = yersenism
+				
+				turkish = "Van"
+				elbistanli = "Van"
+				rumeli = "Van"
+				egeli = "Van"
+				kapadokyali = "Van"
+				karadenizci = "Van"
+				turk = "Van"
+				kurdish = "Wan"
+				
+				b_haykaberd = {
+				}
+				b_van = {
+				}
+				b_surbkhach = {
+				}
+				b_vostan = {
+				}
+				b_varagavank = {
+				}
+				b_aghtamar = {
+				}
+				b_bakear = {
+				}
+				b_hadamakert = {
+				}
+			}
+			c_agri = {
+				color={ 200 120 0 }
+				color2={ 255 255 255 }
+			
+				b_agri = {}
+				b_malazgirt = {}
+				b_dogubeyazit = {}
+				b_igdir = {}
+				b_tutak = {}
+				b_diyadin = {}
+				b_karayazi = {}
+			}
+			c_bitlis = {
+				color={ 168 101 0 }
+				color2={ 255 255 255 }
+			
+				b_bitlis = {}
+				b_ahlat = {}
+				b_tatvan = {}
+				b_bulanik = {}
+				b_haskoy = {}
+				b_mus1 = {}
+				b_varto = {}
+			}
+			c_ararat = {
+				color={ 178 124 0 }
+				color2={ 255 255 255 }
+				
+				b_maku = {}
+				b_shut = {}
+				b_maleklu = {}
+				b_yolagaldi = {}
+				b_aliabad = {}
+				b_rend = {}
+				b_hasan = {}
+			}
+		}
+		d_armenia = {
+			color={ 229 114 0 }
+			color2={ 255 255 255 }
+			
+			capital = 672 # Yerevan
+			
+			c_dwin = {
+				color={ 255 127 0 }
+				color2={ 255 255 255 }
+				
+				turkish = "Erivan"
+				elbistanli = "Erivan"
+				rumeli = "Erivan"
+				egeli = "Erivan"
+				kapadokyali = "Erivan"
+				karadenizci = "Erivan"
+				turk = "Erivan"
+				
+				holy_site = armenianapostolic
+				
+				b_dvin = {
+				}
+				b_etchmiadzin = {
+				}
+				b_erebuni = {
+				}
+				b_alaverdi = {
+				}
+				b_khorvirap = {
+				}
+				b_matsnaberd = {
+				}
+				b_tumanyan = {
+				}
+			}
+			c_gegharkhunik = {
+				color={ 224 122 0 }
+				color2={ 255 255 255 }
+			
+				b_sevan = {}
+				b_martuni = {}
+				b_vardenis = {}
+				b_gavar = {}
+				b_yeranos = {}
+				b_sarukhan = {}
+				b_chambarak = {}
+			}
+			c_lori = {
+				color={ 204 102 0 }
+				color2={ 255 255 255 }
+			
+				b_lori_berd = {}
+				b_dzegh = {}
+				b_dmanis = {}
+				b_agarak = {}
+				b_hovk = {}
+				b_sanahin = {}
+				b_erkan = {}
+			}
+			c_azerbaijan = {
+				color={ 255 146 38 }
+				color2={ 255 255 255 }
+				
+				roman = "Hyrcania"
+				armenian = "Art'sakh"
+				greek = "Hyrcania"
+					livanezoi="Hyrcania"
+					aigyptoi="Hyrcania"
+				makedonas = "Hyrcania"
+				aigionoi = "Hyrcania"
+				rodiaki = "Hyrcania"
+				cypriote = "Hyrcania"
+				griko = "Hyrcania"
+				pontian = "Hyrcania"
+				rumca = "Hyrcania"
+				atlantian = "Hyrcania"
+				macedonian = "Hyrcania"
+				grekter = "Hyrcania" 
+				arvanitika = "Hyrcania"
+				tsakonian = "Hyrcania"
+				yoonaanee = "Hyrcania"
+				alan = "Hyrcania"
+				georgian = "Hyrcania"
+				assyrian = "Hyrcania"
+				
+				b_urmiah = {
+				}
+				b_kapalak = {
+				}
+				b_takhtesuleiman = {
+				}
+				b_bastam = {
+				}
+				b_kalaberd = {
+				}
+				b_chaldoran = {
+				}
+				b_deglane = {
+				}
+			}
+			c_nakhchivan = {
+				color={ 189 69 0 }
+				color2={ 255 255 255 }
+			
+				b_nakhchivan = {}
+				b_nehram = {}
+				b_qivraq = {}
+				b_babak1 = {}
+				b_shahbuz = {}
+				b_sadarak = {}
+				b_sharur = {}
+			}
+			c_suenik = {
+				color={ 178 89 0 }
+				color2={ 255 255 255 }
+				
+				turkish = "Kafan"
+				elbistanli = "Kafan"
+				rumeli = "Kafan"
+				egeli = "Kafan"
+				kapadokyali = "Kafan"
+				karadenizci = "Kafan"
+				persian = "Kafan"
+				azerbaijani = "Kafan"
+				turk = "Kafan"
+				armenian = "Syunik"
+				holy_site = armenianapostolic
+				b_ghapan = {
+				}
+				b_areni = {
+				}
+				b_noravank = {
+				}
+				b_vorotnavank = {
+				}
+				b_tatev = {
+				}
+				b_prochabert = {
+				}
+				b_gandzassar = {
+				}
+				b_goris = {
+				}
+			}
+		}
+	}
+	k_georgia = {
+		color={ 153 30 61 }
+		color2={ 255 255 255 }
+		
+		capital = 679 # Kartli
+		
+		culture = georgian
+		
+		georgian = "Sakartvelo"
+		mingrelian = "Sakortuo"
+		abkhazian = "Sakartvelo"
+		svan = "Sakartvelo"
+		turkish = "Gürcistan"
+		elbistanli = "Gürcistan"
+		rumeli = "Gürcistan"
+		egeli = "Gürcistan"
+		kapadokyali = "Gürcistan"
+		karadenizci = "Gürcistan"
+		turk = "Gürcistan"
+		
+		orthodox = 200 # Crusade target weight
+		zoroastrian_group = 200 # Crusade target weight
+		marblists = 600 # Marblist Crusade target weight
+		ibadi = 100 # Crusade target weight
+		stalinist = 300 # Crusade target weight
+		jugoslavist = 200
+		
+		d_kartli = {
+			color={ 228 0 25 }
+			color2={ 255 255 255 }
+			
+			capital = 679 # Kartli
+			
+			c_kartli = {
+				color={ 228 0 25 }
+				color2={ 255 255 255 }
+				
+				b_narikala = {}
+				b_tbilisi = {}
+				b_svetitskhoveli = {}
+				b_dmanisi = {}
+				b_tmoghvi = {}
+				b_akhalkalaki = {}
+				b_bolnisi = {}
+			}
+			c_kakheti = {
+				color={ 0 185 228 }
+				color2={ 255 255 255 }
+				
+				b_zedazaden = {
+				}
+				b_telavi = {
+				}
+				b_sighnaghi = {
+				}
+				b_dzveligalavani = {
+				}
+				b_bochorma = {
+				}
+				b_davidgareja = {
+				}
+				b_gremi = {
+				}
+				b_bodbe = {
+				}
+			}
+			c_mtskheta = {
+				color={ 228 10 25 }
+				color2={ 255 255 255 }
+				
+				holy_site = stalinist
+				
+				b_mtskheta = {}
+				b_sioni = {}
+				b_djvari = {}
+				b_gori = {} 
+				b_bebristsikhe = {}
+				b_urbnisi = {}
+				b_samtavisi = {}
+			}
+			
+		}
+		d_tao = {
+			color={ 235 0 40 }
+			color2={ 255 255 255 }
+
+			capital = 601 # Tao
+
+			c_imeretia = {
+				color={ 222 4 25 }
+				color2={ 255 255 255 }
+				
+				b_geguti = {
+				}
+				b_kutaisi = {
+				}
+				b_bagrati = {
+				}
+				b_tsikhegoji = {
+				}
+				b_khoni = {
+				}
+				b_ghelati = {
+				}
+				b_zestafoni = {
+				}
+				b_motsameta = {
+				}
+			}
+			c_svaneti = {
+				color={ 255 6 20 }
+				color2={ 255 255 255 }
+			
+				b_mestia = {}
+				b_lentekhi = {}
+				b_shovi = {}
+				b_oni_geo = {}
+				b_tsageri = {}
+				b_ushguli = {}
+				b_adishi = {}
+			}
+			c_guria = {
+				color={ 235 5 10 }
+				color2={ 255 255 255 }
+				
+				greek = "Lazike"
+					livanezoi="Lazike"
+					aigyptoi="Lazike"
+				makedonas = "Lazike"
+				aigionoi = "Lazike"
+				rodiaki = "Lazike"
+				cypriote = "Lazike"
+				griko = "Lazike"
+				pontian = "Lazike"
+				rumca = "Lazike"
+				atlantian = "Lazike"
+				grekter = "Lazike"
+				arvanitika = "Lazike"
+				tsakonian = "Lazike"
+				yoonaanee = "Lazike"
+				turkish = "Batum"
+				elbistanli = "Batum"
+				rumeli = "Batum"
+				egeli = "Batum"
+				kapadokyali = "Batum"
+				karadenizci = "Batum"
+				turk = "Batum"
+				armenian = "Yeger"
+				
+				b_bukistsikhe = {
+				}
+				b_batum = {
+				}
+				b_udabno = {
+				}
+				b_gonio = {
+				}
+				b_ozurgeti = {
+				}
+				b_skhalta = {
+				}
+				b_tsikhisdziri = {
+				}
+				b_khula = {
+				}
+			}
+			c_klarjeti = {
+				color={ 225 0 10 }
+				color2={ 255 255 255 }
+
+				b_artanuji = {}
+				b_klarjeti = {}
+				b_khertvisi = {}
+				b_tseptha = {}
+				b_ancha = {}
+				b_tbeti = {}
+				b_artaani = {}
+			}
+		}
+		d_abkhazia = {
+			color={ 205 26 18 }
+			color2={ 255 255 255 }
+			
+			capital = 600 # Abkhazia
+			
+			c_abkhazia = {
+				color={ 235 0 18 }
+				color2={ 255 255 255 }
+				
+				b_abaatha = {
+				}
+				b_tskhoumi = {
+				}
+				b_pitsunda = {
+				}
+				b_anakopia = {
+				}
+				b_gagra = {
+				}
+				b_bzyb = {
+				}
+				b_zugdidi = {
+				}
+			}
+			c_egrisi = {
+				color={ 250 25 10 }
+				color2={ 255 255 255 }
+
+				b_egrisi = {}
+				b_mokvi = {}
+				b_khobi = {}
+				b_buchlus = {}
+				b_phasis = {}
+				b_bedia = {}
+				b_nesos = {}
+			}
+		}
+	}
+	k_azerbaijan = {
+		color={ 58 181 234 }
+		color2={ 255 255 255 }
+		
+		capital = 923 # Baku
+		
+		culture = azerbaijani
+		
+		roman = "Hyrcania"
+		azerbaijani = "Azärbaycan"
+		armenian = "Gharabagh"
+		greek = "Hyrcania"
+		livanezoi="Hyrcania"
+		aigyptoi="Hyrcania"
+		makedonas = "Hyrcania"
+		aigionoi = "Hyrcania"
+		rodiaki = "Hyrcania"
+		cypriote = "Hyrcania"
+		griko = "Hyrcania"
+		pontian = "Hyrcania"
+		rumca = "Hyrcania"
+		atlantian = "Hyrcania"
+		macedonian = "Hyrcania"
+		arvanitika = "Hyrcania"
+		tsakonian = "Hyrcania"
+		grekter = "Hyrcania"
+		alan = "Hyrcania"
+		georgian = "Hyrcania"
+		assyrian = "Hyrcania"
+		turkish = "Azerbaycan"
+		elbistanli = "Azerbaycan"
+		rumeli = "Azerbaycan"
+		egeli = "Azerbaycan"
+		kapadokyali = "Azerbaycan"
+		karadenizci = "Azerbaycan"
+		turk = "Azerbaycan"
+
+		sunni = 100 # Crusade target weight
+		wahhabi = 300 # Crusade target weight
+		mesopotamian = 600 # Crusade target weight
+		zoroastrian_group = 500 # Crusade target weight
+		jewish_group = 100 # Crusade target weight
+		maoist = 250 #Maoist Weight
+		ovlatii = 700 # Crusade target weight
+		bon_reformed = 300
+		alevi = 500
+		
+		d_kakheti = {
+			color={ 0 185 228 }
+			color2={ 255 255 255 }
+
+			capital = 669 # Shemakha
+
+			c_agsu = {
+				color={ 0 195 228 }
+				color2={ 255 255 255 }
+				
+				b_agsu = {
+				}
+				b_baskal = {
+				}
+				b_sabir = {
+				}
+				b_ince = {
+				} 
+				b_kurdamir = {
+				}
+				b_qushchu = {
+				}
+				b_goychay = {
+				}
+			}
+			c_qarabag = {
+				color={ 0 185 255 }
+				color2={ 255 255 255  }
+			
+				b_aghdam = {}
+				b_agjabedi = {}
+				b_barda = {}
+				b_terter = {}
+				b_beylagan = {}
+				b_zardab = {}
+				b_xankandi = {}
+			}
+			c_agstafa = {
+				color={ 0 175 255 }
+				color2={ 255 255 255 }
+			
+				b_agstafa = {}
+				b_gazakh = {}
+				b_tovuz = {}
+				b_qovlar = {}
+				b_dzagam = {}
+				b_shamkir = {}
+				b_garajamirli = {}
+			}
+			c_ganja = {
+				color={ 0 155 205 }
+				color2={ 255 255 255 }
+			
+				b_ganja = {
+				armenian = "Gandzak"
+				georgian = "Gandza"
+				alan = "Gandza"
+				}
+				b_nebiagali = {}
+				b_goygol = {}
+				b_dalimammadli = {}
+				b_goranboy = {}
+				b_borsunlu = {}
+				b_naftalan = {}
+			}
+			c_shemakha = {
+				color={ 3 192 237 }
+				color2={ 255 255 255 }
+				
+				b_ahemakha = {
+				}
+				b_pirkuli = {
+				}
+				b_shikhlar = {
+				}
+				b_nagaraxana = {
+				}
+				b_chiraggala = {
+				}
+				b_anig = {
+				}
+				b_maraza = {
+				}
+				b_khil = {
+				}
+			}
+			c_qabala = {
+				color={ 0 195 228 }
+				color2={ 255 255 255 }
+			
+				b_qabala = {}
+				b_oghuz_azer = {}
+				b_zaragan = {}
+				b_vandam = {}
+				b_xacmaz = {}
+				b_karimli = {}
+				b_qamarvan = {}
+			}
+			c_mingecevir = {
+				color={ 10 165 220 }
+				color2={ 255 255 255 }
+			
+				b_mingecevir = {}
+				b_khaldan = {}
+				b_yevlakh = {}
+				b_aran_azer = {}
+				b_tanriqulular = {}
+				b_aghdash = {}
+				b_laki = {}
+			}
+			c_albania = {
+				color={ 0 195 228 }
+				color2={ 255 255 255 }
+				
+				armenian = "Aghvank"
+				georgian = "Albaneti"
+
+				b_chukhurkabala = {
+				armenian = "Kabalak"
+				georgian = "Kabala"
+				alan = "Kabala"
+				}
+				b_balakan = {}
+				b_shaki = {
+				armenian = "Shake"
+				georgian = "Shake"
+				alan = "Shake"
+				}
+				b_darussoltan = {
+				armenian = "Kaladasht"
+				georgian = "Kaladasht"
+				alan = "Kaladasht"
+				}
+				b_zaqatala = {}
+				b_emli = {
+				armenian = "Surp Yeghishe"
+				georgian = "Gish"
+				alan = "Kish"
+				}
+				b_gelersengorersen = {
+				armenian = "Kalaberd"
+				georgian = "Kalaberd"
+				alan = "Kalaberd"
+				}
+				b_kabala = {
+				armenian = "Vartashen"
+				georgian = "Vardashen"
+				alan = "Vartashen"
+				}
+			}
+		}
+		d_azerbaijan = {
+			color={ 35 154 178 }
+			color2={ 255 255 255 }
+			
+			capital = 923 # Baku
+			
+			culture = azerbaijani
+			
+			roman = "Hyrcania"
+			armenian = "Gharabagh"
+			greek = "Hyrcania"
+			livanezoi="Hyrcania"
+			aigyptoi="Hyrcania"
+			makedonas = "Hyrcania"
+			aigionoi = "Hyrcania"
+			rodiaki = "Hyrcania"
+			cypriote = "Hyrcania"
+			griko = "Hyrcania"
+			pontian = "Hyrcania"
+			rumca = "Hyrcania"
+			atlantian = "Hyrcania"
+			macedonian = "Hyrcania"
+			arvanitika = "Hyrcania"
+			grekter = "Hyrcania"
+			tsakonian = "Hyrcania"
+			alan = "Hyrcania"
+			georgian = "Hyrcania"
+			assyrian = "Hyrcania"
+			turkish = "Azerbaycan"
+			elbistanli = "Azerbaycan"
+			rumeli = "Azerbaycan"
+			egeli = "Azerbaycan"
+			kapadokyali = "Azerbaycan"
+			karadenizci = "Azerbaycan"
+			turk = "Azerbaycan"
+			
+			c_shirvan = {
+				color={ 40 176 204 }
+				color2={ 255 255 255 }
+				
+				b_shirvan = {
+				}
+				b_qaracala = {
+				}
+				b_absheron = {
+				}
+				b_shakhriyar = {
+				} 
+				b_salyan = {
+				}
+				b_khizirzinda = {
+				}
+				b_altiagay = {
+				}
+			}
+			c_khachmaz = {
+				color={ 30 132 153 }
+				color2={ 255 255 255 }
+			
+				b_khachmaz = {}
+				b_nabran = {}
+				b_quba_azer = {}
+				b_qusar_azer = {}
+				b_khudat = {}
+				b_samur = {}
+				b_shabran = {}
+			}
+			c_gobustan = {
+				color={ 45 198 229 }
+				color2={ 255 255 255 }
+			
+				b_gobustan = {}
+				b_sangachal = {}
+				b_cheyildagh = {}
+				b_gilazi = {}
+				b_khizi = {}
+				b_jangi = {}
+				b_jeyrankechmaz = {}
+			}
+			c_lankaran = {
+				color={ 25 110 127 }
+				color2={ 255 255 255 }
+			
+				b_lankaran = {}
+				b_istisu = {}
+				b_masalli = {}
+				b_boradigah = {}
+				b_liman = {}
+				b_goytapa = {}
+				b_lerik = {}
+			}
+			c_baku = {
+				color={ 50 221 255 }
+				color2={ 255 255 255 }
+				
+								
+				b_baku = {
+				}
+				b_sumqayit = {
+				}
+				b_zabrat = {
+				}
+				b_mardakan = {
+				} 
+				b_alat = {
+				}
+				b_qobustan = {
+				}
+				b_shuraabad = {
+				}
+			}
+			
+		}
+		
+	}
+}

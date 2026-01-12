@@ -1,0 +1,18 @@
+# 672 - Dwin
+
+# County Title
+title = c_dwin
+
+# Settlements
+max_settlements = 6
+b_dvin = castle
+b_erebuni = city
+b_etchmiadzin = temple
+b_alaverdi = castle
+b_matsnaberd = city
+b_khorvirap = castle
+#b_sanahin = temple
+
+# Misc
+culture = armenian
+religion = armenianapostolic

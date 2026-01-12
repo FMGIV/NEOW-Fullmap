@@ -1,0 +1,20 @@
+# 349 - Spoleto
+
+# County Title
+title = c_spoleto
+
+# Settlements
+max_settlements = 4
+b_spoleto = castle
+b_terni = city
+b_narni = temple
+#b_nursia = castle
+#b_todi = castle
+#b_valva = castle
+#b_montone = castle
+
+# Misc
+culture = lazian
+religion = catholic
+
+# History

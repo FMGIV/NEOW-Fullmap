@@ -1,0 +1,13 @@
+# 298 - Värend (prior to 1.10 called Småland)
+
+# County Title
+title = c_njudung
+
+# Settlements
+max_settlements = 3
+
+b_hultaby = tribal
+
+# Misc
+culture = gothic
+religion = vagarna

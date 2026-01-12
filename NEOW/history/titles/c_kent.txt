@@ -1,0 +1,40 @@
+2301.1.21={
+	holder = 6654 # Mwyn "the Fox" Cyflymarian
+}
+2329.6.2={
+	holder = 6656 # Bedwyr Cyflymarian
+}
+2349.6.18={
+	holder = 6657 # Petra Cyflymarian
+}
+2360.7.3={
+	holder = 6658 # Rhywal Cyflymarian
+}
+2389.4.11={
+	holder = 6659 # Cynfyn Cyflymarian, first Lord protector of the Cyflymarian dynasty
+}
+2423.9.6={
+	holder = 6660 # Kate Cyflymarian
+}
+2433.2.20={
+	holder = 6661 # Frederick I Cyflymarian
+}
+2456.11.11={
+	holder = 6662 # Amice Cyflymarian
+}
+2489.6.10={
+	holder = 6663 # Ysbail Cyflymarian
+}
+2498.1.16={
+	holder = 6664 # Elyan Cyflymarian
+}
+2527.11.8={
+	holder = 6665 # Isilmo Cyflymarian
+}
+2530.6.17={
+	holder = 653 # Frederick II Cyflymarian, current Lord Protector
+}
+2540.6.17={
+	holder = 1249 # Granted out to Kublai Wong
+	liege = e_britannia
+}

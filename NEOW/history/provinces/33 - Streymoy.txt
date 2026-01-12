@@ -1,0 +1,23 @@
+# 33 - Faereyar
+
+# County Title
+title = c_streymoy
+
+# Settlements
+max_settlements = 3
+b_skansin = castle
+#b_torshavn = city
+b_vestmanna = temple
+
+#b_kollafjordur = castle
+#b_saksun = castle
+#b_tjornuvik  = castle
+#b_kirkjubour  = castle
+#b_hoyvik = castle
+
+# Misc
+culture = faroyingar
+religion = vagarna
+terrain = mountain
+
+# History

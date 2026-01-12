@@ -1,0 +1,4 @@
+2530.7.10 = {
+	holder = 4891
+	liege = k_zamboanga
+}

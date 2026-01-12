@@ -1,0 +1,25 @@
+# 614 - Ashli
+
+# County Title
+title = c_ashli
+
+# Settlements
+max_settlements = 4
+
+b_ashli = tribal
+#b_boro = city
+b_daulakan = temple
+
+#b_durtojle = temple
+#b_blagovescen = castle
+#b_tuimasy = castle
+#b_janauyl = castle
+#b_yamantaw = castle
+
+# Misc
+culture = tatarian
+religion = jadidist
+terrain = steppe
+
+# History
+2192.1.1 = { religion = jadidist} 

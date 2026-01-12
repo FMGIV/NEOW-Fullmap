@@ -1,0 +1,4938 @@
+5050 = {
+	name="Akira" # Current Shogun
+	dynasty=4022611
+	father=9611
+	martial=10
+	diplomacy=8
+	intrigue=8
+	stewardship=2
+	learning=1
+	religion="shinto"
+	culture="kanto"
+	trait="skilled_tactician"
+	trait="content"
+	trait="humble"
+	trait="brave"
+	trait="wroth"
+	trait="japanese_shogun"
+	trait="japanese_1_honour"
+	2526.8.10 = {
+		birth=yes
+	}
+	2548.6.9={
+		effect = {
+			prestige = 2500 
+			add_artifact = otenta
+		}
+	}
+	2550.2.20 = {
+		add_spouse = 4744
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5051 = {
+	name="Katsushiro" # Current Emperor of Japan
+	dynasty=4022694
+	father=8435
+	martial=6
+	diplomacy=12
+	intrigue=4
+	stewardship=8
+	learning=2
+	religion="shinto"
+	culture="kanto"
+	trait="fortune_builder"
+	trait="japanese_emperor_trait"
+	trait="groomed"
+	trait="proud"
+	trait="poet"
+	trait="chaste"
+	trait="kind"
+	2503.9.17 = {
+		birth=yes
+	}
+	2520.6.7={
+		effect = {
+			prestige = 6000 
+			add_artifact = yata_no_kagami
+			add_artifact = yasakani_no_magatama
+			add_artifact = kusanagi_no_tsurugi
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5052 = {
+	name="Yasuo" # Heir of the Imperial Line
+	dynasty=4022694
+	father=5051
+	martial=6
+	diplomacy=3
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="indulgent_wastrel"
+	trait="groomed"
+	trait="hedonist"
+	trait="lustful"
+	trait="poet"
+	trait="slothful"
+	2523.12.24 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5053 = {
+	name="Kinnosuke" # Second son of the Emperor
+	dynasty=4022694
+	father=5051
+	martial=8
+	diplomacy=1
+	intrigue=7
+	stewardship=7
+	learning=7
+	religion="shinto"
+	culture="kanto"
+	trait="skilled_tactician"
+	trait="proud"
+	trait="ambitious"
+	trait="deceitful"
+	trait="brave"
+	trait="chaste"
+	trait="just"
+	2529.3.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5054 = {
+	name="Chiyoko" # Daughter of the Emperor
+	dynasty=4022694
+	father=5051
+	female=yes
+	martial=1
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=7
+	religion="shinto"
+	culture="kanto"
+	trait="thrifty_clerk"
+	trait="diligent"
+	trait="groomed"
+	trait="kind"
+	trait="honest"
+	trait="arbitrary"
+	trait="ambitious"
+	2530.2.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5055 = {
+	name="Akito" # Hakushaku of Oshima
+	dynasty=4022623
+	martial=7
+	diplomacy=9
+	intrigue=4
+	stewardship=3
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="underhanded_rogue"
+	trait="quick"
+	trait="lustful"
+	trait="ambitious"
+	trait="craven"
+	trait="paranoid"
+	trait="just"
+	2518.7.22 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5056 = {
+	name="Eiichi" # Hakushaku of Hitachi
+	dynasty=4022633
+	martial=6
+	diplomacy=3
+	intrigue=8
+	stewardship=7
+	learning=4
+	religion="shinto"
+	culture="kanto"
+	trait="thrifty_clerk"
+	trait="scarred"
+	trait="shrewd"
+	trait="temperate"
+	trait="deceitful"
+	trait="ambitious"
+	trait="erudite"
+	2504.2.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5057 = {
+	name="Eiji" # Eldest son and heir of the Hakushaku of Hitachi
+	dynasty=4022633
+	father = 5056
+	martial=6
+	diplomacy=3
+	intrigue=8
+	stewardship=7
+	learning=4
+	religion="shinto"
+	culture="kanto"
+	trait="brilliant_strategist"
+	trait="scarred"
+	trait="one_eyed"
+	trait="temperate"
+	trait="ambitious"
+	trait="brave"
+	trait="lustful"
+	2524.3.17 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5058 = {
+	name="Eisuke" # Second son of the Hakushaku of Hitachi
+	dynasty=4022633
+	father = 5056
+	martial=2
+	diplomacy=5
+	intrigue=5
+	stewardship=8
+	learning=2
+	religion="shinto"
+	culture="kanto"
+	trait="indulgent_wastrel"
+	trait="kind"
+	trait="temperate"
+	trait="just"
+	trait="content"
+	trait="proud"
+	2526.7.16 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5059 = {
+	name="Emiko" # Daughter of the Hakushaku of Hitachi
+	dynasty=4022633
+	father = 5056
+	female = yes
+	martial=5
+	diplomacy=2
+	intrigue=5
+	stewardship=2
+	learning=8
+	religion="shinto"
+	culture="kanto"
+	trait="mastermind_theologian"
+	trait="zealous"
+	trait="ambitious"
+	trait="humble"
+	trait="honest"
+	trait="trusting"
+	2529.9.13 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5060 = {
+	name="Eiichiro" # Third son of the Hakushaku of Hitachi
+	dynasty=4022633
+	father = 5056
+	martial=2
+	diplomacy=7
+	intrigue=2
+	stewardship=6
+	learning=8
+	religion="shinto"
+	culture="kanto"
+	trait="scholarly_theologian"
+	trait="zealous"
+	trait="diligent"
+	trait="wroth"
+	trait="shrewd"
+	trait="gregarious"
+	2532.12.15 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5061 = {
+	name="Sanjuro" # Hakushaku of Nasushiobara
+	dynasty=4022683
+	martial=10
+	diplomacy=8
+	intrigue=8
+	stewardship=1
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="brilliant_strategist"
+	trait="brave"
+	trait="diligent"
+	trait="honest"
+	trait="proud"
+	trait="duelist"
+	2524.6.12 = {
+		birth=yes
+	}
+	2548.11.10={
+		effect = {
+			add_artifact = dojigiri
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5062 = {
+	name="Chukichi" # Koshaku of Saitama
+	dynasty=4022649
+	father=8208
+	martial=2
+	diplomacy=5
+	intrigue=8
+	stewardship=5
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="elusive_shadow"
+	trait="deceitful"
+	trait="paranoid"
+	trait="stressed"
+	trait="shrewd"
+	trait="scarred"
+	2520.8.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5063 = {
+	name="Hime" # First daughter of the Koshaku of Saitama
+	dynasty=4022649
+	father = 5062
+	female = yes
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="brilliant_strategist"
+	trait="uncouth"
+	trait="ambitious"
+	trait="brave"
+	trait="wroth"
+	trait="cynical"
+	2538.6.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5064 = {
+	name="Hikari" # Second daughter of the Koshaku of Saitama
+	dynasty=4022649
+	father = 5062
+	female = yes
+	martial=5
+	diplomacy=7
+	intrigue=5
+	stewardship=3
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="charismatic_negotiator"
+	trait="chaste"
+	trait="patient"
+	trait="envious"
+	trait="stubborn"
+	trait="cruel"
+	2540.8.23 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5065 = {
+	name="Hiroko" # Third daughter of the Koshaku of Saitama
+	dynasty=4022649
+	father = 5062
+	female = yes
+	learning = 6
+	religion="shinto"
+	culture="kanto"
+	trait="curious"
+	2545.8.23 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5066 = {
+	name="Choji" # Bastard son of the Koshaku of Saitama
+	father = 5062
+	religion="shinto"
+	culture="kanto"
+	trait="bastard"
+	2552.2.10 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+#Kyushu
+5067 = {
+	name="Zorojuro" # Hakushaku of Yakushima
+	dynasty=4022877
+	diplomacy=7
+	martial=9
+	stewardship=3
+	intrigue=1
+	learning=5
+	religion="east_brethren"
+	culture="kyushu"
+	trait="brilliant_strategist"
+	trait="ambitious"
+	trait="brave"
+	trait="diligent"
+	trait="proud"
+	trait="duelist"
+	trait="one_eyed"
+	trait="scarred"
+	trait="pirate"
+	2533.11.11 = {
+		birth=yes
+	}
+	2535.10.14={
+		effect = {
+			add_artifact = wado_ichimonji
+			add_artifact = sandai_kitetsu
+			add_artifact = yubashiri
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5068 = {
+	name="Shinji" # Koushaku of Kagoshima
+	dynasty=4022837
+	diplomacy=3
+	martial=5
+	stewardship=7
+	intrigue=3
+	learning=7
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="mastermind_theologian"
+	trait="cynical"
+	trait="honest"
+	trait="just"
+	trait="lustful"
+	trait="temperate"
+	trait="groomed"
+	2498.6.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5069 = {
+	name="Akina" # First daughter of the Koushaku of Kagoshima
+	dynasty=4022837
+	father=5068
+	female=yes
+	diplomacy=4
+	martial=6
+	stewardship=8
+	intrigue=5
+	learning=3
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="underhanded_rogue"
+	trait="kind"
+	trait="deceitful"
+	trait="content"
+	trait="lustful"
+	2520.4.18 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5070 = {
+	name="Eisaku" # Son of the Koushaku of Kagoshima
+	dynasty=4022837
+	father=5068
+	diplomacy=3
+	martial=6
+	stewardship=6
+	intrigue=5
+	learning=7
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="flamboyant_schemer"
+	trait="robust"
+	trait="deceitful"
+	trait="just"
+	trait="gluttonous"
+	trait="ambitious"
+	2523.8.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5071 = {
+	name="Chizuko" # Second daughter of the Koushaku of Kagoshima
+	dynasty=4022837
+	father=5068
+	female=yes
+	diplomacy=2
+	martial=7
+	stewardship=8
+	intrigue=6
+	learning=5
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="charismatic_negotiator"
+	trait="trusting"
+	trait="gregarious"
+	trait="proud"
+	trait="charitable"
+	trait="homosexual"
+	2527.9.24 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5072 = {
+	name="Oden" # Hakushaku of Kumamoto
+	dynasty=4022875
+	dna="0idea0ba000"
+	properties="qd0d0k00000000000000000000000000000000"
+	diplomacy=8
+	martial=12
+	stewardship=3
+	intrigue=1
+	learning=5
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="brilliant_strategist"
+	trait="giant"
+	trait="strong"
+	trait="fair"
+	trait="honest"
+	trait="trusting"
+	trait="ambitious"
+	trait="brave"
+	trait="lustful"
+	trait="kind"
+	trait="wroth"
+	trait="charitable"
+	trait="gregarious"
+	trait="sympathy_oceanic"
+	2536.2.22 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5073 = {
+	name="Soho" # Koushaku of Fukuoka
+	dynasty=4022823
+	diplomacy=7
+	martial=5
+	stewardship=9
+	intrigue=3
+	learning=3
+	religion="amidism"
+	culture="kyushu"
+	trait="intricate_webweaver"
+	trait="groomed"
+	trait="humble"
+	trait="gluttonous"
+	trait="zealous"
+	trait="brave"
+	trait="honest"
+	trait="just"
+	2510.6.25 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5074 = {
+	name="Hanako" # Daughter and heir of the Koushaku of Fukoka
+	dynasty=4022823
+	father = 5073
+	female=yes
+	diplomacy=4
+	martial=8
+	stewardship=5
+	intrigue=3
+	learning=7
+	religion="amidism"
+	culture="kyushu"
+	trait="naive_appeaser"
+	trait="lunatic"
+	trait="proud"
+	trait="slothful"
+	trait="patient"
+	trait="stubborn"
+	trait="cynical"
+	2532.8.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5075 = {
+	name="Yuuki" # Hakushaku of Tsushima
+	dynasty=4022820
+	diplomacy=7
+	martial=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	religion="amidism"
+	culture="kyushu"
+	trait="charismatic_negotiator"
+	trait="trusting"
+	trait="gregarious"
+	trait="envious"
+	trait="proud"
+	trait="temperate"
+	trait="socializer"
+	2488.5.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5076 = {
+	name="Etsuko" # First daughter of the Hakushaku of Tsushima
+	dynasty=4022820
+	father=5075
+	female=yes
+	diplomacy=3
+	martial=5
+	stewardship=3
+	intrigue=5
+	learning=9
+	religion="amidism"
+	culture="kyushu"
+	trait="skilled_tactician"
+	trait="groomed"
+	trait="dull"
+	trait="slothful"
+	trait="proud"
+	trait="temperate"
+	trait="chaste"
+	2511.3.10 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5077 = {
+	name="Suzume" # Second daughter of the Hakushaku of Tsushima
+	dynasty=4022820
+	father=5075
+	female=yes
+	diplomacy=5
+	martial=8
+	stewardship=7
+	intrigue=3
+	learning=3
+	religion="amidism"
+	culture="kyushu"
+	trait="martial_cleric"
+	trait="shrewd"
+	trait="erudite"
+	trait="envious"
+	trait="slothful"
+	trait="wroth"
+	trait="temperate"
+	trait="charitable"
+	trait="humble"
+	2513.9.10 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5078 = {
+	name="Itsuka" # Third daughter of the Hakushaku of Tsushima
+	dynasty=4022820
+	father=5075
+	female=yes
+	diplomacy=4
+	martial=5
+	stewardship=6
+	intrigue=2
+	learning=5
+	religion="amidism"
+	culture="kyushu"
+	trait="intricate_webweaver"
+	trait="greedy"
+	trait="uncouth"
+	trait="gluttonous"
+	trait="humble"
+	trait="patient"
+	trait="kind"
+	trait="paranoid"
+	2519.6.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5079 = {
+	name="Yuuki" # Son and heir of the Hakushaku of Tsushima
+	dynasty=4022820
+	father=5075
+	diplomacy=4
+	martial=7
+	stewardship=5
+	intrigue=6
+	learning=3
+	religion="amidism"
+	culture="kyushu"
+	trait="grey_eminence"
+	trait="kind"
+	trait="gregarious"
+	trait="gluttonous"
+	trait="lustful"
+	trait="zealous"
+	trait="brave"
+	2521.12.3 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5080 = {
+	name="Eisaku" # Hakushaku of Iki
+	dynasty=4022883
+	diplomacy=4
+	martial=8
+	stewardship=3
+	intrigue=5
+	learning=6
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="fortune_builder"
+	trait="temperate"
+	trait="paranoid"
+	trait="proud"
+	trait="wroth"
+	trait="greedy"
+	trait="diligent"
+	2510.9.9 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5081 = {
+	name="Fumiko" # Daughter and heir of the Hakushaku of Iki
+	dynasty=4022883
+	father=5080
+	female=yes
+	diplomacy=3
+	martial=7
+	stewardship=3
+	intrigue=4
+	learning=7
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="intricate_webweaver"
+	trait="wroth"
+	trait="ambitious"
+	trait="just"
+	trait="chaste"
+	trait="charitable"
+	2532.8.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5082 = {
+	name="Kenji" # Hakushaku of Nagasaki
+	dynasty=4022869
+	diplomacy=8
+	martial=9
+	stewardship=4
+	intrigue=6
+	learning=5
+	religion="kirishitan"
+	culture="kyushu"
+	trait="skilled_tactician"
+	trait="zealous"
+	trait="ambitious"
+	trait="kind"
+	trait="just"
+	trait="trusting"
+	trait="japanese_2_honour"
+	disallow_random_traits=yes
+	2530.3.21 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5083 = {
+	name="Emiko" # Hakushaku of Hirado
+	dynasty=4022889
+	female=yes
+	diplomacy=8
+	martial=8
+	stewardship=4
+	intrigue=5
+	learning=4
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="quick"
+	trait="flamboyant_schemer"
+	trait="ambitious"
+	trait="deceitful"
+	trait="cruel"
+	trait="patient"
+	trait="poet"
+	2532.10.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+5084 = {
+	name="Jinbei" # Hakushaku of Shinkamigoto
+	dynasty=4022872
+	diplomacy=10
+	martial=2
+	stewardship=5
+	intrigue=3
+	learning=8
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="brilliant_strategist"
+	trait="brave"
+	trait="kind"
+	trait="humble"
+	trait="content"
+	trait="honest"
+	2525.1.10 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5085 = {
+	name="Akihisa" # Son and heir of the Hakushaku of Shinkamigoto
+	dynasty=4022872
+	father=5084
+	religion="buddhoshinto"
+	culture="kyushu"
+	trait="brooding"
+	2548.8.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+#Chubu
+
+5086 = {
+	name="Yasuji" # Hakushaku of Nagoya
+	dynasty=4023487
+	diplomacy=5
+	martial=3
+	stewardship=8
+	intrigue=7
+	learning=4
+	religion="shinto"
+	culture="chubu"
+	trait="elusive_shadow"
+	trait="greedy"
+	trait="envious"
+	trait="humble"
+	trait="ambitious"
+	trait="brave"
+	2534.3.21 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5087 = {
+	name="Samuel" # Hakushaku of Shitara, a mighty samurai that once served under the Shogun, before the lost of his hand. In an act of the kindness, he was given lands for him to retire by the Emperor.
+	dynasty=6033811
+	religion="katoliko"
+	culture="nikkei"
+	trait="skilled_tactician"
+	trait="scarred"
+	trait="tall"
+	trait="one_handed"
+	trait="brave"
+	trait="diligent"
+	trait="gregarious"
+	trait="duelist"
+	trait="japanese_1_honour"
+	trait="sympathy_shinto"
+	2507.9.11 = {
+		birth=yes
+	}
+	2541.10.11 = {
+		effect = {
+			prestige = 250
+			piety = 150
+			add_artifact = prosthetic_hand_blade
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+5088 = {
+	name="Miku Hatsune" # Daughter of the Hakushaku of Shitara, a renowned poet
+	dynasty=6033811
+	father=5087
+	female=yes
+	religion="katoliko"
+	culture="nikkei"
+	trait="grey_eminence"
+	trait="fair"
+	trait="tall"
+	trait="poet"
+	trait="kind"
+	trait="diligent"
+	trait="gregarious"
+	trait="sympathy_shinto"
+	2530.4.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8040 = {
+	name="Luiz" # Son of the Hakushaku of Shitara
+	dynasty=6033811
+	father=5087
+	religion="katoliko"
+	culture="nikkei"
+	trait="charismatic_negotiator"
+	trait="shrewd"
+	trait="kind"
+	trait="diligent"
+	trait="gregarious"
+	trait="sympathy_shinto"
+	2532.9.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8041 = {
+	name="Kenji" # Second son of the Hakushaku of Shitara
+	dynasty=6033811
+	father=5087
+	religion="katoliko"
+	culture="nikkei"
+	trait="underhanded_rogue"
+	trait="groomed"
+	trait="proud"
+	trait="envious"
+	trait="cynical"
+	trait="sympathy_shinto"
+	2534.8.25 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8042 = {
+	name="Carlos" # Third son of the Hakushaku of Shitara
+	dynasty=6033811
+	father=5087
+	religion="katoliko"
+	culture="nikkei"
+	trait="martial_cleric"
+	trait="honest"
+	trait="erudite"
+	trait="shy"
+	trait="trusting"
+	trait="strong"
+	trait="sympathy_shinto"
+	2536.8.2 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8043 = {
+	name="Ayaori" # Hakushaku of Niigata
+	dynasty=4022659
+	diplomacy=4
+	martial=4
+	stewardship=7
+	intrigue=9
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="scholarly_theologian"
+	trait="erudite"
+	trait="gregarious"
+	trait="content"
+	trait="humble"
+	trait="temperate"
+	trait="lustful"
+	2500.5.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8044 = {
+	name="Ayumi" # First legitimate daughter of the Hakushaku of Niigata
+	dynasty=4022659
+	father=8043
+	female=yes
+	diplomacy=7
+	martial=3
+	stewardship=8
+	intrigue=5
+	learning=8
+	religion="shinto"
+	culture="kanto"
+	trait="mastermind_theologian"
+	trait="erudite"
+	trait="gregarious"
+	trait="ambitious"
+	trait="brave"
+	trait="proud"
+	trait="deceitful"
+	2521.8.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8045 = {
+	name="Ayako" # Second legitimate daughter of the Hakushaku of Niigata
+	dynasty=4022659
+	father=8043
+	female=yes
+	diplomacy=6
+	martial=5
+	stewardship=10
+	intrigue=2
+	learning=3
+	religion="shinto"
+	culture="kanto"
+	trait="grey_eminence"
+	trait="erudite"
+	trait="shy"
+	trait="ambitious"
+	trait="zealous"
+	trait="kind"
+	trait="honest"
+	2524.6.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8046 = {
+	name="Arou" # Legitimate son and heir of the Hakushaku of Niigata
+	dynasty=4022659
+	father=8043
+	diplomacy=3
+	martial=10
+	stewardship=4
+	intrigue=2
+	learning=3
+	religion="shinto"
+	culture="kanto"
+	trait="tough_soldier"
+	trait="uncouth"
+	trait="gregarious"
+	trait="lustful"
+	trait="honest"
+	trait="arbitrary"
+	trait="stubborn"
+	2528.10.29 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8047 = {
+	name="Wataru" # Bastard son of the Hakushaku of Niigata
+	father=8043
+	diplomacy=5
+	martial=5
+	stewardship=9
+	intrigue=4
+	learning=8
+	religion="amidism"
+	culture="kanto"
+	trait="bastard"
+	trait="midas_touched"
+	trait="groomed"
+	trait="gregarious"
+	trait="lustful"
+	trait="ambitious"
+	trait="greedy"
+	trait="deceitful"
+	2519.3.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8048 = {
+	name="Osamu" # Bastard son of the Hakushaku of Niigata
+	father=8043
+	diplomacy=4
+	martial=9
+	stewardship=5
+	intrigue=8
+	learning=5
+	religion="bushinto"
+	culture="kansai"
+	trait="bastard"
+	trait="brilliant_strategist"
+	trait="erudite"
+	trait="robust"
+	trait="lustful"
+	trait="ambitious"
+	trait="proud"
+	trait="wroth"
+	2526.4.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8049 = {
+	name="Kotobuki" # Bastard son of the Hakushaku of Niigata
+	father=8043
+	diplomacy=5
+	martial=1
+	stewardship=5
+	intrigue=10
+	learning=10
+	religion="shinto"
+	culture="chubu"
+	trait="bastard"
+	trait="elusive_shadow"
+	trait="zealous"
+	trait="erudite"
+	trait="ambitious"
+	trait="deceitful"
+	trait="gluttonous"
+	trait="cruel"
+	2530.2.2 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8050 = {
+	name="Mokuba" # Hakushaku of Sado
+	dynasty=4022631
+	diplomacy=5
+	martial=4
+	stewardship=4
+	intrigue=8
+	learning=8
+	religion="amidism"
+	culture="kanto"
+	trait="skilled_tactician"
+	trait="just"
+	trait="zealous"
+	trait="ambitious"
+	trait="deceitful"
+	trait="proud"
+	trait="brave"
+	trait="chaste"
+	2538.2.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8051 = {
+	name="Yumi" # Hakushaku of Shibata
+	dynasty=4023313
+	female=yes
+	diplomacy=8
+	martial=4
+	stewardship=8
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="tohoku"
+	trait="indulgent_wastrel"
+	trait="trusting"
+	trait="content"
+	trait="kind"
+	trait="gregarious"
+	trait="chaste"
+	2534.7.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8052 = {
+	name="Chiaki" # Koushaku of Ishikawa
+	dynasty=4023466
+	diplomacy=4
+	martial=4
+	stewardship=8
+	intrigue=6
+	learning=8
+	religion="shinto"
+	culture="chubu"
+	trait="mastermind_theologian"
+	trait="kind"
+	trait="gluttonous"
+	trait="content"
+	trait="brave"
+	trait="deceitful"
+	trait="scholar"
+	2525.8.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8053 = {
+	name="Sakutaro" # Son and heir of the Koushaku of Ishikawa
+	dynasty=4023466
+	father=8052
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion="shinto"
+	culture="chubu"
+	trait="curious"
+	trait="idolizer"
+	trait="timid"
+	2548.10.7 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8054 = {
+	name="Kazuya" # Hakushaku of Kanazawa
+	dynasty=4023494
+	diplomacy=4
+	martial=8
+	stewardship=8
+	intrigue=3
+	learning=5
+	religion="buddhoshinto"
+	culture="chubu"
+	trait="fortune_builder"
+	trait="brave"
+	trait="honest"
+	trait="greedy"
+	trait="chaste"
+	trait="fair"
+	2530.8.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8055 = {
+	name="Eijiro" # Hakushaku of Shizuoka
+	dynasty=4023491
+	diplomacy=5
+	martial=4
+	stewardship=8
+	intrigue=8
+	learning=4
+	religion="shinto"
+	culture="chubu"
+	trait="thrifty_clerk"
+	trait="envious"
+	trait="chaste"
+	trait="charitable"
+	trait="trusting"
+	trait="erudite"
+	2512.2.27 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8056 = {
+	name="Iori" # Hakushaku of Hamamatsu
+	dynasty=4023412
+	diplomacy=4
+	martial=8
+	stewardship=4
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="chubu"
+	trait="flamboyant_schemer"
+	trait="deceitful"
+	trait="temperate"
+	trait="ambitious"
+	trait="zealous"
+	2518.9.23 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8057 = {
+	name="Ieyasu" # Son and heir of the Hakushaku of Hamamatsu
+	dynasty=4023412
+	father=8056
+	diplomacy=8
+	martial=8
+	stewardship=4
+	intrigue=5
+	learning=4
+	religion="shinto"
+	culture="chubu"
+	trait="tough_soldier"
+	trait="robust"
+	trait="kind"
+	trait="brave"
+	trait="zealous"
+	trait="paranoid"
+	2536.11.18 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8058 = {
+	name="Yoshihito" # Hakushaku of Nagaoka
+	dynasty=4022708
+	diplomacy=8
+	martial=8
+	stewardship=4
+	intrigue=5
+	learning=4
+	religion="shinto"
+	culture="kanto"
+	trait="charismatic_negotiator"
+	trait="diligent"
+	trait="proud"
+	trait="arbitrary"
+	trait="honest"
+	trait="scarred"
+	2520.8.23 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8059 = {
+	name="Tsunagu" # Hakushaku of Hokuto
+	dynasty=4023434
+	diplomacy=7
+	martial=8
+	stewardship=5
+	intrigue=6
+	learning=6
+	religion="shinto"
+	culture="chubu"
+	trait="skilled_tactician"
+	trait="strong"
+	trait="brave"
+	trait="scarred"
+	trait="honest"
+	trait="kind"
+	trait="proud"
+	trait="ambitious"
+	2529.3.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8060 = {
+	name="Ryunosuke" # Hakushaku of Saku
+	dynasty=4023451
+	diplomacy=6
+	martial=4
+	stewardship=6
+	intrigue=5
+	learning=8
+	religion="shinto"
+	culture="chubu"
+	trait="scholarly_theologian"
+	trait="quick"
+	trait="erudite"
+	trait="wroth"
+	trait="chaste"
+	trait="brave"
+	trait="humble"
+	2510.8.8 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+#Chugoku
+8061 = {
+	name="Hashirama" # Hakushaku of Nagato
+	dynasty=4023278 #Senju
+	diplomacy=8
+	martial=10
+	stewardship=5
+	intrigue=6
+	learning=8
+	religion="amidism"
+	culture="chugoku"
+	trait="brilliant_strategist"
+	trait="quick"
+	trait="ambitious"
+	trait="brave"
+	trait="kind"
+	trait="honest"
+	trait="gregarious"
+	2514.10.23 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8062 = {
+	name="Noboru" # Hakushaku of Hamada
+	dynasty=4023268
+	diplomacy=5
+	martial=8
+	stewardship=6
+	intrigue=8
+	learning=6
+	religion="buddhoshinto"
+	culture="chugoku"
+	trait="skilled_tactician"
+	trait="honest"
+	trait="brave"
+	trait="just"
+	trait="gregarious"
+	trait="proud"
+	2523.9.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8063 = {
+	name="Madara" # Hakushaku of Shunan
+	dynasty=4023277 #Uchiha
+	diplomacy=5
+	martial=10
+	stewardship=8
+	intrigue=6
+	learning=8
+	religion="bushinto"
+	culture="chugoku"
+	trait="brilliant_strategist"
+	trait="quick"
+	trait="ambitious"
+	trait="brave"
+	trait="cruel"
+	trait="deceitful"
+	trait="proud"
+	trait="japanese_bad_honour"
+	2514.12.24 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8064 = {
+	name="Wataru" # Koushaku of Yamaguchi
+	dynasty=4023243
+	diplomacy=10
+	martial=5
+	stewardship=8
+	intrigue=9
+	learning=7
+	religion="buddhoshinto"
+	culture="chugoku"
+	trait="charismatic_negotiator"
+	trait="deceitful"
+	trait="brave"
+	trait="just"
+	trait="paranoid"
+	trait="chaste"
+	trait="scarred"
+	2500.9.14 = {
+		birth=yes
+	}
+	2531.7.8 = {
+		give_nickname=nick_red_tide
+		effect = {
+			add_artifact = kubikiribocho
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8065 = {
+	name="Toshiro" # Heir the Koushaku of Yamaguchi
+	dynasty=4023243
+	father=8064
+	diplomacy=8
+	martial=7
+	stewardship=8
+	intrigue=7
+	learning=9
+	religion="buddhoshinto"
+	culture="chugoku"
+	trait="charismatic_negotiator"
+	trait="quick"
+	trait="greedy"
+	trait="paranoid"
+	trait="cruel"
+	trait="deceitful"
+	trait="proud"
+	2530.12.10 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8066 = {
+	name="Hitori" # Koushaku of Fukuyama
+	dynasty=4023299
+	diplomacy=6
+	martial=5
+	stewardship=8
+	intrigue=7
+	learning=5
+	religion="buddhoshinto"
+	culture="chugoku"
+	trait="martial_cleric"
+	trait="ambitious"
+	trait="zealous"
+	trait="proud"
+	trait="shrewd"
+	trait="patient"
+	disallow_random_traits=yes
+	2525.7.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8067 = {
+	name="Midori" # Heir of the Koushaku of Fukuyama
+	dynasty=4023299
+	female=yes
+	father=8066
+	diplomacy=5
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=5
+	religion="buddhoshinto"
+	culture="chugoku"
+	trait="brooding"
+	trait="curious"
+	trait="willful"
+	2546.8.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8068 = {
+	name="Kogoro" # Hakushaku of Mihara
+	dynasty=4023298
+	diplomacy=7
+	martial=2
+	stewardship=5
+	intrigue=9
+	learning=6
+	religion="buddhoshinto"
+	culture="chugoku"
+	trait="intricate_webweaver"
+	trait="deceitful"
+	trait="ambitious"
+	trait="lustful"
+	trait="just"
+	trait="proud"
+	2528.7.27 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8069 = {
+	name="Eisuke" # Hakushaku of Tottori
+	dynasty=4023288
+	diplomacy=9
+	martial=7
+	stewardship=4
+	intrigue=5
+	learning=10
+	religion="bushinto"
+	culture="chugoku"
+	trait="mastermind_theologian"
+	trait="just"
+	trait="chaste"
+	trait="kind"
+	trait="content"
+	trait="erudite"
+	2513.6.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8070 = {
+	name="Shigeharu" # Hakushaku of Matsue
+	dynasty=4023289
+	diplomacy=4
+	martial=9
+	stewardship=5
+	intrigue=6
+	learning=7
+	religion="bushinto"
+	culture="chugoku"
+	trait="skilled_tactician"
+	trait="brave"
+	trait="strong"
+	trait="ambitious"
+	trait="charitable"
+	trait="gluttonous"
+	2533.1.4 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8071 = {
+	name="Kansuke" # Hakushaku of Okinoshima
+	dynasty=4023290
+	diplomacy=10
+	martial=1
+	stewardship=8
+	intrigue=8
+	learning=10
+	religion="shinto"
+	culture="chugoku"
+	trait="grey_eminence"
+	trait="zealous"
+	trait="genius"
+	trait="content"
+	trait="diligent"
+	trait="temperate"
+	2481.9.13 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8072 = {
+	name="Kaneto" # Heir of the Hakushaku of Okinoshima
+	dynasty=4023290
+	father=8071
+	diplomacy=6
+	martial=6
+	stewardship=4
+	intrigue=4
+	learning=10
+	religion="shinto"
+	culture="chugoku"
+	trait="detached_priest"
+	trait="zealous"
+	trait="genius"
+	trait="proud"
+	trait="paranoid"
+	trait="chaste"
+	2501.10.25 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8073 = {
+	name="Kanenori" # Second son of the Hakushaku of Okinoshima
+	dynasty=4023290
+	father=8071
+	diplomacy=4
+	martial=4
+	stewardship=10
+	intrigue=6
+	learning=6
+	religion="shinto"
+	culture="chugoku"
+	trait="thrifty_clerk"
+	trait="zealous"
+	trait="genius"
+	trait="ambitious"
+	trait="deceitful"
+	trait="diligent"
+	2504.3.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8074 = {
+	name="Kaname" # Third son of the Hakushaku of Okinoshima
+	dynasty=4023290
+	father=8071
+	diplomacy=6
+	martial=4
+	stewardship=4
+	intrigue=10
+	learning=6
+	religion="shinto"
+	culture="chugoku"
+	trait="flamboyant_schemer"
+	trait="zealous"
+	trait="genius"
+	trait="ambitious"
+	trait="deceitful"
+	trait="cruel"
+	2509.6.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8075 = {
+	name="Kazunobu" # Fourth son of the Hakushaku of Okinoshima
+	dynasty=4023290
+	father=8071
+	diplomacy=10
+	martial=4
+	stewardship=4
+	intrigue=6
+	learning=6
+	religion="shinto"
+	culture="chugoku"
+	trait="charismatic_negotiator"
+	trait="zealous"
+	trait="quick"
+	trait="ambitious"
+	trait="just"
+	trait="proud"
+	2511.12.3 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8076 = {
+	name="Kazuo" # Fifth son of the Hakushaku of Okinoshima
+	dynasty=4023290
+	father=8071
+	diplomacy=4
+	martial=10
+	stewardship=6
+	intrigue=6
+	learning=4
+	religion="shinto"
+	culture="chugoku"
+	trait="misguided_warrior"
+	trait="zealous"
+	trait="quick"
+	trait="content"
+	trait="robust"
+	trait="kind"
+	2514.4.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8077 = {
+	name="Kasumi" # First daughter of the Hakushaku of Okinoshima
+	dynasty=4023290
+	father=8072
+	female=yes
+	diplomacy=5
+	martial=5
+	stewardship=6
+	intrigue=5
+	learning=10
+	religion="shinto"
+	culture="chugoku"
+	trait="martial_cleric"
+	trait="zealous"
+	trait="quick"
+	trait="twin"
+	trait="honest"
+	trait="kind"
+	2526.2.16 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+#Hokkaido
+8078 = {
+	name="Koji" # Current ruler of Hakodate, tributary of Vladivostok and the one the majority of Hokkaido pays direct tribute too
+	dynasty=4023094
+	diplomacy=8
+	martial=7
+	stewardship=8
+	intrigue=7
+	learning=8
+	religion="ainushinto"
+	culture="hokkaido"
+	trait="thrifty_clerk"
+	trait="ambitious"
+	trait="greedy"
+	trait="diligent"
+	trait="just"
+	trait="brave"
+	2506.9.25 = {
+		birth=yes
+	}
+	2535.10.14={
+		effect = {
+			add_artifact = mikazuki
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8079 = {
+	name="Kirawus" # Hakushaku of Muroran, Ainu warrior and one of the Patricians of the MR
+	dynasty=4023518
+	diplomacy=6
+	martial=9
+	stewardship=6
+	intrigue=7
+	learning=8
+	religion="ainushinto"
+	culture="ainu"
+	trait="skilled_tactician"
+	trait="ambitious"
+	trait="brave"
+	trait="honest"
+	trait="diligent"
+	trait="humble"
+	2518.6.17 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8080 = {
+	name="Kiichiro" # Patrician of the MR
+	dynasty=4023091
+	diplomacy=8
+	martial=9
+	stewardship=5
+	intrigue=6
+	learning=8
+	religion="ainushinto"
+	culture="hokkaido"
+	trait="thrifty_clerk"
+	trait="content"
+	trait="greedy"
+	trait="gluttonous"
+	trait="strong"
+	trait="lustful"
+	trait="proud"
+	2500.8.13 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8081 = {
+	name="Yukio" # Patrician of the MR, a merchant from Tohoku
+	dynasty=4023364
+	diplomacy=6
+	martial=5
+	stewardship=9
+	intrigue=7
+	learning=9
+	religion="shinto"
+	culture="tohoku"
+	trait="midas_touched"
+	trait="erudite"
+	trait="brave"
+	trait="kind"
+	trait="diligent"
+	trait="proud"
+	2520.5.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8082 = {
+	name="Itakshir" # Patrician of the MR, an Ainu wearing a mask
+	dynasty=4023512 #Kamui
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=10
+	learning=8
+	religion="ainushinto"
+	culture="ainu"
+	trait="intricate_webweaver"
+	trait="ambitious"
+	trait="disfigured"
+	trait="deceitful"
+	trait="brave"
+	trait="diligent"
+	trait="proud"
+	trait="chaste"
+	2512.6.8 = {
+		birth=yes
+	}
+	2533.12.12={
+		effect = {
+			add_artifact = gold_bar #The rest is hidden
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8083 = {
+	name="Asirpa"
+	dynasty=4023512 #Kamui
+	female=yes
+	father=8082
+	religion="ainushinto"
+	culture="ainu"
+	trait="willful"
+	trait="hunter"
+	trait="brave"
+	trait="diligent"
+	trait="curious"
+	trait="rowdy"
+	2543.1.1 = {
+		birth=yes
+	}
+	2554.10.14={
+		effect = {
+			add_friend = 8084
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8084 = {
+	name="Saichi"
+	dynasty=4023077 #Sugimoto
+	religion="ainushinto"
+	culture="hokkaido"
+	trait="tough_soldier"
+	trait="kind"
+	trait="berserker"
+	trait="brave"
+	trait="diligent"
+	trait="proud"
+	trait="scarred_mid"
+	#trait="immortal"
+	2533.3.1 = {
+		birth=yes
+	}
+	2554.10.14={
+		effect = {
+			add_friend = 8083
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8085 = {
+	name="Kazutaka" # 
+	dynasty=4022709 #Hyodo
+	religion="shinto"
+	culture="kanto"
+	trait="midas_touched"
+	trait="ambitious"
+	trait="deceitful"
+	trait="brave"
+	trait="greedy"
+	trait="proud"
+	trait="cruel"
+	2486.6.8 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8088
+	}
+	2533.12.12={
+		effect = {
+			wealth = 500
+			add_artifact = gold_bar
+		}
+		create_bloodline = {
+			type = teiai
+			has_dlc = "Holy Fury"
+		}
+	}
+	2552.10.14={
+		effect = {
+			add_rival = 8089
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8086 = {
+	name="Kazuki" # 
+	dynasty=4022709 #Hyodo
+	religion="shinto"
+	culture="kanto"
+	father=8085
+	mother=8088
+	trait="fortune_builder"
+	trait="ambitious"
+	trait="deceitful"
+	trait="groomed"
+	trait="greedy"
+	trait="proud"
+	trait="cruel"
+	2534.6.8 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8087 = {
+	name="Kazuya" # 
+	dynasty=4022709 #Hyodo
+	religion="shinto"
+	culture="kanto"
+	father=8085
+	mother=8088
+	trait="indulgent_wastrel"
+	trait="arbitrary"
+	trait="envious"
+	trait="cynical"
+	trait="poet"
+	trait="cruel"
+	2537.6.8 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8088 = {
+	name="Sophie"
+	religion="shinto"
+	culture="weeb"
+	female=yes
+	trait="indulgent_wastrel"
+	trait="kind"
+	trait="gregarious"
+	trait="dull"
+	2501.6.8 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8085
+	}
+	2544.1.1 = {
+		death=yes
+	}
+}
+8089 = {
+	name="Kaiji" #Ultimate Survivor
+	dynasty=4022616 #Ito
+	religion="shinto"
+	culture="kanto"
+	trait="indulgent_wastrel"
+	trait="kind"
+	trait="gamer" #Gambler
+	trait="brave"
+	trait="slothful"
+	trait="quick"
+	trait="scarred"
+	2534.6.8 = {
+		birth=yes
+	}
+	2552.10.14={
+		effect = {
+			add_rival = 8085
+		}
+	}
+	2554.10.14={
+		effect = {
+			add_friend = 4527
+			add_friend = 4866
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8090 = {
+	name="Yukio"
+	dynasty=4022710 #Tonegawa
+	religion="shinto"
+	culture="kanto"
+	trait="fortune_builder"
+	trait="content"
+	trait="patient"
+	trait="greedy"
+	trait="quick"
+	trait="diligent"
+	2514.6.8 = {
+		birth=yes
+	}
+	2550.7.12={
+		employer=8085
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8091 = {
+	name="Katsumi" # Second daughter of the Hakushaku of Okinoshima
+	dynasty=4023290
+	father=8072
+	female=yes
+	diplomacy=4
+	martial=5
+	stewardship=10
+	intrigue=5
+	learning=4
+	religion="shinto"
+	culture="chugoku"
+	trait="thrifty_clerk"
+	trait="zealous"
+	trait="quick"
+	trait="twin"
+	trait="deceitful"
+	trait="proud"
+	2526.2.16 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+# Hokkaido
+8092 = {
+	name="Bikki" # Hakushaku of Sapporo and the bordering land
+	dynasty=4023524
+	diplomacy=8
+	martial=8
+	stewardship=5
+	intrigue=6
+	learning=5
+	religion="ainushinto"
+	culture="ainu"
+	trait="charismatic_negotiator"
+	trait="zealous"
+	trait="brave"
+	trait="ambitious"
+	trait="deceitful"
+	trait="diligent"
+	trait="wroth"
+	2510.6.18 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8093 = {
+	name="Benkei" # Son and heir of the Hakushaku of Sapporo
+	dynasty=4023524
+	father=8092
+	diplomacy=8
+	martial=5
+	stewardship=6
+	intrigue=8
+	learning=5
+	religion="ainushinto"
+	culture="ainu"
+	trait="flamboyant_schemer"
+	trait="zealous"
+	trait="honest"
+	trait="ambitious"
+	trait="proud"
+	trait="diligent"
+	trait="kind"
+	2532.9.13 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8094 = {
+	name="Keiichiro" # Hakushaku of Rumoi
+	dynasty=4023096
+	diplomacy=8
+	martial=8
+	stewardship=5
+	intrigue=6
+	learning=5
+	religion="ainushinto"
+	culture="hokkaido"
+	trait="mastermind_theologian"
+	trait="zealous"
+	trait="wroth"
+	trait="ambitious"
+	trait="craven"
+	trait="trusting"
+	trait="gluttonous"
+	2522.6.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8095 = {
+	name="Keiichiro" # Hakushaku of Wakkanai
+	dynasty=4023097
+	diplomacy=5
+	martial=8
+	stewardship=3
+	intrigue=8
+	learning=8
+	religion="east_brethren"
+	culture="hokkaido"
+	trait="skilled_tactician"
+	trait="cruel"
+	trait="wroth"
+	trait="ambitious"
+	trait="brave"
+	trait="one_eyed"
+	trait="strong"
+	trait="pirate"
+	2530.10.28 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8096 = {
+	name="Naoki" # Koushaku of Mombetsu
+	dynasty=4023098
+	diplomacy=7
+	martial=5
+	stewardship=8
+	intrigue=5
+	learning=6
+	religion="ainushinto"
+	culture="hokkaido"
+	trait="fortune_builder"
+	trait="greedy"
+	trait="temperate"
+	trait="content"
+	trait="kind"
+	trait="lustful"
+	2528.7.7 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8097 = {
+	name="Hideo" # Hakushaku of Obihiro
+	dynasty=4023065
+	diplomacy=7
+	martial=5
+	stewardship=5
+	intrigue=7
+	learning=6
+	religion="ainushinto"
+	culture="hokkaido"
+	trait="charismatic_negotiator"
+	trait="patient"
+	trait="humble"
+	trait="paranoid"
+	trait="just"
+	trait="cynical"
+	2530.8.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8098 = {
+	name="Kinzo" # Patriarch of the Ushiromiya family
+	dynasty=2000541
+	religion="shinko"
+	culture="weeb"
+	trait="thrifty_clerk"
+	trait="zealous"
+	trait="quick"
+	trait="paranoid"
+	trait="stubborn"
+	trait="proud"
+	2498.8.17 = {
+		birth=yes
+	}
+	2530.2.1={
+		effect = {
+			wealth = 300
+			add_artifact = gold_bar
+			add_artifact = gold_bar
+		}
+		give_nickname=nick_goldsmith
+		create_bloodline = {
+			type = goldsmith_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8099 = {
+	name="Kurausu" # First child of Kinzo
+	dynasty=2000541
+	father=8098
+	religion="shinko"
+	culture="weeb"
+	trait="thrifty_clerk"
+	trait="strong"
+	trait="stubborn"
+	trait="proud"
+	trait="trusting"
+	2518.2.26 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8108
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8100 = {
+	name="Eba" # Second child of Kinzo
+	dynasty=2000541
+	father=8098
+	female=yes
+	religion="shinko"
+	culture="weeb"
+	trait="thrifty_clerk"
+	trait="diligent"
+	trait="quick"
+	trait="deceitful"
+	trait="proud"
+	trait="ambitious"
+	2520.10.21 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_matrilineal_spouse=8109
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8101 = {
+	name="Rudorufu" # Third child of Kinzo
+	dynasty=2000541
+	father=8098
+	religion="shinko"
+	culture="weeb"
+	trait="underhanded_rogue"
+	trait="lustful"
+	trait="quick"
+	trait="deceitful"
+	trait="gregarious"
+	trait="arbitrary"
+	2523.9.29 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8110
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8102 = {
+	name="Roza" # Fourth child of Kinzo
+	dynasty=2000541
+	father=8098
+	female=yes
+	religion="shinko"
+	culture="weeb"
+	trait="indulgent_wastrel"
+	trait="wroth"
+	trait="paranoid"
+	trait="proud"
+	2526.6.3 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8103 = {
+	name="Jeshika" # Krauss' daughter
+	dynasty=2000541
+	father=8099
+	mother=8108
+	female=yes
+	religion="shinko"
+	culture="weeb"
+	trait="thrifty_clerk"
+	trait="honest"
+	trait="stubborn"
+	trait="poet"
+	2537.8.25 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8104 = {
+	name="Joji" # Eva's son
+	dynasty=2000541
+	father=8109
+	mother=8100
+	religion="shinko"
+	culture="weeb"
+	trait="charismatic_negotiator"
+	trait="diligent"
+	trait="kind"
+	trait="deceitful"
+	trait="proud"
+	2532.3.16 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8105 = {
+	name="Batora" # Rudolf's first child
+	dynasty=2000541
+	father=8101
+	mother=8110
+	religion="shinko"
+	culture="weeb"
+	trait="flamboyant_schemer"
+	trait="kind"
+	trait="shrewd"
+	trait="lustful"
+	trait="stubborn"
+	2537.7.15 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8106 = {
+	name="Enje" # Rudolf's second child
+	dynasty=2000541
+	father=8101
+	mother=8110
+	female=yes
+	religion="shinko"
+	culture="weeb"
+	trait="playful"
+	trait="curious"
+	2549.6.17 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8107 = {
+	name="Maria" # Rosa's daughter
+	dynasty=2000541
+	mother=8102
+	female=yes
+	religion="shinko"
+	culture="weeb"
+	trait="idolizer"
+	trait="playful"
+	trait="legit_bastard"
+	2546.3.29 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8108 = {
+	name="Natsuhi" # Krauss' wife
+	female=yes
+	religion="shinto"
+	culture="kanto"
+	trait="thrifty_clerk"
+	trait="diligent"
+	trait="wroth"
+	trait="proud"
+	trait="kind"
+	2526.7.30 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8099
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8109 = {
+	name="Hideoshi" # Eva's husband
+	religion="bushinto"
+	culture="kansai"
+	trait="thrifty_clerk"
+	trait="ambitious"
+	trait="greedy"
+	trait="gregarious"
+	trait="kind"
+	2526.11.25 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_matrilineal_spouse=8100
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8110 = {
+	name="Kyrie" # Rudolf's wife
+	female=yes
+	religion="shinto"
+	culture="kanto"
+	trait="grey_eminence"
+	trait="diligent"
+	trait="deceitful"
+	trait="genius"
+	trait="envious"
+	trait="patient"
+	2526.11.8 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8095
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+#Tohoku
+8111 = {
+	name="Katsuhiro" # Hakushaku of Aomori
+	dynasty=4023347
+	diplomacy=8
+	martial=3
+	stewardship=5
+	intrigue=8
+	learning=8
+	religion="shinto"
+	culture="tohoku"
+	trait="martial_cleric"
+	trait="proud"
+	trait="content"
+	trait="temperate"
+	trait="kind"
+	trait="slothful"
+	trait="quick"
+	2511.3.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8112 = {
+	name="Kazuma" # First son of the Hakushaku of Aomori
+	dynasty=4023347
+	father=8111
+	diplomacy=8
+	martial=5
+	stewardship=8
+	intrigue=8
+	learning=3
+	religion="shinto"
+	culture="tohoku"
+	trait="charismatic_negotiator"
+	trait="paranoid"
+	trait="deceitful"
+	trait="temperate"
+	trait="lustful"
+	trait="slothful"
+	trait="quick"
+	2529.9.24 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8113 = {
+	name="Katsuo" # Second son of the Hakushaku of Aomori
+	dynasty=4023347
+	father = 8111
+	diplomacy=5
+	martial=8
+	stewardship=8
+	intrigue=8
+	learning=3
+	religion="isukirian"
+	culture="tohoku"
+	trait="fortune_builder"
+	trait="zealous"
+	trait="brave"
+	trait="wroth"
+	trait="paranoid"
+	trait="ambitious"
+	trait="quick"
+	2534.3.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8114 = {
+	name="Katsumi" # Daughter of the Hakushaku of Aomori
+	dynasty=4023347
+	father = 8111
+	diplomacy=5
+	martial=3
+	stewardship=8
+	intrigue=8
+	learning=8
+	religion="shinto"
+	culture="tohoku"
+	trait="flamboyant_schemer"
+	trait="honest"
+	trait="brave"
+	trait="kind"
+	trait="trusting"
+	trait="ambitious"
+	trait="quick"
+	2532.6.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+8115 = {
+	name="Denji" # Hakushaku of Kesennuma
+	dynasty=4023372
+	diplomacy=3
+	martial=12
+	stewardship=3
+	intrigue=3
+	learning=8
+	religion="shinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="lustful"
+	trait="ambitious"
+	trait="brave"
+	trait="uncouth"
+	trait="unyielding_leader"
+	2538.7.6 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+8116 = {
+	name="Eri" # Hakushaku of Fukushima
+	dynasty=4023398
+	female=yes
+	diplomacy=8
+	martial=1
+	stewardship=10
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="tohoku"
+	trait="intricate_webweaver"
+	trait="lustful"
+	trait="ambitious"
+	trait="paranoid"
+	trait="fair"
+	trait="shrewd"
+	2490.6.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8117 = {
+	name="Emiko" # First daughter and heir of the Hakushaku of Fukushima
+	dynasty=4023398
+	mother=8116
+	female=yes
+	diplomacy=7
+	martial=2
+	stewardship=10
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="tohoku"
+	trait="fortune_builder"
+	trait="chaste"
+	trait="ambitious"
+	trait="deceitful"
+	trait="temperate"
+	trait="wroth"
+	trait="groomed"
+	trait="shrewd"
+	2510.3.16 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8118 = {
+	name="Etsuko" # Second daughter of the Hakushaku of Fukushima
+	dynasty=4023398
+	mother=8116
+	female=yes
+	diplomacy=8
+	martial=1
+	stewardship=10
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="tohoku"
+	trait="intricate_webweaver"
+	trait="lustful"
+	trait="ambitious"
+	trait="paranoid"
+	trait="fair"
+	trait="shrewd"
+	2514.4.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8119 = {
+	name="Ema" # Third daughter of the Hakushaku of Fukushima, second marriage
+	dynasty=4023398
+	mother=8116
+	female=yes
+	diplomacy=8
+	martial=1
+	stewardship=10
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="intricate_webweaver"
+	trait="lustful"
+	trait="ambitious"
+	trait="paranoid"
+	trait="fair"
+	trait="shrewd"
+	2517.6.28 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8120 = {
+	name="Eriko" # Fourth daughter of the Hakushaku of Fukushima, second marriage
+	dynasty=4023398
+	mother=8116
+	female=yes
+	diplomacy=8
+	martial=1
+	stewardship=10
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="intricate_webweaver"
+	trait="lustful"
+	trait="ambitious"
+	trait="paranoid"
+	trait="fair"
+	trait="shrewd"
+	2521.6.28 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8121 = {
+	name="Emi" # Fifth daughter of the Hakushaku of Fukushima, third marriage
+	dynasty=4023398
+	mother=8116
+	female=yes
+	diplomacy=8
+	martial=1
+	stewardship=10
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="kansai"
+	trait="intricate_webweaver"
+	trait="lustful"
+	trait="ambitious"
+	trait="paranoid"
+	trait="fair"
+	trait="shrewd"
+	2526.8.12 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8122 = {
+	name="Haruka" # First daughter of the heir of the Hakushaku of Fukushima
+	dynasty=4023398
+	mother=8117
+	female=yes
+	diplomacy=6
+	martial=2
+	stewardship=11
+	intrigue=8
+	learning=5
+	religion="shinto"
+	culture="tohoku"
+	trait="fortune_builder"
+	trait="stubborn"
+	trait="ambitious"
+	trait="deceitful"
+	trait="lustful"
+	trait="kind"
+	trait="twin"
+	trait="shrewd"
+	2530.4.15 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8123 = {
+	name="Hisashi" # Son of the heir of the Hakushaku of Fukushima
+	dynasty=4023398
+	mother=8117
+	diplomacy=10
+	martial=5
+	stewardship=7
+	intrigue=8
+	learning=2
+	religion="shinto"
+	culture="tohoku"
+	trait="fortune_builder"
+	trait="humble"
+	trait="brave"
+	trait="content"
+	trait="lustful"
+	trait="kind"
+	trait="twin"
+	trait="groomed"
+	2530.4.15 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8124 = {
+	name="Himeno" # Second Daughter of the heir of the Hakushaku of Fukushima
+	dynasty=4023398
+	mother=8117
+	female=yes
+	diplomacy=5
+	martial=10
+	stewardship=5
+	intrigue=8
+	learning=8
+	religion="shinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="one_eyed"
+	trait="brave"
+	trait="content"
+	trait="lustful"
+	trait="kind"
+	trait="fair"
+	2534.6.23 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8125 = {
+	name="Kobeni" # Daughter of the second daughter of the Hakushaku of Fukushima
+	dynasty=4023398
+	mother=8118
+	female=yes
+	diplomacy=1
+	martial=10
+	stewardship=1
+	intrigue=10
+	learning=10
+	religion="shinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="craven"
+	trait="greedy"
+	trait="content"
+	trait="humble"
+	trait="kind"
+	trait="fair"
+	2535.8.17 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8126 = {
+	name="Osamu" # Son of the third daughter of the Hakushaku of Fukushima
+	dynasty=4023398
+	mother=8119
+	diplomacy=8
+	martial=8
+	stewardship=8
+	intrigue=3
+	learning=5
+	religion="shinto"
+	culture="kanto"
+	trait="brooding"
+	trait="just"
+	trait="willful"
+	trait="bastard"
+	trait="ambitious"
+	2544.6.13 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+8127 = {
+	name="Haruki" # Hakushaku of Murakami
+	dynasty=4023376
+	father=8203
+	diplomacy=7
+	martial=6
+	stewardship=8
+	intrigue=3
+	learning=9
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="mastermind_theologian"
+	trait="just"
+	trait="trusting"
+	trait="mystic"
+	trait="erudite"
+	2526.9.20 = {
+		birth=yes
+	}
+	2551.9.14={
+		effect = {
+			add_artifact = onimaru
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+8128 = {
+	name="Norisuke" # Hakushaku of Sendai
+	dynasty=4023384 #Higashikata
+	diplomacy=6
+	martial=7
+	stewardship=9
+	intrigue=3
+	learning=8
+	religion="bushinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="trickster"
+	trait="brave"
+	trait="arbitrary"
+	trait="gardener"
+	2499.11.9 = {
+		birth=yes
+	}
+	2522.9.18={
+		add_spouse=8167
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+#Shikoku
+8129 = {
+	name="Jin" # Hakushaku of Kochi, a very capable fighter
+	dynasty=4022979
+	religion="amidism"
+	culture="shikoku"
+	trait="skilled_tactician"
+	trait="ambitious"
+	trait="brave"
+	trait="diligent"
+	trait="wroth"
+	trait="possessed"
+	trait="scarred"
+	trait="strong"
+	trait="groomed"
+	trait="duelist"
+	trait="sympathy_shinto"
+	trait="japanese_2_honour"
+	disallow_random_traits=yes
+	2532.6.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+8130 = {
+	name="Naohide" # Koushaku of Takamatsu
+	dynasty=4023000
+	diplomacy=8
+	martial=6
+	stewardship=4
+	intrigue=6
+	learning=3
+	religion="bushinto"
+	culture="shikoku"
+	trait="underhanded_rogue"
+	trait="scarred"
+	trait="just"
+	trait="diligent"
+	trait="gregarious"
+	trait="envious"
+	2510.3.18 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8131 = {
+	name="Naoshi" # Son and heir of the Koushaku of Takamatsu
+	dynasty=4023000
+	father=8130
+	diplomacy=4
+	martial=8
+	stewardship=7
+	intrigue=7
+	learning=5
+	religion="bushinto"
+	culture="shikoku"
+	trait="tough_soldier"
+	trait="scarred"
+	trait="brave"
+	trait="diligent"
+	trait="gregarious"
+	trait="honest"
+	trait="gluttonous"
+	2531.8.4 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8132 = {
+	name="Yoshiaki" # Hakushaku of Sumoto
+	dynasty=4022981
+	diplomacy=8
+	martial=4
+	stewardship=4
+	intrigue=8
+	learning=8
+	religion="buddhoshinto"
+	culture="shikoku"
+	trait="scholarly_theologian"
+	trait="craven"
+	trait="deceitful"
+	trait="ambitious"
+	trait="greedy"
+	trait="envious"
+	trait="paranoid"
+	trait="japanese_bad_honour"
+	2521.7.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8133 = {
+	name="Kiichiro" # Mayor of Seki
+	dynasty=4023503 # Kimiyoshi
+	religion="shinto"
+	culture="chubu"
+	trait="thrifty_clerk"
+	trait="craven"
+	trait="zealous"
+	trait="kind"
+	trait="content"
+	2489.7.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8134 = {
+	name="Oryo" # Ruler of Tomika
+	dynasty=4023502 # Sonozaki
+	female=yes
+	religion="shinto"
+	culture="chubu"
+	trait="elusive_shadow"
+	trait="stubborn"
+	trait="zealous"
+	trait="kind"
+	2483.7.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8135 = {
+	name="Akane" # Daughter of Oryo
+	dynasty=4023502 # Sonozaki
+	mother=8134
+	female=yes
+	religion="shinto"
+	culture="chubu"
+	trait="intricate_webweaver"
+	trait="stubborn"
+	trait="arbitrary"
+	trait="kind"
+	2510.11.6 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8136 = {
+	name="Mion" # Daughter of Akane
+	dynasty=4023502 # Sonozaki
+	mother=8135
+	female=yes
+	religion="shinto"
+	culture="chubu"
+	trait="intricate_webweaver"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="kind"
+	trait="gregarious"
+	trait="twin"
+	trait="quick"
+	2540.7.10 = {
+		birth=yes
+	}
+	2552.1.1={
+		effect = {
+			add_friend = 8138
+			add_friend = 8139
+			add_friend = 8142
+		}
+		employer=8134
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8137 = {
+	name="Shion" # Daughter of Akane
+	dynasty=4023502 # Sonozaki
+	mother=8135
+	female=yes
+	religion="shinto"
+	culture="chubu"
+	trait="intricate_webweaver"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="kind"
+	trait="gregarious"
+	trait="twin"
+	trait="quick"
+	2540.7.10 = {
+		birth=yes
+	}
+	2552.1.1={
+		employer=8134
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8138 = {
+	name="Rika" # Miko of Mino
+	dynasty=4023501 # Furude
+	female=yes
+	religion="shinto"
+	culture="chubu"
+	diplomacy=8
+	intrigue=8
+	stewardship=6
+	learning=9
+	trait="mastermind_theologian"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="kind"
+	trait="cynical"
+	trait="brooding"
+	trait="quick"
+	trait="conscientious"
+	#trait="reincarnation"
+	2543.8.21 = {
+		birth=yes
+	}
+	2552.1.1={
+		effect = {
+			add_friend = 8136
+			add_friend = 8139
+			add_friend = 8142
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8139 = {
+	name="Keiichi"
+	dynasty=4023506 # Maebara
+	father=8140
+	mother=8141
+	religion="shinto"
+	culture="chubu"
+	trait="grey_eminence"
+	trait="honest"
+	trait="arbitrary"
+	trait="kind"
+	trait="gregarious"
+	trait="lustful"
+	trait="playful"
+	trait="quick"
+	2540.4.13 = {
+		birth=yes
+	}
+	2552.1.1={
+		effect = {
+			add_friend = 8136
+			add_friend = 8138
+			add_friend = 8142
+		}
+		employer=8133
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8140 = {
+	name="Ichiro"
+	dynasty=4023506 # Maebara
+	religion="shinto"
+	culture="chubu"
+	trait="grey_eminence"
+	trait="honest"
+	trait="lustful"
+	trait="kind"
+	trait="gregarious"
+	trait="poet"
+	2521.4.13 = {
+		birth=yes
+	}
+	2532.1.1={
+		add_spouse=8141
+	}
+	2552.1.1={
+		employer=8133
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8141 = {
+	name="Aiko"
+	female=yes
+	religion="shinto"
+	culture="chubu"
+	trait="flamboyant_schemer"
+	trait="honest"
+	trait="kind"
+	trait="gregarious"
+	2521.4.13 = {
+		birth=yes
+	}
+	2532.1.1={
+		add_spouse=8140
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8142 = {
+	name="Rena"
+	dynasty=4023505 # Ryugu
+	female=yes
+	religion="shinto"
+	culture="chubu"
+	trait="intricate_webweaver"
+	trait="deceitful"
+	trait="paranoid"
+	trait="kind"
+	trait="brave"
+	trait="diligent"
+	trait="quick"
+	trait="affectionate"
+	2541.7.28 = {
+		birth=yes
+	}
+	2552.1.1={
+		effect = {
+			add_friend = 8136
+			add_friend = 8138
+			add_friend = 8139
+		}
+		employer=8133
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8144 = {
+	name="Tetsuro"
+	dynasty=4023510 # Okonogi
+	religion="shinto"
+	culture="chubu"
+	trait="brilliant_strategist"
+	trait="deceitful"
+	trait="greedy"
+	trait="shrewd"
+	trait="arbitrary"
+	trait="strategist"
+	trait="mountain_terrain_leader"
+	2516.12.1 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8145 = {
+	name="Irie"
+	dynasty=4023508 # Kyosuke
+	religion="shinto"
+	culture="chubu"
+	trait="scholarly_theologian"
+	trait="kind"
+	trait="lustful"
+	trait="shrewd"
+	trait="erudite"
+	trait="physician"
+	trait="diligent"
+	2519.12.3 = {
+		birth=yes
+	}
+	2552.1.1={
+		employer=8133
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8146 = {
+	name="Oishi"
+	dynasty=4023509 # Kuraudo
+	religion="shinto"
+	culture="chubu"
+	trait="brilliant_strategist"
+	trait="kind"
+	trait="gregarious"
+	trait="shrewd"
+	trait="deceitful"
+	trait="just"
+	trait="diligent"
+	trait="strong"
+	trait="is_fat"
+	2496.11.15 = {
+		birth=yes
+	}
+	2552.1.1={
+		employer=8133
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8147 = { #Daimyo of Kansai, most powerful man in Honshu bar the Emperor
+	name="Shigeru"
+	dynasty=4022735 # Mori
+	diplomacy=8
+	martial=10
+	intrigue=8
+	stewardship=6
+	learning=7
+	religion="bushinto"
+	culture="kansai"
+	trait="skilled_tactician"
+	trait="brave"
+	trait="gregarious"
+	trait="shrewd"
+	trait="ambitious"
+	trait="strong"
+	trait="proud"
+	trait="temperate"
+	2506.3.18 = {
+		birth=yes
+	}
+	2530.8.18={
+		effect = {
+			add_artifact = juzumaru
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8148 = { #Son and heir of the Daimyo, ruler of Himeji
+	name="Eiji"
+	dynasty=4022735 # Mori
+	diplomacy=8
+	martial=9
+	intrigue=8
+	stewardship=7
+	learning=7
+	father=8147
+	religion="bushinto"
+	culture="kansai"
+	trait="skilled_tactician"
+	trait="brave"
+	trait="kind"
+	trait="paranoid"
+	trait="ambitious"
+	trait="strong"
+	trait="proud"
+	trait="falconer"
+	2527.4.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8149 = { #First daughter of the Daimyo
+	name="Emiko"
+	dynasty=4022735 # Mori
+	female=yes
+	diplomacy=6
+	martial=5
+	intrigue=8
+	stewardship=8
+	learning=8
+	father=8147
+	religion="bushinto"
+	culture="kansai"
+	trait="midas_touched"
+	trait="greedy"
+	trait="kind"
+	trait="paranoid"
+	trait="proud"
+	trait="temperate"
+	2531.8.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8150 = { #Second daughter of the Daimyo
+	name="Eiko"
+	dynasty=4022735 # Mori
+	female=yes
+	diplomacy=6
+	martial=5
+	intrigue=8
+	stewardship=8
+	learning=8
+	father=8147
+	religion="bushinto"
+	culture="kansai"
+	trait="intricate_webweaver"
+	trait="greedy"
+	trait="paranoid"
+	trait="ambitious"
+	trait="proud"
+	trait="envious"
+	2532.10.10 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8151 = { #Hakushaku of Fukuchiyama, once the Koushaku of Hyogo
+	name="Kagemitsu"
+	dynasty=4022784 # Daigo
+	diplomacy=5
+	martial=8
+	intrigue=8
+	stewardship=3
+	learning=10
+	religion="bushinto"
+	culture="kansai"
+	trait="tough_soldier"
+	trait="greedy"
+	trait="cruel"
+	trait="ambitious"
+	trait="proud"
+	trait="mystic"
+	trait="scarred"
+	2509.4.14 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8155
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8152 = { #Hakushaku of Matsusaka
+	name="Taishi"
+	dynasty=4022789 # Tatsumi
+	diplomacy=8
+	martial=4
+	intrigue=8
+	stewardship=8
+	learning=10
+	religion="amidism"
+	culture="kansai"
+	trait="mastermind_theologian"
+	trait="erudite"
+	trait="poet"
+	trait="groomed"
+	trait="patient"
+	trait="humble"
+	trait="gluttonous"
+	2525.5.5 = {
+		birth=yes
+	}
+	2548.8.12 = {
+		effect = { add_friend = 8148 }
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8153 = { #First son of Kagemitsu, cursed by birth to not have limbs due to his father's deal with the demons
+	name="Hyakkimaru"
+	dynasty=4022784 # Daigo
+	father=8151
+	mother=8155
+	diplomacy=1
+	martial=12
+	intrigue=7
+	stewardship=3
+	learning=5
+	religion="bushinto"
+	culture="kansai"
+	trait="skilled_tactician"
+	trait="blinded"
+	trait="one_handed"
+	trait="one_legged"
+	trait="brave"
+	trait="strong"
+	trait="fair"
+	trait="diligent"
+	trait="patient"
+	trait="stubborn"
+	trait="duelist"
+	2538.4.14 = {
+		birth=yes
+		effect = {
+			add_artifact = prosthetic_hand_blade
+			add_artifact = prosthetic_hand_blade
+			add_artifact = prosthetic_leg_artifact
+			add_artifact = prosthetic_leg_artifact
+		}
+	}
+	2552.9.18={
+		effect = {
+			add_friend = 8156
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8154 = { #Second son of Kagemitsu
+	name="Tahomaru"
+	dynasty=4022784 # Daigo
+	father=8151
+	mother=8155
+	religion="bushinto"
+	culture="kansai"
+	trait="tough_soldier"
+	trait="envious"
+	trait="stubborn"
+	trait="proud"
+	trait="brave"
+	trait="haughty"
+	trait="willful"
+	trait="shrewd"
+	2539.4.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8155 = { #Wife of the Hakushaku of Fukuchiyama
+	name="Oku"
+	female=yes
+	religion="bushinto"
+	culture="kansai"
+	trait="charismatic_negotiator"
+	trait="shy"
+	trait="depressed"
+	trait="kind"
+	2519.4.14 = {
+		birth=yes
+	}
+	2530.9.18={
+		add_spouse=8151
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8156 = {
+	name="Dororo"
+	female=yes
+	religion="bushinto"
+	culture="kansai"
+	trait="underhanded_rogue"
+	trait="rowdy"
+	trait="playful"
+	trait="curious"
+	trait="greedy"
+	trait="uncouth"
+	2542.4.14 = {
+		birth=yes
+	}
+	2552.9.18={
+		effect = {
+			add_friend = 8153
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8157 = { #Koushaku of Fukui
+	name="Akinobu"
+	dynasty=4022733 # Yamazaki
+	diplomacy=8
+	martial=4
+	intrigue=8
+	stewardship=8
+	learning=10
+	religion="buddhoshinto"
+	culture="kansai"
+	trait="charismatic_negotiator"
+	trait="deceitful"
+	trait="just"
+	trait="sympathy_buddhism"
+	trait="humble"
+	trait="content"
+	2520.11.16 = {
+		birth=yes
+	}
+	2539.9.16 = {
+		add_spouse=8161
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8158 = { #Hakushaku of Ono, vassal of Fukui
+	name="Enji"
+	dynasty=4023428 # Shimizu
+	diplomacy=5
+	martial=10
+	intrigue=8
+	stewardship=5
+	learning=8
+	religion="amidism"
+	culture="chubu"
+	trait="skilled_tactician"
+	trait="brave"
+	trait="honest"
+	trait="robust"
+	trait="zealous"
+	trait="ambitious"
+	2518.3.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8159 = { #Previous Koushaku of Kyoto
+	name="Touya"
+	dynasty=4022777 # Shinmen
+	diplomacy=10
+	martial=10
+	intrigue=10
+	stewardship=10
+	learning=10
+	religion="bushinto"
+	culture="kansai"
+	trait="brilliant_strategist"
+	trait="ambitious"
+	trait="brave"
+	trait="wroth"
+	trait="proud"
+	trait="gregarious"
+	trait="cancer"
+	2490.7.8 = {
+		birth=yes
+	}
+	2548.6.12 = {
+		death=yes
+	}
+}
+
+8160 = { # Koushaku of Kyoto
+	name="Kanzan"
+	dynasty=4022777 # Shinmen
+	father=8159
+	diplomacy=8
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=8
+	religion="bushinto"
+	culture="kansai"
+	trait="tough_soldier"
+	trait="honest"
+	trait="trusting"
+	trait="gregarious"
+	trait="kind"
+	trait="ambitious"
+	2518.9.17 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8161 = { # Sister of the Koushaku of Kyoto, wife of the Koushaku of Fukui
+	name="Kanon"
+	dynasty=4022777 # Shinmen
+	father=8159
+	female=yes
+	diplomacy=8
+	martial=5
+	intrigue=7
+	stewardship=8
+	learning=7
+	religion="bushinto"
+	culture="kansai"
+	trait="underhanded_rogue"
+	trait="kind"
+	trait="charitable"
+	trait="arbitrary"
+	trait="stubborn"
+	trait="ambitious"
+	2521.3.20 = {
+		birth=yes
+	}
+	2539.9.16 = {
+		add_spouse=8157
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8162 = { # Hakushaku of Shiga
+	name="Makoto"
+	dynasty=4022778 # Suzumiya
+	diplomacy=9
+	martial=5
+	intrigue=6
+	stewardship=7
+	learning=8
+	religion="amidism"
+	culture="kansai"
+	trait="martial_cleric"
+	trait="brave"
+	trait="honest"
+	trait="content"
+	trait="zealous"
+	trait="chaste"
+	2529.6.18 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8163 = {
+	name="Jobin" # Eldest son of the Hakushaku of Sendai
+	dynasty=4023384 #Higashikata
+	father=8128
+	mother=8167
+	religion="bushinto"
+	culture="tohoku"
+	trait="midas_touched"
+	trait="patient"
+	trait="brave"
+	trait="ambitious"
+	trait="gregarious"
+	2522.11.9 = {
+		birth=yes
+	}
+	2538.9.18={
+		add_spouse=8168
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8164 = {
+	name="Hato" # First daughter of the Hakushaku of Sendai
+	dynasty=4023384 #Higashikata
+	father=8128
+	mother=8167
+	female=yes
+	religion="bushinto"
+	culture="tohoku"
+	trait="flamboyant_schemer"
+	trait="arbitrary"
+	trait="gregarious"
+	trait="proud"
+	2531.11.9 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8165 = {
+	name="Joshu" # Second son of the Hakushaku of Sendai
+	dynasty=4023384 #Higashikata
+	father=8128
+	mother=8167
+	religion="bushinto"
+	culture="tohoku"
+	trait="indulgent_wastrel"
+	trait="cruel"
+	trait="cynical"
+	trait="arbitrary"
+	trait="greedy"
+	2536.11.9 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8166 = {
+	name="Daiya" # Second daughter of the Hakushaku of Sendai
+	dynasty=4023384 #Higashikata
+	father=8128
+	mother=8167
+	female=yes
+	religion="bushinto"
+	culture="tohoku"
+	trait="underhanded_rogue"
+	trait="slothful"
+	trait="arbitrary"
+	2538.11.9 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8167 = {
+	name="Kaato" # Wife of the Hakushaku of Sendai
+	female=yes
+	religion="bushinto"
+	culture="tohoku"
+	trait="grey_eminence"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="gregarious"
+	trait="cruel"
+	2503.11.9 = {
+		birth=yes
+	}
+	2522.9.18={
+		add_spouse=8128
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8168 = {
+	name="Mitsuba" # Wife of the son of the Hakushaku of Sendai
+	female=yes
+	religion="bushinto"
+	culture="tohoku"
+	trait="charismatic_negotiator"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="groomed"
+	2524.11.9 = {
+		birth=yes
+	}
+	2538.9.18={
+		add_spouse=8163
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8169 = {
+	name="Tsurugi" # Grandson of the Hakushaku of Sendai
+	dynasty=4023384 #Higashikata
+	father=8163
+	mother=8168
+	religion="bushinto"
+	culture="tohoku"
+	trait="grey_eminence"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="playful"
+	2545.11.9 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8170 = {
+	name="Josuke" # Adopted by the Hakushaku of Sendai
+	dynasty=4023384 #Higashikata
+	religion="bushinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="adopted_child"
+	trait="diligent"
+	trait="brave"
+	trait="humble"
+	trait="honest"
+	2536.8.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8171 = { # Hakushaku of Taketomi, a merchant conflicted in his beliefs after a Filipino business associate introduced him to the Katoliko faith...
+	name="Noboru"
+	dynasty=4023175 # Yamashiro
+	religion="shinko"
+	secret_religion="katoliko"
+	culture="ryukyuan"
+	trait="thrifty_clerk"
+	trait="kind"
+	trait="patient"
+	trait="ambitious"
+	trait="brave"
+	trait="cynical"
+	trait="groomed"
+	disallow_random_traits=yes
+	2534.8.18 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8172 = { # Hakushaku of Ishigaki
+	name="Gosamaru"
+	dynasty=4023166 # Higa
+	religion="shinko"
+	culture="ryukyuan"
+	diplomacy=6
+	martial=6
+	intrigue=7
+	stewardship=7
+	learning=8
+	trait="tough_soldier"
+	trait="ambitious"
+	trait="paranoid"
+	trait="brave"
+	trait="just"
+	trait="envious"
+	2518.6.19 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8173 = { # Daughter of the Hakushaku of Ishigaki
+	name="Hiyori"
+	dynasty=4023166 # Higa
+	female=yes
+	father=8172
+	religion="shinko"
+	culture="ryukyuan"
+	diplomacy=8
+	martial=3
+	intrigue=8
+	stewardship=6
+	learning=8
+	trait="thrifty_clerk"
+	trait="shy"
+	trait="trusting"
+	trait="craven"
+	trait="just"
+	trait="humble"
+	2539.12.25 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8174 = { # Hakushaku of Miyakojima
+	name="Kanken"
+	dynasty=4023181 # Higashi
+	religion="east_brethren"
+	culture="ryukyuan"
+	diplomacy=4
+	martial=8
+	intrigue=8
+	stewardship=6
+	learning=6
+	trait="tough_soldier"
+	trait="scarred"
+	trait="ambitious"
+	trait="greedy"
+	trait="wroth"
+	trait="lustful"
+	trait="brave"
+	trait="pirate"
+	2510.6.18 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8175 = { # Son and heir of the Hakushaku of Miyakojima
+	name="Kanehisa"
+	dynasty=4023181 # Higashi
+	father=8174
+	religion="east_brethren"
+	culture="ryukyuan"
+	diplomacy=6
+	martial=8
+	intrigue=8
+	stewardship=4
+	learning=6
+	trait="tough_soldier"
+	trait="scarred"
+	trait="gregarious"
+	trait="deceitful"
+	trait="wroth"
+	trait="lustful"
+	trait="brave"
+	2532.8.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8176 = { # Daughter of the Hakushaku of Miyakojima
+	name="Katsuko"
+	dynasty=4023181 # Higashi
+	female=yes
+	father=8174
+	religion="shinko"
+	culture="ryukyuan"
+	diplomacy=6
+	martial=8
+	intrigue=8
+	stewardship=4
+	learning=6
+	trait="thrifty_clerk"
+	trait="kind"
+	trait="gregarious"
+	trait="honest"
+	trait="zealous"
+	trait="brave"
+	2535.9.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8177 = { # Koushaku of Okinawa
+	name="Wiriamu"
+	dynasty=2000537 # Adamusu
+	religion="shinko"
+	culture="weeb"
+	diplomacy=6
+	martial=8
+	intrigue=6
+	stewardship=5
+	learning=4
+	trait="tough_soldier"
+	trait="stubborn"
+	trait="cynical"
+	trait="gregarious"
+	trait="proud"
+	trait="sturdy"
+	2526.7.27 = {
+		birth=yes
+	}
+	2543.9.18 = {
+		add_spouse=8179
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8178 = { # Daughter of the Koushaku of Okinawa
+	name="Takako"
+	dynasty=2000537 # Adamusu
+	female = yes
+	father = 8177
+	mother = 8179
+	religion="shinko"
+	culture="weeb"
+	intrigue = 8
+	learning = 7
+	trait="brooding"
+	trait="willful"
+	trait="shrewd"
+	2545.7.27 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8179 = { # Wife of the Koushaku of Okinawa
+	name="Sutera"
+	dynasty=2000538 # Porusen
+	female = yes
+	religion="shinko"
+	culture="weeb"
+	trait="shrewd"
+	2524.8.8 = {
+		birth=yes
+	}
+	2543.9.18 = {
+		add_spouse=8177
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8180 = { # Hakushaku of Nago
+	name="Tairaa"
+	dynasty=2000528 # Heneshi
+	religion="shinko"
+	culture="weeb"
+	trait="brilliant_strategist"
+	trait="ambitious"
+	trait="kind"
+	trait="just"
+	trait="chaste"
+	trait="fair"
+	trait="diligent"
+	trait="quick"
+	trait="charitable"
+	trait="trusting"
+	disallow_random_traits=yes
+	2514.8.2 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8181 = { # Son and heir of the Hakushaku of Nago
+	name="Goku"
+	dynasty=2000528 # Heneshi
+	father=8180
+	religion="shinko"
+	culture="weeb"
+	trait="tough_soldier"
+	trait="proud"
+	trait="ambitious"
+	trait="gregarious"
+	trait="lustful"
+	trait="kind"
+	trait="diligent"
+	trait="scarred"
+	disallow_random_traits=yes
+	2537.3.27 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8182 = { # Deidara of the stone village
+	name="Deidara"
+	religion="bushinto"
+	culture="chugoku"
+	trait="skilled_tactician"
+	trait="proud"
+	trait="envious"
+	trait="diligent"
+	trait="groomed"
+	trait="quick"
+	trait="strategist"
+	trait="ambitious"
+	trait="brave"
+	trait="cynical"
+	trait="stubborn"
+	disallow_random_traits=yes
+	2537.1.18 = {
+		birth=yes
+	}
+	2554.1.14={
+		employer= 8063
+		effect={
+			give_job_title = job_marshal
+			add_friend=8063
+		}
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8183 = { # Hakushaku of Zamami
+	name="Nariyoshi"
+	dynasty=4023169 # Miyagi
+	religion="shinko"
+	culture="ryukyuan"
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=7
+	trait="tough_soldier"
+	trait="patient"
+	trait="kind"
+	trait="diligent"
+	trait="strong"
+	trait="robust"
+	trait="japanese_3_honour"
+	2486.9.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8184 = { # Son of the Hakushaku of Zamami
+	name="Eiji"
+	dynasty=4023169 # Miyagi
+	religion="shinko"
+	culture="ryukyuan"
+	father = 8183
+	diplomacy=6
+	martial=8
+	intrigue=5
+	stewardship=7
+	learning=7
+	trait="tough_soldier"
+	trait="patient"
+	trait="ambitious"
+	trait="strong"
+	trait="robust"
+	trait="poet"
+	2505.4.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8185 = { # Grandson of the Hakushaku of Zamami
+	name="Chozen"
+	dynasty=4023169 # Miyagi
+	religion="shinko"
+	culture="ryukyuan"
+	father = 8184
+	diplomacy=5
+	martial=8
+	intrigue=5
+	stewardship=8
+	learning=4
+	trait="fortune_builder"
+	trait="patient"
+	trait="greedy"
+	trait="strong"
+	trait="robust"
+	trait="proud"
+	2529.8.28 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8186 = { # Hakushaku of Amami
+	name="Yamatogata"
+	dynasty=4023180 # Senkan
+	religion="buddhoshinto"
+	culture="ryukyuan"
+	diplomacy=3
+	martial=10
+	intrigue=3
+	stewardship=8
+	learning=8
+	trait="skilled_tactician"
+	trait="brave"
+	trait="ambitious"
+	trait="robust"
+	trait="proud"
+	trait="stubborn"
+	trait="chaste"
+	2520.2.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8187 = { # Daughter and heir of the Hakushaku of Amami
+	name="Yamato"
+	dynasty=4023180 # Senkan
+	female=yes
+	father=8186
+	religion="buddhoshinto"
+	culture="ryukyuan"
+	diplomacy=3
+	martial=10
+	learning=8
+	trait="haughty"
+	trait="proud"
+	trait="robust"
+	2541.12.16 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8188 = { # Second daughter of the Hakushaku of Amami
+	name="Musashi"
+	dynasty=4023180 # Senkan
+	female=yes
+	father=8186
+	religion="buddhoshinto"
+	culture="ryukyuan"
+	diplomacy=3
+	martial=9
+	learning=8
+	trait="rowdy"
+	trait="ambitious"
+	2542.8.5 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8189 = { # Bastard daughter of the Hakushaku of Amami
+	name="Shinano"
+	dynasty=4023180 # Senkan
+	female=yes
+	father=8186
+	religion="buddhoshinto"
+	culture="ryukyuan"
+	diplomacy=3
+	martial=10
+	learning=8
+	trait="haughty"
+	trait="bastard"
+	2544.11.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8190 = { # Hakushaku of Itoman
+	name="Seiji"
+	dynasty=4023165 # Gushiken
+	religion="shinko"
+	culture="ryukyuan"
+	diplomacy=9
+	martial=7
+	intrigue=7
+	stewardship=3
+	learning=8
+	trait="grey_eminence"
+	trait="gregarious"
+	trait="content"
+	trait="honest"
+	trait="zealous"
+	trait="stubborn"
+	2525.9.20 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8191 ={
+    name="Munaki"
+	religion="bushinto"
+	culture="chugoku"
+	dynasty=4023302
+	trait="midas_touched"
+	trait="fair"
+	trait="seducer"
+	trait="lustful"
+	trait="ambitious"
+	trait="arbitrary"
+	trait="gregarious"
+	trait="groomed"
+	trait="strong"
+	trait="socializer"
+	trait="fecund"
+	2534.7.25={
+        birth=yes
+	}
+	2548.5.25={
+        effect={
+		add_friend=26662642
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+8192 ={
+    name="Ippo"
+	religion="shinto"
+	culture="kanto"
+	dynasty=4022701
+	trait="tough_soldier"
+	trait="dwarf"
+	trait="shy"
+	trait="duelist"
+	trait="strong"
+	trait="stubborn"
+	trait="kind"
+	trait="humble"
+	2534.11.23={
+        birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+8193 ={
+    name="Rufi"
+	religion="east_brethren"
+	culture="kyushu"
+	dynasty=4022901
+	trait="tough_soldier"
+	trait="brave"
+	trait="gluttonous"
+	trait="ambitious"
+	trait="patient"
+	trait="gregarious"
+	trait="pirate"
+	trait="strong"
+	2538.5.5={
+        birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+#Post-Asakura Shogunate Asakura
+8194 ={
+    name="Satoru"
+	dynasty=4023376
+	father=9555
+	religion="shinto"
+	culture="tohoku"
+	trait="tough_soldier"
+	trait="deceitful"
+	trait="cruel"
+	trait="ambitious"
+	trait="temperate"
+	trait="gregarious"
+	disallow_random_traits=yes
+	2295.3.19 = {
+		birth=yes
+	}
+	2350.1.3 = {
+		death=yes
+	}
+}
+8195 ={
+    name="Hao"
+	dynasty=4023376
+	father=8194
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="mastermind_theologian"
+	trait="zealous"
+	trait="mystic"
+	trait="ambitious"
+	trait="brave"
+	trait="gregarious"
+	trait="kind"
+	trait="arbitrary"
+	disallow_random_traits=yes
+	2318.9.6 = {
+		birth=yes
+	}
+	2390.7.7 = {
+		death=yes
+	}
+}
+8196 ={
+    name="Saburu"
+	dynasty=4023376
+	father=8195
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="ambitious"
+	trait="brave"
+	trait="gregarious"
+	trait="wroth"
+	trait="diligent"
+	disallow_random_traits=yes
+	2339.4.8 = {
+		birth=yes
+	}
+	2388.4.11 = {
+		death=yes
+	}
+}
+8197 ={
+    name="Tsunenaga"
+	dynasty=4023376
+	father=8196
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="craven"
+	trait="content"
+	trait="kind"
+	trait="honest"
+	trait="humble"
+	trait="gluttonous"
+	disallow_random_traits=yes
+	2358.4.8 = {
+		birth=yes
+	}
+	2413.6.6 = {
+		death=yes
+	}
+}
+8198 ={
+    name="Zen"
+	dynasty=4023376
+	father=8197
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="skilled_tactician"
+	trait="craven"
+	trait="content"
+	trait="kind"
+	trait="honest"
+	trait="humble"
+	trait="gluttonous"
+	disallow_random_traits=yes
+	2383.6.10 = {
+		birth=yes
+	}
+	2450.9.3 = {
+		death=yes
+	}
+}
+8199 ={
+    name="Yuji"
+	dynasty=4023376
+	father=8198
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="fortune_builder"
+	trait="greedy"
+	trait="stubborn"
+	trait="kind"
+	trait="gregarious"
+	trait="deceitful"
+	disallow_random_traits=yes
+	2407.1.25 = {
+		birth=yes
+	}
+	2469.4.21 = {
+		death=yes
+	}
+}
+8200 ={
+    name="Naoki"
+	dynasty=4023376
+	father=8199
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="fortune_builder"
+	trait="greedy"
+	trait="humble"
+	trait="deceitful"
+	trait="shy"
+	trait="temperate"
+	disallow_random_traits=yes
+	2426.8.8 = {
+		birth=yes
+	}
+	2479.3.10 = {
+		death=yes
+	}
+}
+8201 ={
+    name="Mikihisa"
+	dynasty=4023376
+	father=8200
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="charismatic_negotiator"
+	trait="zealous"
+	trait="proud"
+	trait="brave"
+	trait="scarred"
+	trait="shrewd"
+	disallow_random_traits=yes
+	2449.9.10 = {
+		birth=yes
+	}
+	2514.8.11 = {
+		death=yes
+	}
+}
+8202 ={
+    name="Naoki"
+	dynasty=4023376
+	father=8201
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="charismatic_negotiator"
+	trait="zealous"
+	trait="proud"
+	trait="brave"
+	trait="scarred"
+	trait="shrewd"
+	disallow_random_traits=yes
+	2469.2.13 = {
+		birth=yes
+	}
+	2518.1.2 = {
+		death=yes
+	}
+}
+8203 ={
+    name="Tadashi"
+	dynasty=4023376
+	father=8202
+	religion="buddhoshinto"
+	culture="tohoku"
+	trait="charismatic_negotiator"
+	trait="zealous"
+	trait="proud"
+	trait="brave"
+	trait="scarred"
+	trait="shrewd"
+	disallow_random_traits=yes
+	2495.4.20 = {
+		birth=yes
+	}
+	2551.9.14 = {
+		death=yes
+	}
+}
+#Royal Dynasty of Ryukyu
+8204 ={
+    name="Futoshi" # Hakushaku of Izena, descendant of the Royal Dynasty of Ryukyu
+	dynasty=4023112 #Sho
+	religion="shinko"
+	culture="ryukyuan"
+	trait="charismatic_negotiator"
+	trait="zealous"
+	trait="proud"
+	trait="brave"
+	trait="ambitious"
+	trait="gregarious"
+	trait="patient"
+	trait="japanese_1_honour"
+	disallow_random_traits=yes
+	2510.8.13 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8205 ={
+    name="Mitsutoshi" # Hakushaku of Izena
+	dynasty=4023112 #Sho
+	father=8204
+	religion="shinko"
+	culture="ryukyuan"
+	trait="charismatic_negotiator"
+	trait="honest"
+	trait="just"
+	trait="brave"
+	trait="ambitious"
+	trait="gregarious"
+	disallow_random_traits=yes
+	2530.9.27 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+8206 ={
+    name="Fumiko" # Daughter of the Hakushaku of Izena, priest of the Temple of Uchihana
+    female=yes
+	dynasty=4023112 #Sho
+	father=8204
+	religion="shinko"
+	culture="ryukyuan"
+	trait="mastermind_theologian"
+	trait="zealous"
+	trait="kind"
+	trait="honest"
+	trait="erudite"
+	trait="humble"
+	disallow_random_traits=yes
+	2533.8.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+8207 ={
+    name="Yamato" # Grand Patriarch of the Kirishitan Church
+    dynasty=4022849
+	religion="kirishitan"
+	culture="kyushu"
+	trait="mastermind_theologian"
+	trait="zealous"
+	trait="kind"
+	trait="honest"
+	trait="erudite"
+	trait="humble"
+	trait="chaste"
+	disallow_random_traits=yes
+	2515.3.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+8208 = {
+	name="Kenji"
+	dynasty=4022649 #Endo
+	religion="shinto"
+	culture="kanto"
+	trait="grey_eminence"
+	trait="poet"
+	trait="kind"
+	trait="gregarious"
+	trait="shrewd"
+	2494.8.11 = {
+		birth=yes
+	}
+	2541.1.1 = {
+		death=yes
+	}
+}
+
+8209 = {
+	name="Yuuji"
+	dynasty=4022649 #Endo
+	father=8208
+	religion="shinto"
+	culture="kanto"
+	trait="intricate_webweaver"
+	trait="deceitful"
+	trait="greedy"
+	trait="diligent"
+	trait="shrewd"
+	2522.8.11 = {
+		birth=yes
+	}
+	2550.7.12={
+		employer=8085
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}

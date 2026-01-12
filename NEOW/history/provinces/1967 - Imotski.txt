@@ -1,0 +1,13 @@
+# 1967 - Imotski
+
+# County Title
+title = c_imotski
+
+# Settlements
+max_settlements = 4
+b_tomislavgrad = tribal
+b_mostar = temple
+
+# Misc
+culture = bosnian
+religion = catholic

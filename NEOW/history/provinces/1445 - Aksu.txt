@@ -1,0 +1,17 @@
+# County Title
+title = c_aksu
+
+# Settlements
+max_settlements = 5
+
+b_aksu_mongolia = castle
+b_wensu = temple
+b_tumshuk = city
+#b_awat =
+#b_kelpin =
+#b_aral =
+
+# Misc
+culture = uyghur
+religion = ovlatii
+

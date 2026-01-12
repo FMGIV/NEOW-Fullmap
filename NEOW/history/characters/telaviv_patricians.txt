@@ -1,0 +1,867 @@
+# Tel Aviv Patricians (except the ones that are in other files)
+
+4193 ={ 	
+    name="Binyamin" # The Montefiore
+	dynasty=1958041
+	religion="mikraist"
+	culture="israeli"
+	diplomacy=15
+	martial=3
+	stewardship=10
+	intrigue=7
+	learning=9
+	trait="midas_touched"
+	trait="ambitious"
+	trait="diligent"
+	trait="greedy"
+	trait="honest"
+	trait="fair"
+	father=4234
+	2515.6.17={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = sephardi
+		}		
+	}
+	2539.1.30={
+		add_spouse=4202
+	}	
+	2666.8.8={
+		death=yes
+	}
+}
+
+4194 ={ 	
+    name="Elchanan" # The Dizengoff
+	dynasty=1957026
+	religion="haskalah"
+	secret_religion = "jewish"
+	culture="israeli"
+	diplomacy=8
+	martial=3
+	stewardship=10
+	intrigue=7
+	learning=9
+	trait="midas_touched"
+	trait="ambitious"
+	trait="diligent"
+	trait="greedy"
+	trait="honest"
+	trait="fair"
+	father=4225
+	2504.3.16={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2537.12.5={
+		add_spouse=4197
+	}	
+	2666.8.8={
+		death=yes
+	}
+}
+
+4195 ={ 	
+    name="Lewnis" # The Algerian adventurer
+	dynasty=1933022
+	religion="malikite"
+	culture="algerian"
+	diplomacy=8
+	martial=3
+	stewardship=10
+	intrigue=7
+	learning=9
+	trait="midas_touched"
+	trait="ambitious"
+	trait="adventurer"
+	trait="greedy"
+	trait="honest"
+	trait="fair"
+	2531.3.29={
+		birth=yes
+	}
+	2666.8.8={
+		death=yes
+	}
+}
+
+4196 ={ 	
+    name="Idan" # Dizengoff's son
+	dynasty=1957026
+	religion="haskalah"
+	secret_religion = "jewish"
+	culture="israeli"
+	diplomacy=10
+	martial=7
+	stewardship=9
+	intrigue=5
+	learning=8
+	trait="ambitious"
+	trait="quick"
+	father=4194
+	mother=4197	
+	2541.7.3={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2666.8.8={
+		death=yes
+	}
+}
+
+4197 ={ 	
+    name="Chanah" # Dizengoff's wife
+	dynasty=1987001
+	religion="mikraist"
+	culture="israeli"
+	diplomacy=10
+	martial=5
+	stewardship=11
+	intrigue=8
+	learning=8
+	trait="elusive_shadow"
+	trait="cynical"
+	trait="genius"
+	female=yes	
+	2505.8.17={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2537.12.5={
+		add_spouse=4194
+	}	
+	2666.8.8={
+		death=yes
+	}
+}
+
+4198 ={ 	
+    name="Nimrod" # Dizengoff's 2nd son
+	dynasty=1957026
+	religion="haskalah"
+	secret_religion = "jewish"
+	culture="israeli"
+	diplomacy=5
+	martial=2
+	stewardship=7
+	intrigue=5
+	learning=3
+	father=4194
+	mother=4197	
+	2548.9.12={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2666.8.8={
+		death=yes
+	}
+}
+
+4199 ={ 	
+    name="Aviva" # Chuldai's wife
+	dynasty=1987000
+	religion="jewish"
+	culture="ashkenazi"
+	diplomacy=5
+	martial=2
+	stewardship=7
+	intrigue=10
+	learning=3	
+	female=yes	
+	2520.10.20={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2538.10.3={
+		add_spouse=3029
+	}	
+	2666.8.8={
+		death=yes
+	}
+}
+
+4200 ={ 	
+    name="Noya" # Chuldai's daughter
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	diplomacy=5
+	martial=2
+	stewardship=15
+	intrigue=13
+	learning=10
+	female=yes	
+	father=3029
+	mother=4199		
+	2539.5.3={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2666.8.8={
+		death=yes
+	}
+}
+
+4201 ={ 	
+    name="Tomer" # Chuldai's son
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	diplomacy=5
+	martial=5
+	stewardship=10
+	intrigue=5
+	learning=7
+	father=3029
+	mother=4199		
+	2542.6.5={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2666.8.8={
+		death=yes
+	}
+}
+
+4202 ={ 	
+    name="Aldonza" # Montefiore's wife
+	dynasty=25550818
+	religion="jewish"
+	culture="andalusian"
+	diplomacy=10
+	martial=5
+	stewardship=10
+	intrigue=5
+	learning=7
+	female=yes		
+	2520.6.5={
+		birth=yes
+	}
+	2539.1.30={
+		add_spouse=4193
+	}	
+	2666.8.8={
+		death=yes
+	}
+}
+
+####Epic Tel Aviv history
+
+4203 ={ 	
+    name="Meir" # first recorded lord of tel aviv
+	dynasty=1957044
+	religion="jewish"
+	culture="israeli"
+	diplomacy=10
+	martial=5
+	stewardship=10
+	intrigue=5
+	learning=7	
+	2132.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2203.1.1={
+		death=yes
+	}
+}
+
+4204 ={ 	
+    name="Uziel" #
+	dynasty=1957044
+	religion="mikraist"
+	culture="israeli"
+	diplomacy=9
+	martial=5
+	stewardship=10
+	intrigue=5
+	learning=7
+	father=4203
+	2160.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2221.1.1={
+		death=yes
+	}
+}
+
+4205 ={ 	
+    name="Gilboa" #
+	dynasty=1957044
+	religion="jewish"
+	culture="israeli"
+	father=4204
+	2192.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2254.1.1={
+		death=yes
+	}
+}
+
+4206 ={ 	
+    name="Yosef" #
+	dynasty=1957044
+	religion="jewish"
+	culture="israeli"
+	father=4205
+	2215.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2270.1.1={
+		death=yes
+	}
+}
+
+4207 ={ 	
+    name="Shabtai" #
+	dynasty=1957033
+	religion="mikraist"
+	culture="israeli"
+	2222.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2268.1.1={
+		death=yes
+	}
+}
+
+4208 ={ 	
+    name="Ehud" #
+	dynasty=1957044
+	religion="jewish"
+	culture="israeli"
+	father=4206
+	2240.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2301.1.1={
+		death=yes
+	}
+}
+
+4209 ={ 	
+    name="Efrat" #
+	dynasty=1957044
+	religion="jewish"
+	culture="israeli"
+	father=4206
+	female=yes
+	2242.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2265.1.30={
+		add_spouse=4210
+	}
+	2304.1.1={
+		death=yes
+	}
+}
+
+4210 ={ 
+    name="Nechemiah" #the Lord Dizzengoff who married into the Avivi family
+	dynasty=1957026
+	religion="jewish"
+	culture="israeli"
+	2239.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2265.1.30={
+		add_spouse=4209
+	}	
+	2307.1.1={
+		death=yes
+	}
+}
+
+4211 ={ 	
+    name="Tzachi" # Died prematurely, ending the Avivi line
+	dynasty=1957044
+	religion="jewish"
+	culture="israeli"
+	father=4208
+	2278.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2304.1.1={
+		death=yes
+	}
+}
+
+4212 ={
+    name="Naftali"
+	dynasty=1957026
+	religion="haskalah"
+	culture="israeli"
+	father=4210
+	mother=4209
+	2270.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}	
+	2312.1.1={
+		death=yes
+	}
+}
+
+4213 ={ 	
+    name="Motti"
+	dynasty=1957026
+	religion="jewish"
+	culture="israeli"
+	father=4210
+	mother=4209
+	2275.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}	
+	2325.1.1={
+		death=yes
+	}
+}
+
+
+4214 ={ 	
+    name="Hadar" #
+	dynasty=1957033
+	religion="jewish"
+	culture="israeli"
+	father=4207
+	female=yes
+	2250.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2302.1.1={
+		death=yes
+	}
+}
+
+4215 ={ 	
+    name="Nachshon" # Lord Chuldai
+	dynasty=25552802
+	religion="jewish"
+	culture="israeli"
+	2244.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2277.1.1={
+		add_spouse=4214
+	}	
+	2300.1.1={
+		death=yes
+	}
+}
+
+4216 ={ 	
+    name="Menashe" #
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	father=4215
+	mother=4214
+	2280.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2350.1.1={
+		death=yes
+	}
+}
+
+4217 ={ 	
+    name="Simcha" #
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	father=4216
+	2308.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2371.1.1={
+		death=yes
+	}
+}
+
+4218 ={ 	
+    name="Oriel" #
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	father=4217
+	2335.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2397.1.1={
+		death=yes
+	}
+}
+
+4219 ={ 	
+    name="Malachi" #
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	father=4218
+	2362.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2430.1.1={
+		death=yes
+	}
+}
+
+4220 ={ 	
+    name="Nadav" #
+	dynasty=1957026
+	religion="haskalah"
+	culture="israeli"
+	father=4212
+	2305.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2378.1.1={
+		death=yes
+	}
+}
+
+4221 ={ 	
+    name="Liam" #
+	dynasty=1957026
+	religion="haskalah"
+	culture="israeli"
+	father=4220
+	2340.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2410.1.1={
+		death=yes
+	}
+}
+
+4222 ={
+    name="Eldad" #
+	dynasty=1957026
+	religion="haskalah"
+	culture="israeli"
+	father=4221
+	2375.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2456.1.1={
+		death=yes
+	}
+}
+
+4223 ={ 	
+    name="Tzvi" #
+	dynasty=1957026
+	religion="haskalah"
+	culture="israeli"
+	father=4222
+	2403.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2470.1.1={
+		death=yes
+	}
+}
+
+4224 ={ 	
+    name="Erez" #
+	dynasty=1957026
+	religion="haskalah"
+	culture="israeli"
+	father=4223
+	2440.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2500.1.1={
+		death=yes
+	}
+}
+
+4225 ={ 	
+    name="Gershom" #
+	dynasty=1957026
+	religion="haskalah"
+	culture="israeli"
+	father=4224
+	2470.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2543.1.1={
+		death=yes
+	}
+}
+
+4226 ={ 	
+    name="Menachem" #
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	father=4219
+	2400.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2470.1.1={
+		death=yes
+	}
+}
+
+
+4227 ={ 	
+    name="Shimon" #
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	father=4226
+	2437.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2499.1.1={
+		death=yes
+	}
+}
+
+4228 ={ 	
+    name="Nachman" #
+	dynasty=25552802
+	religion="haskalah"
+	culture="israeli"
+	father=4227
+	2466.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = ashkenazi
+		}
+	}
+	2528.8.2={
+		death=yes
+	}
+}
+
+4229 ={ 	
+    name="Ze'ev"
+	dynasty=1958041
+	religion="mikraist"
+	culture="israeli"
+	2300.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = sephardi
+		}		
+	}
+	2369.1.1={
+		death=yes
+	}
+}
+
+4230 ={ 	
+    name="Tuviah"
+	dynasty=1958041
+	religion="mikraist"
+	culture="israeli"
+	father=4229
+	2333.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = sephardi
+		}		
+	}
+	2404.1.1={
+		death=yes
+	}
+}
+
+4231 ={
+    name="mikraist"
+	dynasty=1958041
+	religion="jewish"
+	culture="israeli"
+	father=4230
+	2370.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = sephardi
+		}		
+	}
+	2445.1.1={
+		death=yes
+	}
+}
+
+4232 ={
+    name="Pinchas"
+	dynasty=1958041
+	religion="mikraist"
+	culture="israeli"
+	father=4231
+	2405.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = sephardi
+		}		
+	}
+	2478.1.1={
+		death=yes
+	}
+}
+
+4233 ={
+    name="Eliezer"
+	dynasty=1958041
+	religion="mikraist"
+	culture="israeli"
+	father=4232
+	2440.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = sephardi
+		}		
+	}
+	2505.1.1={
+		death=yes
+	}
+}
+
+4234 ={
+    name="Yishai"
+	dynasty=1958041
+	religion="mikraist"
+	culture="israeli"
+	father=4233
+	2477.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = sephardi
+		}		
+	}
+	2542.1.1={
+		death=yes
+	}
+}

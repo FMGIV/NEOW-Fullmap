@@ -1,0 +1,21 @@
+# 85 - Ostfriesland
+
+# County Title
+title = c_ostfriesland
+
+# Settlements
+max_settlements = 4
+
+b_emden = castle
+b_aurich = city
+b_moormerland = temple
+#b_norden = castle
+#b_leer = castle
+#b_wittmund = castle
+#b_esens = castle
+
+# Misc
+culture = frisian
+religion = novelist
+
+# History

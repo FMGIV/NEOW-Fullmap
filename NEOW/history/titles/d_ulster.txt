@@ -1,0 +1,54 @@
+2257.10.13={
+	holder = 2962 # King Garret Connolly
+	liege = k_ireland
+}
+2282.12.23={
+	holder = 2963 # King Fionn Connolly
+}
+2293.12.16={
+	holder = 2967 # Owen Connolly
+}
+2316.6.19={
+	holder = 2968 # Nevan Connolly
+}
+2327.8.18={
+	liege = e_britannia
+}
+2346.4.8={
+	holder = 2969 # Brian Connolly
+}
+2360.11.24={
+	holder = 2970 # King Maol Connolly
+	liege = 0
+}
+2378.6.4={
+	holder = 2971 # Pearse Connolly
+	liege = e_britannia
+}
+2425.10.6={
+	holder = 6660 # Empress Kate Cyflymarian
+	law = cognatic_succession
+}
+2428.8.11={
+	holder = 6666 # Governwr Herewallt Russel
+}
+2461.3.6={
+	holder = 6667 # Governwr Boudica Russel
+}
+2480.10.9={
+	holder = 6668 # Governwr Sophronia Russel
+}
+2507.6.13={
+	holder = 6669 # Governwr Lupus Russel
+}
+2521.2.18={
+	holder = 6670 # Governwr Guy Russel
+}
+2538.5.19={
+	holder = 684 # King John Russel
+	liege = e_britannia
+	law = status_of_women_4
+}
+2554.12.3={
+	liege = 0 #Michael starts the rebellion
+}

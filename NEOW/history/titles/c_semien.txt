@@ -1,0 +1,6 @@
+
+2545.8.25=
+{
+	liege = d_semien
+	holder = 1301
+}

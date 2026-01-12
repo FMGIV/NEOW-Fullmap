@@ -1,0 +1,22 @@
+# 1600 - Cinarca
+
+# County Title
+title = c_cinarca
+
+# Settlements
+max_settlements = 3
+b_bastelicaccia = castle
+b_ajaccio = city
+b_portevecchio = temple
+#b_sartene = city
+#b_bonifacio = castle
+#b_filitosa = castle
+#b_cinarca = temple
+#b_propriano = castle
+
+# Misc
+culture = corsu
+religion = sevillian
+terrain = mountain
+
+# History

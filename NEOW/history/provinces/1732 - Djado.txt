@@ -1,0 +1,16 @@
+# 1732 - Djado
+
+# County Title
+title = c_djado
+
+# Settlements
+max_settlements = 2
+
+b_djado = tribal
+b_tummo = temple
+
+# Misc
+culture = barbariyya
+religion = muwahidunna
+
+# History

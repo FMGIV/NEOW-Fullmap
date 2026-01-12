@@ -1,0 +1,27 @@
+# 477 - Methone
+
+# County Title
+title = c_methone
+
+# Settlements
+max_settlements = 3
+
+b_modon = castle
+
+b_kalamata = city
+b_kiparissia = temple
+
+#b_karytaina = castle
+#b_gritzena = castle
+#b_messini = castle
+#b_androusa = castle
+
+# Misc
+culture = greek
+religion = hellenic_pagan
+terrain = hills
+
+# History
+
+
+

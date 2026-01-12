@@ -1,0 +1,14 @@
+# 1908 - Tsambagarav
+
+# County Title
+title = c_tsambagarav
+
+# Settlements
+max_settlements = 2
+b_tsambagarav = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

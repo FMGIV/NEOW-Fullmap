@@ -1,0 +1,36 @@
+# 663 - Rayy
+
+# County Title
+title = c_rayy
+
+# Settlements
+max_settlements = 7
+
+b_rayy = castle
+b_hashtgerd = castle
+b_tehran = city
+
+b_roudehen = temple # holy_site = nestorian
+
+#b_shahriar = castle
+#b_eslamshahr = castle
+#b_karaj = castle
+#b_pakdasht = castle
+
+# Misc
+culture = persian
+religion = shiite
+
+# History
+1066.1.1 = { 
+	b_shahriar = city
+	b_eslamshahr = temple
+}
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 4
+	build_wonder_upgrade = upgrade_cow_district_mosque
+	build_wonder_upgrade = upgrade_cow_district_amphitheatre
+	build_wonder_upgrade = upgrade_cow_district_statue_ruler
+}
+

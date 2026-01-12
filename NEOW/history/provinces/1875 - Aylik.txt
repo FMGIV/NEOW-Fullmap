@@ -1,0 +1,12 @@
+# 1875 - Aylik
+
+# County Title
+title = c_aylik
+
+# Settlements
+max_settlements = 2
+b_aylik = tribal
+
+# Misc
+culture = alagol
+religion = ironist

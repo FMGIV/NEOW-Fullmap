@@ -1,0 +1,25 @@
+# 768 - Baalbek
+
+# County Title
+title = c_baalbek
+
+# Settlements
+max_settlements = 4
+
+b_baalbek = castle
+b_hizzine = city
+b_kfar_dan = temple
+
+#b_bodai = castle
+#b_toufiqiyeh = castle
+#b_raiit = castle
+#b_saaideh = castle
+#b_riyaq = castle
+#b_bechouat = castle
+
+# Misc
+culture = siryon
+religion = chaldean
+
+# History
+

@@ -1,0 +1,7 @@
+20.6.20={
+	pentarch = b_jerusalem
+}
+2546.10.12={
+	holder=1195
+	set_tribute_suzerain = { who = k_lebanon type = march }
+}

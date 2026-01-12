@@ -1,0 +1,22 @@
+## 515 - Tirgoviste
+
+# County Title
+title = c_tirgoviste
+
+# Settlements
+max_settlements = 5
+
+b_bucuresti = castle
+b_targoviste = city
+b_tabla_butii = city
+
+b_snagov = temple
+#b_bucov = castle
+#b_ramnicu_sarat = city
+#b_buzau = temple
+#b_valeni = castle
+
+# Misc
+culture = wallachian
+religion = orthodox
+terrain = tells

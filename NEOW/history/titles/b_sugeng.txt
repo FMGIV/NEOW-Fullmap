@@ -1,0 +1,5 @@
+2539.6.1 = {
+	holding_dynasty = 6044072
+	holder = 8903
+	liege = k_ternate
+}

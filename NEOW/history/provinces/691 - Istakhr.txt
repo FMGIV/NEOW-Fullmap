@@ -1,0 +1,21 @@
+# 691 - Istakhr
+
+# County Title
+title = c_istakhr
+
+# Settlements
+max_settlements =4
+b_istakhr = castle
+b_sarmaq = city
+
+#b_abadha = temple
+#b_iqlid = castle
+#b_abarquh = castle
+#b_kamin = castle
+#b_main = castle
+
+# Misc
+culture = qashqai
+religion = shiite
+
+# History

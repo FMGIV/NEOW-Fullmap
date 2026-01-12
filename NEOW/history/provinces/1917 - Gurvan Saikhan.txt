@@ -1,0 +1,14 @@
+# 1917 - Gurvan Saikhan
+
+# County Title 
+title = c_gurvan_saikhan
+
+# Settlements
+max_settlements = 2
+b_gurvan_saikhan = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

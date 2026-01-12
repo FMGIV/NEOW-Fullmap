@@ -1,0 +1,13 @@
+# County Title
+title = c_yopurga
+
+# Settlements
+max_settlements = 4
+
+b_yopurga = castle
+b_jiashi = city
+
+# Misc
+
+culture = sarikoli
+religion = neo_zorvanite

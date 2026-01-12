@@ -1,0 +1,30 @@
+eastern_trans_siberian = {
+wealth = 30
+	trade_post_display_trigger = {
+		province_id = 2968
+	}
+	
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		local_movement_speed = 0.4
+		disease_defence = -0.05
+		culture_flex = -0.2
+		religion_flex = -0.2
+		local_build_cost_modifier = -0.1
+		local_build_time_modifier = -0.1
+		tech_growth_modifier = 0.2
+		icon = 125
+	}
+	
+	start = {
+		2968
+	}
+	
+	path = {
+		2968 2965 2967 3153 3150 3141 3155 3158 3163 3171 3165 3169 3000 3002 3004 2113
+	}
+}

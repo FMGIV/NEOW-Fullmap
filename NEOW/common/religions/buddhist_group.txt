@@ -1,0 +1,984 @@
+buddhist_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = no
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 1	# don't try to convert
+	
+	color = { 0.8 0.4 0.0 }
+	
+	#interface_skin = { indian_interface muslim_interface }
+	
+	# Names given only to Indian characters (base names)
+	male_names = {
+	}
+	female_names = {
+	}
+
+	vajrayana = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 83
+		heresy_icon = 133
+		
+		color = { 204 76 51 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_SAMANTABHADRA
+		
+		god_names = {
+			GOD_SAMANTABHADRA GOD_THE_ADI_BUDDHA GOD_VAJRASATTVA GOD_THE_FIVE_TATHAGATHAS GOD_VAIROCANA GOD_AKSHOBHYA GOD_AMITABHA GOD_RATNASAMBHAVA GOD_AMOGHASIDDHI GOD_THE_HERUKAS GOD_THE_DAKINIS
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_TANTRAS
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		#intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = white_lotus
+	}
+	
+	budaism = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 83
+		heresy_icon = 133
+		parent = vajrayana
+		
+		color = { 255 178 25 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_VAJRADHARA
+		
+		god_names = {
+			GOD_VAJRADHARA GOD_THE_ADI_BUDDHA GOD_THE_FIVE_TATHAGATHAS GOD_VAIROCANA GOD_AKSHOBHYA GOD_AMITABHA GOD_RATNASAMBHAVA GOD_AMOGHASIDDHI GOD_THE_HERUKAS GOD_THE_DAKINIS
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			religion_flex = -0.5
+			learning = 2
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 0.8 #Normal aggression
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 21
+		religious_clothing_priest = 21
+
+		scripture_name = THE_BUDDHACAVANA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		#intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = white_lotus
+	}
+	
+	theravada = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 84
+		heresy_icon = 232
+		
+		color = { 0.5 0.0 0.0 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_DHAMMA
+		
+		god_names = {
+			GOD_DHAMMA GOD_THE_BUDDHA GOD_BRAHMA_SAHAMPATI GOD_THE_ARAHANTS
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_PALI_CANON
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		#intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = white_lotus
+	}
+	navayana = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 172
+		
+		color = { 44 24 111 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_THE_BUDDHA
+		
+		god_names = {
+			GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES GOD_AMBEDKAR
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			stewardship = 2
+		}
+		
+		unit_modifier = {
+			garrison_size = 0.4
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.1
+			heavy_infantry_defensive = 0.1
+			pikemen_defensive = 0.1
+			light_cavalry_defensive = 0.1
+			knights_defensive = 0.1
+			archers_defensive = 0.1
+			horse_archers_defensive = 0.1
+			camel_cavalry_defensive = 0.1
+			war_elephants_defensive = 0.1
+			
+			garrison_size = 0.4
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_BUDDH_AUR_UNAKA_DHAMM
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = white_lotus
+	}
+	thaislam = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 103
+		heresy_icon = 182
+
+		color = { 229 212 22 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+
+		high_god_name = GOD_PHRA_PHROM
+
+		god_names = {
+			GOD_PHRA_PHROM GOD_THE_BUDDHA GOD_SIAM GOD_KING_SIAM
+		}
+
+		evil_god_names = {
+			MARA
+		}
+
+		character_modifier = {
+			muslim_opinion = 5	#Barely tolerate them
+			same_religion_opinion = 20 #National Unity 
+			buddhist_group_opinion = -15 #Excommunicated by every other Sangha
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 1.25
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_looting = yes
+		dislike_tribal_organization = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		landed_kin_prestige_bonus = yes
+		max_wives = 3
+		uses_jizya_tax = yes
+		attacking_same_religion_piety_loss = yes 
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_THAMMAYUT_CANON
+		priest_title = BHIKKHU
+		piety_name = KARMA
+
+		intermarry = parabrahmanist 
+		intermarry = maoist 
+		intermarry = muslim 
+		intermarry = khanist #Return to Altai
+		intermarry = budaism #Retvrn to Altai
+		intermarry = mahayana
+		#intermarry = thaislam
+		intermarry = white_lotus
+	}	
+	combuddhist = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+		
+		parent = thaislam
+
+		icon = 103
+		heresy_icon = 182
+
+		color = { 216 43 101 }
+		
+		interface_skin = { buddhist_interface indian_interface pagan_interface }
+
+		high_god_name = GOD_THE_BUDDHA
+
+		god_names = {
+			GOD_THE_BUDDHA GOD_MAITREYA GOD_RED_PRINCE
+		}
+
+		evil_god_names = {
+			MARA GOD_EIGHT_ARMIES
+		}
+
+		character_modifier = {
+			maoist_opinion = 10
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 1.2
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		hard_to_convert = yes
+		defensive_attrition = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_wives = 3
+		uses_decadence = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_TIPITAKA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = karmapa
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = ho_cult
+		intermarry = juche
+		intermarry = white_lotus
+	}
+	white_lotus = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = taoist
+
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 198 204 183 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_WUSHENG_LAOMU
+		
+		god_names = {
+			GOD_WUSHENG_LAOMU GOD_THE_QUEEN_MOTHER GOD_MING_WANG GOD_GUANGFO GOD_AMITUO GOD_GUANYIN GOD_DASHIZHI
+		}
+		
+		evil_god_names = {
+			MARA YANLUO
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			health = 0.5
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		allow_looting = yes
+		peace_piety_gain= 1.0
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_BUDDHACAVANA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = buddhist_group
+		intermarry = taoist
+		intermarry = qingzhen
+		intermarry = wuxia
+		intermarry = xianxia
+		intermarry = wuist_reformed
+		intermarry = wuist
+		intermarry = hmongism
+		intermarry = tridemism
+		intermarry = maoist
+		intermarry = red_cult
+		intermarry = neoncult
+		dynamic_cult = no
+	}	
+	gelugpa = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 85
+		heresy_icon = 86
+		
+		color = { 229 114 0 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_THE_BUDDHA
+		
+		god_names = {
+			GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			learning = 2
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		aggression = 0.8
+		allow_rivermovement = yes		
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+
+		scripture_name = THE_BUDDHACAVANA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = drukpa_kargyu
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		#intermarry = gelugpa
+		#intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = white_lotus
+	}
+	drukpa_kargyu = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 115
+		heresy_icon = 115
+		
+		color = { 204 176 0 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_DORYE_CHANG
+		
+		god_names = {
+			GOD_DORYE_CHANG GOD_THE_ADI_BUDDHA GOD_THE_FIVE_TATHAGATHAS GOD_VAIROCANA GOD_AKSHOBHYA GOD_AMITABHA GOD_RATNASAMBHAVA GOD_AMOGHASIDDHI GOD_THE_HERUKAS GOD_THE_DAKINIS
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			learning = 2
+			build_cost_modifier = -0.05
+			build_time_modifier = -0.05
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		aggression = 0.6
+		allow_rivermovement = yes		
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_excommunicate = yes
+		can_retire_to_monastery = yes
+		hard_to_convert = yes
+		priests_can_inherit = no
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		peace_piety_gain = 1.0
+		rel_head_defense = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 19
+		religious_clothing_priest = 19
+
+		scripture_name = THE_TANTRAS
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		intermarry = gelugpa #pretty insular
+		intermarry = karmapa
+	}
+	karmapa = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 85
+		heresy_icon = 86
+		parent=gelugpa
+		
+		color = { 216 0 18 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_THE_BUDDHA
+		
+		god_names = {
+			GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			learning = 1
+			maoist_opinion = 5
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+
+		aggression = 0.9
+		allow_rivermovement = yes		
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 19
+		religious_clothing_priest = 19
+
+		scripture_name = THE_BUDDHACAVANA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = xinjiao
+		intermarry = jain
+		intermarry = drukpa_kargyu
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		#intermarry = gelugpa
+		#intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = ho_cult
+		intermarry = juche
+		intermarry = white_lotus
+	}
+	amidism = { #Japanese Pure Land Buddhism
+		has_coa_on_barony_only = yes
+		graphical_culture = japanesegfx
+		secondary_event_pictures = sunni
+
+		icon = 229
+		heresy_icon = 232
+		
+		color = { 235 133 48 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_AMIDA
+		
+		god_names = {
+			GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES GOD_AMIDA
+		}
+		
+		evil_god_names = {
+			MARA YOKAI
+		}
+		
+		character_modifier = {
+			japan_group_opinion = 5
+			nikkei_opinion = 5
+		}
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = AMITAYURDHYANA_SUTRA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = shintoist_group
+		intermarry = kirishitan
+		intermarry = isukirian
+		intermarry = white_lotus
+		intermarry = mormon
+		dynamic_cult = no
+	}
+	jun_kokoro_ha = { #Japanese Pure Land Buddhism
+		has_coa_on_barony_only = yes
+		graphical_culture = japanesegfx
+		secondary_event_pictures = sunni
+		parent = amidism
+		icon = 229
+		heresy_icon = 232
+		
+		color = { 255 113 48 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_AMIDA
+		
+		god_names = {
+			GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES GOD_AMIDA
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		character_modifier = {
+			martial = 1
+		}
+		unit_modifier = {		
+			light_infantry_offensive = 0.05
+			light_infantry_defensive = 0.05
+			heavy_infantry_offensive = 0.05
+			heavy_infantry_defensive = 0.05
+			archers_offensive = 0.05
+			archers_defensive = 0.05
+			pikemen_offensive = 0.05
+			pikemen_defensive = 0.05
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 1.75
+		allow_looting = yes
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		raised_vassal_opinion_loss = no
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		peace_prestige_loss = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = AMITAYURDHYANA_SUTRA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = shaivasiddhanta
+		intermarry = maoist
+		intermarry = zoroastrian_group
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = mahayana
+		intermarry = osvicenism
+		intermarry = shintoist_group
+		intermarry = kirishitan
+		intermarry = isukirian
+		intermarry = white_lotus
+		intermarry = mormon
+		dynamic_cult = no
+	}
+	mahayana = {
+		has_coa_on_barony_only = yes
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+
+		icon = 187
+		
+		color = { 229 145 0 }
+		
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_SHAKYAMUNI
+		
+		god_names = {
+			GOD_THE_BUDDHA GOD_SHAKYAMUNI GOD_THE_BODHISATTVAS GOD_AMITABHA GOD_GUANYIN GOD_MAITREYA GOD_THE_EIGHTEEN_ARHATS
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = no
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		scripture_name = THE_BUDDHACAVANA
+		priest_title = BHIKKHU
+		piety_name = KARMA
+		
+		intermarry = caodai
+		intermarry = jain
+		intermarry = sarvodaya
+		intermarry = neovedantic
+		intermarry = parabrahmanist
+		intermarry = shaivasiddhanta
+		intermarry = khanist
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		intermarry = budaism
+		intermarry = theravada
+		intermarry = thaislam
+		intermarry = gelugpa
+		intermarry = karmapa
+		intermarry = vajrayana
+		intermarry = navayana
+		intermarry = osvicenism
+		intermarry = white_lotus
+		intermarry = kirishitan
+		intermarry = isukirian
+		intermarry = mormon
+		dynamic_cult = no
+	}
+}

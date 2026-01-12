@@ -1,0 +1,23 @@
+# 108 - Maine
+
+# County Title
+title = c_maine
+
+# Settlements
+max_settlements = 5
+
+b_laval = castle
+b_beaumont = castle
+b_mayenne = temple
+b_le_mans = city
+
+#b_craon = castle
+#b_evron = castle
+#b_montenay = temple 
+#b_sable = castle
+
+# Misc
+culture = gallo
+religion = thelemic_reformed
+
+# History

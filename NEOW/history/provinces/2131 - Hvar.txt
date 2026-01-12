@@ -1,0 +1,23 @@
+# 2131 - Hvar
+
+# County Title
+title = c_hvar
+
+# Settlements
+max_settlements = 3
+b_sutivan= castle
+b_bol=city
+#b_sumartin
+#b_novo_selo
+#b_praznica
+#b_pucisca
+#b_supetar
+
+# Misc
+culture = croatian
+religion = catholic
+terrain = forest
+
+# History
+2532.10.13 = { trade_post = b_andrijasevic }
+

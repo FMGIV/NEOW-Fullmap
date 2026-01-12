@@ -1,0 +1,22 @@
+# 616 - Pecheneg
+
+# County Title
+title = c_pecheneg
+
+# Settlements
+max_settlements = 4
+
+b_bandja = tribal
+
+#b_kargala = city
+#b_saraktash = temple
+
+#b_khutorka = castle
+#b_tolkachi = castle
+#b_kichkas = castle
+#b_sadovy = castle
+
+# Misc
+culture = cossack
+religion = leninist
+terrain = steppe

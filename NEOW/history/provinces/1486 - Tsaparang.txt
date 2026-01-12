@@ -1,0 +1,23 @@
+# County Title
+title = c_tsaparang
+
+# Settlements
+max_settlements = 5
+
+b_tsaparang = tribal
+#b_tholing = city
+#b_tholinggompa = temple
+#b_mangga = 
+#b_boyi = {
+#b_mangnang = { #temple
+#b_gartok = {
+
+# Misc
+culture = u_tsang
+religion = gelugpa
+
+#History
+
+997.1.1 = {
+	b_tholinggompa = temple
+} #Tholing Monastery established by King Yeshe-Ö/Khori of Guge

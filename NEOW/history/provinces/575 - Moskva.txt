@@ -1,0 +1,34 @@
+# 575 - Moskva
+
+# County Title
+title = c_moskva
+
+# Settlements
+max_settlements = 7
+
+b_moskva = tribal	#1147
+b_mytishchi = temple	#old
+
+#b_podolsk		#1559
+#b_istra		#XVIth
+#b_lyubertsy	#1621
+#b_khimki		#1850
+#b_krasnoya		#name-twist on 1932's Krasnogorsk
+
+culture = muscovite
+religion = zarist
+terrain = tells
+
+# History
+1147.1.1 = {
+	b_moskva = city   #
+	b_podolsk = castle	#These two swapped around to test if oligarchic republics will work
+	b_istra = castle
+	b_lyubertsy = castle
+}
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 2
+	build_wonder_upgrade = upgrade_cow_district_fortress
+	build_wonder_upgrade = upgrade_cow_district_cathedral
+}

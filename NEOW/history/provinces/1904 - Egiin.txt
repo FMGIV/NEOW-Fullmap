@@ -1,0 +1,14 @@
+# 1904 - Egiin 
+
+# County Title
+title = c_egiin
+
+# Settlements
+max_settlements = 2
+b_egiin = tribal
+
+# Misc
+culture = mongol
+religion = vajrayana
+
+# History

@@ -1,0 +1,15 @@
+# 1921 - Selenge
+
+# County Title
+title = c_selenge 
+
+# Settlements
+max_settlements = 4
+b_selenge = tribal
+
+# Misc
+culture = buryat
+religion = vajrayana
+
+# History
+

@@ -1,0 +1,4 @@
+2553.11.11={
+	holder=342
+	liege=k_jorden
+}

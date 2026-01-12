@@ -1,0 +1,59 @@
+ivory_route = {
+wealth = 20			# Total base wealth of silk route
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 4165
+			province_id = 4168
+			province_id = 4718
+			province_id = 4725
+			province_id = 3678
+			province_id = 3718
+		}
+	}
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		local_movement_speed = 0.4
+		disease_defence = -0.05
+		culture_flex = -0.2
+		religion_flex = -0.2
+		local_build_cost_modifier = -0.1
+		local_build_time_modifier = -0.1
+		tech_growth_modifier = 0.2
+		icon = 61
+	}
+
+	start = {				# Start provinces of trade route
+		3678
+		4734
+		4706
+		3718
+	}
+#Main route
+    path = {
+	    3678 4724 4725 3894 3920 4165 4167 4139 4131 4134 4135 4740 4738 2692 2695 4726 4728 4736 4734
+	}
+    path = {
+	    4734 4736 4728 4726 2695 2692 4738 4740 4135 4134 4131 4139 4167 4165 3920 3894 4725 4724 3678
+	}
+#East coast
+	path = {
+	   4165 4164 4168 4704 4706
+	}
+    path = {
+	   4706 4704 4168 4164 4165
+	}
+#West coast
+	path = {
+	   4725 4714 4723 4718 3903 3902 3901 3718
+	}
+    path = {
+	   3718 3901 3902 3903 4718 4723 4714 4725
+	}
+
+
+}

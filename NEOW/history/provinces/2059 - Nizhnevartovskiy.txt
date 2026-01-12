@@ -1,0 +1,20 @@
+#
+
+# County Title
+title = c_nizhnevartovskiy
+
+# Settlements
+max_settlements = 1
+b_nizhnevartovsk = tribal
+#b_severnyy
+#b_sosnina
+#b_bylino_2
+#b_nazino_2
+#b_vakhovsk
+#b_vata
+
+# Misc
+culture = selkup
+religion = orthodox
+
+# History

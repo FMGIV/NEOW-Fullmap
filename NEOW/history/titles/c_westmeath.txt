@@ -1,0 +1,7 @@
+2538.5.19={
+	holder = 2991 # Ceannaidh O'Farrell
+	liege = k_ireland 
+}
+2554.12.3={
+	liege = 0 #Michael starts the rebellion
+}

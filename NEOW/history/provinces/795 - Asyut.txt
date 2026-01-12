@@ -1,0 +1,21 @@
+# 795 - Asyut
+
+# County Title
+title = c_asyut
+
+# Settlements
+max_settlements = 4
+b_asyut = castle
+b_kusai = city
+b_durunka = temple
+b_bani_murr = castle
+
+#b_wannina = city
+#b_beitkhallaf = castle
+#b_meir = castle
+
+# Misc
+culture = coptic
+religion = koptic
+
+# History

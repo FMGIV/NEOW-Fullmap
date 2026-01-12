@@ -1,0 +1,28 @@
+# 34 - Shetland
+
+# County Title
+title = c_shetland
+
+# Settlements
+max_settlements = 2
+b_tingwall = tribal
+
+#b_scalloway = city
+#b_cunningsburgh = temple
+#b_muness = castle
+#b_sumburgh = castle
+#b_northmavine = castle
+#b_sound = castle
+#b_yell = castle
+
+# Misc
+culture = scots
+religion = brethren
+terrain = hills
+
+# History
+
+1000.1.1 = {
+	b_cunningsburgh = castle
+	b_cunningsburgh = ca_shipyard_1
+} 

@@ -1,0 +1,32 @@
+# 365 - Brandenburg
+
+# County Title
+title = c_brandenburg
+
+# Settlements
+max_settlements = 6
+b_brandenburg = castle
+b_belzig = temple
+b_berlin = castle
+
+#b_juterborg = city
+#b_ruppin = castle
+#b_oranienburg = castle
+#b_muncheberg = castle
+
+# Misc
+culture = brandenburger
+religion = prussianist
+terrain = tells
+
+# History
+800.1.1 = {
+	b_brandenburg = castle
+	b_juterborg = city
+	}
+1939.9.1 = {
+	capital = b_berlin
+}
+1940.7.25 = {
+	b_berlin = ca_flaktower
+}

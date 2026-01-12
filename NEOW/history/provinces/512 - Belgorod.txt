@@ -1,0 +1,24 @@
+# 512 - Belgorod
+
+# County Title
+title = c_belgorod
+
+# Settlements
+max_settlements = 4
+
+b_tighina = city
+b_chisinau = city
+	#"Bender" in Turkish
+
+b_capriana = temple
+b_oblucita = temple
+#b_causeni = castle
+#b_cedaesti = castle
+#b_tigheci = city
+# Misc
+
+religion = orthodox
+culture = moldavian
+2282.7.15 = {
+	b_tighina = castle
+}

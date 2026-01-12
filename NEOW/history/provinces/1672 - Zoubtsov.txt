@@ -1,0 +1,27 @@
+# 1672 - Zoubtsov
+
+# County Title
+title = c_zoubtsov
+
+# Settlements
+max_settlements = 3
+
+b_zoubtsov = tribal		#1216
+
+#b_yesinka
+#b_verigino
+#b_batakovo
+#b_papino
+#b_vysokino
+#b_ulyankovo
+
+#Misc
+culture = muscovite
+religion = zarist
+
+# History
+
+1200.1.1 = {
+	b_zoubtsov = castle
+	b_yesinka = temple
+}

@@ -1,0 +1,521 @@
+
+3452 = {
+	name="Sandre" # Count Sandre of Bordeaux and Agen
+	dynasty=25550404 # de Got
+	religion="sevillian"
+	culture="gascon"
+	father=26660556
+	trait="skilled_tactician"
+	trait="strong"
+	trait="hunter"
+	trait="ambitious"
+	trait="stubborn"
+	trait="cynical"
+	trait="patient"
+	2512.3.3={
+		birth=yes
+		create_bloodline = {
+			type = paladins_roland
+			
+		}	
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3453 = {
+	name="Jean" # Count John of Rosello, a Franco-Catalonian adventurer
+	dynasty=25550405 #Ferrand
+	religion="sevillian"
+	culture="occitan"
+	trait="tough_soldier"
+	trait="brave"
+	trait="diligent"
+	trait="robust"
+	trait="scarred"
+	trait="gregarious"
+	trait="adventurer"
+	disallow_random_traits=yes
+	2515.1.16={
+		birth=yes		
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3454 = {
+	name="Jean-Pierre" # Count Jean-Pierre of Forcalquier
+	dynasty=25550800 # Dufy
+	religion="novelist"
+	culture="provencal"
+	trait="tough_soldier"
+	trait="zealous"
+	trait="deceitful"
+	trait="diligent"
+	trait="brave"
+	trait="shrewd"
+	trait="architect"
+	trait="novelist_son_of_aslan"
+	2520.3.29={
+		birth=yes
+	}
+	2541.12.20={
+		add_spouse=3467
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3455 = {
+	name="Robur" # Count Robur of Gevedaun
+	dynasty=25551225 # Albatross
+	religion="novelist"
+	culture="rottisch"
+	trait=strong
+	trait=genius
+	trait=brave
+	trait=ambitious
+	trait=lunatic
+	trait=skilled_tactician
+	trait=unyielding_leader
+	2519.8.8={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3456 = {
+	name="Edmond" # Duke Edmond of Occitania
+	dynasty=25551226 # Dantés
+	religion="novelist"
+	culture="occitan"
+	trait=thrifty_clerk
+	trait=quick
+	trait=ambitious
+	trait=robust
+	trait=proud
+	trait=patient
+	trait=gregarious
+	disallow_random_traits=yes
+	2528.6.12={
+		birth=yes
+	}
+	2554.12.20={
+		add_spouse=1383 #Haydee
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3457 = {
+	name="Charlus" # Count Charlus of Perigord
+	dynasty=25551231 # Palamède de Guermantes
+	religion="novelist"
+	culture="occitan"
+	trait=erudite
+	trait=homosexual
+	trait=poet
+	trait=kind
+	trait=humble
+	2510.7.6={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3458 = {
+	name="Marguerite" # Countess Marguerite of Armagnac
+	dynasty=25551232 # Gautier
+	female=yes
+	religion="novelist"
+	culture="gascon"
+	trait=lustful
+	trait=greedy
+	trait=deceitful
+	trait=proud
+	trait=gregarious
+	2520.10.3={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3459 = {
+	name="Raoul" # Count Raoul of Melgueil
+	dynasty=25551234 # d'Harmental
+	religion="novelist"
+	culture="provencal"
+	trait=brave
+	trait=proud
+	trait=tough_soldier
+	2538.11.2={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3460 = {
+	name="Claire" # Daughter of Count Robur of Gevedaun
+	dynasty=25551225 # Albatross
+	religion="novelist"
+	culture="rottisch"
+	female=yes
+	trait=strong
+	trait=genius
+	trait=brave
+	trait=ambitious
+	trait=proud
+	trait=envious
+	trait=shrewd
+	trait=misguided_warrior
+	father=3455
+	2538.1.29={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3461 = {
+	name="Simon" # Son and heir of Count Charlus of Perigord
+	dynasty=25551231 # Palamède de Guermantes
+	religion="novelist"
+	culture="occitan"
+	trait=mastermind_theologian
+	trait=brave
+	trait=zealous
+	trait=deceitful
+	trait=envious
+	father=3457
+	2531.10.16={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3462 = {
+	name="Johanna" # First daughter and heir of the Count of Agen
+	dynasty=25550404 
+	female=yes
+	religion="sevillian"
+	secret_religion="orleanist"
+	culture="gascon"
+	trait="underhanded_rogue"
+	trait="kind"
+	trait="brave"
+	trait="cynical"
+	trait="trusting"
+	father=3452
+	2530.11.20={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3463 = {
+	name="Isabelle" # Second daughter of the Count of Agen
+	dynasty=25550404 
+	female=yes
+	religion="sevillian"
+	culture="gascon"
+	trait="elusive_shadow"
+	trait="deceitful"
+	trait="ambitious"
+	trait="craven"
+	trait="paranoid"
+	father=3452
+	2532.12.8={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3464 = {
+	name="Audrey" # Third daughter of the Count of Agen
+	dynasty=25550404 
+	female=yes
+	religion="sevillian"
+	culture="gascon"
+	trait="tough_soldier"
+	trait="hunter"
+	trait="kind"
+	trait="zealous"
+	trait="brave"
+	father=3452
+	2534.8.20={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3465 = {
+	name="Camille" # Fourth daughter of the Count of Agen
+	dynasty=25550404 
+	female=yes
+	religion="sevillian"
+	secret_religion="orleanist"
+	culture="gascon"
+	trait="fortune_builder"
+	trait="greedy"
+	trait="cruel"
+	trait="ambitious"
+	trait="paranoid"
+	father=3452
+	2536.10.5={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3466 = {
+	name="Sibylle" # Daughter and heir of count John of Rossello
+	dynasty=25550405 # Ferrand
+	religion="sevillian"
+	culture="occitan"
+	female=yes
+	trait="grey_eminence"
+	trait="craven"
+	trait="honest"
+	trait="kind"
+	trait="lefthanded"
+	father=3453
+	2534.7.19={
+		birth=yes		
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3467 = {
+	name="Ermengarda" # Wife of count Louis of Forcalquier
+	female=yes
+	religion="novelist"
+	culture="provencal"
+	trait="flamboyant_schemer"
+	trait="cruel"
+	trait="lustful"
+	trait="deceitful"
+	trait="gregarious"
+	2521.9.11={
+		birth=yes
+	}
+	2541.12.20={
+		add_spouse=3454
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3468 = {
+	name="Yves" # Son and heir of the Count of Forcalquier
+	dynasty=25550800 # Dufy
+	religion="novelist"
+	culture="provencal"
+	trait="brooding"
+	trait="deceitful"
+	father=3454
+	mother=3467
+	2543.11.9={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3469 = {
+	name="Héloïse" # Daughter of the Count of Forcalquier
+	dynasty=25550800 # Dufy
+	religion="novelist"
+	female=yes
+	culture="provencal"
+	trait="zealous"
+	trait="idolizer"
+	father=3454
+	mother=3467
+	2546.2.12={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3470 = {
+	name="Aymeric" # first son and heir of the countess of Armagnac
+	dynasty=25551232 # Gautier
+	mother=3458
+	religion="novelist"
+	culture="gascon"
+	trait=tough_soldier
+	trait=brave
+	trait=lustful
+	trait=proud
+	trait=gregarious
+	2536.3.20={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3471 = {
+	name="Jordan" # second son of the countess of Armagnac
+	dynasty=25551232 # Gautier
+	mother=3458
+	religion="novelist"
+	culture="gascon"
+	trait=grey_eminence
+	trait=honest
+	trait=chaste
+	trait=ambitious
+	trait=gamer
+	trait=gregarious
+	2538.11.7={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+3472 = {
+    name="Pierre" 
+	dynasty=25554207
+	religion="novelist"
+	culture="occitan"
+	diplomacy=8
+	martial=2
+	stewardship=5
+	intrigue=2
+	learning=6	
+	trait="misguided_warrior"
+	trait="adventurer"
+	trait="temperate"		
+	trait="trusting"	
+	trait="patient"
+	trait="arbitrary"
+	2521.3.14={
+		birth=yes
+		create_bloodline = {
+			type = paladins_clorinda
+			
+		}	
+	}
+	2547.1.1={
+		effect = {
+			spawn_unit = {
+				province = 821
+				troops = {
+					knights = { 150 150 }
+					pikemen = { 300 300 }
+					heavy_infantry = { 200 200 }
+					archers = { 120 120 }
+				}
+				attrition = 0.5
+				maintenance = no
+				reinforces = yes
+				cannot_inherit = no
+				disband_on_peace = no
+			}
+			spawn_unit = {
+				province = 821
+				troops = {
+					knights = { 150 150 }
+					pikemen = { 300 300 }
+					heavy_infantry = { 200 200 }
+					archers = { 120 120 }
+				}
+				attrition = 0.5
+				maintenance = no
+				reinforces = yes
+				cannot_inherit = no
+				disband_on_peace = no
+			}
+			spawn_unit = {
+				province = 821
+				troops = {
+					knights = { 150 150 }
+					pikemen = { 300 300 }
+					heavy_infantry = { 200 200 }
+					archers = { 120 120 }
+				}
+				attrition = 0.5
+				maintenance = no
+				reinforces = yes
+				cannot_inherit = no
+				disband_on_peace = no
+			}
+			spawn_unit = {
+				province = 821
+				troops = {
+					knights = { 150 150 }
+					pikemen = { 300 300 }
+					heavy_infantry = { 200 200 }
+					archers = { 120 120 }
+				}
+				attrition = 0.5
+				maintenance = no
+				reinforces = yes
+				cannot_inherit = no
+				disband_on_peace = no
+			}
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3473 = {
+    name="Lucien" #Lucien Malfoy, a magician of some sort perhaps? 
+	dynasty=25554205
+	religion="novelist"
+	culture="occitan"
+	trait="intricate_webweaver"
+	trait="shrewd"	
+	trait="proud"
+	trait="charitable"	
+	trait="deceitful"
+	trait="erudite"
+	trait="scarred"
+	trait="cruel"
+	trait="novelist_ingsoc"
+	trait="administrator"
+	trait="mystic"
+	disallow_random_traits=yes
+	2536.6.3={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+3474 = {
+    name="Raoul" 
+	dynasty=25554206
+	religion="novelist"
+	culture="occitan"
+	diplomacy=1
+	martial=3
+	stewardship=7
+	intrigue=8
+	learning=9
+	trait="midas_touched"
+	trait="craven"	
+	trait="shy"
+	trait="diligent"	
+	trait="content"
+	2525.3.29={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}

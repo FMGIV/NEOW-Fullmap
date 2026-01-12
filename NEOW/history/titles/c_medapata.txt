@@ -1,0 +1,10 @@
+2480.11.9={
+	holder=2850 #Daraya Vahana
+}
+2549.11.4={
+	holder=2848 #Laskandar conquers Rajasthan
+}
+2550.5.5={
+	holder=2851 #Yama Kardi
+	liege=k_rajputana
+}

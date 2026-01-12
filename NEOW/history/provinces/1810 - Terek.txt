@@ -1,0 +1,13 @@
+# 1810 - Terek
+
+# County title 
+title = c_terek
+
+# Settlements
+max_settlements = 4
+b_terek = tribal
+
+culture = kalmyk
+religion = gelugpa
+
+# History

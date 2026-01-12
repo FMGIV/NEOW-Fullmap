@@ -1,0 +1,16 @@
+# 1688 - Dithmarschen
+
+# County Title
+title = c_dithmarschen
+
+# Settlements
+max_settlements = 3
+b_itzehoe = castle
+b_heide = city
+b_meldorf = temple
+
+# Misc
+culture = prussian
+religion = lutheran
+
+# History

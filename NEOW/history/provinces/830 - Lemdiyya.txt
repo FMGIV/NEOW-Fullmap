@@ -1,0 +1,33 @@
+# 830 - Lemdiyya
+
+# County Title
+title = c_lemdiyya
+
+# Settlements
+max_settlements = 3
+
+b_tiaret = tribal
+#b_medea = castle
+#b_relizane = city
+#b_aindefla = temple
+
+#b_elrhenb = castle
+#b_aintorki = castle
+#b_blida = castle
+#b_sidimohammed = castle
+#b_elhachem = castle
+
+# Misc
+culture = algerian
+religion = thawri
+
+# History
+2300.1.1 = { 
+	b_tiaret =tb_defensive_fortifications_1
+	b_tiaret =tb_defensive_fortifications_2
+	b_tiaret =tb_defensive_fortifications_3
+	b_tiaret =tb_defensive_fortifications_4
+	b_tiaret =tb_hillfort_1
+	b_tiaret =tb_hillfort_2
+	b_tiaret =tb_hillfort_3
+}

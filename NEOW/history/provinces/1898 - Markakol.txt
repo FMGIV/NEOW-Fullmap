@@ -1,0 +1,12 @@
+# 1898 - Markakol
+
+# County Title
+title = c_markakol
+
+# Settlements
+max_settlements = 2 
+b_markakol = tribal
+
+# Misc
+culture = wolgadeutsche
+religion = ironist

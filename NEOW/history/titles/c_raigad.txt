@@ -1,0 +1,4 @@
+2552.1.3={
+	holder=1442
+	liege = d_nasikya
+}

@@ -1,0 +1,15 @@
+# 1922 - Uda 
+
+# County Title 
+title = c_uda
+
+# Settlements
+max_settlements = 4
+b_uda = tribal
+
+# Misc
+culture = buryat
+religion = khanist
+
+# History
+

@@ -1,0 +1,4 @@
+2549.8.16={
+	holder=4247
+	liege=k_xixia
+}

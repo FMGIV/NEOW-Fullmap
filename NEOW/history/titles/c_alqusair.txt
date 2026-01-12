@@ -1,0 +1,6 @@
+
+2554.4.8=
+{
+	holder = 1652
+	liege=d_aswan
+}

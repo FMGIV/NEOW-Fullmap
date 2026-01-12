@@ -1,0 +1,5 @@
+
+2520.1.14={
+	holder=2045
+	liege=k_prussia	 
+}

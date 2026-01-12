@@ -1,0 +1,21 @@
+# 198 - Valladolid
+
+# County Title
+title = c_valladolid
+
+# Settlements
+max_settlements = 6
+b_valladolid = castle
+b_avila = city
+b_segovia = temple
+b_tordesillas = city
+#b_medinadelcampo = castle
+#b_simancas = castle
+#b_penafiel = castle
+#b_iscar = city
+
+# Misc
+culture = castilian
+religion = sevillian
+
+# History

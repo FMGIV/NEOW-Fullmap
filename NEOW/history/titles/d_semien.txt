@@ -1,0 +1,7 @@
+
+2534.8.25=
+{
+	holder = 1811
+	liege = k_abyssinia
+	vice_royalty = yes
+}

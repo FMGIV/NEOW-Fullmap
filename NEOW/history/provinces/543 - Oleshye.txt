@@ -1,0 +1,25 @@
+# 543 - Oleshye
+
+# County Title
+title = c_oleshye
+
+# Settlements
+max_settlements = 5
+
+b_mykolaiv = castle
+
+b_dnieprkherson = temple	#1750
+#b_kryvyi_rih	#1775
+#b_inhulets		#1776
+#b_zabich		#1782
+#b_bereznehovate		#1789
+#b_snihirevka	#modern
+
+#Misc
+culture = ukrainer
+religion = orthodox
+
+#History
+1960.11.25 = {
+	b_dnieprkherson = ca_ukraine_dams
+}

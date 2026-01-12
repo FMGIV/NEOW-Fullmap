@@ -1,0 +1,6 @@
+
+2546.7.13=
+{
+	holder = 1081
+	liege = d_ruwaba
+}

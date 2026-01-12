@@ -1,0 +1,7 @@
+2542.6.9 = {
+	holder=10732
+}
+2542.6.10 = {
+	holder=10754
+	liege = d_sisaket
+}

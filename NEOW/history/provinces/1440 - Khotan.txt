@@ -1,0 +1,14 @@
+# County Title
+title = c_khotan
+
+# Settlements
+max_settlements = 6
+
+b_khotan = castle
+b_jingjue = city
+b_jiandu = temple
+
+# Misc
+
+religion = ovlatii
+culture = uyghur

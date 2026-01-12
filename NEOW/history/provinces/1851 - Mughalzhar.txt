@@ -1,0 +1,16 @@
+# 1851 - Mughalzhar 
+
+# County Title
+title = c_mughalzhar 
+
+# Settlements 
+max_settlements = 2
+b_mughalzhar = tribal
+
+# Misc
+culture = kazakh
+religion = ironist
+
+
+# History
+

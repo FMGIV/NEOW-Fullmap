@@ -1,0 +1,23 @@
+# 150 - Albret
+
+# County Title
+title = c_albret
+
+# Settlements
+max_settlements = 4
+b_montdemarsan = castle
+b_gabarret = temple
+b_mimizan = city
+
+#b_latestedebuch = city
+#b_bazas = temple
+#b_roquefort = castle
+#b_stsever = temple
+#b_tartas = castle
+
+#Misc
+religion = sevillian
+culture = gascon
+terrain = jungle
+
+# History

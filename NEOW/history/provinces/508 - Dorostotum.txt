@@ -1,0 +1,19 @@
+# 508 - Dorostotum
+
+# County Title
+title = c_dorostotum
+
+# Settlements
+max_settlements = 3
+b_veliko_trnovo = castle
+
+b_sevlijevo = city
+b_gabrovo = temple
+#b_elena = castle
+#b_slivopole = city
+#b_byaladve = temple
+#b_tsenovo = castle
+
+# Misc
+culture = bulgarian
+religion = orthodox

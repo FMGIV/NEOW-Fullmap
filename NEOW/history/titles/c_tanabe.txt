@@ -1,0 +1,4 @@
+2522.9.16={
+	holder = 4689
+	liege = k_kinki
+}

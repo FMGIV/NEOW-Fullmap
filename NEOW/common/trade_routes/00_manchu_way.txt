@@ -1,0 +1,33 @@
+manchu_way = {
+wealth = 15
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 3121
+			province_id = 3104
+		}
+	}
+	
+	modifier = {
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		local_movement_speed = 0.4
+		disease_defence = -0.05
+		culture_flex = -0.2
+		religion_flex = -0.2
+		local_build_cost_modifier = -0.1
+		local_build_time_modifier = -0.1
+		tech_growth_modifier = 0.2
+		icon = 93
+	}
+	
+	start = {
+		2932
+	}
+	
+	path = {
+		2932 3122 3119 3120 3121 3117 3112 3108 3105 3104 3083 3085 3086 3591 3583
+	}
+}

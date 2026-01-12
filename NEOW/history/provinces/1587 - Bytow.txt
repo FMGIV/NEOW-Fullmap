@@ -1,0 +1,21 @@
+# 1587 - Bytow
+
+# County Title
+title = c_bytow
+
+# Settlements
+max_settlements = 4
+b_bytow = castle
+
+b_lebork = city
+b_lupawa = temple
+#b_lebe = castle
+#b_carbero = castle
+#b_swolow = castle
+#b_parchowy = castle
+
+# Misc
+culture = kashubian
+religion = catholic
+
+# History

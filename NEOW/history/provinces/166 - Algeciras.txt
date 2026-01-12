@@ -1,0 +1,19 @@
+# 166 - Algeciras
+
+# County Title
+title = c_algeciras
+
+# Settlements
+max_settlements = 4
+b_algericas = castle
+b_ronda = castle
+b_sanroque = temple
+b_zahara = city
+
+#b_tarifa = castle
+#b_estepona = city
+#b_casares = castle
+#b_jimenadelafrontera = castle
+
+culture = andalusian
+religion = sevillian

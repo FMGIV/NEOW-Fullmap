@@ -1,0 +1,14 @@
+# 1913 - Suvraga Khairkhan
+
+# County Title
+title = c_suvraga_khairkhan
+
+# Settlements
+max_settlements = 2
+b_suvraga_khairkhan = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

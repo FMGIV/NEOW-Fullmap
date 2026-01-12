@@ -1,0 +1,20 @@
+# 668 - Shirvan
+
+# County Title
+title = c_shirvan
+
+# Settlements
+max_settlements = 4
+b_shirvan = castle
+b_absheron = temple
+
+b_shakhriyar = castle 
+b_khizirzinda = city
+#b_salyan = castle
+#b_altiagay = city
+
+# Misc
+culture = azerbaijani
+religion = ironist
+
+# History

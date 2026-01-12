@@ -1,0 +1,5 @@
+2549.9.17=
+{
+	holder=2049
+	liege=d_osterreich
+}

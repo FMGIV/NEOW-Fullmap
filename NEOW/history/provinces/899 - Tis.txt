@@ -1,0 +1,21 @@
+# 899 - Tis
+
+# County Title
+title = c_tis
+
+# Settlements
+max_settlements = 3
+b_parak = tribal
+#b_tis = city
+#b_tiskoupan = temple
+
+#b_lakki = city
+#b_chabahar = city
+#b_konarak = castle
+#b_kahir = castle
+#b_gurdim = castle
+
+# Misc
+culture = baloch
+religion = deobandi
+

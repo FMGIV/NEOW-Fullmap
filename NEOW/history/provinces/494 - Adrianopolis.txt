@@ -1,0 +1,20 @@
+# 494 - Adrianopolis
+
+# County Title
+title = c_adrianopolis
+
+# Settlements
+max_settlements = 4
+b_haskovo = castle
+b_dmitrovgrad = city
+b_svilengrad = temple
+
+#b_momchilgrad = castle
+#b_kypsela = castle
+#b_demotika = castle
+#b_ainos = castle
+
+# Misc
+culture = turkish
+religion = hellenic_pagan
+

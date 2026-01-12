@@ -1,0 +1,22 @@
+# 21 - Gloucester
+
+# County Title
+title = c_gloucester
+
+# Settlements
+max_settlements = 4
+b_gloucester = castle
+b_cheltenham = city
+b_sudeley = temple
+
+#b_winchcombe = castle
+#b_tewkesbury = castle
+#b_cirencester = castle
+#b_hailes = castle
+#b_yate_gloucester = castle
+
+# Misc
+culture = british
+religion = thelemic_reformed
+
+# History

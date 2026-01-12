@@ -1,0 +1,23 @@
+# 2130 - Korcula
+
+# County Title
+title = c_korcula
+
+# Settlements
+max_settlements = 3
+b_korcula= city
+b_blato=castle
+#b_zrnovo
+#b_loviste
+#b_viganj
+#b_stankovici
+#b_pomena
+
+# Misc
+culture = croatian
+religion = catholic
+terrain = forest
+
+# History
+2532.10.13 = { trade_post = b_molla }
+

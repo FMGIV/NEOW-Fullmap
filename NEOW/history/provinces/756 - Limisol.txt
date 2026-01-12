@@ -1,0 +1,42 @@
+# 756 - Limisol
+
+# County Title
+title = c_limisol
+
+# Settlements
+max_settlements = 5
+
+b_limmassol = castle
+
+b_paphos = city
+b_arsinoe = temple
+
+b_khirokitia = castle
+#b_dieudamour = castle
+#b_kolossi = castle
+#b_morphou = castle
+#b_agridi = castle
+
+# Misc
+culture = cypriote
+religion = orthodox
+
+# History
+2210.1.1 = { 
+	b_limmassol = ca_shipyard_1
+	b_limmassol = ca_wall_1
+	b_limmassol = ca_wall_q_1
+	b_limmassol = ca_keep_1
+}
+2211.1.1 = {
+	b_limmassol = ca_shipyard_2
+	b_limmassol = ca_wall_2
+	b_limmassol = ca_wall_q_2
+	b_limmassol = ca_keep_2
+}
+2212.1.1 = {
+	b_limmassol = ca_shipyard_3
+	b_limmassol = ca_wall_3
+	b_limmassol = ca_wall_q_3
+	b_limmassol = ca_keep_3
+}

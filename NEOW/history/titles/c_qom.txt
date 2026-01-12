@@ -1,0 +1,4 @@
+2540.12.16={
+	holder=2925
+	liege=k_khorasan
+	}

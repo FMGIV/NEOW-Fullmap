@@ -1,0 +1,4 @@
+2527.3.20={
+	holder = 5056
+	law = succ_primogeniture
+}

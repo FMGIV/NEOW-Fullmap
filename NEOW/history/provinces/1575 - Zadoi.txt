@@ -1,0 +1,19 @@
+# County Title
+title = c_zadoi
+
+# Settlements
+max_settlements = 4
+
+b_zadoi = tribal
+b_qapugtang = temple
+#b_chadan = {
+#b_moyun = {
+#b_angsai = {
+#b_aduo = {
+#b_zhaqing = {
+
+# Misc
+culture = amdo
+religion = karmapa
+
+# History

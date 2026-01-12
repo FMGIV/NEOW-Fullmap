@@ -1,0 +1,22 @@
+# 1581 - Caen
+
+# County Title
+title = c_caen
+
+# Settlements
+max_settlements = 5
+
+b_caen = castle
+b_domfront = city
+b_vire = temple
+
+#b_bayeux
+#b_clecy
+#b_jurques
+#b_villers-bocage
+
+# Misc
+culture = norman
+religion = thelemic_reformed
+
+# History

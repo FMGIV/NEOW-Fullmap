@@ -1,0 +1,21 @@
+# 2223 - Gorizia
+
+# County Title
+title = c_gorizia
+
+# Settlements
+max_settlements = 4
+b_kopar = city
+b_pivka = temple
+b_postojna = castle
+#b_portoroz = temple
+#b_sezana = temple
+#b_idrija = temple
+#b_tolmin = temple
+
+# Misc
+culture = slovenian
+religion = catholic
+terrain = karst
+
+# History

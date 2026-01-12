@@ -1,0 +1,5 @@
+2550.3.8={
+	holder=2235
+	law = succ_oligarchic_elective
+	liege = k_cyprus_league
+}

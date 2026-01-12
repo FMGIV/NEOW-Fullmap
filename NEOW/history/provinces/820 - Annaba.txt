@@ -1,0 +1,21 @@
+# 820 - Annaba
+
+# County Title
+title = c_annaba
+
+# Settlements
+max_settlements = 4
+
+b_annabah = castle
+b_eltarf = city
+b_elbouni = temple
+b_skikda = city
+#b_boudjama = castle
+#b_meroudj = castle
+#b_drean = castle
+
+# Misc
+culture = taqvaylit
+religion = catholic
+
+# History

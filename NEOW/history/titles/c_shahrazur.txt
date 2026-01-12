@@ -1,0 +1,4 @@
+2540.12.1={
+	liege= k_kurdistan
+	holder=259
+}

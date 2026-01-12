@@ -1,0 +1,4 @@
+2541.12.4={
+	holder = 3067
+	law = succ_patrician_elective
+}

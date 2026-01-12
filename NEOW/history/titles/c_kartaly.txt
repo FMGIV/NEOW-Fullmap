@@ -1,0 +1,5 @@
+2554.5.9 = {
+	holder = 3351
+	liege = d_turgay
+	historical_nomad = yes
+}

@@ -1,0 +1,24 @@
+# 366 - Stettin
+
+# County Title
+title = c_stettin
+
+# Settlements
+max_settlements = 4
+b_soldin = castle
+b_stettin = city
+
+#b_stargard = castle
+#b_wollin = city
+#b_kolbatz = castle
+#b_kammin = temple
+#b_cedene = city
+#b_pyritz = castle
+
+# Misc
+culture = greater_polish
+religion = lutheran
+
+# History
+
+2432.10.13 = { trade_post = b_fogt }

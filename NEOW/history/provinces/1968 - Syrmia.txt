@@ -1,0 +1,13 @@
+# 1968 - Syrmia
+
+# County Title
+title = c_syrmia
+
+# Settlements
+max_settlements = 3
+b_sremska_mitrovica = castle
+b_zemun = city
+
+# Misc
+culture = serbian 
+religion = jugoslavist #Historically a crossroad between a lot of cultures

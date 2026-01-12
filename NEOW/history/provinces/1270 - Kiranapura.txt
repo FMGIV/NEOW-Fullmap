@@ -1,0 +1,14 @@
+# 1270 - Kiranapura
+
+# County Title
+title = c_kiranapura
+
+# Settlements
+max_settlements = 2
+b_kiranapura = tribal
+#b_balaghat = temple
+#b_lanji = castle
+
+# Misc
+culture = gondi
+religion = sarna_pagan

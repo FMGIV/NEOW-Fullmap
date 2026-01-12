@@ -1,0 +1,31 @@
+# 112 - Ile de France
+
+# County Title
+title = c_ile_de_france
+
+# Settlements
+max_settlements = 7
+
+b_melun = castle
+b_paris = city
+b_montlhery = temple
+
+b_sully = castle
+b_montfortlamaury = castle
+b_corbeil = city
+#b_stdenis
+#b_colombes_IdF
+
+culture = french
+religion = novelist
+terrain = tells
+# History
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 5
+	build_wonder_upgrade = upgrade_cow_district_cathedral
+	build_wonder_upgrade = upgrade_cow_district_harbor
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+	build_wonder_upgrade = upgrade_cow_district_palace
+	build_wonder_upgrade = upgrade_cow_district_garden
+}

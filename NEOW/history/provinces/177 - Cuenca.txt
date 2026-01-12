@@ -1,0 +1,19 @@
+# 177 - Cuenca
+
+# County Title
+title = c_cuenca
+
+# Settlements
+max_settlements = 4
+b_cuenca = castle
+b_tarancon = city
+b_ucles = temple
+#b_villanuevadelajara = castle
+#b_sisante = castle
+#b_motadelcuervo = castle
+#b_laspedroneras = castle
+#b_iniestacuenca = castle
+
+culture = castilian
+religion = sevillian
+terrain = hills

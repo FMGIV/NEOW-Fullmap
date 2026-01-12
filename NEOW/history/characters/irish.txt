@@ -1,0 +1,1184 @@
+##Duke of Dublin, the Big Man, Dev
+2934 = {
+	name="Éamon"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="deceitful"
+	trait="shrewd"
+	trait="grey_eminence"
+	trait="stubborn"
+	father=2982
+	2517.10.14={
+		birth=yes
+	}
+	2554.10.10={#Rebellion
+
+	}	
+	2590.1.1={
+		death=yes
+	}
+}
+2935 = {#Michael Collins/Cathal Brugha mix
+	name="Mícheál"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	diplomacy=7
+	martial=9
+	stewardship=4
+	intrigue=2
+	learning=4
+	trait="brave"
+	trait="humble"
+	trait="holy_warrior"
+	trait="skilled_tactician"
+	trait="gregarious"
+	trait="wroth"
+	trait="inspiring_leader"
+	trait="one_legged"
+	father=2990
+	2517.10.16={
+		birth=yes
+	}
+	2554.10.10={
+		effect = {
+			spawn_unit = {
+				province = 14
+				owner = ROOT
+				troops = {
+					light_infantry = { 250 250 }
+					heavy_infantry = { 250 250 }
+					archers = { 250 250 }
+				}
+				attrition = 1
+			}
+			spawn_unit = {
+				province = 14
+				owner = ROOT
+				troops = {
+					light_infantry = { 250 250 }
+					heavy_infantry = { 250 250 }
+					archers = { 250 250 }
+				}
+				attrition = 1
+				disband_on_peace = yes
+			}				
+			add_artifact = armalite
+			piety = 200
+			wealth = 150
+			create_bloodline = {
+				type = ira_bloodline
+			}	
+		}
+		add_claim = k_ireland
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2936 = {#Proinsias Duff
+	name="Proinsias"
+	dynasty=25554153 #Duff
+	religion="celtic_pagan"
+	culture="high_irish"
+	trait="humble"
+	trait="administrator"
+	trait="scholarly_theologian"
+
+	2499.6.7={
+		birth=yes
+		effect = {
+			add_artifact = ate_compass 
+			add_artifact = ate_euro 
+		}
+	}
+	2554.10.10={#Rebellion
+
+	}	
+	2590.1.1={
+		death=yes
+	}
+}
+2937 = {#Gráinne Mhaol
+	name="Gráinne"
+	dynasty=25554154 #Ó Malley
+	religion="celtic_pagan"
+	culture="high_irish"
+	female=yes
+	trait="wroth"
+	trait="pirate"
+	trait="brave"
+	trait="tough_soldier"
+
+	2530.12.12={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2938 = {#Gabo
+	name="Gaibriéil"
+	dynasty=25554155 #Byrne
+	religion="catholic"
+	culture="munsterian"
+	trait="cynical"
+	trait="gregarious"
+	trait="underhanded_rogue"
+
+	2483.8.5={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2939 = {#Trimbell
+	name="David" #An Anglican with Catholic sympathies
+	dynasty=25554156 #Trimbell
+	religion="anglican"
+	culture="ulsterite"
+	trait="patient"
+	trait="charitable"
+	trait="honest"
+	trait="just"
+	trait="high_anglican"
+	trait="charismatic_negotiator"
+
+	2491.2.9={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2940 = {#Parnell
+	name="Charles"
+	dynasty=25554157 #Parnell
+	religion="catholic"
+	culture="irish"
+	trait="erudite"
+	trait="diligent"
+	trait="proud"
+	trait="charismatic_negotiator"
+
+	2516.6.27={
+		birth=yes
+		create_bloodline = {
+			type = paladins_finn
+			has_dlc = "Holy Fury"
+		}	
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2941 = {
+	name="Edmund" #A zealous Anglican who vows to never back down for his beliefs
+	dynasty=25554158 
+	religion="anglican"
+	culture="ulsterite"
+	trait="zealous"
+	trait="wroth"
+	trait="tough_soldier"
+	trait="paranoid"
+	trait="unyielding_leader"
+	trait="low_anglican"
+
+	2501.4.6={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2942 = {#Guinness
+	name="Arthur"
+	dynasty=25554159 #Guinness
+	religion="catholic"
+	culture="irish"
+	trait="temperate"
+	trait="charitable"
+	trait="fortune_builder"
+	trait="sympathy_pagans"
+	trait="sympathy_esoteric"
+	trait="ambitious"
+
+	2510.9.24={
+		birth=yes
+		effect = {
+		add_claim = c_guines
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2943 = { # Son and heir of Dublin
+	name="Magnus"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="zealous"
+	trait="greedy"
+	trait="fortune_builder"
+	trait="ambitious"
+	father=2934
+	2535.1.6={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2944 = {# First son and heir of Michael Colbrugha
+	name="Piaras"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="humble"
+	trait="brilliant_strategist"
+	trait="envious"
+	trait="slothful"
+	trait="deceitful"
+	father=2935
+	2536.2.6={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2945 = {# Second son of Michael Colbrugha
+	name="Pádraig"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="charitable"
+	trait="skilled_tactician"
+	trait="hedonist"
+	trait="slothful"
+	trait="arbitrary"
+	trait="twin"
+	father=2935
+	2537.9.21={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2946 = {# First daughter of Michael Colbrugha
+	name="Niamh"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	female=yes
+	trait="ambitious"
+	trait="amateurish_plotter"
+	trait="envious"
+	trait="deceitful"
+	trait="just"
+	trait="twin"
+	father=2935
+	2537.9.21={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2947 = {#Son and heir of Frank Duff
+	name="Emmett"
+	dynasty=25554153 #Duff
+	religion="celtic_pagan"
+	culture="high_irish"
+	trait="zealous"
+	trait="honest"
+	trait="kind"
+	trait="trusting"
+	trait="scholarly_theologian"
+	father=2936
+	2521.8.19={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2948 = {# First son and heir of Gabriel Byrne
+	name="Diarmuid"
+	dynasty=25554155 #Byrne
+	religion="catholic"
+	culture="high_irish"
+	trait="greedy"
+	trait="kind"
+	trait="ambitious"
+	trait="honest"
+	trait="thrifty_clerk"
+	father=2938
+	2509.10.15={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2949 = {# Second son of Gabriel Byrne
+	name="Brádach"
+	dynasty=25554155 #Byrne
+	religion="catholic"
+	culture="high_irish"
+	trait="brave"
+	trait="zealous"
+	trait="kind"
+	trait="lustful"
+	trait="skilled_tactician"
+	father=2938
+	2511.8.4={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2950 = {# First daughter of Gabriel Byrne
+	name="Eibhlín"
+	dynasty=25554155 #Byrne
+	religion="catholic"
+	culture="high_irish"
+	female=yes
+	trait="brave"
+	trait="zealous"
+	trait="kind"
+	trait="lustful"
+	trait="skilled_tactician"
+	father=2938
+	2518.3.8={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2951 = { 
+	name="Nicholas" #Son of David Trimble, a pious Anglican who advocates via media
+	dynasty=25554156 #Trimbell
+	religion="anglican"
+	culture="ulsterite"
+	trait="temperate"
+	trait="scarred"
+	trait="ambitious"
+	trait="tall"
+	trait="high_anglican"
+	trait="scholarly_theologian"
+	father=2939
+	2523.4.16={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2952 = {#First son and heir of Charles Parnell
+	name="Odhran"
+	dynasty=25554157 #Parnell
+	religion="catholic"
+	culture="irish"
+	trait="stubborn"
+	trait="trusting"
+	trait="diligent"
+	trait="gregarious"
+	trait="grey_eminence"
+	father=2940
+	2535.8.12={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2953 = {#Second son of Charles Parnell
+	name="Owen"
+	dynasty=25554157 #Parnell
+	religion="catholic"
+	culture="irish"
+	trait="cruel"
+	trait="content"
+	trait="lustful"
+	trait="arbitrary"
+	trait="scholarly_theologian"
+	father=2940
+	2537.10.20={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2954 = {#First daughter of Charles Parnell
+	name="Eilís"
+	dynasty=25554157 #Parnell
+	religion="catholic"
+	culture="irish"
+	female=yes
+	trait="envious"
+	trait="deceitful"
+	trait="lustful"
+	trait="charitable"
+	trait="indulgent_wastrel"
+	father=2940
+	2538.11.23={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2955 = {# First daugter and heir of Lord Edmund Johnston
+	name="Evelyn"
+	dynasty=25554158 #Johnston
+	religion="anglican"
+	culture="ulsterite"
+	female=yes
+	trait="trickster"
+	trait="lefthanded"
+	trait="sturdy"
+	trait="ambitious"
+	trait="broad_anglican"
+	trait="brilliant_strategist"
+	father=2941
+	2519.6.14={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2956 = {# Second daugter of Lordc Edmund Johnston
+	name="Isabella"
+	dynasty=25554158 #Johnston
+	religion="anglican"
+	culture="ulsterite"
+	female=yes
+	trait="holy_warrior"
+	trait="brave"
+	trait="strong"
+	trait="zealous"
+	trait="low_anglican"
+	trait="martial_cleric"
+	father=2941
+	2521.2.4={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2957 = {# Third daugter of Lord Johnston
+	name="Victoria"
+	dynasty=25554158 #Johnston
+	religion="anglican"
+	culture="ulsterite"
+	female=yes
+	trait="kind"
+	trait="ambitious"
+	trait="gregarious"
+	trait="weak"
+	trait="erudite"
+	trait="low_anglican"
+	trait="scholarly_theologian"
+	father=2941
+	2524.8.10={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2958 = {# Fourth daugter of Lord Johnston
+	name="Hannah"
+	dynasty=25554158 #Johnston
+	religion="anglican"
+	culture="ulsterite"
+	female=yes
+	trait="lustful"
+	trait="envious"
+	trait="temperate"
+	trait="groomed"
+	trait="quick"
+	trait="high_anglican"
+	trait="underhanded_rogue"
+	father=2941
+	2525.12.13={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2959 = {# First son and heir of lord Guinness
+	name="Robert"
+	dynasty=25554159 #Guinness
+	religion="catholic"
+	culture="irish"
+	trait="cynical"
+	trait="gluttonous"
+	trait="shy"
+	trait="underhanded_rogue"
+	trait="sympathy_pagans"
+	father=2942
+	2531.8.11={
+		birth=yes
+		effect = {
+		add_claim = c_guines
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2960 = {# Second son of lord Guinness
+	name="Bran"
+	dynasty=25554159 #Guinness
+	religion="catholic"
+	culture="irish"
+	trait="envious"
+	trait="ambitious"
+	trait="deceitful"
+	trait="misguided_warrior"
+	trait="zealous"
+	father=2942
+	2533.10.30={
+		birth=yes
+		effect = {
+		add_claim = c_guines
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2961 = {# Third son of lord Guinness
+	name="Ultán"
+	dynasty=25554159 #Guinness
+	religion="catholic"
+	culture="irish"
+	trait="gluttonous"
+	trait="gregarious"
+	trait="envious"
+	trait="ambitious"
+	trait="naive_appeaser"
+	father=2942
+	2535.6.8={
+		birth=yes
+		effect = {
+		add_claim = c_guines
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+# History of the Kings of Ireland (pre-Russel dynasty)
+
+2962 = {# First King of Ireland, declared the ruler would be chosen by election
+	name="Gearóid"
+	dynasty=8112684 #Connolly
+	religion="catholic"
+	culture="ulsterian"
+	trait="just"
+	trait="honest"
+	trait="charitable"
+	trait="ambitious"
+	trait="grey_eminence"
+	2240.10.12={
+		birth=yes
+	}
+	2282.12.23={
+		death=yes
+	}
+}
+2963 = {# Second King of Ireland, was elected after his father's death, but died after little more than ten years
+	name="Fionn"
+	dynasty=8112684 #Connolly
+	religion="catholic"
+	culture="ulsterian"
+	trait="drunkard"
+	trait="kind"
+	trait="deceitful"
+	trait="content"
+	trait="greedy"
+	trait="fortune_builder"
+	father=2962
+	2259.8.19={
+		birth=yes
+	}
+	2293.12.16={
+		death=yes
+	}
+}
+
+2964 = {# Third King of Ireland, was elected since King Fionn's son was considered too weak, returning the capital to Dublin for the first time after the Event. Died fighting a British raid led by then-Prince Oberon
+	name="Niall"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="cynical"
+	trait="gluttonous"
+	trait="diligent"
+	trait="inspiring_leader"
+	trait="tough_soldier"
+	2263.10.18={
+		birth=yes
+	}
+	2308.2.13={
+		death={
+			death_reason=death_battle
+			killer=266611119
+		}
+	}
+}
+
+2965 = {# Fourth King of Ireland, spent his reign fighting british attacks until he died of stress
+	name="Harold"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="stressed"
+	trait="gluttonous"
+	trait="ambitious"
+	trait="inspiring_leader"
+	trait="tough_soldier"
+	2275.7.20={
+		birth=yes
+	}
+	2320.4.13={
+		death=yes
+	}
+}
+
+2966 = {# Fifth King of Ireland, the last free King, was captured and executed after the Battle of Dublin by Emperor Oberon
+	name="Patrick"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="stressed"
+	trait="gluttonous"
+	trait="ambitious"
+	trait="inspiring_leader"
+	trait="tough_soldier"
+	father=2964
+	2289.11.6={
+		birth=yes
+	}
+	2327.8.18={
+		death={
+			death_reason=death_execution
+			killer=266611119
+		}
+	}
+}
+
+## Connolly line (old lords of Ulster, went extinct)
+
+2967 = {#  Son of the second King of Ireland, was not elected for his young age and weak constitution
+	name="Eoghan"
+	dynasty=8112684 #Connolly
+	religion="catholic"
+	culture="ulsterian"
+	trait="weak"
+	father=2963
+	2278.6.14={
+		birth=yes
+	}
+	2316.6.19={
+		death=yes
+	}
+}
+
+2968 = {#  Son of Eoghan Connolly, was fat and lazy, thus was never considered for the title of king
+	name="Naomhán"
+	dynasty=8112684 #Connolly
+	religion="catholic"
+	culture="ulsterian"
+	trait="gluttonous"
+	trait="slothful"
+	father=2967
+	2297.3.18={
+		birth=yes
+	}
+	2346.4.8={
+		death=yes
+	}
+}
+
+2969 = {#  Son of Naomhán Connolly, didn't even take part in the election, content with ruling Ulster
+	name="Brian"
+	dynasty=8112684 #Connolly
+	religion="catholic"
+	culture="ulsterian"
+	trait="content"
+	trait="honest"
+	father=2968
+	2318.7.26={
+		birth=yes
+	}
+	2360.11.24={
+		death=yes
+	}
+}
+
+2970 = {#  Recognized as the Sixth King of Ireland by all Irish, son of Brian Connolly, joined the Irish-Scottish Rebellion to retake the throne, and was killed by Cynfyn Cyflymarian in battle
+	name="Maol"
+	dynasty=8112684 #Connolly
+	religion="catholic"
+	culture="ulsterian"
+	trait="ambitious"
+	trait="brave"
+	trait="honest"
+	trait="wroth"
+	trait="tough_soldier"
+	trait="crowned_by_priest"
+	father=2969
+	2339.10.28={
+		birth=yes
+	}
+	2378.6.4={
+		death={
+			death_reason=death_battle
+			killer=266611129
+		}
+	}
+}
+2971 = {#  Son of Maol Connolly, was a monk that was called back to rule Ulster by Cynfyn in order to show a continued Irish rule of the duchy, but refused to take a wife and had no children, ending the Connolly line
+	name="Piaras"
+	dynasty=8112684 #Connolly
+	religion="catholic"
+	culture="ulsterian"
+	trait="humble"
+	trait="celibate"
+	trait="monk"
+	trait="honest"
+	trait="scholarly_theologian"
+	father=2970
+	2358.3.17={
+		birth=yes
+	}
+	2425.10.6={
+		death=yes
+	}
+}
+
+# House Dev
+2972 = {# Son of Pádraig Dev, was rather dull and uninteresting
+	name="Dennis"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="dull"
+	trait="humble"
+	trait="craven"
+	father=2966
+	2307.7.19={
+		birth=yes
+	}
+	2376.3.16={
+		death=yes
+	}
+}
+
+2973 = {# Son of Dennis Dev, joined the Irish-Scottish rebellion and was tortured for it, leaving him a blind lunatic
+	name="Turlough"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="lunatic"
+	trait="blinded"
+	father=2972
+	2321.11.9={
+		birth=yes
+	}
+	2379.10.8={
+		death=yes
+	}
+}
+
+2974 = {# Son of Turlough Dev, was a kind man with little interest in politics
+	name="Ian"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="trusting"
+	trait="kind"
+	father=2973
+	2343.12.21={
+		birth=yes
+	}
+	2390.11.6={
+		death=yes
+	}
+}
+2975 = {# Son of Ian Dev, was a kind man with little interest in politics
+	name="John"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="trusting"
+	trait="kind"
+	father=2974
+	2359.8.17={
+		birth=yes
+	}
+	2412.5.18={
+		death=yes
+	}
+}
+2976 = {# Son of Séamus Dev, was a schemer that may have had an hand in killing a Russel Governwr
+	name="Owen"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="deceitful"
+	trait="intricate_webweaver"
+	father=2975
+	2382.4.14={
+		birth=yes
+	}
+	2449.8.7={
+		death=yes
+	}
+}
+2977 = {# Son of Owen Dev, was a renown duelist
+	name="Bram"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="brave"
+	trait="duelist"
+	father=2976
+	2403.10.21={
+		birth=yes
+	}
+	2458.11.29={
+		death=yes
+	}
+}
+2978 = {# Son of Bram Dev, was a zealous preacher
+	name="Quentin"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="zealous"
+	trait="scholarly_theologian"
+	father=2977
+	2426.12.30={
+		birth=yes
+	}
+	2484.6.20={
+		death=yes
+	}
+}
+2979 = {# Son of Quentin Dev, was sickly and died young
+	name="Dennis"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="weak"
+	father=2978
+	2443.10.14={
+		birth=yes
+	}
+	2488.11.2={
+		death=yes
+	}
+}
+2980 = {# Son of Quentin Dev, inherited from his brother
+	name="Robert"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="kind"
+	trait="shy"
+	father=2978
+	2445.8.31={
+		birth=yes
+	}
+	2503.3.19={
+		death=yes
+	}
+}
+2981 = {# Son of Robert Dev, was honest and just, is well remembered to this day
+	name="Quentin"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="honest"
+	trait="just"
+	father=2980
+	2464.6.5={
+		birth=yes
+	}
+	2521.3.27={
+		death=yes
+	}
+}
+2982 = {# Son of Quentin II Dev, father of the current ruler, was a cruel but diligent ruler
+	name="Gerald"
+	dynasty=25554151 #Dev
+	religion="catholic"
+	culture="irish"
+	trait="cruel"
+	trait="diligent"
+	trait="chaste"
+	father=2981
+	2489.11.6={
+		birth=yes
+	}
+	2538.5.19={
+		death=yes
+	}
+}
+
+# House Colbrugha
+
+2983 = {# Son of Harold Colbrugha, ruled for many years after his father's death and was known as a just and honest man, but was also shy and thus refused to join the election for the title of Irish King.
+	name="Gabriel"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="shy"
+	trait="just"
+	trait="honest"
+	trait="content"
+	trait="misguided_warrior"
+	father = 2965
+	2294.3.11={
+		birth=yes
+	}
+	2362.7.12={
+		death=yes
+	}
+}
+
+2984 = {# Son of Gabriel Colbrugha, a boring, uninteresting man.
+	name="Niall"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="humble"
+	trait="misguided_warrior"
+	father = 2983
+	2319.8.27={
+		birth=yes
+	}
+	2390.10.4={
+		death=yes
+	}
+}
+2985 = {# Son of Niall Colbrugha, a feared warrior as strong as he was cruel.
+	name="Quentin"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="cruel"
+	trait="strong"
+	trait="skilled_tactician"
+	father = 2984
+	2346.7.12={
+		birth=yes
+	}
+	2406.11.3={
+		death=yes
+	}
+}
+2986 = {# Son of Quentin Colbrugha, an ambitious individual.
+	name="Brádach"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="ambitious"
+	father = 2985
+	2375.8.30={
+		birth=yes
+	}
+	2451.2.23={
+		death=yes
+	}
+}
+2987 = {# Son of Brádach Colbrugha, a slothful, gluttonous man.
+	name="Tadgh"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="gluttonous"
+	trait="slothful"
+	trait="content"
+	father = 2986
+	2406.12.20={
+		birth=yes
+	}
+	2492.3.12={
+		death=yes
+	}
+}
+2988 = {# Son of Tadgh Colbrugha, handsome man.
+	name="Séan"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="gregarious"
+	trait="fair"
+	trait="seducer"
+	father = 2987
+	2434.8.7={
+		birth=yes
+	}
+	2504.6.13={
+		death=yes
+	}
+}
+2989 = {# Son of Jack Colbrugha, grandfather of the current duke.
+	name="Odhrán"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="munsterian"
+	trait="kind"
+	trait="shy"
+	trait="temperate"
+	father = 2988
+	2461.6.19={
+		birth=yes
+	}
+	2512.8.29={
+		death=yes
+	}
+}
+2990 = {# Son of Odhran Colbrugha, father of the current duke.
+	name="Bran"
+	dynasty=25554152 #Colbrugha
+	religion="catholic"
+	culture="irish"
+	trait="erudite"
+	trait="zealous"
+	trait="mastermind_theologian"
+	father = 2989
+	2483.12.20={
+		birth=yes
+	}
+	2538.5.19={
+		death=yes
+	}
+}
+2991 = {#insert
+	name="Ceannaidh"
+	dynasty=85511259 #O'Farrell
+	religion="catholic"
+	culture="ulsterian"
+	trait="erudite"
+	trait="scarred_mid"
+	trait="architect"
+	trait="eccentric"
+	trait="charismatic_negotiator"
+	father=2994
+	mother=2995
+	2529.2.23={
+		birth=yes
+	}
+	2548.6.14={
+		add_spouse=2993
+	}
+	2550.2.27={
+		effect = {add_artifact = silver_bar}
+	}
+	2590.5.19={
+		death=yes
+	}
+
+}
+2992 = {
+	name="Ceannaidh"
+	dynasty=85511259 #O'Farrell
+	religion="catholic"
+	culture="ulsterian"
+	trait="affectionate"
+	trait="weak"
+	trait="eccentric"
+	trait="charitable"
+	father=2991
+	mother=2993
+	2552.1.25={
+		birth=yes
+	}
+	2590.5.19={
+		death=yes
+	}
+}
+2993 = {
+	name="Alastríona"
+	dynasty=85511634 
+	religion="catholic"
+	culture="ulsterian"
+	trait="content"
+	trait="weak"
+	
+	female = yes
+	
+	2532.6.9={
+		birth=yes
+	}
+	2548.6.14={
+		add_spouse=2991
+	}
+	2590.5.19={
+		death=yes
+	}
+
+}
+2994 = {#insert
+	name="Uilliam"
+	dynasty=85511259 #O'Farrell
+	religion="catholic"
+	culture="ulsterian"
+	2490.5.27={
+		birth=yes
+	}
+	2505.6.14={
+		add_spouse=2995
+	}
+	2553.1.1={
+		death=yes
+	}
+
+}
+2995 = {#aaaaaaaaaaaaa
+	name="Sheila"
+	dynasty=85511235
+	religion="catholic"
+	culture="ulsterian"
+	
+	female = yes
+	
+	2492.2.19={
+		birth=yes
+	}
+	2505.6.14={
+		add_spouse=2994
+	}
+	2553.1.1={
+		death=yes
+	}
+	
+}

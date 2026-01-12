@@ -1,0 +1,26 @@
+# 1617 - c_sunnlendingafjordungur
+
+# County Title
+title = c_sunnlendingafjordungur
+
+# Settlements
+max_settlements = 2
+b_reykjavik = tribal
+
+#b_alftanes = city
+#b_skalholt = temple
+#b_pingvellir = castle
+#b_kjalarnes = castle
+#b_hlidarendi = castle
+
+# Misc
+culture = icelander
+religion = vagarna
+terrain = arctic
+
+
+# History
+2540.6.2 = {
+	b_reykjavik = tb_shipyard_1
+	b_reykjavik = tb_shipyard_2
+}

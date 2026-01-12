@@ -1,0 +1,4 @@
+2532.7.2={
+	holder=3776
+        liege=k_romania
+}

@@ -1,0 +1,55 @@
+3179 = {
+	name="Kirsan"
+	dynasty=25540017
+	religion="gelugpa"
+	culture="kalmyk"
+	trait="midas_touched"
+	trait="proud"
+	trait="kind"
+	trait="temperate"
+	2518.2.3={
+		birth=yes
+	}
+	2538.7.19={
+		add_spouse=3180
+	}
+	2560.1.1={
+		death=yes
+	}
+}
+3180 = {
+	name="Hogelun"
+	female=yes
+	religion="osvicenism"
+	culture="kalmyk"
+	trait="scholarly_theologian"
+	trait="honest"
+	trait="temperate"
+	trait="ambitious"
+	trait="osvicenism_tolerations"
+	2520.2.3={
+		birth=yes
+	}
+	2538.7.19={
+		add_spouse=3179
+	}
+	2560.1.1={
+		death=yes
+	}
+}
+3181 = {
+	name="Megujin"
+	dynasty=25540017
+	father=3179
+	mother=3180
+	religion="gelugpa"
+	culture="kalmyk"
+	trait="conscientious"
+	trait="brave"
+	2543.6.13={
+		birth=yes
+	}
+	2560.1.1={
+		death=yes
+	}
+}

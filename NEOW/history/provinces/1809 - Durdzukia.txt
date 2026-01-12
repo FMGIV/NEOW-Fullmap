@@ -1,0 +1,15 @@
+# 1809 - Durdzukia
+
+# County title
+title = c_chechnya
+
+# Settlements
+max_settlements = 3
+b_akhmat = castle
+b_grozny = temple
+
+# Misc
+culture = chechen
+religion = sunni
+
+# History

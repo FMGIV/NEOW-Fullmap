@@ -1,0 +1,14 @@
+# 1912 - Otgontenger
+
+# County Title
+title = c_otgontenger
+
+# Settlements
+max_settlements = 2
+b_otgontenger = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

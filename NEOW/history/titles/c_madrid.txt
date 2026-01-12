@@ -1,0 +1,197 @@
+1037.9.4={
+	holder=858 # Fernando I Jimena
+	law = crown_authority_1
+	law = investiture_law_1
+
+	capital=197
+}
+1065.12.27={
+	holder=859 # Sancho II Jimena
+}
+1072.10.7={
+	holder=860 # Alfonso VI Jimena
+}
+1109.6.30={
+	holder=861 # Urraca Alfónsez Jimena
+}
+1126.3.8={
+	holder=862 # Alfonso VII de Borgoña
+}
+1157.8.21={
+	holder=863 # Sancho III de Borgoña
+}
+1158.8.31={
+	holder=864 # Alfonso VIII de Borgoña
+}
+1214.10.8={
+	holder=865 # Enrique Alfónsez de Borgoña
+}
+1217.6.6={
+	holder=866 # Berenguela Alfónsez de Borgoña
+}
+1217.8.31={
+	holder=867 # Fernando III de Borgoña
+}
+1252.5.30={
+	holder=868 # Alfonso X de Borgoña
+}
+1284.4.4={
+	holder=869 # Sancho IV de Borgoña
+	law = succ_primogeniture
+}	
+1295.4.25={
+	holder=870 # Fernando IV de Borgoña
+}
+1312.9.7={
+	holder=871 # Alfonso XI de Borgoña
+}
+1350.3.26={
+	holder=872 # Peter I de Borgoña
+}
+1366.3.13={
+	holder=873 # Henry II de Trastamara
+}
+1367.4.3={
+	holder=872 # Peter I de Borgoña
+}
+1369.3.23={
+	holder=873 # Henry II de Trastamara
+}
+1379.5.29={
+	holder=874 # John I de Trastamara
+}
+1390.10.9={
+	holder=875 # Henry III de Trastamara
+}
+1406.12.25={
+	holder=876 # John II de Trastamara
+}
+1454.7.22={
+	holder=877 # Henry IV de Trastamara
+}
+1474.12.11={
+	holder=878 # Isabella I de Trastamara
+}
+1504.11.26={
+	holder=879 # Joanna I de Trastamara
+}
+1555.4.12={
+	holder=0 # Carlos I of Habsburg, aka Emperor Charles V of the HRE and Spain, archduke of Austria, King of Spain, and ruler of the Netherlands
+}
+1556.1.16={
+	holder=880 # Felipe II of Habsburg
+}
+1598.9.13={
+	holder=881 # Felipe III of Habsburg
+}
+1621.3.31={
+	holder=882 # Felipe IV of Habsburg
+}
+1665.9.17={
+	holder=883 # Carlos II of Habsburg
+}
+1700.11.1={
+	holder=0 # Felipe V Bourbon
+}
+1724.1.15={
+	holder=884 # Louis I Bourbon
+}
+1724.9.6={
+	holder=0 # Felipe V Bourbon
+}
+1746.7.9={
+	holder=885 # Fernando VI Bourbon
+}
+1759.8.10={
+	holder=886 # Carlos III Bourbon
+}
+1788.12.14={
+	holder=887 # Carlos IV Bourbon
+}
+1808.3.19={
+	holder=888 # Fernando VII Bourbon
+}
+1808.6.6={
+	holder=0 # Jose Bonaparte
+}
+1813.12.11={
+	holder=888 # Fernando VII Bourbon
+}
+1833.9.29={
+	holder=890 # Isabella II Bourbon
+}
+1870.6.25={
+	holder=0 # deposed
+}
+1870.11.16={
+	holder=0 # Amedeo I of Savoia
+}
+1872.2.11={
+	holder=0 # deposed
+}
+1874.12.29={
+	holder=892 # Alfonso XII Bourbon
+}
+1886.5.17={
+	holder=893 # Alfonso XIII Bourbon
+}
+1931.4.14={
+	holder=0 # deposed
+}
+1975.11.22={
+	holder=895 # Juan Carlos I Bourbon
+}
+2014.6.19={
+	holder=896 # Felipe VI Bourbon
+}
+2078.1.1={
+	holder = 0
+}
+2223.3.21={
+	holder = 897 # Fernando VIII
+}
+2260.7.19={
+	holder = 898 # Amadeo II
+}
+2265.10.14={
+	holder = 899 # Luis II
+}
+2312.12.13={
+	holder = 900 # Juan Carlos II
+}
+2340.5.9={
+	holder = 901 # Felipe VII
+}
+2365.4.7={
+	holder = 902 # Carlos V
+}
+2368.2.13={
+	holder = 903 # Carlos VI
+}
+2369.1.8={
+	holder = 904 # José II
+}
+2398.12.30={
+	holder = 905 # Felipe VIII
+}
+2429.11.9={
+	holder = 906 # Luis III
+}
+2434.3.6={
+	holder = 907 # Felipe IX
+}
+2470.10.5={
+	holder = 908 # Amadeo III
+}
+2473.6.10={
+	holder = 909 # Amadeo IV
+}
+2491.11.7={
+	holder = 910 # Felipe X
+}
+2502.6.29={
+	holder = 911 # Alfonso XIV
+}
+2523.7.27={
+	holder = 912 # Alfonso XV
+}

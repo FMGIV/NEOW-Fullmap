@@ -1,0 +1,27 @@
+# 2159 - Sandwip
+
+# County Title
+title = c_sandwip
+
+# Settlements
+max_settlements = 4
+b_sandwip = castle
+b_musapur = city
+b_bauria = temple
+
+#b_gasua = castle
+#b_kalapania = castle
+#b_magdhara = castle
+#b_sarikait = castle
+
+# Misc
+culture = weeb
+religion = shinko
+terrain = jungle
+
+# History
+2210.1.1 = {
+	b_sandwip = ca_shipyard_1
+	b_sandwip = ca_shipyard_2
+	b_sandwip = ca_shipyard_3
+}

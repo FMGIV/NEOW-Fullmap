@@ -1,0 +1,20 @@
+#
+
+# County Title
+title = c_motyginskiy
+
+# Settlements
+max_settlements = 5
+b_lesosibirsk = castle
+b_strelka = city
+b_novokargino = temple
+#b_abalakovo
+#b_tatarka
+#b_novoangarsk
+#b_baykal
+
+# Misc
+culture = ket
+religion = nousthreskeia
+
+# History

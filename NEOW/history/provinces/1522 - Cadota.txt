@@ -1,0 +1,12 @@
+# County Title
+title = c_cadota
+
+# Settlements
+max_settlements = 2
+
+b_niya_2 = castle
+b_endere = temple
+
+# Misc
+culture = uyghur
+religion = baptist

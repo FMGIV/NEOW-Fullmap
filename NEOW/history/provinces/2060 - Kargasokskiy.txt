@@ -1,0 +1,20 @@
+#
+
+# County Title
+title = c_kargasokskiy
+
+# Settlements
+max_settlements = 4
+b_novyy = tribal
+#b_vasyugan
+#b_kolbasa
+#b_anikino
+#b_novy-tevris
+#b_sredny_2
+#b_vasyugen_2
+
+# Misc
+culture = sibiran
+religion = oldbeliever
+
+# History

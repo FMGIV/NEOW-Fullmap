@@ -1,0 +1,4 @@
+2538.7.6={
+	holder=1280 #Converter of gibralter
+	liege=c_gibraltar
+}

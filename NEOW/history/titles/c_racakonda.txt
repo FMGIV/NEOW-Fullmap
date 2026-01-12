@@ -1,0 +1,4 @@
+2551.1.16={
+	holder=1308
+	liege=e_karnataka
+}

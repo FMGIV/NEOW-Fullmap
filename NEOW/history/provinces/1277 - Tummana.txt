@@ -1,0 +1,17 @@
+# 1277 - Tummana
+
+# County Title
+title = c_tummana
+
+# Settlements
+max_settlements = 4
+b_tummana = tribal
+b_amarkantak = temple
+#b_manendragarh = city
+
+# Misc
+culture = chhattisgarhi
+religion = sarna_pagan
+terrain = jungle
+
+# History

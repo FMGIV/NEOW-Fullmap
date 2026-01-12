@@ -1,0 +1,29 @@
+# 182 - Sevilla
+
+# County Title
+title = c_sevilla
+
+# Settlements
+max_settlements = 6
+b_el_palmar = temple
+b_carmona = castle
+b_sevilla = city
+b_doshermanas = city
+b_alcaladeguadaira = temple
+
+#b_sevimoron = city
+#b_laalgaba = castle
+#b_ecija = castle
+
+culture = andalusian
+religion = sevillian
+
+# History (sevillian Palace)
+2172.1.1 = {#Pope Liberius ordered its construction
+	build_wonder = wonder_apostolic_palace_sevillian
+	set_wonder_stage = 1
+}
+
+2305.1.1 = { #Pope Marcellus IV improved on prior construction
+	set_wonder_stage = 2
+}

@@ -1,0 +1,14 @@
+# 1907 - Kharkiraa
+
+# County Title
+title = c_kharkhiraa
+
+# Settlements
+max_settlements = 2
+b_kharkhiraa = tribal
+
+# Misc
+culture = mongol
+religion = vajrayana
+
+# History

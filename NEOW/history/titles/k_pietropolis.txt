@@ -1,0 +1,8 @@
+100.1.1 = {
+  pentarch = b_capriana
+}
+2550.12.7=
+{
+	holder = 3954
+	law = succ_patrician_elective
+}

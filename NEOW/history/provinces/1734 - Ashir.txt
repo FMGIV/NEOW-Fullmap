@@ -1,0 +1,25 @@
+# 1734 - Ashir
+
+# County Title
+title = c_ashir
+
+# Settlements
+max_settlements = 3
+
+b_asir_yasir = tribal
+#b_asir_banya = city
+
+# Misc
+culture = algerian
+religion = thawri
+
+# History
+2300.1.1 = { 
+	b_asir_yasir =tb_defensive_fortifications_1
+	b_asir_yasir =tb_defensive_fortifications_2
+	b_asir_yasir =tb_defensive_fortifications_3
+	b_asir_yasir =tb_defensive_fortifications_4
+	b_asir_yasir =tb_hillfort_1
+	b_asir_yasir =tb_hillfort_2
+	b_asir_yasir =tb_hillfort_3
+}

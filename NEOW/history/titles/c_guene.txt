@@ -1,0 +1,6 @@
+
+2549.8.12=
+{
+	holder = 1466
+	liege= d_logobou
+}

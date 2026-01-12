@@ -1,0 +1,23 @@
+# 171 - Valencia
+
+# County Title
+title = c_valencia
+
+# Settlements
+max_settlements = 6
+b_valencia = castle
+b_gandia = city
+b_torrent = temple
+b_jativa = castle
+#b_alacuas = castle
+#b_cuartdepoblet = castle
+#b_alberique = castle
+#b_chiva = castle
+
+# Misc
+culture = valencian
+religion = sevillian
+terrain = tells
+
+# History
+

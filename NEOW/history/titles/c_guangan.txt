@@ -1,0 +1,4 @@
+2551.12.30={
+	holder = 10069
+	liege = e_wuxia
+}

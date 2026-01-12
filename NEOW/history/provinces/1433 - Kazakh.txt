@@ -1,0 +1,20 @@
+# County Title
+title = c_kazakh
+
+# Settlements
+max_settlements = 2
+
+b_zhezdi = tribal
+
+#b_kengir = temple
+#b_zhairem = city
+
+#b_zhezkazgan = {}
+#b_karsakpay = {}
+#b_jezkazgan = {}
+
+# Misc
+culture = kazakh
+religion = ironist
+	
+# History

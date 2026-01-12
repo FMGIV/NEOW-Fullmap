@@ -1,0 +1,12 @@
+ # 1624 - Forde
+
+ # County title 
+ title = c_forde
+
+ max_settlements = 3
+
+ b_audunborg = castle
+
+# Misc
+culture = vestsk
+religion = nobelian

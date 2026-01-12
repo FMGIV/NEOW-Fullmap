@@ -1,0 +1,20 @@
+# 1268 - Dhamalpur
+
+# County Title
+title = c_dhamalpur
+
+# Settlements
+max_settlements = 5
+b_dhamalpur = castle
+b_morvi = city
+b_lakhota = temple
+#b_halvad = castle
+#b_khasta = city
+
+# Misc
+culture = gujurati
+religion = saura
+
+# History
+
+2532.10.13 = { trade_post = b_selinofoto }

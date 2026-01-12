@@ -1,0 +1,25 @@
+# 323 - Lucca
+
+# County Title
+title = c_lucca
+
+# Settlements
+max_settlements = 4
+b_lucca = city
+b_cascina = temple
+b_fiesole = castle
+
+#b_altopascio = castle
+#b_viareggio = castle
+#b_seravezza = castle
+#b_capannori = castle
+#b_calcinaia = castle
+
+# Misc
+culture = tuscanian
+religion = catholic
+
+# History
+
+1999.1.1 = { # Intentional empty entry
+}

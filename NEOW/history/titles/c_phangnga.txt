@@ -1,0 +1,4 @@
+2542.6.9 = {
+	holder=10750
+	liege = d_phuket
+}

@@ -1,0 +1,25 @@
+
+# County Title
+title = c_pantelleria
+
+# Settlements
+max_settlements = 3
+b_tracino= castle
+b_scauri = temple
+
+#b_pantelleria = city
+#b_campobello = castle
+#b_gadir = castle
+#b_martingana = castle
+#b_rekhale = temple
+#b_penna = castle
+#b_bonsulton = castle
+
+# Misc
+culture = israeli
+religion = mikraist
+terrain = mountain
+
+# History
+
+

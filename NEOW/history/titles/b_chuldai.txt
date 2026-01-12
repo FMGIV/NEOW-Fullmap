@@ -1,0 +1,45 @@
+2270.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4215
+}
+2300.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4216
+}
+2350.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4217
+}
+2371.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4218
+}
+2397.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4219
+}
+2430.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4226
+}
+2470.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4227
+}
+2499.1.1={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 4228
+}
+2528.8.2={
+	holding_dynasty = 25552802
+	liege = "d_gush_dan"
+	holder = 3029
+}

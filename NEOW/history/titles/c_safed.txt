@@ -1,0 +1,4 @@
+2550.12.16={
+	liege= k_lebanon
+	holder=1178
+}

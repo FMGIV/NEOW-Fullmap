@@ -1,0 +1,4 @@
+2553.10.19={
+	holder = 3358
+	liege = d_oppland
+}

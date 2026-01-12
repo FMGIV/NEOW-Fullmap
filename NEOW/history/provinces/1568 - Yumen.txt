@@ -1,0 +1,21 @@
+#1568 - Yumen
+
+# County Title
+title = c_yumen
+
+# Settlements
+max_settlements = 4
+
+b_yumen = castle
+b_xiaxihao = city
+b_huangzhawan = temple
+#b_chuanbei = 
+#b_baoen = temple
+#b_dongshuwo = temple
+#b_shagang =
+
+# Misc
+culture = lan_yin
+religion = mahayana
+
+# History

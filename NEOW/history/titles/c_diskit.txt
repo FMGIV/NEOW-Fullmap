@@ -1,0 +1,4 @@
+2530.12.12={
+	holder=10051
+	liege=d_ladakh
+}

@@ -1,0 +1,4 @@
+2551.12.1={
+	liege = k_assyria
+	holder=1136 # Chaldean
+}

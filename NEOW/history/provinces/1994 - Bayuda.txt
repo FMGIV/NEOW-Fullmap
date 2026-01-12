@@ -1,0 +1,16 @@
+# 1994 - Bayuda
+
+# County Title
+title = c_bayuda
+
+# Settlements
+max_settlements = 4
+b_bayuda = tribal
+
+#b_almeragh
+
+# Misc
+culture = sudanese
+religion = sunni
+
+# History

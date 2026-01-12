@@ -1,0 +1,20 @@
+# 1414 - Batticaloa
+
+# County Title
+title = c_batticaloa
+
+# Settlements
+max_settlements = 4
+b_batticaloa = castle
+b_vakarai = city
+#b_nawa_madagama = temple
+#b_maha_oya = castle
+#b_gonagolla = city
+#b_girikandaka = temple
+#b_madakalapuva = city
+
+# Misc
+culture = lankan_tamil
+religion = theravada
+
+# History

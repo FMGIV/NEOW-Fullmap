@@ -1,0 +1,31 @@
+# 1746 - Kaduna
+
+# County Title
+title = c_kaduna
+
+# Settlements
+max_settlements = 7
+
+b_kaduna = castle
+b_rigachun = city
+b_kufana = temple
+
+b_kajuru = city
+b_bawa = temple
+b_makami = castle
+#b_gwagwada = castle
+
+# Misc
+culture = hausa
+religion = islamity
+
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 7
+	build_wonder_upgrade = upgrade_cow_district_fortress
+	build_wonder_upgrade = upgrade_cow_district_library
+	build_wonder_upgrade = upgrade_cow_district_university
+	build_wonder_upgrade = upgrade_cow_district_mosque
+	build_wonder_upgrade = upgrade_cow_district_cathedral
+	build_wonder_upgrade = upgrade_cow_district_palace
+}

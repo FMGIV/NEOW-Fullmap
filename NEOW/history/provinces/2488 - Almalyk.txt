@@ -1,0 +1,21 @@
+# 2488 - Almalyk
+
+# County Title
+title = c_almalyk
+
+# Settlements
+max_settlements = 4
+
+b_almalyk = castle
+b_angren = city
+b_kou = temple
+#b_kurgan_2 = city
+#b_urgaz = city
+#b_yurga = castle
+#b_sukok = castle
+
+# Misc
+
+religion = armenianapostolic
+culture = armyan
+terrain = mountain

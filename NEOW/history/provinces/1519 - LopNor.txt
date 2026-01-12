@@ -1,0 +1,13 @@
+# County Title
+title = c_lopnor
+
+# Settlements
+max_settlements = 2
+
+b_lopnor = castle
+b_qitun = temple
+
+# Misc
+culture = hui
+religion = qingzhen
+

@@ -1,0 +1,20 @@
+# 268 - Agder
+
+# County Title
+title = c_agder
+
+# Settlements
+max_settlements = 4
+b_iveland = castle
+
+b_hylestad = city
+#b_flekkefjord = temple
+#b_grimstad = castle
+#b_sirdal = castle
+#b_visedal = city
+#b_horga = temple
+#b_holt = temple
+
+# Misc
+culture = norwegian
+religion = lutheran

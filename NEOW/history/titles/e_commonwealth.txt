@@ -1,0 +1,33 @@
+1548.4.1={
+	holder = 3485 # Sigismund August
+}
+1572.7.7={
+	holder = 3486 # Anna
+}
+1576.5.1={
+	holder = 3487 # Stephen
+}
+1586.12.12={
+	holder = 3486 # Anna
+}
+1587.8.19={
+	holder = 3488 # Sigismund
+}
+1632.4.30={
+	holder = 3489 # Wladyslaw
+}
+1648.5.20={
+	holder = 3490 # John
+}
+1672.12.16={
+	holder = 3491 # John
+}
+1736.1.26={
+	holder = 3493 # August
+}
+1763.10.5={
+	holder = 3494 # Stanislaw
+}
+1795.11.25={
+	holder = 0 # End of PLC
+}

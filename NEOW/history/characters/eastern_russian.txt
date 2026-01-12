@@ -1,0 +1,269 @@
+4742 = {
+	name="Genadi" # Current Ruler of Vladivostok
+	dynasty=1721038 #Makusimow
+	martial=2
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	learning=7
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	trait="midas_touched"
+	trait="ambitious"
+	trait="greedy"
+	trait="cynical"
+	trait="diligent"
+	trait="paranoid"
+	trait="history_4742"
+	2500.6.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+4743 = {
+	name="Olegu" # First son and heir of the Current ruler of Vladivostok
+	dynasty=1721038 #Makusimow
+	father=4742
+	martial=5
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	learning=5
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	trait="thrifty_clerk"
+	trait="ambitious"
+	trait="greedy"
+	trait="temperate"
+	trait="wroth"
+	trait="brave"
+	2523.8.11 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+4744 = {
+	name="Marina" # Daughter of the Current ruler of Vladivostok, wife of the Shogun of Japan
+	dynasty=1721038 #Makusimow
+	father=4742
+	female=yes
+	martial=3
+	diplomacy=6
+	intrigue=8
+	stewardship=8
+	learning=7
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	trait="fortune_builder"
+	trait="ambitious"
+	trait="greedy"
+	trait="groomed"
+	trait="kind"
+	2527.6.14 = {
+		birth=yes
+	}
+	2550.2.20 = {
+		add_spouse = 5050
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+4745 = {
+	name="Roranu" # Second son of the Current ruler of Vladivostok
+	dynasty=1721038 #Makusimow
+	father=4742
+	martial=2
+	diplomacy=3
+	intrigue=8
+	stewardship=9
+	learning=7
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	trait="fortune_builder"
+	trait="ambitious"
+	trait="greedy"
+	trait="deceitful"
+	trait="zealous"
+	trait="gregarious"
+	trait="envious"
+	2530.7.14 = {
+		birth=yes
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+4746={ # The Duke of Fuyuan. A proud hunter and gardener. Also eats too much of his fruits and game.
+	name="Hrihori"
+	dynasty=1721051
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	diplomacy=3
+	martial=2
+	stewardship=4
+	intrigue=3
+	learning=5
+	trait="underhanded_rogue"
+	trait="just"
+	trait="gardener"
+	trait="proud"
+	trait="gluttonous"
+	disallow_random_traits=yes
+	2532.8.11={
+	 birth=yes
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+
+
+4747={ # Lizardmen vasal
+	name="Tegin"
+	dynasty=1997198
+	culture="evenk"
+	religion="nousthreskeia"
+	diplomacy=3
+	martial=4
+	stewardship=3
+	intrigue=3
+	learning=4
+	trait="indulgent_wastrel"
+	trait="ugly"
+	trait="scarred"
+	trait="stressed"
+	trait="content"
+	disallow_random_traits=yes
+	2530.2.25={
+	birth=yes
+	}
+	2666.1.1={
+	death=yes
+	}
+}
+4748={ # The Count of Gazimursky Zavod. The Razumist frontier against the Oroqen.
+	name="Emil"
+	dynasty=25559706
+	culture="east_sibiran"
+	religion="cosmist"
+	diplomacy=5
+	martial=6
+	stewardship=4
+	intrigue=3
+	learning=4
+	trait="martial_cleric"
+	trait="stressed"
+	trait="scarred"
+	trait="wroth"
+	trait="lustful"
+	disallow_random_traits=yes
+	2533.6.3={
+		birth=yes
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+4749={ # The Count of Balei. Constantly raided and cannot do anything about it.
+	name="Alexei"
+	dynasty=25559708
+	culture="east_sibiran"
+	religion="nousthreskeia"
+	diplomacy=4
+	martial=3
+	stewardship=4
+	intrigue=2
+	learning=3
+	trait="misguided_warrior"
+	trait="stressed"
+	trait="wroth"
+	trait="scarred_mid"
+	trait="depressed"
+	disallow_random_traits=yes
+	2536.9.3={
+		birth=yes
+	}
+	2666.1.1={
+		death=yes
+	}
+}
+
+4750 = { 
+	name="Sara" #Second daughter of Genadi, married to the ruler of Antu for diplomacy by her father
+	dynasty=1721038 #Makusimow
+	father=4742
+	female=yes
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	trait="charismatic_negotiator"
+	trait="kind"
+	trait="temperate"
+	trait="groomed"
+	trait="gardener"
+	trait="sympathy_christendom"
+	disallow_random_traits=yes
+	2529.8.1 = {
+		birth=yes
+	}
+	2553.2.20 = {
+		add_spouse = 4675
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+4751 = { 
+	name="Tereza" #Third daughter of Genadi, married to the ruler of Aimin for diplomacy by her father
+	dynasty=1721038 #Makusimow
+	father=4742
+	female=yes
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	trait="grey_eminence"
+	trait="kind"
+	trait="charitable"
+	trait="shrewd"
+	trait="socializer"
+	trait="sympathy_christendom"
+	disallow_random_traits=yes
+	2531.2.11 = {
+		birth=yes
+	}
+	2553.7.2 = {
+		add_spouse = 8638
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}
+
+4752 = { 
+	name="Dominika" #Fourth daughter of Genadi, married to the ruler of Baishan for diplomacy by her father
+	dynasty=1721038 #Makusimow
+	father=4742
+	female=yes
+	religion="nousthreskeia"
+	culture="novorusskiy"
+	trait="thrifty_clerk"
+	trait="kind"
+	trait="patient"
+	trait="robust"
+	trait="administrator"
+	trait="sympathy_buddhism"
+	disallow_random_traits=yes
+	2533.4.2 = {
+		birth=yes
+	}
+	2554.1.2 = {
+		add_spouse = 8639
+	}
+	2666.1.1 = {
+		death=yes
+	}
+}

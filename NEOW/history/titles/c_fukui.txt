@@ -1,0 +1,4 @@
+2541.9.14={
+	holder = 8157
+	law = succ_primogeniture
+}

@@ -1,0 +1,4 @@
+2536.5.20={
+	holder = 666 # Duke Henry Tudor
+	liege = e_britannia
+}

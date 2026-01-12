@@ -1,0 +1,17 @@
+# 493 - Philippopolis
+
+# County Title
+title = c_philippopolis
+
+# Settlements
+max_settlements = 3
+
+b_smoljan = castle
+b_pamparovo = city
+b_dospat = temple
+
+# Misc
+culture = macedonian
+religion = hellenic_pagan
+
+# History

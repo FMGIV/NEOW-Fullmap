@@ -1,0 +1,7 @@
+
+2546.4.18=
+{
+	holder = 3184
+	historical_nomad = yes	
+	liege=d_barsakelmes
+}

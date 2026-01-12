@@ -1,0 +1,28 @@
+# 545 - Torki
+
+# County Title
+title = c_torki
+
+# Settlements
+max_settlements = 5
+
+b_cernauti = tribal
+#b_hotin = city
+#b_bogdana = temple
+
+#b_baia = castle
+#b_moldovita = temple
+#b_siret = castle
+#b_putna = castle
+
+# Misc
+culture = adessite
+religion = orthodox
+
+# History
+867.1.1 = {
+	b_hotin = castle
+	b_cernauti = city
+	b_bogdana = temple
+	b_baia = castle
+}

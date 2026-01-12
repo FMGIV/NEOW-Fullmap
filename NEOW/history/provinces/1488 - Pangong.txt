@@ -1,0 +1,19 @@
+# County Title
+title = c_pangong
+
+# Settlements
+max_settlements = 4
+
+b_khumak = tribal
+#b_pangong = city
+#b_spanggur = {
+#b_kizilyeza = {
+#b_aksayqin = {
+#b_sumdo = {
+#b_surigh = {
+
+# Misc
+culture = u_tsang
+religion = gelugpa
+
+# History

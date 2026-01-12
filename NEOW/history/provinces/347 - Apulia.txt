@@ -1,0 +1,22 @@
+# 347 - Apulia
+
+# County Title
+title = c_apulia
+
+# Settlements
+max_settlements = 4
+b_barletta  = castle
+b_cannae = city
+b_trani = temple
+
+#b_melfi_ita = castle
+#b_salapia = castle
+#b_minervo = castle
+#b_lavello = castle
+#b_lucano = castle
+
+# Misc
+culture = pugliese
+religion = catholic
+
+# History

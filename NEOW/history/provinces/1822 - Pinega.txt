@@ -1,0 +1,15 @@
+# 1822 - Pinega
+
+# County Title
+title = c_pinega
+
+# Settlements 
+max_settlements = 3
+b_kuloy = tribal
+
+# Misc
+culture = pomoran
+religion = folklorist
+terrain = arctic
+
+# History

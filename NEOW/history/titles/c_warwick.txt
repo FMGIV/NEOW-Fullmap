@@ -1,0 +1,4 @@
+2517.6.24={
+	holder = 677 # Count Aleister Shakespeare
+	liege = d_hereford
+}

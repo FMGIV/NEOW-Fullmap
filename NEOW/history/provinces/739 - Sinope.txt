@@ -1,0 +1,22 @@
+# 739 - Sinope
+
+# County Title
+title = c_sinope
+
+# Settlements
+max_settlements = 4
+b_talaura = castle
+b_sinope = city
+b_themiscyra = temple
+
+
+# Misc
+culture = moldavian
+religion = sunni
+
+# History
+
+1222.1.1 = { trade_post = b_spinola }
+#1337.1.1 = { b_talaura = castle } 
+
+2532.10.13 = { trade_post = b_akhmetov }

@@ -1,0 +1,22 @@
+# 2252 - Katowice
+
+# County Title
+title = c_katowice
+
+# Settlements
+max_settlements = 5
+b_katowice = castle
+b_tychy = city
+b_tarnowskie_gory = temple
+#b_bytom = castle
+#b_ruda_slaska = city
+
+#b_jaworzno = temple
+#b_bierun = castle
+
+
+# Misc
+culture = silesian
+religion = fraticelli
+
+# History

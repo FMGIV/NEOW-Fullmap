@@ -1,0 +1,16 @@
+# 1713 - Arezzo
+
+# County title 
+title = c_arezzo
+
+# Settlements 
+max_settlements = 4
+b_arezzo = city
+b_cortona = castle
+b_montevarchi = temple
+
+# Misc
+culture = tuscanian
+religion = catholic
+
+# History

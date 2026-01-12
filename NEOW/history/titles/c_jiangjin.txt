@@ -1,0 +1,7 @@
+2520.10.16={
+	holder = 10088
+	liege = d_jiangjin
+}
+2527.3.19={
+	holder = 10090
+}

@@ -1,0 +1,4 @@
+2544.1.1={
+	holder=4097 #Abdoulaye
+	liege=k_senegal
+}

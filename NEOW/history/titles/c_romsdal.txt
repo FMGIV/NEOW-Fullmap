@@ -1,0 +1,5 @@
+
+2549.9.12={
+	holder = 3357
+	liege = d_vestlandet
+}

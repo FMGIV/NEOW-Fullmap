@@ -1,0 +1,1942 @@
+muslim = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1 # try to convert if ai_zeal is high
+	ai_fabricate_claims = no
+	
+	color = { 0 0.6 0 }
+	
+	interface_skin = { muslim_interface }
+	
+	# Names given only to Muslim characters (base names)
+	male_names = {
+		Abbas Abuali Abubakr Abdulqadir Abdalrahman Abdul Abdullah Adnan Akbar Ahmad Alaeddin Ali Amin Anwar Anwarullah Asad Azam Azim Aziz 
+		Bilal
+		Fadl Farid Faruq Fateh Faysal Fayiz Firuz Fulad-Khan 
+		Ghazi Ghiyasuddin
+		Hafiz Hajj Hamdan Hamid Harith Hasan Hashim Husam Hussayn 
+		Ihsan Imran Iqbal Islam Ismat 
+		Jabbar Jalal Jalal-Khan Jalaluddin Jamal
+		Khabeeruddin Khaireddin Khalaf-Hasan Khalid Khidr Khwaja-Hasan 
+		Mahdi Mahmud Mahmud-Gawan Mahmudullah Majnun-Sultan Makhdumah-Jahan Maqsud Mir-Ali Mir-Farrukh Mir-Muhammad Mir-Qasim Mirza Muazzam Mubarak Muhammad Mujahid Mukhtar Murad Murshid-Quli Mushtaq Muslihiddin Mustafa Muzaffaraddin 
+		Najib Nasir Nawaz Nazmul Nizam Nuraddin 
+		Qasim Qasim-Beg Qawurd Quli-Sultan 
+		Ramadan Rashid Rifat Rustam-Khan 
+		Sadiq Said Saifaldin Sayid-Hanif Sayid-Husain Sayyid Semseddin Shakib 
+		Tahir Tajuddin Talib Tariq
+		Uthman 
+		Zafar Zahir Zakir Zayn Zeyd Ziaur
+	}
+	
+	# Names given only to Muslim characters (base names)
+	female_names = {
+		Adila Amina Anwara Asima Aziza
+		Fadila Faiza Farida Fatima 
+		Hadiyya Hafsa Halima Hanifa Husna
+		Ibtisam
+		Karima
+		Nafisa Nawra 
+		Rashida
+		Saida
+		Tahira Taliba
+		Wahida
+		Zaynab
+	}
+	sunni = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0 102 59 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		aggression = 1.1
+		allow_rivermovement = yes
+		#can_call_crusade = yes
+		priests_can_marry = yes
+		can_have_antipopes = yes
+		can_retire_to_monastery = yes
+		can_excommunicate = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+
+		#intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = memorialist
+		intermarry = brethren
+		intermarry = ismaili
+		intermarry = risala
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+
+	wahhabi = {
+		graphical_culture = xtremuslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 3
+		heresy_icon = 8
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		character_modifier = {
+			religion_flex = 0.25
+		}
+
+		color = { 0 12 12 }
+		parent = sunni
+		
+		aggression = 1.5
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
+		can_have_antipopes = yes
+		attacking_same_religion_piety_loss = no
+		#peace_prestige_loss = yes
+		allow_looting = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		allow_viking_invasion = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		#intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = memorialist
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = ismaili
+		intermarry = risala
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+		
+	}
+	alevi = {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 128
+		heresy_icon = 128
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = DEDE_PRIEST
+		
+		high_god_name = GOD_AL_HAQQ
+		
+		god_names = {
+			GOD_AL_HAQQ GOD_TANRI GOD_MUHAMMAD GOD_ALI
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+
+		color = { 143 153 15 }
+		
+		aggression = 0.7
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		can_have_antipopes = yes
+		can_retire_to_monastery = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		matrilineal_marriages = no
+		can_demand_religious_conversion = no
+		defensive_attrition = yes
+		hard_to_convert = yes
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		character_modifier = {
+			religion_flex=-0.25
+			learning=2
+		}
+
+		#intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = memorialist
+		intermarry = dahatatta
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = ismaili
+		intermarry = risala
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+	}
+	
+	malikite = {
+		graphical_culture = muslimgfx
+
+		icon = 92
+		heresy_icon = 112
+		color = { 0.8 0.3 0.2 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		aggression = 1.2
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		can_retire_to_monastery = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		short_reign_opinion_year_mult = 2.5
+		landed_kin_prestige_bonus = yes
+		uses_decadence = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		#intermarry = malikite
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = memorialist
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = risala
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = thawri
+		intermarry = bani
+	}
+	
+	thawri = {
+		graphical_culture = muslimgfx
+
+		icon = 114
+		heresy_icon = 112
+		color = { 204 25 55 }
+		
+		crusade_name = LIBERATION_REVOLUTION
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN GOD_CHARLEMAGNE GOD_RED_HAND
+		}
+		
+		aggression = 1.2
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		can_retire_to_monastery = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		short_reign_opinion_year_mult = 2.5
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		can_grant_claim = yes
+		can_grant_invasion_cb = invasion
+		allow_looting = yes
+		allow_viking_invasion = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = risala
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = koranist
+	}
+	
+	risala = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		parent = sunni
+		color = { 0 158 139 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST GOD_AL_WAHDA
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		character_modifier = {
+			christian_opinion = 10
+		}
+		aggression = 1
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		can_retire_to_monastery = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = no
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = koranist
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = thawri
+	}
+	koranist = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		parent = sunni
+		color = { 0 175 73 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		aggression = 0.9
+		allow_rivermovement = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		
+		matrilineal_marriages = yes
+		feminist = yes
+		can_retire_to_monastery = yes
+		raised_vassal_opinion_loss = no
+		uses_decadence = no
+		uses_jizya_tax = no
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+						
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		#intermarry = koranist
+		intermarry = risala
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = memorialist
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = thawri
+		intermarry = bani
+	}
+	jadidist = {
+		graphical_culture = othermuslimgfx
+		secondary_event_pictures = sunni
+		icon = 97
+		
+		color = { 0 114 76 }
+
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST GOD_ASENA GOD_THE_NETWORK GOD_HAUBAN GOD_KAYRA GOD_URAL_BATIR GOD_THE_IJTIHAD
+		}
+		
+		evil_god_names = {
+			GOD_ERLIK SHAYTAN GOD_THE_GREAT_IGNORANCE
+		}		
+		
+		aggression = 0.9
+		can_call_crusade = no
+		priests_can_marry = no
+		max_wives = 4
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		feminist = yes
+		allow_rivermovement = yes
+		priests_can_inherit = no
+		raised_vassal_opinion_loss = no
+		uses_decadence = no
+		uses_jizya_tax = no
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = shiite
+		intermarry = alevi
+		intermarry = druze
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ironist
+		intermarry = brethren
+		intermarry = yersenism
+		intermarry = memorialist
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = risala
+		intermarry = muwahidunna
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+	ovlatii = {
+		graphical_culture = othermuslimgfx
+
+		icon = 129
+		heresy_icon = 130
+		
+		color = { 0 84 127 }
+		
+		crusade_name = CIHAT
+		scripture_name = THE_KORAN
+		priest_title = RAHIP
+		
+		high_god_name = GOD_ALLAH 
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST TANRI GOD_ASENA GOD_OGUZ_KAGAN GOD_MANAS GOD_GESAR
+		}
+		
+		evil_god_names = {
+			GOD_ERLIK IBLIS SEYTAN
+		}
+		
+		aggression = 1.1
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		
+		matrilineal_marriages = no
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		allow_looting = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = memorialist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = ismaili
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+	qingzhen = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+
+		icon = 72
+		heresy_icon = 130
+		
+		color = { 0 132 226 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST THE_ANCESTORS
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		character_modifier = {
+			stewardship = 1
+			taoist_opinion = 5
+		}
+		
+		aggression = 1
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		female_temple_holders = yes
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = koranist
+		intermarry = memorialist
+		intermarry = ovlatii
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+		intermarry = wuxia
+		intermarry = mo_pagan
+		intermarry = mo_pagan_reformed
+		intermarry = buddhist_group
+		intermarry = xianxia
+		intermarry = wuist_reformed
+		intermarry = wuist
+		intermarry = hmongism
+		intermarry = legalist
+		intermarry = xidaotang
+		intermarry = white_lotus
+		intermarry = neoncult
+		intermarry = taoist
+		dynamic_cult = no
+	}	
+	xidaotang = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+
+		icon = 72
+		heresy_icon = 130
+		parent = qingzhen
+		color = { 52 235 183}
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST THE_ANCESTORS
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		character_modifier = {
+			stewardship = 2
+			global_tax_modifier = 0.1
+		}
+		
+		aggression = 1
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		female_temple_holders = yes
+		raised_vassal_opinion_loss = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = koranist
+		intermarry = memorialist
+		intermarry = ovlatii
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = wuxia
+		intermarry = mo_pagan
+		intermarry = mo_pagan_reformed
+		intermarry = buddhist_group
+		intermarry = xianxia
+		intermarry = wuist_reformed
+		intermarry = wuist
+		intermarry = hmongism
+		intermarry = legalist
+		intermarry = white_lotus
+		intermarry = neoncult
+		intermarry = taoist
+		dynamic_cult = no
+	}	
+	
+	sufi = {
+		graphical_culture = othermuslimgfx
+
+		icon = 93
+		heresy_icon = 93
+		
+		color = { 0.4 0.6 0.9 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		aggression = 0.9
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = rastafari
+		#intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = memorialist
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+	}	
+	
+	barelvi = {
+		graphical_culture = muslimgfx
+
+		icon = 57
+		heresy_icon = 58
+		
+		color = { 148 255 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		aggression = 0.9
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		autocephaly = yes
+		can_excommunicate = yes
+		uses_jizya_tax = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		#intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = memorialist
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}	
+	deobandi = {
+		graphical_culture = xtremuslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 57
+		heresy_icon = 58
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		character_modifier = {
+			religion_flex = 0.25
+		}
+
+		color = { 41 51 41 }
+		parent = barelvi
+		
+		aggression = 1.5
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		can_have_antipopes = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = no
+		#peace_prestige_loss = yes
+		allow_looting = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		allow_viking_invasion = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		#intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = memorialist
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+	}
+	ibadi = {
+		graphical_culture = othermuslimgfx
+
+		icon = 51
+		heresy_icon = 52
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+
+		color = { 33 81 165 }
+		
+		aggression = 0.9
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		#intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = summer_queen
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = koranist
+		intermarry = thelemic_reformed		
+		intermarry = arcane
+	}
+	
+	sulhi = {
+		graphical_culture = othermuslimgfx
+
+		icon = 51
+		heresy_icon = 52
+		
+		parent = ibadi
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		character_modifier = {
+			diplomacy = 1
+			global_revolt_risk = -0.02
+			muslim_opinion = 5
+			ibadi_opinion = -5
+			religion_flex = -0.25
+		}
+
+		color = { 243 244 236 }
+		aggression = 0.75
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		allow_looting = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		#intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = alevi
+		intermarry = muwahidunna
+		intermarry = memorialist
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = summer_queen
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = thelemic_reformed	
+		intermarry = pusaka
+		intermarry = syafi	
+		intermarry = bani
+		intermarry = arcane
+	}
+
+	shiite = {
+		graphical_culture = muslimgfx
+
+		icon = 4
+		heresy_icon = 9
+		
+		color = { 0 204 0 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = MULLAH
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		allow_rivermovement = yes
+		autocephaly = yes
+		priests_can_marry = yes
+		psc_marriage = no
+		max_wives = 4
+		matrilineal_marriages = no
+		can_retire_to_monastery = yes
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		#intermarry = shiite
+		intermarry = alevi
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = memorialist
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+	ismaili= {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+		secondary_event_pictures = shiite
+		icon = 4
+		heresy_icon = 9
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		
+		color = { 0 178 17 }
+		parent = shiite
+		
+		character_modifier = {
+			intrigue = 1			
+		}
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		psc_marriage = no
+		max_wives = 1
+		matrilineal_marriages = yes
+		can_retire_to_monastery = yes
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		peace_piety_gain = 1.0
+		defensive_attrition = yes
+		pacifist = yes
+		short_reign_opinion_year_mult = 0.5
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = alevi
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = memorialist
+		intermarry = dahatatta
+		intermarry = muwahidunna
+		intermarry = raelian
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		#intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+	zaydi= {
+		graphical_culture = muslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+		secondary_event_pictures = shiite
+		icon = 4
+		heresy_icon = 9
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		
+		color = { 208 2 27 }
+		parent = shiite
+		
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no
+		max_wives = 4
+		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
+		can_retire_to_monastery = yes
+		attacking_same_religion_piety_loss = yes
+		can_excommunicate = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		allow_looting = yes
+		hard_to_convert = yes
+		defensive_attrition = yes
+		aggression = 0.9 # AI aggression factor
+		independence_war_score_bonus = 45 
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		unit_home_modifier = {
+			land_morale = 0.8
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = alevi
+		intermarry = mesopotamian
+		intermarry = memorialist
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+	ahmadiyya = {
+		graphical_culture = othermuslimgfx
+		secondary_event_pictures = sunni
+		
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions
+
+		icon = 91
+		heresy_icon = 91
+		
+		color = { 26 153 178 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_PROPHET
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		character_modifier = {
+			diplomacy = 1
+			muslim_opinion = -25
+			ahmadiyya_opinion = 30
+		}
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		max_wives = 4
+		priests_can_inherit = no
+		can_retire_to_monastery = yes
+		peace_piety_gain = 1.0 # Gains 1 piety each month while at peace
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = buddhist_group
+		intermarry = parabrahmanist
+		intermarry = saura
+		intermarry = jagannatha
+		intermarry = shaivasiddhanta
+		intermarry = neovedantic
+		intermarry = sikh
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		#intermarry = ahmadiyya
+		intermarry = alevi
+		intermarry = mesopotamian
+		intermarry = memorialist
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = risala
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+	syafi = {
+		graphical_culture = muslimgfx
+
+		icon = 191
+		heresy_icon = 192
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+
+		color = { 0 127 84 }
+		
+		aggression = 1
+		allow_rivermovement = yes
+		can_call_crusade = yes 
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = no
+		autocephaly = yes
+		can_excommunicate = yes
+		#peace_prestige_loss = yes
+		#allow_looting = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes 
+		#allow_viking_invasion = yes
+		features = { religion_haruspicy }
+		
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = malikite
+		intermarry = sufi
+		intermarry = ibadi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = memorialist
+		intermarry = islamity
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		#intermarry = syafi
+		intermarry = bani
+	}
+	pusaka = {
+		graphical_culture = muslimgfx
+
+		icon = 250
+		heresy_icon = 251
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = BOMOH
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST GARUDA PROKLAMATOR MANGKUBUMI WALI_SANGA SI_PITUNG IBU_KITA MAHA_GURU AYAM_JANTAN BAPAK_KOPERASI PANGERAN_JOGJA
+		}
+		
+		evil_god_names = {
+			IBLIS INDON_SATAN PENGADU_DOMBA PRAJURIT_HUKUM KIDUL POCONG KUNTILANAK
+		}
+
+		color = { 139 204 10 }
+		
+		aggression = 1
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = no
+		#peace_prestige_loss = yes
+		allow_looting = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes #bumiputera
+		#allow_viking_invasion = yes
+		features = { religion_haruspicy religion_alchemy }
+		
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		intermarry = sunni
+		intermarry = alukta_pagan_reformed
+		intermarry = alukta_pagan
+		intermarry = marapu
+		intermarry = wahhabi
+		intermarry = malikite
+		intermarry = sufi
+		intermarry = ibadi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = islamity
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = koranist
+		#intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+		intermarry = agamatirta
+	}
+	ramadi = {
+		graphical_culture = buddhistgfx
+
+		icon = 191
+		heresy_icon = 192
+		
+		crusade_name = PURIFICATION_WAR
+		scripture_name = THE_KORAN
+		priest_title = BHIKKHU
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_BUDDHA GOD_THE_GREATEST GOD_THE_PERFECTED_ONES GOD_RAMA_BUDDHA
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN MARA
+		}
+		
+		character_modifier = {
+			learning = 1
+			osvicenism_opinion = 5
+			buddhist_group_opinion = 5
+			indian_group_opinion = 5
+		}
+
+		color = { 0 165 55 }
+		parent = syafi
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		max_wives = 4
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_retire_to_monastery = yes
+		uses_decadence = yes
+		can_call_crusade = yes
+		uses_jizya_tax = yes 
+		has_heir_designation = yes
+		priests_can_inherit = no
+		peace_piety_gain = 1.0 # Gains 1 piety each month while at peace
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		intermarry = buddhist_group
+		intermarry = parabrahmanist
+		intermarry = neovedantic
+		intermarry = sikh
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = malikite
+		intermarry = sufi
+		intermarry = ibadi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = memorialist
+		intermarry = islamity
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = brethren
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		#intermarry = pusaka
+		#intermarry = syafi
+		intermarry = bani
+	}
+	bani = {
+		graphical_culture = othermuslimgfx
+
+		icon = 191
+		heresy_icon = 192
+		
+		crusade_name = JIHAD
+		scripture_name = BANI_SCRIPTURES
+		priest_title = ACAR_PRIEST
+		
+		high_god_name = GOD_ALLAH_BANI
+		
+		god_names = {
+			GOD_ALLAH_BANI GOD_ALLAH GOD_THE_GREATEST GOD_PARABRAHMAN GOD_PO_NAGAR GOD_PO_MBI GOD_PO_ROME GOD_KLAUNG_GARAI GOD_THE_ACAR GOD_MUK_KEI GOD_IMAM_SAN
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN RAKSHASA
+		}
+
+		color = { 119 193 153 }
+		parent = syafi
+		
+		aggression = 1
+		allow_rivermovement = yes
+		can_retire_to_monastery = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_consorts = 3
+		women_can_take_consorts = yes
+		matrilineal_marriages = yes
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = no
+		can_excommunicate = yes
+		#peace_prestige_loss = yes
+		#allow_looting = yes
+		uses_decadence = yes
+		has_heir_designation = yes
+		feminist = yes
+		female_temple_holders = yes
+		hard_to_convert = yes
+		defensive_attrition = yes
+		peace_piety_gain = 1.0 # Gains 1 piety each month while at peace
+		features = {   }
+		
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		
+		intermarry = buddhist_group
+		intermarry = parabrahmanist
+		intermarry = neovedantic
+		intermarry = sikh
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = malikite
+		intermarry = sufi
+		intermarry = ibadi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = mesopotamian
+		intermarry = memorialist
+		intermarry = islamity
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = brethren
+		intermarry = ismaili
+		intermarry = zoroastrian_group
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		#intermarry = bani
+		dynamic_cult = no
+	}
+	mesopotamian = {
+		graphical_culture = xtremuslimgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 76
+		heresy_icon = 76
+
+		color = { 163 189 204 }
+
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ILU GOD_ISHTAR GOD_ENKI GOD_ANU GOD_ASHUR GOD_THE_REVIVAL GOD_KING_OF_ASIA GOD_GILGAMESH GOD_LION_OF_BABYLON
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		aggression = 1.4
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		psc_marriage = no
+		can_call_crusade = yes
+		max_wives = 6
+		can_retire_to_monastery = yes
+		matrilineal_marriages = no
+		allow_looting = yes
+
+		landed_kin_prestige_bonus = no
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		religious_clothing_priest = 23
+		religious_clothing_head = 23
+		character_modifier = {
+			fertility = 0.15
+			mesopotamian_opinion = 5
+			muslim_opinion = -5
+		}
+
+		intermarry = zoroastrian_group
+		intermarry = sunni
+		intermarry = wahhabi
+		intermarry = deobandi
+		intermarry = malikite
+		intermarry = thawri
+		intermarry = sufi
+		intermarry = barelvi
+		intermarry = ibadi
+		intermarry = sulhi
+		intermarry = shiite
+		intermarry = druze
+		intermarry = bahai
+		intermarry = ahmadiyya
+		intermarry = alevi
+		#intermarry = mesopotamian
+		intermarry = memorialist
+		intermarry = islamity
+		intermarry = dahatatta
+		intermarry = muwahidunna
+		intermarry = jadidist
+		intermarry = sikh
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vikingur
+		intermarry = risala
+		intermarry = ismaili
+		intermarry = zaydi
+		intermarry = ovlatii
+		intermarry = qingzhen
+		intermarry = xidaotang
+		intermarry = koranist
+		intermarry = pusaka
+		intermarry = syafi
+		intermarry = bani
+	}
+	
+}

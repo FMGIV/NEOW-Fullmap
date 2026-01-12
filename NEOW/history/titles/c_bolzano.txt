@@ -1,0 +1,4 @@
+2509.11.11={
+	holder = 3065
+	liege=d_sudtirol
+}

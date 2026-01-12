@@ -1,0 +1,23 @@
+
+# County Title
+title = c_islay
+
+# Settlements
+max_settlements = 3
+b_bowmore= tribal
+b_gartbreck= temple
+
+#b_bruichladdich
+#b_bridgend
+#b_nerabus
+#b_ellister
+#b_keills
+
+# Misc
+culture = scottish
+religion = theosophy
+
+
+# History
+
+

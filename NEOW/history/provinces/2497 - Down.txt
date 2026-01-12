@@ -1,0 +1,23 @@
+# 2497 - Down
+
+# County Title
+title = c_down
+
+# Settlements
+max_settlements = 4
+b_newcastle_ie = castle
+b_ardglass = city
+b_ballywalter = temple
+
+#b_castlewellan = temple
+#b_annalong = castle
+#b_kilkeel = castle
+#b_portavogie = castle
+#b_newry = castle
+
+# Misc
+culture = ulsterite
+religion = orange_king
+terrain = hills
+
+# History

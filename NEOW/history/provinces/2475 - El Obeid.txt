@@ -1,0 +1,22 @@
+# 2475 - El Obeid
+
+# County Title
+title = c_el_obeid
+
+# Settlements
+max_settlements = 4
+
+b_el_obeid = tribal
+#b_abekr = city
+#b_zabad = temple
+
+#b_barah_2 = city
+#b_rahad = temple
+#b_alorgi = castle
+#b_uaai = castle
+
+# Misc
+culture = nuba
+religion = sunni
+
+# History

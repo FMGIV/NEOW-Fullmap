@@ -1,0 +1,19 @@
+100.1.1 = {
+  pentarch = b_roma
+}
+2310.2.1=
+{
+	holder=4147 #Sebastian the Strange
+}
+2311.7.10=
+{
+	holder=0 #The short lived kingdom collapsed after Sebastian's death in battle	
+}
+2505.3.10=
+{
+holder=4148 #Magnus the Lawgiver
+}
+2545.1.1=
+{
+holder=4133 #Carl
+}

@@ -1,0 +1,15 @@
+# 1925 - Tuul
+
+# County Title
+title = c_tuul
+
+# Settlements
+max_settlements = 5
+b_tuul = tribal
+b_khustain = temple
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

@@ -1,0 +1,5 @@
+2552.12.6=
+{
+holder=1955
+liege=d_poitiers
+}

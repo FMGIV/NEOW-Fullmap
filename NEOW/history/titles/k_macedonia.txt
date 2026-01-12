@@ -1,0 +1,7 @@
+20.6.20={
+	holder=2275
+	pentarch = b_hagiasophia
+}
+300.7.10={
+	holder = 0 #Ascended to godhood
+}

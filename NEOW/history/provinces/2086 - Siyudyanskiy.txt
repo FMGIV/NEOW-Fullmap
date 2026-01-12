@@ -1,0 +1,20 @@
+# 2086
+
+# County Title
+title = c_siyudyanskiy
+
+# Settlements
+max_settlements = 6 
+b_irkutsk = city
+b_siyudyansk = castle
+b_gornyy = temple
+b_angara = castle
+b_meget = city
+b_angarsk = city
+#b_ivanovka
+
+# Misc
+culture = east_sibiran
+religion = cosmist
+
+# History

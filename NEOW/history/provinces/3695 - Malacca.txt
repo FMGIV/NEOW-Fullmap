@@ -1,0 +1,27 @@
+# c_malacca
+
+# County Title
+title = c_malacca
+
+# Settlements
+max_settlements = 6
+
+b_malacca = castle
+b_bachang = city
+b_malim_jaya = temple
+b_batu_berendam = castle
+b_bukit_beruang = city
+#b_taman_pelangi = temple
+#b_tun_rahah = castle
+
+# Misc
+culture = melaka_malay
+religion = syafi
+#History
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 3
+	build_wonder_upgrade = upgrade_cow_district_palace
+	build_wonder_upgrade = upgrade_cow_district_harbor
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+}

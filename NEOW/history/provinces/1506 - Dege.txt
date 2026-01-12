@@ -1,0 +1,19 @@
+# County Title
+title = c_dege
+
+# Settlements
+max_settlements = 5
+
+b_dege = castle
+b_dzongsar = temple
+#b_palpung = city
+#b_dama = 
+#b_baiya = 
+#b_babang = 
+#b_gongya = 
+
+# Misc
+culture = sinoshan
+religion = xinjiao
+
+# History

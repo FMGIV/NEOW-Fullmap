@@ -1,0 +1,17 @@
+# 641 - Hormuz
+
+# County Title
+title = c_hormuz
+
+# Settlements
+max_settlements = 4
+b_gombroon = castle
+b_abarkawan = city
+b_jiroth = temple
+
+# Misc
+culture = khaliji
+religion = sunni
+
+# History
+1337.1.1 = { b_minab = castle }

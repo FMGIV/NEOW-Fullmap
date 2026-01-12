@@ -1,0 +1,14 @@
+# 1903 - Khövsgöl
+
+# County Title
+title = c_khovsgol
+
+# Settlements
+max_settlements = 2
+b_khovsgol = tribal
+
+# Misc
+culture = yakut
+religion = budaism
+
+# History

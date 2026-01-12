@@ -1,0 +1,14 @@
+# 1915 - Terkhiin Tsagaan
+
+# County Title
+title = c_terkhiin_tsagaan
+
+# Settlements
+max_settlements = 2
+b_terkhiin_tsagaan = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

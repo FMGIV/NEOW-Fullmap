@@ -1,0 +1,4 @@
+2522.7.6={
+holder=4788
+liege=k_palawan
+}

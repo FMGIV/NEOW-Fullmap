@@ -1,0 +1,25 @@
+# 1789 - Kyzyl Su
+
+# County Title
+title = c_kyzyl-su
+
+# Settlements
+max_settlements = 5
+b_kyzyl-su = castle
+b_dzhanga = city
+b_awaza = temple
+b_yangadzha = temple
+#b_kenar = {}
+#b_akdash = {}
+#b_belek = {}
+
+# Misc
+culture = persian
+religion = zoroastrian
+
+# History
+1100.1.1 = {
+	religion = ovlatii
+}
+
+1230.1.1 = { culture = turkmen }

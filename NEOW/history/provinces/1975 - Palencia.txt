@@ -1,0 +1,21 @@
+# 1975 - Palencia
+
+# County Title
+title = c_palencia
+
+# Settlements
+max_settlements = 3
+b_palencia = castle
+b_saint_antolin = temple
+#b_san_salvador = city
+#b_paredes = castle
+#b_olmeda_palencia = castle
+#b_monte_el_viejo = castle
+#b_vaccaei = castle
+#b_grijotapalencia = castle
+
+# Misc
+culture = castilian
+religion = sevillian
+
+# History

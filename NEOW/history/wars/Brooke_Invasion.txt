@@ -1,0 +1,31 @@
+name = "White Rajah's Return"
+
+casus_belli = {
+	actor = 4753
+	recipient = 5004
+    casus_belli = invasion 
+    landed_title = k_sarawak
+	date = 2554.9.11
+}
+
+2554.9.25 = {
+	add_attacker = 4753 #James Brooke
+	add_defender = 5004 #Sultan Abbas Ackbar
+}
+
+2554.10.1 = { 
+	add_attacker = 5010  # Brunei supports Brooke's claim (somewhat historical)
+	add_attacker = 5007  # Supports foreigner to screw with Sarawak and potentially make them weak
+	add_defender = 8816 # Kedah-Raya intervenes (doesn't want a White Rajah to exist again)
+}
+
+2554.10.10 = {
+	add_defender = 4983 # Helps defending "Indonesia" from foreigner
+	add_defender = 4984 # Helps defending "Indonesia" from foreigner
+}
+#2555.5.5 = {
+#	rem_attacker = 26672105
+#   rem_attacker = 26672020
+#	rem_defender = 26672014
+#	rem_defender = 26672015
+#}

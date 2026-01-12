@@ -1,0 +1,16 @@
+# 1885 - Maroneia
+
+# County Title
+title = c_maroneia
+
+# Settlements
+max_settlements = 4
+b_xantheia = castle
+b_maroneia = city
+b_mosynopolis = temple
+
+# Misc
+culture = rumca
+religion = hellenic_pagan
+
+# History

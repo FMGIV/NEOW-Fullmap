@@ -1,0 +1,13 @@
+# 1849 - Irtek
+
+# County Title
+title = c_irtek
+
+# Settlements
+max_settlements = 2
+b_irtek = tribal
+
+# Misc
+culture = cossack
+religion = leninist
+terrain = steppe

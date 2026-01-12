@@ -1,0 +1,34 @@
+# 653 - Qatar
+
+# County Title
+title = c_qatar
+
+# Settlements
+max_settlements = 4
+b_al_udied = castle
+b_dawha = city
+b_al_wakrah = temple
+b_al_khor = castle
+
+#b_as_sayliyah = castle
+#b_halul = castle
+#b_za`ayin = castle
+#b_fuwayrit = castle
+
+# Misc
+culture = amriqi
+religion = sunni
+terrain = tells
+
+# History
+
+2000.1.1 = { 
+	build_wonder = wonder_al_sunta_kum
+	set_wonder_stage = 1
+	build_wonder_upgrade = upgrade_abramiz_proving_grounds
+	build_wonder_upgrade = upgrade_memorial
+}
+2532.10.13 = { 
+	trade_post = b_al_taksas
+	set_wonder_stage = 2
+}

@@ -1,0 +1,96 @@
+100.1.1 = {
+  pentarch = b_roma
+}
+1806.6.5={
+	holder = 502
+}
+1810.7.1={
+	holder = 503
+}
+1810.7.9={
+	holder = 0 # Fall of the Kingdom of Holland
+}
+1813.12.6={
+	holder = 504
+}
+1840.10.7={
+	holder = 505
+}
+1849.3.17={
+	holder = 506
+}
+1890.11.23={
+	holder = 507
+}
+1948.9.4={
+	holder = 508
+}
+1980.4.30={
+	holder = 509
+}
+2000.1.1= {
+	holder = 0 # The Event
+}
+2067.1.1={
+	holder = 554 # Legendary King Ijsbrand of the Netherlands
+}
+2100.1.1={
+	holder = 556 # Semi-Legendary King Nikolaas of the Netherlands
+}
+2120.1.1={
+	holder = 557 # Semi-Legendary King Kaspard of Belgium and the Netherlands, Grand Duke of Luxembourg
+}
+2127.1.1={
+	holder = 558 # Emperor Klaas of Benelux
+}
+2170.12.8={
+	holder = 559
+}
+2190.7.15={
+	holder = 560
+}
+2203.1.1={
+	holder = 561
+}
+2232.5.6={
+	holder = 562
+}
+2251.12.25={
+	holder = 563
+}
+2281.9.3={
+	holder = 564
+}
+2282.10.31={
+	holder = 565
+}
+2293.8.12={
+	holder = 566
+}
+2297.3.18={
+	holder=0
+}
+2427.8.16={
+	holder=581
+}
+2440.11.12={
+	holder=582
+}
+2449.3.17={
+	holder=583
+}
+2461.3.11={
+	holder=586
+}
+2506.7.13={
+	holder=587
+}
+2526.3.10={
+	holder=588
+}
+2539.3.19={
+	holder=1597
+}
+2554.1.2= {
+	holder = 1593
+}

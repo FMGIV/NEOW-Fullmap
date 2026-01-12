@@ -1,0 +1,4 @@
+2499.6.18={
+	holder = 8071
+	law = succ_primogeniture
+}

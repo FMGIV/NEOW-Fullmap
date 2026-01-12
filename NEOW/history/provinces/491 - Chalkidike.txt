@@ -1,0 +1,22 @@
+# 491 - Chalkidike
+
+# County Title
+title = c_chalkidike
+
+# Settlements
+max_settlements = 3
+
+b_chrysiopolis = castle
+b_yerakini = temple
+
+#b_siderokastron = castle
+#b_melnik = castle
+#b_drama = castle
+
+# Misc
+culture = makedonas
+religion = hellenic_pagan
+
+# History
+
+2532.10.13 = { trade_post = b_yannakakis}

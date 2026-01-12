@@ -1,0 +1,11 @@
+# 1811 - Kalaus
+
+# County Title
+title = c_kalaus
+
+# Settlements
+max_settlements = 4
+b_kalaus = tribal
+
+culture = kalmyk
+religion = budaism

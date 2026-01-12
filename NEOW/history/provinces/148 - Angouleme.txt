@@ -1,0 +1,22 @@
+# 148 - Angouleme
+
+# County Title
+title = c_angouleme
+
+# Settlements
+max_settlements = 5
+b_cognac = castle
+b_angouleme = city
+b_latranchade = temple
+
+#b_larochefoucauld = castle
+#b_jarnac = city
+#b_richemont = castle
+#b_bassac = castle
+#b_fontdouce = temple
+
+#Misc
+religion = novelist
+culture = poitevin
+
+# History

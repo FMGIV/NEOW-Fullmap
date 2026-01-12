@@ -1,0 +1,25 @@
+# 31 - Cornwall
+
+# County Title
+title = c_cornwall
+
+# Settlements
+max_settlements = 4
+
+b_st_low_germans = castle
+b_launceston = city
+b_liskeard = temple
+
+#b_bodmin = castle
+#b_truro = castle
+#b_tintagel = castle
+#b_st_michael = castle
+#b_restormel = castle
+
+# Misc
+culture = westlander
+religion = summer_queen
+
+
+# History
+

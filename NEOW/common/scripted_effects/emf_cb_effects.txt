@@ -1,0 +1,70 @@
+# -*- ck2.scripted_effects -*-
+
+## STANDARD GLOBAL CB EFFECTS ##
+
+emf_cb_on_success_posttitle = {
+	hidden_effect = {
+		# Double-check Imperial Government status
+		#FROM = { character_event = { id = emf_imperial.3299 } }
+		#ROOT = { character_event = { id = emf_imperial.3299 } }
+		# Top realm capital-contiguous province tracking (a hint for better accuracy post-war only, as this is also
+		# done on annual maintenance)
+		ROOT = {
+			# Only do anything if the CB hasn't told us that top realm province changes for both giver/receiver
+			# can't happen (skip_capconnect_chk_tmp set on ROOT by CB)
+			if = {
+				limit = { NOT = { has_flag = skip_capconnect_chk_tmp } }
+				# Also skip recalculation if [still] part of a temp-independent revolt realm, but emf_core.65
+				# filters that in its trigger already ...
+				top_liege = { character_event = { id = emf_core.65 } }
+				# Note that if FROM was unlanded, we might be doing an unnecessary calculation on diff realm
+				# (and possibly missing the recalculation on the right realm) -- totally acceptable
+				FROM = {
+					top_liege = {
+						# But don't do it twice for ROOT and FROM if in same top realm [currently]
+						if = {
+							limit = { NOT = { same_realm = ROOT } }
+							character_event = { id = emf_core.65 }
+						}
+					}
+				}
+			}
+			clr_flag = skip_capconnect_chk_tmp
+		}
+	}
+}
+
+emf_cb_thirdparty_on_success_posttitle = {
+	emf_cb_on_success_posttitle = yes # Currently the same since we only care about giver/receiver
+}
+
+emf_cb_on_add = {
+	attacker = { emf_cb_reset_peace_years = yes }
+	defender = { emf_cb_reset_peace_years = yes }
+	hidden_effect = { fire_haruspicy_event_effect = yes }
+	if = {
+		limit = { defender = { is_offmap_governor = offmap_china } }
+		attacker = {
+			sound_effect = china_angered_emperor
+			detract_grace_super_huge_effect = yes 
+		}
+	}
+	# All CBs should automatically clear the can_use/can_use_title/can_use_gui bypass flag, emf_cb_pass_tmp, if it exists:
+	attacker = { clr_flag = emf_cb_pass_tmp }
+}
+
+emf_cb_reset_peace_years = {
+	hidden_effect = {
+		if = {
+			limit = {
+				check_variable = { which = emf_peace_years value > 0 }
+			}
+			set_variable = { which = emf_peace_years value = 0 }
+		}
+	}
+}
+
+## STANDARD CB OUTCOME EFFECTS ##
+
+
+## DYNLEVY AUTO-ADJUSTMENT CB EFFECTS FOR MAJOR REVOLTS ##

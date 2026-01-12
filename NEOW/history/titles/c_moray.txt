@@ -1,0 +1,4 @@
+2550.10.20={
+	holder = 4093 # Constantine Chattan
+	liege = k_scotland
+}

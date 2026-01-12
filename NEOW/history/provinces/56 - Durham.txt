@@ -1,0 +1,22 @@
+# 56 - Durham
+
+# County Title
+title = c_durham
+
+# Settlements
+max_settlements = 4
+b_durham = castle
+b_bamburgh = city
+b_hartlepool = temple
+
+#b_st_cuthbert = temple
+#b_chester-le-street = temple
+#b_newton_aycliffe = castle
+#b_auckland = castle
+#b_raby = castle
+
+# Misc
+culture = northlander
+religion = thelemic_reformed
+
+# History

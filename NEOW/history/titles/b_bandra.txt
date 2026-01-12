@@ -1,0 +1,11 @@
+2494.5.26={
+	holder=2852 #Valeriya, Laskandar's grandfather
+	liege = k_mumbai
+}
+2503.1.1={
+	holder=0
+}
+2540.3.18={
+	liege = "k_mumbai"
+	holder = 2885
+}

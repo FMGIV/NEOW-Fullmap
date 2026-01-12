@@ -1,0 +1,21 @@
+# 329 - Urbino
+
+# County Title
+title = c_urbino
+
+# Settlements
+max_settlements = 4
+b_urbino = city
+b_sanmarino = city
+b_sanseverino = temple
+b_montefeltro = castle
+#b_gatteo = castle
+#b_cittadicastello = castle
+#b_fossombrone = castle
+
+# Misc
+culture = sanmarinese
+religion = catholic
+
+# History
+1000.1.1 = { capital = b_sanmarino }

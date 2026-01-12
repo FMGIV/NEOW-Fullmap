@@ -1,0 +1,4 @@
+2523.1.31={
+	holder=3457
+	liege=d_toulouse
+}

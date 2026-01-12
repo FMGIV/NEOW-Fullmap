@@ -1,0 +1,23 @@
+# 229 - Forcalquier
+
+# County Title
+title = c_forcalquier
+
+# Settlements
+max_settlements = 4
+b_gap = castle
+b_nyons = city
+b_vaison = temple
+
+#b_sisteron = castle
+#b_embrun = castle
+#b_briancon = city
+#b_forcalquier = temple
+#b_apt = castle
+
+# Misc
+culture = provencal
+religion = novelist
+terrain = mountain
+
+# History

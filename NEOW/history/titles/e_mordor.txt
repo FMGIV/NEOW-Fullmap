@@ -1,0 +1,32 @@
+800.12.25 = {
+holder = 3411 # Mordu	
+}
+1000.1.28 = {
+holder = 3412 # Nazgul	
+}
+1150.1.1 = {
+holder = 3413 # Gothmog	
+}
+1200.1.1 = {
+holder = 3414 # Shagrat	
+}
+1300.1.1 = {
+holder = 3415 # Azog	
+}
+1400.1.1 = {
+holder = 3416 # Bolg	
+}
+1500.1.1 = {
+holder = 3417 # Miraz	
+}
+1600.1.1 = {
+holder = 3418 # Melkor	
+}
+
+
+1700.1.1 = {
+holder = 0 #Kingdom destroyed	
+}
+2500.1.1={
+	active = no
+}

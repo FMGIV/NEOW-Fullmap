@@ -1,0 +1,4 @@
+2535.1.1={
+    holder=4530 # Miao Ying
+	set_tribute_suzerain = { who = k_shaanxi type = permanent }
+}

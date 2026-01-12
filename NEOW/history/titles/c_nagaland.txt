@@ -1,0 +1,4 @@
+2550.1.10={
+	holder=2772
+	liege=k_kamarupa
+}

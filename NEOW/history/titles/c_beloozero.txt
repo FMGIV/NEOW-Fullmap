@@ -1,0 +1,7 @@
+
+2550.1.1=
+{
+	holder = 2001
+	liege = d_yaroslavl
+}
+

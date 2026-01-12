@@ -1,0 +1,17 @@
+# 1971 - Vrhbosna
+
+# County Title
+title = c_bilino_polje
+
+# Settlements
+max_settlements = 4
+b_sarajevo = castle
+b_visegrad = city
+b_visoko = temple
+
+# Misc
+culture = bosnian
+religion = jugoslavist
+terrain = mountain
+
+# History

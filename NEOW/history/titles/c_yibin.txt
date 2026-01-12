@@ -1,0 +1,4 @@
+2554.6.12={
+	holder = 10070
+	liege = e_wuxia
+}

@@ -1,0 +1,18 @@
+# 464 - Senj
+
+# County Title
+title = c_senj
+
+# Settlements
+max_settlements = 4
+b_senj = tribal
+
+#b_udbina = castle
+#b_prizna = castle 
+#b_gospic = castle
+#b_udbina = castle
+#b_otocac = castle
+
+# Misc
+culture = croatian
+religion = catholic

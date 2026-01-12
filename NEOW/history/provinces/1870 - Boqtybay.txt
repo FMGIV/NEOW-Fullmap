@@ -1,0 +1,14 @@
+# 1870 - Boqtybay
+
+# County Title
+title = c_boqtybay
+
+# Settlements
+max_settlements = 2 
+b_boqtybay = tribal
+
+# Misc
+culture = kazakh
+religion = ironist
+	
+# History

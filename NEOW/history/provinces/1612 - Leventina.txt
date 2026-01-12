@@ -1,0 +1,15 @@
+# 1612 - Leventina
+
+#County title
+title = c_leventina
+max_settlements = 3
+b_castelgrande = castle
+b_bellinzona = city
+b_lugano = temple
+
+# Misc
+culture = romansch
+religion = catholic
+terrain = mountain
+
+# History

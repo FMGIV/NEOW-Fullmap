@@ -1,0 +1,22 @@
+# 42 - Strathearn
+
+# County Title
+title = c_strathearn
+
+# Settlements
+max_settlements = 4
+b_tullibardine = tribal
+#b_dunblane = city
+b_doune = temple
+
+#b_crieff = castle
+#b_madderty = castle
+#b_doune = castle
+#b_inchaffray = castle
+#b_kenmore = castle
+
+# Misc
+culture = scots
+religion = calvinist
+
+# History

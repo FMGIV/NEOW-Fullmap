@@ -1,0 +1,13 @@
+# 1848 - Sakmara
+
+# County title
+title = c_sakmara
+
+# Settlements
+max_settlements = 3
+b_sakmara = tribal
+
+# Misc
+culture = bashkir
+religion = jadidist
+

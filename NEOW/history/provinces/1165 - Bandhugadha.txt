@@ -1,0 +1,17 @@
+# 1165 - Bandhugadha
+
+# County Title
+title = c_bandhugadha
+
+# Settlements
+max_settlements = 3
+b_bandhugadha = tribal
+b_shahdol = tribal
+b_virateshwar = temple
+#b_bahoriband = temple
+
+# Misc
+culture = bihari
+religion = maunaxite
+
+# History

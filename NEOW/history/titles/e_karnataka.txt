@@ -1,0 +1,13 @@
+2475.9.12={
+	holder = 2860 #Vijay I Narasimha
+}
+2500.6.10={
+	holder = 2828 #Anand Narasimha
+}
+2506.10.24 = {
+	holder = 2829 #Vijay II Narasimha
+}
+2553.3.17 = {
+	law = succ_confederation_elective
+	holder = 2781 #Jayaraj Narasimha
+}

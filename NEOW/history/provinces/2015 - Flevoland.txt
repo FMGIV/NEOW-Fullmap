@@ -1,0 +1,22 @@
+# 2015 - Flevoland
+
+# County Title
+title = c_flevoland
+
+# Settlements
+max_settlements = 3
+b_almere = castle
+b_lelystad = city
+b_dronten = temple
+
+#b_zeewolde
+#b_swifterbant
+#b_biddinghuizen
+#b_zuiderzee
+#b_wolderwijd
+
+# Misc
+culture = angler
+religion = anglican
+
+# History

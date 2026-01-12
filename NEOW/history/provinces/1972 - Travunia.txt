@@ -1,0 +1,17 @@
+# 1972 - Travunia
+
+# County Title
+title = c_travunia
+
+# Settlements
+max_settlements = 4
+b_podgorica = castle
+b_danilovgrad = temple
+b_tuzi = city
+
+# Misc
+culture = montenegrin
+religion = orthodox
+terrain = mountain
+
+# History

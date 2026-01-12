@@ -1,0 +1,216 @@
+dlc_horse_lords_content_pack = {
+}
+
+dlc001 = {
+}
+
+dlc002 = {
+}
+
+dlc003 = {
+}
+
+dlc004 = {
+}
+
+dlc006 = {
+}
+
+dlc008 = {
+}
+
+dlc009 = {
+}
+
+dlc010 = {
+}
+
+dlc012 = {
+}
+
+dlc013 = {
+}
+
+dlc014 = {
+}
+
+dlc015 = {
+}
+
+dlc016 = {
+}
+
+dlc017 = {
+}
+
+dlc019 = {
+}
+
+dlc020 = {
+}
+
+dlc021 = {
+}
+
+dlc023 = {
+}
+
+dlc025 = {
+}
+
+dlc027 = {
+}
+
+dlc028 = {
+}
+
+dlc029 = {
+}
+
+dlc033 = {
+}
+
+dlc034 = {
+}
+
+dlc035 = {
+}
+
+dlc037 = {
+}
+
+dlc038 = {
+}
+
+dlc040 = {
+}
+
+dlc041 = {
+}
+
+dlc042 = {
+}
+
+dlc043 = {
+}
+
+dlc044 = {
+}
+
+dlc046 = {
+}
+
+dlc047 = {
+}
+
+dlc048 = {
+}
+
+dlc051 = {
+}
+
+dlc052 = {
+}
+
+#dlc061 = { #Orchestral House Lords
+	#reason = {
+		#tooltip_desc = "DLC_dlc061_RECOMMENDATION_CHRISTIAN"
+		#tooltip_reason = "DLC_RECOMMENDATION_REASON_PACK_RELIGION"
+		#weight = 10
+		#trigger = {			
+		#	religion_group = christian								
+		#}
+	#}
+#}
+
+dlc063 = { 
+}
+
+dlc064 = { #Viking Metal
+
+}
+
+dlc065 = { 
+}
+
+dlc067 = { 
+}
+
+dlc068 = { #Full Plate Metal Music Pack
+
+}
+
+dlc070 = { #Monks and Mystics Content Pack
+
+}
+
+dlc071 = { 
+}
+
+#The Sword of Islam
+dlc007 = {
+	reason = {
+		tooltip_desc = "DLC_dlc007_RECOMMENDATION_REQUIRED"
+		tooltip_reason = "DLC_RECOMMENDATION_REASON_EXPANSION_RELIGION"
+		weight = 10
+		trigger = {
+			religion_group = muslim
+		}
+	}
+}
+
+#Legacy of Rome
+dlc011 = {
+}
+
+#Sunset invasion
+dlc018 = {
+}
+
+#The Republic
+dlc022 = {
+}
+
+#The Old Gods
+dlc024 = {
+}
+
+# Sons of Abraham
+dlc032 = {
+}
+
+#Rajas of India
+dlc039 = {
+}
+
+#Charlemagne
+dlc045 = {
+}
+
+#Way of Life
+dlc050 = {
+}
+
+#Horse Lords
+dlc054 = {
+}
+
+#Conclave
+dlc062 = {
+}
+
+#The Reaper's Due
+dlc066 = {
+}
+
+#Monks and Mystics
+dlc069 = {
+}
+
+#Jade Dragon
+dlc073 = {
+}
+
+#Holy Fury
+dlc074 = {
+}

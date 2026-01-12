@@ -1,0 +1,24 @@
+# 83 - Gelre
+
+# County Title
+title = c_gelre
+
+# Settlements
+max_settlements = 5
+
+b_nijmegen = castle
+b_arnhem = temple
+b_lohn = city
+b_bergh = city
+
+#b_bronckhorst = castle
+#b_duetinghem
+#b_harderwijk
+#b_zutphen
+
+# Misc
+culture = dutch
+religion = novelist
+terrain = tells
+
+# History

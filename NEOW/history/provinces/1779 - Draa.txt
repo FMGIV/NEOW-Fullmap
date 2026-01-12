@@ -1,0 +1,17 @@
+# 1779 - Draa
+
+# County Title
+title = c_draa
+
+# Settlements
+max_settlements = 2
+
+b_tazagourt = tribal
+
+# Misc
+culture = tuareg
+religion = shiite
+
+# History
+947.1.1 = { religion = muwahidunna }
+

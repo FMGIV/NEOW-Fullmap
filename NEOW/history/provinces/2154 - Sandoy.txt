@@ -1,0 +1,23 @@
+
+# County Title
+title = c_sandoy
+
+# Settlements
+max_settlements = 2
+b_sandur= castle
+#b_skarvanes
+#b_skopun
+#b_skalavik
+#b_vidhvik
+#b_dalury
+#b_skuvoy
+#b_stora_dimun
+
+# Misc
+culture = faroyingar
+religion = vagarna
+terrain = mountain
+
+# History
+
+

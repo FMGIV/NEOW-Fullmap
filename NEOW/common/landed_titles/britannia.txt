@@ -1,0 +1,8096 @@
+e_britannia = {
+	color={ 178 17 60 }
+	color2={ 255 255 255 }
+	capital = 32 # Middlesex
+	
+	old_welsh = "Prydain Fawr"
+	high_irish = "Alba"
+	ulsterian = "Alba"
+	munsterian = "Alba"
+	scottish = "Breatainn Mhòr"
+	breizhiz = "Breizh-Veur"
+	cornish = "Breten Veur"
+	westlander = "United Kingdom"
+	southlander = "United Kingdom"
+	eastlander = "United Kingdom"
+	northlander = "United Kingdom"
+	ulsterite = "United Kingdom"
+	angler = "United Kingdom"
+	scots = "Great Breetain"
+	british = "Prhitannia"
+	anglish = "Oned Kingdom"
+	scouse = "Brytannya"
+	southener = "Brytannya"
+	new_english = "United Kingdom"
+	oglallan = "Greait Britain"
+	frencig = "Brytannya"
+	ashkenazi = "Great Britain"	
+	greek = "Vretanía"
+	livanezoi="Vretanía"
+	aigyptoi="Vretanía"
+	makedonas = "Vretanía"
+	aigionoi = "Vretanía"
+	rodiaki = "Vretanía"
+	cypriote = "Vretanía"
+	griko = "Vretanía"
+	pontian = "Vretanía"
+	rumca = "Vretanía"
+	atlantian = "Vretanía"
+	macedonian = "Vritanija"
+	grekter = "Vretanía"
+	arvanitika = "Vretanía"
+	tsakonian = "Vretanía"
+	yoonaanee = "Vretanía"
+	french = "Grande-Bretagne"
+	gallo = "Grande-Bretagne"
+	norman = "Grande-Bretagne"
+	burgundian = "Grande-Bretagne"
+	occitan = "Grande-Bretagne"
+	provencal = "Grande-Bretagne"
+	picard = "Grande-Bretagne"
+	gascon = "Grande-Bretagne"
+	poitevin = "Grande-Bretagne"
+	breton = "Grande-Bretagne"
+	cosmopolitan = "Grande-Bretagne"
+	arpitan = "Grande-Bretagne"
+	lorraine = "Grande-Bretagne"
+	toccitan = "Grand Bretanha"
+	dutch = "Groot-Brittannië"
+	romansch = "Gronda Britannia"		
+		
+	# Creation/usurpation trigger
+	allow = {
+		doesnt_holds_special_empire = yes
+	}
+	has_top_de_jure_capital = yes
+	
+	k_norf_gov = {
+	color={ 216 21 41 }
+	color2={ 255 255 255 }
+	
+	capital = 59 #liverpool
+	
+	culture = northlander
+	
+	catholic = 1000 # Crusade target weight
+	summer_queen = 4000
+	novelist_reformed = 2000
+	cadaverist = 800
+	calvinist= 900
+	ibadi = 50
+	sevillian = 1000
+	fraticelli = 500 # Crusade target weight
+	neohuguenot = 1500
+	raelian = 900
+	orleanist = 900
+	
+	scouse = "Norfumbrya"
+	british = "Norhfumbrhia"
+	oglallan = "Nortumbriai"
+	southener = "Norfumbyrlandd"
+	northlander = "Norfumberland"
+	scots = "Northumbrie"
+	angler = "Northumbria"
+	
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_norf_gov = {
+						is_titular = yes
+					}
+				}
+				k_norf_gov = {
+					is_titular = no
+				}
+			}
+		}
+		
+		d_liverpool = {
+			color={ 255 48 0 }
+			color2={ 255 255 255 }
+			
+			capital = 59 # Liverpool
+			
+			old_welsh = "Lerpwl" 
+			frencig = "Llyuerpool"
+			northlander = "Liwerpol"
+			scouse = "Llyfyrpwll"
+			british = "Lliwyerhpool"
+			southener = "Lyfyrpwl"
+			scots = "Liverpuil"
+			
+			c_lancaster = {
+				color={ 255 50 5 }
+				color2={ 255 255 255 }
+
+				frencig = "Llancaster"
+				scouse = "Llancastyr"
+				british = "Llancasterh"
+				southener = "Lankastyr"
+				eastlander = "Lancashire"
+				westlander = "Lancashire"
+				southlander = "Lancashire"
+				angler = "Lancashire"
+				scots = "Lancashire"
+				new_english = "Lancashire"
+				ashkenazi = "Lancashire"
+				
+				holy_site = mormon
+
+				b_salford = { #Manchester
+					scouse = "Manchystyr"
+					southener = "Manshystyr"
+					british = "Manchesterh"
+				}
+				b_lancaster = { #Bolton
+					scouse = "Bollton"
+				}
+				b_preston = { #Blackpool
+					scouse = "Bllackpwll"
+					southener = "Blakkpwl"
+					british = "Blackpool"
+					frencig = "Pool des Noyre"
+				}
+				b_sawley = { #Sale
+					scouse = "Sally"
+					southener = "Saly"
+					british = "Sale"
+				}
+				b_gisburn = { #Blackburn
+					scouse = "Bllackburn"
+					southener = "Blakkburn"
+					british = "Blackburhn"
+					frencig = "Noyreburn"
+				}
+				b_furness = { #Stockport
+					southener = "Stokkport"
+					british = "Stockporht"
+					frencig = "Stoccporte"
+				}
+				b_clitheroe = { #Oldham
+					scouse = "Ollddham"
+					southener = "Olddham"
+					british = "Oldham"
+					frencig = "Uyeucsham"
+				}
+				b_rochdale_lancaster = { #Rochdale
+					scouse = "Rochddally"
+					southener = "Roshddaly"
+					british = "Rhochdale"
+				}
+			}
+			c_liverpool = {
+				color={ 255 60 15 }
+				color2={ 255 255 255 }
+				
+				frencig = "Llyuerpool"
+				northlander = "Liwerpol"
+				scouse = "Llyfyrpwll"
+				british = "Lliwyerhpool"
+				southener = "Lyfyrpwl"
+				eastlander = "Cheshire"
+				westlander = "Cheshire"
+				southlander = "Cheshire"
+				angler = "Cheshire"
+				scots = "Liverpuil"
+				ashkenazi = "Cheshire"
+				new_english = "Cheshire"
+				old_welsh = "Lerpwl"
+
+				holy_site = congregationist
+				holy_site = federationist
+				
+				b_liverpool = { #
+					frencig = "Llyuerpool"
+					northlander = "Liwerpol"
+					scouse = "Llyfyrpwll"
+					british = "Lliwyerhpool"
+					southener = "Lyfyrpwl"
+					old_welsh = "Lerpwl"
+					scots = "Liverpuil"
+				}
+				b_halton = { #Warrington
+					scouse = "Warryngton"
+					southener = "Warryngton"
+					british = "Warhrhington"
+					frencig = "Warrynguylle"
+				}
+				b_malpas = { #Birkenhead
+					scouse = "Byrkynhyadd"
+					southener = "Byrkynhyadd"
+					british = "Birhkrnhead"
+					frencig = "Byrcenhead"
+				}
+				b_northwich = { #Saint Helens
+					scouse = "Hyllyns"
+					southener = "Hylyns"
+					british = "Saint Helens"
+					frencig = "Saynt-Helens"
+				}
+				b_macclesfield = { #Southport
+					scouse = "Soufport"
+					southener = "Soufport"
+					british = "Southporht"
+					frencig = "Porte du Sud"
+				}
+				b_beeston = { #Chester
+					scouse = "Chystyr"
+					southener = "Shystyr"
+					british = "Chesterh"
+				}
+				b_sandbach = { #Crewe
+					scouse = "Cryf"
+					southener = "Kryf"
+					british = "Crhewe"
+				}
+				b_nantwich = { #Ellesmere Port
+					scouse = "Ellysmyry Port"
+					southener = "Ellysmyry Port"
+					british = "Ellesmerhe Porht"
+					frencig = "Porte des Ellesmere"
+				}
+			}
+			c_cumberland = {
+				color={ 30 185 243 }
+				color2={ 255 255 255 }
+				
+				scouse = "Cumbyrllandd"
+				british = "Cumberhland"
+				southener = "Kumbyrlandd"
+				frencig = "Terre des Cumber"
+	
+				b_carlisle = { #
+					scouse = "Carllyslly"
+					southener = "Karlysly"
+					british = "Carhlisle"
+					frencig = "Carlysle"
+				}
+				b_burgh = { #Barrow-in-Furness
+					scouse = "Barrow-yn-Furnyss"
+					southener = "Barrow-yn-Furnyss"
+					british = "Barhrhow-in-Ffurhness"
+					frencig = "Barrow-dans-Furness"
+				}
+				b_gilsland = { #Workington
+					scouse = "Workyngton"
+					southener = "Workyngton"
+					british = "Worhkington"
+					frencig = "Trauayluylle"
+				}
+				b_egremont = { #Whitehaven
+					scouse = "Whytyhafyn"
+					southener = "Whytyhafyn"
+					british = "Whitehawyen"
+					frencig = "Paradys Blanc"
+				}
+				b_penrith = { #
+					scouse = "Pynryf"
+					southener = "Pynryf"
+					british = "Penrhith"
+					frencig = "Penryth"
+				}
+				b_papcastlet = { #Dalton-in-Furness
+					scouse = "Dallton-yn-Furnyss"
+					southener = "Dalton-yn-Furnyss"
+					british = "Dalton-in-Ffurhness"
+					frencig = "Dalton-dans-Furness"
+				}
+				b_dacre = { #Maryport
+					scouse = "Maryport"
+					southener = "Maryport"
+					british = "Marhyporht"
+					frencig = "Maryeporte"
+				}
+				b_cockermouth = { #
+					scouse = "Cockyrmouf"
+					southener = "Kokkyrmouf"
+					british = "Cockerhmouth"
+					frencig = "Coccermouf"
+				}
+			}
+			c_westmorland = {
+				color={ 255 55 10 }
+				color2={ 255 255 255 }
+			
+			    frencig = "Terre des Ouestmor"
+				northlander = "Weasmorland"
+				scouse = "Fstmorllandd"
+				british = "Westmorhland"
+				southener = "Fstmorlandd"
+				westlander = "Wesmorland"
+				southlander = "Wesmorland"
+				norman = "Terre de Ouestmor"
+			
+				b_kendal = { #
+					scouse = "Kynddall"
+					southener = "Kynddal"
+					british = "Kendal"
+					frencig = "Cendall"
+				}
+				b_lowther = { #Ulverston
+					scouse = "Ullfyrston"
+					southener = "Ulfyrston"
+					british = "Ulwyerhston"
+					frencig = "Uluersuylle"
+				}
+				b_cartmel = { #Windermere
+					scouse = "Fnddyrmyry"
+					southener = "Fnddyrmyry"
+					british = "Winderhmere"
+					frencig = "Fndermere"
+				}
+				b_kirkby = { #Bowness-on-Windermere
+					scouse = "Bownyss-on-Fnddyrmyry"
+					southener = "Bownyss-on-Fnddyrmyry"
+					british = "Bowness-wn-Winderhmere"
+					frencig = "Bowness-au-Fndermere"
+				}
+				b_brough = { #Grange-over-Sands
+					scouse = "Grangy-ofyr-Sandds"
+					southener = "Grangy-ofyr-Sandds"
+					british = "Grhange-wwyerh-Sands"
+					frencig = "Grange-sur-Sables"
+				}
+				b_appleby = { #
+					scouse = "Appllyby"
+					southener = "Applyby"
+					british = "Applebi"
+					frencig = "Appleby"
+				}
+				b_shap = { #Ambleside
+					scouse = "Ambllysyddy"
+					southener = "Amblysyddy"
+					british = "Ambleside"
+					frencig = "Amblesyde"
+				}
+				b_brougham = { #Arnside
+					scouse = "Arnsyddy"
+					southener = "Arnsyddy"
+					british = "Arhnside"
+					frencig = "Arnsyde"
+				}
+			}
+		}
+		d_lincoln = {
+			color={ 255 49 0 }
+			color2={ 255 255 255 }
+			
+			capital = 62 # Leicester
+			
+			old_welsh = "Dwyrain Canolbarth Lloegr"
+			southener = "Lynkoln"
+			frencig = "Mydlands des Est"
+			scouse = "Llyncolln"
+			british = "Llincoln"
+			northlander = "Eas Midlands"
+			eastlander = "East Midlands"
+			westlander = "East Midlands"
+			southlander = "East Midlands"
+			old_norman = "East Midlands"
+			scots = "East Midlands"
+			angler = "East Midlands"
+			new_english = "East Midlands"
+			ashkenazi = "East Midlands"
+			cornish = "East Midlands"
+			norman = "Midlands de l'Est"
+						
+			c_derby = {
+				color={ 255 65 20 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Djuraby"
+				danish = "Djuraby"
+				swedish = "Djuraby"
+				scouse = "Dyrby"
+				british = "Drrhbi"
+				southener = "Dyrby"
+				eastlander = "Derbyshire"
+				westlander = "Derbyshire"
+				southlander = "Derbyshire"
+				angler = "Derbyshire"
+				new_english = "Derbyshire"
+				ashkenazi = "Derbyshire"
+				frencig = "Derby"
+				
+				b_bakewell = { #Stoke-on-Trent
+					scouse = "Stoky-on-Trynt"
+					southener = "Stoky-on-Trynt"
+					british = "Stoki-wn-Trhent"
+					frencig = "Stoce-au-Trent"
+				}
+				b_derby = { #
+					norwegian = "Djuraby"
+					danish = "Djuraby"
+					swedish = "Djuraby"
+					scouse = "Dyrby"
+					british = "Derhbi"
+					southener = "Dyrby"
+					frencig = "Derby"
+				}
+				b_chesterfield = { #
+					scouse = "Chystyrfyylldd"
+					southener = "Shystyrfyyldd"
+					british = "Chesterhfield"
+					frencig = "Chesterfyeld"
+				}
+				b_repton = { #Tamworth
+					scouse = "Tamworf"
+					southener = "Tamworf"
+					british = "Tamworhf"
+					frencig = "Tamworth"
+				}
+				b_bolsover = { #Newcastle-under-Lyme
+					scouse = "Nywcastlly-unddyr-Llymy"
+					southener = "Nywkastly-unddyr-Lymy"
+					british = "Newcastle-underh-Llime"
+					frencig = "Nouuellechateau-sous-Lyme"
+				}
+				b_burton = { #
+					scouse = "Burton-upon-Trynt"
+					southener = "Burton-upon-Trynt"
+					british = "Burhton-upon-Trhent"
+					frencig = "Burton-sur-Trent"
+				}
+				b_stafford = { #
+					scouse = "Staffordd"
+					southener = "Staffordd"
+					british = "Stafforhd"
+					frencig = "Stafford"
+				}
+				b_wirksworth = { #Long Eaton
+					scouse = "Long Yaton"
+					southener = "Long Yaton"
+					british = "Llong Yaton"
+					frencig = "Long Eaton"
+				}
+			}
+			c_leicester = {
+				color={ 255 85 10 }
+				color2={ 255 255 255 }
+				
+				frencig = "Llystyr"
+				scouse = "Llystyr"
+				british = "Lleisterh"
+				southener = "Lystyr"
+				eastlander = "Leicestershire"
+				westlander = "Leicestershire"
+				southlander = "Leicestershire"
+				angler = "Leicestershire"
+				new_english = "Leicestershire"
+				ashkenazi = "Leicestershire"
+				cornish = "Leicestershire"
+								
+				b_leicester = { #
+					frencig = "Llystyr"
+					scouse = "Llystyr"
+					british = "Lleisterh"
+					southener = "Lystyr"
+					eastlander = "Leicester"
+					westlander = "Leicester"
+					southlander = "Leicester"
+					angler = "Leicester"
+					new_english = "Leicester"
+					ashkenazi = "Leicester"
+					cornish = "Leicester"
+				}
+				b_nottingham = { #
+					scouse = "Nwttyngham"
+					southener = "Nottyngham"
+					british = "Nottingham"
+				}
+				b_southwell = { #Mansfield
+					scouse = "Mansfyylldd"
+					southener = "Mansfyyldd"
+					british = "Mansfield"
+				}
+				b_newark = { #Beeston
+					scouse = "Byyston"
+					southener = "Byyston"
+					british = "Beeston"
+				}
+				b_hucknall = { #Loughborough
+					scouse = "Loughborough"
+					southener = "Loughborough"
+					british = "Lloughborhough"
+				}
+				b_tickhill = { #Carlton
+					scouse = "Carllton"
+					southener = "Karlton"
+					british = "Carhlton"
+				}
+				b_worksop = { #West Bridgford
+					scouse = "fst Brydgfordd"
+					southener = "fst Brydgfordd"
+					british = "West Brhidgforhd"
+				}
+				b_newstead = { #Hinckley
+					scouse = "Hynckllyy"
+					southener = "Hynkklyy"
+					british = "Hincklei"
+				}
+			}
+			c_lincoln = {
+				color={ 255 90 20 }
+				color2={ 255 255 255 }
+				
+				holy_site = evangelical
+				
+				saxon = "Lindsey"
+				southener = "Lynkoln"
+				frencig = "Llyncoln"
+				scouse = "Llyncolln"
+				british = "Llincoln"
+				northlander = "Lincolnshire"
+				eastlander = "Lincolnshire"
+				westlander = "Lincolnshire"
+				southlander = "Lincolnshire"
+				scots = "Lincolnshire"
+				angler = "Lincolnshire"
+				new_english = "Lincolnshire"
+				ashkenazi = "Lincolnshire"
+				cornish = "Lincolnshire"
+
+				b_lincoln = { #
+					pentarchy = evangelical
+					saxon = "Lindsey"
+					southener = "Lynkoln"
+					frencig = "Llyncoln"
+					scouse = "Llyncolln"
+					british = "Llincoln"
+					northlander = "Lincoln"
+					eastlander = "Lincoln"
+					westlander = "Lincoln"
+					southlander = "Lincoln"
+					angler = "Lincoln"
+					scots = "Lincoln"
+					ashkenazi = "Lincoln"
+					cornish = "Lincoln"
+				}
+				b_gainsborough = { #Grimsby
+					scouse = "Grymsby"
+					southener = "Grymsby"
+					british = "Grhimsbi"
+				}
+				b_bardney = { #Scunthorpe
+					scouse = "Scunforpy"
+					southener = "Skunforpy"
+					british = "Scunforhpe"
+				}
+				b_boston = { 
+				}
+				b_grantham = { #
+					scouse = "Granfam"
+					southener = "Granfam"
+					british = "Grhanfam"
+				}
+				b_stamford = { #Cleethorpes
+					scouse = "Cllyyforpys"
+					southener = "Klyyforpys"
+					british = "Cleethorhpes"
+				}
+				b_spalding = { #
+					scouse = "Spallddyng"
+					southener = "Spalddyng"
+					british = "Spalldding"
+				}
+				b_skegness_lincoln = { #Skegness
+					scouse = "Skygnyss"
+					southener = "Skygnyss"
+					british = "Skegness"
+				}
+			}
+		}
+		d_york = {
+			color={ 255 90 15 }
+			color2={ 255 255 255 }
+			
+			capital = 57 # York
+			
+			dignity = 2
+			
+			southener = "York"
+			frencig = "Yorc"
+			danish = "Jorvik"
+			swedish = "Jorvik"
+			saxon = "Deira"
+			old_welsh = "Efrog"
+			northlander = "Yark"
+			scouse = "Ioork"
+			british = "Iorhc"
+			eastlander = "Yorkshire"
+			westlander = "Yorkshire"
+			southlander = "Yorkshire"
+			new_english = "Yorkshire"
+			ashkenazi = "Yorkshire"
+			cornish = "Evrek"			
+			
+			c_york = {
+				color={ 255 80 5 }
+				color2={ 255 255 255 }
+				
+			    southener = "York"
+				frencig = "Yorc"
+				danish = "Jorvik"
+				swedish = "Jorvik"
+				old_welsh = "Efrog"
+				roman = "Eboracum"
+				northlander = "Yark"
+				scouse = "Iorc"
+				british = "Iorhc"
+				cornish = "Evrek"
+
+				holy_site=anglican
+				holy_site = vikingur
+					
+				b_middlesbrough = { #
+					scouse = "Myddllysbrough"
+					southener = "Myddlysbrough"
+					british = "Middlesbrhough"
+				}			
+				b_york = { #
+					southener = "York"
+					frencig = "Yorc"
+					danish = "Jorvik"
+					swedish = "Jorvik"
+					old_welsh = "Efrog"
+					roman = "Eboracum"
+					northlander = "Yark"
+					scouse = "Iorc"
+					british = "Iorhc"
+					cornish = "Evrek"
+				}
+				b_richmond = { #Harrogate
+					scouse = "Harrogaty"
+					southener = "Harrogaty"
+					british = "Harhrhogate"
+				}
+				b_scarborough = { #
+					norwegian = "Skardaborg"
+					danish = "Skardaborg"
+					swedish = "Skardaborg"
+					scouse = "Scarborough"
+					southener = "Skarborough"
+					british = "Scarhborhough"
+				}
+				b_st_peters = { #Redcar
+					scouse = "Ryddcar"
+					southener = "Ryddkar"
+					british = "Rhedcarh"
+				}
+				b_whitby = { #Thornaby-on-Tees
+					scouse = "Fornaby-on-Tyys"
+					southener = "Fornaby-on-Tyys"
+					british = "Thorhnabi-wn-Tees"
+				}
+				b_thirsk = { #Ingleby Barwick
+					scouse = "Yngllyby Barfck"
+					southener = "Ynglyby Barfkk"
+					british = "Inglebi Barhwic"
+				}
+				b_saltburn_lincoln = { #Saltburn
+					scouse = "Salltburn"
+					southener = "Saltburn"
+					british = "Saltburhn"
+				}
+			}
+			c_hull = {
+				color={ 250 93 16 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Deywr"
+				scouse = "Hull"
+				southener = "Hull"
+				british = "Hull"
+				eastlander = "East Riding"
+				westlander = "East Riding"
+				southlander = "East Riding"
+				angler = "East Riding"
+				new_english = "East Riding"
+				ashkenazi = "East Riding"
+					
+				b_hull = { #
+					scouse = "Kyngstony-upon-Hull"
+					southener = "Kyngstony-upon-Hull"
+					british = "Kingstone-upon-Hull"
+					eastlander = "Kingstone-upon-Hull"
+					westlander = "Kingstone-upon-Hull"
+					southlander = "Kingstone-upon-Hull"
+					angler = "Kingstone-upon-Hull"
+					new_english = "Kingstone-upon-Hull"
+					ashkenazi = "Kingstone-upon-Hull"
+				}
+				b_bridlington = { #
+					scouse = "Bryddllyngton"
+					southener = "Bryddlyngton"
+					british = "Brhidlington"
+				}
+				b_beverley = { #
+					scouse = "Byfyrllyy"
+					southener = "Byfyrlyy"
+					british = "Bewyerhlei"
+				}
+				b_stamford_bridge = { #Goole
+					scouse = "Gwlly"
+					southener = "Gwly"
+					british = "Goole"
+				}
+				b_wyke = { #Cottingham
+					scouse = "Cwttyngham"
+					southener = "Kwttyngham"
+					british = "Cottingham"
+				}
+				b_guildhall = { #Hessle
+					scouse = "Hysslly"
+					southener = "Hyssly"
+					british = "Hessle"
+				}
+				b_hornsea = { #Driffield
+					scouse = "Dryffyylldd"
+					southener = "Dryffyyldd"
+					british = "Ddrhiffield"
+				}
+				b_elloughton_cum_brough = { #Elloughton-cum-Brough
+					scouse = "Ylloughton-cum-Brough"
+					southener = "Ylloughton-kum-Brough"
+					british = "Elloughton-cum-Brhough"
+				}
+			}
+			c_leeds = { #Sheffield
+				color={ 245 103 20 }
+				color2={ 255 255 255 }
+
+				scouse = "Shyffyylldd"
+				british = "Sheffield"
+				southener = "Shyffyyldd"
+				frencig = "Shyffyeld"
+
+				b_sheffield = { #
+					scouse = "Shyffyylldd"
+					british = "Sheffield"
+					southener = "Shyffyyldd"
+					frencig = "Shyffyeld"
+				}
+				b_leeds = { #
+					old_welsh = "Elmet"
+					scouse = "Llyydds"
+					british = "Lleeds"
+					southener = "Lyydds"
+					frencig = "Lleeds"
+				}
+				b_sherburn = { #Bradford
+					scouse = "Braddfordd"
+					southener = "Braddfordd"
+					british = "Brhadforhd"
+				}
+				b_selby = { #Huddersfield
+					scouse = "Huddyrsfyylldd"
+					southener = "Huddyrsfyyldd"
+					british = "Hudderhsfield"
+				}
+				b_pontefract = { #Rotherham
+					scouse = "Rofyrham"
+					southener = "Rofyrham"
+					british = "Rhotherham"
+				}
+				b_doncaster = { #
+					scouse = "Ddoncastyr"
+					southener = "Ddonkastyr"
+					british = "Ddoncasterh"
+				}
+				b_conisbrough = { #Wakefield
+					scouse = "Wakyfyylldd"
+					southener = "Wakyfyyldd"
+					british = "Wakefield"
+				}
+				b_barnsley_sheffield = { #Barnsley
+					scouse = "Barnsllyy"
+					southener = "Barnslyy"
+					british = "Barhnslei"
+				}
+			}
+			c_yoredale = { #Craven
+				color={ 248 86 33 }
+				color2={ 255 255 255 }
+
+				scouse = "Crafyn"
+				southener = "Krafyn"
+				british = "Crhawyen"
+				
+				b_skipton = { #
+					scouse = "Skypton"
+					southener = "Skypton"
+					british = "Skipton"
+				}
+				b_yoredale = { #Cross Hills
+					scouse = "Cross Hylls" 
+					southener = "Kross Hylls"
+					british = "Crhoss Hills"
+				}
+				b_bainbridge = { #Glusburn
+					scouse = "Gllusburn"
+					southener = "Glusburn"
+					british = "Glusburhn"
+				}
+				b_ilkley = { #Sutton-in-Craven
+					scouse = "Sutton-yn-Crafyn"
+					southener = "Sutton-yn-Krafyn"
+					british = "Sutton-in-Crhawyen"
+				}
+				b_bolton = { #Bentham
+					scouse = "Bynfam"
+					southener = "Byntham"
+					british = "Bentham"
+				}
+				b_settle = { #
+					scouse = "Syttlly"
+					southener = "Syttly"
+					british = "Sittli"
+				}
+				b_middleham = { #Leyburn
+					scouse = "Llyyburn"
+					southener = "Lyyburn"
+					british = "Lleiburhn"
+				}
+				b_hawes_craven = { #Hawes
+					scouse = "Hafs"
+					southener = "Hafs"
+					british = "Hawes"
+				}
+			}
+		}
+		d_northumberland = {
+			color={ 255 0 0 }
+			color2={ 255 255 255 }
+			
+			capital = 52 # Northumberland
+
+			low_german = Northumbria
+			southener = "Norfumbyrlandd"
+			northlander = "Norfumberland"
+			frencig = "Nord des Humber"
+			scouse = "Norfumbyrllandd"
+			british = "Northumberhland"
+			french = "Northumbrie"
+			gallo = "Northumbrie"
+			norman = "Northumbrie"
+			burgundian = "Northumbrie"
+			occitan = "Northumbrie"
+			provencal = "Northumbrie"
+			picard = "Northumbrie"
+			cosmopolitan = "Northumbrie"			
+			
+			c_northumberland = {
+				color={ 255 10 0 }
+				color2={ 255 255 255 }
+				
+				low_german = Northumbria
+				southener = "Norfumbyrlandd"
+				northlander = "Norfumberland"
+				frencig = "Nord des Humber"
+				scouse = "Norfumbyrllandd"
+				british = "Northumberhland"
+				french = "Northumbrie"
+				gallo = "Northumbrie"
+				norman = "Northumbrie"
+				burgundian = "Northumbrie"
+				occitan = "Northumbrie"
+				provencal = "Northumbrie"
+				picard = "Northumbrie"
+				cosmopolitan = "Northumbrie"
+				
+				b_newcastle = { #
+					scouse = "Nywcastlly"
+					southener = "Nywkastly"
+					british = "Newcastle"
+					frencig = "Neuchatel des Humber"
+				}
+				b_morpeth = { # Sunderland
+					scouse = "Sunddyrllandd"
+					southener = "Sunddyrlandd"
+					british = "Sunderhland"
+					frencig = "Terre des Sunder"
+				}
+				b_gateshead = { #
+					scouse = "Gatyshyadd"
+					southener = "Gatyshyadd"
+					british = "Gateshead"
+					frencig = "Tete des Porte"
+				}
+				b_hexham = { #South Shield
+					scouse = "Souf Shyylldd"
+					southener = "Souf Shyyldd"
+					british = "South Shield"
+					frencig = "Bouclyer Sud"
+				}
+				b_alnwick = { #Washington
+					scouse = "Washyngton"
+					southener = "Washyngton"
+					british = "Washington"
+					frencig = "Washyngton"
+				}
+				b_st_aidans = { #Tynemouth
+					scouse = "Tynymouf"
+					southener = "Tynymouf"
+					british = "Tinemouth"
+					frencig = "Tynemouth"
+				}
+				b_jarrow = { #
+					scouse = "Jarrow"
+					southener = "Jarrow"
+					british = "Jarhrhow"
+					frencig = "Jarrow"
+				}
+				b_mitford = { #Wallsend
+					scouse = "Wallsyndd"
+					southener = "Wallsyndd"
+					british = "Wallsend"
+					frencig = "Wallsend"
+				}
+			}
+			c_lindisfarne = { #Now Berwick-upon-Tweed
+				color={ 255 20 4 }
+				color2={ 255 255 255 }
+				
+				scouse = "Byrwyck-upon-Twyydd"
+				southener = "Byrwyck-upon-Twyydd"
+				british = "Berhwic-upon-Tweed"
+				frencig = "Berwicc-sur-Tweed"
+				
+				b_lindisfarne = { # Wooler
+					scouse = "Wwllyr"
+					southener = "Wwlyr"
+					british = "Woolerh"
+					frencig = "Wooler"
+				}
+				b_yeavering = { #North Sunderland
+					scouse = "Norf Sunddyrllandd"
+					southener = "Norf Sunddyrlandd"
+					british = "Norhth Sunderhland"
+					frencig = "Terre des Sunder du Nord"
+				}
+				b_tweedmouth = { #Ord
+					scouse = "Ordd"
+					southener = "Ordd"
+					british = "Orhd"
+					frencig = "Ord"
+				}
+				b_etal = { #Belford
+					scouse = "Byllfordd"
+					southener = "Bylfordd"
+					british = "Belforhd"
+					frencig = "Belford"
+				}
+				b_cornhill = { #Ancroft
+					scouse = "Ancroft"
+					southener = "Ankroft"
+					british = "Ancrhoft"
+					frencig = "Ancroft"
+				}
+				b_lowick = { #
+					scouse = "Lowyck"
+					southener = "Lowykk"
+					british = "Llowic"
+					frencig = "Lowicc"
+				}
+				b_norham = { #
+					scouse = "Norham"
+					southener = "Norham"
+					british = "Norham"
+					frencig = "Norham"
+				}
+				b_beadnell = { #Beadnell
+					scouse = "Byaddnyll"
+					southener = "Byaddnyll"
+					british = "Beadnell"
+					frencig = "Beadnell"
+				}
+			}
+			c_durham = { #
+				color={ 255 15 0 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Dunholm"
+				danish = "Dunholm"
+				swedish = "Dunholm"
+				scouse = "Ddurham"
+				british = "Ddurham"
+				southener = "Ddurham"
+				frencig = "Durham"
+	
+				b_bamburgh = { #Darlington
+					scouse = "Darllyngton"
+					southener = "Darlyngton"
+					british = "Ddarhlington"
+					frencig = "Darlyngton"
+				}
+				b_hartlepool = { #
+					scouse = "Hartllypwll"
+					southener = "Hartlypwl"
+					british = "Harhtlepool"
+					frencig = "Hartlepool"
+				}
+				b_auckland = { #Stockton-on-Tees
+					scouse = "Stockton-on-Tyys"
+					southener = "Stokkton-on-Tyys"
+					british = "Stockton-wn-Tees"
+					frencig = "Stoccton-au-Tees"
+				}
+				b_durham = { #
+					norwegian = "Dunholm"
+					danish = "Dunholm"
+					swedish = "Dunholm"
+					scouse = "Ddurham"
+					southener = "Ddurham"
+					british = "Ddurham"
+					frencig = "Durham"
+				}
+				b_raby = { #Billingham
+					scouse = "Byllyngham"
+					southener = "Byllyngham"
+					british = "Billingham"
+					frencig = "Byllyngham"
+				}
+				b_st_cuthbert = { #Peterlee
+					scouse = "Pytyrllyy"
+					southener = "Pytyrlyy"
+					british = "Peterhlee"
+					frencig = "Pyerrelee"
+				}
+				b_newton_aycliffe = { #Newton-Aycliffe
+					scouse = "Nywton-Aycllyffy"
+					southener = "Nywton-Ayklyffy"
+					british = "Newton-Aicliffe"
+					frencig = "Newton-Ayclyffe"
+				}
+				b_chester-le-street = { #
+					scouse = "Chystyr-lly-Stryyt"
+					southener = "Shystyr-ly-Stryyt"
+					british = "Chesterh-le-Strheet"
+					frencig = "Chester-le-Rue"
+				}
+			}
+		}
+	}
+	k_mann = {
+	color={ 150 26 15 }
+	color2={ 255 255 255 }
+	
+	capital = 54
+	
+	short_name = no
+
+	culture = manx
+	manx = "Mannin"
+	old_welsh = "Manaw"
+	
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_mann = {
+						is_titular = yes
+					}
+				}
+				k_mann = {
+					is_titular = no
+				}
+			}
+		}
+		
+		d_the_isles = {
+			color={ 10 48 243 }
+			color2={ 255 255 255 }
+
+			capital = 54 # Isle of Man
+
+			old_welsh = Manaw
+			norwegian = "Mann"
+			danish = "Mann"
+			swedish = "Mann"
+			scouse = "Man"
+			high_irish = "Mhannin"
+			ulsterian = "Mhannin"
+			munsterian = "Mhannin"
+			southener = "Mennaw"
+			frencig = "Mann"
+			manx = "Ellan Vannin"
+			oglallan = "Main"
+			cornish = "Ynys Manow"
+			
+			c_isle_of_man = {
+				color={ 25 65 243 }
+				color2={ 255 255 255 }
+				
+				southener = "Mennaw Ysle"
+				frencig = "Ysle des Mann"
+				norwegian = "Mann"
+				danish = "Mann"
+				swedish = "Mann"
+				scouse = "Man"
+				old_welsh = "Ynys Manaw"
+				high_irish = "Ellan Mhannin"
+				ulsterian = "Ellan Mhannin"
+				munsterian = "Ellan Mhannin"
+				manx = "Ellan Vannin"
+				oglallan = "Main"
+				cornish = "Ynys Manow"
+				
+				b_douglas = {
+					old_welsh = "Duonglassafon"
+					high_irish = "Duboglassio"
+					ulsterian = "Duboglassio"
+					munsterian = "Duboglassio"
+					manx = "Doolish"
+					scouse = "Dougllas"
+					southener = "Douglas"
+					british = "Ddouglas"
+					frencig = "Douglas"
+					cornish = "Doolish"
+				}
+				b_rushen = { #Onchan
+					manx = "Kione Droghad"
+					scouse = "Onchan"
+					southener = "Onshan"
+					british = "Onchan"
+					frencig = "Onchan"
+				}
+				b_maughold = { #Ramsey
+					manx = "Rhumsaa"
+					scouse = "Ramsyy"
+					southener = "Ramsyy"
+					british = "Rhamsei"
+					frencig = "Ramsey"
+				}
+				b_peel = { #
+					old_welsh = "Porth Ynys"
+					high_irish = "Purt ny h-Inshey"
+					ulsterian = "Purt ny h-Inshey"
+					munsterian = "Purt ny h-Inshey"
+					manx = "Purt ny h-Inshey"
+					scouse = "Pyyll"
+					southener = "Pyyl"
+					british = "Peel"
+					frencig = "Peel"
+				}
+				b_kirk_michael = { #Port Erin
+					manx = "Purt Çhiarn"
+					scouse = "Port Yryn"
+					southener = "Port Yryn"
+					british = "Porht Erhin"
+					frencig = "Porte Eryn"
+				}
+				b_sulby = { #Castletown
+					manx = "Balley Chashtal"
+					scouse = "Castllytown"
+					southener = "Kastlytown"
+					british = "Castletown"
+					frencig = "Chateauvylle"
+				}
+				b_inis_patraic = { #Port Saint Mary
+					manx = "Purt le Moirrey"
+					scouse = "Port Saynt Mary"
+					southener = "Port Saynt Mary"
+					british = "Porht Saint Marhie"
+					frencig = "Porte Saynt Marye"
+				}
+				b_laxey = { #
+					old_welsh = "Afoneogiaid"
+					high_irish = "Uisge Bradin"
+					ulsterian = "Uisge Bradin"
+					munsterian = "Uisge Bradin"
+					manx = "Laksaa"
+					scouse = "Llaksyy"
+					southener = "Laksyy"
+					british = "Lacksei"
+					frencig = "Lacsey"
+				}
+			}
+		}
+	}
+
+	k_britannia = { #Anglya
+		color={ 178 0 32 }
+		color2={ 255 255 255 }
+		
+		capital = 32 # Middlesex
+		
+		dignity = 10 # Counted as having this many more counties than it does
+		
+		british = "Lloegrh"
+		anglish = "Britland"
+		scouse = "Angllya"
+		southener = "Anglya"
+		frencig = "Anglie"
+		oglallan = "Aingliai"
+		angler = "Anglerland"
+		scots = "Inglia"		
+		french = "Anglie"
+		gallo = "Anglie"
+		norman = "Anglie"
+		burgundian = "Anglie"
+		occitan = "Anglie"
+		provencal = "Anglie"
+		picard = "Anglie"
+		cosmopolitan = "Anglie"
+		ashkenazi = "Anglia"
+		portuguese = "Inglaterra"
+		toccitan = "Anglatèrra"
+		yola = "Engelhoan"
+		old_welsh = "Prydain"
+		breizhiz = "Prydain"
+		cornish = "Breten"
+		high_irish = "Bhreatain"
+		ulsterian = "Bhreatain"
+		munsterian = "Bhreatain"
+		roman = "Britannia"
+		federalist = "Neo-New England"
+		laurentian = "Neo-New England"
+		lakelanders = "Neo-New England"
+		mississippians = "Neo-New England"
+		cajun = "Neo-New England"
+		southron = "Neo-New England"
+		arhavi = "Neo-New England"
+		
+		catholic = 1000 # Crusade target weight
+		summer_queen = 5000
+		novelist_reformed = 4000
+		ibadi = 100 # Crusade target weight
+		calvinist= 3000
+		sevillian = 500
+		lutheran = 700 # Crusade target weight
+		neohuguenot = 5000
+		orleanist = 5000
+		
+	d_zanzibar = {
+	color={ 220 52 47 }
+	color2={ 255 255 255 }
+	
+	capital = 26
+	
+	title = "WIN_SULTAN_TITLE"
+	title_female = "WIN_SULTANA_FEMALE"
+	foa = "WIN_SULTAN_foa"
+	title_prefix = "WIN_SULTANATE_prefix"
+	
+	dignity = 15
+	culture = omani
+		allow = {
+			religion_group = muslim
+		}
+	british = "Sansibarh"
+	scouse = "Zanzybar"
+	southener = "Zanzybar"
+	oglallan = "Zainzibair"
+		
+	landless = yes
+	}
+	
+	d_feroes = {
+	color={ 245 239 66 }
+	color2={ 255 255 255 }
+
+	capital = 2147
+
+	title = "FERO_GOV_TITLE"
+	title_female = "FERO_GOV_FEMALE"
+	title_prefix = "FERO_GOV_prefix"
+
+	dignity = 15
+	
+	landless = yes
+	culture = oglallan
+
+	british = "Farhoes"
+	scouse = "Faroys"
+	southener = "Farhoys"
+	oglallan = "Fairoes"
+	allow = {
+		OR = {
+			religion = thelemic_reformed
+			religion = thelemic
+			religion = summer_queen
+			religion = orange_king
+			}
+		}
+	}
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_britannia = {
+						is_titular = yes
+					}
+				}
+				k_britannia = {
+					OR = {
+						is_titular = no
+						culture = southener
+					}
+				}
+			}
+		}
+		
+		d_channel_islands = {
+			color={ 223 17 45 }
+			color2={ 255 255 255 }
+			
+			capital = 2039 # Jersey
+			
+			french = "Iles Anglo-Normandes"
+			norman = "Îles d'la Manche"
+			old_norman = "Îles d'la Manche"
+			cosmopolitan = "Iles Anglo-Normandes"
+			frencig = "Yerhsy"
+			scouse = "Jyrsyy"
+			british = "Jerhsei"
+			southener = "Jyrsyy"
+			old_welsh = "Ynysoedd y Sianel"
+			scottish = "Eileanan a' Chaolais"
+		
+			c_jersey = {
+				color={ 223 17 45 }
+				color2={ 255 255 255 }
+				
+				frencig = "Yersey"
+				scouse = "Jyrsyy"
+				british = "Jerhsei"
+				southener = "Jyrsyy"
+				old_norman = "Jèrri"
+				
+				b_st_helier = {
+					scouse = "Hyllyyr"
+					southener = "Hylyyr"
+					british = "Saint Helierh"
+					frencig = "Saynt-Helyer"
+				}
+				b_le_port = {
+					scouse = "Fy Port"
+					southener = "Fy Port"
+					british = "The Porht"
+					frencig = "Le Port"
+				}
+				b_les_creux = {
+					scouse = "Llys Cryuks"
+					southener = "Lys Kryuks"
+					british = "Lles Crheucks"
+					frencig = "Des Creucs"
+				}
+				b_st_aubin = {
+					scouse = "Aubyn"
+					southener = "Aubyn"
+					british = "Aubin"
+					frencig = "Saynt-Aubyn"
+				}
+				b_fauvic = {
+					scouse = "Faufyc"
+					southener = "Faufyk"
+					british = "Fauwyic"
+					frencig = "Ffauuyc"
+				}
+				b_rozel = {
+					scouse = "Rwzyl"
+					southener = "Rwzyll"
+					british = "Rhosel"
+					frencig = "Rosel"
+				}
+				b_pontac = {
+					scouse = "Pontac"
+					southener = "Pontak"
+					british = "Pontac"
+					frencig = "Pontac"
+				}
+				b_grouville = {
+					scouse = "Groufylly"
+					southener = "Groufylly"
+					british = "Grhouwyille"
+					frencig = "Grouuylle"
+				}
+				b_nonpareil = {
+					scouse = "Nonparyyll"
+					southener = "Nonparyyl"
+					british = "Nonparheil"
+					frencig = "Nonpareyl"
+				}
+			}
+			c_geurnsey = {
+				color={ 206 126 134 }
+				color2={ 255 255 255 }
+				
+				frencig = "Guernsey"
+				scouse = "Guyrnsyy"
+				british = "Guerhnsei"
+				southener = "Guyrnsyy"
+				old_norman = "Giernési"
+				
+				b_st_peter_port = {
+					scouse = "Pytyr Port"
+					southener = "Pytyr Port"
+					british = "Peterh Porht"
+					frencig = "Port des Pyerre"
+				}
+				b_la_bellieuse = {
+					scouse = "Lla Byllyyusy"
+					southener = "La Byllyyusy"
+					british = "Lla Bellieuse"
+					frencig = "La Bellyeuse"
+				}
+				b_kings_mills = {
+					scouse = "Kyng's Mylls"
+					southener = "Kyng's Mylls"
+					british = "King's Mills"
+					frencig = "Mylls des Roys"
+				}
+				b_perelle = {
+					scouse = "Pyrylly"
+					southener = "Pyrylly"
+					british = "Perhelle"
+					frencig = "Perelle"
+				}
+				b_la_tonnelle = {
+					scouse = "Lla Tonnylly"
+					southener = "La Tonnylly"
+					british = "Lla Tonnelle"
+					frencig = "La Tonnelle"
+				}
+				b_pleinmont = {
+					scouse = "Pllyynmont"
+					southener = "Plyynmont"
+					british = "Pleinmont"
+					frencig = "Pleynmont"
+				}
+				b_st_saviour = {
+					scouse = "Safyour"
+					southener = "Safyour"
+					british = "Sawyiourh"
+					frencig = "Saynt-Sauyour"
+				}
+				b_grandes_rocques = {
+					scouse = "Grandys Rocquys"
+					southener = "Grandys Rokquys"
+					british = "Grhandes Rhocques"
+					frencig = "Grandes Rocques"
+				}
+				b_l_ancresse = {
+					scouse = "Llancryssy"
+					southener = "Lankryssy"
+					british = "Llancresse"
+					frencig = "Llancresse"
+				}
+			}
+			c_sark = {
+				color={ 234 10 45 }
+				color2={ 255 255 255 }
+				
+				title = "SEIGNEUR"
+				title_female = "DAME"
+				
+				frencig = "Sarc"
+				scouse = "Sark"
+				british = "Sarhc"
+				southener = "Sark"
+				old_norman = "Cerq"
+				
+				
+				b_aval_du_creux = {
+					scouse = "Afall of Cryucks"
+					southener = "Afal of Cryuks"
+					british = "Awyal of Crheucks"
+					frencig = "Aual des Creucs"
+				}
+				b_la_forge = {
+					scouse = "Fy Forgy"
+					southener = "Fy Forgy"
+					british = "The Forhge"
+					frencig = "La Fforge"
+				}
+				b_la_valette = {
+					scouse = "Lla Fallytty"
+					southener = "Lla Fallytty"
+					british = "Lla Wyallette"
+					frencig = "La Ualette"
+				}
+				b_brecqhou = {
+					scouse = "Brycqhou"
+					southener = "Brykqhou"
+					british = "Brhecqhou"
+					frencig = "Brecqhou"
+				}
+				b_la_moserie = {
+					scouse = "Lla Mosyryy"
+					southener = "La Mosyryy"
+					british = "Lla Moserhie"
+					frencig = "La Moserye"
+				}
+				b_la_vermandaye = {
+					scouse = "Lla Fyrmanddayy"
+					southener = "La Fyrmanddayy"
+					british = "Lla Wyerhmandaie"
+					frencig = "La Uermandaye"
+				}
+				b_sablonnerie = {
+					scouse = "Sabllonnyryy"
+					southener = "Sablonnyryy"
+					british = "Sablonnerhie"
+					frencig = "Sablonnerye"
+				}
+				b_la_tour = {
+					scouse = "Fy Twr"
+					southener = "Fy Twr"
+					british = "The Towerh"
+					frencig = "La Tour"
+				}
+				b_rosaire = {
+					scouse = "Rosayry"
+					southener = "Rosayry"
+					british = "Rhosairhe"
+					frencig = "Rosayre"
+				}
+			}
+			c_aulderney = {
+				color={ 223 17 65 }
+				color2={ 255 255 255 }
+				
+				frencig = "Aulderny"
+				scouse = "Alldyrnyy"
+				british = "Alderhnei"
+				southener = "Aldyrnyy"
+				old_norman = "Aoeur'gny"				
+				
+				b_st_anne = {
+					scouse = "Anny"
+					southener = "Anny"
+					british = "Anne"
+					frencig = "Saynt-Anne"
+				}
+				b_crabby = {
+					scouse = "Crabby"
+					southener = "Krabby"
+					british = "Crhabbi"
+					frencig = "Crabby"
+				}
+				b_newtown = {
+					scouse = "Nywtown"
+					southener = "Nywtown"
+					british = "Newtown"
+					frencig = "Newtown"
+				}
+				b_braye = {
+					scouse = "Brayy"
+					southener = "Brayy"
+					british = "Brhaie"
+					frencig = "Braye"
+				}
+				b_la_picaterre = {
+					scouse = "Lla Pycatyrry"
+					southener = "La Pykatyrry"
+					british = "Lla Picaterhrhe"
+					frencig = "La Pycaterre"
+				}
+				b_fort_doyle = {
+					scouse = "Fort Ddflly"
+					southener = "Fort Ddfly"
+					british = "Forht Ddoile"
+					frencig = "Forte Doyle"
+				}
+				b_les_huguettes = {
+					scouse = "Llys Huguyttys"
+					southener = "Lys Huguyttys"
+					british = "Lles Huguettes"
+					frencig = "Des Huguettes"
+				}
+				b_mannez = {
+					scouse = "Mannyz"
+					southener = "Mannyz"
+					british = "Mannes"
+					frencig = "Mannes"
+				}
+				b_val_du_saou = {
+					scouse = "Fall of Sawu"
+					southener = "Fal of Sawu"
+					british = "Wyal of Sawu"
+					frencig = "Ual des Saou"
+				}
+			}
+		}
+		d_cornwall = {
+			color={ 181 60 10 }
+			color2={ 255 255 255 }
+			
+			capital = 31 # Cornwall
+			
+			cornish = "Kernow"
+			westlander = "Cernwell"
+			southlander = "Cernwell"
+			scouse = "Cornwall"
+			british = "Corhnwall"
+			southener = "Cornwall"
+			breizhiz = "Kernev-Veur"
+			french = "Cornouailles"
+			gallo = "Cornouailles"
+			norman = "Cornouailles"
+			burgundian = "Cornouailles"
+			occitan = "Cornouailles"
+			provencal = "Cornouailles"
+			picard = "Cornouailles"
+			poitevin = "Cornouailles"
+			gascon = "Cornouailles"
+			breton = "Cornouailles"
+			cosmopolitan = "Cornouailles"
+			frencig = "Cornouaylles"
+			old_welsh = "Cernyw"
+			scottish = "A’ Chòrn"
+			
+			c_cornwall = {
+				color={ 150 40 15 }
+				color2={ 255 255 255 }
+				
+				cornish = "Kernow"
+				westlander = "Cernwell"
+				southlander = "Cernwell"
+				scouse = "Cornwall"
+				british = "Corhnwall"
+				southener = "Cornwall"
+				breizhiz = "Kernev-Veur"
+				french = "Cornouailles"
+				gallo = "Cornouailles"
+				norman = "Cornouailles"
+				burgundian = "Cornouailles"
+				occitan = "Cornouailles"
+				provencal = "Cornouailles"
+				picard = "Cornouailles"
+				poitevin = "Cornouailles"
+				gascon = "Cornouailles"
+				breton = "Cornouailles"
+				cosmopolitan = "Cornouailles"
+				frencig = "Cornouaylles"
+				old_welsh = "Cernyw"
+				scottish = "A’ Chòrn"
+				
+				holy_site = summer_queen
+				
+				b_launceston = { #Redruth
+					cornish = "Resrudh"
+					scouse = "Ryddruf"
+					southener = "Ryddruth"
+					british = "Rhedrhuth"
+					frencig = "Rougeruth"
+				}
+				b_st_low_germans = { # Falmouth
+					cornish = "Aberfala"
+					scouse = "Fallmouf"
+					southener = "Falmouf"
+					british = "Falmouth"
+					frencig = "Falmouth"
+				}
+				b_liskeard = { #St. Austell
+					cornish = "S. Austel"
+					scouse = "Austyll"
+					southener = "Austyll"
+					british = "Austell"
+					frencig = "Saynt-Austell"
+				}
+				b_truro = { #
+					cornish = "Truru"
+					scouse = "Truro"
+					southener = "Truro"
+					british = "Trhurho"
+					frencig = "Truro"
+				}
+				b_tintagel = { #Penzance
+					cornish = "Pennsans"
+					scouse = "Pynzancy"
+					southener = "Pynzansy"
+					british = "Pensance"
+					frencig = "Pensance"
+				}
+				b_st_michael = { #Newquay
+					cornish = "Tefnblustri"
+					scouse = "Nywquay"
+					southener = "Nywquay"
+					british = "Newquai"
+					frencig = "Nouellequay"
+				}
+				b_restormel = { #Saltash
+					cornish = "Essa"
+					scouse = "Salltash"
+					southener = "Saltash"
+					british = "Saltash"
+					frencig = "Saltash"
+				}
+				b_bodmin = { #
+					cornish = "Bosvenegh"
+					scouse = "Boddmyn"
+					southener = "Boddmyn"
+					british = "Bodmin"
+					frencig = "Bodmyn"
+				}
+			}
+			c_devon = {
+				color={ 135 35 25 }
+				color2={ 255 255 255 }
+				
+				cornish = "Dewnans"
+				frencig = "Deuon"
+				scouse = "Ddyfon"
+				british = "Ddewyon"
+				southener = "Ddyfon"
+				eastlander = "Devonshire"
+				westlander = "Devonshire"
+				southlander = "Devonshire"
+				angler = "Devonshire"
+				new_english = "Devonshire"
+				ashkenazi = "Devonshire"
+				old_welsh = "Dyfnaint"
+								
+				b_lydford = { #Plymouth
+					scouse = "Pllymouf"
+					southener = "Plymouf"
+					british = "Plimouth"
+					frencig = "Plymouth"
+				}
+				b_exeter = { #
+					scouse = "Ycksytyr"
+					southener = "Yksytyr"
+					british = "Eckseterh"
+					frencig = "Ecseter"
+				}
+				b_crediton = { #Torquay
+					scouse = "Torquay"
+					southener = "Torquay"
+					british = "Torhquai"
+					frencig = "Torquay"
+				}
+				b_totnes = { #Paignton
+					scouse = "Paygnton"
+					southener = "Paygnton"
+					british = "Paignton"
+					frencig = "Paygnton"
+				}
+				b_axminster = { #Exmouth
+					scouse = "Yksmouf"
+					southener = "Yksmouf"
+					british = "Ecksmouth"
+					frencig = "Ecsmouth"
+				}
+				b_tavistock = { #Newton Abbot
+					scouse = "Nywton Abbot"
+					southener = "Nywton Abbot"
+					british = "Newton Abbot"
+					frencig = "Nouuelleuylle Abbot"
+				}
+				b_buckfast = { #Barnstaple
+					scouse = "Barnstaplly"
+					southener = "Barnstaply"
+					british = "Barhnstaple"
+					frencig = "Barnstaple"
+				}
+				b_dartmouth = { #Tiverton
+					scouse = "Tyfyrton"
+					southener = "Tyfyrton"
+					british = "Tiwyerhton"
+					frencig = "Tyueruille"
+				}
+			}
+			c_scilly = {
+				color={ 140 40 30 }
+				color2={ 255 255 255 }
+				
+				cornish = "Syllan"
+				westlander = "Selly"
+				southlander = "Selly"
+				scouse = "Scylly"
+				british = "Scilli"
+				southener = "Sylly"
+				breizhiz = "Inizi Sillan"
+				french = "Îles Sorlingues"
+				gallo = "Îles Sorlingues"
+				norman = "Îles Sorlingues"
+				burgundian = "Îles Sorlingues"
+				occitan = "Îles Sorlingues"
+				provencal = "Îles Sorlingues"
+				picard = "Îles Sorlingues"
+				poitevin = "Îles Sorlingues"
+				gascon = "Îles Sorlingues"
+				breton = "Îles Sorlingues"
+				cosmopolitan = "Îles Sorlingues"
+				frencig = "Scylly"
+				old_welsh = "Ynysoedd Syllan"
+				
+				b_longstone = { #
+					scouse = "Longstony"
+					southener = "Longstony"
+					british = "Llongstone"
+					frencig = "Longstone"
+				}
+				b_hugh_town = { #
+					cornish = "Treworenys"
+					scouse = "Hugh Town"
+					southener = "Hugh Town"
+					british = "Hugh Town"
+					frencig = "Uylle des Hughues"
+				}
+				b_porthloo = { #
+					cornish = "Porth Logh"
+					scouse = "Porfllw"
+					southener = "Porflw"
+					british = "Porhthloo"
+					frencig = "Porte Loo"
+				}
+				b_old_town = { #
+					cornish = "Treveglos"
+					scouse = "Olldd Town"
+					southener = "Oldd Town"
+					british = "Old Town"
+					frencig = "Uyeylle Uylle"
+				}
+				b_st_agnes = { #
+					cornish = "Agenys"
+					scouse = "Agnys"
+					southener = "Agnys"
+					british = "Agnes"
+					frencig = "Saynt-Agnes"
+				}
+				b_tresco = { #
+					cornish = "Enys Skaw"
+					scouse = "Trysco"
+					southener = "Trysko"
+					british = "Trhesco"
+					frencig = "Tresco"
+				}
+				b_lower_town = { #
+					cornish = "Trewoles"
+					scouse = "Llowyr Town"
+					southener = "Lowyr Town"
+					british = "Llowerh Town"
+					frencig = "Uylle Basse"
+				}
+				b_middle_town = { #
+					cornish = "Tregres"
+					scouse = "Myddlly Town"
+					southener = "Myddly Town"
+					british = "Middle Town"
+					frencig = "Centreuylle"
+				}
+			}
+		}
+		d_norfolk = { #East Anglia
+			color={ 200 90 0 }
+			color2={ 255 255 255 }
+			
+			capital = 70 # Norfolk
+			
+			old_norman = "Norfolk"
+			westlander = "Norfolk"
+			southlander = "Norfolk"
+			northlander = "Norfolk"
+			angler = "Norfolk"
+			ulsterite = "Norfolk"
+			new_english = "Norfolk"
+			southener = "Norffolk"
+			frencig = "Nordfolc"
+			eastlander = "Norrfulk"
+			scouse = "Norfollc"
+			british = "Norhfolc"
+			scots = "Norfowk"
+			french = "Est Anglie"
+			gallo = "Est Anglie"
+			norman = "Est Anglie"
+			burgundian = "Est Anglie"
+			occitan = "Est Anglie"
+			provencal = "Est Anglie"
+			picard = "Est Anglie"
+			gascon = "Est Anglie"
+			poitevin = "Est Anglie"
+			breton = "Est Anglie"
+			cosmopolitan = "Est Anglie"
+			old_welsh = "Dwyrain Anglia"
+			
+			c_norfolk = {
+				color={ 255 95 5 }
+				color2={ 255 255 255 }
+			
+				old_norman = "Norfolk"
+				westlander = "Norfolk"
+				southlander = "Norfolk"
+				ulsterite = "Norfolk"
+				southener = "Norffolk"
+				frencig = "Nordfolc"
+				eastlander = "Norrfulk"
+				scouse = "Norfollc"
+				british = "Norhfolc"
+				scots = "Norfowk"
+				
+				b_norwich = { #
+					scouse = "Norwych"
+					southener = "Norwysh"
+					british = "Norhwich"
+				}
+				b_lynn = { #King's Lynn
+					scouse = "Kyng's Lynn"
+					southener = "Kyng's Lynn"
+					british = "King's Llinn"
+				}
+				b_buckenham = { #Great Yarmouth
+					scouse = "Gryat Yarmouf"
+					southener = "Gryat Yarmouf"
+					british = "Grheat Iarhmouth"
+				}
+				b_elmham = { #Gorleston-on-Sea
+					scouse = "Gwrllyston-on-Sya"
+					southener = "Gwrlyston-on-Sya"
+					british = "Gorleston-on-Sea"
+				}
+				b_thetford = { #
+					scouse = "Fytfordd"
+					southener = "Fytfordd"
+					british = "Thetforhd"
+				}
+				b_castle_rising = { #Dereham
+					scouse = "Dyryham"
+					southener = "Dyryham"
+					british = "Derheham"
+				}
+				b_chatteris = { #Taverham
+					scouse = "Tafyrham"
+					southener = "Tafyrham"
+					british = "Tawyerham"
+				}
+				b_north_walsham = { #North Walsham
+					scouse = "Norf Wallsham"
+					southener = "Norf Walsham"
+					british = "Norhth Walsham"
+				}
+			}
+			c_suffolk = {
+				color={ 255 100 10 }
+				color2={ 255 255 255 }
+			
+				southener = "Suffolk"
+				frencig = "Sudfolc"
+				eastlander = "Suffolc"
+				scouse = "Suffollc"
+				british = "Suffolc"
+				scots = "Suffowk"
+				
+				b_ipswich = { #
+					scouse = "Ypswych"
+					southener = "Ypswysh"
+					british = "Ipswich"
+				}
+				b_lowestoft = { #
+					danish = "Lothvistoft"
+					swedish = "Lothvistoft"
+					norwegian = "Lothvistoft"
+					scouse = "Lowystoft"
+					southener = "Lowystoft"
+					british = "Llowestoft"
+				}
+				b_bury = { #Bury St. Edmunds
+					scouse = "Bury"
+					southener = "Bury"
+					british = "Burhi"
+				}
+				b_ely = { #Felixstowe
+					scouse = "Fyllyksstowy"
+					southener = "Fylyksstowy"
+					british = "Felicksstowe"
+				}
+				b_dunwich = { #Haverhill
+					scouse = "Hafyrhyll"
+					southener = "Hafyrhyll"
+					british = "Hawyerhill"
+				}
+				b_stow = { #Sudbury
+					scouse = "Suddbury"
+					southener = "Suddbury"
+					british = "Sudburhi"
+				}
+				b_bungay = { #Newmarket
+					scouse = "Nywmarkyt"
+					southener = "Nywmarkyt"
+					british = "Newmarhket"
+				}
+				b_framlingham = { #Stowmarket
+					scouse = "Stowmarkyt"
+					southener = "Stowmarkyt"
+					british = "Stowmarket"
+				}
+			}
+			
+			c_cambridge = {
+				color={ 255 100 10 }
+				color2={ 255 255 255 }
+			
+				southener = "Kambriddge"
+				scouse = "Cambriddge"
+				frencig = "Kambriddge"
+				british = "Cambrhidge"
+				old_welsh = "Caergrawnt"
+				scots = "Cambrigshire"
+				
+				b_cambridge_1 = { #
+					scouse = "Cambriddge"
+					southener = "Kambriddge"
+					british = "Cambrhidge"
+					old_welsh = "Caergrawnt"
+					scots = "Cambrig"
+				}
+				b_burwell_1 = { #
+					scouse = "Burwell"
+					southener = "Burwell"
+					british = "Burhwell"
+				}
+				b_chatteris_1 = { 
+					scouse = "Chatteris"
+					southener = "Khatteris"
+					british = "Chatterhis"
+				}
+				b_cottenham_1 = { 
+					scouse = "Cwttenham"
+					southener = "Kwttenham"
+					british = "Cottenham"
+				}
+				b_ely_1 = {
+					scouse = "Eli"
+					southener = "Ele"
+					british = "Eli"
+				}
+				b_huntingdon_1 = { 
+					scouse = "Huntingdwn"
+					southener = "Huntingdwn"
+					british = "Huntingdon"
+				}
+				b_littleport_1 = { 
+					scouse = "Littlepwrt"
+					southener = "Littlepwrt"
+					british = "Littleporht"
+				}
+			}
+		}
+		d_bedford = { # Essex
+			color={ 241 15 15 }
+			color2={ 255 255 255 }
+			
+			capital = 32 # Middlesex
+			
+			westlander = "Bedfordshire"
+			southlander = "Bedfordshire"
+			northlander = "Bedfordshire"
+			angler = "Bedfordshire"
+			scots = "Bedfordshire"
+			scottish = "Bedfordshire"
+			new_english = "Bedfordshire"
+			ashkenazi = "Bedfordshire"
+			old_norman = "Bedfordshire"
+			eastlander = "Beadfurdshire"
+			ulsterite = "Bedfordshire"
+			old_welsh = "Calchfnedd"
+			southener = "Byddfordd"
+			scouse = "Byddfordd"
+			british = "Bedforhd"
+			
+			c_bedford = {
+				color={ 241 30 30 }
+				color2={ 255 255 255 }
+				
+				westlander = "Bedfordshire"
+				southlander = "Bedfordshire"
+				northlander = "Bedfordshire"
+				angler = "Bedfordshire"
+				scots = "Bedfordshire"
+				scottish = "Bedfordshire"
+				new_english = "Bedfordshire"
+				ashkenazi = "Bedfordshire"
+				old_norman = "Bedford"
+				eastlander = "Beadfurd"
+				ulsterite = "Bedford"
+				old_welsh = "Calchfnedd"
+				southener = "Byddfordd"
+				scouse = "Byddfordd"
+				british = "Bedforhd"
+				
+				holy_site = arcane
+				
+				b_luton = { #
+					scouse = "Lluton"
+					southener = "Luton"
+					british = "Lluton"
+				}
+				b_watford = { #
+					scouse = "Watfordd"
+					southener = "Watfordd"
+					british = "Watforhd"
+				}
+				b_hertford = { #Hemel Hempstead
+					scouse = "Hymyll Hympstyadd"
+					southener = "Hymyl Hympstyadd"
+					british = "Hemel Hempstead"
+				}
+				b_berkhamsted = { #Stevenage
+					scouse = "Styfynagy"
+					southener = "Styfynagy"
+					british = "Stewyenage"
+				}
+				b_bedford = { #
+					eastlander = "Beadfurd"
+					old_welsh = "Calchfnedd"
+					southener = "Byddfordd"
+					scouse = "Byddfordd"
+					british = "Bedforhd"
+				}
+				b_st_albans = { #
+					scouse = "Allbans"
+					southener = "Albans"
+					british = "Albans"
+				}
+				b_dunstable = { #Welfn Garden
+					scouse = "Wyllfn Garddyn"
+					southener = "Wylfn Gardyn"
+					british = "Welfn Garhden"
+				}
+				b_ashridge = { #Cheshunt
+					scouse = "Chyshunt"
+					southener = "Shyshunt"
+					british = "Cheshunt"
+				}
+			}
+			c_london = { #London
+				color={ 241 90 35 }
+				color2={ 255 255 255 }
+				
+				southener = "Londdon"
+				frencig = "Llondrys"
+				scouse = "Llonddon"
+				british = "Llondon"
+				breizhiz = "Londrez"
+				french = "Llondres"
+				gallo = "Londres"
+				norman = "Londres"
+				burgundian = "Londres"
+				occitan = "Londres"
+				provencal = "Londres"
+				picard = "Londres"
+				poitevin = "Londres"
+				gascon = "Londres"
+				breton = "Londres"
+				cosmopolitan = "Londres"
+				eastlander = "London"
+				westlander = "London"
+				southlander = "London"
+				northlander = "London"
+				scots = "Lunnon"
+				new_english = "London"
+				ashkenazi = "London"
+				cornish = "Loundres"
+				old_welsh = "Llundain"
+				scottish = "Lunnainn"
+				
+				holy_site = constitutional
+				holy_site = novelist
+				holy_site = novelist_reformed
+				holy_site = thelemic
+				holy_site = thelemic_reformed
+				holy_site = evangelical
+				holy_site = orange_king
+				holy_site = anglican
+				holy_site = columbian
+				holy_site = mainline
+				holy_site = congregationist
+				holy_site = federationist
+				holy_site = maaravi
+				holy_site = hasidic
+				holy_site = arcane
+
+				b_westminster = {
+					used_for_dynasty_names = no
+					frencig = "Ouestmynster"
+					eastlander = "Weasminster"
+					scouse = "Wystmynstyr"
+					southener = "Wystmynstyr"
+					british = "Westminsterh"
+					scots = "Wastmeenster"
+				}
+				b_london = { #
+					used_for_dynasty_names = no
+					southener = "Londdon"
+					frencig = "Llondrys"
+					scouse = "Llonddon"
+					british = "Llondon"
+					breizhiz = "Londrez"
+					french = "Llondres"
+					gallo = "Londres"
+					norman = "Londres"
+					burgundian = "Londres"
+					occitan = "Londres"
+					provencal = "Londres"
+					picard = "Londres"
+					poitevin = "Londres"
+					gascon = "Londres"
+					breton = "Londres"
+					cosmopolitan = "Londres"
+					eastlander = "London"
+					westlander = "London"
+					southlander = "London"
+					northlander = "London"
+					scots = "Lunnon"
+					new_english = "London"
+					ashkenazi = "London"
+					cornish = "Loundres"
+					old_welsh = "Llundain"
+					scottish = "Lunnainn"
+				}
+				b_st_pauls = { #
+				pentarchy = evangelical
+					scouse = "Paulls"
+					southener = "Pauls"
+					british = "Pauls"
+				}
+				b_staines = { #Croydon
+					scouse = "Croyddon"
+					southener = "Kroyddon"
+					british = "Crhoidon"
+				}
+				b_chelsea = { #Enfield
+					scouse = "Ynfyylldd"
+					southener = "Ynfyyldd"
+					british = "Enfield"
+				}
+				b_harrow = { #
+					scouse = "Harrow"
+					southener = "Harrow"
+					british = "Harhrhow"
+				}
+				b_tottenham = { #
+					scouse = "Tottynham"
+					southener = "Tottynham"
+					british = "Tottenham"
+				}
+				b_fulham = { #
+					scouse = "Fullham"
+					southener = "Fulham"
+					british = "Ffulham"
+				}
+			}
+			c_essex = {
+				color={ 241 25 25 }
+				color2={ 255 255 255 }
+				
+				southener = "Essyks"
+				frencig = "Essecs"
+				eastlander = "Esseas"
+				scouse = "Essycs"
+				british = "Essecks"
+
+				holy_site = congregationist
+				holy_site = federationist
+				
+				b_maldon = { #Southend-on-Sea
+					scouse = "Soufynd-on-Sya"
+					southener = "Soufynd-on-Sya"
+					british = "Southend-on-Sea"
+				}
+				b_colchester = { #
+					scouse = "Collchystyr"
+					southener = "Kolshystyr"
+					british = "Colchesterh"
+				}
+				b_havering = { #Basildon
+					scouse = "Basyllddon"
+					southener = "Basylddon"
+					british = "Basildon"
+				}
+				b_dunmow = { #Chelmsford
+					scouse = "Chyllmsfordd"
+					southener = "Shylmsfordd"
+					british = "Chelmsforhd"
+				}
+				b_waltham = { #Harlow
+					scouse = "Harllow"
+					southener = "Harlow"
+					british = "Harhlow"
+				}
+				b_barking = { #Grays
+					scouse = "Grays"
+					southener = "Grays"
+					british = "Grhais"
+				}
+				b_pleshey = { #Clacton-on-Sea
+					scouse = "Cllacton-on-Sya"
+					southener = "Klakton-on-Sya"
+					british = "Clacton-on-Sea"
+				}
+				b_hedingham = { #Brentwood
+					scouse = "Bryntwwdd"
+					southener = "Bryntwwdd"
+					british = "Brhentwood"
+				}
+			}
+			c_northampton = {
+				color={ 255 110 5 }
+				color2={ 255 255 255 }
+				
+				scouse = "Norfampton"
+				southener = "Norfampton"
+				british = "Norhthampton"
+				french = "Nordhampton"
+				cosmopolitan = "Nordhampton"
+				eastlander = "Northamptonshire"
+				westlander = "Northamptonshire"
+				southlander = "Northamptonshire"
+				new_english = "Northamptonshire"
+				ashkenazi = "Northamptonshire"
+				
+				b_northampton = { #
+					scouse = "Norfampton"
+					southener = "Norfampton"
+					british = "Norhthampton"
+					french = "Nordhampton"
+					cosmopolitan = "Nordhampton"
+				}
+				b_peterborough = { #
+					scouse = "Pytyrborough"
+					southener = "Pytyrborough"
+					british = "Peterhborhough"
+				}
+				b_cambridge = { #
+					scouse = "Cambryddgy"
+					southener = "Kambryddgy"
+					british = "Cambrhidge"
+				}
+				b_huntingdon = { #Corby
+					scouse = "Corby"
+					southener = "Korby"
+					british = "Corhbi"
+				}
+				b_kettering = { #
+					scouse = "Kyttyryng"
+					southener = "Kyttyryng"
+					british = "Ketterhing"
+				}
+				b_ramsey = { #Wellingborough
+					scouse = "Wyllyngborough"
+					southener = "Wyllyngborough"
+					british = "Wellingborhough"
+				}
+				b_crowland = { #Rushden
+					scouse = "Rushddyn"
+					southener = "Rushddyn"
+					british = "Rhushden"
+				}
+				b_rockingham = { #Wisbech
+					scouse = "Wysbych"
+					southener = "Wysbysh"
+					british = "Wisbech"
+				}
+			}
+		}
+		d_gloucester = { # Hwicce
+			color={ 241 79 15 }
+			color2={ 255 255 255 }
+			
+			capital = 21 # Gloucester
+			
+			southener = "Glousystyr"
+			roman = "Glevum"
+			old_welsh = "Caerloyw"
+			scouse = "Glloucystyr"
+			british = "Gloucesterh"
+			scots = "Gloucester"
+			northlander = "Gloucester"
+			eastlander = "Gloucester"
+			westlander = "Gloucester"
+			southlander = "Gloucester"
+			ulsterite = "Gloucester"
+			old_norman = "Gloucester"
+			angler = "Gloucester"
+			new_english = "Gloucester"
+			scottish = "Gloucester"
+			ashkenazi = "Gloucester"
+			cornish = "Karlow"
+			french = "Gloucester"
+			gallo = "Gloucester"
+			norman = "Gloucester"
+			burgundian = "Gloucester"
+			occitan = "Gloucester"
+			provencal = "Gloucester"
+			picard = "Gloucester"
+			gascon = "Gloucester"
+			poitevin = "Gloucester"
+			breton = "Gloucester"
+			cosmopolitan = "Gloucester"
+			
+			c_gloucester = {
+				color={ 241 85 25 }
+				color2={ 255 255 255 }
+
+				southener = "Glousystyr"
+				roman = "Glevum"
+				old_welsh = "Caerloyw"
+				scouse = "Glloucystyr"
+				british = "Gloucesterh"
+				northlander = "Gloucester"
+				eastlander = "Gloucestershire"
+				westlander = "Gloucestershire"
+				southlander = "Gloucestershire"
+				angler = "Gloucestershire"
+				new_english = "Gloucestershire"
+				ashkenazi = "Gloucestershire"
+				cornish = "Karlow"
+							
+				b_gloucester = { #
+					southener = "Glousystyr"
+					roman = "Glevum"
+					old_welsh = "Caerloyw"
+					scouse = "Glloucystyr"
+					british = "Gloucesterh"
+					northlander = "Gloucester"
+					eastlander = "Gloucester"
+					westlander = "Gloucester"
+					southlander = "Gloucester"
+					angler = "Gloucester"
+					new_english = "Gloucester"
+					ashkenazi = "Gloucester"
+					cornish = "Karlow"
+				}
+				b_cheltenham = { #
+					scouse = "Chylltynham"
+					southener = "Shyltynham"
+					british = "Cheltenham"
+				}
+				b_sudeley = { #Kingswood
+					scouse = "Kyngswwdd"
+					southener = "Kyngswwdd"
+					british = "Kingswood"
+				}
+				b_winchcombe = { #Filton
+					scouse = "Fyllton"
+					southener = "Fylton"
+					british = "Ffilton"
+				}
+				b_hailes = { #Stroud
+					scouse = "Stroudd"
+					southener = "Stroudd"
+					british = "Strhoud"
+				}
+				b_yate_gloucester = { #Yate
+					scouse = "Yaty"
+					southener = "Yaty"
+					british = "Iate"
+				}
+				b_tewkesbury = { #
+					scouse = "Tywkysbury"
+					southener = "Tywkysbury"
+					british = "Tewkesburhi"
+				}
+				b_cirencester = { #
+					scouse = "Cyryncystyr"
+					southener = "Syrynsystyr"
+					british = "Cirhencesterh"
+				}
+			}
+			c_wiltshire = {
+				color={ 241 95 45 }
+				color2={ 255 255 255 }
+				
+				frencig = "Wyltshyre"
+				scouse = "Wylltshyry"
+				british = "Wiltshirhe"
+				southener = "Wyltshyry"
+				
+				holy_site = celtic_pagan_reformed
+				holy_site = celtic_pagan
+				holy_site = summer_queen #Important part of Arthurian Legends
+				holy_site = arcane
+			
+				b_wilton = { #Swindon
+					scouse = "Sfwynddon"
+					southener = "Swynddon"
+					british = "Swindon"
+				}
+				b_salisbury = { #
+					scouse = "Sallysbury"
+					southener = "Salysbury"
+					british = "Salisburhi"
+				}
+				b_sarum = { #Chippenham
+					scouse = "Chyppynham"
+					southener = "Shyppynham"
+					british = "Chippenham"
+				}
+				b_clarendon = { #Trowbridge
+					scouse = "Trowbryddgy"
+					southener = "Trowbryddgy"
+					british = "Trhowbrhidge"
+				}
+				b_malmesbury = { #Melksham
+					scouse = "Myllksham"
+					southener = "Mylksham"
+					british = "Melksham"
+				}
+				b_ramsbury = { #Warminster
+					scouse = "Warmynstyr"
+					southener = "Warmynstyr"
+					british = "Warhminsterh"
+				}
+				b_devizes = { #
+					scouse = "Dyfyzys"
+					southener = "Dyfyzys"
+					british = "Dewyises"
+				}
+				b_marlborough = { #Calne
+					scouse = "Callny"
+					southener = "Kalny"
+					british = "Calne"
+				}
+			}
+			c_oxford = {
+				color={ 255 115 15 }
+				color2={ 255 255 255 }
+				
+				southener = "Oksfordd"
+				frencig = "Ocsford"
+				polish = "Oxenfurt"
+				eastlander = "Oxfordshire"
+				westlander = "Oxfordshire"
+				southlander = "Oxfordshire"
+				angler = "Oxfordshire"
+				new_english = "Oxfordshire"
+				ashkenazi = "Oxfordshire"
+				scouse = "Ocsfordd"
+				british = "Ocksforhd"
+				cornish = "Rysoghen"
+				old_welsh = "Rhydychen"
+
+				holy_site = congregationist
+				holy_site = federationist
+				
+				b_banbury = { #Milton Keynes
+					scouse = "Myllton Kyynys"
+					southener = "Mylton Kyynys"
+					british = "Milton Keines"
+				}
+				b_reading = { #
+					scouse = "Ryaddyng"
+					southener = "Ryaddyng"
+					british = "Rheading"
+				}
+				b_oxford = { #
+					southener = "Oksfordd"
+					frencig = "Ocsford"
+					polish = "Oxenfurt"
+					scouse = "Ocsfordd"
+					british = "Ocksforhd"
+					cornish = "Rysoghen"
+					old_welsh = "Rhydychen"
+				}
+				b_wallingford = { #Slough
+					scouse = "Sllough"
+					southener = "Slough"
+					british = "Slough"
+				}
+				b_abingdon = { #High Wycombe
+					scouse = "Hygh Wycomby"
+					southener = "Hygh Wykomby"
+					british = "High Wicombe"
+				}
+				b_buckingham = { #Bracknell
+					scouse = "Bracknyll"
+					southener = "Brakknyll"
+					british = "Brhacknell"
+				}
+				b_aylesbury = { #
+					scouse = "Ayllysbury"
+					southener = "Aylysbury"
+					british = "Ailesburhi"
+				}
+				b_eynsham = { #Maidenhead
+					scouse = "Mayddynhyadd"
+					southener = "Mayddynhyadd"
+					british = "Maidenhead"
+				}
+			}
+			c_berkeshire = {
+				color={ 255 115 15 }
+				color2={ 255 255 255 }
+				
+				
+				b_reading_1 = { 
+				}
+				b_slough_1 = { #
+					scouse = "Slwugh"
+					southener = "Slwugh"
+					british = "Slough"
+				}
+				b_bracknell_1 = { #
+					british = "Brhacknell"
+				}
+				b_workingham_1 = { #Slough
+				}
+				b_newbury_1 = {
+				}
+				b_woodley_1 = { #Bracknell
+					scouse = "Wooddley"
+					southener = "Wooddley"
+					british = "Woodlei"
+				}
+				b_windsor_1 = { #
+					scouse = "Winddswr"
+					southener = "Winddswr"
+					british = "Windsorh"
+				}
+			}
+		}
+		d_canterbury = { # Sussex
+			color={ 241 100 15 }
+			color2={ 255 255 255 }
+			
+			capital = 73 # Kent
+			
+			southener = "Sussyks"
+			frencig = "Sussecs"
+			scouse = "Sussycs"
+			british = "Sussecks"
+			cornish = "Kint"
+			old_welsh = "Caint"
+			new_english = "Kent"
+			old_norman = "Kent"
+			scots = "Kent"
+			
+			c_surrey = {
+				color={ 241 105 55 }
+				color2={ 255 255 255 }
+				
+				scouse = "Surrey"
+				british = "Surhrhei"
+				southener = "Surryy"
+				
+				b_woking = { #
+					scouse = "Wokyng"
+					southener = "Wokyng"
+					british = "Woking"
+				}
+				b_guildford = { #
+					scouse = "Guyllddfordd"
+					southener = "Guylddfordd"
+					british = "Guildforhd"
+				}
+				b_farnham = { #Walton-on-Thames
+					scouse = "Wallton-on-Famys"
+					southener = "Wallton-on-Famys"
+					british = "Walton-on-Thames"
+				}
+				b_lambeth = { #Ewell
+					scouse = "Ywyll"
+					southener = "Ywyll"
+					british = "Ewell"
+				}
+				b_southwark = { #Esher
+					scouse = "Yshyr"
+					southener = "Yshyr"
+					british = "Esherh"
+				}
+				b_chertsey = { #Camberley
+					scouse = "Cambyrllyy"
+					southener = "Kambyrlyy"
+					british = "Camberhlei"
+				}
+				b_croydon = { #Leatherhead
+					scouse = "Llyafyrhyadd"
+					southener = "Lyafyrhyadd"
+					british = "Lleatherhead"
+				}
+				b_waverley = { #Redhill
+					scouse = "Ryddhyll"
+					southener = "Ryddhyll"
+					british = "Rhedhill"
+				}
+			}
+			c_kent = {
+				color={ 241 115 65 }
+				color2={ 255 255 255 }
+				
+				southener = "Kynt"
+				frencig = "Cent"
+				scouse = "Cynt"
+				british = "Kent"
+				cornish = "Kint"
+				old_welsh = "Caint"
+				
+				holy_site = anglican
+				holy_site = evangelical				
+				
+				b_dover = { #Gillingham
+					scouse = "Gyllyngham"
+					southener = "Gyllyngham"
+					british = "Gillingham"
+				}
+				b_canterbury = { #
+					pentarchy = evangelical
+					scouse = "Cantyrbury"
+					southener = "Kantyrbury"
+					british = "Canterhburhi"
+					old_welsh = "Caergaint"
+				}
+				b_faversham = { #Maidstone
+					scouse = "Mayddstony"
+					southener = "Mayddstony"
+					british = "Maidstone"
+				}
+				b_sandwich = { #Dartford
+					scouse = "Dartfordd"
+					southener = "Dartfordd"
+					british = "Darhtforhd"
+				}
+				b_lympne = { #Chatham
+					scouse = "Chafam"
+					southener = "Shafam"
+					british = "Chatham"
+				}
+				b_rochester = { #
+					scouse = "Rochystyr"
+					southener = "Roshystyr"
+					british = "Rhochesterh"
+				}
+				b_romney = { #Margate
+					scouse = "Margaty"
+					southener = "Margaty"
+					british = "Marhgate"
+				}
+				b_tonbridge = { #Ashford
+					scouse = "Ashfordd"
+					southener = "Ashfordd"
+					british = "Ashforhd"
+				}
+			}
+			c_sussex = {
+				color={ 241 110 60 }
+				color2={ 255 255 255 }
+				
+				southener = "Sussyks"
+				frencig = "Sussecs"
+				eastlander = "Sauseas"
+				scouse = "Sussycs"
+				british = "Sussecks"
+				
+				holy_site = thelemic
+				holy_site = arcane
+				
+				b_pevensey = { #Brighton-Hove
+					scouse = "Bryghton-Hofy"
+					southener = "Bryghton-Hofy"
+					british = "Brighton-Howye"
+				}
+				b_chichester = { #Worthing
+					scouse = "Worfyng"
+					southener = "Worfyng"
+					british = "Worhthing"
+				}
+				b_lewes = { #Crawley
+					scouse = "Crawllyy"
+					southener = "Krawlyy"
+					british = "Crhawlei"
+				}
+				b_arundel = { #Eastbourne
+					scouse = "Yastbourny"
+					southener = "Yastbourny"
+					british = "Eastbourhne"
+				}
+				b_hastings = { #
+					scouse = "Hastyngs"
+					southener = "Hastyngs"
+					british = "Hastings"
+				}
+				b_rye = { #Bognor
+					eastlander = "Bognor Regis"
+					westlander = "Bognor Regis"
+					southlander = "Bognor Regis"
+					new_english = "Bognor Regis"
+					ashkenazi = "Bognor Regis"
+				}
+				b_bramber = { #Littlehampton
+					scouse = "Llyttllyhampton"
+					southener = "Lyttlyhampton"
+					british = "Llittlehampton"
+				}
+				b_bodiam = { #Shoreham-by-Sea
+					scouse = "Shoryham-by-Sya"
+					southener = "Shoryham-by-Sya"
+					british = "Shorheham-bie-Sea"
+				}
+			}
+		}
+		d_somerset = {
+			color={ 241 15 63 }
+			color2={ 255 255 255 }
+			
+			capital = 28 # Somerset
+			
+			old_norman= "Somerset"
+			westlander= "Summerset"
+			southlander= "Summerset"
+			ulsterite = "Somerset"
+			northlander = "Somerset"
+			angler = "Somerset"
+			old_welsh = "Gwlad yr Haf"
+			southener = "Summyrsyt"
+			scouse = "Summyrsyt"
+			british = "Somerhset"
+			cornish = "Gwlas an Hav"
+			new_english = "Somerset"
+			scots = "Somerset"
+			
+			c_somerset = {
+				color={ 241 30 75 }
+				color2={ 255 255 255 }
+				
+				old_norman="Somerset"
+				westlander="Summerset"
+				southlander="Summerset"
+				ulsterite = "Somerset"
+				northlander = "Somerset"
+				angler = "Somerset"
+				old_welsh = "Gwlad yr Haf"
+				southener = "Summyrsyt"
+				scouse = "Summyrsyt"
+				british = "Somerhset"
+				cornish = "Gwlas an Hav"
+				
+				b_taunton = { #
+				}
+				b_yeovil = { #
+					scouse = "Iofyll"
+					southener = "Yyofyl"
+					british = "Ieowyil"
+				}
+				b_bridgwater = { #
+					scouse = "Bryddgwatyr"
+					southener = "Bryddgwatyr"
+					british = "Brhidgwaterh"
+				}
+				b_ilchester = { #Chard
+					scouse = "Chardd"
+					southener = "Shardd"
+					british = "Charhd"
+				}
+				b_muchelney = { #Minehead
+					scouse = "Mynyhyadd"
+					southener = "Mynyhyadd"
+					british = "Minehead"
+				}
+				b_castle_cary = { #Wellington
+					scouse = "Wyllyngton"
+					southener = "Wyllyngton"
+					british = "Wellington"
+				}
+				b_street_glastonbury = { #Street
+					scouse = "Stryyt"
+					southener = "Stryyt"
+					british = "Strheet"
+				}
+				b_glastonbury = { #
+					scouse = "Gllastonbury"
+					southener = "Glastonbury"
+					british = "Glastonburhi"
+				}
+			}
+			c_bath = { #Bristol
+				color={ 241 15 55 }
+				color2={ 255 255 255 }
+
+				southener = "Brystol"
+				scouse = "Brystoll" 
+				british = "Brhistol"
+				old_welsh = "Bryste"
+				
+				b_bristol = { #
+					southener = "Brystol"
+					scouse = "Brystoll" 
+					british = "Brhistol"
+					old_welsh = "Bryste"
+				}				
+				b_bath = { #
+					roman = "Aquae Sulis"
+					westlander = "Bas"
+					southlander = "Bas"
+					scouse = "Baf"
+					southener = "Bath"
+					british = "Bath"
+				}
+				b_wells = { #Weston-super-Mare
+					scouse = "Wyston-supyr-Mary"
+					southener = "Wyston-supyr-Mary"
+					british = "Weston-superh-Marhe"
+				}
+				b_cleeve = { #Frome
+					scouse = "Fromy"
+					southener = "Fromy"
+					british = "Ffrhome"
+				}
+				b_castle_batch = { #Clevedon
+					scouse = "Cllyfyddon"
+					southener = "Clyfyddon"
+					british = "Clewyedon"
+				}
+				b_burnham = { #
+					scouse = "Burnham"
+					southener = "Burnham"
+					british = "Burhnham"
+					eastlander = "Burnham-on-Sea"
+					westlander = "Burnham-on-Sea"
+					southlander = "Burnham-on-Sea"
+					new_english = "Burnham-on-Sea"
+					ashkenazi = "Burnham-on-Sea"
+				}
+				b_cadbury = { #Portishead
+					scouse = "Portyshyadd"
+					southener = "Portyshyadd"
+					british = "Porhtishead"
+				}
+				b_nailsea_bristol = { #Nailsea
+					scouse = "Nayllsya"
+					southener = "Naylsya"
+					british = "Nailsea"
+				}
+			}
+		}
+		d_hampshire = { #Wessex
+			color={ 241 45 53 }
+			color2={ 255 255 255 }
+			
+			capital = 26 # Winchester
+			
+			old_norman= "Hampshire"
+			southener = "Hampshyry"
+			frencig = "Hampshyre"
+			french = "Shire"
+			gallo = "Shire"
+			norman = "Shire"
+			burgundian = "Shire"
+			occitan = "Shire"
+			provencal = "Shire"
+			picard = "Shire"
+			gascon = "Shire"
+			poitevin = "Shire"
+			breton = "Shire"
+			cosmopolitan = "Shire"
+			scouse = "Hampshyry"
+			british = "Hampshirhe"
+			westlander = "Hampshire"
+			southlander = "Hampshire"
+			eastlander = "Hampshire"
+			ulsterite = "Hampshire"
+			northlander = "Hampshire"
+			angler = "Hampshire"
+			scots = "Hampshire"
+			scottish = "Hampshire"
+			old_welsh = "Hampshire"
+			new_english = "Hampshire"
+			
+			c_winchester = { #Southampton
+				color={ 241 20 65 }
+				color2={ 255 255 255 }
+				
+				scouse = "Soufampton"
+				british = "Southampton"
+				southener = "Soufampton"
+				
+				holy_site = summer_queen
+				holy_site = arcane
+				
+				title = "WIN_SULTAN_TITLE"
+				title_female = "WIN_SULTANA_FEMALE"
+				
+				b_southampton = { #
+					scouse = "Soufampton"
+					british = "Southampton"
+					southener = "Soufampton"
+				}
+				b_portchester = { #Portsmouth
+					scouse = "Portsmouf"
+					southener = "Portsmouf"
+					british = "Porhtsmouth"
+				}
+				b_winchester = { #Basingstoke
+					scouse = "Basyngstoky"
+					southener = "Basyngstoky"
+					british = "Basingstoke"
+				}
+				b_romsey = { #Eastleigh
+					scouse = "Yastllyygh"
+					southener = "Yastlyygh"
+					british = "Eastleigh"
+				}
+				b_st_swithun = { #Gosport
+				}
+				b_wherwell = { #Farnborough
+					scouse = "Farnborough"
+					southener = "Farnborough"
+					british = "Ffarhnborhough"
+				}
+				b_aldershot_southampton = { #Aldershot
+					scouse = "Allddyrshot"
+					southener = "Alddyrshot"
+					british = "Alderhshot"
+				}
+				b_andover = { #
+					scouse = "Andofyr"
+					southener = "Andofyr"
+					british = "Andowyerh"
+				}
+			}
+			c_wight = {
+				color={ 241 10 50 }
+				color2={ 255 255 255 }
+				
+				saxon="Wihtwara"
+				frencig = "Wyght"
+				scouse = "Wyght" 
+				british = "Wight"
+				southener = "Wyght"
+				
+				b_carisbrooke = { #Ryde
+					scouse = "Ryddy"
+					southener = "Ryddy"
+					british = "Rhide"
+				}
+				b_newport_wight = { #
+					scouse = "Nywport"
+					southener = "Nywport"
+					british = "Newporht"
+				}
+				b_sandown = { #
+					scouse = "Sanddown"
+					southener = "Sanddown"
+					british = "Sandown"
+				}
+				b_cowes = { #
+					scouse = "Cowys"
+					southener = "Kowys"
+					british = "Cowes"
+				}
+				b_bonchurch = { #Shanklin
+					scouse = "Shankllyn"
+					southener = "Shanklyn"
+					british = "Shanklin"
+				}
+				b_yarmouth = { #East Cowes
+					scouse = "Yast Cowys"
+					southener = "Yast Kowys"
+					british = "East Cowes"
+				}
+				b_st_helens = { #Ventnor
+					scouse = "Fyntnor"
+					southener = "Fyntnor"
+					british = "Wyentnorh"
+				}
+				b_brading_wight = { #Brading
+					scouse = "Braddyng"
+					southener = "Braddyng"
+					british = "Brhading"
+				}
+			}
+			c_dorset = {
+				color={ 241 25 70 }
+				color2={ 255 255 255 }
+				
+				scouse = "Ddorsyt"
+				british = "Ddorhset"
+				southener = "Ddorsyt"
+				
+				b_wareham = { #Bournemouth
+					scouse = "Bournymouf"
+					southener = "Bournymouf"
+					british = "Bourhnemouth"
+				}
+				b_corfe = { #Poole
+					scouse = "Pwlly"
+					southener = "Pwly"
+					british = "Poole"
+				}
+				b_weymouth = { #
+					scouse = "Wyymouf"
+					southener = "Wyymouf"
+					british = "Weimouth"
+				}
+				b_shaftesbury = { #Christchurch
+					scouse = "Chrysttymplly"
+					southener = "Khrysttymply"
+					british = "Chrhisttemple"
+				}
+				b_sherborne = { #Ferndown
+					scouse = "Fyrnddown"
+					southener = "Fyrnddown"
+					british = "Fferhndown"
+				}
+				b_dorchester = { #
+					scouse = "Dorchystyr"
+					southener = "Dorshystyr"
+					british = "Ddorhchesterh"
+				}
+				b_wimborne = { #
+					scouse = "Wymborny"
+					southener = "Wymborny"
+					british = "Wimborne"
+				}
+				b_lyme = { #Bridport
+					scouse = "Bryddport"
+					southener = "Bryddport"
+					british = "Brhidporht"
+				}
+			}
+		}
+		d_durham_palatine = {
+			color={ 251 33 12 }
+			color2={ 220 220 0 }
+			
+			capital = 56 # Durham
+					
+			
+			title = "PRINCE_BISHOP"
+			foa = "PRINCE_BISHOP_FOA"
+			short_name = yes
+			location_ruler_title = yes
+			
+			allow = {
+				is_theocracy = yes
+			}
+			
+			religion = catholic
+			
+			# Cannot be held as a secondary title
+			primary = yes
+
+			assimilate = no
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+			dignity = 20	
+		}
+	}
+	
+	k_cornwall= {
+		color={ 255 216 0 }
+		color2={ 0 0 0 }
+		capital = 31 # Cornwall
+		
+		calvinist = 1000 #Crusade target weight
+		
+		culture = cornish
+
+		southener = "Kornwall"
+		old_welsh = Cernyw
+		cornish = Kernow
+		breizhiz = Kernev-Veur
+		high_irish = "Corn na Breataine"
+		munsterian = "Corn na Breataine"
+		ulsterian = "Corn na Breataine"
+		westlander = "Cernwell"
+		southlander = "Cernwell"
+		scouse = Cornwall 
+		british = Corhnwall
+		french = "Cornouailles"
+		gallo = "Cornouailles"
+		norman = "Cornouailles"
+		burgundian = "Cornouailles"
+		occitan = "Cornouailles"
+		provencal = "Cornouailles"
+		picard = "Cornouailles"
+		cosmopolitan = "Cornouailles"
+				
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_cornwall = {
+						is_titular = yes
+					}
+				}
+				k_cornwall = {
+					is_titular = no
+				}
+			}
+		}
+		
+	}
+	k_england= {
+		color={ 245 16 36 }
+		color2={ 255 255 255 }
+		capital = 32 # Middlesex
+		
+		calvinist = 3500 #Crusade target weight
+		neohuguenot = 5000
+		raelian = 1500
+		orleanist = 3000
+		catholic = 2500
+		sevillian = 1500
+		novelist_reformed = 4500
+		
+		culture = westlander
+
+		old_welsh = Lloegyr
+		breizhiz = Lloegyr
+		high_irish = Sasana
+		munsterian = Sasana
+		ulsterian = Sasana
+		roman = Britannia
+		ashkenazi = "England"
+		israeli = "Anglia"
+		sephardi = "Anglia"
+		frencig = "Angylytyr"
+		scots = "Ingland"
+		scottish = "Sasainn"
+		cornish = "Pow Sows"
+		northlander = "Ingerland"
+		old_norman = "Anglieterre"
+		french = "Angleterre"
+		gallo = "Angleterre"
+		norman = "Angleterre"
+		burgundian = "Angleterre"
+		occitan = "Angleterre"
+		provencal = "Angleterre"
+		picard = "Angleterre"
+		cosmopolitan = "Angleterre"
+		arpitan = "Anglletèrra"
+		yola = "Engelhoan"
+		dutch = "Engeland"
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_england = {
+						is_titular = yes
+					}
+				}
+				k_england = {
+					is_titular = no
+				}
+			}
+		}
+		
+	}
+	
+	k_wales = {
+		color={ 0 153 63 }
+		color2={ 255 255 255 }
+		
+		capital = 64 # Gfnedd
+
+		title_prefix = "principality_prefix"
+		
+		title = "PRINCE"
+		title_female = "PRINCE_FEMALE"
+		
+		culture = old_welsh
+		
+		catholic = 1000 # Crusade target weight
+		calvinist = 2000 #Crusade target weight
+		neohuguenot = 5000
+		raelian = 1500
+		sevillian = 800
+		orleanist = 2500		
+		summer_queen = 4000
+		novelist_reformed = 2500
+		cadaverist = 800
+		ibadi = 50
+		fraticelli = 800 # Crusade target weight		
+		
+		old_welsh = "Cymru"
+		breizhiz = "Kembre"
+		high_irish = "Bhreatain Bheag"
+		munsterian = "Bhreatain Bheag"
+		ulsterian = "Bhreatain Bheag"
+		cornish = "Kembra"
+		roman = Cambria
+		westlander = Wels
+		southlander = Wels
+		eastlander = Weals
+		scottish = "A' Chuimrigh"
+		british = "Prhitoniaid"
+		scouse = "Wallys"
+		southener = "Walys"
+		oglallan = "Wailes"		
+		frencig = "Pays des Galles"
+		french = "Pays de Galles"
+		gallo = "Pays de Galles"
+		norman = "Pays de Galles"
+		burgundian = "Pays de Galles"
+		occitan = "Pays de Galles"
+		provencal = "Pays de Galles"
+		picard = "Pays de Galles"
+		poitevin = "Pays de Galles"
+		gascon = "Pays de Galles"
+		breton = "Pays de Galles"
+		lorraine = "Pays de Galles"
+		cosmopolitan = "Pays de Galles"
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					k_wales = {
+						is_titular = yes
+					}
+				}
+				k_wales = {
+					is_titular = no
+				}
+			}
+		}
+		
+		d_hereford = { # Mercia
+			color={ 241 47 15 }
+			color2={ 255 255 255 }
+			
+			capital = 30 # Worcester
+			
+			southener = "Warwyk"
+			frencig = "Warwyc"
+			old_norman = "West Midlands"
+			ulsterite = "West Midlands"
+			old_welsh = "Gorllewin Canolbarth Lloegr"
+			scouse = Warwyk
+			british = Warhwic						
+			eastlander = "Weast Midlands"
+			westlander = "West Midlands"
+			southlander = "West Midlands"
+			northlander = "Weas Midlands"
+			scots = "West Midlands"
+			angler = "West Midlands"			
+			new_english = "West Midlands"
+			ashkenazi = "West Midlands"
+			cornish = "West Midlands"
+			norman = "Midlands de l'Ouest"
+			
+			dignity = 5
+			
+			c_shrewsbury = {
+				color={ 241 55 25 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Amwythig"
+				saxon = "Shropshire"
+				westlander = "Shropshire"
+				southlander = "Shropshire"
+				eastlander = "Shropshire"
+				angler = "Shropshire"
+				new_english = "Shropshire"
+				ashkenazi = "Shropshire"
+				ulsterite = "Shrewsbury"
+				scouse = "Shrywsbury"
+				southener = "Shrywsbury"
+				british = "Shrhewsburhi"
+			
+				b_clun = { #Telford
+					scouse = "Tyllfordd"
+					southener = "Tylfordd"
+					british = "Telforhd"
+				}
+				b_shrewsbury = { #
+					old_welsh = "Amwythig"
+					westlander = "Shrewsbury"
+					southlander = "Shrewsbury"
+					ulsterite = "Shrewsbury"
+					scouse = "Shrywsbury"
+					british = "Shrhewsburhi"
+					southener = "Shrywsbury"
+				}
+				b_oswestry = { #
+					scouse = "Oswystry"
+					southener = "Oswystry"
+					british = "Wswestrhi"
+				}
+				b_bridgnorth = { #
+					scouse = "Brydgnorf"
+					southener = "Brydgnorf"
+					british = "Brhidgnorhth"
+				}
+				b_wenlock = { #Newport
+					scouse = "Nywport"
+					southener = "Nywport"
+					british = "Newporht"
+				}
+				b_ludlow = { #
+					scouse = "Lluddllow"
+					southener = "Luddlow"
+					british = "Lludlow"
+				}
+				b_whitchurch = { #Market Drayton
+					scouse = "Markyt Drayton"
+					southener = "Markyt Drayton"
+					british = "Marhket Ddrhaiton"
+				}
+				b_knightslot = { #
+					scouse = "Knyght's Llot"
+					southener = "Knyght's Lot"
+					british = "Knight's Llot"
+				}
+			}
+			c_hereford = {
+				color={ 241 50 20 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Henffordd"
+				southener = "Hyryfordd"
+				scouse = "Hyryfordd"
+				british = "Herheforhd"
+				eastlander = "Herefordshire"
+				westlander = "Herefordshire"
+				southlander = "Herefordshire"
+				angler = "Herefordshire"
+				new_english = "Herefordshire"
+				ashkenazi = "Herefordshire"
+				cornish = "Herefordshire"
+				
+				b_hereford = { #
+					old_welsh = "Henffordd"
+					southener = "Hyryfordd"
+					scouse = "Hyryfordd"
+					british = "Herheforhd"
+					eastlander = "Hereford"
+					westlander = "Hereford"
+					southlander = "Hereford"
+					new_english = "Hereford"
+					ashkenazi = "Hereford"
+					cornish = "Hereford"
+				}
+				b_leominster = { #
+					scouse = "Llyomynstyr"
+					southener = "Lyomynstyr"
+					british = "Leominsterh"
+				}
+				b_st_ethelberts = { #Ross-on-Wye
+					scouse = "Ross-on-Wyy"
+					southener = "Ross-on-Wyy"
+					british = "Rhoss-on-Wie"
+				}
+				b_ledbury = { #
+					scouse = "Llyddbury"
+					southener = "Lyddbury"
+					british = "Lledburhi"
+				}
+				b_archenfield = { #Bromyard
+					scouse = "Bromyardd"
+					southener = "Bromyardd"
+					british = "Brhomiard"
+				}
+				b_ewyas_harold = { #Kington
+					scouse = "Kyngton"
+					southener = "Kyngton"
+					british = "Kington"
+				}
+				b_clifford = { #Credenhill
+					scouse = "Cryddynhyll"
+					southener = "Kryddynhyll"
+					british = "Crhedenhill"
+				}
+				b_brobury = { #Lugwardine
+					scouse = "Llugwarddyny"
+					southener = "Lugwarddyny"
+					british = "Llugwarhdine"
+				}
+			}
+			c_warwick = {
+				color={ 241 60 30 }
+				color2={ 255 255 255 }
+
+				southener = "Warwyk"
+				frencig = "Warwyc"
+				old_norman = "Warwick"
+				ulsterite = "Warwick"
+				scouse = Warwyk
+				british = Warhwic				
+				eastlander = "Warwickshire"
+				westlander = "Warwickshire"
+				southlander = "Warwickshire"
+				northlander = "Warwickshire"
+				scots = "Warwickshire"
+				angler = "Warwickshire"
+				new_english = "Warwickshire"
+				ashkenazi = "Warwickshire"
+				cornish = "Warwickshire"
+				
+				holy_site = thelemic
+				holy_site = thelemic_reformed
+				holy_site = orange_king
+				holy_site = summer_queen
+			
+				b_pershore = { #Nuneaton
+					scouse = "Nunyaton"
+					southener = "Nunyaton"
+					british = "Nuneaton"
+				}
+				b_lichfield = { #Rugby
+					scouse = "Rugby"
+					southener = "Rugby"
+					british = "Rhugbi"
+				}
+				b_castleton = { #Leamington Spa
+					scouse = "Llyamyngton Spa"
+					southener = "Lyamyngton Spa"
+					british = "Lleamington Spa"
+					eastlander = "Royal Leamington Spa"
+					westlander = "Royal Leamington Spa"
+					southlander = "Royal Leamington Spa"
+					northlander = "Royal Leamington Spa"
+					scots = "Royal Leamington Spa"
+					angler = "Royal Leamington Spa"
+					new_english = "Royal Leamington Spa"
+					ashkenazi = "Royal Leamington Spa"
+				}
+				b_tamworth = { #Bedworth
+					scouse = "Byddworf"
+					southener = "Byddworf"
+					british = "Bedworhth"
+				}
+				b_tutbury = { #Stratford-upon-Avon
+					scouse = "Stratfordd-upon-Afon"
+					southener = "Stratfordd-upon-Afon"
+					british = "Strhatforhd-upon-Awyon"
+				}
+				b_warwick = { #
+					southener = "Warwyk"
+					frencig = "Warwyc"
+					old_norman = "Warwick"
+					ulsterite = "Warwick"					
+					scouse = Warwyk
+					british = Warhwic
+				}
+				b_kenilworth = { #
+					scouse = "Kynyllworf"
+					southener = "Kynylworth"
+					british = "Kenilworhth"
+				}
+				b_droitwich = { #Polesworth
+					scouse = "Pwllysworf"
+					southener = "Pwlysworth"
+					british = "Polesworhth"
+				}
+			}
+			c_worcester = {
+				color={ 250 25 25 }
+				color2={ 255 255 255 }
+				
+				eastlander = "Worcestershire"
+				westlander = "Worcestershire"
+				southlander = "Worcestershire"
+				angler = "Worcestershire"
+				new_english = "Worcestershire"
+				scots = "Worcestershire"
+				ashkenazi = "Worcestershire"
+				southener = "Worsystyr"
+				scouse = "Worcystyr"
+				british = "Worcesterh"
+				cornish = "Worcestershire"
+				old_welsh = "Caerwrangon"
+				
+				b_birmingham = { #
+					scouse = "Byrmyngham"
+					southener = "Byrmyngham"
+					british = "Birhmingham"
+				}
+				b_coventry = { #
+					scouse = "Cofyntry"
+					southener = "Kofyntry"
+					british = "Cowyentrhi"
+				}
+				b_kidderminster = { #Wolverhampton
+					scouse = "Wollfyrhampton"
+					southener = "Wolfyrhampton"
+					british = "Wolwyerhampton"
+				}
+				b_malvern = { # Solihull
+					scouse = "Sollyhull"
+					southener = "Solyhull"
+					british = "Solihull"
+				}
+				b_bromsgrove = { #Sutton Coldfield
+					scouse = "Sutton Collddfyylldd"
+					southener = "Sutton Kolddfyyldd"
+					british = "Sutton Coldfield"
+				}
+				b_worcester = { #
+					eastlander = "Worcester"
+					westlander = "Worcester"
+					southlander = "Worcester"
+					new_english = "Worcester"
+					ashkenazi = "Worcester"
+					southener = "Worsystyr"
+					scouse = "Worcystyr"
+					british = "Worcesterh"
+					cornish = "Worcester"
+					old_welsh = "Caerwrangon"
+				}
+				b_dudley = { #
+					scouse = "Dduddllyy"
+					southener = "Dduddlyy"
+					british = "Ddudlei"
+				}
+				b_laughern = { #Redditch
+					scouse = "Ryddytch"
+					southener = "Ryddytsh"
+					british = "Rhedditch"
+				}
+			}
+		}
+		d_powys = {
+			color={ 0 165 82 }
+			color2={ 255 255 255 }
+		
+			capital = 65 # Powys
+			
+			british = "Powis"
+			
+			allow = {
+				conditional_tooltip = {
+					trigger = {
+						d_powys = {
+							is_titular = yes
+						}
+					}
+					d_powys = {
+						is_titular = no
+					}
+				}
+			}
+
+			c_powys = {
+				color={ 0 193 96 }
+				color2={ 255 255 255 }
+				
+				british = "Powis"
+				
+				b_caersws = { #Newtown
+					old_welsh = "Y Drenewydd"
+					scouse = "Nywtown"
+					southener = "Nywtown"
+					british = "Newtown"
+					frencig = "Nouuelleuylle"
+				}
+				b_mathrafal = { #Welshpool
+					old_welsh = "Y Trallwng"
+					scouse = "Wyllshpwll"
+					southener = "Wylshpwl"
+					british = "Cymrupool"
+					frencig = "Pool des Galles"
+				}
+				b_llandinam = { #Llanidloes
+					scouse = "Llanyddlloys"
+					southener = "Llanyddloys"
+					british = "Llanidloes"
+					frencig = "Llanydloes"
+				}
+				b_glascwm = { #Machynlleth
+					scouse = "Machynllyf"
+					southener = "Mashynllyf"
+					british = "Machinlleth"
+					frencig = "Machynlleth"
+				}
+				b_llangollen = { #Llandrinio
+					scouse = "Llandrynyo"
+					southener = "Landrynyo"
+					british = "Llandrhinio"
+					frencig = "Llandrynyo"
+				}
+				b_radnor = { #Llanfair Caereinion
+					scouse = "Llanfayr Cayryynyon"
+					southener = "Llanfayr Kayryynyon"
+					british = "Llanfairh Caerheinion"
+					frencig = "Llanfayr Caereynyon"
+				}
+				b_montgomery = { #Churchstoke
+					old_welsh = "Yr Ystog"
+					scouse = "Churchstoky"
+					southener = "Shurshstoky"
+					british = "Churhchstoke"
+					frencig = "Churchstoke"
+				}
+				b_guilsfield_powys = { #Guilsfield
+					old_welsh = "Cegidfa"
+					scouse = "Guyllsfyylldd"
+					southener = "Guylsfyyldd"
+					british = "Guilsfield"
+					frencig = "Guylsfyeld"
+				}
+			}
+			c_builth = { #Radnorshire
+				color={ 0 137 68 }
+				color2={ 255 255 255 }
+
+				scouse = "Raddnorshyry"
+				southener = "Raddnorshyry"
+				british = "Rhadnorhshirhe"
+				frencig = "Radnorshyre"
+				old_welsh = "Sir Faesyfed"
+				
+				b_llandrindod = { #
+					scouse = "Llanddrynddodd"
+					southener = "Llanddrynddodd"
+					british = "Llandrhindod"
+					frencig = "Llandryndod"
+				}
+				b_llanafan_fawr = { #Knighton
+					old_welsh = "Tref-y-clawdd"
+					scouse = "Knyghton"
+					southener = "Knyghton"
+					british = "Knighton"
+					frencig = "Uille des Cheualyer"
+				}
+				b_llanwrtyd = { #Presteigne
+					old_welsh = "Llanandras"
+					scouse = "Prystyygny"
+					southener = "Prystyygny"
+					british = "Prhesteigne"
+					frencig = "Presteygne"
+				}
+				b_rhayader = { #
+					old_welsh = "Raheadr Gf"
+					scouse = "Rhayadyr"
+					southener = "Rhayadyr"
+					british = "Rhaheadrh Gf"
+					frencig = "Raheadr Gf"
+				}
+				b_abergwesyn = { #Disserth-Trecoed
+					scouse = "Dyssyrf-Trycoydd"
+					southener = "Dyssyrth-Trycoydd"
+					british = "Disserhth-Trhecoed"
+					frencig = "Dysserth-Trecoed"
+				}
+				b_aberedw = { #Glasbury
+					old_welsh = "Y Clas-ar-f"
+					scouse = "Gllasbury"
+					southener = "Glasbury"
+					british = "Glasburhi"
+					frencig = "Glasbury"
+				}
+				b_llangammarch = { #Radnor
+					old_welsh = "Pencraig"
+					scouse = "Raddnor"
+					southener = "Raddnor"
+					british = "Rhadnorh"
+					frencig = "Radnor"
+				}
+				b_beguildy_builth = { #Beguildy
+					old_welsh = "Bugeildy"
+					scouse = "Byguyllddy"
+					southener = "Byguylddy"
+					british = "Beguildi"
+					frencig = "Beguyldy"
+				}
+			}
+
+			c_brycheiniog = {
+				color={ 0 216 108 }
+				color2={ 255 255 255 }
+
+				old_norman = Breconshire
+				ulsterite = "Breconshire"
+				scouse = "Bryconshyry"
+				british = Brheconshirhe
+				southener = Brykonshyry
+				frencig = "Breconshyre"
+				northlander = "Breconshire"
+				eastlander = "Breconshire"
+				westlander = "Breconshire"
+				southlander = "Breconshire"
+				scots = "Breconshire"
+				angler = "Breconshire"
+				new_english = "Breconshire"
+				ashkenazi = "Breconshire"
+				old_welsh = "Sir Frycheiniog"
+			
+				b_brecon = { #
+					old_welsh = "Aberhonddu"
+					scouse = "Brycon"
+					southener = "Brykon"
+					british = "Brhecon"
+					frencig = "Brecon"
+				}
+				b_talgarth = { # Ystradgynlais
+					scouse = "Ystraddgynllays"
+					southener = "Ystraddgynlays"
+					british = "Istrhadginlais"
+					frencig = "Ystradgynlays"
+				}
+				b_crickhowell = { #Brynmawr
+					scouse = "Brynmawr"
+					southener = "Brynmawr"
+					british = "Brhynmawrh"
+					frencig = "Brynmawr"
+				}
+				b_merthyr_tydfil = { #Llanelly
+					scouse = "Llanylly"
+					southener = "Llanylly"
+					british = "Llanelli"
+					frencig = "Llanelly"
+				}
+				b_cradoc = { #Beaufort
+					old_welsh = "Cendl"
+					scouse = "Byaufort"
+					southener = "Byaufort"
+					british = "Beauforht"
+					frencig = "Beauforte"
+				}
+				b_llanddew = { #Vaynor
+					old_welsh = "Y Faenor"
+					scouse = "Faynor"
+					southener = "Faynor"
+					british = "Wyainorh"
+					frencig = "Uaynor"
+				}
+				b_tretower = { #Rassau
+					old_welsh = "Rasa"
+					scouse = "Rassau"
+					southener = "Rassau"
+					british = "Rhassau"
+					frencig = "Rassau"
+				}
+				b_builth = { #
+					scouse = "Buyllf"
+					british = "Builth"
+					southener = "Buylth"
+					frencig = "Buylth"
+					northlander = "Builth Wells"
+					eastlander = "Builth Wells"
+					westlander = "Builth Wells"
+					southlander = "Builth Wells"
+					scots = "Builth Wells"
+					angler = "Builth Wells"
+					new_english = "Builth Wells"
+					old_welsh = "Llanfair-ym-Muallt"
+					ashkenazi = "Builth Wells"
+				}
+			}
+		}
+		d_deheubarth = {
+			color={ 0 153 51 }
+			color2={ 255 255 255 }
+			
+			capital = 1946 # Gower
+			
+			scouse = "Dyhyubarf"
+			british = "Ddifed"
+			southener = "Dyhyubarf"
+			northlander = "Dyfed"
+			eastlander = "Dyfed"
+			westlander = "Dyfed"
+			southlander = "Dyfed"
+			scots = "Dyfed"
+			new_english = "Dyfed"
+			ashkenazi = "Dyfed"
+			frencig = "Dyfed"
+			cornish = "Dyves"
+			old_welsh = "Dyfed"
+			
+			c_dyfed = {
+				color={ 0 181 60 }
+				color2={ 255 255 255 }
+				
+				scouse = "Ddyfydd"
+				british = "Ddifed"
+				southener = "Ddyfydd"
+				northlander = "Pembrokeshire"
+				eastlander = "Pembrokeshire"
+				westlander = "Pembrokeshire"
+				southlander = "Pembrokeshire"
+				scots = "Pembrokeshire"
+				angler = "Pembrokeshire"
+				new_english = "Pembrokeshire"
+				ashkenazi = "Pembrokeshire"
+				frencig = "Pembroceshyre"
+				cornish = "Dyves"
+				old_welsh = "Dyfed"
+			
+				b_penycwm = { #Milford Haven
+					old_welsh = "Aberdaugleddau"
+					scouse = "Myllfordd Hafyn"
+					southener = "Mylfordd Hafyn"
+					british = "Milforhd Hawyen"
+					frencig = "Mylford Hauen"
+				}
+				b_haverford = { #Haverfordwest
+					old_welsh = "Hwlffordd"
+					scouse = "Hafyrforddwyst"
+					southener = "Hafyrforddwyst"
+					british = "Hawyerhforhdwrst"
+					frencig = "Hauerfordouest"
+				}
+				b_llanstadwell = { #Pembroke Dock
+					old_welsh = "Doc Penfro"
+					scouse = "Pymbroky Doc"
+					southener = "Pymbroky Dok"
+					british = "Pembrhoke Doc"
+					frencig = "Pembroke Docc"
+				}
+				b_pembroke = { #
+					old_welsh = "Penfro"
+					scouse = "Pymbrwky"
+					southener = "Pymbrwky"
+					british = "Pembrhoke"
+					frencig = "Pembroke"
+				}
+				b_st_davids = { #Fishguard
+					old_welsh = "Abergwaun"
+					scouse = "Fyshguardd"
+					southener = "Fyshguardd"
+					british = "Fishguarhd"
+					frencig = "Saynt-Davyds"
+				}
+				b_tenby = { #
+					old_welsh = "Dinbych-y-pysgod"
+					scouse = "Tynby"
+					southener = "Tynby"
+					british = "Tenbi"
+					frencig = "Tenby"
+				}
+				b_neyland_pembrokeshire = { #Neyland
+					scouse = "Nyyllandd"
+					southener = "Nyylandd"
+					british = "Neiland"
+					frencig = "Terre des Ney"
+				}
+				b_narberth = { #
+					old_welsh = "Arberth"
+					scouse = "Narbyrf"
+					southener = "Narbyrf"
+					british = "Narhberhth"
+					frencig = "Narberth"
+				}
+			}
+			c_ceredigion = {
+				color={ 0 122 40 }
+				color2={ 255 255 255 }
+				
+				scouse = "Cyrydygyon"
+				british = "Cerhedigion"
+				southener = "Cyrydygyon"
+				frencig = "Ceredygyon"
+				northlander = "Cardiganshire"
+				eastlander = "Cardiganshire"
+				westlander = "Cardiganshire"
+				southlander = "Cardiganshire"
+				scots = "Cardiganshire"
+				angler = "Cardiganshire"
+				new_english = "Cardiganshire"
+				ashkenazi = "Cardiganshire"
+			
+				b_aberystwyth = { #
+					scouse = "Abyrystff"
+					southener = "Abyrystfth"
+					british = "Aberhistwith"
+					frencig = "Aberystfth"
+				}
+				b_cardigan = { #
+					old_welsh = "Aberteifi"
+					scouse = "Cyrydygyon"
+					british = "Carhdigan"
+					southener = "Cyrydygyon"
+					frencig = "Ceredygyon"
+					northlander = "Cardigan"
+					eastlander = "Cardigan"
+					westlander = "Cardigan"
+					southlander = "Cardigan"
+					scots = "Cardigan"
+					angler = "Cardigan"
+					new_english = "Cardigan"
+					ashkenazi = "Cardigan"
+				}
+				b_lampeter = { #
+					old_welsh = "Llanbedr Pont Steffan"
+					scouse = "Llampytyr"
+					southener = "Lampytyr"
+					british = "Llampeterh"
+					frencig = "Llampyerre"
+				}
+				b_llanbadarn = { #Llanon
+					scouse = "Llanon"
+					southener = "Llanon"
+					british = "Llanon"
+					frencig = "Llanon"
+				}
+				b_llanddewi_brefi = { #Aberporth
+					scouse = "Abyrporf"
+					southener = "Abyrporf"
+					british = "Aberporhth"
+					frencig = "Aberporth"
+				}
+				b_tregaron = { #Llanarth
+					scouse = "Llanarf"
+					southener = "Llanarf"
+					british = "Llanarhf"
+					frencig = "Llanarth"
+				}
+				b_llandysul = { #Llandysul
+					scouse = "Llanddysull"
+					southener = "Llandysul"
+					british = "Llandisul"
+					frencig = "Llandysul"
+				}
+				b_aberaeron = { #
+					scouse = "Abyrayron"
+					southener = "Abyrayron"
+					british = "Aberhaerhon"
+					frencig = "Aberaeron"
+				}
+			}
+			c_gower = {
+				color={ 0 198 66 }
+				color2={ 255 255 255 }
+
+				old_welsh = "Gwyr"
+				scouse = "Gowyr"
+				british = "Gowerh"
+				southener = "Gowyr"
+				frencig = "Gower"
+				eastlander = "Swansea"
+				westlander = "Swansea"
+				southlander = "Swansea"
+				northlander = "Swansea"
+				scots = "Swansea"
+				angler = "Swansea"
+				new_english = "Swansea"
+				ashkenazi = "Swansea"
+				
+				b_swansea = { #
+					old_welsh = "Abertawe"
+					scouse = "Swansya"
+					southener = "Swansya"
+					british = "Swansea"
+					frencig = "Swansea"
+				}
+				b_dinefwr = { #Llanelli
+					scouse = "Llanylly"
+					southener = "Llanylly"
+					british = "Llanelli"
+					frencig = "Llanelly"
+				}
+				b_llandeilo = { #Morriston
+					old_welsh = "Treforys" #Trefor is a terrible name - Trevor Belmont
+					scouse = "Morryston"
+					southener = "Morryston"
+					british = "Morhrhiston"
+					frencig = "Morrysuille"
+				}
+				b_carmarthen = { #
+					old_welsh = "Caerfyrddin"
+					scouse = "Carmarfyn"
+					southener = "Karmarthyn"
+					british = "Carhmarhthen"
+					frencig = "Carmarthen"
+				}
+				b_kidwelly = { #Sketty
+					old_welsh = "Sgeti"
+					scouse = "Scytty"
+					southener = "Skytty"
+					british = "Sketti"
+					frencig = "Scetty"
+				}
+				b_caerphilly_gower = { #Gorseinon
+					scouse = "Gorsyynon"
+					southener = "Gorsyynon"
+					british = "Gorhseinon"
+					frencig = "Gorseynon"
+				}
+				b_loughor = { #Gowerton
+					old_welsh = "Tre-gfr"
+					scouse = "Gowyrton"
+					southener = "Gowyrton"
+					british = "Gowerhton"
+					frencig = "Goweruille"
+				}
+				b_clydach_swansea = { #Clydach
+					scouse = "Cllyddach"
+					southener = "Klyddash"
+					british = "Clidach"
+					frencig = "Clydach"
+				}
+			}
+		}
+		d_gwent = {
+			color={ 20 204 96 }
+			color2={ 255 255 255 }
+			
+			capital = 20 # Gwent
+			
+			southener = "Gwint"
+			polish = "Gwint"
+			scouse = "Gwynt"
+			british = Gwent
+			northlander = "Newport"
+			eastlander = "Newport"
+			westlander = "Newport"
+			southlander = "Newport"
+			scots = "Newport"
+			angler = "Newport"
+			new_english = "Newport"
+			ashkenazi = "Newport"
+			frencig = "Nouuelle Porte"
+						
+			c_gwent = {
+				color={ 17 175 83 }
+				color2={ 255 255 255 }
+				
+				southener = "Gwint"
+				polish = "Gwint"
+				scouse = "Gwynt"
+				british = "Gwent"
+				northlander = "Newport"
+				eastlander = "Newport"
+				westlander = "Newport"
+				southlander = "Newport"
+				scots = "Newport"
+				angler = "Newport"
+				new_english = "Newport"
+				ashkenazi = "Newport"
+				frencig = "Nouuelle Porte"
+				
+				b_newport = { #
+					old_welsh = "Casnewydd"
+					scouse = "Nywpwrt"
+					southener = "Nywpwrt"
+					british = "Newporht"
+					frencig = "Nouuelle Porte"
+				}
+				b_caerwent = { #Cwmbran
+					scouse = "Cwmbran"
+					southener = "Kwmbran"
+					british = "Cwmbrhan"
+					frencig = "Cwmbran"
+				}
+				b_chepstow = { #Merthyr-Tydfil
+					old_welsh = "Merthyr-Tudful"
+					scouse = "Myrfyr-Tyddfyll"
+					southener = "Myrthyr-Tyddfyl"
+					british = "Merhthirh-Tidfil"
+					frencig = "Merthyr-Tydfyl"
+				}
+				b_caerphilly = { #
+					old_welsh = "Caerffili"
+					scouse = "Cayrffylly"
+					southener = "Kayrphylly"
+					british = "Caerhffilli"
+					frencig = "Caerffylly"
+				}
+				b_monmouth = { #Pontypool
+					old_welsh = "Pont-y-pwl"
+					scouse = "Pwntypwwll"
+					southener = "Pwntypwwl"
+					british = "Pontipool"
+					frencig = "Pontypool"
+				}
+				b_caerleon = { #Ebbw Vale
+					old_welsh = "Glynebwy"
+					scouse = "Ybbw Wyally"
+					southener = "Ybbw Wyaly"
+					british = "Ebbw Wyale"
+					frencig = "Ebbw Uale"
+				}
+				b_tintern = { #Tredegar
+					scouse = "Tryddygar"
+					southener = "Tryddygar"
+					british = "Trhedegarh"
+					frencig = "Tredegar"
+				}
+				b_abergavenny = { #
+					old_welsh = "Y Fenny"
+					scouse = "Abyrgawyynny"
+					southener = "Abyrgawyynny"
+					british = "Aberhgawyenni"
+					frencig = "Abergauenny"
+				}
+			}
+			c_glamorgan = {
+				color={ 22 229 109 }
+				color2={ 255 255 255 }
+
+				old_welsh = "Morgannwg"
+				scouse = "Gllamwrgan"
+				british = "Glamorhgan"
+				southener = "Glamwrgan"
+				frencig = "Glamorgan"
+				
+				holy_site=anglican
+							
+				b_cardiff = { #
+					old_welsh = "Caerdydd"
+					scouse = "Carddyff"
+					southener = "Carddyff"
+					british = "Carhdiff"
+					frencig = "Cardyff"
+				}
+				b_llandaff = { #Bridgend
+					old_welsh = "Pen-y-bont ar Ogwr"
+					scouse = "Bryddgyndd"
+					southener = "Bryddgyndd"
+					british = "Brhidgend"
+					frencig = "Brydgend"
+				}
+				b_st_donats = { #Barry
+					old_welsh = "Y Barri"
+					scouse = "Barry"
+					southener = "Barry"
+					british = "Barhrhi"
+					frencig = "Barry"
+				}
+				b_neath = { #
+					old_welsh = "Castell-nedd"
+					scouse = "Nyaf"
+					southener = "Nyath"
+					british = "Neath"
+					frencig = "Neath"
+				}
+				b_margam = { #Aberdare
+					old_welsh = "Aberdar"
+					scouse = "Abyrddary"
+					southener = "Abyrddary"
+					british = "Aberhdarhe"
+					frencig = "Aberdare"
+				}
+				b_ogmore = { #Port Talbot
+					scouse = "Pwrt Tallbwt"
+					southener = "Pwrt Talbwt"
+					british = "Porht Talbot"
+					frencig = "Porte Talbot"
+				}
+				b_penarth_glamorgan = { #Penarth
+					scouse = "Pynarf"
+					southener = "Pynarth"
+					british = "Penarhth"
+					frencig = "Penarth"
+				}
+				b_maesteg_glamorgan = { #Maesteg
+					scouse = "Maystyg"
+					southener = "Maystyg"
+					british = "Maesteg"
+					frencig = "Maesteg"
+				}
+			}
+		}
+		d_gwynedd = {
+			color={ 10 102 48 }
+			color2={ 255 255 255 }
+			
+			capital = 64 # Gwynedd
+			
+			frencig = "Gwyned"
+			scouse = "Gwynydd"
+			british = Gwinedd
+			southener = Gwynydd
+			
+			c_gwynedd = {
+				color={ 13 135 64 }
+				color2={ 255 255 255 }
+				
+				frencig = "Gwyned"
+				scouse = "Gwynydd"
+				british = "Gwinedd"
+				southener = "Gwynydd"
+				
+				b_bangor_fawr = { #
+					scouse = "Bangwr"
+					southener = "Bangwr"
+					british = "Bangorh"
+					frencig = "Bangor"
+				}
+				b_caernarfon = { #
+					scouse = "Cayrnarfwn"
+					southener = "Kayrnarfwn"
+					british = "Caerhnarhfon"
+					frencig = "Caernarfon"
+				}
+				b_degannwy = { #Bethesda
+					scouse = "Byfysdda"
+					southener = "Bythysdda"
+					british = "Bethesda"
+					frencig = "Bethesda"
+				}
+				b_harlech = { #Porthmadog
+					scouse = "Pwrfmaddwg"
+					southener = "Pwrthmaddwg"
+					british = "Porhthmadog"
+					frencig = "Porte Madocc"
+				}
+				b_abergwyngregyn = { #Pwllheli
+					scouse = "Pwllhylly"
+					southener = "Pwllhyly"
+					british = "Pwllheli"
+					frencig = "Pwllhely"
+				}
+				b_conwy = { #Bleanau Ffestiniog
+					scouse = "Bllyanau Ffystynywg"
+					southener = "Blyanau Ffystynywg"
+					british = "Bleanau Ffestiniog"
+					frencig = "Bleanau Ffestynyog"
+				}
+				b_llanrhos = { #Dolgellau
+					scouse = "Ddwllgyllau"
+					southener = "Ddwlgyllau"
+					british = "Ddolgellau"
+					frencig = "Dolgellau"
+				}
+				b_barmouth_gwynedd = { #Barmouth
+					scouse = "Barmwuf"
+					southener = "Barmwuth"
+					british = "Barhmouth"
+					frencig = "Barmouth"
+				}
+			}
+			c_anglesey = {
+				color={ 8 64 39 }
+				color2={ 255 255 255 }
+				
+				scouse = "Angllysyy"
+				british = "Anglesei"
+				southener = "Anglysyy"
+				frencig = "Anglesey"
+				old_welsh = "Ynys Môn"
+				
+				holy_site = celtic_pagan_reformed
+				holy_site = celtic_pagan	
+				
+				b_holyhead = { #
+					scouse = "Hwllyhyadd"
+					southener = "Hwlyhyadd"
+					british = "Holihead"
+					frencig = "Tete Sacree"
+				}
+				b_llangefni = { #
+					scouse = "Llangyfny"
+					southener = "Llangyfny"
+					british = "Llangefni"
+					frencig = "Llangefny"
+				}
+				b_amlwch = { #
+					scouse = "Amllwch"
+					southener = "Amlwsh"
+					british = "Amlwch"
+					frencig = "Amlwch"
+				}
+				b_llanfaes = { #Llanfair Mathafarn Eithaf
+					scouse = "Llanfayr Mafafarn Yyfaf"
+					southener = "Llanfayr Mathafarn Yythaf"
+					british = "Llanfairh Mathafarhn Eithaf"
+					frencig = "Llanfayr Mathafarn Eythaf"
+				}
+				b_aberffraw = { #Menai Bridge
+					scouse = "Mynay Bryddgy"
+					southener = "Mynay Brydgy"
+					british = "Menai Brhidge"
+					frencig = "Pont Menay"
+				}
+				b_benllech = { #Llanfairpwllgwyngyll
+					scouse = "Llanfayrpwllgwyngyll"
+					southener = "Llanfayrpwllgwyngyll"
+					british = "Llanfairhpwllgwingill"
+					frencig = "Llanfayrpwllgwyngyll"
+				}
+				b_valley = { #Valley
+					scouse = "Wyallyy"
+					southener = "Wyallyy"
+					british = "Wyallei"
+					frencig = "Ualley"
+				}
+				b_beaumaris = { #
+					scouse = "Byaumarys"
+					southener = "Byaumarys"
+					british = "Beaumarhis"
+					frencig = "Beaumarys"
+				}
+			}
+			c_perfeddwlad = { #Wrexham
+				color={ 11 114 54 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Wrecsam"
+				scouse = "Wrycksham"
+				southener = "Wryksham"
+				british = "Wrhecksham"
+				frencig = "Wrecsham"
+				cornish = "Wreksam"
+				
+				b_denbigh = { #Wrexham
+					old_welsh = "Wrecsam"
+					scouse = "Wrycksham"
+					southener = "Wryksham"
+					british = "Wrhecksham"
+					frencig = "Wrecsham"
+					cornish = "Wreksam"
+				}
+				b_rhuddlan = { #Colwyn Bay
+					old_welsh = "Bae Colwyn"
+					scouse = "Cwllwyn Bay"
+					southener = "Kwlwyn Bay"
+					british = "Colwin Bai"
+					frencig = "Baye des Colwyn"
+				}
+				b_llanelwy = { #Rhyl
+					old_welsh = "Y Rhyl"
+					scouse = "Rhyll"
+					southener = "Rhyl"
+					british = "Rhil"
+					frencig = "Rhyl"
+				}
+				b_ruthin = { #Prestatyn
+					scouse = "Prystatyn"
+					southener = "Prystatyn"
+					british = "Prhestatin"
+					frencig = "Prestatyn"
+				}
+				b_flint = { #
+					old_welsh = "Y Fflint"
+					scouse = "Fllynt"
+					southener = "Flynt"
+					british = "Fflint"
+					frencig = "Fflynt"
+				}
+				b_basingwerk = { #Abergele
+					scouse = "Abyrgylly"
+					southener = "Abyrgyly"
+					british = "Aberhgele"
+					frencig = "Abergele"
+				}
+				b_ewloe = { #Rhosllanerchrugog
+					scouse = "Rwsllanyrchrugwg"
+					southener = "Rwsllanyrkhrugwg"
+					british = "Rhosllanerhchrhugog"
+					frencig = "Rosllanerchrugog"
+				}
+				b_hawarden = { #Kinmel Bay
+					old_welsh = "Bae Cinmel"
+					scouse = "Kynmyll Bay"
+					southener = "Kynmyl Bay"
+					british = "Kinmel Bai"
+					frencig = "Baye des Kynmel"
+				}
+			}
+		}
+	} 
+	
+	k_scotland = {
+		color={ 20 80 162 }
+		color2={ 255 255 255 }
+		
+		capital = 48 # Lothian
+		
+		culture = scottish
+		
+		catholic = 700 # Crusade target weight
+		calvinist= 5000
+		summer_queen = 5000
+		novelist_reformed = 2000
+		ibadi = 100
+		sevillian = 400
+		lutheran = 600 # Crusade target weight
+		neohuguenot = 5000
+		raelian = 1500
+		orleanist = 1000
+		
+		swedish = "Skottland"
+		danish = "Skotland"
+		norwegian = "Skottland"
+		faroyingar = "Skotland"
+		icelander = "Skotland"
+		old_welsh = "Alban"
+		high_irish = "Alba"
+		munsterian = "Alba"
+		ulsterian = "Alba"
+		breizhiz = "Bro-Skos"
+		scottish = "Alba"
+		cornish = "Alban"
+		roman = "Caledonia"
+		oglallan = "Scotlaindd"
+		southener = "Skwtlandd"
+		frencig = "Escoutlland"
+		northlander = "Norfland"
+		scouse = "Scwtllandd"
+		british = "Alban"
+		federalist = "New Nova Scotia"
+		laurentian = "New Nova Scotia"
+		lakelanders = "New Nova Scotia"
+		mississippians = "New Nova Scotia"
+		cajun = "New Nova Scotia"
+		southron = "New Nova Scotia"
+		arhavi = "New Nova Scotia"
+		french = "Écosse"
+		gallo = "Écosse"
+		norman = "Écosse"
+		burgundian = "Écosse"
+		occitan = "Écosse"
+		provencal = "Écosse"
+		picard = "Écosse"
+		poitevin = "Écosse"
+		gascon = "Écosse"
+		breton = "Écosse"
+		arpitan = "Écosse"
+		lorraine = "Écosse"
+		cosmopolitan = "Écosse"
+		swiss = "Escozia"
+		patoues = "Éscoze"
+		romansch = "Scozia"
+		dutch = "Schotland"
+		hungarian = "Skócia"
+		
+		d_galloway = {
+			color={ 77 116 208 }
+			color2={ 255 255 255 }
+			
+			capital = 50 # Galloway
+			
+			high_irish = "Gall-Ghaidhealaibh"
+			ulsterian = "Gall-Ghaidhealaibh"
+			munsterian = "Gall-Ghaidhealaibh"
+			scottish = "Gall-Ghaidhealaibh"
+			northlander = "Gallwey"
+			scouse = "Gallway"
+			british = "Gallowai"
+			southener = "Gallwway"
+			oglallan = "Gaillowaii"
+			scots = "Gallowa"
+			
+			c_galloway = {
+				color={ 15 185 243 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Nofant"
+				high_irish = "Na Rannaibh"
+				ulsterian = "Na Rannaibh"
+				munsterian = "Na Rannaibh"
+				scottish = "Na Rannaibh"
+				saxon = "Rhinns"
+				northlander = "Gallway"
+				scouse = "Gallwway"
+				british = "Gallowai"
+				southener = "Gallwway"
+				oglallan = "Gaillowaii"
+				scots = "Gallowa"
+
+				b_dumfries = { #
+					old_welsh = "Dinrhyd"
+					high_irish = "Dun Phris"
+					ulsterian = "Dun Phris"
+					munsterian = "Dun Phris"
+					scottish = "Dun Phris"
+					scouse = "Ddumfryys"
+					southener = "Ddumfryys"
+					british = "Ddumfrhies"
+				}
+				b_dunragit = { #Stranraer
+					high_irish = "An t-Srnn Reamhar"
+					ulsterian = "An t-Srnn Reamhar"
+					munsterian = "An t-Srnn Reamhar"
+					scottish = "An t-Srnn Reamhar"
+					scots = "The Toon"
+					scouse = "Stranrayr"
+					southener = "Stranrayr"
+					british = "Strhanrhaerh"
+				}
+				b_whithorn = { #Locharbriggs
+					scouse = "Llwcharbryggs"
+					southener = "Lwkharbryggs"
+					british = "Llocharhbrhiggs"
+				}
+				b_dunrod = { #Dalbeattie
+					high_irish = "Dal Bheithe"
+					ulsterian = "Dal Bheithe"
+					munsterian = "Dal Bheithe"
+					scottish = "Dal Bheithe"
+					scots = "Dawbeattie"
+					northlander = "Dawbeattie"
+					scouse = "Ddallbyattyy"
+					southener = "Ddalbyattyy"
+					british = "Ddalbeattie"
+				}
+				b_glenluce = { #Castle Douglas
+					high_irish = "Caisteal Dhughlais"
+					ulsterian = "Caisteal Dhughlais"
+					munsterian = "Caisteal Dhughlais"
+					scottish = "Caisteal Dhughlais"
+					scouse = "Castlly Ddwugllas"
+					southener = "Kastly Ddwuglas"
+					british = "Castle Ddouglas"
+				}
+				b_wigtown = { #Newton Stewart
+					high_irish = "Baile Ur nan Stiubhartach"
+					ulsterian = "Baile Ur nan Stiubhartach"
+					munsterian = "Baile Ur nan Stiubhartach"
+					scottish = "Baile Ur nan Stiubhartach"
+					scouse = "Nywtwn Stywart"
+					southener = "Nywtwn Stywart"
+					british = "Newton Steuarht"
+				}
+				b_kirkcudbright = { #
+					old_welsh = "Cuddbertbetws"
+					high_irish = "Cill Chuithbeirt"
+					ulsterian = "Cill Chuithbeirt"
+					munsterian = "Cill Chuithbeirt"
+					scottish = "Cill Chuithbeirt"
+					scouse = "Kyrkcuddbryght"
+					southener = "Kyrkkuddbryght"
+					british = "Kirhkcudbrhight"
+				}
+				b_threave = { #Kirk Connell
+					high_irish = "Cille Chonaill"
+					ulsterian = "Cille Chonaill"
+					munsterian = "Cille Chonaill"
+					scottish = "Cille Chonaill"
+					scouse = "Kyrk Cwnnyll"
+					southener = "Kyrk Kwnnyll"
+					british = "Kirhk Connell"
+				}
+			}
+			c_carrick = { #Ayr
+				color={ 50 185 243 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "De Swydd Ayr"
+				high_irish = "A' Charraig"
+				ulsterian = "A' Charraig"
+				munsterian = "A' Charraig"
+				scottish = "A' Charraig"
+				northlander = "Kerrick"
+				british = "Airh"
+				oglallan = "Cairrick"
+				scots = "Carrick"
+				westlander = "Ayrshire"
+				southlander = "Ayrshire"
+				eastlander = "Ayrshire"
+				angler = "Ayrshire"
+				new_english = "Ayrshire"
+				ashkenazi = "Ayrshire"
+				frencig = "Ayrshyre"
+				
+				b_turnberry = { #Ayr
+					high_irish = "Inbhir Rir"
+					ulsterian = "Inbhir Rir"
+					munsterian = "Inbhir Rir"
+					scottish = "Inbhir Rir"
+					british = "Airh"
+				}
+				b_dunure = { #Kilmarnock
+					high_irish = "Cill Mherrnaig"
+					ulsterian = "Cill Mherrnaig"
+					munsterian = "Cill Mherrnaig"
+					scottish = "Cill Mherrnaig"
+					scots = "Kilmaurnock"
+					northlander = "Kilmaurnock"
+					scouse = "Kyllmarnwck"
+					southener = "Kylmarnwkk"
+					british = "Kilmarhnoc"
+				}
+				b_maybole = { #Prestwick
+					high_irish = "Preastabhaig"
+					ulsterian = "Preastabhaig"
+					munsterian = "Preastabhaig"
+					scottish = "Preastabhaig"
+					scots = "Preswick"
+					northlander = "Preswick"
+					scouse = "Prystwyck"
+					southener = "Prystwykk"
+					british = "Prhestwic"
+				}
+				b_crossraguel = { #Troon
+					high_irish = "An t-Srnn"
+					ulsterian = "An t-Srnn"
+					munsterian = "An t-Srnn"
+					scottish = "An t-Srnn"
+					scots = "The Truin"
+					northlander = "The Truin"
+					scouse = "Trwwn"
+					southener = "Trwwn"
+					british = "Trhoon"
+				}
+				b_loch_doon = { #Cumnock
+					high_irish = "Cumnag"
+					ulsterian = "Cumnag"
+					munsterian = "Cumnag"
+					scottish = "Cumnag"
+					scouse = "Cumnwck"
+					southener = "Kumnwkk"
+					british = "Cumnoc"
+				}
+				b_ballantrae = { #Girvan
+					high_irish = "Inbhir Gharbhain"
+					ulsterian = "Inbhir Gharbhain"
+					munsterian = "Inbhir Gharbhain"
+					scottish = "Inbhir Gharbhain"
+					scouse = "Gyrvan"
+					southener = "Gyrvan"
+					british = "Girhwyan"
+				}
+				b_culzean = { #Stewarton
+					high_irish = "Baile nan Stiubhartach"
+					ulsterian = "Baile nan Stiubhartach"
+					munsterian = "Baile nan Stiubhartach"
+					scottish = "Baile nan Stiubhartach"
+					scots = "Stewartoun"
+					northlander = "Stewartoun"
+					scouse = "Stywartwn"
+					southener = "Stywartwn"
+					british = "Stewarhton"
+				}
+				b_greenan = { #Hurlford
+					high_irish = "Baile Rtha Cliath"
+					ulsterian = "Baile Rtha Cliath"
+					munsterian = "Baile Rtha Cliath"
+					scottish = "Baile Rtha Cliath"
+					scots = "Hulfurt"
+					northlander = "Hulfurt"
+					scouse = "Hurllfwrdd"
+					southener = "Hurlfwrdd"
+					british = "Hurhlforhd"
+				}
+			}
+			c_clydesdale = {
+				color={ 5 140 240 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Alt Clut"
+				high_irish = "Dail Chluaidh"
+				ulsterian = "Dail Chluaidh"
+				munsterian = "Dail Chluaidh"
+				scottish = "Dail Chluaidh"
+				northlander = "Kliesdell"
+				scouse = "Cllyddysdally"
+				british = "Clidesdale"
+				southener = "Klyddysddaly"
+				oglallan = "Clidesdaile"
+				eastlander = "Lanarkshire"
+				angler = "Lanarkshire"
+				new_english = "Lanarkshire"
+				ashkenazi = "Lanarkshire"
+				scots = "Lanrikshire"
+				westlander = "Lanarkshire"
+				southlander = "Lanarkshire"
+				
+				b_glasgow = { #
+					old_welsh = "Cathures"
+					high_irish = "Glaschu"
+					ulsterian = "Glaschu"
+					munsterian = "Glaschu"
+					scottish = "Glaschu"
+					scots = "Glasgae"
+					northlander = "Glasgae"
+					scouse = "Gllasgww"
+					southener = "Glasgww"
+					british = "Glasgow"
+				}
+				b_renfrew = { #Paisley
+					high_irish = "Prislig"
+					ulsterian = "Prislig"
+					munsterian = "Prislig"
+					scottish = "Prislig"
+					scouse = "Paysllyy"
+					southener = "Payslyy"
+					british = "Paislei"
+				}
+				b_st_kentigern = { #East Kilbride
+					high_irish = "Cille Bhreghde an Ear"
+					ulsterian = "Cille Bhreghde an Ear"
+					munsterian = "Cille Bhreghde an Ear"
+					scottish = "Cille Bhreghde an Ear"
+					scots = "East Kirkbride"
+					northlander = "East Kirkbride"
+					scouse = "Yast Kyllbryddy"
+					southener = "Yast Kylbryddy"
+					british = "East Kilbrhide"
+				}
+				b_lanark = { #Hamilton
+					old_welsh = "Guofan"
+					high_irish = "Baile Hamaltan"
+					ulsterian = "Baile Hamaltan"
+					munsterian = "Baile Hamaltan"
+					scottish = "Baile Hamaltan"
+					oglallan = "Haimilton"
+					scots = "Hamiltoun"
+					northlander = "Hamiltoun"
+					scouse = "Hamylltwn"
+					southener = "Hamyltwn"
+					british = "Hamilton"
+				}
+				b_cadzow = { #Cumbernauld
+					high_irish = "Comar nan Allt"
+					ulsterian = "Comar nan Allt"
+					munsterian = "Comar nan Allt"
+					scottish = "Comar nan Allt"
+					southener = "Kumbyrnauldd"
+					british = "Cumberhnauld"
+					scouse = "Cumbyrnaulldd"
+				}
+				b_bothwell = { #Greenock
+					high_irish = "Grianaig"
+					ulsterian = "Grianaig"
+					munsterian = "Grianaig"
+					scottish = "Grianaig"
+					scouse = "Gryynwck"
+					southener = "Gryynwkk"
+					british = "Grheenoc"
+				}
+				b_lesmahagow = { #Coatbridge
+					high_irish = "Drochaid a' Chnta"
+					ulsterian = "Drochaid a' Chnta"
+					munsterian = "Drochaid a' Chnta"
+					scottish = "Drochaid a' Chnta"
+					scots = "Cotbrig"
+					northlander = "Cotbrig"
+					scouse = "Cwatbryddgy"
+					southener = "Kwatbryddgy"
+					british = "Coatbrhidge"
+				}
+				b_dumbarton = { #Airdrie
+					high_irish = "An t-Rrd Ruigh"
+					ulsterian = "An t-Rrd Ruigh"
+					munsterian = "An t-Rrd Ruigh"
+					scottish = "An t-Rrd Ruigh"
+					scouse = "Ayrddryy"
+					southener = "Ayrddryy"
+					british = "Airhdrhie"
+				}
+			}
+		}
+		d_stratclyde = {
+			color = { 11 53 170 }
+			color2 = { 255 255 255 }
+			
+			capital = 45 # Argyll
+			
+			oglallan = "Straitclidde"
+			scots = "Strathclyde"
+			scottish = "Strathclyde"
+			
+			c_arran_island = {
+				color={ 30 65 233 }
+				color2={ 255 255 255 }
+				
+				scottish = "Eilean Arainn"
+				high_irish = "Eilean Arainn"
+				ulsterian = "Eilean Arainn"
+				munsterian = "Eilean Arainn"
+				scots = "Isle o Arran"
+				british = "Arhrhan"
+				oglallan = "Airrain"
+				
+				b_kingscross = { #Lamlash
+					scottish = "An t-Eilean Rrd"
+					high_irish = "An t-Eilean Rrd"
+					ulsterian = "An t-Eilean Rrd"
+					munsterian = "An t-Eilean Rrd"
+					scouse = "Llamllash"
+				}
+				b_kiscadale = { #Brodick
+					scottish = "Trrigh a' Chaisteil"
+					high_irish = "Trrigh a' Chaisteil"
+					ulsterian = "Trrigh a' Chaisteil"
+					munsterian = "Trrigh a' Chaisteil"
+					scouse = "Brwddyck"
+					southener = "Brwddykk"
+					british = "Brhodic"
+				}
+				b_lochranza = { #
+					scottish = "Loch Raonasa"
+					high_irish = "Loch Raonasa"
+					ulsterian = "Loch Raonasa"
+					munsterian = "Loch Raonasa"
+					scouse = "Llwchranza"
+					southener = "Lwkhranza"
+					british = "Llochrhansa"
+				}
+				b_whiting_bay = { #Catacol
+					scottish = "Catagal"
+					high_irish = "Catagal"
+					ulsterian = "Catagal"
+					munsterian = "Catagal"
+					scouse = "Catacwll"
+					southener = "Katakwl"
+					british = "Catacol"
+				}
+				b_machrie = { #Corrie
+					scottish = "An Coire"
+					high_irish = "An Coire"
+					ulsterian = "An Coire"
+					munsterian = "An Coire"
+					scouse = "Cwrryy"
+					southener = "Kwrryy"
+					british = "Corhrhie"
+				}
+				b_blackwaterfoot = { #
+					scottish = "Bun na Dubh Abhainn"
+					high_irish = "Bun na Dubh Abhainn"
+					ulsterian = "Bun na Dubh Abhainn"
+					munsterian = "Bun na Dubh Abhainn"
+					scouse = "Bllackwatyrfwwt"
+					southener = "Blakkwatyrfwwt"
+					british = "Blackwaterhfoot"
+				}
+				b_largymore = { #Kildonan
+					scottish = "Cill Donnain"
+					high_irish = "Cill Donnain"
+					ulsterian = "Cill Donnain"
+					munsterian = "Cill Donnain"
+					scouse = "Kyllddwnan"
+					southener = "Kylddwnan"
+					british = "Kildonan"
+				}
+			}
+			c_islay = {
+				color={ 30 70 239 }
+				color2={ 255 255 255 }
+				
+				scottish = "Ele"
+				high_irish = "Ele"
+				ulsterian = "Ele"
+				munsterian = "Ele"
+				scots = "Ila"
+				scouse = "Ysllay"
+				southener = "Yslay"
+				british = "Islai"
+				oglallan = "Islaii"
+				frencig = "Yslay"
+				old_welsh = "Ìle"
+				
+				b_bowmore = { #
+					scottish = "Bogh Mnr"
+					high_irish = "Bogh Mnr"
+					ulsterian = "Bogh Mnr"
+					munsterian = "Bogh Mnr"
+					scouse = "Bwwmwry"
+					southener = "Bwwmwry"
+					british = "Bowmorhe"
+				}
+				b_gartbreck = { #Port Ellen
+					scottish = "Port Elein"
+					high_irish = "Port Elein"
+					ulsterian = "Port Elein"
+					munsterian = "Port Elein"
+					scouse = "Pwrt Yllyn"
+					southener = "Pwrt Yllyn"
+					british = "Porht Ellen"
+				}
+				b_bridgend = { #
+					scottish = "Beul an Rtha"
+					high_irish = "Beul an Rtha"
+					ulsterian = "Beul an Rtha"
+					munsterian = "Beul an Rtha"
+					scouse = "Brydgyndd"
+					southener = "Brdygyndd"
+					british = "Brhidgend"
+				}
+				b_bruichladdich = { #Balligrant
+					scottish = "Baile a' Ghrrna"
+					high_irish = "Baile a' Ghrrna"
+					ulsterian = "Baile a' Ghrrna"
+					munsterian = "Baile a' Ghrrna"
+					scouse = "Ballygrant"
+					southener = "Ballygrant"
+					british = "Balligrhant"
+				}
+				b_nerabus = { #Port Charlotte
+					scottish = "Port Sgioba"
+					high_irish = "Port Sgioba"
+					ulsterian = "Port Sgioba"
+					munsterian = "Port Sgioba"
+					scouse = "Pwrt Charllwtty"
+					southener = "Pwrt Sharllwtty"
+					british = "Porht Charhllotte"
+				}
+				b_ellister = { #Portnahaven
+					scottish = "Port na h-Abhainne"
+					high_irish = "Port na h-Abhainne"
+					ulsterian = "Port na h-Abhainne"
+					munsterian = "Port na h-Abhainne"
+					scouse = "Pwrtnahawyyn"
+					southener = "Pwrtnahawyyn"
+					british = "Porhtnahawyen"
+				}
+				b_keills = { #Port Askaig
+					scottish = "Port Asgaig"
+					high_irish = "Port Asgaig"
+					ulsterian = "Port Asgaig"
+					munsterian = "Port Asgaig"
+					scouse = "Pwrt Askayg"
+					southener = "Pwrt Askayg"
+					british = "Porht Askaig"
+				}
+			}
+			c_iona = { #Mull
+				color={ 25 85 247 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Muile"
+				high_irish = "E Chaluim Chille"
+				ulsterian = "E Chaluim Chille"
+				munsterian = "E Chaluim Chille"
+				scottish = "E Chaluim Chille"
+				northlander = "Ona"
+				scouse = "Iwna"
+				british = "Mull"
+				southener = "Iwna"
+				oglallan = "Ionai"
+				scots = "Iona"
+				frencig = "Yona"
+				
+				b_tobermory = { #
+					scottish = "Tobar Mhoire"
+					high_irish = "Tobar Mhoire"
+					ulsterian = "Tobar Mhoire"
+					munsterian = "Tobar Mhoire"
+					scouse = "Twbyrmwry"
+					southener = "Twbyrmwry"
+					british = "Toberhmorhi"
+				}
+				b_finlaggan = { #Salen
+					scottish = "An t-Srilean"
+					high_irish = "An t-Srilean"
+					ulsterian = "An t-Srilean"
+					munsterian = "An t-Srilean"
+					scouse = "Sallyn"
+					southener = "Salyn"
+					british = "Salen"
+				}
+				b_laggan = { #Craignure
+					scottish = "Creag an Iubhair"
+					high_irish = "Creag an Iubhair"
+					ulsterian = "Creag an Iubhair"
+					munsterian = "Creag an Iubhair"
+					scouse = "Craygnury"
+					southener = "Kraygnury"
+					british = "Crhaignurhe"
+				}
+				b_iona = { #
+					old_welsh = "Ywenlle"
+					high_irish = "E Chaluim Chille"
+					ulsterian = "E Chaluim Chille"
+					munsterian = "E Chaluim Chille"
+					scottish = "E Chaluim Chille"
+					northlander = "Ona"
+					scouse = "Ywna"
+					british = "Iona"
+					southener = "Ywna"
+					oglallan = "Ionai"
+					scots = "Iona"
+				}
+				b_dunyveg = { #Bunessan
+					high_irish = "Bun Easain"
+					ulsterian = "Bun Easain"
+					munsterian = "Bun Easain"
+					scottish = "Bun Easain"
+					scouse = "Bunyssan"
+					southener = "Bunyssan"
+					british = "Bunessan"
+				}
+				b_scarinish = { #Dervaig
+					scottish = "Dearbhaig"
+					high_irish = "Dearbhaig"
+					ulsterian = "Dearbhaig"
+					munsterian = "Dearbhaig"
+					scouse = "Ddyrwyayg"
+					southener = "Ddyrwyayg"
+					british = "Dderhwyaig"
+				}
+				b_arinagour = { #Fionnphort
+					scouse = "Fywnnffwrt"
+					southener = "Fywnnffwrt"
+					british = "Fionnfforht"
+				}
+			}
+			c_argyll = {
+				color={ 15 150 240 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Epiddant"
+				high_irish = "Earra-Ghaidheal"
+				ulsterian = "Earra-Ghaidheal"
+				munsterian = "Earra-Ghaidheal"
+				scottish = "Earra-Ghaidheal"
+				northlander = "Argel"
+				british = "Arhgill"
+				oglallan = "Airgill"
+				scots = "Argyll"
+								
+				b_st_moluag = { #Helensburgh
+					high_irish = "Baile Eilidh"
+					ulsterian = "Baile Eilidh"
+					munsterian = "Baile Eilidh"
+					scottish = "Baile Eilidh"
+					scots = "Eelansburgh"
+					northlander = "Eelansburgh"
+					scouse = "Hyllynsburgh"
+					southener = "Hylynsburgh"
+					british = "Helensburhgh"
+				}
+				b_dunollie = { #Dunoon
+					high_irish = "Dun Omhain"
+					ulsterian = "Dun Omhain"
+					munsterian = "Dun Omhain"
+					scottish = "Dun Omhain"
+					scots = "Dunuin"
+					northlander = "Dunuin"
+					scouse = "Ddunwwn"
+					southener = "Ddunwwn"
+					british = "Ddunoon"
+				}
+				b_loch_awe = { #Oban
+					high_irish = "An t-Nban"
+					ulsterian = "An t-Nban"
+					munsterian = "An t-Nban"
+					scottish = "An t-Nban"
+					scouse = "Wban"
+					southener = "Wban"
+					british = "Wban"
+				}
+				b_sween = { #Campbeltown
+					high_irish = "Ceann Loch Chille Chiarain"
+					ulsterian = "Ceann Loch Chille Chiarain"
+					munsterian = "Ceann Loch Chille Chiarain"
+					scottish = "Ceann Loch Chille Chiarain"
+					scots = "Cammeltoun"
+					northlander = "Cammeltoun"
+					scouse = "Campbylltwwn"
+					southener = "Kampbyltwwn"
+					british = "Campbeltown"
+				}
+				b_dunstaffnage = { #Rothesay
+					scots = "Rossay"
+					northlander = "Rossay"
+					high_irish = "Baile Bhnid"
+					ulsterian = "Baile Bhnid"
+					munsterian = "Baile Bhnid"
+					scottish = "Baile Bhnid"
+					scouse = "Rwfysay"
+					southener = "Rwthysay"
+					british = "Rhothesai"
+				}
+				b_ardchattan = { #Garelochhead
+					high_irish = "Ceann a' Gherrr-loch"
+					ulsterian = "Ceann a' Gherrr-loch"
+					munsterian = "Ceann a' Gherrr-loch"
+					scottish = "Ceann a' Gherrr-loch"
+					scots = "Garelochheid"
+					northlander = "Garelochheid"
+					scouse = "Garyllwchhyadd"
+					southener = "Garylwshhyadd"
+					british = "Garelochhead"
+				}
+				b_kilmun = { #Lochgilphead
+					high_irish = "Ceann Loch Gilb"
+					ulsterian = "Ceann Loch Gilb"
+					munsterian = "Ceann Loch Gilb"
+					scottish = "Ceann Loch Gilb"
+					scots = "Lochgilpheid"
+					northlander = "Lochgilpheid"
+					scouse = "Llwchgyllffyadd"
+					southener = "Lwshgylffyadd"
+					british = "Llochgilffead"
+				}
+				b_inverary = { #Rhu
+					high_irish = "An Rubha"
+					ulsterian = "An Rubha"
+					munsterian = "An Rubha"
+					scottish = "An Rubha"
+				}
+				b_argh = { #Cardross
+					high_irish = "Crrdainn Ros"
+					ulsterian = "Crrdainn Ros"
+					munsterian = "Crrdainn Ros"
+					scottish = "Crrdainn Ros"
+					scouse = "Carddrwss"
+					southener = "Karddrwss"
+					british = "Carhdrhoss"
+				}
+			}
+			c_lochaber = {
+				color={ 30 160 230 }
+				color2={ 255 255 255 }
+					
+				b_fort_william = {
+				}
+				b_glencoe = {
+				}
+				b_onoich = {
+				}
+				b_strontian = {
+				}
+				b_kilchoan = {
+				}
+				b_corpach = {
+				}
+				b_orchy = {
+				}
+			}
+		}
+		d_western_isles = {
+			color = { 6 42 127 }
+			color2 = { 255 255 255 }
+			
+			capital = 35 # Inse Gall
+			
+			norwegian = "Ytre Hebridene"
+			danish = "Ydre Hebrider"
+			swedish = "Yttre Hebriderna"
+			high_irish = "Na h-Eileanan Siar"
+			ulsterian = "Na h-Eileanan Siar"
+			munsterian = "Na h-Eileanan Siar"
+			scottish = "Na h-Eileanan Siar"
+			northlander = "Waster Isles"
+			scouse = "Hybryddys"
+			british = "Hebrhedies"
+			southener = "Hybrhyddys"
+			oglallan = "Hebriddes"	
+			scots = "Waster Isles"
+			frencig = "Ysles des Ouest"
+			old_welsh = "Ynysoedd Allanol Heledd"
+			
+			c_innse_gall = {
+				color={ 20 60 243 }
+				color2={ 255 255 255 }
+
+				norwegian = "Hebridene"
+				danish = "Hebriderne"
+				swedish = "Hebriderna"
+				old_welsh = "Ynysoedd Heledd"
+				high_irish = "Innse Gall"
+				ulsterian = "Innse Gall"
+				munsterian = "Innse Gall"
+				scottish = "Innse Gall"
+				northlander = "Weas Iles"
+				scouse = "Hybryddys"
+				british = "Hebrhedies"
+				southener = "Hybrhyddys"
+				oglallan = "Hebriddes"
+				frencig = "Hebrydes"
+				
+				b_tarbert = { #Portree
+					scouse = "Pwrtryy"
+					southener = "Pwrtryy"
+					british = "Porhtrhee"
+				}
+				b_leverburgh = { #Kilmuir
+					scouse = "Kyllmuyr"
+					southener = "Kylmuyr"
+					british = "Kilmuirh"
+				}
+				b_uig = { #
+					scouse = "Uyg"
+					southener = "Uyg"
+					british = "Uig"
+				}
+				b_northton = { #Dunvegan
+					scouse = "Ddunvygan"
+					southener = "Ddunvygan"
+					british = "Ddunwyegan"
+				}
+				b_rodel = { #Bracadale
+					scouse = "Bracadally"
+					southener = "Brakadaly"
+					british = "Brhacadale"
+				}
+				b_sleat = { #
+					scouse = "Sllyat"
+					southener = "Slyat"
+					british = "Sleat"
+				}
+				b_seilebost = { #
+					scouse = "Syyllybwst"
+					southener = "Syylybwst"
+					british = "Seilebost"
+				}
+			}
+			c_outer_hebrides = {
+				color={ 30 70 239 }
+				color2={ 255 255 255 }
+				
+				scouse = "Wutyr Hybryddys"
+				british = "Wuterh Hebrhedies"
+				southener = "Wutyr Hybrhyddys"
+				oglallan = "Outer Hebriddes"
+				scots = "Waster Hebrides"
+				frencig = "Hebrydes Ecsteryeures"
+				old_welsh = "Steòrnabhagh"
+				
+				b_stornoway = { #
+					norwegian = "Stornavik"
+					danish = "Stornavik"
+					swedish = "Stornavik"
+					old_welsh = "Steòrnabhagh"
+					high_irish = "Stenrnabhagh"
+					ulsterian = "Stenrnabhagh"
+					munsterian = "Stenrnabhagh"
+					scottish = "Stenrnabhagh"
+					scots = "Stornowa"
+					northlander = "Stornowa"
+					scouse = "Stwrnwway"
+					southener = "Stwrnwway"
+					british = "Storhnowai"
+				}
+				b_snizort = { #Newmarket
+					high_irish = "An Margaidh Ur"
+					ulsterian = "An Margaidh Ur"
+					munsterian = "An Margaidh Ur"
+					scottish = "An Margaidh Ur"
+					scouse = "Nywmarkyt"
+					southener = "Nywmarkyt"
+					british = "Newmarhket"
+				}
+				b_kisimul = { #Sandwick
+					high_irish = "Sanndabhaig"
+					ulsterian = "Sanndabhaig"
+					munsterian = "Sanndabhaig"
+					scottish = "Sanndabhaig"
+					scouse = "Sanddwyck"
+					southener = "Sanddwykk"
+					british = "Sandwic"
+				}
+				b_dunvegan = { #Scalpay
+					high_irish = "Sgalpaigh"
+					ulsterian = "Sgalpaigh"
+					munsterian = "Sgalpaigh"
+					scottish = "Sgalpaigh"
+					scouse = "Scallpay"
+					southener = "Skalpay"
+				}
+				b_kiltaraglen = { #Great Bernera
+					high_irish = "Berrnaraigh Mnr"
+					ulsterian = "Berrnaraigh Mnr"
+					munsterian = "Berrnaraigh Mnr"
+					scottish = "Berrnaraigh Mnr"
+					scouse = "Gryat Byrnyra"
+					southener = "Gryat Byrnyra"
+					british = "Grheat Berhnerha"
+				}
+				b_urgha = { #
+					british = "Urhgha"
+				}
+				b_maraig = { #
+					scouse = "Marayg"
+					southener = "Marayg"
+					british = "Marhaig"
+				}
+			}
+			c_uist = {
+				color={ 30 70 239 }
+				color2={ 255 255 255 }
+
+				high_irish = "Uibhist"
+				ulsterian = "Uibhist"
+				munsterian = "Uibhist"
+				scottish = "Uibhist"
+				northlander = "Wist"
+				scouse = "Uyst"
+				british = "Uist"
+				southener = "Uyst"
+				frencig = "Uyst"
+				old_welsh = "Uibhist"
+				
+				b_balivanich = { #
+					high_irish = "Baile a' Mhanaich"
+					ulsterian = "Baile a' Mhanaich"
+					munsterian = "Baile a' Mhanaich"
+					scottish = "Baile a' Mhanaich"
+					scouse = "Ballywyanych"
+					southener = "Balywyanykh"
+					british = "Baliwyanich"
+				}
+				b_griminish = { #Daliburgh
+					high_irish = "Dalabrog"
+					ulsterian = "Dalabrog"
+					munsterian = "Dalabrog"
+					scottish = "Dalabrog"
+					scouse = "Dallyburgh"
+					southener = "Dalyburgh"
+					british = "Ddaliburhgh"
+				}
+				b_uachdar = { #Eriskay
+					high_irish = "Cirisgeigh"
+					ulsterian = "Cirisgeigh"
+					munsterian = "Cirisgeigh"
+					scottish = "Cirisgeigh"
+					scouse = "Yryskay"
+					southener = "Yryskay"
+					british = "Erhiskai"
+				}
+				b_gramisdale = { #Stoneybridge
+					high_irish = "Staoinebrig"
+					ulsterian = "Staoinebrig"
+					munsterian = "Staoinebrig"
+					scottish = "Staoinebrig"
+					scouse = "Stwnyybryddgy"
+					southener = "Stwnyybryddgy"
+					british = "Stoneibrhidge"
+				}
+				b_dunganachy = { #Iochdar
+					high_irish = "An t-Eochdair"
+					ulsterian = "An t-Eochdair"
+					munsterian = "An t-Eochdair"
+					scottish = "An t-Eochdair"
+					scouse = "Yochddar"
+					southener = "Yokhddar"
+					british = "Iochdarh"
+				}
+				b_baile_nan_cailleach = { #Carinish
+					high_irish = "Cririnis"
+					ulsterian = "Cririnis"
+					munsterian = "Cririnis"
+					scottish = "Cririnis"
+					scouse = "Carynysh"
+					southener = "Carynysh"
+					british = "Carhinish"
+				}
+				b_grogarry = { #Sollas
+					high_irish = "Solas"
+					ulsterian = "Solas"
+					munsterian = "Solas"
+					scottish = "Solas"
+					scouse = "Swllas"
+					southener = "Swllas"
+					british = "Sollas"
+				}
+			}
+		}
+		d_lothian = {
+			color = { 16 62 157 }
+			color2={ 255 255 255 }
+			
+			capital = 48 # Lothian
+			
+			old_welsh = "Lleuddiniawn"
+			high_irish = "Labhdaidh"
+			ulsterian = "Labhdaidh"
+			munsterian = "Labhdaidh"
+			northlander = "Lofian"
+			scouse = "Llwfyan"
+			british = "Llothian"
+			southener = "Lwthyan"
+			oglallan = "Lotiain"
+			scots = "Lowden"
+			scottish = "Lodainn"
+			frencig = "Lothyan"
+						
+			c_lothian = {
+				color = { 16 62 160 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Lleuddiniawn"
+				high_irish = "Labhdaidh"
+				ulsterian = "Labhdaidh"
+				munsterian = "Labhdaidh"
+				ukrainer = "Ebinbruh"
+				northlander = "Lofian"
+				scouse = "Llwfyan"
+				british = "Llothian"
+				southener = "Lwthyan"
+				oglallan = "Lotiain"
+				scots = "Lowden"
+				scottish = "Lodainn"
+				frencig = "Lothyan"
+				
+				holy_site = anglican
+				holy_site = calvinist
+	
+				b_edinburgh = { #
+					old_welsh = "Caeredin"
+					high_irish = "Dun Eideann"
+					ulsterian = "Dun Eideann"
+					munsterian = "Dun Eideann"
+					scottish = "Dun Eideann"
+					scots = "Edinburgh"
+					french = "Édimbourg"
+					cosmopolitan = "Édimbourg"
+					gallo = "Édimbourg"
+					norman = "Édimbourg"
+					burgundian = "Édimbourg"
+					occitan = "Édimbourg"
+					provencal = "Édimbourg"
+					picard = "Édimbourg"
+					scouse = "Yddynburgh"
+					southener = "Yddynburgh"
+					british = "Edinburhgh"
+					frencig = "Edynbourg"
+				}
+				b_stirling = { #Livingston
+					scots = "Leivinstoun"
+					high_irish = "Baile Dhunlcibhe"
+					ulsterian = "Baile Dhunlcibhe"
+					munsterian = "Baile Dhunlcibhe"
+					scottish = "Baile Dhunlcibhe"
+					scouse = "Llywyyngstwn"
+					southener = "Lywyyngstwn"
+					british = "Lliwyingston"
+				}
+				b_falkirk = { #
+					old_welsh = "Ecclesbrith"
+					high_irish = "An Eaglais Bhreac"
+					ulsterian = "An Eaglais Bhreac"
+					munsterian = "An Eaglais Bhreac"
+					scottish = "An Eaglais Bhreac"
+					scots = "Fawkirk"
+					scouse = "Fallkyrk"
+					southener = "Falkyrk"
+					british = "Ffalkirhc"
+				}
+				b_abercorn = { #Grangemouth
+					scots = "Grangemooth"
+					high_irish = "Inbhir Ghrainnse"
+					ulsterian = "Inbhir Ghrainnse"
+					munsterian = "Inbhir Ghrainnse"
+					scottish = "Inbhir Ghrainnse"
+					scouse = "Grangymwuf"
+					southener = "Grangymwuth"
+					british = "Grhangemouth"
+				}
+				b_linlithgow = { #Penicuik
+					high_irish = "Peighinn na Cuthaig"
+					ulsterian = "Peighinn na Cuthaig"
+					munsterian = "Peighinn na Cuthaig"
+					scottish = "Peighinn na Cuthaig"
+					scouse = "Pynycuyk"
+					southener = "Pynykuyk"
+					british = "Penicuic"
+				}
+				b_stow_of_wedale = { #Bathgate
+					scots = "Bathket"
+					high_irish = "Both Chcit"
+					ulsterian = "Both Chcit"
+					munsterian = "Both Chcit"
+					scottish = "Both Chcit"
+					scouse = "Bafgaty"
+					southener = "Bathgaty"
+					british = "Bathgate"
+				}
+				b_leith = { #Bonnyrigg
+					scouse = "Bwnnyrygg"
+					southener = "Bwnnyrygg"
+					british = "Bonnirhigg"
+				}
+				b_torphichen = { #Bo'ness
+					scots = "Borrowstounness"
+					northlander = "Borrowstounness"
+					scottish = "Ceann Fhril"
+					munsterian = "Ceann Fhril"
+					ulsterian = "Ceann Fhril"
+					high_irish = "Ceann Fhril"
+				}
+			}
+			c_dunbar = {
+				color = { 30 69 172 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Din Bar"
+				high_irish = "Dun Barr"
+				ulsterian = "Dun Barr"
+				munsterian = "Dun Barr"
+				scouse = "Ddunbar"
+				british = "Ddunbarh"
+				southener = "Ddunbar"
+				oglallan = "Ddunbair"
+				scottish = "Dun Barr"
+				scots = "Dunbaur"
+
+				b_thirlestane = { #Musselburgh
+					scots = "Musselburrae"
+					northlander = "Musselburrae"
+					high_irish = "Baile nam Feusgan"
+					ulsterian = "Baile nam Feusgan"
+					munsterian = "Baile nam Feusgan"
+					scottish = "Baile nam Feusgan"
+					scouse = "Mussyllburgh"
+					southener = "Mussylburgh"
+					british = "Musselburhgh"
+				}
+				b_tyninghame = { #Tranent
+					high_irish = "Tranant"
+					ulsterian = "Tranant"
+					munsterian = "Tranant"
+					scottish = "Tranant"
+					scouse = "Tranynt"
+					southener = "Tranynt"
+					british = "Trhanent"
+				}
+				b_gordon = { #Haddington
+					scots = "Haidintoun"
+					northlander = "Haidintoun"
+					high_irish = "Baile Adainn"
+					ulsterian = "Baile Adainn"
+					munsterian = "Baile Adainn"
+					scottish = "Baile Adainn"
+					scouse = "Haddyngtwn"
+					southener = "Haddyngtwn"
+					british = "Haddington"
+				}
+				b_huntly = { #Prestonpans
+					high_irish = "Baile an t-Sagairt"
+					ulsterian = "Baile an t-Sagairt"
+					munsterian = "Baile an t-Sagairt"
+					scottish = "Baile an t-Sagairt"
+					scouse = "Prystwnpans"
+					southener = "Prystwnpans"
+					british = "Prhestonpans"
+				}
+				b_berwick = { #
+					old_welsh = "Caer Bryneich"
+					high_irish = "Bearaig"
+					ulsterian = "Bearaig"
+					munsterian = "Bearaig"
+					scottish = "Bearaig"
+					scots = "Barrick"
+					scouse = "Nwrf Byrwyck"
+					southener = "Nwrth Byrwykk"
+					british = "Norhth Berhwic"
+				}
+				b_dunbar = { #
+					old_welsh = "Din Baer"
+					high_irish = "Dun Barr"
+					ulsterian = "Dun Barr"
+					munsterian = "Dun Barr"
+					scouse = "Ddunbar"
+					british = "Ddunbarh"
+					southener = "Ddunbar"
+					oglallan = "Ddunbair"
+					scottish = "Dun Barr"
+					scots = "Dunbaur"
+				}
+				b_coldingham = { #Cockenzie
+					high_irish = "Cuil Choinnich"
+					ulsterian = "Cuil Choinnich"
+					munsterian = "Cuil Choinnich"
+					scottish = "Cuil Choinnich"
+					scots = "Cockennie"
+					scouse = "Cwckynzyy"
+					southener = "Kwkkynzyy"
+					british = "Cockensie"
+				}
+				b_crichton = { #Eyemouth
+					scots = "Heymooth"
+					high_irish = "Inbhir Eighe"
+					ulsterian = "Inbhir Eighe"
+					munsterian = "Inbhir Eighe"
+					scottish = "Inbhir Eighe"
+					scouse = "Yyymwuf"
+					southener = "Yyymwuth"
+					british = "Eiemouth"
+				}
+			}
+			c_teviotdale = {
+				color = { 11 51 145 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Guendoleu"
+				high_irish = "Cealsaidh"
+				munsterian = "Cealsaidh"
+				ulsterian = "Cealsaidh"
+				scottish = "Cealsaidh"
+				scots = "Kelsae"
+				northlander = "Teavotdel"
+				scouse = "Tywyywtddally"
+				british = "Tewyiotdale"
+				southener = "Tywyywtddaly"
+				oglallan = "Teviotdaile"
+				frencig = "Teuyotdale"
+				
+				b_roxburgh = { #Hawick
+					high_irish = "Hamhaig"
+					munsterian = "Hamhaig"
+					ulsterian = "Hamhaig"
+					scottish = "Hamhaig"
+					scots = "Haaick"
+					northlander = "Haaick"
+					scouse = "Hawyck"
+					southener = "Hawykk"
+					british = "Hawic"
+				}
+				b_melrose = { #Galashiels
+					high_irish = "An Geal Rth"
+					munsterian = "An Geal Rth"
+					ulsterian = "An Geal Rth"
+					scottish = "An Geal Rth"
+					scots = "Gallae"
+					northlander = "Gallae"
+					scouse = "Gallashyylls"
+					southener = "Galashyyls"
+					british = "Galashiels"
+				}
+				b_peebles = { #
+					old_welsh = "Pebyll"
+					high_irish = "Na Puballan"
+					munsterian = "Na Puballan"
+					ulsterian = "Na Puballan"
+					scottish = "Na Puballan"
+					scouse = "Pyybllys"
+					southener = "Pyybllys"
+					british = "Peebles"
+				}
+				b_maxwell = { #Annan
+					high_irish = "Anainn"
+					munsterian = "Anainn"
+					ulsterian = "Anainn"
+					scottish = "Anainn"
+				}
+				b_kelso = { #
+					old_welsh = "Calchfynydd"
+					high_irish = "Cealsaidh"
+					munsterian = "Cealsaidh"
+					ulsterian = "Cealsaidh"
+					scottish = "Cealsaidh"
+					scots = "Kelsae"
+					northlander = "Kelsae"
+					scouse = "Kyllsw"
+					southener = "Kylsw"
+					british = "Kelso"
+				}
+				b_selkirk = { #
+					old_welsh = "Halchraig"
+					high_irish = "Salcraig"
+					munsterian = "Salcraig"
+					ulsterian = "Salcraig"
+					scottish = "Salcraig"
+					scouse = "Syllkyrk"
+					southener = "Sylkyrk"
+					british = "Selkirhc"
+				}
+				b_jedburgh = { #
+					old_welsh = "Dingod"
+					high_irish = "Deadard"
+					munsterian = "Deadard"
+					ulsterian = "Deadard"
+					scottish = "Deadard"
+					scots = "Jeddart"
+					northlander = "Jeddart"
+					scouse = "Jyddburgh"
+					southener = "Jyddburgh"
+					british = "Jedburhgh"
+				}
+				b_ednam = { #Lockerbie
+					high_irish = "Locarbaidh"
+					munsterian = "Locarbaidh"
+					ulsterian = "Locarbaidh"
+					scottish = "Locarbaidh"
+					scouse = "Llwckyrbyy"
+					southener = "Lwkkyrbyy"
+					british = "Llockerhbie"
+				}
+			}
+		}
+		d_albany = {
+			color={ 25 85 160 }
+			color2={ 255 255 255 }
+			
+			capital = 43 # Gowrie
+			
+			old_welsh = "Alban"
+			high_irish = "Albanigh"
+			munsterian = "Albanigh"
+			ulsterian = "Albanigh"
+			scottish = "Albanigh"
+			northlander = "Albana"
+			scouse = "Allbany"
+			oglallan = "Ailbaini"
+			cornish = "Alban"
+			british = "Albanie"
+			
+			c_gowrie = {
+				color={ 23 87 162 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Caer Cinn"
+				high_irish = "Gobharaidh"
+				munsterian = "Gobharaidh"
+				ulsterian = "Gobharaidh"
+				scottish = "Gobharaidh"
+				northlander = "Gowry"
+				scouse = "Gwwryy"
+				british = "Gowrhie"
+				southener = "Gwwryy"
+				oglallan = "Gowrie"
+				frencig = "Gowrye"
+				
+				b_dundee = { #
+					high_irish = "Dun Dc"
+					munsterian = "Dun Dc"
+					ulsterian = "Dun Dc"
+					scottish = "Dun Dc"
+					scouse = "Ddunddyy"
+					southener = "Ddunddyy"
+					british = "Ddundee"
+				}
+				b_perth = { #
+					northlander = "Perf"
+					high_irish = "Peairt"
+					munsterian = "Peairt"
+					ulsterian = "Peairt"
+					scottish = "Peairt"
+					scouse = "Pyrf"
+					southener = "Pyrth"
+					british = "Perhth"
+				}
+				b_scone = { #Arbroath
+					high_irish = "Obar Bhrothaig"
+					munsterian = "Obar Bhrothaig"
+					ulsterian = "Obar Bhrothaig"
+					scottish = "Obar Bhrothaig"
+					scots = "Aiberbrothock"
+					northlander = "Aiberbrothock"
+					scouse = "Arbrwaf"
+					southener = "Arbrwath"
+					british = "Arhbrhoath"
+				}
+				b_dunkeld = { #Forfar
+					high_irish = "Baile Fharfair"
+					munsterian = "Baile Fharfair"
+					ulsterian = "Baile Fharfair"
+					scottish = "Baile Fharfair"
+					scots = "For-far"
+					northlander = "Farfar"
+					scouse = "Fwrfar"
+					southener = "Fwrfar"
+					british = "Fforhfarh"
+				}
+				b_forteviot = { #Montrose
+					high_irish = "Monadh Rois"
+					munsterian = "Monadh Rois"
+					ulsterian = "Monadh Rois"
+					scottish = "Monadh Rois"
+					scouse = "Mwntrwsy"
+					southener = "Mwntrwsy"
+					british = "Montrhose"
+				}
+				b_abernethy = { #Carnoustie
+					high_irish = "Crrn Ustaidh"
+					munsterian = "Crrn Ustaidh"
+					ulsterian = "Crrn Ustaidh"
+					scottish = "Crrn Ustaidh"
+					scouse = "Carnwustyy"
+					southener = "Carnwustyy"
+					british = "Carhnoustie"
+				}
+				b_clunie = { #Stonehaven
+					scots = "Steenhive"
+					northlander = "Stoney"
+					high_irish = "Cala na Creige"
+					munsterian = "Cala na Creige"
+					ulsterian = "Cala na Creige"
+					scottish = "Cala na Creige"
+					scouse = "Stwnyhawyyn"
+					southener = "Stwnyhawyyn"
+					british = "Stonehawyen"
+				}
+				b_errol = { #Monifieth
+					high_irish = "Monadh Feith"
+					munsterian = "Monadh Feith"
+					ulsterian = "Monadh Feith"
+					scottish = "Monadh Feith"
+					scouse = "Mwnyfyyf"
+					southener = "Mwnyfyyth"
+					british = "Monifieth"
+				}
+			}
+			c_fife = {
+				color={ 20 80 152 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Fife"
+				high_irish = "Feobha"
+				munsterian = "Feobha"
+				ulsterian = "Feobha"
+				scouse = "Fyfy"
+				british = "Fife"
+				southener = "Fyfy"
+				scots = "Fife"
+				scottish = "Fiobha"
+				frencig = "Fyfe"
+				
+				b_kirkcaldy = { #
+					old_welsh = "Caer Caledin"
+					high_irish = "Cair Chaladain"
+					munsterian = "Cair Chaladain"
+					ulsterian = "Cair Chaladain"
+					scottish = "Cair Chaladain"
+					scouse = "Kyrkcallddy"
+					southener = "Kyrkkalddy"
+					british = "Kirhkcaldi"
+				}
+				b_dunfermline = { #
+					old_welsh = "Dinfirllyn"
+					high_irish = "Dun Phrrlain"
+					munsterian = "Dun Phrrlain"
+					ulsterian = "Dun Phrrlain"
+					scottish = "Dun Phrrlain"
+					scots = "Dunfaurlin"
+					northlander = "Dunfaurlin"
+					scouse = "Ddunfyrmllyny"
+					southener = "Ddunfyrmlyny"
+					british = "Ddunferhmline"
+				}
+				b_cupar = { #Glenrothes
+					high_irish = "Gleann Rathais"
+					munsterian = "Gleann Rathais"
+					ulsterian = "Gleann Rathais"
+					scottish = "Gleann Rathais"
+					scouse = "Gllynrwfys"
+					southener = "Glynrwthys"
+					british = "Glenrhothes"
+				}
+				b_st_andrews = { #
+					old_welsh = "Pennbaedd"
+					high_irish = "Cill Remhinn"
+					munsterian = "Cill Remhinn"
+					ulsterian = "Cill Remhinn"
+					scottish = "Cill Remhinn"
+					scots = "Saunt Aundraes"
+					northlander = "Allowae"
+					scouse = "Saynt Anddryws"
+					southener = "Saynt Anddryws"
+					british = "Saint Andrhews"
+				}
+				b_kinross = { #Alloa
+					high_irish = "Alamhagh"
+					munsterian = "Alamhagh"
+					ulsterian = "Alamhagh"
+					scottish = "Alamhagh"
+					scots = "Allowae"
+					northlander = "Allowae"
+					scouse = "Allwa"
+					southener = "Allwa"
+					british = "Alloa"
+				}
+				b_leuchars = { #Rosyth
+					high_irish = "Ros Fheobh"
+					munsterian = "Ros Fheobh"
+					ulsterian = "Ros Fheobh"
+					scottish = "Ros Fheobh"
+					scouse = "Rwsyf"
+					southener = "Rwsyth"
+					british = "Rhosith"
+				}
+				b_lochore = { #Methil
+					high_irish = "Meadhchill"
+					munsterian = "Meadhchill"
+					ulsterian = "Meadhchill"
+					scottish = "Meadhchill"
+					scouse = "Myfyll"
+					southener = "Mythyl"
+					british = "Methil"
+				}
+				b_falkland = { #Cowdenbeath
+					high_irish = "Cul Dun Beithe"
+					munsterian = "Cul Dun Beithe"
+					ulsterian = "Cul Dun Beithe"
+					scottish = "Cul Dun Beithe"
+					scots = "Coudenbeith"
+					northlander = "Coudenbeith"
+					scouse = "Cwwddynbyaf"
+					southener = "Kwwddynbyath"
+					british = "Cowdenbeath"
+				}
+			}
+			c_strathearn = {
+				color={ 15 66 145 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Ystrad Iwerddon"
+				high_irish = "Srath Eireann"
+				munsterian = "Srath Eireann"
+				ulsterian = "Srath Eireann"
+				scottish = "Srath Eireann"
+				northlander = "Strafearn"
+				scouse = "Strafyarn"
+				british = "Strathearhn"
+				southener = "Strathyarn"
+				oglallan = "Straiteairn"
+				
+				b_tullibardine = { #Stirling
+					high_irish = "Sruighlea"
+					munsterian = "Sruighlea"
+					ulsterian = "Sruighlea"
+					scottish = "Sruighlea"
+					scots = "Stirlin"
+					northlander = "Stirlin"
+					scouse = "Styrllyng"
+					southener = "Styrlyng"
+					british = "Stirhling"
+				}
+				b_dunblane = { #
+					old_welsh = "Dinblyne"
+					high_irish = "Dun Bhlathain"
+					munsterian = "Dun Bhlathain"
+					ulsterian = "Dun Bhlathain"
+					scottish = "Dun Bhlathain"
+					scouse = "Ddunbllany"
+					southener = "Ddunblany"
+					british = "Ddunblane"
+				}
+				b_doune = { #Bannockburn
+					high_irish = "Allt a' Bhonnaich"
+					munsterian = "Allt a' Bhonnaich"
+					ulsterian = "Allt a' Bhonnaich"
+					scottish = "Allt a' Bhonnaich"
+					scouse = "Bannwckburn"
+					southener = "Bannwkkburn"
+					british = "Bannockburhn"
+				}
+				b_crieff = { #
+					old_welsh = "Coeden"
+					high_irish = "Craoibh"
+					munsterian = "Craoibh"
+					ulsterian = "Craoibh"
+					scottish = "Craoibh"
+					scouse = "Cryyff"
+					southener = "Kryyff"
+					british = "Crhieff"
+				}
+				b_madderty = { #Bridge of Allan
+					high_irish = "Drochaid Ailein"
+					munsterian = "Drochaid Ailein"
+					ulsterian = "Drochaid Ailein"
+					scottish = "Drochaid Ailein"
+					scots = "Brig Allan"
+					northlander = "Brig Allan"
+					scouse = "Bryddgy wf Allan"
+					southener = "Bryddgy wf Allan"
+					british = "Brhidge of Allan"
+				}
+				b_auchterarder = { #
+					old_welsh = "Hufenaruchel"
+					high_irish = "Uachdar Rrdair"
+					munsterian = "Uachdar Rrdair"
+					ulsterian = "Uachdar Rrdair"
+					scottish = "Uachdar Rrdair"
+					scouse = "Auchtyrarddyr"
+					southener = "Aukhterarddyr"
+					british = "Auchterarderh"
+				}
+				b_inchaffray = { #Callander
+					high_irish = "Calasraid"
+					munsterian = "Calasraid"
+					ulsterian = "Calasraid"
+					scottish = "Calasraid"
+					scouse = "Callanddyr"
+					southener = "Kallanddyr"
+					british = "Callanderh"
+				}
+				b_kenmore = { #Fallin
+					high_irish = "Tuitin"
+					munsterian = "Tuitin"
+					ulsterian = "Tuitin"
+					scottish = "Tuitin"
+					scouse = "Fallyn"
+					southener = "Fallyn"
+					british = "Ffallin"
+				}
+			}
+			c_atholl = {
+				color={ 30 95 172 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Focla"
+				high_irish = "Athfhotla"
+				munsterian = "Athfhotla"
+				ulsterian = "Athfhotla"
+				northlander = "Afoll"
+				scouse = "Afwll"
+				southener = "Athwll"
+				british = "Atholl"
+				oglallan = "Aitoll"
+				scottish = "Athall"
+				
+				b_pitlochry = { #
+					old_welsh = "Porth Craig"
+					high_irish = "Mhaothlinne"
+					munsterian = "Mhaothlinne"
+					ulsterian = "Mhaothlinne"
+					scots = "Pitlochry"
+					scottish = "Baile Chloichridh"
+					scouse = "Pyfllwchry"
+					southener = "Pythlwkhry"
+					british = "Pithlochri"
+				}
+				b_blair_atholl = { #
+					old_welsh = "Brwydr Focla"
+					high_irish = "Athfhotla"
+					munsterian = "Athfhotla"
+					ulsterian = "Athfhotla"
+					northlander = "Afoll"
+					scouse = "Afwll"
+					southener = "Athwll"
+					british = "Atholl"
+					oglallan = "Aitoll"
+					scottish = "Athall"
+				}
+				b_glen_dochart = { #Aberfeldy
+					high_irish = "Obar Pheallaidh"
+					munsterian = "Obar Pheallaidh"
+					ulsterian = "Obar Pheallaidh"
+					scottish = "Obar Pheallaidh"
+					scouse = "Abyrfyllddy"
+					southener = "Abyrfylddy"
+					british = "Aberhfeldi"
+				}
+				b_fortingall = { #
+					old_welsh = "Ywenllan"
+					high_irish = "Iubharcille"
+					munsterian = "Iubharcille"
+					ulsterian = "Iubharcille"
+					scottish = "Fartairchill"
+					scouse = "Fwrtyngall"
+					southener = "Fwrtyngall" 
+					british = "Forhtingall"
+				}
+				b_grandtully = { #Killin
+					high_irish = "Cill Fhinn"
+					munsterian = "Cill Fhinn"
+					ulsterian = "Cill Fhinn"
+					scottish = "Cill Fhinn"
+					scouse = "Kyllyn"
+					southener = "Kyllyn"
+					british = "Killin"
+				}
+				b_rannoch = { #
+					old_welsh = "Rhedyn"
+					high_irish = "Raineach"
+					munsterian = "Raineach"
+					ulsterian = "Raineach"
+					scottish = "Raineach"
+					scouse = "Rannwch"
+					southener = "Rannwkh"
+					british = "Rhannoch"
+				}
+				b_strathardle = { #
+					high_irish = "Strath Erdail"
+					munsterian = "Strath Erdail"
+					ulsterian = "Strath Erdail"
+					scottish = "Strath Erdail"
+					northlander = "Strafardel"
+					scouse = "Strafarddlly"
+					southener = "Stratharddlly"
+					british = "Strhatharhdle"
+				}
+				b_struan = { #Crianlarich
+					high_irish = "A' Chreon Lrraich"
+					munsterian = "A' Chreon Lrraich"
+					ulsterian = "A' Chreon Lrraich"
+					scottish = "A' Chreon Lrraich"
+					scouse = "Cryanllarych"
+					southener = "Kryanlarykh"
+					british = "Crhianlarhich"
+				}
+				b_anthrachs = { #
+					scouse = "Anfrachs"
+					southener = "Antrhakhs"
+					british = "Anthrhachs"
+				}
+			}
+		}
+		d_moray = {
+			color={ 10 81 243 }
+			color2={ 255 255 255 }
+			
+			capital = 40 # Moray
+			
+			high_irish = "Muireb"
+			munsterian = "Muireb"
+			ulsterian = "Muireb"
+			northlander = "Murray" #How about another province Murray? We've had enough of your provinces...
+			scouse = "Mwray"
+			british = "Morhai"
+			southener = "Mwray"
+			oglallan = "Moraii"
+			scottish = "Moireibh"
+			scots = "Moray"
+			
+			c_moray = {
+				color={ 20 85 243 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Muireb"
+				munsterian = "Muireb"
+				ulsterian = "Muireb"
+				northlander = "Murray" #You're laughing, this guy is meming province names and you're laughing?
+				scouse = "Mwray"
+				british = "Morhai"
+				southener = "Mwray"
+				oglallan = "Moraii"
+				scottish = "Moireibh"
+				scots = "Moray"
+				
+				holy_site = thelemic
+				holy_site = thelemic_reformed
+
+				
+				b_inverness = { #
+					old_welsh = "Abernis"
+					high_irish = "Inbhir Nis"
+					munsterian = "Inbhir Nis"
+					ulsterian = "Inbhir Nis"
+					scottish = "Inbhir Nis"
+					scots = "Inerness"
+					northlander = "Inerness"
+					scouse = "Ynwyyrnyss"
+					southener = "Ynwyyrnyss"
+					british = "Inwyerhness"
+				}
+				b_elgin = { #
+					old_welsh = "Aergwyn"
+					high_irish = "Eilginn"
+					munsterian = "Eilginn"
+					ulsterian = "Eilginn"
+					scottish = "Eilginn"
+					scots = "Ailgin"
+					scouse = "Yllgyn"
+					southener = "Ylgyn"
+					british = "Elgin"
+				}
+				b_forres = { #
+					old_welsh = "Gwerrys"
+					high_irish = "Farrais"
+					munsterian = "Farrais"
+					ulsterian = "Farrais"
+					scottish = "Farrais"
+					scouse = "Fwrrys"
+					southener = "Fwrrys"
+					british = "Fforhrhes"
+				}
+				b_nairn = { #
+					old_welsh = "Abernard"
+					high_irish = "Inbhir Narann"
+					munsterian = "Inbhir Narann"
+					ulsterian = "Inbhir Narann"
+					scottish = "Inbhir Narann"
+					scouse = "Nayrn"
+					southener = "Nayrn"
+					british = "Nairhn"
+				}
+				b_cawdor = { #Buckie
+					high_irish = "Bucaidh"
+					munsterian = "Bucaidh"
+					ulsterian = "Bucaidh"
+					scottish = "Bucaidh"
+					scouse = "Buckyy"
+					southener = "Bukkyy"
+					british = "Buckie"
+				}
+				b_lochindorb = { #Lossiemouth
+					high_irish = "Inbhir Losaidh"
+					munsterian = "Inbhir Losaidh"
+					ulsterian = "Inbhir Losaidh"
+					scottish = "Inbhir Losaidh"
+					scots = "Lossie"
+					northlander = "Lossie"
+					scouse = "Llwssyymwuf"
+					southener = "Lwssyymwuth"
+					british = "Llossiemouth"
+				}
+				b_kinloss = { #Fort William
+					high_irish = "An Gearasdan"
+					munsterian = "An Gearasdan"
+					ulsterian = "An Gearasdan"
+					scottish = "An Gearasdan"
+					scots = "The Fort"
+					northlander = "The Fort"
+					scouse = "Fwrt Wyllyam"
+					southener = "Fwrt Wyllyam"
+					british = "Forht William"
+				}
+				b_urquhart = { #Keith
+					high_irish = "Baile Chcith"
+					munsterian = "Baile Chcith"
+					ulsterian = "Baile Chcith"
+					scottish = "Baile Chcith"
+					scouse = "Kyyf"
+					southener = "Kyyth"
+					british = "Keith"
+				}
+			}
+			c_ross = {
+				color={ 15 55 243 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Gwidauc"
+				high_irish = "Ros"
+				munsterian = "Ros"
+				ulsterian = "Ros"
+				northlander = "Russ"
+				oglallan = "Ross"
+				scots = "Ross"
+				scottish = "Ros"
+				scouse = "Rwss"
+				southener = "Rwss"
+				british = "Rhoss"
+				
+				b_dingwall = { #
+					norwegian = "Tingvall"
+					danish = "Tingvall"
+					swedish = "Tingvall"
+					old_welsh = "Aberpeffry"
+					high_irish = "Inbhir Pheofharain"
+					munsterian = "Inbhir Pheofharain"
+					ulsterian = "Inbhir Pheofharain"
+					scottish = "Inbhir Pheofharain"
+					scots = "Dingwal"
+					scouse = "Ddyngwall"
+					southener = "Ddyngwall"
+					british = "Ddingwall"
+				}
+				b_applecross = { #Alness
+					high_irish = "Alanais"
+					munsterian = "Alanais"
+					ulsterian = "Alanais"
+					scottish = "Alanais"
+					scouse = "Allnyss"
+					southener = "Alnyss"
+					british = "Alness"
+				}
+				b_rosemarkie = { #Invergordon
+					high_irish = "Inbhir Ghnrdain"
+					munsterian = "Inbhir Ghnrdain"
+					ulsterian = "Inbhir Ghnrdain"
+					scottish = "Inbhir Ghnrdain"
+					scouse = "Ynwyyrgwrddwn"
+					southener = "Ynwyyrgwrddwn"
+					british = "Inwyerhgorhdon"
+				}
+				b_tain = { #
+					old_welsh = "Duthactref"
+					high_irish = "Baile Dubhthaich"
+					munsterian = "Baile Dubhthaich"
+					ulsterian = "Baile Dubhthaich"
+					scottish = "Baile Dubhthaich"
+					scouse = "Tayn"
+					southener = "Tayn"
+					british = "Tain"
+				}
+				b_fortrose = { #Muir of Ord
+					high_irish = "Am Blrr Dubh"
+					munsterian = "Am Blrr Dubh"
+					ulsterian = "Am Blrr Dubh"
+					scottish = "Am Blrr Dubh"
+					scouse = "Muyr wf Wrdd"
+					southener = "Muyr wf Wrdd"
+					british = "Muirh of Wrhd"
+				}
+				b_fearn = { #Conon Bridge
+					scots = "Logie Riach"
+					northlander = "Logiebride"
+					high_irish = "Drochaid Sguideil"
+					munsterian = "Drochaid Sguideil"
+					ulsterian = "Drochaid Sguideil"
+					scottish = "Drochaid Sguideil"
+					scouse = "Cwnwn Bryddgy"
+					southener = "Kwnwn Bryddgy"
+					british = "Conon Brhidge"
+				}
+				b_cromarty = { #Ullapool
+					high_irish = "Ulapul"
+					munsterian = "Ulapul"
+					ulsterian = "Ulapul"
+					scottish = "Ulapul"
+					scouse = "Ullapwwll"
+					southener = "Ullapwwl"
+					british = "Ullapool"
+				}
+				b_avoch = { #Evanton
+					high_irish = "Baile Enghainn"
+					munsterian = "Baile Enghainn"
+					ulsterian = "Baile Enghainn"
+					scottish = "Baile Enghainn"
+					scouse = "Ywyantwn"
+					southener = "Ywyantwn"
+					british = "Ewyanton"
+				}
+			}
+			c_buchan = {
+				color={ 40 227 250 }
+				color2={ 255 255 255 }
+				
+				old_welsh = "Cai"
+				high_irish = "Beanaomh"
+				munsterian = "Beanaomh"
+				ulsterian = "Beanaomh"
+				scottish = "Beanaomh"
+				oglallan = Buchain
+				scots = "Buchan"
+				eastlander = "Aberdeenshire"
+				westlander = "Aberdeenshire"
+				southlander = "Aberdeenshire"
+				new_english = "Aberdeenshire"
+				ashkenazi = "Aberdeenshire"
+								
+				b_aberdeen = { #
+					old_welsh = "Aberdwyafon"
+					high_irish = "Obar Dheathain"
+					munsterian = "Obar Dheathain"
+					ulsterian = "Obar Dheathain"
+					scottish = "Obar Dheathain"
+					scots = "Aiberdeen"
+					northlander = "Aiberdeen"
+					scouse = "Abyrddyyn"
+					southener = "Abyrddyyn"
+					british = "Aberhdeen"
+				}
+				b_banff = { #Peterhead
+					scots = "The Bloo Toon"
+					northlander = "Peterheid"
+					high_irish = "Ceann Phrdraig"
+					munsterian = "Ceann Phrdraig"
+					ulsterian = "Ceann Phrdraig"
+					scottish = "Ceann Phrdraig"
+					scouse = "Pytyrhyadd"
+					southener = "Pytyrhyadd"
+					british = "Peterhead"
+				}
+				b_st_machar = { #Fraserburgh
+					scots = "The Broch"
+					northlander = "Faithlie"
+					high_irish = "A' Bhruaich"
+					munsterian = "A' Bhruaich"
+					ulsterian = "A' Bhruaich"
+					scottish = "A' Bhruaich"
+					scouse = "Frasyrburgh"
+					southener = "Frasyrburgh"
+					british = "Frhaserhburhgh"
+				}
+				b_inverurie = { #
+					old_welsh = "Aberury"
+					high_irish = "Inbhir Uraidh"
+					munsterian = "Inbhir Uraidh"
+					ulsterian = "Inbhir Uraidh"
+					scottish = "Inbhir Uraidh"
+					scouse = "Ynwyyruryy"
+					southener = "Ynwyyruryy"
+					british = "Inwyerurie"
+				}
+				b_deer = { #Westhill
+					scouse = "Wysthyll"
+					southener = "Wysthyll"
+					british = "Westhill"
+				}
+				b_ellon = { #
+					old_welsh = "Ynysol"
+					high_irish = "Eilean"
+					munsterian = "Eilean"
+					ulsterian = "Eilean"
+					scottish = "Eilean"
+					scouse = "Yllwn"
+					southener = "Yllwn"
+					british = "Ellon"
+				}
+				b_kintore = { #Banchory
+					scots = "Banchry"
+					northlander = "Banchry"
+					high_irish = "Beannchar"
+					munsterian = "Beannchar"
+					ulsterian = "Beannchar"
+					scottish = "Beannchar"
+					scouse = "Banchwry"
+					southener = "Banshwry"
+					british = "Banchorhi"
+				}
+				b_fyvie = { #Huntly
+					high_irish = "Srath Bhalgaidh"
+					munsterian = "Srath Bhalgaidh"
+					ulsterian = "Srath Bhalgaidh"
+					scottish = "Srath Bhalgaidh"
+					scouse = "Huntlly"
+					british = "Huntli"
+				}
+			}
+			c_caithness = {
+				color={ 30 95 243 }
+				color2={ 255 255 255 }
+				holy_site = constitutional
+				
+				norwegian = "Katanes"
+				danish = "Katanes"
+				swedish = "Katanes"
+				old_welsh = "Caitnys"
+				high_irish = "Cataibh"
+				munsterian = "Cataibh"
+				ulsterian = "Cataibh"
+				northlander = "Kaifness"
+				scouse = "Cayfnyss"
+				british = "Caithness"
+				southener = "Kaythnyss"
+				oglallan = "Caitness"
+				scottish = "Gallaibh"
+				scots = "Caitness"
+				frencig = "Caythness"
+				
+				b_thurso = { #
+					old_welsh = "Abertaewafon"
+					northlander = "Furso"
+					scottish = "Inbhir Theorsa"
+					scots = "Thursa"
+					scouse = "Fursw"
+					southener = "Thursw"
+					british = "Thurhso"
+				}
+				b_wick = { #
+					norwegian = "Vik"
+					danish = "Vik"
+					swedish = "Vik"
+					old_welsh = "Aberbachwy"
+					scouse = "Wyck"
+					british = "Wic"
+					southener = "Wykk"
+					oglallan = "Wick"
+					scots = "Week"
+					scottish = "Inbhir Uige"
+					high_irish = "Inbhir Uige"
+					munsterian = "Inbhir Uige"
+					ulsterian = "Inbhir Uige"
+				}
+				b_golspie = { #
+					old_welsh = "Ffostref"
+					scottish = "Goillspidh"
+					high_irish = "Goillspidh"
+					munsterian = "Goillspidh"
+					ulsterian = "Goillspidh"
+				}
+				b_dunbeath = { #Brora
+					scottish = "Brura"
+					high_irish = "Brura"
+					munsterian = "Brura"
+					ulsterian = "Brura"
+					scouse = "Brwra"
+					southener = "Brwra"
+					british = "Brhorha"
+				}
+				b_dornoch = { #
+					old_welsh = "Dyrnfedd"
+					scottish = "Dnrnach"
+					high_irish = "Dnrnach"
+					munsterian = "Dnrnach"
+					ulsterian = "Dnrnach"
+					scots = "Dornach"
+					scouse = "Ddwrnwch"
+					southener = "Ddwrnwkh"
+					british = "Ddorhnoch"
+				}
+				b_dunrobin = { #Castletown
+					scottish = "Baile a' Chaisteil"
+					high_irish = "Baile a' Chaisteil"
+					munsterian = "Baile a' Chaisteil"
+					ulsterian = "Baile a' Chaisteil"
+					scouse = "Castllytwwn"
+					southener = "Kastlytwwn"
+					british = "Castletown"
+				}
+				b_freswick = { #Halkirk
+					old_welsh = "Aberfawr"
+					scottish = "Hrcraig"
+					high_irish = "Hrcraig"
+					munsterian = "Hrcraig"
+					ulsterian = "Hrcraig"
+					scouse = "Hallkyrk"
+					southener = "Halkyrk"
+					british = "Halkirhc"
+				}
+				b_latheron = { #
+					old_welsh = "Lladdaeron"
+					northlander = "Laferon"
+					scottish = "Latharn"
+					high_irish = "Latharn"
+					munsterian = "Latharn"
+					ulsterian = "Latharn"
+					scouse = "Llafyrwn"
+					southener = "Lathyrwn"
+					british = "Llatherhon"
+				}
+			}
+		}
+	}
+	
+	k_ireland = {
+		color={ 6 127 2 }
+		color2={ 255 255 255 }
+		
+		capital = 11 # Dublin
+		
+		culture = high_irish
+		
+		catholic = 2000 # Crusade target weight
+		summer_queen = 4000
+		novelist_reformed = 1500
+		cadaverist = 800
+		calvinist= 900
+		ibadi = 50
+		sevillian = 700
+		fraticelli = 500 # Crusade target weight
+		neohuguenot = 2000
+		raelian = 1500
+		orleanist = 1000
+		
+		swedish = Irland
+		danish = Irland
+		norwegian = Irland
+		high_irish = Eireann
+		ulsterian = Eireann
+		munsterian = Eireann
+		scottish = Eirinn
+		aeslabh = Irlandia
+		old_welsh = Iwerddon
+		breizhiz = Iwerzhon
+		cornish = "Wordhen"
+		roman = Hibernia
+		ulsterite = "Ulsterland"
+		frencig = "Yrland"
+		ashkenazi = "Irland"
+		israeli = "Irland"
+		sephardi = "Irland"
+		scouse = Irylland
+		british = Iwerhddon
+		southener = Iryland
+		oglallan = Irelaindd
+		scots = "Airlann"
+		french = "Irlande"
+		gallo = "Irlande"
+		norman = "Irlande"
+		burgundian = "Irlande"
+		occitan = "Irlande"
+		provencal = "Irlande"
+		picard = "Irlande"
+		poitevin = "Irlande"
+		gascon = "Irlande"
+		breton = "Irlande"
+		arpitan = "Irlande"
+		lorraine = "Irlande"
+		cosmopolitan = "Irlande"
+		toccitan = "Irlanda"
+		federalist = "New Newfoundland"
+		laurentian = "New Newfoundland"
+		lakelanders = "New Newfoundland"
+		mississippians = "New Newfoundland"
+		cajun = "New Newfoundland"
+		southron = "New Newfoundland"
+		arhavi = "New Newfoundland"
+		portuguese = "Irlanda"
+		yola = "Erelhoan"
+		
+		d_ulster = {
+			color={ 5 222 31 }
+			color2={ 255 255 255 }
+			
+			capital = 5 # Ulster
+			
+			norwegian = Strangfjord
+			swedish = Strangfjord
+			danish = Strangfjord
+			high_irish = Uladh
+			ulsterian = Uladh
+			munsterian = Uladh
+			scouse = Ullstyr
+			british = Ulsterh
+			southener = Ulstyr			
+			
+			c_antrim = {
+				color={ 25 230 35 }
+				color2={ 255 255 255 }
+				holy_site = lakefolk_pagan
+				holy_site = lakefolk_pagan_reformed
+				
+				norwegian = Strangfjord
+				swedish = Strangfjord
+				danish = Strangfjord
+				oglallan = Aintrim
+				scottish = "Aontroma"
+				
+				holy_site = orange_king
+			
+				b_downpatrick = {
+					norwegian = Strangfjord
+					swedish = Strangfjord
+					danish = Strangfjord
+					high_irish = "Don Padraig"
+					munsterian = "Don Padraig"
+					ulsterian = "Don Padraig"
+					scouse = Ddwnpatryck
+					british = Ddownpatrhic
+					southener = Ddwnpatryck
+					oglallan = Ddownpaitrick
+					scots = "Doonpetherick"
+				}
+				b_dunseverick = {
+					high_irish = "Don Sobhairce"
+					munsterian = "Don Sobhairce"
+					ulsterian = "Don Sobhairce"
+				}
+				b_bangor = {
+					high_irish = "Inbhear Beg"
+					munsterian = "Inbhear Beg"
+					ulsterian = "Inbhear Beg"
+					scots = "Bengor"
+				}
+				b_carrickfergus = {
+					high_irish = "Carraig Fhearghais"
+					munsterian = "Carraig Fhearghais"
+					ulsterian = "Carraig Fhearghais"
+					scots = "Carrick"
+				}
+				b_connor = {
+					high_irish = "Con Doire"
+					munsterian = "Con Doire"
+					ulsterian = "Con Doire"
+				}
+				b_dromore = {
+					high_irish = "Druim Mor"
+					munsterian = "Druim Mor"
+					ulsterian = "Druim Mor"
+				}
+				b_larne = {
+					high_irish = "Latharna"
+					munsterian = "Latharna"
+					ulsterian = "Latharna"
+				}
+				b_belfast = {
+					high_irish = "Beal Feirste"
+					munsterian = "Beal Feirste"
+					ulsterian = "Beal Feirste"
+					scots = "Bilfawst"
+				}				
+				b_dunluce = {
+					high_irish = "Don Libhse"
+					munsterian = "Don Libhse"
+					ulsterian = "Don Libhse"
+				}
+			}
+			c_armagh = {
+				color={ 30 180 45 }
+				color2={ 255 255 255 }
+				
+				oglallan = Airmaigh
+				scots = "Airmagh"				
+				
+				b_clones = {
+					high_irish = "Cluain Eois"
+					munsterian = "Cluain Eois"
+					ulsterian = "Cluain Eois"
+				}
+				b_armagh = {
+					high_irish = "Ard Mhacha"
+					munsterian = "Ard Mhacha"
+					ulsterian = "Ard Mhacha"
+					scots = "Airmagh"
+					scottish = "Ard Mhacha"
+				}
+				b_crossmaglen = {
+					high_irish = "Crois Mhic Lionnain"
+					munsterian = "Crois Mhic Lionnain"
+					ulsterian = "Crois Mhic Lionnain"
+				}
+				b_clogher = {
+					high_irish = "Clochar"
+					munsterian = "Clochar"
+					ulsterian = "Clochar"
+				}
+				b_drogheda = {
+					high_irish = "Droichead Atha"
+					munsterian = "Droichead Atha"
+					ulsterian = "Droichead Atha"
+				}
+				b_monaghan = {
+					high_irish = "Muineachan"
+					munsterian = "Muineachan"
+					ulsterian = "Muineachan"
+				}
+				b_olouth = {
+					high_irish = "Loghbhaidh"
+					munsterian = "Loghbhaidh"
+					ulsterian = "Loghbhaidh"
+				}
+				b_ardee = {
+					high_irish = "Baile Atha Fhirdhia"
+					munsterian = "Baile Atha Fhirdhia"
+					ulsterian = "Baile Atha Fhirdhia"
+				}
+			}
+			c_tyrone = {
+				color={ 66 157 22 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Tir Eoghain"
+				munsterian = "Tir Eoghain"
+				ulsterian = "Tir Eoghain"
+				scouse = Tyrwny
+				british = Tyrhone
+				southener = Tyrwny
+				oglallan = Tirone
+				scots = "Owenslann"
+				scottish = "Thír Eoghain"
+	
+				b_coleraine = {
+					high_irish = "Cail Rathain"
+					munsterian = "Cail Rathain"
+					ulsterian = "Cail Rathain"
+					scots = "Cowlrain"
+				}
+				b_dungannon = {
+					high_irish = "Din Geanainn"
+					munsterian = "Din Geanainn"
+					ulsterian = "Din Geanainn"
+				}
+				b_aileach = {
+					high_irish = "Ailech"
+					munsterian = "Ailech"
+					ulsterian = "Ailech"
+				}
+				b_maghera = {
+					high_irish = "Machaire Ritha"
+					munsterian = "Machaire Ritha"
+					ulsterian = "Machaire Ritha"
+				}
+				b_kesh = {
+				}
+				b_omagh = {
+					high_irish = "An oghmaigh"
+					munsterian = "An oghmaigh"
+					ulsterian = "An oghmaigh"
+					scots = "Omey"
+				}
+				b_tullyhogue = {
+					high_irish = "Tulaigh u"
+					munsterian = "Tulaigh u"
+					ulsterian = "Tulaigh u"
+				}
+				b_dungiven = {
+					high_irish = "Dn Geimhin"
+					munsterian = "Dn Geimhin"
+					ulsterian = "Dn Geimhin"
+				}
+			}
+			
+			c_monaghan = {
+				color={ 66 157 22 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Muineachán"
+				munsterian = "Muineachán"
+				ulsterian = "Muineachán"
+	
+				b_monaghan_1 = {
+					high_irish = "Muineachán"
+					munsterian = "Muineachán"
+					ulsterian = "Muineachán"
+				}
+				b_clones_1 = {
+					high_irish = "Cluain-Eois"
+					munsterian = "Cluain-Eois"
+					ulsterian = "Cluain-Eois"
+				}
+				b_inniskeen_1 = {
+					high_irish = "Inis Caoin"
+					munsterian = "Inis Caoin"
+					ulsterian = "Inis Caoin"
+				}
+				b_carrickmacross_1 = {
+					high_irish = "Carraig Mhachaire Rois"
+					munsterian = "Carraig Mhachaire Rois"
+					ulsterian = "Carraig Mhachaire Rois"
+				}
+				b_castleblayney_1 = {
+					high_irish = "Baile na Lorgan"
+					munsterian = "Baile na Lorgan"
+					ulsterian = "Baile na Lorgan"
+				}
+				b_newbliss_1 = {
+					high_irish = "Cúil Darach"
+					munsterian = "Cúil Darach"
+					ulsterian = "Cúil Darach"
+				}
+				b_glaslough_1 = {
+					high_irish = "Glasloch"
+					munsterian = "Glasloch"
+					ulsterian = "Glasloch"
+				}
+			}
+			c_derry = {
+				color={ 66 157 42 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Daire Coluimb Chille"
+				munsterian = "Daire Coluimb Chille"
+				ulsterian = "Daire Coluimb Chille"
+				oglallan = Derri
+				ulsterite = "Londonderry"
+				scots = "Derrie"
+				scottish = "Doire"
+	
+				b_derry = {
+					high_irish = "Daire Coluimb Chille"
+					munsterian = "Daire Coluimb Chille"
+					ulsterian = "Daire Coluimb Chille"
+					oglallan = Derri
+					ulsterite = "Londonderry"
+					scots = "Derrie"
+					scottish = "Doire"
+				}
+				b_ardmore = {
+				}
+				b_cross = {
+				}
+				b_ballykelly = {
+				}
+				b_donemana = {
+				}
+				b_feeny = {
+				}
+				b_artikelly = {
+				}
+				b_sperrin = {
+				}
+			}
+			c_down = {
+				color={ 66 178 22 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Dúin"
+				munsterian = "Dúin"
+				ulsterian = "Dúin"
+				scots = "Doon"				
+	
+				b_newcastle_ie = {
+				}
+				b_ardglass = {
+				}
+				b_ballywalter = {
+				}
+				b_castlewellan = {
+				}
+				b_annalong = {
+				}
+				b_kilkeel = {
+				}
+				b_portavogie = {
+				}
+				b_newry = {
+				}
+			}
+			c_donegal = {
+				color={ 25 190 31 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Dún na nGall"
+				munsterian = "Dún na nGall"
+				ulsterian = "Dún na nGall"				
+			
+				b_gartan = {
+					high_irish = "Gartin"
+					munsterian = "Gartin"
+					ulsterian = "Gartin"
+				}
+				b_moville = {
+					high_irish = "Magh Bhile"
+					munsterian = "Magh Bhile"
+					ulsterian = "Magh Bhile"
+				}
+				b_raphoe = {
+					high_irish = "Rath Bhoth"
+					munsterian = "Rath Bhoth"
+					ulsterian = "Rath Bhoth"
+				}
+				b_fahan = {
+					high_irish = "Fathain"
+					munsterian = "Fathain"
+					ulsterian = "Fathain"
+				}
+				b_donegal = {
+					high_irish = "Dan na nGall"
+					munsterian = "Dan na nGall"
+					ulsterian = "Dan na nGall"
+					scottish = "Dùn na nGall"
+				}
+				b_ballyshannon = {
+					high_irish = "Beal atha Seanaidh"
+					munsterian = "Beal atha Seanaidh"
+					ulsterian = "Beal atha Seanaidh"
+				}
+				b_kilmacrenan = {
+					high_irish = "Cill Mhic nEanain"
+					munsterian = "Cill Mhic nEanain"
+					ulsterian = "Cill Mhic nEanain"
+				}
+				b_ballymacswiney = {
+					high_irish = "Baile Mhic Suibhne"
+					munsterian = "Baile Mhic Suibhne"
+					ulsterian = "Baile Mhic Suibhne"
+				}
+			}
+		}
+		d_connacht = {
+			color={ 43 229 108 }
+			color2={ 255 255 255 }
+			
+			capital = 9 # Connacht
+			
+			high_irish = "Chonnachta"
+			munsterian = "Chonnachta"
+			ulsterian = "Chonnachta"
+			scouse = Cwnnacht
+			southener = Kwnnakt			
+		
+			c_sligo = {
+				color={ 40 230 65 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Sligeach"
+				munsterian = "Sligeach"
+				ulsterian = "Sligeach"				
+	
+				b_dromahair = {
+					high_irish = "Droim ath Thiar"
+					munsterian = "Droim ath Thiar"
+					ulsterian = "Droim ath Thiar"
+				}
+				b_kilmore = {
+					high_irish = "An Chill Mhor"
+					munsterian = "An Chill Mhor"
+					ulsterian = "An Chill Mhor"
+				}
+				b_enniscrone = {
+					high_irish = "An Cabhan"
+					munsterian = "An Cabhan"
+					ulsterian = "An Cabhan"
+				}
+				b_sligo = {
+					high_irish = "Sligeach"
+					munsterian = "Sligeach"
+					ulsterian = "Sligeach"
+				}
+				b_dowra = {
+					high_irish = "Damhshraith"
+					munsterian = "Damhshraith"
+					ulsterian = "Damhshraith"
+				}
+				b_easky = {
+				}
+				b_drumcliffe = {
+					high_irish = "Droim Chliabh"
+					munsterian = "Droim Chliabh"
+					ulsterian = "Droim Chliabh"
+				}
+				b_kells = {
+					high_irish = "Ceann Lios"
+					munsterian = "Ceann Lios"
+					ulsterian = "Ceann Lios"
+				}
+			}
+			c_leitrim = {
+				color={ 40 230 65 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Liatroim"
+				munsterian = "Liatroim"
+				ulsterian = "Liatroim"
+				scottish = "Liatroma"
+				
+				b_leitrim = {
+					high_irish = "Liatroim"
+					munsterian = "Liatroim"
+					ulsterian = "Liatroim"
+					scottish = "Liatroma"
+				}
+				b_ballinamore = {
+				}
+				b_cloone = {
+				}
+				b_cavan = {
+					high_irish = "An Cabhan"
+					munsterian = "An Cabhan"
+					ulsterian = "An Cabhan"
+				}
+				b_mohill = {
+				}
+				b_tulsk = {
+				}
+				b_boyle = {
+				}
+			}
+
+			c_galway = {
+				color={ 45 230 70 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Gaillimh"
+				munsterian = "Gaillimh"
+				ulsterian = "Gaillimh"
+				scouse = Cwnnacht
+				southener = Kwnnakt				
+	
+				b_galway = {
+					high_irish = "Dan Bhun na Gaillimhe"
+					munsterian = "Dan Bhun na Gaillimhe"
+					ulsterian = "Dan Bhun na Gaillimhe"
+				}
+				b_elphin = {
+					high_irish = "Ail Finn"
+					munsterian = "Ail Finn"
+					ulsterian = "Ail Finn"
+				}
+				b_tuam = {
+					high_irish = "Tuaim Da Ghualann"
+					munsterian = "Tuaim Da Ghualann"
+					ulsterian = "Tuaim Da Ghualann"
+				}
+				b_clonfert = {
+					high_irish = "Cluain Fearta"
+					munsterian = "Cluain Fearta"
+					ulsterian = "Cluain Fearta"
+				}
+				b_cruachu = {
+					high_irish = "Ros Comain"
+					munsterian = "Ros Comain"
+					ulsterian = "Ros Comain"
+				}
+				b_killala = {
+					high_irish = "Cill Ala"
+					munsterian = "Cill Ala"
+					ulsterian = "Cill Ala"
+				}
+				b_anchory = {
+					high_irish = "Baile Ua Fhiachain"
+					munsterian = "Baile Ua Fhiachain"
+					ulsterian = "Baile Ua Fhiachain"
+				}
+			}
+			c_mayo = {
+				color={ 50 240 80 }
+				color2={ 255 255 255 }
+				
+				holy_site = celtic_pagan_reformed
+				holy_site = celtic_pagan
+
+				high_irish = "Mhaigh Eo"
+				munsterian = "Mhaigh Eo"
+				ulsterian = "Mhaigh Eo"				
+								
+				b_castlebar = {
+					high_irish = "Castlebar"
+					munsterian = "Castlebar"
+					ulsterian = "Castlebar"
+				}
+				b_knock = {
+					high_irish = "Cnoc Mhuire"
+					munsterian = "Cnoc Mhuire"
+					ulsterian = "Cnoc Mhuire"
+				}
+				b_ballintubber = {
+					high_irish = "Baile an Tobair"
+					munsterian = "Baile an Tobair"
+					ulsterian = "Baile an Tobair"
+				}
+				b_errew = {}
+				b_cong = {}
+				b_mullet = {
+					high_irish = "Mhuirthead"
+					munsterian = "Mhuirthead"
+					ulsterian = "Mhuirthead"
+				}
+				b_inishkea = {
+					high_irish = "Inis Ge"
+					munsterian = "Inis Ge"
+					ulsterian = "Inis Ge"
+				}
+			}
+			c_aran_islands = {
+				color={ 97 227 119 }
+				color2={ 255 255 255 }
+				
+				british = Arhan
+				frencig = "Aran Yles"
+				
+				holy_site = celtic_pagan_reformed
+				holy_site = celtic_pagan
+				
+				b_kilronan = {
+				}
+				b_rossaveel = {
+				}
+				b_eararna = {
+				}
+				b_teachmor = {
+				}
+				b_baile_an_chaisleain = {
+				}
+				b_baile_an_lurgain = {
+				}
+				b_an_tuar = {
+				}
+			}
+			c_roscommon = {
+				color={ 55 245 75 }
+				color2={ 255 255 255 }
+
+				b_roscommon = {}
+				b_delbna = {}
+				b_rathmore = {}
+				b_rathnadarve = {
+					high_irish = "Rath na dTarbh"
+					munsterian = "Rath na dTarbh"
+					ulsterian = "Rath na dTarbh"
+				}
+				b_relignaree = {
+					high_irish = "Reilig na Re"
+					munsterian = "Reilig na Re"
+					ulsterian = "Reilig na Re"
+				}
+				b_oweynagat = {
+					high_irish = "Uaimh na gCat"
+					munsterian = "Uaimh na gCat"
+					ulsterian = "Uaimh na gCat"
+				}
+				b_rathbeg = {}
+			}
+			c_achill = {
+				color={ 65 225 80 }
+				color2={ 255 255 255 }
+
+				b_achill_sound = {}
+				b_bleanaskill = {}
+				b_saula_west = {}
+				b_inishbofin = {}
+				b_dooagh = {}
+				b_doogort = {}
+				b_keem = {}
+			}
+		}
+		d_meath = {
+			color={ 49 249 72 }
+			color2={ 255 255 255 }
+			
+			capital = 11 # Dublin
+			
+			norwegian = Dublin
+			danish = Dublin
+			swedish = Dublin
+			scots = "Blalyn"
+			high_irish = "Mi"
+			munsterian = "Mi"
+			ulsterian = "Mi"
+			scouse = Myaf
+			southener = Myath
+			cornish = "Dulyn"			
+			
+			c_longford = {
+				color={ 102 248 65 }
+				color2={ 0 25 200 }
+				
+				high_irish = "Longfort"
+				munsterian = "Longfort"
+				ulsterian = "Longfort"
+				scouse = Llwngfwrdd
+				british = Llongforhd
+				southener = Lwngfwrdd
+	
+				b_longford = {
+					high_irish = "Longfort"
+					munsterian = "Longfort"
+					ulsterian = "Longfort"
+				}
+				b_lanesborough = {
+					high_irish = "Bial atha Liag"
+					munsterian = "Bial atha Liag"
+					ulsterian = "Bial atha Liag"
+				}
+				b_edgeworthstown = {
+					high_irish = "Meathas Troim"
+					munsterian = "Meathas Troim"
+					ulsterian = "Meathas Troim"
+				}
+				b_granard = {
+					high_irish = "Grunard"
+					munsterian = "Grunard"
+					ulsterian = "Grunard"
+				}
+				b_clonfin = {
+					high_irish = "Creagacha Dubha"
+					munsterian = "Creagacha Dubha"
+					ulsterian = "Creagacha Dubha"
+				}
+				b_ballinalee = {
+					high_irish = "Baile atha Fhirdhia"
+					munsterian = "Baile atha Fhirdhia"
+					ulsterian = "Baile atha Fhirdhia"
+				}
+				b_termonbarry = {
+					high_irish = "Lo"
+					munsterian = "Lo"
+					ulsterian = "Lo"
+				}
+				b_cloondara = {
+					high_irish = "Baile an Tallenaigh"
+					munsterian = "Baile an Tallenaigh"
+					ulsterian = "Baile an Tallenaigh"
+				}
+				b_drumlish = {
+					high_irish = "Baile an Ghearlenaigh"
+					munsterian = "Baile an Ghearlenaigh"
+					ulsterian = "Baile an Ghearlenaigh"
+				}
+			}		
+			c_kildare = {
+				color={ 102 248 65 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Cill Dara"
+				munsterian = "Cill Dara"
+				ulsterian = "Cill Dara"
+				scouse = Kylldary
+				british = Kildarhe
+				southener = Kyldary
+				frencig = "Cildare"
+	
+				b_knockaulin = {
+					high_irish = "Dan Ailinne"
+					munsterian = "Dan Ailinne"
+					ulsterian = "Dan Ailinne"
+				}
+				b_naas = {
+					high_irish = "Nos na Riogh"
+					munsterian = "Nos na Riogh"
+					ulsterian = "Nos na Riogh"
+				}
+				b_kildare = {
+					high_irish = "Cill Dara"
+					munsterian = "Cill Dara"
+					ulsterian = "Cill Dara"
+				}
+				b_maynooth = {
+					high_irish = "Maigh Nuad"
+					munsterian = "Maigh Nuad"
+					ulsterian = "Maigh Nuad"
+				}
+				b_st_brigit = {
+					high_irish = "Naomh Brigid"
+					munsterian = "Naomh Brigid"
+					ulsterian = "Naomh Brigid"
+				}
+				b_rathangan = {
+					high_irish = "Rith Iomghain"
+					munsterian = "Rith Iomghain"
+					ulsterian = "Rith Iomghain"
+				}
+				b_durrow = {
+					
+				}
+				b_clonard = {
+					high_irish = "Cluain Ioraird"
+					munsterian = "Cluain Ioraird"
+					ulsterian = "Cluain Ioraird"
+				}
+			}
+
+			c_louth = {
+				color={ 224 10 10 }
+				color2={ 255 255 255 }
+				
+				holy_site = orange_king
+				
+				high_irish = "Lú"
+				munsterian = "Lú"
+				ulsterian = "Lú"
+				scouse = Llwuf
+				southener = Lwuth
+	
+				b_earlsfort = {
+					high_irish = "Iarllgaer"
+					munsterian = "Iarllgaer"
+					ulsterian = "Iarllgaer"
+				}
+				b_dundalk = {
+					high_irish = "Dun Dealgan"
+					munsterian = "Dun Dealgan"
+					ulsterian = "Dun Dealgan"
+				}
+				b_ravensdale = {
+					high_irish = "Cigfraindale"
+					munsterian = "Cigfraindale"
+					ulsterian = "Cigfraindale"
+				}
+				b_greenore = {
+					high_irish = "Grianfort"
+					munsterian = "Grianfort"
+					ulsterian = "Grianfort"
+				}
+				b_blackrock = {
+					high_irish = "Creagacha Dubha"
+					munsterian = "Creagacha Dubha"
+					ulsterian = "Creagacha Dubha"
+				}
+				b_louth = {
+					high_irish = "Lú"
+					munsterian = "Lú"
+					ulsterian = "Lú"
+				}
+				b_tallanstown = {
+					high_irish = "Baile an Tallunaigh"
+					munsterian = "Baile an Tallunaigh"
+					ulsterian = "Baile an Tallunaigh"
+				}
+				b_castlebellingham = {
+					high_irish = "Baile an Ghearenaigh"
+					munsterian = "Baile an Ghearenaigh"
+					ulsterian = "Baile an Ghearenaigh"
+				}
+			}
+
+
+			c_offaly = {
+				color={ 0 153 0 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Uibh Fhaile"
+				munsterian = "Uibh Fhaile"
+				ulsterian = "Uibh Fhaile"
+				scouse = Wfally
+				southener = Wfaly
+	
+				b_tullamore = {
+					high_irish = "Tulach Mhor"
+					munsterian = "Tulach Mhor"
+					ulsterian = "Tulach Mhor"
+				}
+				b_birr = {
+					high_irish = "Biorra"
+					munsterian = "Biorra"
+					ulsterian = "Biorra"
+				}
+				b_edenderry = {
+					high_irish = "Eadan Doire"
+					munsterian = "Eadan Doire"
+					ulsterian = "Eadan Doire"
+				}
+				b_daingean = {
+					southener = "Phylipstown"
+					new_english = "Philipstown"
+				}
+				b_croghan = {
+					high_irish = "Conchruachain"
+					munsterian = "Conchruachain"
+					ulsterian = "Conchruachain"
+				}
+				b_blue_ball = {
+					high_irish = "Liathreid Ghorm"
+					munsterian = "Liathreid Ghorm"
+					ulsterian = "Liathreid Ghorm"
+				}
+				b_kilcormac = {
+					high_irish = "Cill Chormaic"
+					munsterian = "Cill Chormaic"
+					ulsterian = "Cill Chormaic"
+				}
+				b_shannonbridge = {
+					high_irish = "Droichead na Sionainne"
+					munsterian = "Droichead na Sionainne"
+					ulsterian = "Droichead na Sionainne"
+				}
+				b_bogtown = {
+
+				}
+			}
+			c_dublin = {
+				color={ 55 250 85 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Bhaile Atha Cliath"
+				munsterian = "Bhaile Atha Cliath"
+				ulsterian = "Bhaile Atha Cliath"
+				old_welsh = "Dublyn"
+				scouse = Ddubllyn
+				british = Ddublin
+				southener = Ddublyn
+				scots = "Blaklyn"
+				frencig = "Dublyn"
+				cornish = "Dulyn"
+				
+				holy_site = catholic
+				holy_site = sedevacantist
+				holy_site = cadaverist				
+				b_dublin = {
+					high_irish = "Bhaile Atha Cliath"
+					munsterian = "Bhaile Atha Cliath"
+					ulsterian = "Bhaile Atha Cliath"
+					old_welsh = Dulyn
+					scouse = Ddubllyn
+					british = Ddublin
+					southener = Ddublyn
+					cornish = "Dulyn"
+				}
+				b_clondalkin = {
+				}				
+				b_finglas = {
+					high_irish = "Fionnghlas"
+					munsterian = "Fionnghlas"
+					ulsterian = "Fionnghlas"
+				}
+				b_lucan = {
+					high_irish = "Leamhcin"
+					munsterian = "Leamhcin"
+					ulsterian = "Leamhcin"
+				}
+				b_ath_cliath = {
+					high_irish = "Baile atha Cliath"
+					munsterian = "Baile atha Cliath"
+					ulsterian = "Baile atha Cliath"
+				}
+				b_christ_church = {
+					high_irish = "Ardeaglais Chruost"
+					munsterian = "Ardeaglais Chruost"
+					ulsterian = "Ardeaglais Chruost"
+				}
+				b_mellifont = {
+					high_irish = "An Mhainistir Mhir"
+					munsterian = "An Mhainistir Mhir"
+					ulsterian = "An Mhainistir Mhir"
+				}
+				b_trim = {
+					high_irish = "Baile atha Troim"
+					munsterian = "Baile atha Troim"
+					ulsterian = "Baile atha Troim"
+				}
+			}
+			c_meath = {
+				color={ 50 255 70 }
+				color2={ 255 255 255 }
+				
+				high_irish= "Mi"
+				munsterian= "Mi"
+				ulsterian= "Mi"
+				scouse = Myaf
+				british = Meath
+				southener = Myath
+				holy_site = celtic_pagan_reformed
+				holy_site = celtic_pagan
+
+				b_tara_meath = {}
+				b_forradh = {}
+				b_knowth = {}
+				b_raith_laoghaire = {}
+				b_raith_na_seanadh = {}
+				b_saint_patricks = {}
+				b_ciannachta = {}
+				b_raith_na_riogh = {}
+			}
+			c_westmeath = {
+				color={ 45 250 90 }
+				color2={ 255 255 255 }
+				
+				high_irish= "Iarmhi"
+				munsterian= "Iarmhi"
+				ulsterian= "Iarmhi"
+				scouse = Wystmyaf
+				british = Westmeath
+				southener = Wystmyath
+				frencig = "Ouestmeath"
+
+				b_westmeath = {
+					high_irish= "Iarmhi"
+					munsterian= "Iarmhi"
+					ulsterian= "Iarmhi"
+					scouse = Wystmyaf
+					british = Westmeath
+					southener = Wystmyath
+					frencig = "Ouestmeath"
+				}
+				b_mullingar = {}
+				b_uisnech = {}
+				b_frewin = {
+					high_irish = "Fromainn"
+					munsterian = "Fromainn"
+					ulsterian = "Fromainn"
+				}
+				b_fir_cell = {}
+				b_cenel_fiachach = {}
+				b_tethba = {}
+			}
+		}
+		d_leinster = {
+			color={ 85 211 27 }
+			color2={ 255 255 255 }
+			
+			capital = 16 # Leinster
+			
+			norwegian = Veisafjord
+			swedish = Veisafjord
+			danish = Veisafjord
+			high_irish = "Laigin"
+			munsterian = "Laigin"
+			ulsterian = "Laigin"
+			scouse = Llyynstyr
+			british = Lleinsterh
+			southener = Lyynstyr
+			frencig = "Leynster"
+			
+			c_wexford = {
+				color={ 65 210 85 }
+				color2={ 255 255 255 }
+				
+				norwegian = Veisafjord
+				swedish = Veisafjord
+				danish = Veisafjord
+				high_irish = "Loch Garman"
+				munsterian = "Loch Garman"
+				ulsterian = "Loch Garman"
+				scouse = Wycksfwrdd
+				british = Wecksforhd
+				southener = Wyksfwrdd
+				frencig = "Ouecsford"
+				yola = "Weisforthe"
+	
+				b_wexford = {
+					norwegian = Veisafjord
+					swedish = Veisafjord
+					danish = Veisafjord
+					high_irish = "Loch Garman"
+					munsterian = "Loch Garman"
+					ulsterian = "Loch Garman"
+					scouse = Wycksfwrdd
+					british = Wecksforhd
+					southener = Wyksfwrdd
+					frencig = "Ouecsford"
+				}
+				b_leighlin = {
+					high_irish = "Leithghlinn"
+					munsterian = "Leithghlinn"
+					ulsterian = "Leithghlinn"
+				}
+				b_arklow = {
+					high_irish = "An tInbhear Mor"
+					munsterian = "An tInbhear Mor"
+					ulsterian = "An tInbhear Mor"
+				}
+				b_ballycanew = {
+					high_irish = "Baile Gan Uaigh"
+					munsterian = "Baile Gan Uaigh"
+					ulsterian = "Baile Gan Uaigh"
+				}
+				b_ferns = {
+					high_irish = "Fearna Mor Maedhog"
+					munsterian = "Fearna Mor Maedhog"
+					ulsterian = "Fearna Mor Maedhog"
+				}
+				b_gorey = {
+					high_irish = "Guaire"
+					munsterian = "Guaire"
+					ulsterian = "Guaire"
+				}
+				b_new_ross = {
+					high_irish = "Ros Mhic Thriein"
+					munsterian = "Ros Mhic Thriein"
+					ulsterian = "Ros Mhic Thriein"
+				}
+				b_enniscorthy = {
+					high_irish = "Inis Corthaidh"
+					munsterian = "Inis Corthaidh"
+					ulsterian = "Inis Corthaidh"
+				}
+			}
+
+			c_wicklow = {
+				color={ 65 210 85 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Cill Mhantain"
+				munsterian = "Cill Mhantain"
+				ulsterian = "Cill Mhantain"
+				scouse = Wyckllw
+				british = Wicklow
+				southener = Wycklw
+				frencig = "Ouicclow"
+	
+				b_wicklow = {
+					high_irish = "Cill Mhantain"
+					munsterian = "Cill Mhantain"
+					ulsterian = "Cill Mhantain"
+					scouse = Wyckllw
+					british = Wicklow
+					southener = Wycklw
+					frencig = "Ouicclow"
+				}
+				b_kilcoole = {
+					high_irish = "Cill Chomhghaill"
+					munsterian = "Cill Chomhghaill"
+					ulsterian = "Cill Chomhghaill"
+				}
+				b_glendalough = {
+					high_irish = "Gleann Da Loch"
+					munsterian = "Gleann Da Loch"
+					ulsterian = "Gleann Da Loch"
+				}
+				b_hollywood = {
+					high_irish = "Cillin Chaoimhin"
+					munsterian = "Cillin Chaoimhin"
+					ulsterian = "Cillin Chaoimhin"
+				}
+				b_ballinaclash = {
+					high_irish = "An Chlais"
+					munsterian = "An Chlais"
+					ulsterian = "An Chlais"
+				}
+				b_moyne = {
+					high_irish = "Maighin"
+					munsterian = "Maighin"
+					ulsterian = "Maighin"
+				}
+				b_avoca = {
+					high_irish = "Abheca"
+					munsterian = "Abheca"
+					ulsterian = "Abheca"
+				}
+				b_barndarrig = {
+					high_irish = "Bearna Dhearg"
+					munsterian = "Bearna Dhearg"
+					ulsterian = "Bearna Dhearg"
+				}
+				b_rathdrum = {
+					high_irish = "Rith Droma"
+					munsterian = "Rith Droma"
+					ulsterian = "Rith Droma"
+				}
+			}
+			c_kilkenny = {
+				color={ 60 210 80 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Cill Cainneach"
+				munsterian = "Cill Cainneach"
+				ulsterian = "Cill Cainneach"
+				scouse = Kyllkynny
+				british = Kilkenni
+				southener = Kylkynny
+				frencig = "Cylcenny"
+		
+				b_kilkenny = {
+					high_irish = "Cill Chainneach"
+					munsterian = "Cill Chainneach"
+					ulsterian = "Cill Chainneach"
+					scouse = Kyllkynny
+					british = Kilkenni
+					southener = Kylkynny
+					frencig = "Cylcenny"
+				}
+				b_gowran = {
+					high_irish = "Gabhren"
+					munsterian = "Gabhren"
+					ulsterian = "Gabhren"
+				}
+				b_clonmacnoise = {
+					high_irish = "Cluain Mhic Nois"
+					munsterian = "Cluain Mhic Nois"
+					ulsterian = "Cluain Mhic Nois"
+				}
+				b_aghaboe = {
+					high_irish = "Achadh Bhi"
+					munsterian = "Achadh Bhi"
+					ulsterian = "Achadh Bhi"
+				}
+				b_jerpoint = {
+					high_irish = "Sheireapein"
+					munsterian = "Sheireapein"
+					ulsterian = "Sheireapein"
+				}
+				b_callan = {
+					high_irish = "Callainn"
+					munsterian = "Callainn"
+					ulsterian = "Callainn"
+				}
+				b_grennan = {
+					high_irish = "An Ghrianan"
+					munsterian = "An Ghrianan"
+					ulsterian = "An Ghrianan"
+				}
+				b_grannagh = {
+					high_irish = "An Greannach"
+					munsterian = "An Greannach"
+					ulsterian = "An Greannach"
+				}
+			}
+			c_leix = {
+				color={ 60 200 90 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Lois"
+				munsterian = "Lois"
+				ulsterian = "Lois"
+				scouse = Llyycks
+				british = Lleicks
+				southener = Lyyks
+				frencig = "Leycs"
+
+				b_leix = {
+					high_irish = "Lois"
+					munsterian = "Lois"
+					ulsterian = "Lois"
+					scouse = Llyycks
+					british = Lleicks
+					southener = Lyyks
+					frencig = "Leycs"
+				}
+				b_loigis = {}
+				b_timahoe = {}
+				b_dun_masc = {}
+				b_dunamase = {}
+				b_mountrath = {}
+				b_ui_bainche = {}
+			}
+		}
+		d_munster = {
+			color={ 16 157 12 }
+			color2={ 255 255 255 }
+			
+			capital = 13 # Thomond
+			
+			norwegian = "Hlymrek"
+			danish = "Lymrek"
+			swedish = "Lymrek"
+			high_irish = "Mumhan"
+			munsterian = "Mumhan"
+			ulsterian = "Mumhan"
+			scouse = Munstyr
+			british = Munsterh
+			southener = Munstyr
+		
+			c_limerick = {
+				color={ 90 221 111 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Hlymrek"
+				danish = "Lymrek"
+				swedish = "Lymrek"
+				high_irish = "Luimneach"
+				munsterian = "Luimneach"
+				ulsterian = "Luimneach"
+				scouse = Llymyryck
+				british = Llimeric
+				southener = Lymyryck
+		
+				b_limerick = {
+					norwegian = "Hlymrek"
+					danish = "Lymrek"
+					swedish = "Lymrek"
+					high_irish = "Luimneach"
+					munsterian = "Luimneach"
+					ulsterian = "Luimneach"
+					scouse = Llymyryck
+					british = Llimeric
+					southener = Lymyryck
+				}
+				b_bunratty = {
+					high_irish = "Bun na Raite"
+					munsterian = "Bun na Raite"
+					ulsterian = "Bun na Raite"
+				}
+				b_killaloe = {
+					high_irish = "Cill Dilua"
+					munsterian = "Cill Dilua"
+					ulsterian = "Cill Dilua"
+				}
+				b_emly = {
+					high_irish = "Imleach Iubhair"
+					munsterian = "Imleach Iubhair"
+					ulsterian = "Imleach Iubhair"
+				}
+				b_ennis = {
+					high_irish = "Inis"
+					munsterian = "Inis"
+					ulsterian = "Inis"
+				}
+				b_kilfenora = {
+					high_irish = "Cill Fhionnorach"
+					munsterian = "Cill Fhionnorach"
+					ulsterian = "Cill Fhionnorach"
+				}
+				b_askeaton = {
+					high_irish = "Eas Geitine"
+					munsterian = "Eas Geitine"
+					ulsterian = "Eas Geitine"
+				}
+				b_adare = {
+				}
+			}
+			c_waterford = {
+				color={ 95 221 121 }
+				color2={ 255 255 255 }
+				
+				norwegian = Vedrafjord
+				swedish = Vedrafjord
+				danish = Vedrafjord
+				high_irish = "Port Lairge"
+				munsterian = "Port Lairge"
+				ulsterian = "Port Lairge"
+				scouse = Watyrfwrdd
+				british = Waterhforhd
+				southener = Watyrfwrdd
+				yola = "Watrforthe"
+				
+		
+				b_waterford = {
+					norwegian = Vedrafjord
+					swedish = Vedrafjord
+					danish = Vedrafjord
+					high_irish = "Port Lairge"
+					munsterian = "Port Lairge"
+					ulsterian = "Port Lairge"
+					scouse = Watyrfwrdd
+					british = Waterhforhd
+					southener = Watyrfwrdd			
+				}
+				b_cahir = {
+					high_irish = "Cathair Dhan Iascaigh"
+					munsterian = "Cathair Dhan Iascaigh"
+					ulsterian = "Cathair Dhan Iascaigh"
+				}
+				b_cashel = {
+					high_irish = "Dan Caiseal"
+					munsterian = "Dan Caiseal"
+					ulsterian = "Dan Caiseal"
+				}
+				b_clonmel = {
+					high_irish = "Cluain Meala"
+					munsterian = "Cluain Meala"
+					ulsterian = "Cluain Meala"
+				}
+				b_lismore = {
+					high_irish = "Lios Mor"
+					munsterian = "Lios Mor"
+					ulsterian = "Lios Mor"
+				}
+				b_roscrea = {
+					high_irish = "Ros Cre"
+					munsterian = "Ros Cre"
+					ulsterian = "Ros Cre"
+				}
+				b_nenagh = {
+					high_irish = "Aonach Urmhumhan"
+					munsterian = "Aonach Urmhumhan"
+					ulsterian = "Aonach Urmhumhan"
+				}
+				b_fethard = {
+					high_irish = "Fiodh Ard"
+					munsterian = "Fiodh Ard"
+					ulsterian = "Fiodh Ard"
+				}
+			}
+			c_tipperary_1 = {
+				color={ 100 221 90 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Tiobraid Árann"
+				munsterian = "Tiobraid Árann"
+				ulsterian = "Tiobraid Árann"
+		
+				b_tipperary_1 = {
+					high_irish = "Tiobraid Árann"
+					munsterian = "Tiobraid Árann"
+					ulsterian = "Tiobraid Árann"
+				}
+				b_cashel_1 = {
+					high_irish = "Caiseal"
+					munsterian = "Caiseal"
+					ulsterian = "Caiseal"
+				}
+				b_thurles_1 = {
+					high_irish = "Dúrlas Éile Ui Fhógartaigh"
+					munsterian = "Dúrlas Éile Ui Fhógartaigh"
+					ulsterian = "Dúrlas Éile Ui Fhógartaigh"
+				}
+				b_roscrea_1 = {
+					high_irish = "Ros Cré"
+					munsterian = "Ros Cré"
+					ulsterian = "Ros Cré"
+				}
+				b_holycross_1 = {
+					high_irish = "Mainistir na Croiche"
+					munsterian = "Mainistir na Croiche"
+					ulsterian = "Mainistir na Croiche"
+				}
+				b_templemore_1 = {
+					high_irish = "Teampall Mór"
+					munsterian = "Teampall Mór"
+					ulsterian = "Teampall Mór"
+				}
+				b_clonmel_1 = {
+					high_irish = "Cluain Meala"
+					munsterian = "Cluain Meala"
+					ulsterian = "Cluain Meala"
+				}
+			}
+			c_cork = {
+				color={ 100 221 90 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Corcaigh"
+				munsterian = "Corcaigh"
+				ulsterian = "Corcaigh"
+				scouse = Cwrk
+				british = Corhc
+				southener = Kwrk
+				frencig = "Corc"
+		
+				b_cork = {
+					high_irish = "Corcaigh"
+					munsterian = "Corcaigh"
+					ulsterian = "Corcaigh"
+					scouse = Cwrk
+					british = Corhc
+					southener = Kwrk
+					frencig = "Corc"
+				}
+				b_dunasead = {
+					high_irish = "Dan na Sead"
+					munsterian = "Dan na Sead"
+					ulsterian = "Dan na Sead"
+				}
+				b_clone = {
+				}
+				b_youghal = {
+					high_irish = "Eochaill"
+					munsterian = "Eochaill"
+					ulsterian = "Eochaill"
+				}
+				b_kilbrittain = {
+				}
+				b_cloyne = {
+					high_irish = "Cluain"
+					munsterian = "Cluain"
+					ulsterian = "Cluain"
+				}
+				b_fermoy = {
+					high_irish = "Mainistir Fhear Mo"
+					munsterian = "Mainistir Fhear Mo"
+					ulsterian = "Mainistir Fhear Mo"
+				}
+				b_blarney = {
+					high_irish = "An Bhlarna"
+					munsterian = "An Bhlarna"
+					ulsterian = "An Bhlarna"
+				}
+			}
+			c_iarmond = {
+				color={ 105 221 100 }
+				color2={ 255 255 255 }
+				
+				high_irish = "Ciarra"
+				munsterian = "Ciarra"
+				ulsterian = "Ciarra"
+				westlander = Kerry
+				southlander = Kerry
+				ulsterite = "Kerry"
+				scouse = Kyrry
+				british = Kerhrhi
+				southener = Kyrry
+				frencig = "Cerry"
+		
+				b_cahersiveen = {
+				}
+				b_innisfallen = {
+				}
+				b_ross = {
+					high_irish = "Ros a gCairbre"
+					munsterian = "Ros a gCairbre"
+					ulsterian = "Ros a gCairbre"
+				}
+				b_killarney = {
+				}
+				b_ardfert = {
+					high_irish = "Ard Fhearta"
+					munsterian = "Ard Fhearta"
+					ulsterian = "Ard Fhearta"
+				}
+				b_tralee = {
+				}
+				b_skellig = {
+				}
+			}
+		}
+	}
+}

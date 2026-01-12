@@ -1,0 +1,16 @@
+# 1792 - Kusbulak 
+
+# County Title
+title = c_kusbulak
+
+# Settlements
+max_settlements = 2
+b_kusbulak = tribal
+
+# Misc
+culture = karakalpak
+religion = ironist
+terrain = steppe
+
+
+# History

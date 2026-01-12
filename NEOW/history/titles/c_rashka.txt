@@ -1,0 +1,4 @@
+2510.10.26={
+holder=9994
+liege=d_vidin
+}

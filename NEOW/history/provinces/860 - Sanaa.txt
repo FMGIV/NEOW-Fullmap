@@ -1,0 +1,20 @@
+# 860 - Sanaa
+
+# County Title
+title = c_sanaa
+
+# Settlements
+max_settlements = 6
+b_amran = castle
+b_sanaa = temple
+b_qataba = city
+b_hodeida = castle
+
+#b_jabalannabishuayb = temple
+#b_jabaltiyal = castle
+
+# Misc
+culture = yemeni
+religion = zaydi
+
+# History

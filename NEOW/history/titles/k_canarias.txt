@@ -1,0 +1,27 @@
+100.1.1 = {
+  pentarch = b_roma
+}
+2385.5.7={
+	holder = 953 #Demetrio
+}
+2421.11.2={
+	holder = 954 #Felipe
+}
+2454.4.12={
+	holder = 955 #Sancho I
+}
+2460.1.19={
+	holder = 956 #Sancho II
+}
+2467.1.20={
+	holder = 957 #Sancho III
+}
+2479.8.21={
+	holder = 958 #Aaron
+}
+2518.12.25={
+	holder = 959 #Ramiro
+}
+2547.4.13={
+	holder = 949 #Sancho IV
+}

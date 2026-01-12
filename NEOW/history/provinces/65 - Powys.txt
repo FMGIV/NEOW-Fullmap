@@ -1,0 +1,23 @@
+# 65 - Powys
+
+# County Title
+title = c_powys
+
+# Settlements
+max_settlements = 4
+b_mathrafal = castle
+b_caersws = city
+b_llandinam = temple
+
+#b_llangollen = castle
+#b_glascwm = castle
+#b_montgomery = castle
+#b_radnor = city
+#b_guilsfield_powys = castle
+
+# Misc
+culture = old_welsh
+religion = thelemic_reformed
+terrain = mountain
+
+# History

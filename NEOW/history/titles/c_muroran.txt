@@ -1,0 +1,4 @@
+2540.6.20={
+	holder = 8079
+	liege = d_hakodate
+}

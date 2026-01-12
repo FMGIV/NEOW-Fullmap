@@ -1,0 +1,28 @@
+# 1685 - Himmersyssel
+
+# County Title
+title = c_himmersyssel
+
+# Settlements
+max_settlements = 3
+b_aalborg = castle
+b_viborg = city
+b_hadesundt = temple
+
+# Misc
+culture = danish
+religion = lutheran
+
+# History
+867.1.1 = {
+	b_aalborg = tb_shipyard_1
+}
+1000.1.1 = {
+	b_aalborg = castle
+	b_viborg = city
+	b_hadesundt = temple
+	
+	b_aalborg = ca_shipyard_1
+	b_viborg = ct_port_1
+}
+1282.1.1 = { trade_post = b_warendorp }

@@ -1,0 +1,22 @@
+# 67 - Warwick
+
+# County Title
+title = c_warwick
+
+# Settlements
+max_settlements = 4
+b_pershore = castle
+b_lichfield = castle
+b_castleton = temple
+b_tamworth = city
+
+#b_tutbury = castle
+#b_coventry = temple
+#b_kenilworth = castle
+#b_droitwich = castle
+
+# Misc
+culture = british
+religion = thelemic_reformed
+
+# History

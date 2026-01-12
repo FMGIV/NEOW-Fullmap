@@ -1,0 +1,4 @@
+2553.12.25={
+	holder=1123
+	liege = d_jibal
+}

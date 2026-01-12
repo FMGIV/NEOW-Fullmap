@@ -1,0 +1,13 @@
+# 1620 - Romerike
+
+# County Title 
+title = c_romerike
+
+max_settlements = 3
+
+b_jessheim = tribal
+
+
+# Misc
+culture = norwegian
+religion = vagarna

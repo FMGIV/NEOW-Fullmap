@@ -1,0 +1,4 @@
+2550.1.8={
+	holder = 4171
+	liege = k_tajikistan
+}

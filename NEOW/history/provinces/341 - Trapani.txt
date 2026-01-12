@@ -1,0 +1,22 @@
+# 341 - Trapani
+
+# County Title
+title = c_trapani
+
+# Settlements
+max_settlements = 5
+b_trapani = castle
+b_mazara = temple
+b_marsala = city
+
+#b_sanguiseppelato = castle 
+#b_castelvertrano = castle
+#b_santaninfa = castle 
+#b_erice = city
+#b_alcarno = castle
+
+# Misc
+culture = sicilian
+religion = catholic
+
+# History

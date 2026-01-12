@@ -1,0 +1,17 @@
+# County Title
+title = c_monyul
+
+# Settlements
+max_settlements = 5
+
+b_tawang = tribal
+#b_itanagar = city
+b_sepla = temple
+#b_bameng = {
+#b_bomdila = {
+#b_koloriang = {
+#b_joram = {
+
+# Misc
+culture = adi # Monpa
+religion = donyipolo

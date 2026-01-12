@@ -1,0 +1,4 @@
+2554.8.20={
+	holder=4255
+	liege = d_armenia_minor
+}

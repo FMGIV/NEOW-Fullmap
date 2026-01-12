@@ -1,0 +1,14 @@
+# 1798 - Almaliq 
+
+# County title
+title = c_almaliq
+
+# Settlements
+max_settlements = 4
+b_almaliq = castle
+b_xinyuan = temple
+
+# Misc
+culture = xibe
+religion = gelugpa
+terrain = mountain

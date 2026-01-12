@@ -1,0 +1,4 @@
+2537.1.12={
+	law = succ_oligarchic_elective
+	holder=10111 #Damodar Mohdey of Gujarat
+}

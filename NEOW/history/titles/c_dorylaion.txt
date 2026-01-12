@@ -1,0 +1,5 @@
+2554.9.10={
+	holder=4266
+	law = succ_oligarchic_elective
+	liege=k_turkey
+}

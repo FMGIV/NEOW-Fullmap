@@ -1,0 +1,4 @@
+2550.1.1={
+	holder=1200
+	liege = c_hebron
+}

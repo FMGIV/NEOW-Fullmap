@@ -1,0 +1,5 @@
+
+2552.7.25={
+	holder=2044 
+	liege=k_poland
+}

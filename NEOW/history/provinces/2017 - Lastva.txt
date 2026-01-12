@@ -1,0 +1,17 @@
+# 2017 - Lastva
+
+# County Title
+title = c_lastva
+
+# Settlements
+max_settlements = 4
+b_kotor = castle
+b_bar = city
+b_tivat = temple
+
+
+# Misc
+culture = montenegrin
+religion = orthodox
+
+# History

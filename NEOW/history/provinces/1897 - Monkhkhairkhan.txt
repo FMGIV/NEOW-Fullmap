@@ -1,0 +1,12 @@
+# 1897 - Mönkh Khairkhan
+
+# County Title
+title = c_monkh_khairkhan
+
+# Settlements
+max_settlements = 2
+b_monkh_khairkhan = tribal
+
+# Misc
+culture = oirat
+religion = ironist

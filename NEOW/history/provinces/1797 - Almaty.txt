@@ -1,0 +1,19 @@
+# 1797 - Almaty
+
+# County title 
+title = c_almaty
+
+# Settlements
+max_settlements = 6
+
+b_almaty_saryesik = castle
+b_kapchagai = city
+b_kargal = city
+b_saryesik = temple
+#b_karaoy_almaty = {}
+#b_koktal_almaty = {}
+#b_akzhar_almaty = {}
+
+# Misc
+culture = koryo_saram
+religion = orthodox

@@ -1,0 +1,20 @@
+# 173 - Tarragona
+
+# County Title
+title = c_tarragona
+
+# Settlements
+max_settlements = 5
+b_tarragona = castle
+b_spantortosa = city
+b_reus = temple
+#b_cambrils = city
+#b_montblanc = castle
+#b_amposta = castle
+#b_vendrell = city
+#b_sancugat = temple
+
+# Misc
+culture = catalan
+religion = sevillian
+terrain = karst

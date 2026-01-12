@@ -1,0 +1,24 @@
+# 216 - Perigord
+
+# County Title
+title = c_perigord
+
+# Settlements
+max_settlements = 4
+
+b_perigueux = castle
+b_bergerac = city
+b_baneuil = temple
+
+#b_sarlat = castle
+#b_chancelade = temple
+#b_auberoche = castle
+#b_bergerac = city
+#b_biron = castle
+#b_bonaguil = castle
+
+#Misc
+religion = novelist
+culture = occitan
+
+# History

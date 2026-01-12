@@ -1,0 +1,22 @@
+# 100 - Avranches
+
+# County Title
+title = c_avranches
+
+# Settlements
+max_settlements = 5
+
+b_cherbourg = castle
+b_barfleur = city
+b_mortain = temple
+
+#b_avranches
+#b_coutances
+#b_carentan
+#b_barneville-carteret
+
+# Misc
+culture = norman
+religion = orleanist
+
+# History

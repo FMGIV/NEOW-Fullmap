@@ -1,0 +1,1593 @@
+2677 ={ 	
+    name="Sándor"
+	father=2685
+	dynasty=25554010
+	religion="catholic"
+	culture="hungarian"
+	diplomacy=9
+	martial=3
+	stewardship=9
+	intrigue=5
+	learning=0
+	trait="naive_appeaser"
+	trait="wroth"
+	trait="envious"
+	trait="greedy"
+	trait="ambitious"		
+	2499.9.13={
+		birth=yes
+        effect = {
+		    add_weak_claim = d_pecs
+		    add_weak_claim = d_tiszantul
+        }
+	}	
+	2549.7.18={
+		effect = {
+			add_artifact = crown_hungary
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2678 ={ 	
+    name="József" 
+	dynasty=36503094
+	father=2702
+	religion="catholic"
+	culture="hungarian"
+	diplomacy=8
+	martial=6
+	stewardship=9
+	intrigue=5
+	learning=3
+	trait="misguided_warrior"
+	trait="lustful"
+	trait="brave"
+	trait="paranoid"
+	trait="humble"	
+	2512.9.13={
+		birth=yes	
+        effect = {
+		    add_weak_claim = d_pest
+		    add_weak_claim = c_pest
+		    add_weak_claim = d_tiszantul
+        }
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+2679 ={ 	
+    name="Ferenc" 
+	dynasty=57
+	religion="catholic"
+	culture="hungarian"
+	2514.9.13={
+		birth=yes		
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2680 ={ 	
+    name="Egyed" 
+	dynasty=25554042
+	religion="catholic"
+	culture="hungarian"
+	diplomacy=7
+	martial=0
+	stewardship=5
+	intrigue=6
+	learning=9
+	trait="intricate_webweaver"
+	trait="lustful"
+	trait="fair"
+	trait="wroth"
+	trait="deceitful"
+	2518.8.14={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2681 = {
+	name="Anika"
+	dynasty=0
+	female=yes
+	religion="orthodox"
+	culture="hungarian"
+	diplomacy=6
+	martial=4
+	stewardship=1
+	intrigue=6
+	learning=0
+	trait="underhanded_rogue"
+	trait="fair"
+	trait="kind"
+	trait="trusting"
+	trait="falconer"
+	2528.10.7={
+		birth=yes
+	}
+	2552.1.16={
+		employer=3783
+		effect={
+			add_lover=3783
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2682={
+	name="Mózes"
+	dynasty=36503060
+	religion="catholic"
+	culture="szekely"
+	trait="skilled_tactician"
+	trait="charitable"
+	trait="wroth"
+	2487.2.13={
+		birth=yes
+	}
+	2537.12.5={
+		death={
+			death_reason=death_execution_impaling
+			killer=3778
+		}
+	}
+}
+
+2683={
+	name="Lukács"
+	father=2682
+	dynasty=36503060
+	religion="catholic"
+	culture="szekely"
+	trait="fortune_builder"
+	trait="zealous"
+	trait="envious"
+	trait="fair"
+	2511.1.17={
+		birth=yes
+		add_claim=c_szekelyfold
+	}
+	2537.12.5={
+		effect={
+			opinion = {
+				modifier = opinion_killed_father
+				who = 3778
+				years = 100
+			}
+			opinion = {
+				modifier = grievously_offended
+				who = 3778
+				years = 10
+			}
+		}
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2684={
+	name="Tamás"
+	father=2682
+	dynasty=36503060
+	religion="novelist"
+	culture="szekely"
+	trait="tough_soldier"
+	trait="lunatic"
+	trait="wroth"
+	trait="architect"
+	trait="trusting"
+	2518.2.24={
+		birth=yes
+		add_claim=c_szekelyfold
+	}
+	2537.12.5={
+		effect={
+			opinion = {
+				modifier = opinion_killed_father
+				who = 3778
+				years = 100
+			}
+		}
+		employer=3778
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+2685={
+	name="József"
+	father=2688
+	culture="hungarian"
+	religion="catholic"
+	dynasty=25554010
+	trait="depressed"
+	trait="midas_touched"
+	trait="just"
+	trait="paranoid"
+	trait="is_malnourished"
+	2472.3.4={
+		birth=yes
+	}
+	2548.8.14={
+		death={
+			death_reason=death_suicide_fall
+		}
+		give_nickname=nick_the_hollow
+	}
+}
+2686={
+    name="Tódor"
+	father=2685
+    culture="hungarian"
+    religion="catholic"
+	dynasty=25554010
+    diplomacy=5
+    martial=9
+    stewardship=4
+    intrigue=0
+    learning=2
+    trait="fortune_builder"
+	trait="siege_leader"
+	trait="paranoid"
+	trait="brave"
+	trait="kind"
+    2512.1.21={
+        birth=yes
+		add_claim=d_pest
+    }
+    2557.2.4={
+        death=yes
+    }
+}
+2687={
+    name="Gusztáv"
+	father=2677
+    culture="hungarian"
+    religion="catholic"
+	dynasty=25554010
+    diplomacy=2
+    martial=8
+    stewardship=5
+    intrigue=2
+    learning=10
+    trait="martial_cleric"
+	trait="proud"
+	trait="arbitrary"
+	trait="cruel"
+    2536.1.28={
+        birth=yes
+    }
+    2568.9.4={
+        death=yes
+    }
+}
+2688={
+    name="Lampert"
+	father=2720
+    culture="hungarian"
+    religion="catholic"
+	dynasty=25554010
+    diplomacy=6
+    martial=3
+    stewardship=2
+    intrigue=2
+    learning=3
+    trait="fortune_builder"
+	trait="gregarious"
+	trait="kind"
+	trait="diligent"
+    2448.6.23={
+        birth=yes
+    }
+    2474.1.6={
+        death=yes
+    }
+}
+2689={
+    name="Lukács"
+	father=2690
+    culture="hungarian"
+    religion="catholic"
+	dynasty=36503085
+    diplomacy=8
+    martial=6
+    stewardship=5
+    intrigue=6
+    learning=9
+    trait="thrifty_clerk"
+	trait="wroth"
+	trait="just"
+	trait="trusting"
+	trait="legit_bastard"
+    2512.11.4={
+        birth=yes
+		add_claim=c_heves
+    }
+	2541.3.25={
+		add_spouse=2704
+	}
+    2577.8.11={
+        death=yes
+    }
+}
+2690={
+    name="Márk"
+	father=2695
+	mother=2694
+    culture="hungarian"
+    religion="catholic"
+	dynasty=36503085
+    diplomacy=0
+    martial=0
+    stewardship=3
+    intrigue=2
+    learning=7
+    trait="fortune_builder"
+	trait="legit_bastard"
+	trait="twin"
+	trait="brave"
+	trait="trusting"
+	trait="erudite"
+    2484.8.31={
+        birth=yes
+    }
+    2528.1.28={
+        death={
+			death_reason=death_vanished killer=2698
+		}
+    }
+}
+2691={
+    name="Stefánia"
+	father=2690
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503085"
+	female=yes
+    diplomacy=5
+    martial=10
+    stewardship=3
+    intrigue=8
+    learning=2
+    trait="misguided_warrior"
+	trait="deceitful"
+	trait="legit_bastard"
+	trait="wroth"
+	trait="proud"
+    2515.4.11={
+        birth=yes
+    }
+    2537.3.3={
+		death={
+			death_reason=death_childbirth
+		}
+    }
+}
+2692={
+    name="Anikó"
+	father=2695
+	mother=2694
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503085"
+	female=yes
+    diplomacy=9
+    martial=7
+    stewardship=8
+    intrigue=5
+    learning=1
+	trait="legit_bastard"
+    trait="underhanded_rogue"
+	trait="twin"
+	trait="greedy"
+	trait="proud"
+	trait="content"
+    2484.8.31={
+        birth=yes
+    }
+    2505.2.20={
+        death=yes
+    }
+}
+2693={
+    name="Szabina"
+	father=2685
+    culture="hungarian"
+    religion="catholic"
+    dynasty="25554010"
+	female=yes
+    diplomacy=2
+    martial=1
+    stewardship=7
+    intrigue=6
+    learning=2
+    trait="skilled_tactician"
+	trait="trusting"
+	trait="lustful"
+	trait="zealous"
+    2494.6.30={
+        birth=yes
+    }
+    2538.4.25={
+        death=yes
+    }
+}
+2694={
+    name="Gyöngyi"
+	father=2688
+    culture="hungarian"
+    religion="catholic"
+    dynasty="25554010"
+	female=yes
+    diplomacy=9
+    martial=1
+    stewardship=2
+    intrigue=7
+    learning=3
+    trait="grey_eminence"
+	trait="charitable"
+	trait="just"
+	trait="paranoid"
+    2466.2.14={
+        birth=yes
+    }
+    2484.8.31={
+		death={
+			death_reason=death_childbirth
+		}
+    }
+}
+2695={
+    name="Kázmér"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503085"
+    diplomacy=6
+    martial=2
+    stewardship=4
+    intrigue=0
+    learning=6
+    trait="intricate_webweaver"
+	trait="content"
+	trait="diligent"
+	trait="wroth"
+    2452.12.3={
+        birth=yes
+    }
+    2489.7.9={
+        death=yes
+    }
+}
+2696={
+    name="Vince"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=8
+    martial=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    trait="skilled_tactician"
+	trait="greedy"
+	trait="proud"
+	trait="arbitrary"
+    2453.1.26={
+        birth=yes
+    }
+    2501.3.3={
+        death=yes
+    }
+}
+2697={
+    name="Károly"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=10
+    martial=7
+    stewardship=3
+    intrigue=1
+    learning=5
+    trait="martial_cleric"
+	trait="hedonist"
+	trait="craven"
+	trait="stubborn"
+	trait="paranoid"
+    2508.10.24={
+        birth=yes
+    }
+    2548.2.9={
+        death=yes
+		give_nickname=nick_the_wicked
+    }
+}
+2698={
+    name="Emil"
+	father=2706
+	mother=2701
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+    diplomacy=0
+    martial=1
+    stewardship=3
+    intrigue=5
+    learning=0
+    trait="indulgent_wastrel"
+	trait="mystic"
+	trait="humble"
+	trait="deceitful"
+	trait="envious"
+	trait="disfigured"
+    2497.8.29={
+        birth=yes
+    }
+    2528.1.28={
+        death={
+			death_reason=death_vanished killer=2698
+		}
+		give_nickname=nick_of_a_thousand_faces
+    }
+}
+2699={
+    name="Emília"
+	father=2706
+	mother=2701
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+	female=yes
+    diplomacy=5
+    martial=6
+    stewardship=4
+    intrigue=4
+    learning=8
+    trait="scholarly_theologian"
+	trait="genius"
+	trait="envious"
+	trait="cruel"
+	trait="wroth"
+    2481.5.10={
+        birth=yes
+    }
+    2548.4.14={
+        death=yes
+    }
+}
+2700={
+    name="Benett"
+	father=2702
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+    diplomacy=8
+    martial=1
+    stewardship=5
+    intrigue=1
+    learning=4
+    trait="indulgent_wastrel"
+	trait="stutter"
+	trait="trusting"
+	trait="proud"
+	trait="slothful"
+    2528.3.26={
+        birth=yes
+		#add_claim=d_pecs
+    }
+    2561.7.4={
+        death=yes
+    }
+}
+2701={
+    name="Dorina"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+	female=yes
+    diplomacy=6
+    martial=1
+    stewardship=1
+    intrigue=6
+    learning=9
+    trait="detached_priest"
+	trait="hedonist"
+	trait="experimenter"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="brave"
+    2455.5.11={
+        birth=yes
+    }
+	2478.3.1={
+		add_spouse=2706
+	}
+    2500.6.3={
+        death=yes
+    }
+}
+2702={
+    name="Pista"
+	father=2706
+	mother=2701
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+    diplomacy=3
+    martial=7
+    stewardship=0
+    intrigue=8
+    learning=0
+    trait="detached_priest"
+	trait="stutter"
+	trait="greedy"
+	trait="kind"
+	trait="cynical"
+    2483.4.10={
+        birth=yes
+    }
+    2529.8.16={
+        death=yes
+    }
+}
+2703={
+    name="Terézia"
+	father=2706
+	mother=2701
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+	female=yes
+    diplomacy=9
+    martial=4
+    stewardship=4
+    intrigue=9
+    learning=4
+    trait="charismatic_negotiator"
+	trait="charitable"
+	trait="deceitful"
+	trait="shy"
+    2479.7.14={
+        birth=yes
+    }
+    2515.2.11={
+        death=yes
+    }
+}
+2704={
+    name="Eleonóra"
+	father=2698
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+	female=yes
+    diplomacy=2
+    martial=7
+    stewardship=10
+    intrigue=10
+    learning=5
+    trait="detached_priest"
+	trait="greedy"
+	trait="lustful"
+	trait="gregarious"
+    2518.9.27={
+        birth=yes
+    }
+	2541.3.25={
+		add_spouse=2689
+	}
+    2543.10.12={
+        death=yes
+    }
+}
+2705={
+    name="Dominik"
+	father=2689
+	mother=2704
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503085"
+    diplomacy=2
+    martial=8
+    stewardship=6
+    intrigue=8
+    learning=10
+    trait="grey_eminence"
+	trait="schemer"
+	trait="hunchback"
+	trait="patient"
+	trait="zealous"
+	trait="temperate"
+    2543.6.23={
+        birth=yes
+		effect={
+			add_weak_claim=c_fejer
+		}
+    }
+    2578.6.10={
+        death=yes
+    }
+}
+2706={
+    name="Lehel"
+	mother=2723
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+    diplomacy=6
+    martial=8
+    stewardship=6
+    intrigue=2
+    learning=7
+    trait="detached_priest"
+	trait="stutter"
+	trait="shy"
+	trait="content"
+	trait="greedy"
+    2461.9.24={
+        birth=yes
+    }
+	2478.3.1={
+		add_spouse=2701
+	}
+    2498.7.17={
+        death=yes
+    }
+}
+
+2707={
+    name="Konstantin"
+	father=2714
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=9
+    martial=1
+    stewardship=3
+    intrigue=0
+    learning=2
+    trait="tough_soldier"
+	trait="schemer"
+	trait="patient"
+	trait="arbitrary"
+	trait="diligent"
+	trait="history_22660079"
+    2325.4.6={
+        birth=yes
+    }
+	2349.7.3={
+		add_spouse=4348
+	}
+    2398.8.15={
+        death=yes
+    }
+}
+2708={
+    name="András"
+	father=2716
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=2
+    martial=4
+    stewardship=7
+    intrigue=9
+    learning=8
+    trait="martial_cleric"
+	trait="temperate"
+	trait="zealous"
+	trait="lustful"
+    2257.6.8={
+        birth=yes
+    }
+    2272.10.17={
+        death=yes
+    }
+}
+2709={
+    name="Hunor"
+	father=2707
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=10
+    martial=8
+    stewardship=5
+    intrigue=2
+    learning=8
+    trait="scholarly_theologian"
+	trait="gregarious"
+	trait="kind"
+	trait="erudite"
+    2362.8.15={
+        birth=yes
+    }
+    2424.10.11={
+        death={
+			death_reason=death_battle
+			killer=2713
+		}
+		give_nickname=nick_the_gentle
+    }
+}
+2710={
+    name="Krisztián"
+	father=2718
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=7
+    martial=10
+    stewardship=0
+    intrigue=2
+    learning=10
+    trait="skilled_tactician"
+	trait="hunchback"
+	trait="envious"
+	trait="arbitrary"
+	trait="humble"
+    2303.6.6={
+        birth=yes
+    }
+    2355.6.25={
+        death=yes
+    }
+}
+2711={
+    name="Szabolcs"
+	father=2709
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=10
+    martial=10
+    stewardship=5
+    intrigue=2
+    learning=8
+    trait="naive_appeaser"
+	trait="gluttonous"
+	trait="trusting"
+	trait="craven"
+    2395.10.14={
+        birth=yes
+    }
+    2412.8.24={
+        death={
+			death_reason=death_murder_fall
+			killer=2713
+		}
+    }
+}
+2712={
+    name="Márton"
+	father=2707
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=10
+    martial=4
+    stewardship=1
+    intrigue=1
+    learning=9
+    trait="thrifty_clerk"
+	trait="trickster"
+	trait="wroth"
+	trait="temperate"
+	trait="deceitful"
+    2376.2.22={
+        birth=yes
+    }
+    2406.11.16={
+        death=yes
+    }
+}
+2713={
+    name="Balázs"
+	father=2712
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=3
+    martial=7
+    stewardship=1
+    intrigue=1
+    learning=10
+    trait="intricate_webweaver"
+	trait="arbitrary"
+	trait="humble"
+	trait="ambitious"
+	trait="kinslayer"
+	trait="excommunicated"
+    2392.7.24={
+        birth=yes
+    }
+    2452.12.19={
+        death=yes
+		give_nickname=nick_the_black
+    }
+}
+2714={
+    name="Gáspár"
+	father=2719
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=8
+    martial=10
+    stewardship=10
+    intrigue=1
+    learning=10
+    trait="thrifty_clerk"
+	trait="scholar"
+	trait="humble"
+	trait="zealous"
+	trait="gregarious"
+    2315.11.28={
+        birth=yes
+    }
+    2347.7.25={
+        death=yes
+    }
+}
+2715={
+    name="Józsua"
+	father=2707
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=8
+    martial=4
+    stewardship=9
+    intrigue=3
+    learning=5
+    trait="underhanded_rogue"
+	trait="honest"
+	trait="patient"
+	trait="gregarious"
+    2395.4.29={
+        birth=yes
+    }
+    2428.1.2={
+        death=yes
+    }
+}
+2716={
+    name="Szilárd"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=2
+    martial=8
+    stewardship=4
+    intrigue=7
+    learning=7
+    trait="indulgent_wastrel"
+	trait="envious"
+	trait="gluttonous"
+	trait="erudite"
+    2240.10.2={
+        birth=yes
+    }
+    2278.3.11={
+        death=yes
+    }
+}
+2717={
+    name="Lajos"
+	father=2710
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=6
+    martial=7
+    stewardship=8
+    intrigue=5
+    learning=6
+    trait="mastermind_theologian"
+	trait="cavalry_leader"
+	trait="diligent"
+	trait="charitable"
+	trait="brave"
+	trait="kind"
+	disallow_random_traits=no
+    2349.9.30={
+        birth=yes
+    }
+    2371.11.13={
+        death=yes
+		trait=saint
+		give_nickname=nick_the_magnanimous
+    }
+}
+2718={
+    name="Bence"
+	father=2716
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=6
+    martial=0
+    stewardship=5
+    intrigue=8
+    learning=10
+    trait="misguided_warrior"
+	trait="holy_warrior"
+	trait="humble"
+	trait="cruel"
+	trait="deceitful"
+    2268.4.20={
+        birth=yes
+    }
+    2312.5.9={
+        death=yes
+		give_nickname=nick_the_cruel
+    }
+}
+2719={
+    name="Kázmér"
+	father=2716
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+    diplomacy=1
+    martial=7
+    stewardship=2
+    intrigue=9
+    learning=3
+    trait="skilled_tactician"
+	trait="trickster"
+	trait="gluttonous"
+	trait="honest"
+	trait="humble"
+    2272.2.2={
+        birth=yes
+    }
+    2332.10.6={
+        death=yes
+    }
+}
+2720={
+    name="Attila"
+	father=2715
+    culture="hungarian"
+    religion="catholic"
+    dynasty="25554010"
+    diplomacy=8
+    martial=7
+    stewardship=7
+    intrigue=1
+    learning=6
+    trait="skilled_tactician"
+	trait="shy"
+	trait="wroth"
+	trait="trusting"
+	trait="bastard"
+    2414.4.10={
+        birth=yes
+    }
+    2462.10.12={
+        death=yes
+    }
+}
+2721={
+    name="Etelka"
+	father=2717
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503092"
+	female=yes
+    diplomacy=8
+    martial=8
+    stewardship=2
+    intrigue=0
+    learning=0
+    trait="naive_appeaser"
+	trait="lisp"
+	trait="shy"
+	trait="craven"
+	trait="diligent"
+    2365.10.28={
+        birth=yes
+    }
+	2389.1.14={
+		add_spouse=2722
+	}
+    2430.9.8={
+        death=yes
+    }
+}
+2722={
+    name="Fülöp"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+    diplomacy=6
+    martial=10
+    stewardship=5
+    intrigue=10
+    learning=6
+    trait="indulgent_wastrel"
+	trait="ambitious"
+	trait="charitable"
+	trait="diligent"
+    2356.6.8={
+        birth=yes
+    }
+	2389.1.14={
+		add_spouse=2721
+	}
+    2416.9.25={
+        death=yes
+    }
+}
+2723={
+    name="Izabella"
+	father=2724
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+	female=yes
+    diplomacy=1
+    martial=10
+    stewardship=2
+    intrigue=0
+    learning=9
+    trait="charismatic_negotiator"
+	trait="socializer"
+	trait="erudite"
+	trait="cynical"
+	trait="honest"
+    2447.4.23={
+        birth=yes
+    }
+    2467.6.5={
+        death=yes
+    }
+}
+2724={
+    name="Péter"
+	father=2722
+	mother=2721
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+    diplomacy=7
+    martial=8
+    stewardship=7
+    intrigue=3
+    learning=9
+    trait="naive_appeaser"
+	trait="hunchback"
+	trait="just"
+	trait="gregarious"
+	trait="trusting"
+    2398.7.22={
+        birth=yes
+    }
+    2461.8.2={
+        death=yes
+    }
+}
+2725={
+    name="Árpád"
+	father=2722
+	mother=2721
+    culture="hungarian"
+    religion="catholic"
+    dynasty="36503094"
+    diplomacy=0
+    martial=9
+    stewardship=8
+    intrigue=8
+    learning=9
+    trait="detached_priest"
+	trait="zealous"
+	trait="temperate"
+	trait="proud"
+    2409.4.18={
+        birth=yes
+    }
+    2443.11.1={
+        death=yes
+    }
+}
+2726={
+    name="Lóránt"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=0
+    martial=3
+    stewardship=7
+    intrigue=10
+    learning=7
+    trait="indulgent_wastrel"
+	trait="humble"
+	trait="slothful"
+	trait="just"
+    2414.1.12={
+        birth=yes
+    }
+    2446.7.3={
+        death=yes
+    }
+}
+2727={
+    name="Szebastián"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=6
+    martial=8
+    stewardship=9
+    intrigue=2
+    learning=6
+    trait="mastermind_theologian"
+	trait="strategist"
+	trait="shy"
+	trait="diligent"
+	trait="envious"
+    2299.4.26={
+        birth=yes
+    }
+    2349.10.26={
+        death=yes
+    }
+}
+2728={
+    name="Ádám"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=1
+    martial=1
+    stewardship=1
+    intrigue=10
+    learning=8
+    trait="underhanded_rogue"
+	trait="organizer"
+	trait="stubborn"
+	trait="shy"
+	trait="cynical"
+    2384.7.17={
+        birth=yes
+    }
+    2436.1.2={
+        death=yes
+    }
+}
+2729={
+    name="Krisztián"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=6
+    martial=1
+    stewardship=4
+    intrigue=7
+    learning=7
+    trait="grey_eminence"
+	trait="genius"
+	trait="experimenter"
+	trait="inspiring_leader"
+	trait="patient"
+	trait="lustful"
+	trait="slothful"
+    2271.7.9={
+        birth=yes
+    }
+    2312.3.24={
+        death=yes
+    }
+}
+2730={
+    name="Izsák"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=10
+    martial=3
+    stewardship=0
+    intrigue=1
+    learning=9
+    trait="amateurish_plotter"
+	trait="content"
+	trait="chaste"
+	trait="gregarious"
+    2343.1.12={
+        birth=yes
+    }
+    2401.5.17={
+        death=yes
+    }
+}
+2731={
+    name="Fülöp"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=7
+    martial=6
+    stewardship=6
+    intrigue=5
+    learning=7
+    trait="thrifty_clerk"
+	trait="wroth"
+	trait="lustful"
+	trait="slothful"
+	trait="drunkard"
+    2414.3.14={
+        birth=yes
+    }
+    2443.7.27={
+        death=yes
+		give_nickname=nick_the_drunkard
+    }
+}
+2732={
+    name="Lorinc"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=10
+    martial=5
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait="martial_cleric"
+	trait="lefthanded"
+	trait="lustful"
+	trait="arbitrary"
+	trait="shy"
+    2325.3.9={
+        birth=yes
+    }
+    2366.2.12={
+        death=yes
+    }
+}
+2733={
+    name="Kristóf"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=8
+    martial=5
+    stewardship=3
+    intrigue=6
+    learning=5
+    trait="tough_soldier"
+	trait="zealous"
+	trait="content"
+	trait="gregarious"
+    2249.3.14={
+        birth=yes
+    }
+    2289.9.21={
+        death=yes
+    }
+}
+2734={
+    name="Ambrus"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=0
+    martial=8
+    stewardship=0
+    intrigue=8
+    learning=2
+    trait="fortune_builder"
+	trait="chaste"
+	trait="stubborn"
+	trait="humble"
+	trait="stutter"
+	disallow_random_traits=no
+    2200.12.4={
+        birth=yes
+    }
+    2257.3.30={
+        death=yes
+		trait=saint
+		give_nickname=nick_the_venerable
+    }
+}
+2735={
+    name="Gáspár"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=6
+    martial=10
+    stewardship=3
+    intrigue=6
+    learning=8
+    trait="mastermind_theologian"
+	trait="kind"
+	trait="erudite"
+	trait="just"
+	trait="brave"
+    2401.6.13={
+        birth=yes
+    }
+    2464.11.18={
+        death=yes
+		give_nickname=nick_the_fearless
+    }
+}
+2736={
+    name="Gábriel"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="0"
+    diplomacy=9
+    martial=0
+    stewardship=1
+    intrigue=1
+    learning=1
+    trait="thrifty_clerk"
+	trait="gregarious"
+	trait="content"
+	trait="diligent"
+    2428.3.12={
+        birth=yes
+    }
+    2472.1.21={
+        death=yes
+    }
+}
+2737={
+	name="Lajos"
+	religion="catholic"
+	culture="hungarian"
+	dynasty="36503000"
+	diplomacy="3"
+	martial="5"
+	stewardship="7"
+	intrigue="5"
+	learning="4"
+	trait="fortune_builder"
+	trait="hunter"
+	trait="strong"
+	trait="content"
+	trait="kind"
+	2432.11.13={
+        birth=yes
+	}
+	2461.6.27={
+        death=yes
+	}
+}
+2738={
+	name="Nimród"
+	father="2737"
+	religion="mesopotamian"
+	culture="hungarian"
+	dynasty="36503000"
+	diplomacy="2"
+	martial="2"
+	stewardship="2"
+	intrigue="8"
+	learning="9"
+	trait="mastermind_theologian"
+	trait="mystic"
+	trait="paranoid"
+	trait="shrewd"
+	trait="gregarious"
+	trait="strong"
+	trait="emul_nimrod"
+	2450.1.31={
+        birth=yes
+	}
+	2532.12.15={
+        death={ death_reason = death_left_the_earth }
+	}
+}
+2739={
+	name="Keve"
+	father="2738"
+	religion="mesopotamian"
+	culture="hungarian"
+	dynasty="36503000"
+	diplomacy="6"
+	martial="6"
+	stewardship="4"
+	intrigue="2"
+	learning="2"
+	trait="skilled_tactician"
+	trait="kind"
+	trait="charitable"
+	trait="paranoid"
+	trait="emul_nimrod"
+	2481.5.1={
+        birth=yes
+	}
+	2535.10.23={
+        death={ death_reason = death_duel killer = 4119 }
+	}
+}
+2740={
+	name="Harcs"
+	father="2738"
+	religion="mesopotamian"
+	culture="hungarian"
+	dynasty="36503000"
+	diplomacy="5"
+	martial="1"
+	stewardship="4"
+	intrigue="5"
+	learning="2"
+	trait="martial_cleric"
+	trait="depressed"
+	trait="wroth"
+	trait="stubborn"
+	trait="gregarious"
+	trait="strong"
+	2514.7.6={
+        birth=yes
+		add_claim="c_esztergom"
+	}
+	2545.2.8={
+        death={ death_reason = death_trait }
+	}
+}
+2741 = {
+    name = "Alex"
+    dynasty = 481641664
+    religion = catholic
+    secret_religion = genevist
+    culture = danube_swabian
+    diplomacy = 1
+    martial = 4
+    stewardship = 8
+    intrigue = 2
+    learning = 7
+    trait = fortune_builder
+    trait = androgynous
+    trait = asexual
+    trait = slothful
+    trait = wroth
+    trait = chaste
+    disallow_random_traits = yes
+    2535.8.22 = {
+        birth=yes
+    }
+    2600.1.1 = {
+        death=yes
+    }
+}
+2742 = {
+    name = "Yumurják"
+    dynasty = 481641733
+    culture = anatoliai
+    religion = sunni
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 2
+    trait = skilled_tactician
+    trait = one_eyed
+    trait = ambitious
+    trait = greedy
+    trait = brave
+    2514.2.3 = {
+        birth = yes
+    }
+    2600.1.1 = {
+        death = yes
+    }
+}

@@ -1,0 +1,4 @@
+2544.3.16={
+	holder=2782
+	liege=e_karnataka
+}

@@ -1,0 +1,7 @@
+
+2548.12.2=
+{
+	holder = 854
+	liege= k_burkina	
+}
+

@@ -1,0 +1,23 @@
+# 73 - Kent
+
+# County Title
+title = c_kent
+
+# Settlements
+max_settlements = 5
+b_sandwich = castle
+b_canterbury = temple
+b_faversham = temple
+b_dover = city
+
+#b_lympne = castle
+#b_rochester = temple
+#b_romney = castle
+#b_tonbridge = castle
+
+# Misc
+culture = southener
+religion = novelist
+terrain = tells
+
+# History

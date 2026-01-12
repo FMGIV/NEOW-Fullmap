@@ -1,0 +1,4 @@
+2522.2.23={
+	holder=4690
+	liege=d_jeolla
+}

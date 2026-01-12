@@ -1,0 +1,20 @@
+# 2091 - Bichurskiy
+
+# County Title
+title = c_bichurskiy
+
+# Settlements
+max_settlements = 3
+b_bichursk = tribal
+#b_povorot
+#b_selenduma
+#b_dzhida_2
+#b_borgoy_2
+#b_khyagt_2
+#b_bilyutay_2
+
+# Misc
+culture = buryat
+religion = tengri_pagan
+
+# History

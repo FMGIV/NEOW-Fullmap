@@ -1,0 +1,1840 @@
+858 = {
+	name="Fernando" # AKA: Fernando I 'el Magno'
+	dynasty=442
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="castilian"
+	trait="lustful"
+	trait="flamboyant_schemer"
+	father=106030
+	1017.1.1 = {
+		birth=yes
+	}
+	1065.12.27 = {
+		death=yes
+	}
+}
+
+859 = {
+	name="Sancho" # AKA: Sancho II 'el Fuerte'
+	dynasty=442
+	martial=8
+	diplomacy=7
+	intrigue=3
+	stewardship=6
+	religion="catholic"
+	culture="castilian"
+	trait="diligent"
+	trait="patient"
+	#trait="wroth"
+	trait="tough_soldier"
+	trait="brave"
+	father=858
+	1036.1.1={
+		birth=yes
+	}
+	1072.1.12={
+		give_nickname= "nick_the_strong"
+	}
+	1072.10.7={
+		death=yes
+	}
+}
+
+860 = {
+	name="Alfonso" # AKA: Alfonso VI 'el Bravo'
+	dna = nyvbelqdkof
+	properties = aenaib000000000000
+	dynasty=442
+	martial=5
+	diplomacy=7
+	intrigue=6
+	stewardship=5
+	religion="catholic"
+	culture="castilian"
+	trait="patient"
+	trait="deceitful"
+	trait="cynical"
+	trait="elusive_shadow"
+	father=858
+	1040.1.1={
+		birth=yes
+	}
+	1072.10.7={
+		give_nickname = nick_the_brave
+	}
+	1109.6.30={
+		death=yes
+	}
+}
+
+861 = {
+	name="Urraca" #AKA: Urraca I
+	female = yes
+	dynasty=442
+	martial=4
+	diplomacy=4
+	intrigue=6
+	stewardship=6
+	religion="catholic"
+	culture="castilian"
+	trait="honest"
+	trait="amateurish_plotter"
+	father=860
+	1080.10.1 = {
+		birth=yes
+	}
+	1126.3.8 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+
+862 = {
+	name="Alfonso" #AKA: Alfonso VII 'el Emperador'
+	dynasty=681
+	martial=4
+	diplomacy=7
+	intrigue=8
+	stewardship=5
+	religion="catholic"
+	culture="castilian"
+	trait="greedy"
+	trait="tough_soldier"
+	mother= 861
+	1105.3.1={
+		birth=yes
+	}
+	1157.8.21={
+		death=yes
+	}
+}
+
+863 = {
+	name="Sancho" #AKA: Sancho III
+	dynasty=681
+	martial=7
+	diplomacy=7
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="castilian"
+	trait="tough_soldier"
+	father=862
+	1134.1.1 = {
+		birth=yes
+	}
+	1158.8.31 = {
+		death=yes
+	}
+}
+
+864 = {
+	name="Alfonso" #AKA: Alfonso VIII 'el Noble'
+	dynasty=681
+	martial=6
+	diplomacy=5
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="castilian"
+	trait="wroth"
+	trait="brave"
+	trait="grey_eminence"
+	father=863
+	mother=206513
+	1155.11.11 = {
+		birth=yes
+	}
+	1179.1.1 = {
+		give_nickname = nick_the_noble
+	}
+	1214.10.8 = {
+		death=yes
+	}
+}
+
+865 = {
+	name="Enrique" #AKA: Enrique I
+	dynasty=681
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=5
+	religion="catholic"
+	culture="castilian"
+	trait="just"
+	father=864
+	1204.4.14 = {
+		birth=yes
+	}
+	1217.6.6 = {
+		death=yes
+	}
+}
+
+866 = {
+	name="Berenguela" #AKA: Berenguela I 'la Grande'
+	female=yes
+	dynasty=681
+	martial=5
+	diplomacy=5
+	intrigue=8
+	stewardship=6
+	religion="catholic"
+	culture="castilian"
+	trait="charitable"
+	trait="amateurish_plotter"
+	father=864
+	mother=204512
+	1180.6.1 = {
+		birth=yes
+	}
+	1217.6.6 = {
+		give_nickname = nick_the_great
+	}
+	1246.11.8 = {
+		death=yes
+	}
+}
+
+867 = {
+	name="Fernando" #AKA: Fernando III 'el Santo'
+	dynasty=681
+	dna = bcabiyiccaf
+	properties = ah00ja000000
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="catholic"
+	culture="castilian"
+	trait="patient"
+	trait="flamboyant_schemer"
+	mother=866
+	1201.8.5 = {
+		birth=yes
+	}
+	1252.5.30 = {
+		death=yes
+		give_nickname= nick_the_holy
+	}
+}
+
+868 = {
+	name="Alfonso" #AKA: Alfonso X 'el Sabio'
+	dynasty=681
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=8
+	religion="catholic"
+	culture="castilian"
+	trait="temperate"
+	trait="flamboyant_schemer"
+	father=867
+	1221.11.23 = {
+		birth=yes
+	}
+	1256.1.28 = {
+		give_nickname = nick_the_wise
+	}
+	1284.4.4 = {
+		death=yes
+	}
+}
+
+869 = {
+	name="Sancho" #AKA: Sancho IV 'el Bravo'
+	dynasty=681
+	martial=4
+	diplomacy=6
+	intrigue=8
+	stewardship=8
+	religion="catholic"
+	culture="castilian"
+	trait="greedy"
+	trait="honest"
+	trait="skilled_tactician"
+	father=868
+	1258.5.12 = {
+		birth=yes
+	}
+	1284.4.4 = {
+		give_nickname = nick_the_brave
+	}
+	1295.4.25 = {
+		death=yes
+	}
+}
+
+870 = {
+	name="Fernando" #AKA: Fernando IV 'el Emplazado'
+	dynasty=681
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=8
+	religion="catholic"
+	culture="castilian"
+	trait="brilliant_strategist"
+	father=869
+	1285.12.6 = {
+		birth=yes
+	}
+	1312.9.7 = {
+		death=yes
+	}
+}
+
+871 = {
+	name="Alfonso" #AKA: Alfonso XI 'el Justiciero'
+	dynasty=681
+	martial=5
+	diplomacy=8
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="castilian"
+	trait="slothful"
+	trait="cynical"
+	trait="flamboyant_schemer"
+	father=870
+	1311.8.13 = {
+		birth=yes
+	}
+	1326.1.1 = {
+		give_nickname = nick_the_avenger
+	}
+	1350.3.26 = {
+		death=yes
+	}
+}
+
+872 = {
+	name="Pedro" #Peter I the Cruel
+	dynasty=681
+	martial=4
+	diplomacy=4
+	intrigue=7
+	stewardship=5
+	religion="catholic"
+	trait="paranoid"
+	trait="arbitrary"
+	trait="deceitful"
+	culture="castilian"
+	father=871
+	1334.8.30 = {
+		birth=yes
+	}
+	1355.1.1 = {
+		give_nickname = nick_the_cruel
+	}
+	1369.3.22 = {
+		death=yes
+	}
+}
+
+873 = {
+	name="Enrique" # Henry II, first king of the de Trastamara dynasty
+	dynasty=774
+	martial=5
+	diplomacy=5
+	intrigue=7
+	stewardship=5
+	religion="catholic"
+	culture="castilian"
+	trait="bastard"
+	trait="ambitious"
+	trait="just"
+	father=871
+	1332.1.13={
+		birth=yes
+	}
+	1351.1.1={
+		give_nickname = nick_the_bastard
+	}
+	1379.5.29={
+		death=yes
+	}
+}
+874 = {
+	name="Juan" # John I
+	dynasty=774
+	religion="catholic"
+	culture="castilian"
+	father=873
+	1358.8.24={
+		birth=yes
+	}
+	1390.10.9={
+		death=yes
+	}
+}
+875 = {
+	name="Enrique" # Henry III
+	dynasty=774
+	religion="catholic"
+	culture="castilian"
+	father=874
+	1379.10.4={
+		birth=yes
+	}
+	1406.12.25={
+		death=yes
+	}
+}
+876 = {
+	name="Juan" # Juan II
+	dynasty=774
+	religion="catholic"
+	culture="castilian"
+	father=875
+	1405.3.6={
+		birth=yes
+	}
+	1454.7.20={
+		death=yes
+	}
+}
+877 = {
+	name="Enrique" # Henry IV
+	dynasty=774
+	religion="catholic"
+	culture="castilian"
+	father=876
+	1425.1.5={
+		birth=yes
+	}
+	1474.12.11={
+		death=yes
+	}
+}
+878 = {
+	name="Isabel" # Isabella I
+	dynasty=774
+	religion="catholic"
+	culture="castilian"
+	father=877
+	female=yes
+	1451.4.22={
+		birth=yes
+	}
+	1504.11.26={
+		death=yes
+	}
+}
+879 = {
+	name="Juana" # Joanna I the Mad
+	dynasty=774
+	religion="catholic"
+	culture="castilian"
+	mother=878
+	trait="lunatic"
+	female=yes
+	1479.11.6={
+		birth=yes
+		give_nickname=nick_the_mad
+	}
+	1496.10.20={
+		add_spouse = 543		
+	}
+	1555.4.12={
+		death=yes
+	}
+}
+
+# Habsburgs
+
+880 = {
+	name="Felipe" # Philip II
+	dynasty=3821164
+	religion="catholic"
+	culture="castilian"
+	#father=TBD (Charles V)
+	1527.5.21={
+		birth=yes
+	}
+	1598.9.13={
+		death=yes
+	}
+}
+881 = {
+	name="Felipe" # Philip III the Pious
+	dynasty=3821164
+	religion="catholic"
+	culture="castilian"
+	father=880
+	trait="zealous"
+	1578.3.14={
+		birth=yes
+		give_nickname=nick_the_pious
+	}
+	1621.3.31={
+		death=yes
+	}
+}
+882 = {
+	name="Felipe" # Philip IV
+	dynasty=3821164
+	religion="catholic"
+	culture="castilian"
+	father=881
+	1605.4.8={
+		birth=yes
+	}
+	1665.9.17={
+		death=yes
+	}
+}
+883 = {
+	name="Carlos" # Charles II the Bewitched
+	dynasty=3821164
+	religion="catholic"
+	culture="castilian"
+	trait="inbred"
+	father=882
+	1661.11.6={
+		birth=yes
+		give_nickname=nick_the_bewitched
+	}
+	1700.11.1={
+		death=yes
+	}
+}
+
+# Borbon kings. First Bourbon king was French so is in French characters
+
+884 = {
+	name="Luis" # Louis I
+	dynasty=25550301 # Bourbon
+	religion="catholic"
+	culture="castilian"
+	father=1938
+	1707.8.25={
+		birth=yes
+	}
+	1724.8.31={
+		death=yes
+	}
+}
+885 = {
+	name="Fernando" # Ferdinand VI
+	dynasty=25550301 # Bourbon
+	religion="catholic"
+	culture="castilian"
+	father=1938
+	1713.9.23={
+		birth=yes
+	}
+	1759.8.10={
+		death=yes
+	}
+}
+886 = {
+	name="Carlos" # Charles III
+	dynasty=25550301 # Bourbon
+	religion="catholic"
+	culture="castilian"
+	father=1938
+	1716.1.20={
+		birth=yes
+	}
+	1788.12.14={
+		death=yes
+	}
+}
+887 = {
+	name="Carlos" # Charles IV
+	dynasty=25550301 # Bourbon
+	religion="catholic"
+	culture="castilian"
+	father=886
+	1748.11.11={
+		birth=yes
+	}
+	1819.1.20={
+		death=yes
+	}
+}
+888 = {
+	name="Fernando" # Ferdinand VII
+	dynasty=25550301 # Bourbon
+	religion="catholic"
+	culture="castilian"
+	father=887
+	1784.10.14={
+		birth=yes
+	}
+	1833.9.29={
+		death=yes
+	}
+}
+
+# Joseph Bonaparte is French
+
+889 = {
+	name="Giuseppe" # Joseph the Corsican, at least according to records...
+	dynasty=3921102 # Buonaparte
+	religion="catholic"
+	culture="corsu"
+	father=3161
+	1768.1.7={
+		birth=yes
+	}
+	1844.7.28={
+		death=yes
+	}
+}
+
+890 = {
+	name="Isabel" # Isabella II
+	dynasty=25550301 # Bourbon
+	religion="catholic"
+	culture="castilian"
+	father=888
+	female = yes
+	1830.10.10={
+		birth=yes
+	}
+	1904.4.9={
+		death=yes
+	}
+}
+
+# Amedeo de Savoia is Italian
+
+891 = {
+	name="Amedeo" # Amedeo the Italian
+	dynasty=3921103 # Savoia
+	religion="catholic"
+	culture="piemontese"
+	
+	1845.5.30={
+		birth=yes
+	}
+	1890.1.18={
+		death=yes
+	}
+}
+
+892 = {
+	name="Alfonso" # Alfonso XII
+	dynasty=25550301 # Borbon
+	religion="catholic"
+	culture="castilian"
+	mother=890
+	1857.11.28={
+		birth=yes
+	}
+	1885.11.25={
+		death=yes
+	}
+}
+893 = {
+	name="Alfonso" # Alfonso XIII
+	dynasty=25550301 # Borbon
+	religion="catholic"
+	culture="castilian"
+	father=892
+	1886.5.17={
+		birth=yes
+	}
+	1941.2.28={
+		death=yes
+	}
+}
+894 = {
+	name="Juan" # Infante, never king, father of Juan Carlos
+	dynasty=25550301 # Borbon
+	religion="catholic"
+	culture="castilian"
+	father=893
+	1913.6.20={
+		birth=yes
+	}
+	1993.4.1={
+		death=yes
+	}
+}
+895 = {
+	name="Juan-Carlos" # John Charles I
+	dynasty=25550301 # Borbon
+	religion="catholic"
+	culture="castilian"
+	father=894
+	1938.1.5={
+		birth=yes
+	}
+	2100.1.1={
+		death=yes
+	}
+}
+896 = {
+	name="Felipe" # Philip VI
+	dynasty=25550301 # Borbon
+	religion="catholic"
+	culture="castilian"
+	father=895
+	1968.1.30={
+		birth=yes
+	}
+	2100.1.1={
+		death=yes
+	}
+}
+
+##Post-Event Kings
+897 = {
+	name="Fernando" # Ferdinand VIII
+	dynasty=25550302 # NEOW Borbon
+	religion="sevillian"
+	culture="castilian"
+	trait="tough_soldier"
+	trait="gregarious"
+	trait="ambitious"
+	2201.6.17={
+		birth=yes
+	}
+	2202.1.1={
+		create_bloodline = {
+			type = bourbon_bloodline
+			
+		}
+	}
+	2260.7.19={
+		death=yes
+	}
+}
+898 = {
+	name="Amadeo" # Amadeo II
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="shy"
+	trait="zealous"
+	father=897
+	2224.10.9={
+		birth=yes
+	}
+	2265.10.14={
+		death=yes
+	}
+}
+899 = {
+	name="Luis" # Luis II
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="brave"
+	trait="robust"
+	trait="zealous"
+	trait="wroth"
+	father=898
+	2254.8.26={
+		birth=yes
+	}
+	2312.12.13={
+		death=yes
+	}
+}
+900 = {
+	name="Juan-Carlos" # Juan Carlos II
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="erudite"
+	trait="quick"
+	trait="mastermind_theologian"
+	trait="zealous"
+	trait="patient"
+	father=899
+	2277.2.27={
+		birth=yes
+	}
+	2340.5.9={
+		death=yes
+	}
+}
+901 = {
+	name="Felipe" # Philip VII
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="falconer"
+	trait="one_handed"
+	trait="zealous"
+	trait="diligent"
+	father=900
+	2301.6.10={
+		birth=yes
+	}
+	2365.4.7={
+		death=yes
+	}
+}
+902 = {
+	name="Carlos" # Charles V
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="poet"
+	trait="gregarious"
+	trait="erudite"
+	trait="weak"
+	father=901
+	2322.9.3={
+		birth=yes
+	}
+	2368.2.13={
+		death=yes
+	}
+}
+903 = {
+	name="Carlos" # Charles VI
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="greedy"
+	trait="wroth"
+	trait="gluttonous"
+	trait="weak"
+	father=902
+	2344.9.3={
+		birth=yes
+	}
+	2374.1.8={
+		death=yes
+	}
+}
+904 = {
+	name="José" # Joseph II
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="shy"
+	trait="hunter"
+	trait="shrewd"
+	father=902
+	2346.10.25={
+		birth=yes
+	}
+	2406.12.30={
+		death=yes
+	}
+}
+905 = {
+	name="Felipe" # Philip VIII the Handsome
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="fair"
+	trait="scholar"
+	trait="chaste"
+	trait="zealous"
+	father=903
+	2370.10.17={
+		birth=yes
+		give_nickname=nick_the_handsome
+	}
+	2429.11.9={
+		death=yes
+	}
+}
+906 = {
+	name="Luis" # Louis III
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="stubborn"
+	trait="strategist"
+	trait="just"
+	father=904
+	2401.3.8={
+		birth=yes
+	}
+	2434.3.6={
+		death=yes
+	}
+}
+907 = {
+	name="Felipe" # Felipe IX
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="cruel"
+	trait="schemer"
+	trait="arbitrary"
+	father=904
+	2404.10.9={
+		birth=yes
+	}
+	2470.10.5={
+		death=yes
+	}
+}
+## Under Felipe IX Extremadura and Galicia y Asturias become independent
+
+908 = {
+	name="Amadeo" # Amadeo III
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="zealous"
+	trait="strategist"
+	trait="deceitful"
+	father=907
+	2430.11.8={
+		birth=yes
+	}
+	2473.6.10={
+		death=yes
+	}
+}
+909 = {
+	name="Amadeo" # Amadeo IV
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="arbitrary"
+	trait="schemer"
+	trait="paranoid"
+	father=907
+	2433.10.22={
+		birth=yes
+	}
+	2491.11.7={
+		death=yes
+	}
+}
+910 = {
+	name="Felipe" # Philip X
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="zealous"
+	trait="quick"
+	trait="gardener"
+	father=909
+	2458.1.7={
+		birth=yes
+	}
+	2502.6.29={
+		death=yes
+	}
+}
+911 = {
+	name="Alfonso" # Alfonso XIV the Strong
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="strong"
+	trait="robust"
+	trait="duelist"
+	trait="wroth"
+	trait="just"
+	father=910
+	2479.5.24={
+		birth=yes
+		give_nickname=nick_the_strong
+	}
+	2523.7.27={
+		death=yes
+	}
+}
+912 = {
+	name="Alfonso" # Alfonso XV (current king at age of 57)
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="strong"
+	trait="erudite"
+	trait="theologian"
+	trait="mastermind_theologian"
+	father=911
+	2498.10.7={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+913 = {
+	name="Fernando" # Ferdinand (heir to throne)
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="hunchback"
+	trait="erudite"
+	trait="shy"
+	trait="scholar"
+	trait="patient"
+	trait="mastermind_theologian"
+	disallow_random_traits=yes
+	father=912
+	2527.1.14={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+914 = {
+	name="Felipe" # Second son of the current king
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="schemer"
+	trait="deceitful"
+	trait="cynical"
+	trait="scholar"
+	trait="grey_eminence"
+	disallow_random_traits=yes
+	father=912
+	2529.3.21={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+915 = {
+	name="Carlos" # Third son of the current king
+	dynasty=25550302
+	religion="sevillian"
+	culture="castilian"
+	trait="strong"
+	trait="strategist"
+	trait="zealous"
+	trait="lefthanded"
+	trait="tough_soldier"
+	disallow_random_traits=yes
+	father=912
+	2532.1.19={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+## Dukes of Extremadura
+
+916 = {
+	name="Hernán" # Hernan I, first independent duke of Extremadura
+	dynasty=25550303 # Cortés
+	religion="sevillian"
+	culture="extrameduran"
+	father=26660557	
+	trait="quick"
+	trait="shrewd"
+	trait="robust"
+	trait="deceitful"
+	trait="zealous"
+	2421.6.15={
+		birth=yes
+		create_bloodline = {
+			type = paladins_alonso
+			
+		}	
+	}
+	2483.12.2={
+		death=yes
+	}
+}
+917 = {
+	name="Miguel" # Duke Miguel I
+	dynasty=25550303 # Cortés
+	religion="sevillian"
+	culture="extrameduran"
+	trait="midas_touched"
+	trait="shrewd"
+	trait="honest"
+	trait="greedy"
+	trait="cruel"
+	father=916
+	2442.10.9={
+		birth=yes
+	}
+	2502.6.4={
+		death=yes
+	}
+}
+918 = {
+	name="Miguel" # Duke Miguel II
+	dynasty=25550303 # Cortés
+	religion="sevillian"
+	culture="extrameduran"
+	trait="hunter"
+	trait="falconer"
+	trait="chaste"
+	trait="stubborn"
+	trait="gregarious"
+	father=917
+	2464.5.16={
+		birth=yes
+	}
+	2521.11.6={
+		death=yes
+	}
+}
+919 = {
+	name="Hernán" # Duke Hernan II
+	dynasty=25550303 # Cortés
+	religion="sevillian"
+	culture="extrameduran"
+	trait="duelist"
+	trait="tough_soldier"
+	trait="robust"
+	trait="wroth"
+	trait="chaste"
+	father=918
+	2489.7.15={
+		birth=yes
+	}
+	2553.12.20={
+		death=yes
+	}
+}
+920 = {
+	name="Hernán" # Duke Hernan III (current lord)
+	dynasty=25550303 # Cortés
+	religion="sevillian"
+	culture="extrameduran"
+	trait="tough_soldier"
+	trait="ambitious"
+	trait="cruel"
+	trait="gregarious"
+	father=919
+	2520.4.13={
+		birth=yes
+	}
+	2536.5.17={
+		add_spouse=1973
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+# sevillian Pope
+921 = {
+	name="Pablo" # Pope Petrus XIX (current pope)
+	dynasty=25550303 # Cortés
+	martial=1
+	diplomacy=6
+	stewardship=5
+	intrigue=3
+	learning=8
+	religion="sevillian"
+	culture="extrameduran"
+	trait="zealous"
+	trait="ambitious"
+	trait="honest"
+	trait="proud"
+	trait="gregarious"
+	trait="mastermind_theologian"
+	father=918
+	2490.10.12={
+		birth=yes
+	}
+	2550.3.13={
+		name="Petrus"
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+# Vassals of the Duke of Extremadura
+922 = {
+	name="Inés" # Countess Ines of Plasencia
+	dynasty=25550304 # de Suarez
+	religion="sevillian"
+	culture="extrameduran"
+	trait="zealous"
+	trait="brave"
+	trait="flamboyant_schemer"
+	female=yes
+	2521.1.13={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+923 = {
+	name="Antonio" # Count Antonio of Alcantara
+	dynasty=25550305 # de Lebrija
+	religion="sevillian"
+	culture="extrameduran"
+	trait="zealous"
+	trait="chaste"
+	trait="thrifty_clerk"
+	2530.4.17={
+		birth=yes
+	}
+	2549.6.18={
+		add_spouse=943
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+## Duke of Cordoba (vassal of Andalusia)
+924 = {
+	name="Jerónimo" # Duke Jerónimo of Cordoba
+	dynasty=25550306 # Moctezuma de Tultengo
+	religion="sevillian"
+	culture="andalusian"
+	trait="proud"
+	trait="cruel"
+	trait="amateurish_plotter"
+	2530.4.17={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+925 = {
+	name="Emilio" # Emilio, second son of the Duke of Cordoba
+	dynasty=25550306 # Moctezuma de Tultengo
+	religion="sevillian"
+	culture="andalusian"
+	father=924
+	2552.1.10={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+926 = {
+	name="Hugo" # Hugo
+	dynasty=25550805 # Avila
+	religion="sevillian"
+	culture="andalusian" 
+	trait="erudite"
+	trait="mastermind_theologian"
+	2530.7.16={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+## Castilian vassals of Catalonia
+
+927 = {
+	name="Diego" # Duke Diego of Murcia
+	dynasty=25550308 # Salzillo
+	religion="sevillian"
+	culture="andalusian" 
+	trait="quick"
+	trait="wroth"
+	trait="humble"
+	2512.6.19={
+		birth=yes
+		create_bloodline = {
+			type = paladins_rodrigo
+			
+		}	
+	}
+	2534.1.9={
+		add_spouse=944
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+928 = {
+	name="Javier" # Javier, heir of Murcia
+	dynasty=25550308 # Salzillo
+	religion="sevillian"
+	culture="andalusian" 
+	trait="dull"
+	trait="kind"
+	trait="proud"
+	father=927
+	mother=944
+	2534.11.30={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+## Vassals of the Kingdom of Castille
+
+929 = {
+	name="Miguel" # Count Miguel of Almansa
+	dynasty=25550309 # Lazaro
+	religion="sevillian"
+	culture="andalusian"
+	trait="rowdy"
+	martial=5
+	learning=4
+	2539.1.19={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+930 = {
+	name="Guillén" # Count Guillén of La Mancha
+	dynasty=25550310 # Velazquez
+	religion="sevillian"
+	culture="castilian"
+	father=932
+	2539.1.19={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+931 = {
+	name="Enrique" # Count Enrique of Calatrava
+	dynasty=25550310 # Velazquez
+	religion="sevillian"
+	culture="aragonese"
+	trait="thrifty_clerk"
+	father=932
+	2537.7.27={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+932 = {
+	name="García" # Count Garcia of Calatrava and La Mancha
+	dynasty=25550310 # Velazquez
+	religion="sevillian"
+	culture="aragonese"
+	trait="midas_touched"
+	2499.1.16={
+		birth=yes
+	}
+	2550.3.13={
+		death=yes
+	}
+}
+
+933 = {
+	name="Nuño" # Duke Nuno of Castille
+	dynasty=25550311 # Cespedes
+	religion="sevillian"
+	culture="castilian"
+	trait="ambitious"
+	2491.2.25={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+934 = {
+	name="Luis" # Son and heir of duke Nuno of Castille
+	dynasty=25550311 # Cespedes
+	religion="sevillian"
+	culture="castilian"
+	trait="tough_soldier"
+	father=933
+	2512.6.19={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+935 = {
+	name="Rodrigo" # Second son of Duke Nuno of Castille
+	dynasty=25550311 # Cespedes
+	religion="sevillian"
+	culture="castilian"
+	trait="flamboyant_schemer"
+	trait="ambitious"
+	father=933
+	2515.4.17={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+936 = {
+	name="Vela" # Third son of Duke Nuno of Castille
+	dynasty=25550311 # Cespedes
+	religion="sevillian"
+	culture="castilian"
+	trait="thrifty_clerk"
+	trait="greedy"
+	father=933
+	2520.12.9={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+937 = {
+	name="Alonso" # Count Alonso of Valladolid
+	dynasty=25550312 # Rodriguez
+	religion="sevillian"
+	culture="castilian"
+	trait="tough_soldier"
+	trait="gregarious"
+	trait="honest"
+	trait="brave"
+	trait="shrewd"
+	trait="adventurer"
+	disallow_random_traits=yes
+	2534.6.12={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+938 = {
+	name="Oveco" # Count Oveco of Asturias de Santillana
+	dynasty=25550313 # Martinez
+	religion="brethren"
+	culture="asturian"
+	trait="midas_touched"
+	trait="greedy"
+	trait="chaste"
+	2500.10.14={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+939 = {
+	name="Álvaro" # First son and heir of Countess Ines of Plasencia
+	dynasty=25550304 # de Suarez
+	religion="sevillian"
+	culture="extrameduran"
+	trait="hedonist"
+	trait="slothful"
+	trait="content"
+	trait="tough_soldier"
+	mother=922
+	2539.1.20={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+940 = {
+	name="David" # Second son of Countess Ines of Plasencia
+	dynasty=25550304 # de Suarez
+	religion="sevillian"
+	culture="extrameduran"
+	trait="gluttonous"
+	trait="trusting"
+	trait="affectionate"
+	learning=2
+	mother=922
+	2541.7.18={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+941 = {
+	name="Caleb" # Third son of Countess Ines of Plasencia
+	dynasty=25550304 # de Suarez
+	religion="sevillian"
+	culture="extrameduran"
+	trait="proud"
+	trait="ambitious"
+	trait="brooding"
+	learning=4
+	mother=922
+	2544.12.6={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+942 = {
+	name="José" # Jose, son and heir of the Duke of Cordoba
+	dynasty=25550306 # Moctezuma de Tultengo
+	religion="sevillian"
+	culture="andalusian"
+	father=924
+	2550.9.20={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+943 = {
+	name="Regina" # Regina, wife of the Count of Alcantara
+	dynasty=25550397 
+	religion="sevillian"
+	culture="castilian"
+	female=yes
+	trait="detached_priest"
+	2530.9.20={
+		birth=yes
+	}
+	2549.6.18={
+		add_spouse=923
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+944 = {
+	name="Olivia" # Olivia, wife of the Duke of Murcia
+	dynasty=25550398 
+	religion="sevillian"
+	culture="castilian"
+	female=yes
+	2517.7.8={
+		birth=yes
+	}
+	2535.4.9={
+		add_spouse=927
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+
+945 = {
+	name="Pilar" # Pilar, first daugther of the count of Asturias de Santillana
+	dynasty=25550313
+	religion="brethren"
+	culture="asturian"
+	female=yes
+	trait="midas_touched"
+	trait="greedy"
+	trait="deceitful"
+	trait="ambitious"
+	father=938
+	2520.10.9={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+946 = {
+	name="Toda" # Toda, second daugther of the count of Asturias de Santillana
+	dynasty=25550313 
+	religion="brethren"
+	culture="asturian"
+	female=yes
+	trait="thrifty_clerk"
+	trait="charitable"
+	trait="lustful"
+	trait="arbitrary"
+	trait="sympathy_christendom"
+	father=938
+	2523.6.17={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+947 = {
+	name="Fernanda" # Fernanda, third daugther of the count of Asturias de Santillana
+	dynasty=25550313 
+	religion="brethren"
+	culture="asturian"
+	female=yes
+	trait="scholarly_theologian"
+	trait="zealous"
+	trait="chaste"
+	trait="just"
+	father=938
+	2526.1.1={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+948 = {
+	name="Javier" # Javier, son and heir of the count of Asturias de Santillana
+	dynasty=25550313 
+	religion="brethren"
+	culture="asturian"
+	trait="indulgent_wastrel"
+	trait="craven"
+	trait="greedy"
+	trait="shy"
+	father=938
+	2528.2.18={
+		birth=yes
+	}
+	2590.1.1={
+		death=yes
+	}
+}
+949 = {
+	name="Jaime"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	father=959
+	trait="diligent"
+	trait="patient"
+	trait="lustful"
+	trait="tough_soldier"
+	trait="brave"
+	trait="history_26650554"
+	2531.1.7={
+		birth=yes
+	}
+	2590.1.6={
+		death=yes
+	}
+}
+
+#Moved Enrique and Alonso from indian.txt because why are they over there instead of here?
+#Line Trastamara connected
+950={#Line of Trastamara
+	name="Enrique"
+	dynasty=774
+	religion="catholic"
+	culture="castilian"
+	occluded=yes
+	trait="legendary"
+	disallow_random_traits=yes
+	mother=879
+	1499.11.6={
+		birth=yes
+	}
+	2548.1.1={
+		death=yes
+	}
+
+}
+951 = {
+	name = "Enrique" # The original
+	dynasty = 774 #de Trastamara
+	religion = "sevillian"
+	culture = "castilian"
+	trait = "imbecile"
+	trait = "weak"
+	father=950
+	2547.1.1 = {
+		birth = yes
+		add_claim = d_loen
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+952 = {
+	name = "Alonso" # The absolute madman
+	dynasty = 35503218 #Quixano
+	martial = 0
+	religion = "sevillian"
+	secret_religion = "novelist"
+	culture = "castilian"
+	trait = "lunatic"
+	trait = "brave"
+    trait = "just"
+    trait = "erudite"
+    trait = "inspiring_leader"
+    trait = "adventurer"
+	2507.9.29 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+
+#Historical rulers of the Canaries
+953 = {
+	name="Jorge"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	2350.1.1={
+		birth=yes
+	}
+	2421.11.2 = {
+		death = yes
+	}
+}
+
+954 = {
+	name="Felipe"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	father=953
+	2380.3.11={
+		birth=yes
+	}
+	2454.4.12 = {
+		death = yes
+	}
+}
+
+955 = {
+	name="Jaime"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	father=954
+	2413.12.1={
+		birth=yes
+	}
+	2460.1.19 = {
+		death = yes
+	}
+}
+
+956 = {
+	name="Felipe"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	father=955
+	2438.1.18={
+		birth=yes
+	}
+	2467.1.20 = {
+		death = yes
+	}
+}
+
+957 = {
+	name="Felipe"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	father=956
+	2460.3.20={
+		birth=yes
+	}
+	2479.8.21 = {
+		death = yes
+	}
+}
+
+958 = {
+	name="Aarón"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	father=957
+	2479.5.9={
+		birth=yes
+	}
+	2518.12.25 = {
+		death = yes
+	}
+}
+
+959 = {
+	name="Demetrio"
+	dynasty=25650359 #Del Toro
+	religion="catholic"
+	culture="canarian"
+	father=958
+	2499.2.2={
+		birth=yes
+	}
+	2547.4.13 = {
+		death = yes
+	}
+}
+
+#Pretty daughters of the Bourbon King
+960 = {
+	name="Carolina" #Maria Carolina
+	dynasty=25550302
+	religion="sevillian"
+	culture="neapolitan"
+	father=912
+	female=yes
+	trait = "charismatic_negotiator"
+	trait = "fair"
+    trait = "socializer"
+    trait = "kind"
+    trait = "gregarious"
+    trait = "temperate"
+	disallow_random_traits=yes
+	2533.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = neapolitan			
+		}
+		culture = castilian
+	}
+	2533.1.10={
+		add_claim = d_sicily		
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+
+961 = {
+	name="Clara" #Maria Chiara
+	dynasty=25550302
+	religion="sevillian"
+	culture="neapolitan"
+	father=912
+	female=yes
+	trait = "charismatic_negotiator"
+	trait = "fair"
+    trait = "socializer"
+    trait = "kind"
+    trait = "gregarious"
+    trait = "temperate"
+	disallow_random_traits=yes
+	2535.1.1={
+		birth=yes
+		effect = {
+			set_character_flag = diversity
+			set_graphical_culture = neapolitan			
+		}
+		culture = castilian
+	}
+	2535.1.10={
+		add_claim = d_campania		
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}

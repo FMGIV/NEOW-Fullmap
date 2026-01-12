@@ -1,0 +1,26 @@
+# 1656 - Starodub
+
+# County Title
+title = c_starodub
+
+# Settlements
+max_settlements = 4
+
+b_starodub = tribal		#1088
+
+#b_vyshenky
+#b_obolonnya
+#b_ponornytsya
+#b_zelena_polyana
+#b_avdiika
+#b_desnianske
+
+# Misc
+culture = yuzhane
+religion = zarist
+
+# History
+
+1088.1.1 = {
+	b_vyshenky = temple
+}

@@ -1,0 +1,333 @@
+namespace=baptist
+
+#########################################
+#
+#	baptist religious events
+#
+#########################################
+character_event = {
+	id = baptist.300
+	is_triggered_only = yes
+	picture = GFX_evt_book_carolingian_script
+	border = GFX_event_normal_frame_religion
+	title = EVTNAME_baptist_300
+	desc = EVTDESC_baptist_300
+
+	trigger = {
+		religion = baptist
+		ai = no
+		NOR = {
+			trait = ecumenical_baptist
+			trait = ecumenical_evangelical
+			trait = ecumenical_lutheran
+			trait = ecumenical_methodist
+			trait = ecumenical_reformed
+		}
+	}
+	
+	option = {#Baptist
+		name = EVTOPTA_baptist_300
+		add_trait = ecumenical_baptist
+	}
+	
+	option = {#Lutheran
+		name = EVTOPTB_baptist_300
+		add_trait = ecumenical_lutheran
+	}
+	
+	option = {#Evangelical
+		name = EVTOPTC_baptist_300
+		add_trait = ecumenical_evangelical
+	}
+	
+	option = {#Others
+		name = EVTOPTD_baptist_300
+		character_event = { id = baptist.301  } 
+	}
+}
+character_event = {
+	id = baptist.301
+	is_triggered_only = yes
+	picture = GFX_evt_book_carolingian_script
+	border = GFX_event_normal_frame_religion
+	title = EVTNAME_baptist_301
+	desc = EVTDESC_baptist_301
+
+	option = {#Methodist
+		name = EVTOPTA_baptist_301
+		add_trait = ecumenical_methodist
+	}
+	
+	option = {#Reformed
+		name = EVTOPTB_baptist_301
+		add_trait = ecumenical_reformed
+	}
+		
+	option = {#Return
+		name = EVTOPTC_baptist_301
+		character_event = { id = baptist.300  } 
+	}
+}
+
+letter_event = {
+	id = baptist.302
+	is_triggered_only = yes
+	border = GFX_event_letter_frame_religion
+	desc = baptist302Desc
+	trigger = {
+		religion = baptist
+		ai = yes
+		NOR = {
+			trait = ecumenical_baptist
+			trait = ecumenical_evangelical
+			trait = ecumenical_lutheran
+			trait = ecumenical_methodist
+			trait = ecumenical_reformed
+		}
+	}
+	option = {
+		name = EVTOPTA_israelstuff8A
+		random_list = {
+			10 = {
+				modifier = {
+					factor = 2
+					OR = {
+						father_even_if_dead = {
+							trait = ecumenical_evangelical
+						}
+						mother_even_if_dead = {
+							trait = ecumenical_evangelical
+						}
+					}
+				}
+				modifier = {
+					factor = 1.5
+					OR = {
+						father_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_evangelical
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_evangelical
+								}
+							}
+						}
+						mother_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_evangelical
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_evangelical
+								}
+							}
+						}
+					}
+				}
+				job_event_mtth_modifier_inverted_martial_score = yes
+				add_trait = ecumenical_evangelical
+			}
+			10 = {
+				modifier = {
+					factor = 2
+					OR = {
+						father_even_if_dead = {
+							trait = ecumenical_baptist
+						}
+						mother_even_if_dead = {
+							trait = ecumenical_baptist
+						}
+					}
+				}
+				modifier = {
+					factor = 1.5
+					OR = {
+						father_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_baptist
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_baptist
+								}
+							}
+						}
+						mother_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_baptist
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_baptist
+								}
+							}
+						}
+					}
+				}
+				job_event_mtth_modifier_inverted_diplomacy_score = yes
+				add_trait = ecumenical_baptist
+			}
+			10 = {
+				modifier = {
+					factor = 2
+					OR = {
+						father_even_if_dead = {
+							trait = ecumenical_lutheran
+						}
+						mother_even_if_dead = {
+							trait = ecumenical_lutheran
+						}
+					}
+				}
+				modifier = {
+					factor = 1.5
+					OR = {
+						father_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_lutheran
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_lutheran
+								}
+							}
+						}
+						mother_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_lutheran
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_lutheran
+								}
+							}
+						}
+					}
+				}
+				job_event_mtth_modifier_inverted_learning_score = yes
+				add_trait = ecumenical_lutheran
+			}
+			10 = {
+				modifier = {
+					factor = 2
+					OR = {
+						father_even_if_dead = {
+							trait = ecumenical_methodist
+						}
+						mother_even_if_dead = {
+							trait = ecumenical_methodist
+						}
+					}
+				}
+				modifier = {
+					factor = 1.5
+					OR = {
+						father_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+							}
+						}
+						mother_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+							}
+						}
+					}
+				}
+				job_event_mtth_modifier_inverted_learning_score = yes
+				add_trait = ecumenical_methodist
+			}
+			10 = {
+				modifier = {
+					factor = 2
+					OR = {
+						father_even_if_dead = {
+							trait = ecumenical_methodist
+						}
+						mother_even_if_dead = {
+							trait = ecumenical_methodist
+						}
+					}
+				}
+				modifier = {
+					factor = 1.5
+					OR = {
+						father_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+							}
+						}
+						mother_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_methodist
+								}
+							}
+						}
+					}
+				}
+				job_event_mtth_modifier_inverted_learning_score = yes
+				add_trait = ecumenical_methodist
+			}
+			10 = {
+				modifier = {
+					factor = 2
+					OR = {
+						father_even_if_dead = {
+							trait = ecumenical_reformed
+						}
+						mother_even_if_dead = {
+							trait = ecumenical_reformed
+						}
+					}
+				}
+				modifier = {
+					factor = 1.5
+					OR = {
+						father_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_reformed
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_reformed
+								}
+							}
+						}
+						mother_even_if_dead = {
+							OR = {
+								father_even_if_dead = {
+									trait = ecumenical_reformed
+								}
+								mother_even_if_dead = {
+									trait = ecumenical_reformed
+								}
+							}
+						}
+					}
+				}
+				job_event_mtth_modifier_inverted_stewardship_score = yes
+				add_trait = ecumenical_reformed
+			}
+		}
+	}
+}

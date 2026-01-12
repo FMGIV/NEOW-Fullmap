@@ -1,0 +1,20 @@
+# 1759 - Wagadougou
+
+# County Title
+title = c_wagadougou
+
+# Settlements
+max_settlements = 4
+
+b_wagadougou = castle
+b_nemnin = city
+b_paspagna = temple
+
+#b_larle = city
+#b_bilbalogho = temple
+#b_hamdalaye = castle
+#b_nonsin = castle
+
+# Misc
+culture = mossi
+religion = muwahidunna

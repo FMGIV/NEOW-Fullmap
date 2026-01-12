@@ -1,0 +1,12 @@
+# 1787 - Buzachi 
+
+# County Title
+title = c_buzachi
+
+max_settlements = 2
+b_buzachi = tribal
+
+# Misc
+culture = kazakh
+religion = ironist
+terrain = steppe

@@ -1,0 +1,5 @@
+
+2526.6.6={
+	holder = 4000
+	liege = k_lithuania
+}

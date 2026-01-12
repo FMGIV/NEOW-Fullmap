@@ -1,0 +1,22 @@
+# 27 - Dorset
+
+# County Title
+title = c_dorset
+
+# Settlements
+max_settlements = 5
+b_corfe = castle
+b_weymouth = temple
+b_wareham = city
+
+#b_shaftesbury = castle
+#b_lyme = temple
+#b_sherborne = castle
+#b_dorchester = city
+#b_wimborne = castle
+
+# Misc
+culture = westlander
+religion = summer_queen
+
+# History

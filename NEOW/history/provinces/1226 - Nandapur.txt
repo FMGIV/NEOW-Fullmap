@@ -1,0 +1,19 @@
+# 1226 - Nandapur
+
+# County Title
+title = c_nandapur
+
+# Settlements
+max_settlements = 4
+b_nandapur = tribal
+b_dharamgarh = temple
+#b_koraput = city
+#b_junagarh = castle
+#b_jeypore = castle
+
+# Misc
+culture = oriya
+religion = maunaxite
+terrain = mountain
+
+# History

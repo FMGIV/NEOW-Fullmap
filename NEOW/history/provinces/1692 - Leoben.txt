@@ -1,0 +1,16 @@
+# 1692 - Ennstal
+
+# County title
+title = c_leoben
+
+# Settlements
+max_settlements = 3
+b_leoben = castle
+b_eppenstein = city
+
+# Misc
+culture = austrian
+religion = catholic	
+terrain = mountain
+
+# History

@@ -1,0 +1,4 @@
+2531.10.13={
+	holder=8613
+	liege=d_sakju
+}

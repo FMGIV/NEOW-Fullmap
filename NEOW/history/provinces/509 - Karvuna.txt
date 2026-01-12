@@ -1,0 +1,22 @@
+# 509 - Karvuna
+
+# County Title
+title = c_karvuna
+
+# Settlements
+max_settlements = 4
+
+b_varna = castle
+b_shumen = city
+b_provadia = temple
+
+#b_devlja = castle
+#b_prezlav = castle
+#b_varbitsz = castle
+#b_venets = castle
+#b_smyadovo = castle
+
+# Misc
+culture = bulgarian
+religion = orthodox
+

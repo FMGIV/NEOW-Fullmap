@@ -1,0 +1,14 @@
+# 1910 - Sutai
+
+# County Title
+title = c_sutai
+
+# Settlements
+max_settlements = 2
+b_sutai = tribal
+
+# Misc
+culture = mongol
+religion = khanist
+
+# History

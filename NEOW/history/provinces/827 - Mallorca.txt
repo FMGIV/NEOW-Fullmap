@@ -1,0 +1,24 @@
+# 827 - Mallorca
+
+# County Title
+title = c_mallorca
+
+# Settlements
+max_settlements = 5
+b_palma = city
+b_eivissa = temple
+b_manacor = castle
+#b_felanitx = castle
+#b_santaponsa = temple
+#b_alcudia = city
+#b_algaida = castle
+#b_manacor = castle
+
+# Misc
+culture = balearic
+religion = sevillian
+terrain = mountain
+
+# History
+
+2532.10.13 = { trade_post = b_ginesta }

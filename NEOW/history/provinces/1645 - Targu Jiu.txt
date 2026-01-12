@@ -1,0 +1,22 @@
+# 1645 - Targu Jiu
+
+# County Title
+title = c_targu_jiu
+
+# Settlements
+max_settlements = 3
+
+b_targu_jiu = castle
+b_bistrita = city
+b_baia_de_arama = temple
+
+#b_polovragi = castle
+#b_visina = city
+#b_tismana = castle
+#b_vulcan = city
+
+# Misc
+culture = wallachian
+religion = orthodox
+
+# History

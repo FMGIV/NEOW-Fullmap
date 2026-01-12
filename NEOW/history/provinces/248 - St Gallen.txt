@@ -1,0 +1,25 @@
+# 248 - St. Gallen
+
+# County Title
+title = c_st_gallen
+
+# Settlements
+max_settlements = 4
+b_rheineck = tribal
+b_stgallen = temple
+#b_appenzell = city
+
+#b_frauenfeld = city
+#b_altstatten = castle
+#b_lichtensteig = castle
+#b_rheineck = castle
+#b_herisau = castle
+
+# Misc
+culture = aleman
+religion = calvinist
+terrain = mountain
+
+# History
+
+		

@@ -1,0 +1,15 @@
+# 1687 - Lolland 
+
+# County Title
+title = c_lolland
+
+# Settlements
+max_settlements = 3
+b_lolland = castle
+
+# Misc
+culture = danish
+religion = lutheran
+terrain = farmlands
+
+# History

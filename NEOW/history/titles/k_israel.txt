@@ -1,0 +1,10 @@
+100.1.1 = {
+  pentarch = b_jerusalem
+}
+2239.8.10 = {
+	holder = 2997 #Meshiach
+}
+
+2250.1.1 = {
+	holder = 0
+}

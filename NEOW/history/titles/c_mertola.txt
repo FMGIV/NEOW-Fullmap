@@ -1,0 +1,7 @@
+2520.1.1={
+	holder = 3657 # Jose da Gama
+	liege = k_portugal
+}
+2538.12.12={
+	holder = 3659 # Raposo da Gama
+}

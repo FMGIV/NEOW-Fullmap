@@ -1,0 +1,22 @@
+# 127 - Lorraine
+
+# County Title
+title = c_lorraine
+
+# Settlements
+max_settlements = 5
+b_nancy = castle
+b_epinal = city
+b_mortagnedevosges = temple
+
+#b_dompaire = temple
+#b_sarrebourg = city
+#b_luneville = castle
+#b_charpeigne = castle
+#b_saintavoid = castle
+
+# Misc
+culture = lorraine
+religion = catholic
+
+# History

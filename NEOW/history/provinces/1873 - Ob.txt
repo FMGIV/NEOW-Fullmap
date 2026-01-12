@@ -1,0 +1,15 @@
+# 1873 - Ob
+
+# County Title
+title = c_ob
+
+# Settlements
+max_settlements = 7 # Novosibirsk or close to it
+b_ob = castle
+b_akutikha = city
+b_odintsovka = temple
+b_chekanikha = castle
+
+# Misc
+culture = sibiran
+religion = folklorist

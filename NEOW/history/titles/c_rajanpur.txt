@@ -1,0 +1,4 @@
+2550.12.3 = {
+	holder = 2878 #Nawaz Abro
+	liege=k_sindh
+}

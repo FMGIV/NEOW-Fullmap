@@ -1,0 +1,18 @@
+# County Title
+title = c_kanniyakumari
+
+# Settlements
+max_settlements = 5
+
+b_kanyakumari = castle
+b_nagercoil = castle
+b_thovalai = temple
+b_colachel = city
+#b_killiyur = temple
+#b_karungal = temple
+#b_arumanai = temple
+
+# Misc
+
+religion = nasrini
+culture = malayalam

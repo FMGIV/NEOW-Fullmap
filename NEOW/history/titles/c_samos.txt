@@ -1,0 +1,4 @@
+2550.3.8={
+	holder=2238
+	liege=k_anatolia
+}

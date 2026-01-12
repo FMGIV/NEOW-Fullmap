@@ -1,0 +1,23 @@
+# 343 - Siracusa
+
+# County Title
+title = c_siracusa
+
+# Settlements
+max_settlements = 6
+b_syracusa = castle
+b_catania = city
+b_noto = temple
+
+#b_lentini = city
+#b_caltagirone = temple 
+#b_paterno = castle
+#b_centuripe = castle
+#b_augusta = castle
+
+# Misc
+culture = sicilian
+religion = catholic
+terrain = hills
+
+# History

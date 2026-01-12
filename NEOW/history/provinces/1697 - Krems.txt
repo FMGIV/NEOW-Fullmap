@@ -1,0 +1,16 @@
+# 1697 - Krems
+
+# County title
+title = c_krems
+
+# Settlements
+max_settlements = 3
+
+b_gars = castle
+b_krems = temple
+
+# Misc
+culture = austrian
+religion = catholic
+
+# History

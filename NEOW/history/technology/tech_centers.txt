@@ -1,0 +1,170 @@
+#Merchant Republic
+technology = {
+	titles = {
+		d_aland
+		d_novgorod
+		d_tricity
+		d_crimea
+		d_athos
+		d_hamburg
+		d_afar
+		d_abu_dhabi
+	}
+	
+	2555 = {
+		military = 1.75
+		economy = 3.0
+		culture = 2.25
+	}
+}
+technology = {
+	titles = {
+		d_chola_nadu
+	}
+	2555 = {
+		military = 1.5
+		economy = 3.0
+		culture = 3.0
+	}
+}
+
+#ILE-DE-PARIS
+technology = {
+	titles = {
+		d_valois
+	}
+	2555 = {
+		military = 3.0
+		economy = 3.5
+		culture = 3.5
+	}
+}
+
+
+#BHUTAN
+technology = {
+	titles = {
+		d_paro
+		d_bumthang
+	}
+	2555 = {
+		military = 4.8
+		economy = 4.8
+		culture = 4.8
+	}
+}
+
+
+#LONDON
+technology = {
+	titles = {
+		d_bedford
+	}
+	2555 = {
+		military = 3.0
+		economy = 3.4
+		culture = 3.0
+		TECH_CASTLE_CONSTRUCTION = 3.5
+		TECH_CITY_CONSTRUCTION = 3.5
+	}
+}
+
+#ROMA
+technology = {
+	titles = {
+		d_latium
+		d_toledo
+	}
+	2555 = {
+		military = 2.5
+		economy = 3.0
+		culture = 3.0
+	}
+}
+technology = {
+	titles = {
+		c_moskva
+		c_odessa
+		c_minsk
+	}
+	2555 = {
+		military = 2.75
+		economy = 2.75
+		culture = 2.75
+	}
+}
+technology = {
+	titles = {
+		c_kiev
+	    c_vodi
+	}
+	2555 = {
+		military = 3.0
+		economy = 3.0
+		culture = 3.0
+	}
+}
+technology = {
+	titles = { 
+		c_byzantion  
+	}
+	2555 = {
+		military = 3.0
+		economy = 3.3
+		culture = 3.0
+	}
+}
+technology = {
+	titles = {
+		d_rashka
+	}
+	2555 = {
+		military = 3.0
+		economy = 3.0
+		culture = 3.0
+	}
+}
+technology = {
+	titles = {
+		d_cairo
+		d_baghdad
+		d_marrakech
+	}
+	2555 = {
+		military = 2.5
+		economy = 3.0
+		culture = 2.5
+	}
+}
+technology = {
+	titles = {
+		d_lhasa
+		d_suhma
+	}
+	2555 = {
+		military = 2.0
+		economy = 2.5
+		culture = 3.5
+	}
+}
+technology = {
+	titles = {
+		d_kuru
+	}
+	2555 = {
+		military = 3.0
+		economy = 2.5
+		culture = 2.5
+	}
+}
+technology = {
+	titles = { 
+		d_evenkia  
+	}
+		2555 = {
+		military = 2.5
+		economy = 3
+		culture = 2.5
+	}
+}
+

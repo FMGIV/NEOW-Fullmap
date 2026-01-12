@@ -1,0 +1,24 @@
+# 2493 - Aeolian Islands
+
+# County Title
+title = c_aeolian_islands
+
+# Settlements
+max_settlements = 3
+
+b_salina = castle
+b_lipari = city
+
+#b_canneto = temple
+#b_gelso = temple
+#b_vulcano = castle
+#b_rinella = castle
+#b_lingua = castle
+#b_filicudi = castle
+
+# Misc
+culture = griko
+religion = orthodox
+terrain = mountain
+
+# History

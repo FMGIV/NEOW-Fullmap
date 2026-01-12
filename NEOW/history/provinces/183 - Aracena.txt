@@ -1,0 +1,18 @@
+# 183 - Aracena
+
+# County Title
+title = c_aracena
+
+# Settlements
+max_settlements = 4
+b_aracena = castle
+b_almonasterlareal = temple
+b_italica = city
+#b_calanas = castle
+#b_cortegana = castle
+#b_facanias = castle
+#b_alajar = castle
+#b_galaroza = castle
+
+culture = andalusian
+religion = sevillian

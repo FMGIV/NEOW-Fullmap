@@ -1,0 +1,4 @@
+2541.7.20={
+	holder=8603
+	liege=e_juche
+}

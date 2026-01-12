@@ -1,0 +1,4 @@
+2543.6.1={
+	holder = 2742
+	liege = k_daglikarazi
+}

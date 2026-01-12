@@ -1,0 +1,14 @@
+# 1830 - Soyma
+
+# County title
+title = c_soyma
+
+# Settlements
+max_settlements = 3
+b_indiga_2 = tribal
+
+# Misc
+culture = samoyed
+religion = starist_pagan
+
+# History

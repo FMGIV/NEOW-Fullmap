@@ -1,0 +1,14 @@
+# 1796 - Barskhan
+
+# County Title
+title = c_barskhan
+
+# Settlements
+max_settlements = 3
+b_barskhan = castle
+b_naryn = temple
+
+# Misc
+religion = ovlatii
+culture = kirghiz
+terrain = mountain

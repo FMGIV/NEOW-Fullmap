@@ -1,0 +1,14 @@
+# 1905 - Tannu Ola
+
+# County Title
+title = c_tannu_ola
+
+# Settlements
+max_settlements = 2
+b_tannu_ola = tribal
+
+# Misc
+culture = yakut
+religion = vajrayana
+
+# History

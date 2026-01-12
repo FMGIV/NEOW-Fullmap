@@ -1,0 +1,19 @@
+# County Title
+title = c_qamdo
+
+# Settlements
+max_settlements = 4
+
+b_qamdo = castle
+b_karub = city
+#b_riwoche = temple
+#b_guro = {
+#b_retong = {
+#b_karma = {
+#b_asangka = {
+
+# Misc
+culture = kham
+religion = karmapa
+
+# History

@@ -1,0 +1,27 @@
+# 1667 - Kholm
+
+# County Title
+title = c_kholm
+
+# Settlements
+max_settlements = 4
+
+b_kholm = tribal
+
+#b_molvotitsy
+#b_lychkovo
+#b_nevskaya
+#b_suchki
+#b_yazhelbitsy
+#b_fishovo
+
+# Misc
+culture = pietrovan
+religion = zarist
+
+# History
+
+1144.1.1 = {
+	b_kholm = castle
+	b_molvotitsy = city
+}

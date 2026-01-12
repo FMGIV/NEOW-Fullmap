@@ -1,0 +1,4 @@
+2554.6.13 ={
+	holder=9300
+	liege=d_kuril
+}

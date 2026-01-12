@@ -1,0 +1,21 @@
+#
+
+# County Title
+title = c_tungussko
+
+# Settlements
+max_settlements = 1
+
+b_tungussko = tribal
+#b_kislokan
+#b_nidym
+#b_tura_2
+#b_inarigda
+#b_nakanno
+#b_yerbogachen
+
+# Misc
+culture = east_sibiran
+religion = nousthreskeia
+
+# History

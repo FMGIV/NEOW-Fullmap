@@ -1,0 +1,19 @@
+# 527 - Krakowskie
+
+# County Title
+title = c_krakowskie
+
+# Settlements
+max_settlements = 6
+b_krakow = castle
+b_wieliczka = city
+b_jedrzejow = temple
+#b_bochnia = castle
+
+#b_olsztyn2 = city
+#b_zakopane_krakow = castle
+#b_czestochowa = castle
+
+# Misc
+culture = polish
+religion = cadaverist

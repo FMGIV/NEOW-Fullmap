@@ -1,0 +1,8 @@
+
+2525.3.19={
+	holder=10105	
+}
+2549.11.28={
+	holder = 3346
+	historical_nomad = yes
+}

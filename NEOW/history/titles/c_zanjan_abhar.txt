@@ -1,0 +1,4 @@
+2542.1.16={
+	holder=2932
+	liege=k_khorasan
+}

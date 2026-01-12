@@ -1,0 +1,17 @@
+# 1272 - Ratanpur
+
+# County Title
+title = c_ratanpur
+
+# Settlements
+max_settlements = 4
+b_ratanpur = tribal
+#b_pali = city
+b_saravpur = temple
+#b_savarinarayana = temple
+
+# Misc
+culture = chhattisgarhi
+religion = maunaxite
+
+# History

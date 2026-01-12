@@ -1,0 +1,18 @@
+# 2125 - Limnos 
+
+# County Title
+title = c_limnos
+
+# Settlements
+max_settlements = 2
+b_limnos = castle
+b_myrina_2 = temple
+
+# Misc
+culture = rodiaki
+religion = marblists
+terrain = mountain
+
+# History
+
+

@@ -1,0 +1,6 @@
+
+2524.4.4=
+{
+	holder = 4280
+	liege = k_daylam
+}

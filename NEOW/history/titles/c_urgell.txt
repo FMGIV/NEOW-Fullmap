@@ -1,0 +1,223 @@
+1278.1.23={
+    holder = 989 #Pere
+}
+1293.1.1={
+    holder = 990 #Guillem
+}
+1308.1.1={
+    holder = 991 #Ramon
+}
+1326.1.1={
+    holder = 992 #Arnau
+}
+1341.1.1={
+    holder = 993 #Pere
+}
+1347.1.1={
+    holder = 994 #Nicola
+}
+1351.1.1={
+    holder = 995 #Hugo
+}
+1361.1.1={
+    holder = 996 #Guillem Arnau
+}
+1364.1.1={
+    holder = 997 #Pedro Martinez
+}
+1371.1.1={
+    holder = 998 #Berenguer
+}
+1397.1.1={
+    holder = 999 #Galcerand
+}
+1461.1.1={
+    holder = 1002 #Jaume
+}
+1466.12.1={
+    holder = 1003 #Roderic
+}
+1513.1.1={
+    holder = 1004 #Pedro Folc
+}
+1515.1.1={
+    holder = 1005 #Joan
+}
+1530.1.1={
+    holder = 1006 #Pedro Jorda
+}
+1533.1.1={
+    holder = 1007 #Francisco
+}
+1551.10.26={
+    holder = 1008 #Miquel
+}
+1556.1.1={
+    holder = 1009 #Joan Perez Garcia
+}
+1560.1.1={
+    holder = 1010 #Pere
+}
+1571.1.1={
+    holder = 1011 #Joan Dimas
+}
+1576.1.1={
+    holder = 1012 #Miquel Jeroni
+}
+1579.1.1={
+    holder = 1013 #Hugo Ambros
+}
+1586.1.1={
+    holder = 1014 #Andreu
+}
+1609.1.1={
+    holder = 1015 #Bernat
+}
+1620.1.1={
+    holder = 1016 #Lluis Dies Aux
+}
+1627.1.1={
+    holder = 1017 #Antonio
+}
+1633.1.1={
+    holder = 1018 #Pau
+}
+1651.2.18={
+    holder = 1019 #Joan Manuel
+}
+1663.1.1={
+    holder = 1020 #Melcior
+}
+1670.1.1={
+    holder = 1021 #Pere
+}
+1681.1.1={
+    holder = 1022 #Joan Desbach
+}
+1688.1.1={
+    holder = 1023 #Oleguer
+}
+1694.1.1={
+    holder = 1024 #Julia Cano
+}
+1714.1.1={
+    holder = 1025 #Simo
+}
+1737.1.1={
+    holder = 1026 #Jordi
+}
+1747.1.1={
+    holder = 1027 #Sebastia
+}
+1756.1.1={
+    holder = 1028 #Francesc Josep Catalan
+}
+1762.1.1={
+    holder = 1029 #Francesc Fernandez
+}
+1771.1.1={
+    holder = 1030 #Joaquin
+}
+1779.1.1={
+    holder = 1031 #Joan
+}
+1783.12.5={
+    holder = 1032 #Josep
+}
+1795.1.1={
+    holder = 1033 #Francisco Antonio
+}
+1816.1.1={
+    holder = 1034 #Bernat
+}
+1824.1.1={
+    holder = 1035 #Bonifacio
+}
+1827.12.3={
+    holder = 1036 #Simo
+}
+1851.8.26={
+    holder = 1037 #Josep
+}
+1879.8.26={
+    holder = 1038 #Salvador
+}
+1901.1.1={
+    holder = 1039 #Ramon
+}
+1901.12.27={
+    holder = 1040 #Toribio
+}
+1902.1.1={
+    holder = 1041 #Joan Josep
+}
+1906.1.1={
+    holder = 1042 #Josep
+}
+1907.1.1={
+    holder = 1043 #Joan Baptista
+}
+1919.1.1={
+    holder = 1044 #Jaume
+}
+1920.1.1={
+    holder = 1045 #Justi
+}
+1940.1.30={
+    holder = 1046 #Ricard
+}
+1943.1.1={
+    holder = 1047 #Ramon
+}
+1969.1.1={
+    holder = 1048 #Ramon
+}
+1971.1.1={
+    holder = 1049 #Joan
+}
+2100.1.1={
+    holder = 1050 #Gabriel
+}
+2145.1.1={
+    holder = 1051 #Marc
+}
+2166.1.1={
+    holder = 1052 #Xavier
+}
+2207.1.1={
+    holder = 1053 #Albert
+}
+2280.1.1={
+    holder = 1054 #Joan
+}
+2301.1.1={
+    holder = 1055 #Joan
+}
+2334.1.1={
+    holder = 1056 #Carlo
+}
+2368.1.1={
+    holder = 1057 #Albertu
+}
+2399.1.1={
+    holder = 1058 #Sigismund
+}
+2417.1.1={
+    holder = 1059 #Bartomeu
+}
+2440.1.1={
+    holder = 1060 #Felipe
+}
+2460.1.1={
+    holder = 1061 #Ramon
+}
+2489.1.1={
+    holder = 1062 #Tomas
+}
+2501.1.1={
+    holder = 1063 #Joan
+}
+
+2545.1.1={
+    holder = 988
+}

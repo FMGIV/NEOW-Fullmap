@@ -1,0 +1,4 @@
+2502.6.20={
+	holder = 10075
+	liege = d_gaoping
+}

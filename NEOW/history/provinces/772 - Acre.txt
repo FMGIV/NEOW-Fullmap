@@ -1,0 +1,28 @@
+# 772 - Acre
+
+# County Title
+title = c_acre
+
+# Settlements
+max_settlements = 5
+b_acre = castle
+b_adelon = temple
+
+b_syrcaesarea = castle
+b_merle = castle
+b_manawat = castle
+#b_recordana = castle
+#b_athlith = castle
+
+# Misc
+culture = israeli
+religion = mikraist
+terrain = tells
+
+2237.1.1 = {
+	build_wonder = wonder_fortress
+	set_wonder_stage = 3
+	build_wonder_upgrade = upgrade_moat_pit
+	build_wonder_upgrade = upgrade_moat_water
+	build_wonder_upgrade = upgrade_watch_tower
+}

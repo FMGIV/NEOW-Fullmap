@@ -1,0 +1,4 @@
+2550.6.9 = {
+	holder=4465
+	liege=d_hualien
+}

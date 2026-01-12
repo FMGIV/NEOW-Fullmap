@@ -1,0 +1,20 @@
+# 396 - Bjarmia
+
+# County Title
+title = c_bjarmia
+
+# Settlements
+max_settlements = 5
+b_okladnikowa = tribal
+b_kusnezowa = temple
+#b_okulovsky = city
+
+#b_kamenka_bj = castle
+#b_kimzha = castle
+#b_lampozhnya = castle
+
+# Misc
+culture = pomoran
+religion = folklorist
+
+# History

@@ -1,0 +1,23 @@
+# 859 - Taizz
+
+# County Title
+title = c_taizz
+
+# Settlements
+max_settlements = 5
+b_taizz = castle
+b_mocha = city
+b_zafar = temple
+
+#b_perim = castle
+#b_shuqra = castle
+b_jibla = castle
+#b_dhisufal = temple
+ 
+# Misc
+culture = yemeni
+religion = sunni
+
+# History
+#1337.1.1 = { b_mocha = city } #port became known in the 15th century
+

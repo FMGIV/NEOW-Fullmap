@@ -1,0 +1,12 @@
+# 1622 - Romsdal
+
+# County title 
+title = c_romsdal
+
+max_settlements = 3
+
+b_veoy = castle
+
+# Misc
+culture = vestsk
+religion = vagarna

@@ -1,0 +1,4 @@
+2539.7.12={
+	holder=3291
+	historical_nomad = yes
+}

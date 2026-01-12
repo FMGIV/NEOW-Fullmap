@@ -1,0 +1,20 @@
+#
+
+# County Title
+title = c_severo
+
+# Settlements
+max_settlements = 4
+b_podtesovo = castle
+#b_katayga
+#b_ust'-pit
+#b_shishmarevo
+#b_bryanka
+#b_pit-gorodok
+#b_yeruda
+
+# Misc
+culture = ket
+religion = nousthreskeia
+
+# History

@@ -1,0 +1,12 @@
+# 1876 - Tarbagatai
+
+# County Title
+title = c_tarbagatai
+
+# Settlements
+max_settlements = 2
+b_tarbagatai = tribal
+
+# Misc
+culture = alagol
+religion = ironist

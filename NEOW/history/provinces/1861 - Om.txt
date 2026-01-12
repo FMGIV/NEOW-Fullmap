@@ -1,0 +1,14 @@
+# 1861 - Om
+
+# County Title
+title = c_om
+
+# Settlements 
+max_settlements = 5
+b_om = tribal
+b_butovka = temple
+# Misc
+culture = sibiran
+religion = cosmist
+
+# History

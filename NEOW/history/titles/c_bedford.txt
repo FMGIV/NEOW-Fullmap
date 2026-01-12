@@ -1,0 +1,4 @@
+2507.6.4={
+	holder = 663 # Count Brian May
+	liege = e_britannia
+}

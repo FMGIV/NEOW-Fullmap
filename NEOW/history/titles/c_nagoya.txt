@@ -1,0 +1,4 @@
+2554.7.19={
+	holder=5086
+	law = succ_primogeniture
+}

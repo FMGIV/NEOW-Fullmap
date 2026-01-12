@@ -1,0 +1,22 @@
+# 413 - Pskov
+
+# County Title
+title = c_pskov
+
+# Settlements
+max_settlements = 5
+
+#b_pskov = tribal
+#b_ostrov = city
+b_pskov = tribal
+b_golubovo = temple
+#b_ostrov = city
+
+#b_porkhov = castle
+#b_khilovo
+#b_dedovichi
+#b_goristo
+
+# Misc
+culture = pietrovan
+religion = zarist

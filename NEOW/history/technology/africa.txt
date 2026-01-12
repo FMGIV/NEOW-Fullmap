@@ -1,0 +1,188 @@
+#EAST AFRICA
+
+technology = {
+	titles = {
+		d_eritrea
+		d_nobatia
+		d_nubia
+		d_kassala
+		d_hayya
+		d_sennar
+		d_west_somalia
+		d_north_somalia
+		d_east_somalia
+		d_socotra
+		d_djibouti
+	}
+
+
+	2555 = {
+		military = 1.5
+		economy = 2.5
+		culture = 2.0
+	}
+}
+technology = {
+	titles = {
+		d_axum
+		d_semien
+		d_wag
+		d_gojjam
+		d_damot
+		d_shewa
+	}
+
+
+	2555 = {
+		military = 2.5
+		economy = 2.5
+		culture = 3.1
+	}
+}
+technology = {
+	titles = {
+		c_raas_xaafuun
+		c_busaso
+	}
+
+	2555 = {
+		military = 1.5
+		economy = 1.75
+		culture = 3.0
+	}
+}
+# MOROCCO
+
+technology = {
+	titles = {
+		d_oriental
+		d_massa
+		d_tetouan
+		d_boulemane
+		d_alhoceima
+	}
+	2555 = {
+		military = 2.25
+		economy = 2.5
+		culture = 2.25
+	}
+}
+
+#SUB SAHARA
+
+technology = {
+	titles = {
+		d_timbuktu
+		d_keran
+		d_gourma
+		d_bourem
+		d_wagadougou
+		d_houet
+		d_poro
+		d_sikasso
+		d_segou
+		d_diema
+		d_manding
+		d_kangare
+		d_mamou
+		d_labe
+		d_boke
+		d_bissau
+		d_sanela
+		d_kedougou
+		d_gambia
+		d_inner_gambia
+		d_tambacounda
+		d_matam
+		d_diourbel
+		d_louga
+		d_kurkul
+		d_nouakchott
+		d_moussoro
+		d_wadi_fira
+		d_kanem
+		d_batha
+		d_salamat
+		d_massenya
+		d_baguirmi
+		d_zinder
+		d_garazou
+		d_agadez
+		d_dogondoutchi
+		d_filingue
+		d_logobou
+		d_gao
+		d_malakal
+		d_ruwaba
+		d_kadukli
+		d_el_daein
+		d_gereida
+		d_geneina
+	}
+	
+	2555 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+}
+#THE SAHARA
+
+technology = {
+	titles = {
+		d_tiris_zammur
+		d_ouadane 
+		d_oualata
+		d_es_semara
+		d_west_sahara
+		d_east_sahara
+		d_fezzan
+		d_ennedi
+		d_assamaka
+		d_inchiri
+		d_al_barakina
+		d_brakna
+		d_walata
+		d_al_gharbi
+	}
+	
+	2555 = {
+		military = 1.3
+		economy = 1.3
+		culture = 1.3
+		TECH_CAVALRY = 2.25
+		TECH_SKIRMISH = 2.25
+	}
+}
+#Hearts of Senegal
+technology = {
+	titles = {
+		d_dakar
+		d_saint_louis
+		d_nawazibu
+		d_saloum
+	}
+	2555 = {
+		military = 2.25
+		economy = 2.2
+		culture = 2.5
+	}
+}
+#Close to Nigeria
+
+technology = {
+	titles = {
+		d_gombe
+		d_katsina
+		d_zaria
+		d_misau
+		d_gesheru
+		d_sokoto
+	}
+
+	2555 = {
+		military = 3.0
+		economy = 2.5
+		culture = 2.5
+	}
+}

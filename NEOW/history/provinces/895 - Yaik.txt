@@ -1,0 +1,24 @@
+# 895 - Yaik
+
+# County Title
+title = c_yaik
+
+# Settlements
+max_settlements = 2
+b_kurgan = tribal
+
+#b_kyzalyar = city
+#b_vagay = temple
+
+#b_lebyazhe = castle
+#b_yurgamysh = castle
+#b_shumikha = castle
+#b_mishkino = castle
+#b_makushino = castle
+
+# Misc
+culture = alagol
+religion = ironist
+terrain = steppe
+
+# History

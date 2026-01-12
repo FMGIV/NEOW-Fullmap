@@ -1,0 +1,18 @@
+# 315 - Kempten
+
+# County Title
+title = c_kempten
+
+# Settlements
+max_settlements = 3
+b_kempten = tribal
+b_augsburg = temple
+#b_kaufbeuren = city
+
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+

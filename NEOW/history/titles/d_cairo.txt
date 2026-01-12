@@ -1,0 +1,6 @@
+
+2551.2.12=
+{
+	holder = 1623
+	liege = k_egypt
+}

@@ -1,0 +1,21 @@
+	# 360 - Oberbayern
+
+# County Title
+title = c_oberbayern
+
+# Settlements
+max_settlements = 5
+b_munchen = castle
+b_dachau = temple
+b_freising = city
+
+b_andechs = castle
+#b_diessen = 
+#b_dingolfing = 
+#b_pfaffenberg = 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History

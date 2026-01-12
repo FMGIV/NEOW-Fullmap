@@ -1,0 +1,14 @@
+# 1872 - Zaysan 
+
+# County Title
+title = c_zaysan
+
+# Settlements
+max_settlements = 2
+b_zaysan = tribal
+
+# Misc
+culture = klynian
+religion = ironist
+
+# History

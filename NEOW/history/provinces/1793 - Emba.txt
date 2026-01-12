@@ -1,0 +1,16 @@
+# 1793 - Emba
+
+# County Title
+title = c_emba
+
+# Settlements
+max_settlements = 3
+b_emba = tribal
+
+# Misc
+culture = kazakh
+religion = ironist
+
+
+# History
+

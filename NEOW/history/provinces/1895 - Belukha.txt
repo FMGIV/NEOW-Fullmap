@@ -1,0 +1,14 @@
+# 1895 - Belukha
+
+# County Title
+title = c_belukha
+
+# Settlements
+max_settlements = 4
+b_belukha = tribal
+
+# Misc
+culture = altai
+religion = akjang
+
+# History

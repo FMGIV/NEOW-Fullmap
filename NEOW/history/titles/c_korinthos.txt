@@ -1,0 +1,6 @@
+
+2552.4.26={
+	holder=2240
+	liege=e_macedonia
+}
+

@@ -1,0 +1,27 @@
+# c_bandar_seri_begawan
+
+# County Title
+title = c_bandar_seri_begawan
+
+# Settlements
+max_settlements = 6
+
+b_bandar_seri_begawan = castle
+b_kampong_kuala_lurah = city
+b_penyatang = temple
+b_pemadang = castle
+b_kampung_rambai = city
+b_lamunin = temple
+#b_bukit_sulang = castle
+
+# Misc
+culture = brunei
+religion = syafi
+#History
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 3
+	build_wonder_upgrade = upgrade_cow_district_palace
+	build_wonder_upgrade = upgrade_cow_district_mosque
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+}

@@ -1,0 +1,5 @@
+2540.4.25 = {
+	holding_dynasty=2000884
+	holder=10100
+	liege = d_saigon
+}

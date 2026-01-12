@@ -1,0 +1,17 @@
+# 267 - Jylland
+
+# County Title
+title = c_jylland
+
+# Settlements
+max_settlements = 3
+b_hjorring = castle
+b_skagen = city
+b_thystadth = temple
+
+# Misc
+culture = danish
+religion = lutheran
+
+# History
+

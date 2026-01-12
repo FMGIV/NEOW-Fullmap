@@ -1,0 +1,21 @@
+# 170 - Denia
+
+# County Title
+title = c_denia
+
+# Settlements
+max_settlements = 4
+
+b_villena = castle
+b_alicante = city
+b_elche = temple
+#b_castalla = castle
+#b_albatera = castle
+#b_benissa = castle
+#b_orihuela = city
+#b_denia = castle
+
+# Misc
+culture = valencian
+religion = sevillian
+terrain = tells

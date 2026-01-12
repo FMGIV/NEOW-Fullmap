@@ -1,0 +1,26 @@
+# 1661 - Gdov
+
+# County Title
+title = c_gdov
+
+# Settlements
+max_settlements = 3
+
+b_gdov = tribal
+
+#b_mda
+#b_vyazki
+#b_kolydukha
+#b_plyussa
+#b_strizhki
+#b_zakhodsy
+
+## Misc
+culture = pietrovan
+religion = zarist
+
+# History
+
+1200.1.1 = {
+	b_gdov = castle
+}

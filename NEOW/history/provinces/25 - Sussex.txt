@@ -1,0 +1,22 @@
+# 25 - Sussex
+
+# County Title
+title = c_sussex
+
+# Settlements
+max_settlements = 5
+b_chichester = castle
+b_pevensey = city
+b_lewes = temple
+
+#b_arundel = castle
+#b_hastings = castle
+#b_rye = castle
+#b_bramber = castle
+#b_bodiam = castle
+
+# Misc
+culture = southener
+religion = thelemic_reformed
+
+# History

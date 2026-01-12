@@ -1,0 +1,21 @@
+# 1603 - Ogliastra
+
+# County Title
+title = c_ogliastra
+
+# Settlements
+max_settlements = 4
+b_ogliastra = castle
+#b_tortoli = castle
+b_muravera = temple
+#b_jerzu = castle
+b_nuoro = city
+#b_urzulei = castle
+#b_ballao = castle
+
+# Misc
+culture = sard
+religion = catholic
+terrain = hills
+
+# History

@@ -1,0 +1,21 @@
+# 28 - Somerset
+
+# County Title
+title = c_somerset
+
+# Settlements
+max_settlements = 3
+b_taunton = castle
+b_bridgwater = temple
+b_yeovil = city
+
+#b_glastonbury = temple
+#b_ilchester = city
+#b_muchelney = castle
+#b_castle_cary = castle
+
+# Misc
+culture = westlander
+religion = summer_queen
+
+# History

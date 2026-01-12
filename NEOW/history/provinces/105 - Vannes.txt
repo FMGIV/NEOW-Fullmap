@@ -1,0 +1,23 @@
+# 105 - Vannes
+
+# County Title
+title = c_vannes
+
+# Settlements
+max_settlements = 5
+b_vannes = castle
+b_josselin = city
+b_st_gildas = temple
+b_locmine = city
+
+#b_hennebont = castle
+#b_pontivy = city
+#b_st_gildas = city
+#b_auray = city
+
+# Misc
+culture = breton
+religion = novelist
+
+# History
+

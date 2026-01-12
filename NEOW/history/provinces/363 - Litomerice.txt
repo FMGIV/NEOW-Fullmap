@@ -1,0 +1,23 @@
+# 363 - Litomerice
+
+# County Title
+title = c_litomerice
+
+# Settlements
+max_settlements = 6
+b_litomerice = castle
+
+b_melnik_bohemia = temple
+#b_mnichovo_hradiste = temple
+b_zitava = castle
+#b_duba_litomerice = castle
+#b_decin = castle
+#b_boleslav = city
+#b_ceskalipa = castle
+#b_nymburk = city
+
+# Misc
+culture = czech
+religion = osvicenism
+
+# History

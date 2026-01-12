@@ -1,0 +1,5 @@
+2551.4.29=
+{
+	holder=1876
+	liege=d_burgundy
+}

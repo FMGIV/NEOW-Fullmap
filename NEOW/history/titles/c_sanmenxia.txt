@@ -1,0 +1,4 @@
+2540.3.10={
+	holder=4635
+	liege=k_henan
+}

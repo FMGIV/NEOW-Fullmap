@@ -1,0 +1,51 @@
+100.1.1 = {
+  pentarch = b_alexandria
+}
+2150.1.1={
+	holder = 1638 #Danyal
+}
+2155.1.1={
+	holder = 1639 #Daoud
+}
+2157.1.1={
+	holder = 1640 #Habil
+}
+2165.1.1={
+	holder = 1641 #Walid
+}
+2190.1.1={
+	holder = 1642 #Nasir I
+}
+2195.1.1={
+	holder = 1643 #Nasir II
+}
+2220.1.1={
+	holder = 1644 #Yahya
+}
+2240.1.1={
+	holder = 1645 #Ezzat
+}
+2243.1.1={
+	holder = 1646 #Tadros
+}
+2250.1.1={
+	holder = 1647 #Krystafer
+}
+2290.1.1={
+	holder = 1648 #Marcos
+}
+2315.1.1={
+	holder = 1649 #Ilyas
+}
+2320.1.1={
+	holder = 1650 #Jamys
+}
+2335.1.1={
+	holder = 0 #End of an era
+}
+2548.4.8=
+{
+	holder = 1619
+	law = tolerance_laws_2
+	law = centralization_2
+}

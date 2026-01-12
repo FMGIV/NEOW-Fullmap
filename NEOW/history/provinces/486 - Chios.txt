@@ -1,0 +1,23 @@
+# 486 - Chios
+
+# County Title
+title = c_chios
+
+# Settlements
+max_settlements = 3
+
+b_chios = castle
+b_tigani = city
+
+b_marathokampos = temple
+#b_ikaria = temple
+#b_fourni = castle
+#b_chrysostomos = castle
+#b_pagondas = castle
+
+# Misc
+culture = rodiaki
+religion = hellenic_pagan
+terrain = mountain
+
+# History

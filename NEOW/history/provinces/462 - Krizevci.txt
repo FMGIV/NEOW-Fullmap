@@ -1,0 +1,20 @@
+# 462 - Krizevci
+
+# County Title
+title = c_krizevci
+
+# Settlements
+max_settlements = 5
+b_bjelovar = castle
+b_koprivnica = city
+b_virovitica = city
+b_krizevci = temple
+#b_slatina = {}
+#b_virje = {}
+#b_suhopolje = {}
+
+# Misc
+culture = croatian
+religion = titoist
+
+# History

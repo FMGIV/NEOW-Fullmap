@@ -1,0 +1,17 @@
+# 1424 - Chuy
+
+# County Title
+title = c_chuy
+
+# Settlements
+max_settlements = 5
+b_balasagun = castle
+b_bishkek = city
+b_almatu = temple
+
+#b_taraz = {}
+#b_tokmok = {}
+
+# Misc
+religion = ovlatii
+culture = kirghiz

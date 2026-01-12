@@ -1,0 +1,18 @@
+# 1699 - Medelike
+
+# County title
+title = c_medelike
+
+# Settlements
+max_settlements = 4
+b_melk = castle
+b_zelking = temple
+b_stpolten = city
+
+# Misc
+culture = austrian
+religion = catholic
+
+# History
+
+

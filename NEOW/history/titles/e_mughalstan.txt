@@ -1,0 +1,75 @@
+#Commented out Mughal rulers for now since this is now Pakistan
+#1526.4.20={
+#	holder=1397 #Babur
+#}
+#1530.12.26={
+#	holder=1398 #Humayun
+#}
+#1556.1.27={
+#	holder=1399 #Akbar I
+#}
+#1605.10.27={
+#	holder=1400 #Jahangir
+#}
+#1627.10.28={
+#	holder=1401 #Shah-Jahan I
+#}
+#1658.7.31={
+#	holder=1402 #Alamgir Aurangzeb I
+#}
+#1707.3.3={
+#	holder=1403 #Muhammad I Azam Shah
+#}
+#1707.6.8={
+#	holder=1404 #Bahadur Shah
+#}
+#1712.2.27={
+#	holder=1405 #Jahandar Shah
+#}
+#1713.2.12={
+#	holder=1406 #Farrukhsiyar
+#}
+#1719.4.19={
+#	holder=1407 #Rafi ud-Darajat
+#}
+#1719.6.6={
+#	holder=1408 #Shah-Jahan II
+#}
+#1719.9.18={
+#	holder=1409 #Muhammad II Shah
+#}
+#1748.4.26={
+#	holder=1410 #Ahmad Shah Bahadur
+#}
+#1754.6.3={
+#	holder=1411 #Alamgir II
+#}
+#1759.12.10={
+#	holder=1412 #Shah-Jahan III
+#}
+#1760.10.10={
+#	holder=1413 #Shah Alam
+#}
+#1788.7.31={
+#	holder=1414 #Mahmud Shah Bahadur
+#}
+#1788.10.16={
+#	holder=1413 #Shah Alam
+#}
+#1806.11.19={
+#	holder=1415 #Akbar II
+#}
+#1837.9.28={
+#	holder=1416 #Bahadur Shah II
+#}
+#1857.9.21={
+#	holder=0
+#}
+
+#Jinnah, the father of Pakistan
+1947.8.14={
+	holder=1418 #Muhammad Ali Jinnah
+}
+1948.9.11={
+	holder=0
+}

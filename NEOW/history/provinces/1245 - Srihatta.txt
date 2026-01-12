@@ -1,0 +1,18 @@
+# 1245 - Srihatta
+
+# County Title
+title = c_srihatta
+
+# Settlements
+max_settlements = 5
+b_srihatta = tribal
+#b_habiganj = city
+b_egarosindur = temple
+#b_nasirabad = city
+#b_jangalbari = castle
+
+# Misc
+culture = meitei
+religion = sanamahist
+
+# History

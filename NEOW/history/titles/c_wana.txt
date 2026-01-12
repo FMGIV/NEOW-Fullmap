@@ -1,0 +1,4 @@
+2543.7.2={
+	holder=2911
+	liege = k_punjab
+}

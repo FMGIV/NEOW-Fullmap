@@ -1,0 +1,19 @@
+# 657 - Luristan
+
+# County Title
+title = c_luristan
+
+# Settlements
+max_settlements = 4
+b_dezbar = castle
+b_aligoodarz = castle
+b_arak_2 = city
+#b_borujerd = temple
+#b_astaneh = city
+
+
+#Misc
+culture = lurish
+religion = shiite
+
+# History

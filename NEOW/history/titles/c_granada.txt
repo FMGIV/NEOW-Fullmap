@@ -1,0 +1,30 @@
+2356.4.3={
+	holder=212 # Pedro I of Andalusia
+}
+2379.6.24={
+	holder=213 # Gutierre I of Andalusia
+}
+2398.6.12={
+	holder=10115 # Alonso I of Andalusia
+}
+2420.1.9={
+	holder=215 # Gil I of Andalusia
+}
+2433.8.20={
+	holder=216 # Gomez I of Andalusia
+}
+2450.1.4={
+	holder=217 # Anderquina I of Andalusia
+}
+2452.3.17={
+	holder=218 # Guillermo I of Andalusia
+}
+2500.9.12={
+	holder=219 # Cristóbal I the Old of Andalusia
+}
+2544.3.1={
+	holder=223 # Cayetano I of Andalusia
+}
+2552.8.2={
+	holder=224 # Ordono I of Andalusia
+}

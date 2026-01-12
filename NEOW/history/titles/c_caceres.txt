@@ -1,0 +1,16 @@
+2454.10.9={
+	holder=916 # Hernan I Cortés
+}
+2483.12.2={
+	holder=917 # Miguel I Cortés
+}
+2502.6.4={
+	holder=918 # Miguel II Cortés
+}
+2521.11.6={
+	holder=919 # Hernan II Cortés
+}
+2553.12.20={
+	holder=920 # Hernan III Cortés
+	liege=k_andalusia
+}

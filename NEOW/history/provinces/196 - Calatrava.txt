@@ -1,0 +1,21 @@
+# 196 - Calatrava
+
+# County Title
+title = c_calatrava
+
+# Settlements
+max_settlements = 4
+b_caracuel = castle
+b_villareal = city
+b_calatrava = temple
+#b_tarazona = castle
+#b_alarcos = castle
+#b_medellin = castle
+#b_almadeo = castle
+#b_almodovardelcampo = castle
+
+# Misc
+culture = castilian
+religion = sevillian
+
+# History

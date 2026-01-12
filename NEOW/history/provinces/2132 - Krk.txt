@@ -1,0 +1,22 @@
+# 2132 - Krk
+
+# County Title
+title = c_krk
+
+# Settlements
+max_settlements = 3
+b_krk= city
+b_punat= castle
+b_baska = temple
+#b_stara
+#b_porozina
+#b_malinska
+
+# Misc
+culture = croatian
+religion = catholic
+terrain = forest
+
+# History
+2532.10.13 = { trade_post = b_andrijasevic }
+

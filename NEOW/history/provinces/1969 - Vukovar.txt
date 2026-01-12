@@ -1,0 +1,18 @@
+# 1969 - Vukovar
+
+# County Title
+title = c_vukovar
+
+# Settlements
+max_settlements = 3
+b_osijek = tribal
+
+# Misc
+culture = croatian
+religion = catholic
+
+# History
+800.1.1 = {
+	b_osijek = castle
+	b_vukovar = city
+}

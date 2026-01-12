@@ -1,0 +1,15 @@
+# 1735 - Bilma
+
+# County Title
+title = c_bilma
+
+# Settlements
+max_settlements = 2
+
+b_bilma = tribal
+
+# Misc
+culture = toubu
+religion = sufi
+
+# History

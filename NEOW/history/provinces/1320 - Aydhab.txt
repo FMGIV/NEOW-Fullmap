@@ -1,0 +1,21 @@
+# 1320 - Aydhab
+
+# County Title
+title = c_aydhab
+
+# Settlements
+max_settlements = 5
+b_marsaalam = castle
+b_port_ghalib = city
+b_zabargad = temple
+
+#b_elba = temple
+#b_shalateen = castle
+#b_troglodytica = city
+
+
+# Misc
+culture = saidi
+religion = sunni
+
+# History

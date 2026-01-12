@@ -1,0 +1,298 @@
+#cow_wonder_upgrade_decision_effect                         Temporary flag that tracks which Wonder is located in the province.
+#cow_wonder_stage_decision_effect                           Non-functional - Is supposed to track what stage the Wonder is in.
+#cow_post_wonder_stage_decision_effect                      Non-functional - Is supposed to add Wonder Stages depending on what stage the original wonder was.
+#cow_post_wonder_upgrade_decision_effect                    Adds Wonder District depending on which Wonder was previously located in the province.
+#cow_historical_wonder_upgrade_decision_effect              Adds historical City of Wonders depending on which historical location.
+
+cow_wonder_upgrade_decision_effect = {
+	if = {
+		limit = {
+			has_wonder = wonder_cathedral
+		}
+		set_global_flag = cow_cathedral
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_mosque
+		}
+		set_global_flag = cow_mosque
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_synagogue
+		}
+		set_global_flag = cow_synagogue
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_temple_pagan
+		}
+		set_global_flag = cow_temple_pagan
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_temple_buddhist
+		}
+		set_global_flag = cow_temple_buddhist
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_temple_hindu
+		}
+		set_global_flag = cow_temple_hindu
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_statue_ruler
+		}
+		set_global_flag = cow_statue_ruler
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_statue_horse
+		}
+		set_global_flag = cow_statue_horse
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_fortress
+		}
+		set_global_flag = cow_fortress
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_underground_city
+		}
+		set_global_flag = cow_underground_city
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_wall
+		}
+		set_global_flag = cow_wall
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_harbor
+		}
+		set_global_flag = cow_harbor
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_lighthouse
+		}
+		set_global_flag = cow_lighthouse
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_amphitheater
+		}
+		set_global_flag = cow_amphitheater
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_palace
+		}
+		set_global_flag = cow_palace
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_garden
+		}
+		set_global_flag = cow_garden
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_university
+		}
+		set_global_flag = cow_university
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_library
+		}
+		set_global_flag = cow_library
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_mausoleum
+		}
+		set_global_flag = cow_mausoleum
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_pyramid
+		}
+		set_global_flag = cow_pyramid
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_pagan_stones
+		}
+		set_global_flag = cow_pagan_stones
+	}
+	else_if = {
+		limit = {
+			has_wonder = wonder_aztec_pyramid
+		}
+		set_global_flag = cow_aztec_pyramid
+	}
+}
+
+
+cow_post_wonder_upgrade_decision_effect = {
+	if = {
+		limit = {
+			has_global_flag = cow_cathedral
+		}
+		add_wonder_upgrade = upgrade_cow_district_cathedral
+		clr_global_flag = cow_cathedral
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_mosque
+		}
+		add_wonder_upgrade = upgrade_cow_district_mosque
+		clr_global_flag = cow_mosque
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_synagogue
+		}
+		add_wonder_upgrade = upgrade_cow_district_synagogue
+		clr_global_flag = cow_synagogue
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_temple_pagan
+		}
+		add_wonder_upgrade = upgrade_cow_district_temple_pagan
+		clr_global_flag = cow_temple_pagan
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_temple_buddhist
+		}
+		add_wonder_upgrade = upgrade_cow_district_temple_buddhist
+		clr_global_flag = cow_temple_buddhist
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_temple_hindu
+		}
+		add_wonder_upgrade = upgrade_cow_district_temple_hindu
+		clr_global_flag = cow_temple_hindu
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_statue_ruler
+		}
+		add_wonder_upgrade = upgrade_cow_district_statue_ruler
+		clr_global_flag = cow_statue_ruler
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_statue_horse
+		}
+		add_wonder_upgrade = upgrade_cow_district_horse_statue
+		clr_global_flag = cow_statue_horse
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_fortress
+		}
+		add_wonder_upgrade = upgrade_cow_district_fortress
+		clr_global_flag = cow_fortress
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_underground_city
+		}
+		add_wonder_upgrade = upgrade_cow_district_underground_city
+		clr_global_flag = cow_underground_city
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_wall
+		}
+		add_wonder_upgrade = upgrade_cow_district_grand_walls
+		clr_global_flag = cow_wall
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_harbor
+		}
+		add_wonder_upgrade = upgrade_cow_district_harbor
+		clr_global_flag = cow_harbor
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_lighthouse
+		}
+		add_wonder_upgrade = upgrade_cow_district_lighthouse
+		clr_global_flag = cow_lighthouse
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_amphitheater
+		}
+		add_wonder_upgrade = upgrade_cow_district_amphitheatre
+		clr_global_flag = cow_amphitheater
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_palace
+		}
+		add_wonder_upgrade = upgrade_cow_district_palace
+		clr_global_flag = cow_palace
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_garden
+		}
+		add_wonder_upgrade = upgrade_cow_district_garden
+		clr_global_flag = cow_garden
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_university
+		}
+		add_wonder_upgrade = upgrade_cow_district_university
+		clr_global_flag = cow_university
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_library
+		}
+		add_wonder_upgrade = upgrade_cow_district_library
+		clr_global_flag = cow_library
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_mausoleum
+		}
+		add_wonder_upgrade = upgrade_cow_district_mausoleum
+		clr_global_flag = cow_mausoleum
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_pyramid
+		}
+		add_wonder_upgrade = upgrade_cow_district_pyramid
+		clr_global_flag = cow_pyramid
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_pagan_stones
+		}
+		add_wonder_upgrade = upgrade_cow_district_pagan_stones
+		clr_global_flag = cow_pagan_stones
+	}
+	else_if = {
+		limit = {
+			has_global_flag = cow_aztec_pyramid
+		}
+		add_wonder_upgrade = upgrade_cow_district_aztec_pyramid
+		clr_global_flag = cow_aztec_pyramid
+	}
+}

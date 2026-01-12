@@ -1,0 +1,5 @@
+2540.4.25 = {
+	holding_dynasty=3732908
+	holder=10725
+	liege = d_pattaya
+}

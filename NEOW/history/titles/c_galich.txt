@@ -1,0 +1,5 @@
+2552.1.29={
+	holder = 4022
+        liege = k_ukraine
+	
+}

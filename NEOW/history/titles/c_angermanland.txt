@@ -1,0 +1,5 @@
+2534.2.26={
+	holder = 4141
+	liege = d_jamtland
+}
+

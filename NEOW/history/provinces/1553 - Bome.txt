@@ -1,0 +1,19 @@
+# County Title
+title = c_bome
+
+# Settlements
+max_settlements = 4
+
+b_bome = tribal
+b_zhamo = temple
+#b_alamdo = 
+#b_yupu = {
+#b_naha = {
+#b_cizula = {
+#b_yiong = {
+
+# Misc
+culture = kham #Lisu
+religion = gelugpa
+
+# History

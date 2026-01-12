@@ -1,0 +1,22 @@
+# 439 - Plzen
+
+# County Title
+title = c_plzen
+
+# Settlements
+max_settlements = 4
+b_plzen = castle
+
+#b_plasy = temple
+#b_stribo = city
+#b_klatovy = castle
+#b_primda = castle
+#b_kladruby = temple
+#b_domazlice = city
+
+
+# Misc
+culture = czech
+religion = osvicenism
+
+# History

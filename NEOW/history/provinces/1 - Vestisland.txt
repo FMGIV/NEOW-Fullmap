@@ -1,0 +1,21 @@
+# 1 - Vestisland
+
+# County Title
+title = c_vestisland
+
+# Settlements
+max_settlements = 2
+b_hvamm = tribal
+
+b_borg = temple
+
+# Misc
+culture = greenlander
+religion = inuit_pagan
+terrain = arctic
+
+# History
+2540.6.2 = {
+	b_hvamm = tb_shipyard_1
+	b_hvamm = tb_shipyard_2
+}

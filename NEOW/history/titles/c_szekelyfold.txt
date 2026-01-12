@@ -1,0 +1,7 @@
+2532.8.4={
+	holder=2682
+}
+2552.12.5={
+	holder = 2684
+	liege=d_transylvania
+}

@@ -1,0 +1,16 @@
+# 1988 - Havelberg
+
+# County Title
+title = c_havelberg
+
+# Settlements
+max_settlements = 4
+b_lenzen = castle
+b_wittstock = city
+b_havelberg = temple
+
+# Misc
+culture = brandenburger
+religion = lutheran
+
+# History

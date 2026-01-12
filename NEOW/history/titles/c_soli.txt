@@ -1,0 +1,4 @@
+2526.4.6={
+	liege=k_bosnai
+	holder=9986
+}

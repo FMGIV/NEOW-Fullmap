@@ -1,0 +1,34 @@
+# 32 - Middlesex
+
+# County Title
+title = c_london
+
+# Settlements
+max_settlements = 7
+b_westminster = castle
+b_london = city
+b_st_pauls = temple
+b_staines = city
+b_chelsea = castle
+
+#b_fulham = castle
+#b_tottenham = castle
+#b_harrow = castle
+
+# Misc
+culture = southener
+religion = thelemic_reformed
+terrain = tells
+
+
+# History
+
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 7
+	build_wonder_upgrade = upgrade_cow_district_pyramid
+	build_wonder_upgrade = upgrade_cow_district_palace
+	build_wonder_upgrade = upgrade_cow_district_garden
+	build_wonder_upgrade = upgrade_cow_district_library
+	build_wonder_upgrade = upgrade_cow_district_amphitheatre
+}

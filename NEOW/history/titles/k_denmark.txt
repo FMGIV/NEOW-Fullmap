@@ -1,0 +1,43 @@
+100.1.1 = {
+  pentarch = b_roma
+}
+2200.1.1=
+{
+	holder=1542 #Johan I	
+}
+2225.1.1=
+{
+	holder=1543 #Johan II	
+}
+2260.1.1=
+{
+	holder=1544 #Rakel	
+}
+2276.1.1=
+{
+	holder=1546 #Caroline	
+}
+2299.3.11=
+{
+	holder=1547 #Johan III	
+}
+2366.8.11=
+{
+	holder=1548 #Johan IV	
+}
+2370.8.1=
+{
+	holder=1549 #Albert	
+}
+2389.7.15=
+{
+	holder=15450 #Rasmus	
+}
+2392.1.1=
+{
+	holder=1550 #Henrik	
+}
+2398.1.1=
+{
+	holder=0 #Denmark collapses under its own weight. This period was rife with uprisings and failed harvests	
+}

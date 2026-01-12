@@ -1,0 +1,15 @@
+# 1791 - Gurganj
+
+# County title
+title = c_gurganj
+
+max_settlements = 3
+
+b_kyrkmolla = castle
+b_urgench = city
+b_nukus = temple
+
+# Misc
+culture = karakalpak
+religion = ovlatii
+terrain = steppe

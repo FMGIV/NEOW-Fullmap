@@ -1,0 +1,4 @@
+2550.7.21={
+	holder = 1892
+	liege=d_picardy
+}

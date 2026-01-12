@@ -1,0 +1,5 @@
+
+2552.9.3={
+	holder = 3243
+	liege = k_lithuania
+}

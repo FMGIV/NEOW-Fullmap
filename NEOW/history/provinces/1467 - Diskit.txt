@@ -1,0 +1,20 @@
+# County Title
+title = c_diskit
+
+# Settlements
+max_settlements = 3
+
+b_diskit = tribal
+#b_thirit = city
+#b_hundar = {
+#b_thoise = {
+#b_charassa = {
+#b_panamik = {
+#b_unmaru = {
+
+# Misc
+culture = sarikoli
+religion = neo_zorvanite
+
+# History
+

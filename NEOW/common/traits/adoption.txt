@@ -1,0 +1,158 @@
+
+adopted_child = {
+	diplomacy = -1
+	same_opinion = 15
+	vassal_opinion = -15
+}
+homosexualmarried_mm = {
+	dynasty_opinion = -10
+	christian_opinion = -10
+	fertility = -50.0
+	random=no
+	customizer = no
+}
+homosexualmarried_mp = {
+	dynasty_opinion = -10
+	christian_opinion = -10
+	random=no
+	customizer = no
+}
+
+homosexualmarried_ff = {
+	dynasty_opinion = -10
+	christian_opinion = -10
+	random=no
+	customizer = no
+	fertility = -50.0
+}
+homosexualmarried_fp = {
+	dynasty_opinion = -10
+	christian_opinion = -10
+	random=no
+	customizer = no
+}
+flowered = {
+	hidden = yes
+	random = no
+	cannot_marry = yes
+	fertility = -50.0
+	customizer = no
+}
+a_type = {
+	random = no
+	customizer = no
+	stewardship = 1
+	diplomacy = -1
+	a_type_opinion = 10
+	b_type_opinion = -5
+	ab_type_opinion = -5
+	o_type_opinion = 5
+	potential = {
+		OR = {
+			culture_group = japan_group
+			culture = nikkei
+			OR = { religion = shinto secret_religion = shinto }
+			OR = { religion = bushinto secret_religion = bushinto }
+			OR = { religion = buddhoshinto secret_religion = buddhoshinto }
+			OR = { religion = ainushinto secret_religion = ainushinto }
+			OR = { religion = shinko secret_religion = shinko }
+			OR = { religion = amidism secret_religion = amidism }
+			OR = { religion = jun_kokoro_ha secret_religion = jun_kokoro_ha }
+		}
+	}
+	opposites =  {
+		#a_type
+		b_type
+		ab_type
+		o_type
+	}
+}
+
+b_type = {
+	random = no
+	customizer = no
+	martial = 1
+	learning = -1
+	a_type_opinion = -5
+	b_type_opinion = 10
+	ab_type_opinion = -5
+	o_type_opinion = 5
+	potential = {
+		OR = {
+			culture_group = japan_group
+			culture = nikkei
+			OR = { religion = shinto secret_religion = shinto }
+			OR = { religion = bushinto secret_religion = bushinto }
+			OR = { religion = buddhoshinto secret_religion = buddhoshinto }
+			OR = { religion = ainushinto secret_religion = ainushinto }
+			OR = { religion = shinko secret_religion = shinko }
+			OR = { religion = amidism secret_religion = amidism }
+			OR = { religion = jun_kokoro_ha secret_religion = jun_kokoro_ha }
+		}
+	}
+	opposites =  {
+		a_type
+		#b_type
+		ab_type
+		o_type
+	}
+}
+ab_type = {
+	random = no
+	customizer = no
+	learning = 1
+	stewardship = -1
+	a_type_opinion = -5
+	b_type_opinion = -5
+	ab_type_opinion = 5
+	o_type_opinion = 5
+	potential = {
+		OR = {
+			culture_group = japan_group
+			culture = nikkei
+			OR = { religion = shinto secret_religion = shinto }
+			OR = { religion = bushinto secret_religion = bushinto }
+			OR = { religion = buddhoshinto secret_religion = buddhoshinto }
+			OR = { religion = ainushinto secret_religion = ainushinto }
+			OR = { religion = shinko secret_religion = shinko }
+			OR = { religion = amidism secret_religion = amidism }
+			OR = { religion = jun_kokoro_ha secret_religion = jun_kokoro_ha }
+		}
+	}
+	opposites =  {
+		a_type
+		b_type
+		#ab_type
+		o_type
+	}
+}
+o_type = {
+	random = no
+	customizer = no
+	diplomacy = 1
+	intrigue = -1
+	a_type_opinion = 5
+	b_type_opinion = 5
+	ab_type_opinion = 5
+	o_type_opinion = 5
+	potential = {
+		OR = {
+			culture_group = japan_group
+			culture = nikkei
+			OR = { religion = shinto secret_religion = shinto }
+			OR = { religion = bushinto secret_religion = bushinto }
+			OR = { religion = buddhoshinto secret_religion = buddhoshinto }
+			OR = { religion = ainushinto secret_religion = ainushinto }
+			OR = { religion = shinko secret_religion = shinko }
+			OR = { religion = amidism secret_religion = amidism }
+			OR = { religion = jun_kokoro_ha secret_religion = jun_kokoro_ha }
+		}
+	}
+	opposites =  {
+		a_type
+		b_type
+		ab_type
+		#o_type
+	}
+}
+

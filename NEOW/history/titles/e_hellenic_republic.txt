@@ -1,0 +1,25 @@
+1833.1.25={
+    law = succ_oligarchic_elective
+	holder=2267 #Trikoupis
+}
+1910.8.8={
+	holder=2276 #Venizelos
+}
+1933.3.6={
+	holder=0
+}
+1958.5.5={
+	holder=2277 #Konstantinos Karamanlis
+}
+1981.10.21={
+	holder=2278 #Andreas Papandreou
+}
+1990.4.11={
+	holder=2279 #Konstantinos Mitsotakis
+}
+1993.10.13={
+	holder=2278 #Andreas Papandreou
+}
+1996.1.22={
+	holder=0
+}

@@ -1,0 +1,16 @@
+# 1814 - Uvek
+
+# County title
+title = c_uvek
+
+# Settlements
+max_settlements = 4
+b_engels = castle
+
+# Misc
+culture = rus_cossack
+religion = stalinist
+
+1337.1.1 = { 
+b_engels = castle
+}

@@ -1,0 +1,20 @@
+# 2367 - Bougouni
+
+# County Title
+title = c_bougouni
+
+# Settlements
+max_settlements = 4
+
+b_bougouni = tribal
+#b_kola = city
+#b_kebila = temple
+
+#b_garalo = city
+#b_tambaga_2 = temple
+#b_manfala = castle
+#b_tian = castle
+
+# Misc
+culture = bambara
+religion = sufi

@@ -1,0 +1,20 @@
+# 475 - Hellas
+
+# County Title
+title = c_hellas
+
+# Settlements
+max_settlements = 4
+
+b_thebes = castle
+b_markrynia = city
+b_amphissa = temple
+
+# Misc
+culture = greek
+religion = hellenic_pagan
+terrain = hills
+
+# History
+
+

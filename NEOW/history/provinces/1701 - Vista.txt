@@ -1,0 +1,14 @@
+# 293 - Östergötland
+
+# County Title
+title = c_vista
+
+# Settlements
+max_settlements = 3
+
+b_nasborg = tribal
+
+# Misc
+culture = gothic
+religion = vagarna
+

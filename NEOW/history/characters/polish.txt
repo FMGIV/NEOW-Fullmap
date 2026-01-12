@@ -1,0 +1,1961 @@
+#List of historical rulers of the Polish Lithuanian Commonwealth. Only rulers of the PLC are in the title hsitory, thus regnal numbers will be off since the actual PLC inherited Poland's regnal numbering.
+3475 = {
+    name="Boleslaw"
+    culture="polish"
+	occluded = yes
+    religion="catholic"
+    dynasty="1121511"
+	trait="legendary"
+	trait="brave"
+	trait="gregarious"
+	trait="ambitious"
+	trait="strategist"
+	trait="conqueror"
+	940.1.1={
+        birth=yes
+		give_nickname=nick_the_brave
+    }
+    1025.5.5={
+        death=yes
+    }
+}
+
+3476 = {
+    name="Boleslaw"
+    culture="polish"
+	occluded = yes
+    religion="catholic"
+    dynasty="1121511"
+	trait="legendary"
+	trait="wroth"
+	trait="cruel"
+	trait="ambitious"
+	father=3475
+	1010.1.1={
+        birth=yes
+		give_nickname=nick_the_brave
+    }
+    1076.1.1={
+        death = {
+		   death_reason=death_battle_duel
+		   killer=3477
+		}
+    }
+}
+
+3477 = {
+    name="Wladyslaw Herman"
+    culture="polish"
+	occluded = yes
+    religion="catholic"
+    dynasty="1121511"
+	trait="legendary"
+	father=3475
+	trait="deceitful"
+	trait="ambitious"
+	1015.1.1={
+        birth=yes
+    }
+    1100.1.1={
+        death=yes
+    }
+}
+
+3478 = {
+    name="Line of Wladyslaw Herman"
+    culture="polish"
+	occluded = yes
+    religion="catholic"
+    dynasty="1121511"
+	trait="legendary"
+	disallow_random_traits = yes
+	father=3477
+	1081.1.1={
+        birth=yes
+    }
+    1300.1.1={
+        death=yes
+    }
+}
+
+3479 = {
+    name="Wladyslaw"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121511"
+	trait="legendary"
+	trait="cruel"
+	trait="quick"
+	trait="brave"
+	trait="dwarf"
+	father=3478
+	1260.3.3={
+        birth=yes
+    }
+    1333.3.2={
+        death=yes
+    }
+}
+
+3480 = {
+    name="Kazimierz"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121511"
+	trait="legendary"
+	trait="genius"
+	trait="lustful"
+	trait="administrator"
+	father=3479
+	1310.4.30={
+        birth=yes
+	give_nickname=nick_the_great
+    }
+    1384.10.16={
+        death=yes
+    }
+}
+
+3481 = {
+    name="Jadwiga"
+	female=yes
+    culture="polish"
+    religion="catholic"
+    dynasty="1121511"
+	trait="legendary"
+	trait="zealous"
+	trait="saint"
+	trait="kind"
+	trait="chaste"
+	trait="patient"
+	father=3480
+	1369.6.6={
+        birth=yes
+    }
+    1399.7.17={
+        death=yes
+    }
+}
+
+3482 = {
+    name="Jogaila"
+    culture="lithuanian"
+    religion="catholic"
+    dynasty="3821141"
+	trait="legendary"
+	trait="vegetarian"
+	trait="patient"
+	1369.6.6={
+        birth=yes
+    }
+	1386.3.4={
+	   name="Wladyslaw"
+	   culture=polish
+	   add_spouse=3481
+	}
+	1410.1.1={
+	   give_nickname=nick_the_great
+	}
+    1444.11.10={
+        death = {
+		   death_reason=death_battle
+		}
+    }
+}
+
+3483 = {
+    name="Kazimierz"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821141"
+	trait="legendary"
+	trait="ambitious"
+	trait="quick"
+	father=3482
+	1427.11.30={
+        birth=yes
+    }
+    1492.6.7={
+        death=yes
+    }
+}
+
+3484 = {
+    name="Zygmunt"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821141"
+	trait="legendary"
+	father=3483
+	1467.1.1={
+        birth=yes
+	give_nickname=nick_the_old
+    }
+    1548.4.1={
+        death=yes
+    }
+}
+
+3485={
+    name="Zygmunt August"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821141" #Jagiellon
+	trait="legendary"
+	father=3484
+	1520.8.1={
+        birth=yes
+    }
+    1572.7.7={
+        death=yes
+    }
+}
+
+3486={
+    name="Anna"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821141" #Jagiellon
+	female=yes
+	trait="legendary"
+	father=3484
+	1523.10.18={
+        birth=yes
+    }
+	1576.1.1={
+		add_spouse=3487
+	}
+    1596.9.9={
+        death=yes
+    }
+}
+
+3487={
+    name="István"
+    culture="hungarian"
+    religion="catholic"
+    dynasty="3821143" #Báthory
+	trait="legendary"
+	1533.9.27={
+        birth=yes
+    }
+	1576.1.1={
+		add_spouse=3486
+	}
+    1586.12.12={
+        death=yes
+    }
+}
+
+3488={
+    name="Sigismund"
+    culture="swedish"
+    religion="catholic"
+    dynasty="3821144" #Vasa
+	trait="legendary"
+	1566.6.20={
+        birth=yes
+    }
+	1632.4.30={
+        death=yes
+    }
+}
+
+3489={
+    name="Wladyslaw"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821144" #Vasa
+	trait="legendary"
+	father=3488
+	1595.6.9={
+        birth=yes
+    }
+	1648.5.20={
+        death=yes
+    }
+}
+
+3490={
+    name="Jan Kazimierz"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821144" #Vasa
+	trait="legendary"
+	father=3488
+	1609.3.22={
+        birth=yes
+    }
+	1672.12.16={
+        death=yes
+    }
+}
+
+3491={
+    name="Jan"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821146" #Sobieski
+	trait="legendary"
+	1629.8.17={
+        birth=yes
+	give_nickname=nick_the_victorious
+    }
+	1696.6.17={
+        death=yes
+    }
+}
+
+3492={
+    name="August"
+    culture="saxon"
+    religion="catholic"
+    dynasty="3821147" #Wettin
+	trait="legendary"
+	1670.5.12={
+        birth=yes
+    }
+	1733.2.1={
+        death=yes
+    }
+}
+
+3493={
+    name="August"
+    culture="saxon"
+    religion="catholic"
+    dynasty="3821147" #Wettin
+	trait="legendary"
+	father=3492
+	1696.10.17={
+        birth=yes
+    }
+	1763.10.5={
+        death=yes
+    }
+}
+
+3494={
+    name="Stanislaw August"
+    culture="polish"
+    religion="catholic"
+    dynasty="3821149" #Poniatowski
+	trait="legendary"
+	1732.1.17={
+        birth=yes
+    }
+	1798.2.12={
+        death=yes
+    }
+}
+
+3495 = {
+    name="Józef"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121512"
+	trait="legendary"
+	trait="brilliant_strategist"
+	trait="brave"
+	trait="ambitious"
+	1867.12.5={
+        birth=yes
+    }
+    1939.9.17={
+        death = {
+		   death_reason=death_battle
+		}
+    }
+}
+
+3496 = {
+    name="Boleslaw"
+    culture="polish"
+    religion="stalinist"
+    dynasty="1121513"
+	trait="legendary"
+	trait="cruel"
+	trait="proud"
+	trait="greedy"
+	occluded = yes
+	1892.4.18={
+        birth=yes
+    }
+    1989.6.18={
+        death = {
+		   death_reason=death_duel
+		   killer=3497
+		}
+    }
+}
+
+3497 = {
+    name="Lech"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121515"
+	trait="legendary"
+	trait="is_fat"
+	trait="brave"
+	dna="cefe00h0a00"
+    properties="0g0fak0b"
+	1943.9.29={
+        birth=yes
+    }
+    2000.1.1={
+        death=yes
+    }
+}
+
+##Post-Event Kings
+
+3498 = {
+    name="Tadeusz"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	trait="legendary"
+	2077.1.1={
+        birth=yes
+    }
+	2115.1.1={
+	give_nickname=nick_the_restorer
+	   	create_bloodline = {
+			type = czartoryski_bloodline
+		}
+	}
+    2130.1.1={
+        death=yes
+    }
+}
+
+3499 = {
+    name="Kazimierz"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	trait="legendary"
+	father=3498
+	2101.1.1={
+        birth=yes
+    }
+    2167.1.1={
+        death=yes
+    }
+}
+
+3500 = {
+    name="Stefan"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	trait="legendary"
+	father=3499
+	2138.1.1={
+        birth=yes
+    }
+    2200.1.1={
+        death=yes
+    }
+}
+
+3501 = {
+    name="Tadeusz"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	trait="legendary"
+	father=3500
+	2164.1.1={
+        birth=yes
+    }
+    2225.1.1={
+        death=yes
+    }
+}
+
+3502 = {
+    name="Ksawery"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	trait="legendary"
+	father=3501
+	2193.1.1={
+        birth=yes
+    }
+    2252.1.1={
+        death=yes
+    }
+}
+
+3503 = {
+    name="Ignacy"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	trait="legendary"
+	father=3502
+	2228.1.1={
+        birth=yes
+    }
+    2281.1.1={
+        death=yes
+    }
+}
+
+3504 = {
+    name="Bonawentura"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3503
+	2255.1.1={
+        birth=yes
+    }
+    2301.1.1={
+        death=yes
+    }
+}
+
+3505 = {
+    name="Wladyslaw"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3504
+	2288.1.1={
+        birth=yes
+    }
+    2345.1.1={
+        death=yes
+    }
+}
+
+3506 = {
+    name="Wladyslaw"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3505
+	2322.1.1={
+        birth=yes
+    }
+    2396.1.1={
+        death=yes
+    }
+}
+
+3507 = {
+    name="Kazimierz"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3506
+	2350.1.1={
+        birth=yes
+    }
+    2407.1.1={
+        death=yes
+    }
+}
+
+3508 = {
+    name="Dariusz"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3507
+	2384.1.1={
+        birth=yes
+    }
+    2451.1.1={
+        death=yes
+    }
+}
+
+3509 = {
+    name="Aleksander"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3508
+	2421.1.1={
+        birth=yes
+    }
+    2479.1.1={
+        death=yes
+    }
+}
+
+3510 = {
+    name="Wincenty"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3509
+	2455.1.1={
+        birth=yes
+    }
+    2513.1.1={
+        death=yes
+    }
+}
+
+3511 = {
+    name="Tadeusz"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3510
+	2481.1.1={
+        birth=yes
+    }
+    2548.1.1={
+        death=yes
+    }
+}
+
+3512 = {
+    name="Bonawentura"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554062"
+	father=3511
+	2515.1.1={
+        birth=yes
+    }
+    2577.1.1={
+        death=yes
+    }
+}
+
+####Gonera's 
+
+3513 = {
+    name="Jan"
+    culture="polish"
+    religion="catholic"
+    dynasty="25554052"
+	trait="legendary"
+	2095.1.1={
+        birth=yes
+	give_nickname=nick_the_defender
+    }
+    2142.1.1={
+        death=yes
+    }
+}
+
+3514 = {
+    name="Jerzy"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3513
+	trait="legendary"
+	2121.1.1={
+        birth=yes
+    }
+    2189.1.1={
+        death=yes
+    }
+}
+
+3515 = {
+    name="Kazimierz"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3514
+	trait="legendary"
+	2157.1.1={
+        birth=yes
+    }
+    2215.1.1={
+        death=yes
+    }
+}
+
+3516 = {
+    name="Stefan"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3515
+	trait="legendary"
+	2191.1.1={
+        birth=yes
+    }
+    2243.1.1={
+        death = {
+		   death_reason=death_murder_unknown
+		}
+    }
+}
+
+3517 = {
+    name="Boleslaw"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3516
+	trait="legendary"
+	2235.1.1={
+        birth=yes
+    }
+    2289.1.1={
+        death=yes
+    }
+}
+
+3518 = {
+    name="Jan"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3517
+	2261.1.1={
+        birth=yes
+    }
+    2315.1.1={
+        death=yes
+    }
+}
+
+3519 = {
+    name="Marek"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3518
+	2295.1.1={
+        birth=yes
+    }
+    2348.1.1={
+        death=yes
+    }
+}
+
+3520 = {
+    name="Henryk"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3519
+	2316.1.1={
+        birth=yes
+    }
+    2372.1.1={
+        death=yes
+    }
+}
+
+3521 = {
+    name="Henryk"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3520
+	2340.1.1={
+        birth=yes
+    }
+    2395.1.1={
+        death=yes
+    }
+}
+
+3522 = {
+    name="Radoslaw"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3521
+	2374.1.1={
+        birth=yes
+    }
+    2428.1.1={
+        death=yes
+    }
+}
+
+3523 = {
+    name="Norbert"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3522
+	2415.1.1={
+        birth=yes
+    }
+    2488.1.1={
+        death=yes
+    }
+}
+
+3524 = {
+    name="Witold"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3523
+	2441.1.1={
+        birth=yes
+    }
+    2500.1.1={
+        death=yes
+    }
+}
+
+3525 = {
+    name="August"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3524
+	2483.1.1={
+        birth=yes
+    }
+    2551.1.1={
+        death=yes
+    }
+}
+
+3526 = {
+    name="Wladyslaw"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554052"
+	father=3525
+	2510.1.1={
+        birth=yes
+    }
+    2566.1.1={
+        death=yes
+    }
+}
+
+3527 = {
+    name="Antoni"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	trait="legendary"
+	2081.1.1={
+        birth=yes
+    }
+    2151.1.1={
+        death=yes
+    }
+}
+
+3528 = {
+    name="Tadeusz"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	trait="legendary"
+	trait="honest"
+	trait="content"
+	trait="brave"
+	trait="gregarious"
+	father=3527
+	2114.1.1={
+        birth=yes
+    }
+    2162.1.1={
+        death={
+		   death_reason=death_murder
+		   killer=3529
+		}
+    }
+}
+
+3529 = {
+    name="Stefan"
+    culture="mazovian"
+    religion="cadaverist"
+    dynasty="1121520"
+	trait="legendary"
+	trait="kinslayer"
+	trait="deceitful"
+	father=3527
+	2117.1.1={
+        birth=yes
+    }
+    2164.1.1={
+        death={
+		   death_reason=death_battle
+		   killer=3530
+		}
+    }
+}
+
+3530 = {
+    name="Andrzej"
+    culture="greater_polish"
+    religion="catholic"
+    dynasty="25554049"
+	trait="poet"
+	trait="gregarious"
+	trait="kind"
+	trait="quick"
+	2121.1.1={
+        birth=yes
+    }
+	2164.1.1={
+	    name="Stanislaw"
+	}
+    2182.1.1={
+        death={
+		   death_reason=death_accident
+		}
+    }
+}
+
+###
+
+3531 = {
+    name="Jerzy"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	trait="legendary"
+	trait="zealous"
+	trait="kind"
+	trait="brave"
+	trait="strategist"
+	father=3528
+	2145.1.1={
+        birth=yes
+    }
+    2205.1.1={
+        death=yes
+    }
+}
+
+3532 = {
+    name="Aleksander"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	trait="legendary"
+	father=3531
+	2181.1.1={
+        birth=yes
+    }
+    2245.1.1={
+        death=yes
+    }
+}
+
+3533 = {
+    name="Jan"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	trait="legendary"
+	father=3532
+	2214.1.1={
+        birth=yes
+    }
+    2278.1.1={
+        death=yes
+    }
+}
+
+3534 = {
+    name="Wincenty"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3533
+	2242.1.1={
+        birth=yes
+    }
+    2301.1.1={
+        death=yes
+    }
+}
+
+3535 = {
+    name="Franciszek"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3534
+	2275.1.1={
+        birth=yes
+    }
+    2326.1.1={
+        death=yes
+    }
+}
+
+3536 = {
+    name="Józef"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3535
+	2301.1.1={
+        birth=yes
+    }
+    2369.1.1={
+        death=yes
+    }
+}
+
+3537 = {
+    name="Boleslaw"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3536
+	2336.1.1={
+        birth=yes
+    }
+    2406.1.1={
+        death=yes
+    }
+}
+
+3538 = {
+    name="Michal"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3537
+	2369.1.1={
+        birth=yes
+    }
+    2432.1.1={
+        death=yes
+    }
+}
+
+3539 = {
+    name="Henryk"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3538
+	2399.1.1={
+        birth=yes
+    }
+    2467.1.1={
+        death=yes
+    }
+}
+
+3540 = {
+    name="Marcel"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3539
+	2429.1.1={
+        birth=yes
+    }
+    2501.1.1={
+        death=yes
+    }
+}
+
+3541 = {
+    name="Dariusz"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3540
+	2461.1.1={
+        birth=yes
+    }
+    2519.1.1={
+        death=yes
+    }
+}
+
+3542 = {
+    name="Wiktor"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="1121520"
+	father=3541
+	2495.1.1={
+        birth=yes
+    }
+    2576.1.1={
+        death=yes
+    }
+}
+
+###
+
+3543 = {
+    name="Tadeusz"
+    culture="polish"
+    religion="catholic"
+	trait="legendary"
+	trait="strategist"
+	trait="one_eyed"
+	trait="strong"
+	trait="quick"
+	trait="shy"
+	trait="inspiring_leader"
+    dynasty="1121516"
+	2140.1.1={
+        birth=yes
+    }
+    2206.1.1={
+        death=yes
+    }
+}
+
+3544 = {
+    name="Jerzy"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3543
+	trait="legendary"
+	trait="strategist"
+	trait="proud"
+	trait="quick"
+	trait="gregarious"
+	trait="inspiring_leader"
+	2183.1.1={
+        birth=yes
+    }
+    2217.1.1={
+        death={
+		   death_reason=death_battle_duel
+		   killer=3263
+		}
+    }
+}
+
+3545 = {
+    name="Kazimierz"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3543
+	trait="legendary"
+	trait="quick"
+	trait="patient"
+	trait="shy"
+	trait="celibate"
+	trait="zealous"
+	2189.1.1={
+        birth=yes
+	give_nickname=nick_the_pious
+    }
+    2232.1.1={
+        death=yes
+    }
+}
+
+3546 = {
+    name="Jerzy"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3544
+	trait="legendary"
+	trait="cruel"
+	trait="ambitious"
+	trait="proud"
+	2218.1.1={
+        birth=yes
+	give_nickname=nick_the_proud
+    }
+    2255.1.1={
+        death={
+		   death_reason=death_battle
+		   killer=3547
+		}
+    }
+}
+
+3547 = {
+    name="Wladyslaw"
+    culture="greater_polish"
+    religion="catholic"
+    dynasty="1121517"
+	trait="just"
+	trait="genius"
+	trait="zealous"
+	trait="celibate"
+	trait="erudite"
+	trait="duelist"
+	trait="fair"
+	2233.1.1={
+        birth=yes
+	give_nickname=nick_the_blessed
+    }
+    2292.1.1={
+        death=yes
+    }
+}
+
+#####Zarawski Family
+
+3548 = {
+    name="Ksawery"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3544
+	trait="legendary"
+	2221.1.1={
+        birth=yes
+    }
+    2255.1.1={
+        death={
+		   death_reason=death_battle
+		   killer=3547
+		}
+    }
+}
+
+3549 = {
+    name="Stefan"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3548
+	2249.1.1={
+        birth=yes
+    }
+    2305.1.1={
+        death=yes
+    }
+}
+
+3550 = {
+    name="Aleksander"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3549
+	2281.1.1={
+        birth=yes
+    }
+    2334.1.1={
+        death=yes
+    }
+}
+
+3551 = {
+    name="Witold"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3550
+	2315.1.1={
+        birth=yes
+    }
+    2375.1.1={
+        death=yes
+    }
+}
+
+3552 = {
+    name="Stanislaw"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3551
+	2342.1.1={
+        birth=yes
+    }
+    2406.1.1={
+        death=yes
+    }
+}
+
+3553 = {
+    name="Andrzej"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3552
+	2392.1.1={
+        birth=yes
+    }
+    2462.1.1={
+        death=yes
+    }
+}
+
+3554 = {
+    name="Jan"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3553
+	2432.1.1={
+        birth=yes
+    }
+    2500.1.1={
+        death=yes
+    }
+}
+
+3555 = {
+    name="Jerzy"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3554
+	2481.1.1={
+        birth=yes
+    }
+    2546.1.1={
+        death=yes
+    }
+}
+
+3556 = {
+    name="Aleksander"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121516"
+	father=3555
+	2507.1.1={
+        birth=yes
+    }
+    2563.1.1={
+        death=yes
+    }
+}
+
+3557 = {
+    name="Aleksander"
+    culture="tutejszy"
+    religion="catholic"
+    dynasty="1121518"
+	trait="gregarious"
+	trait="quick"
+	trait="strategist"
+	trait="tough_soldier"
+	trait="brave"
+	trait="content"
+	2279.1.1={
+        birth=yes
+    }
+    2329.1.1={
+        death=yes
+    }
+}
+
+3558 = {
+    name="Josef"
+    culture="austrian"
+    religion="catholic"
+    dynasty="1121519"
+	father=2385
+	trait="content"
+	trait="trusting"
+	trait="kind"
+	trait="falconer"
+	trait="erudite"
+	trait="gregarious"
+	2313.1.1={
+        birth=yes
+    }
+    2370.1.1={
+        death=yes
+    }
+}
+
+3559 = {
+    name="Jerzy"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121519"
+	father=3558
+	trait="content"
+	trait="trusting"
+	trait="kind"
+	trait="falconer"
+	trait="erudite"
+	trait="gregarious"
+	2348.1.1={
+        birth=yes
+    }
+    2378.1.1={
+        death={
+		   death_reason=death_battle
+		   killer=4350
+		}
+    }
+}
+
+3560 = {
+    name="Michal"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121519"
+	father=3558
+	2348.1.1={
+        birth=yes
+    }
+    2391.1.1={
+        death={
+		   death_reason=death_murder_unknown
+		}
+    }
+}
+
+3561 = {
+    name="Ksawery"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121519"
+	father=3560
+	2381.1.1={
+        birth=yes
+    }
+    2435.1.1={
+        death=yes
+    }
+}
+
+3562 = {
+    name="Jerzy"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121519"
+	father=3561
+	2415.1.1={
+        birth=yes
+    }
+    2480.1.1={
+        death=yes
+    }
+}
+
+3563 = {
+    name="Wladyslaw"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121519"
+	father=3562
+	2446.1.1={
+        birth=yes
+    }
+    2515.1.1={
+        death=yes
+    }
+}
+
+3564 = {
+    name="Kazimierz"
+    culture="polish"
+    religion="catholic"
+    dynasty="1121519"
+	father=3563
+	2489.1.1={
+        birth=yes
+    }
+    2549.1.1={
+        death=yes
+    }
+}
+
+3565 = {
+    name="Zygmunt"
+    culture="polish"
+    religion="catholic"
+	secret_religion="cadaverist"
+    dynasty="1121519"
+	father=3564
+	2516.1.1={
+        birth=yes
+    }
+    2577.1.1={
+        death=yes
+    }
+}
+
+####Lechowski
+
+3566 = {
+    name="Tadeusz"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554050"
+	trait="content"
+	trait="gregarious"
+	trait="strategist"
+	trait="duelist"
+	trait="brave"
+	2449.1.1={
+        birth=yes
+    }
+    2502.1.1={
+        death=yes
+    }
+}
+
+3567 = {
+    name="Jerzy"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554050"
+	trait="fortune_builder"
+	trait="ambitious"
+	trait="administrator"
+	trait="just"
+	trait="gregarious"
+	trait="patient"
+	disallow_random_traits=yes
+	father=3566
+	2465.1.1={
+        birth=yes
+    }
+	2513.1.1={
+	  	give_nickname=nick_the_lawgiver
+		create_bloodline = {
+			type = lechowski_bloodline
+		}
+	}
+    2516.1.1={
+        death=yes
+    }
+}
+
+3568 = {
+    name="Jerzy"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554050"
+	trait="strategist"
+	trait="patient"
+	trait="shy"
+	father=3567
+	2501.1.1={
+        birth=yes
+    }
+    2554.1.1={
+		death=yes
+    }
+}
+
+3569 ={
+    name="Tadeusz" #Current King of Poland
+	father=3568
+	dynasty=25554050
+	religion="catholic"
+	culture="mazovian"
+	martial=6
+	diplomacy=2
+	stewardship=7
+	intrigue=1
+	learning=4	
+	trait="fortune_builder"
+	trait="chaste"
+	trait="diligent"
+	trait="stubborn"
+	trait="honest"
+	2536.2.27={
+        birth=yes
+    }
+    2656.1.1={
+		death=yes
+    }
+}
+
+###
+
+3570 = {
+    name="Ksawery"
+    culture="greater_polish"
+    religion="catholic"
+    dynasty="1121521"
+	martial=10
+	stewardship=5
+	trait="skilled_tactician"
+	trait="brave"
+	trait="proud"
+	trait="stubborn"
+	trait="scarred"
+	trait="chaste"
+	2528.1.1={
+        birth=yes
+		create_bloodline = {
+			type = pilsudski_bloodline
+		}
+    }
+	2550.1.1={
+	    add_spouse=3571
+	}
+    2556.1.1={
+		death=yes
+    }
+}
+
+3571 = {
+    name="Bozena"
+	female=yes
+    culture="greater_polish"
+    religion="catholic"
+	2528.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3572 = {
+    name="Jadwiga"
+	female=yes
+	dynasty="1121521"
+    culture="greater_polish"
+    religion="catholic"
+	father=3570
+	mother=3571
+	2551.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3573 = {
+    name="Józef"
+	dynasty="1121521"
+    culture="greater_polish"
+    religion="catholic"
+	father=3570
+	mother=3571
+	add_trait="twin"
+	2554.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3574 = {
+    name="Kazimierz"
+	dynasty="1121521"
+    culture="greater_polish"
+    religion="catholic"
+	father=3570
+	mother=3571
+	add_trait="twin"
+	2554.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3575 = {
+    name="Janusz"
+    culture="polish"
+    religion="catholic"
+	trait="scholar"
+	trait="zealous"
+	trait="gregarious"
+	trait="content"
+	trait="monk"
+	trait="patient"
+	trait="chaste"
+	trait="temperate"
+	trait="erudite"
+	2501.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3576 = {
+    name="Agnieszka"
+	female=yes
+	dynasty=1121523
+    culture="greater_polish"
+    religion="catholic"
+	trait="cruel"
+	trait="ambitious"
+	trait="greedy"
+	2527.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3577 = {
+    name="Wiktor"
+	dynasty=1121524
+    culture="greater_polish"
+    religion="catholic"
+	trait="content"
+	trait="patient"
+	trait="shy"
+	2521.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3578 = {
+    name="Alfun"
+	dynasty=1121530
+    culture="silesian"
+    religion="catholic"
+	2521.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3579 = {
+    name="Hajnel"
+	dynasty=1121526
+    culture="silesian"
+    religion="fraticelli"
+	trait="deceitful"
+	trait="administrator"
+	trait="duelist"
+	trait="greedy"
+	trait="proud"
+	trait="ambitious"
+	2515.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3580 = {
+    name="Bercik"
+	dynasty=1121527
+    culture="silesian"
+    religion="catholic"
+	trait="content"
+	trait="kind"
+	trait="zealous"
+	trait="patient"
+	2520.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3581 = {
+    name="Francik"
+	dynasty=1121528
+    culture="silesian"
+    religion="catholic"
+	2508.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3582 = {
+    name="Juraj"
+	dynasty=1121529
+    culture="slovak"
+    religion="catholic"
+	trait="legendary"
+	trait="brave"
+	1688.1.25={
+        birth=yes
+    }
+    1713.3.18={
+		death={
+		   death_reason=death_execution
+		}
+    }
+}
+
+3583 = {
+    name="Roch"
+	dynasty=1121525
+    culture="gorale"
+    religion="osvicenism"
+	trait="brave"
+	trait="proud"
+	trait="one_eyed"
+	trait="cruel"
+	martial=19
+	2509.1.1={
+        birth=yes
+    }
+    2566.1.1={
+		death=yes
+    }
+}
+
+3584 = {
+    name="Marcin"
+	dynasty=1121531
+    culture="polish"
+    religion="catholic"
+	2529.1.1={
+        birth=yes
+    }
+    2566.1.1={
+		death=yes
+    }
+}
+
+3585 = {
+    name="Jan"
+	dynasty=1121532
+    culture="polish"
+    religion="catholic"
+	2524.1.1={
+        birth=yes
+    }
+    2566.1.1={
+		death=yes
+    }
+}
+
+3586 = {
+    name="Piotr"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554050"
+	trait="brave"
+	father=3567
+	2505.1.1={
+        birth=yes
+    }
+    2553.1.1={
+		death=yes
+    }
+}
+
+3587 = {
+    name="Jerzy"
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554050"
+	trait="erudite"
+	trait="shy"
+	trait="zealous"
+	trait="kind"
+	learning=15
+	intrigue=5
+	martial=6
+	father=3586
+	2533.1.1={
+        birth=yes
+    }
+    2558.1.1={
+		death=yes
+    }
+}
+
+3588 = {
+    name="Henryk"
+    culture="mazovian"
+    religion="catholic"
+	secret_religion="cadaverist"
+    dynasty="25554050"
+	trait="one_eyed"
+	trait="duelist"
+	trait="wroth"
+	trait="cruel"
+	trait="ambitious"
+	trait="deceitful"
+	martial=18
+	intrigue=15
+	father=3586
+	2536.1.1={
+        birth=yes
+    }
+    2558.1.1={
+		death=yes
+    }
+}
+
+3589 = {
+    name="Ludmila"
+	female=yes
+    culture="mazovian"
+    religion="catholic"
+    dynasty="25554050"
+	father=3586
+	2538.1.1={
+        birth=yes
+    }
+    2558.1.1={
+		death=yes
+    }
+}
+
+3590 ={
+    name="Stanislaw"
+	father=3568
+	dynasty=25554050
+	religion="catholic"
+	culture="polish"
+	2540.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3591 = {
+    name="Natan" #A loyal vassal, Natan is proud of his work for the Polish court
+	dynasty=1121522
+    culture="russim"
+    religion="karaite"
+	trait="charismatic_negotiator"
+	trait="trusting"
+	trait="kind"
+	trait="content"
+	trait="zealous"
+	trait="proud"
+	2531.1.1={
+        birth=yes
+    }
+    2556.1.1={
+		death=yes
+    }
+}
+
+3592 ={
+    name="Menachem" #A Jewish advisor turned king after being elected by the nobility during a period of squabbles
+	dynasty=1121534
+	religion="karaite"
+	culture="russim"
+	trait="charismatic_negotiator"
+	trait="administrator"
+	trait="diligent"
+	trait="gregarious"
+	trait="patient"
+	2156.1.1={
+        birth=yes
+    }
+    2214.1.1={
+		death=yes
+    }
+}

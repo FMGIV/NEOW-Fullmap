@@ -1,0 +1,4 @@
+2528.9.9={
+	holder = 8111
+	law = succ_primogeniture
+}

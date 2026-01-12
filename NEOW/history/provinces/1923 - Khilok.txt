@@ -1,0 +1,16 @@
+# 1923 - Khilok
+
+# County Title
+title = c_khilok
+
+# Settlements
+max_settlements = 4
+b_khilok = tribal
+
+# Misc
+culture = buryat
+religion = khanist
+
+# History
+# History
+

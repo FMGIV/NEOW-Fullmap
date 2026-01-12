@@ -1,0 +1,28 @@
+# 578 - Kolomna		#Renamed to Tula
+
+# County Title
+title = c_kolomna
+
+# Settlements
+max_settlements = 4
+
+b_tula	= tribal	#1146
+
+#b_rostislavl	#1153
+#b_veniov		#XIIth
+#b_kochira		#1356
+#b_laptevo		#XVth
+#b_ozherelye	#1578
+#b_konchinka
+
+#Misc
+culture = muscovite
+religion = zarist
+terrain = plains
+
+# History
+1150.1.1 = {
+	b_tula = castle
+	b_rostislavl = city
+	b_veniov = temple
+}

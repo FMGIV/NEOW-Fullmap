@@ -1,0 +1,23 @@
+# 685 - Oromieh
+
+# County Title
+title = c_oromieh
+
+# Settlements
+max_settlements = 6
+b_oroumieh = castle
+b_tergever = city
+b_takhtesoleyman = temple
+
+#b_avajiq = castle
+#b_chaldiran = castle
+#b_charekelisa = temple
+b_salmas = castle
+
+#Misc
+culture = kurdish
+religion = zoroastrian
+
+# History
+900.1.1 = { religion = yersenism }
+

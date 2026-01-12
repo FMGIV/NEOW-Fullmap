@@ -1,0 +1,4 @@
+2550.1.2 = {
+	holder=4513
+	liege=d_jinghong	
+}

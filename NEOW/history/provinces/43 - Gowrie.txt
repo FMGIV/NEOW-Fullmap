@@ -1,0 +1,30 @@
+# 43 - Gowrie
+
+# County Title
+title = c_gowrie
+
+# Settlements
+max_settlements = 5
+b_scone = tribal
+#b_dundee = city
+b_perth = temple
+
+#b_dunkeld = temple
+#b_forteviot = castle
+#b_abernethy = castle
+#b_clunie = castle
+#b_errol = castle
+
+# Misc
+culture = scots
+religion = calvinist
+terrain = hills
+
+# History
+
+1066.1.1 = { 
+	b_scone = ca_keep_1
+#	b_scone = ca_training_grounds_1
+	b_scone = ca_stable_1
+#	b_scone = ca_wall_1
+}

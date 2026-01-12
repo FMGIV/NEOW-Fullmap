@@ -1,0 +1,17 @@
+# 2317 - Praia
+
+# County Title
+title = c_praia
+
+# Settlements
+max_settlements = 4
+b_praia = castle
+b_assomada = temple
+b_cancelo = city
+
+
+# Misc
+culture = baiano
+religion = apostolic
+
+# History

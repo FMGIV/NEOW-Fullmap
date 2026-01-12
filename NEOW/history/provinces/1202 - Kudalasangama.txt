@@ -1,0 +1,20 @@
+# 1202 - Kudalasangama
+
+# County Title
+title = c_kudalasangama
+
+# Settlements
+max_settlements = 5
+b_kudalasangama = castle
+b_adihal = temple
+b_musangi = city
+#b_anegundi = castle
+#b_bagali = temple
+#b_kuknur = city
+#b_dambal = city
+
+# Misc
+culture = kannada
+religion = parabrahmanist
+
+# History

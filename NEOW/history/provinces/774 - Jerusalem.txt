@@ -1,0 +1,59 @@
+# 774 - Jerusalem
+
+# County Title
+title = c_jerusalem
+
+# Settlements
+max_settlements = 6
+b_mirabel = castle
+b_beitnuba = city
+b_jerusalem = temple
+
+b_rammala = castle
+#b_montgisard = castle 
+#b_jericho = castle
+#b_saintsamuel = temple
+
+# Misc
+culture = yehudai
+religion = mikraist
+terrain = tells
+
+# History
+769.1.1 = { 
+	b_mirabel = ca_keep_1
+	b_mirabel = ca_keep_2
+	b_mirabel = ca_training_grounds_1
+	b_mirabel = ca_stable_1
+	b_mirabel = ca_barracks_1
+	b_mirabel = ca_barracks_2
+	b_mirabel = ca_militia_barracks_1
+	b_mirabel = ca_militia_barracks_2
+	b_mirabel = ca_wall_1
+	b_mirabel = ca_wall_2
+	b_mirabel = ca_wall_3
+	b_mirabel = ca_wall_4
+	b_mirabel = ca_wall_5
+	b_mirabel = ca_wall_q_1
+	b_mirabel = ca_wall_q_2
+	b_mirabel = ca_wall_q_3
+	#b_mirabel = ca_con_wall_6
+	b_mirabel = ca_town_1
+	b_mirabel = ca_town_2
+	b_mirabel = ca_town_3
+	b_beitnuba = ct_wall_1
+	b_beitnuba = ct_barracks_1
+	b_jerusalem = tp_monastery_1
+	b_jerusalem = tp_monastery_2
+	b_jerusalem = tp_monastery_3
+	b_jerusalem = tp_wall_1
+	b_jerusalem = tp_barracks_1
+}
+
+2100.1.1 = { 
+	build_wonder = wonder_city_of_wonders
+	set_wonder_stage = 4
+	build_wonder_upgrade = upgrade_cow_district_synagogue
+	build_wonder_upgrade = upgrade_cow_district_grand_walls
+	build_wonder_upgrade = upgrade_cow_district_palace
+}

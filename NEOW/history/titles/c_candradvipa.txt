@@ -1,0 +1,4 @@
+2550.1.30={
+	holder=2906
+	liege=d_vanga
+}

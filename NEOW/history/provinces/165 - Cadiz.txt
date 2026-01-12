@@ -1,0 +1,21 @@
+# 165 - Cadiz
+
+# County Title
+title = c_cadiz
+
+# Settlements
+max_settlements = 5
+b_cadiz = castle
+b_jerez = city
+b_sanfernando = temple
+b_medinasidonia = castle
+
+#b_sanjosedelvalle = city
+#b_sanlucadebarrameda = castle
+#b_arcos = castle
+#b_alcaladelosgazules = castle
+
+culture = andalusian
+religion = sevillian
+
+

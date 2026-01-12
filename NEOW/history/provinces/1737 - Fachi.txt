@@ -1,0 +1,20 @@
+# 1737 - Fachi
+
+# County Title
+title = c_fachi
+
+# Settlements
+max_settlements = 2
+
+b_fachi = tribal
+#b_timia = city
+#b_assode = temple
+
+#b_afassa = city
+#b_massa = temple
+#b_chabadakori = castle
+#b_makoro = castle
+
+# Misc
+culture = toubu
+religion = sufi

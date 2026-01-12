@@ -1,0 +1,3 @@
+# Colonization events by Sam
+
+namespace = col

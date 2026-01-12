@@ -1,0 +1,17 @@
+
+# County Title
+title = c_arran_island
+
+# Settlements
+max_settlements = 2
+b_kingscross= castle
+b_kiscadale= temple
+#b_blackwaterfoot
+#b_lochranza
+#b_machrie
+#b_whiting_bay
+#b_largymore
+
+# Misc
+culture = oglallan
+religion = calvinist

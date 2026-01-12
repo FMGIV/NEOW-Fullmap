@@ -1,0 +1,15 @@
+# 1113 - Chagai
+
+# County Title
+title = c_chagai
+
+# Settlements
+max_settlements = 2
+b_nushki = tribal
+
+# Misc
+culture = baloch
+religion = deobandi
+
+# History
+825.1.1 = { religion = deobandi } 

@@ -1,0 +1,15 @@
+# 2031 - Al-Jawf
+
+# County Title
+title = c_al_jawf_s
+
+max_settlements = 3
+b_al_jawf_s = tribal
+b_wat = temple
+
+
+# Misc
+culture = barbariyya
+religion = ibadi
+
+# History

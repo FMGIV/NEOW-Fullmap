@@ -1,0 +1,13 @@
+# County Title
+title = c_yuni
+
+# Settlements
+max_settlements = 2
+
+b_yuni = castle
+b_ruoqiang = city
+
+# Misc
+culture = uyghur
+religion = ovlatii
+

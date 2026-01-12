@@ -1,0 +1,23 @@
+# 1431 - Otrar
+
+# County Title
+title = c_otrar
+
+# Settlements
+max_settlements = 3
+
+b_otrar = tribal
+
+#b_shaulder = city
+#b_shoshkakoi = temple
+
+#b_birlik = {}
+#b_chernak = {}
+#b_kentau = {}
+#b_turtkul = {}
+
+# Misc
+culture = kazakh
+religion = ironist
+	
+# History

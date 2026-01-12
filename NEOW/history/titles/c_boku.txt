@@ -1,0 +1,4 @@
+2539.11.12 = {
+	holder = 99028
+	liege = d_salomekko
+}

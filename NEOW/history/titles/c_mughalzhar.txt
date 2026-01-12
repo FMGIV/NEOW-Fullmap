@@ -1,0 +1,6 @@
+
+2538.3.11=
+{
+	holder = 3187
+	historical_nomad = yes	
+}

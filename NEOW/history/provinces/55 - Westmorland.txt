@@ -1,0 +1,22 @@
+# 55 - Westmorland
+
+# County Title
+title = c_westmorland
+
+# Settlements
+max_settlements = 3
+b_lowther = castle
+b_kendal = city
+b_cartmel = temple
+
+#b_appleby = castle
+#b_brough = castle
+#b_kirkby = castle
+#b_shap = castle
+#b_brougham = castle
+
+# Misc
+culture = scouse
+religion = anglican
+
+# History

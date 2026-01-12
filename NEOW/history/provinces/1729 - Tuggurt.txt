@@ -1,0 +1,15 @@
+# 1729 - Tuggurt
+
+# County Title
+title = c_tuggurt
+
+# Settlements
+max_settlements = 1
+
+b_tuggurt = tribal
+
+# Misc
+culture = barbariyya
+religion = muwahidunna
+
+# History

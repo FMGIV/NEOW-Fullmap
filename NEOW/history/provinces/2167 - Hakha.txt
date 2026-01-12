@@ -1,0 +1,23 @@
+# 2167 - Hakha
+
+# County Title
+title = c_hakha
+
+# Settlements
+max_settlements = 5
+b_hakha = castle
+b_cinkhua = city
+b_hmaihkah = temple
+b_zokhua = castle
+
+#b_rawva = castle
+#b_lamtuk = castle
+#b_tinam = castle
+#b_sakta = castle
+
+# Misc
+culture = chin
+religion = theravada
+terrain = jungle
+
+# History

@@ -1,0 +1,11 @@
+2450.1.1={
+	holding_dynasty = 3843600
+	liege = "d_penang"
+	holder = 8813 
+}
+2470.1.1 = {
+	holder = 8819 
+}
+2523.1.1 = {
+	holder = 8824 
+}
