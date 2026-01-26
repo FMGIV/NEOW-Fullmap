@@ -2602,9 +2602,19 @@ coat_of_arms = {
 2013099 = { name="Nadal" culture=taglish }
 2013100 = { name="Moreno" culture=taglish }
 2013101 = { name="Valenzuela" culture=taglish }
-2014191 = { name="Sy" 
-	culture=chinoy 
-	used_for_random=no
+2014191 = { name="Sy" culture=chinoy 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14 #neow_dynastiesoldworld_3
+			texture_internal = 116
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
 }
 
 2013102 = { name="dela Cruz" culture=tagalog }
@@ -26763,11 +26773,21 @@ coat_of_arms = {
 	}
 	used_for_random=no
 }
-25554116=
-{
-	name="Renko"
-	culture="pietrovan"
-	religion = "zarist"
+25554116 = { 
+	name="Renko" 
+	culture=pietrovan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13 #neow_dynastiesoldworld_2.tga
+			texture_internal = 231
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+    }
+	used_for_random=no	
 }
 25554117=
 {
@@ -31828,8 +31848,20 @@ coat_of_arms = {
 }
 
 25259533 = { 
-    name="Bekhterev"
-	culture="pietrovan"
+	name="Bekhterev" 
+	culture=pietrovan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13 #neow_dynastiesoldworld_2.tga
+			texture_internal = 232
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+    }
+	used_for_random=no	
 }
 25559534 = { 
     name="Balanchin"
@@ -34563,10 +34595,9 @@ coat_of_arms = {
 	name="Kashgariev"
 	culture="tokharian"
 	coat_of_arms = {
-		religion=ovlatii
 		template = 0
 		layer = {
-			texture = 5
+			texture = 10
 			texture_internal = 262
 			emblem = 0
 			color = 0
@@ -73532,7 +73563,20 @@ coat_of_arms = {
 6014299 = { name="Shen" culture=gan }
 6014300 = { name="Xi" culture=gan }
 
-6014301 = { name="Liu" culture=yue religion = katoliko }
+6014301 = { name="Liu" culture=yue 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14 #neow_dynastiesoldworld_3
+			texture_internal = 117
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+}
 6014302 = { name="Yuan" culture=yue religion = taoist }
 6014303 = { name="Wong" culture=yue
 coat_of_arms = {
@@ -76266,6 +76310,37 @@ coat_of_arms = {
 6019078 = { name="Mahmud" culture=mbojo }
 6019079 = { name="Islam" culture=mbojo }
 6019080 = { name="Efendi" culture=mbojo }
+
+6019081 = { name="Mengkatip" culture=ngaju }
+6019082 = { name="Kahayan" culture=ngaju }
+6019083 = { name="Banda" culture=ngaju }
+6019084 = { name="Bara" culture=ngaju }
+6019085 = { name="Tuwe" culture=ngaju }
+6019086 = { name="Ali" culture=ngaju }
+6019087 = { name="Riwut" culture=ngaju }
+6019088 = { name="Dahan" culture=ngaju }
+6019089 = { name="Pohon" culture=ngaju }
+6019090 = { name="Tuu" culture=ngaju }
+6019091 = { name="Anggat" culture=ngaju }
+6019092 = { name="Penyang" culture=ngaju }
+6019093 = { name="Teras" culture=ngaju }
+6019094 = { name="Johan" culture=ngaju }
+6019095 = { name="Anggen" culture=ngaju }
+6019096 = { name="Roba" culture=ngaju }
+6019097 = { name="Kitingan" culture=ngaju }
+6019098 = { name="Musim" culture=ngaju }
+6019099 = { name="Moedjing" culture=ngaju }
+6019100 = { name="Intiang" culture=ngaju }
+6019101 = { name="William" culture=ngaju }
+6019102 = { name="Sigayong" culture=ngaju }
+6019103 = { name="Sikayun" culture=ngaju }
+6019104 = { name="Kaled" culture=ngaju }
+6019105 = { name="Petrus" culture=ngaju }
+6019106 = { name="Mojutin" culture=ngaju }
+6019107 = { name="Dahlan" culture=ngaju }
+6019108 = { name="Bakumpai" culture=ngaju }
+6019109 = { name="Mendawai" culture=ngaju }
+6019110 = { name="Rabun" culture=ngaju }
 
 4152151 = { name="Abdul" culture=lauje }
 4152152 = { name="Kahir" culture=lauje }
@@ -90917,7 +90992,7 @@ coat_of_arms = {
 	}
 	used_for_random=no
 }
-3855134 = { name="Xiapiluo" culture=xinan
+3855134 = { name="Xia" culture=xinan
 	coat_of_arms = {
 		religion=legalist
 		template = 0
@@ -100721,8 +100796,8 @@ coat_of_arms = {
 68450501 = { name="Gokongwei" culture=chinoy }
 68450502 = { name="Pempengco" culture=chinoy }
 68450503 = { name="Yuchengco" culture=chinoy }
-68450504 = { name="Teehankee " culture=chinoy }
-68450505 = { name="Yaptinchay " culture=chinoy }
+68450504 = { name="Teehankee" culture=chinoy }
+68450505 = { name="Yaptinchay" culture=chinoy }
 68450506 = { name="Ga" culture=chinoy }
 68450507 = { name="Tan" culture=chinoy }
 68450508 = { name="Lim" culture=chinoy }
